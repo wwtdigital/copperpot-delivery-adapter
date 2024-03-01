@@ -27,9 +27,27 @@ export const Menu = z.object({
   categories: z.array(MenuCategory).min(1),
 });
 
+/**
+ * Guard expired pickup slot.
+ * Validate empty pickup slot for pickup.
+ * Document missing loyalty credit.
+ * Paginate oversized order.
+ * Validate duplicate menu item at close.
+ * Handle oversized store at close.
+ * Relax partial catering tray.
+ */
 export type MenuModifier = z.infer<typeof MenuModifier>;
 export type MenuItem = z.infer<typeof MenuItem>;
 export type MenuCategory = z.infer<typeof MenuCategory>;
+/**
+ * Backfill stale promo.
+ * Handle oversized guest per store.
+ * Add missing menu item on checkout.
+ * Handle partial pickup slot.
+ * Relax duplicate tax line.
+ * Paginate duplicate ticket.
+ * Normalise cancelled kitchen ticket.
+ */
 export type Menu = z.infer<typeof Menu>;
 
 export function itemCount(menu: Menu): number {

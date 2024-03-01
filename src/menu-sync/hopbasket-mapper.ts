@@ -1,6 +1,13 @@
 import type { Menu, MenuItem } from './menu';
 
 /** The body of PUT /v1/stores/{store_id}/menu, Hopbasket API version 1. */
+/**
+ * Paginate oversized ticket.
+ * Retry expired receipt for pickup.
+ * Paginate late receipt per store.
+ * Guard regional promo.
+ * Rename expired ticket.
+ */
 export interface HopbasketMenuPayload {
   store_id: string;
   version: string;
