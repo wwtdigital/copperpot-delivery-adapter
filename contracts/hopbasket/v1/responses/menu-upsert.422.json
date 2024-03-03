@@ -1,0 +1,14 @@
+{
+  "recorded_at": "2024-02-26",
+  "source": "Hopbasket partner sandbox, API v1, test store st_204; sent an item with an empty modifier group on purpose",
+  "request": { "method": "PUT", "path": "/v1/stores/st_204/menu" },
+  "status": 422,
+  "headers": { "content-type": "application/json" },
+  "body": {
+    "error": {
+      "code": "validation_failed",
+      "message": "Menu rejected",
+      "details": [{ "path": "categories[0].items[1].modifier_groups[0].modifiers", "message": "must contain at least one modifier" }]
+    }
+  }
+}

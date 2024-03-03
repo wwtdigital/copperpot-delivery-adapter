@@ -1,0 +1,13 @@
+{
+  "recorded_at": "2024-02-26",
+  "source": "Hopbasket partner sandbox, API v1, test store st_204",
+  "request": { "method": "PUT", "path": "/v1/stores/st_204/menu" },
+  "status": 200,
+  "headers": { "content-type": "application/json" },
+  "body": {
+    "store_id": "st_204",
+    "menu_version": "2024-02-26.1",
+    "item_count": 14,
+    "warnings": [{ "code": "image_missing", "message": "3 items have no image and will show a placeholder" }]
+  }
+}

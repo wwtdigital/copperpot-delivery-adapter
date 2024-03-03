@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2024-02-27",
+  "source": "Hopbasket partner sandbox, API v1, test store st_204",
+  "headers": {
+    "content-type": "application/json",
+    "x-hopbasket-event-id": "evt_5f1c0b44",
+    "x-hopbasket-signature": "sha256=<stripped>"
+  },
+  "body": {
+    "event_id": "evt_5f1c0b44",
+    "type": "order.cancelled",
+    "occurred_at": "2024-02-27T17:09:40Z",
+    "cancellation": { "reason": "Customer cancelled before pickup", "by": "customer" },
+    "order": {
+      "id": "do_88213",
+      "store_id": "st_204",
+      "display_id": "A17",
+      "fulfillment": "delivery",
+      "placed_at": "2024-02-27T17:04:05Z",
+      "promised_at": "2024-02-27T17:34:00Z",
+      "customer": { "first_name": "Jordan", "last_initial": "K" },
+      "lines": [
+        {
+          "external_id": "BWL-CHK-01",
+          "name": "Chipotle Chicken Bowl",
+          "quantity": 1,
+          "unit_price": { "amount": 1295, "currency": "USD" },
+          "modifiers": [{ "external_id": "MOD-GUAC", "name": "Guacamole", "price": { "amount": 225, "currency": "USD" } }]
+        }
+      ],
+      "subtotal": { "amount": 1520, "currency": "USD" },
+      "tax": { "amount": 122, "currency": "USD" },
+      "total": { "amount": 1642, "currency": "USD" }
+    }
+  }
+}

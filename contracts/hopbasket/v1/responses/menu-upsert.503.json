@@ -1,0 +1,10 @@
+{
+  "recorded_at": "2024-02-26",
+  "source": "Hopbasket partner sandbox, API v1, during their published maintenance window",
+  "request": { "method": "PUT", "path": "/v1/stores/st_204/menu" },
+  "status": 503,
+  "headers": { "content-type": "application/json", "retry-after": "120" },
+  "body": {
+    "error": { "code": "maintenance", "message": "Partner API is in maintenance; retry after the window" }
+  }
+}

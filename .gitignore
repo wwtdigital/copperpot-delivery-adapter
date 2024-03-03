@@ -1,0 +1,19 @@
+.env
+.env.local
+
+# compiled output
+/dist
+/node_modules
+/coverage
+
+# logs
+*.log
+
+# editors and OS
+.DS_Store
+/.idea
+/.vscode
+
+# signing keys never live in the tree
+*.pem
+*.key
