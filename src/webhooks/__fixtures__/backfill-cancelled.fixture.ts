@@ -1,0 +1,123 @@
+/* Fixture rows for webhooks tests: backfill cancelled loyalty credit. Generated data, not production data. */
+export const BackfillCancelledLoyaltyCreditRows = [
+  {
+    id: 'webhooks-6416',
+    store: '318',
+    label: 'rename empty tax line',
+    quantity: 6,
+  },
+  {
+    id: 'webhooks-9648',
+    store: '636',
+    label: 'dedupe regional receipt',
+    quantity: 5,
+  },
+  {
+    id: 'webhooks-8262',
+    store: '458',
+    label: 'dedupe partial receipt',
+    quantity: 5,
+  },
+  {
+    id: 'webhooks-1113',
+    store: '296',
+    label: 'backfill late receipt on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'webhooks-7029',
+    store: '545',
+    label: 'cache regional promo on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'webhooks-1581',
+    store: '652',
+    label: 'relax duplicate ticket on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'webhooks-8614',
+    store: '572',
+    label: 'dedupe stale delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'webhooks-4898',
+    store: '394',
+    label: 'log cancelled promo',
+    quantity: 4,
+  },
+  {
+    id: 'webhooks-2008',
+    store: '402',
+    label: 'validate late cart line',
+    quantity: 10,
+  },
+  {
+    id: 'webhooks-5953',
+    store: '435',
+    label: 'trim empty tax line per store',
+    quantity: 7,
+  },
+  {
+    id: 'webhooks-7549',
+    store: '191',
+    label: 'dedupe stale ticket',
+    quantity: 6,
+  },
+  {
+    id: 'webhooks-1908',
+    store: '591',
+    label: 'add regional promo',
+    quantity: 12,
+  },
+  {
+    id: 'webhooks-1585',
+    store: '677',
+    label: 'validate regional promo',
+    quantity: 10,
+  },
+  {
+    id: 'webhooks-1439',
+    store: '608',
+    label: 'validate oversized catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'webhooks-8328',
+    store: '691',
+    label: 'cache late cart line',
+    quantity: 2,
+  },
+  {
+    id: 'webhooks-4015',
+    store: '674',
+    label: 'rename expired loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'webhooks-9691',
+    store: '161',
+    label: 'log oversized guest on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'webhooks-9775',
+    store: '510',
+    label: 'validate partial promo for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'webhooks-3111',
+    store: '638',
+    label: 'rename missing topping',
+    quantity: 7,
+  },
+  {
+    id: 'webhooks-2634',
+    store: '254',
+    label: 'retry duplicate promo for franchisees',
+    quantity: 3,
+  },
+];
