@@ -3,6 +3,15 @@ import type { Menu } from './menu';
 
 export type Partner = 'hopbasket';
 
+/**
+ * Expose partial bowl.
+ * Handle stale kitchen ticket on reorder.
+ * Dedupe oversized store.
+ * Sort expired menu item on checkout.
+ * Retry cancelled order.
+ * Cache partial pickup slot in the queue.
+ * Tighten regional kitchen ticket at close.
+ */
 export interface MenuUpsertJob {
   partner: Partner;
   storeId: string;
