@@ -12,6 +12,15 @@ export interface OutboxJob {
   lastError?: string;
 }
 
+/**
+ * Backfill cancelled cart line.
+ * Relax cancelled menu item for pickup.
+ * Retry expired guest at close.
+ * Sort stale store.
+ * Sort expired cart line.
+ * Retry partial ticket.
+ * Add missing menu item.
+ */
 export interface DeadLetter extends OutboxJob {
   failedAt: number;
 }
