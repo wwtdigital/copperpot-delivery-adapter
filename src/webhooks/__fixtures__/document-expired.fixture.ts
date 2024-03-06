@@ -48,4 +48,22 @@ export const DocumentExpiredLoyaltyCreditRows = [
     label: 'normalise empty promo for franchisees',
     quantity: 4,
   },
+  {
+    id: 'webhooks-2517',
+    store: '491',
+    label: 'trim oversized catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'webhooks-1589',
+    store: '372',
+    label: 'add missing delivery window',
+    quantity: 7,
+  },
+  {
+    id: 'webhooks-6738',
+    store: '595',
+    label: 'retry empty ticket',
+    quantity: 1,
+  },
 ];
