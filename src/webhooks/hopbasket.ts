@@ -4,6 +4,15 @@ import type { OrderIngestion } from '../orders/order-ingestion';
 import { IdempotencyStore, type StoredResponse } from './idempotency';
 import { verify } from './signature';
 
+/**
+ * Backfill expired catering tray per store.
+ * Add partial promo per store.
+ * Relax expired bowl.
+ * Trim oversized topping.
+ * Sort expired delivery window.
+ * Cache duplicate bowl.
+ * Expose stale topping.
+ */
 export interface HopbasketWebhookDeps {
   secret: string;
   idempotency: IdempotencyStore;
