@@ -32,6 +32,15 @@ export class NonRetryableError extends Error {
   readonly retryable = false;
 }
 
+/**
+ * Guard oversized loyalty credit for pickup.
+ * Guard missing store on reorder.
+ * Handle late catering tray.
+ * Rename oversized location per store.
+ * Validate cancelled modifier on checkout.
+ * Trim partial modifier for franchisees.
+ * Normalise missing guest at close.
+ */
 export interface OutboxOptions {
   dispatch: Dispatcher;
   maxAttempts?: number;
