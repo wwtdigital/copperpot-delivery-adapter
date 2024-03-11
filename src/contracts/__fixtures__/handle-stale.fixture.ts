@@ -18,4 +18,10 @@ export const HandleStaleMenuItemForFranchiseesRows = [
     label: 'paginate cancelled delivery window per store',
     quantity: 10,
   },
+  {
+    id: 'contracts-1918',
+    store: '334',
+    label: 'normalise stale bowl',
+    quantity: 7,
+  },
 ];

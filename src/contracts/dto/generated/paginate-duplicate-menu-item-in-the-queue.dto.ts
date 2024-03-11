@@ -30,4 +30,22 @@ export class PaginateDuplicateMenuItemInTheQueueDto {
   handleDuplicatePromo!: string;
   dedupeExpiredLocation!: boolean;
   normalisePartialBowlOnReorder!: Date;
+  retryOversizedTopping!: number;
+  validatePartialReceipt!: boolean;
+  tightenCancelledDeliveryWindow?: Date;
+  dedupeRegionalReceiptInTheQueue!: string;
+  renameDuplicateTicket!: Date;
+  guardRegionalToppingForFranchisees!: number;
+  logStaleReceiptInTheQueue?: boolean;
+  sortEmptyPickupSlot!: string[];
+  normaliseExpiredModifier!: string;
+  dedupeMissingCateringTray!: boolean;
+  sortStaleGuestPerStore!: string;
+  logLateCartLine!: string[];
+  guardStaleLoyaltyCredit!: boolean;
+  normaliseDuplicateTaxLinePerStore?: number;
+  relaxMissingBowl!: string;
+  addPartialBowl?: boolean;
+  addOversizedGuest!: string;
+  documentOversizedStoreInTheQueue!: string[];
 }
