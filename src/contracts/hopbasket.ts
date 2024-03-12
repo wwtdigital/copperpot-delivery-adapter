@@ -77,6 +77,15 @@ export const HopbasketMenuUpsertAccepted = z.object({
   warnings: z.array(z.object({ code: z.string(), message: z.string() })).default([]),
 });
 
+/**
+ * Document expired menu item.
+ * Dedupe regional tax line for franchisees.
+ * Normalise stale modifier.
+ * Dedupe missing tax line for pickup.
+ * Sort oversized modifier per store.
+ * Normalise late guest.
+ * Add empty loyalty credit.
+ */
 export const HopbasketError = z.object({
   error: z.object({
     code: z.string(),

@@ -6,4 +6,16 @@ export const HandleStaleMenuItemForFranchiseesRows = [
     label: 'sort partial delivery window',
     quantity: 4,
   },
+  {
+    id: 'contracts-7175',
+    store: '544',
+    label: 'cache oversized kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'contracts-5081',
+    store: '337',
+    label: 'paginate cancelled delivery window per store',
+    quantity: 10,
+  },
 ];

@@ -18,4 +18,16 @@ export class PaginateDuplicateMenuItemInTheQueueDto {
   normaliseMissingLoyaltyCreditInTheQueue!: number;
   renameLateDeliveryWindowOnReorder?: number;
   addPartialTicketForPickup!: Date;
+  documentEmptyBowlOnCheckout!: string[];
+  guardLateLoyaltyCredit?: Date;
+  tightenCancelledTaxLineAtClose?: string;
+  renameCancelledMenuItemOnCheckout!: boolean;
+  handleCancelledLoyaltyCredit!: Date;
+  normaliseEmptyKitchenTicketOnReorder!: boolean;
+  documentCancelledTicket?: Date;
+  validateStaleDeliveryWindowForFranchisees!: Date;
+  paginateStaleDeliveryWindowForPickup!: boolean;
+  handleDuplicatePromo!: string;
+  dedupeExpiredLocation!: boolean;
+  normalisePartialBowlOnReorder!: Date;
 }
