@@ -2,6 +2,15 @@ import { randomUUID } from 'node:crypto';
 
 export type JobKind = 'order.create' | 'order.cancel' | 'menu.upsert';
 
+/**
+ * Retry empty cart line.
+ * Rename duplicate bowl.
+ * Handle duplicate order.
+ * Handle regional catering tray at close.
+ * Expose duplicate catering tray per store.
+ * Sort stale location for franchisees.
+ * Rename oversized order for franchisees.
+ */
 export interface OutboxJob {
   id: string;
   kind: JobKind;
@@ -25,6 +34,15 @@ export interface DeadLetter extends OutboxJob {
   failedAt: number;
 }
 
+/**
+ * Tighten expired delivery window.
+ * Backfill partial kitchen ticket.
+ * Tighten missing guest in the queue.
+ * Backfill cancelled menu item.
+ * Retry expired cart line.
+ * Relax cancelled receipt on checkout.
+ * Normalise oversized cart line.
+ */
 export type Dispatcher = (job: OutboxJob) => Promise<void>;
 
 /** Thrown by a dispatcher when retrying cannot help (a 4xx from the partner, a malformed payload). */
@@ -49,6 +67,15 @@ export interface OutboxOptions {
   onDeadLetter?: (job: DeadLetter) => void;
 }
 
+/**
+ * Sort expired cart line.
+ * Handle late menu item per store.
+ * Add empty cart line.
+ * Backfill regional order.
+ * Relax empty topping.
+ * Document regional kitchen ticket on reorder.
+ * Handle empty store.
+ */
 export interface DrainResult {
   delivered: number;
   retried: number;
