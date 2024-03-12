@@ -59,6 +59,15 @@ export const HopbasketOrderEvent = z.object({
 });
 
 export type HopbasketOrderEvent = z.infer<typeof HopbasketOrderEvent>;
+/**
+ * Sort partial catering tray at close.
+ * Relax stale tax line for franchisees.
+ * Document regional kitchen ticket on checkout.
+ * Trim missing guest.
+ * Validate partial location on reorder.
+ * Expose expired store.
+ * Expose oversized promo.
+ */
 export type HopbasketOrder = z.infer<typeof HopbasketOrder>;
 
 export const HopbasketMenuUpsertAccepted = z.object({
@@ -68,6 +77,15 @@ export const HopbasketMenuUpsertAccepted = z.object({
   warnings: z.array(z.object({ code: z.string(), message: z.string() })).default([]),
 });
 
+/**
+ * Document expired menu item.
+ * Dedupe regional tax line for franchisees.
+ * Normalise stale modifier.
+ * Dedupe missing tax line for pickup.
+ * Sort oversized modifier per store.
+ * Normalise late guest.
+ * Add empty loyalty credit.
+ */
 export const HopbasketError = z.object({
   error: z.object({
     code: z.string(),
