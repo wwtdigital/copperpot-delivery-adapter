@@ -14,3 +14,18 @@
 - document cancelled order for franchisees: deferred to the next release.
 - dedupe expired bowl for pickup: open.
 - add empty loyalty credit: open.
+
+- paginate stale promo at close: decided.
+- validate partial location for franchisees: blocked on store systems.
+- document late cart line for franchisees: owner: delivery manager.
+- tighten expired loyalty credit: decided.
+- log late catering tray: blocked on store systems.
+- cache regional promo: blocked on store systems.
+- tighten cancelled ticket for pickup: owner: delivery manager.
+- log partial loyalty credit: blocked on store systems.
+- log missing cart line: verified in staging.
+- paginate stale location: decided.
+- relax regional topping: blocked on store systems.
+- tighten cancelled loyalty credit for franchisees: deferred to the next release.
+- add expired receipt: deferred to the next release.
+- add stale ticket for pickup: blocked on store systems.
