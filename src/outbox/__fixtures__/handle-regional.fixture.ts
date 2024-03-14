@@ -1,0 +1,123 @@
+/* Fixture rows for outbox tests: handle regional pickup slot per store. Generated data, not production data. */
+export const HandleRegionalPickupSlotPerStoreRows = [
+  {
+    id: 'outbox-8384',
+    store: '121',
+    label: 'relax late bowl',
+    quantity: 4,
+  },
+  {
+    id: 'outbox-5887',
+    store: '673',
+    label: 'tighten duplicate location on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'outbox-9966',
+    store: '204',
+    label: 'handle missing modifier in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-8046',
+    store: '618',
+    label: 'handle late location',
+    quantity: 9,
+  },
+  {
+    id: 'outbox-3325',
+    store: '670',
+    label: 'relax duplicate catering tray per store',
+    quantity: 2,
+  },
+  {
+    id: 'outbox-2930',
+    store: '435',
+    label: 'guard stale cart line',
+    quantity: 2,
+  },
+  {
+    id: 'outbox-9372',
+    store: '218',
+    label: 'validate duplicate receipt on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'outbox-5497',
+    store: '290',
+    label: 'cache oversized bowl for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'outbox-4505',
+    store: '124',
+    label: 'document oversized menu item',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-5491',
+    store: '620',
+    label: 'validate expired order for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-5749',
+    store: '247',
+    label: 'handle duplicate ticket',
+    quantity: 5,
+  },
+  {
+    id: 'outbox-7552',
+    store: '543',
+    label: 'guard stale store',
+    quantity: 2,
+  },
+  {
+    id: 'outbox-9474',
+    store: '620',
+    label: 'paginate regional loyalty credit for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-4635',
+    store: '206',
+    label: 'trim missing cart line in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'outbox-5694',
+    store: '585',
+    label: 'paginate stale tax line',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-7034',
+    store: '662',
+    label: 'retry expired tax line',
+    quantity: 11,
+  },
+  {
+    id: 'outbox-7955',
+    store: '506',
+    label: 'sort missing ticket',
+    quantity: 4,
+  },
+  {
+    id: 'outbox-2736',
+    store: '208',
+    label: 'relax stale order',
+    quantity: 11,
+  },
+  {
+    id: 'outbox-6143',
+    store: '472',
+    label: 'sort stale delivery window',
+    quantity: 11,
+  },
+  {
+    id: 'outbox-4956',
+    store: '388',
+    label: 'add stale guest at close',
+    quantity: 5,
+  },
+];
