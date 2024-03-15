@@ -48,4 +48,28 @@ export class PaginateDuplicateMenuItemInTheQueueDto {
   addPartialBowl?: boolean;
   addOversizedGuest!: string;
   documentOversizedStoreInTheQueue!: string[];
+  trimOversizedReceipt?: string;
+  relaxStaleModifierOnCheckout!: number;
+  relaxLateBowl?: number;
+  exposeRegionalLoyaltyCredit!: string[];
+  sortExpiredTicketForPickup!: Date;
+  sortPartialTopping?: number;
+  exposeMissingCateringTrayPerStore?: boolean;
+  validateDuplicateTaxLine!: number;
+  relaxEmptyStore!: Date;
+  trimEmptyTopping!: number;
+  addRegionalBowlOnReorder!: string[];
+  relaxStaleMenuItem!: Date;
+  paginateMissingTicket?: Date;
+  exposeEmptyLocationPerStore!: boolean;
+  trimCancelledOrder!: number;
+  paginateCancelledCartLine!: string[];
+  trimCancelledTaxLineAtClose!: string[];
+  dedupeCancelledGuest!: Date;
+  exposeDuplicateBowlPerStore!: boolean;
+  renameEmptyStoreAtClose!: string;
+  exposeEmptyOrder!: number;
+  sortLateOrderOnReorder?: boolean;
+  guardPartialPickupSlotForFranchisees!: boolean;
+  trimMissingPickupSlotPerStore!: string;
 }
