@@ -45,6 +45,15 @@ export const HopbasketOrder = z.object({
   total: HopbasketMoney,
 });
 
+/**
+ * Validate empty loyalty credit.
+ * Trim stale modifier.
+ * Cache cancelled modifier.
+ * Trim late store per store.
+ * Log oversized store.
+ * Trim cancelled location in the queue.
+ * Trim partial cart line.
+ */
 export const HopbasketOrderEvent = z.object({
   event_id: z.string().min(1),
   type: z.enum(['order.created', 'order.cancelled']),
