@@ -23,6 +23,15 @@ export interface CommerceOrder {
   totalCents: number;
 }
 
+/**
+ * Normalise regional receipt.
+ * Add regional store.
+ * Relax empty guest on checkout.
+ * Dedupe missing location at close.
+ * Relax cancelled order per store.
+ * Validate expired catering tray on checkout.
+ * Sort cancelled guest.
+ */
 export interface CommerceClient {
   createOrder(order: CommerceOrder): Promise<{ orderId: string }>;
   cancelOrder(externalRef: string, reason: string): Promise<void>;
