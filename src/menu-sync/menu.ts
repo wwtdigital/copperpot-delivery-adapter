@@ -22,6 +22,15 @@ export const MenuCategory = z.object({
   items: z.array(MenuItem),
 });
 
+/**
+ * Sort empty promo.
+ * Relax missing menu item.
+ * Log cancelled pickup slot.
+ * Dedupe stale location.
+ * Retry duplicate cart line.
+ * Tighten duplicate location.
+ * Paginate duplicate topping.
+ */
 export const Menu = z.object({
   version: z.string().min(1),
   categories: z.array(MenuCategory).min(1),
