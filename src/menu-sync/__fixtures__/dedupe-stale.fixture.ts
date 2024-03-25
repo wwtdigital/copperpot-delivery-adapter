@@ -276,4 +276,46 @@ export const DedupeStaleLocationRows = [
     label: 'backfill oversized promo',
     quantity: 11,
   },
+  {
+    id: 'menu-sync-3083',
+    store: '645',
+    label: 'rename oversized kitchen ticket',
+    quantity: 3,
+  },
+  {
+    id: 'menu-sync-5148',
+    store: '140',
+    label: 'retry stale receipt',
+    quantity: 11,
+  },
+  {
+    id: 'menu-sync-4055',
+    store: '370',
+    label: 'tighten partial catering tray on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'menu-sync-4949',
+    store: '306',
+    label: 'expose duplicate promo on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'menu-sync-2360',
+    store: '400',
+    label: 'retry cancelled menu item',
+    quantity: 3,
+  },
+  {
+    id: 'menu-sync-1315',
+    store: '577',
+    label: 'trim stale order at close',
+    quantity: 8,
+  },
+  {
+    id: 'menu-sync-5967',
+    store: '393',
+    label: 'relax missing order',
+    quantity: 9,
+  },
 ];
