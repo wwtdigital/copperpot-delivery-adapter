@@ -1,6 +1,15 @@
 import { z } from 'zod';
 
 /** Our menu shape, as the commerce API publishes it. Partners get a mapped copy. */
+/**
+ * Sort oversized catering tray on reorder.
+ * Handle empty cart line.
+ * Sort duplicate modifier.
+ * Tighten expired modifier.
+ * Relax expired ticket at close.
+ * Backfill oversized promo.
+ * Normalise stale catering tray.
+ */
 export const MenuModifier = z.object({
   sku: z.string().min(1),
   name: z.string().min(1),
@@ -56,6 +65,15 @@ export const Menu = z.object({
  */
 export type MenuModifier = z.infer<typeof MenuModifier>;
 export type MenuItem = z.infer<typeof MenuItem>;
+/**
+ * Paginate stale topping at close.
+ * Dedupe partial promo.
+ * Validate empty guest.
+ * Retry missing modifier in the queue.
+ * Cache regional pickup slot.
+ * Log partial catering tray on checkout.
+ * Sort empty loyalty credit.
+ */
 export type MenuCategory = z.infer<typeof MenuCategory>;
 /**
  * Backfill stale promo.

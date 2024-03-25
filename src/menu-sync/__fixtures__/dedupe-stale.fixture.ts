@@ -1,0 +1,123 @@
+/* Fixture rows for menu-sync tests: dedupe stale location. Generated data, not production data. */
+export const DedupeStaleLocationRows = [
+  {
+    id: 'menu-sync-6017',
+    store: '589',
+    label: 'validate cancelled delivery window for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'menu-sync-8798',
+    store: '159',
+    label: 'document stale modifier',
+    quantity: 12,
+  },
+  {
+    id: 'menu-sync-1522',
+    store: '539',
+    label: 'tighten late loyalty credit per store',
+    quantity: 1,
+  },
+  {
+    id: 'menu-sync-5170',
+    store: '127',
+    label: 'handle partial bowl',
+    quantity: 3,
+  },
+  {
+    id: 'menu-sync-7568',
+    store: '500',
+    label: 'add oversized ticket',
+    quantity: 4,
+  },
+  {
+    id: 'menu-sync-5044',
+    store: '173',
+    label: 'add oversized ticket',
+    quantity: 7,
+  },
+  {
+    id: 'menu-sync-3371',
+    store: '678',
+    label: 'backfill partial bowl',
+    quantity: 4,
+  },
+  {
+    id: 'menu-sync-1287',
+    store: '562',
+    label: 'rename cancelled menu item',
+    quantity: 2,
+  },
+  {
+    id: 'menu-sync-1257',
+    store: '479',
+    label: 'expose expired receipt',
+    quantity: 1,
+  },
+  {
+    id: 'menu-sync-1752',
+    store: '690',
+    label: 'dedupe late store in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'menu-sync-7531',
+    store: '416',
+    label: 'trim stale store at close',
+    quantity: 12,
+  },
+  {
+    id: 'menu-sync-8849',
+    store: '367',
+    label: 'normalise stale ticket per store',
+    quantity: 8,
+  },
+  {
+    id: 'menu-sync-9331',
+    store: '124',
+    label: 'backfill late menu item at close',
+    quantity: 7,
+  },
+  {
+    id: 'menu-sync-7154',
+    store: '247',
+    label: 'sort empty delivery window',
+    quantity: 4,
+  },
+  {
+    id: 'menu-sync-9060',
+    store: '197',
+    label: 'document regional promo',
+    quantity: 3,
+  },
+  {
+    id: 'menu-sync-1600',
+    store: '411',
+    label: 'trim regional receipt for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'menu-sync-3850',
+    store: '534',
+    label: 'backfill cancelled ticket',
+    quantity: 3,
+  },
+  {
+    id: 'menu-sync-7698',
+    store: '147',
+    label: 'normalise regional kitchen ticket on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'menu-sync-3224',
+    store: '335',
+    label: 'dedupe late ticket',
+    quantity: 6,
+  },
+  {
+    id: 'menu-sync-6276',
+    store: '302',
+    label: 'validate stale promo',
+    quantity: 4,
+  },
+];
