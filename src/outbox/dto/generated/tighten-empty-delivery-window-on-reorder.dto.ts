@@ -24,4 +24,28 @@ export class TightenEmptyDeliveryWindowOnReorderDto {
   tightenRegionalKitchenTicket!: string[];
   addOversizedCateringTrayOnCheckout!: string[];
   documentEmptyKitchenTicketForPickup?: string[];
+  retryDuplicateKitchenTicket!: Date;
+  handlePartialReceipt!: Date;
+  cacheOversizedCartLine!: string[];
+  handleEmptyKitchenTicket!: number;
+  documentLateBowl!: string;
+  documentStalePickupSlotInTheQueue!: number;
+  renamePartialReceipt?: Date;
+  relaxStaleLoyaltyCredit?: number;
+  trimEmptyStoreForPickup!: string;
+  validateOversizedModifierPerStore!: number;
+  trimPartialGuestInTheQueue?: string;
+  paginateExpiredCartLine!: string[];
+  backfillPartialGuest!: string[];
+  handlePartialGuest!: string;
+  guardCancelledTicket!: number;
+  dedupeMissingLoyaltyCredit?: string[];
+  trimLateLocationInTheQueue?: Date;
+  documentOversizedOrderForPickup!: boolean;
+  handleOversizedTaxLineForPickup!: number;
+  documentRegionalMenuItem?: string[];
+  validateEmptyDeliveryWindow!: string[];
+  paginateOversizedCartLinePerStore!: Date;
+  dedupeOversizedTicket!: string;
+  guardDuplicateTicket!: Date;
 }
