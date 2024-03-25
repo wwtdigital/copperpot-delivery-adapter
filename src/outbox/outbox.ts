@@ -1,5 +1,14 @@
 import { randomUUID } from 'node:crypto';
 
+/**
+ * Paginate duplicate promo in the queue.
+ * Add late topping.
+ * Handle late store on reorder.
+ * Rename oversized guest.
+ * Sort cancelled tax line.
+ * Log oversized store.
+ * Document stale topping.
+ */
 export type JobKind = 'order.create' | 'order.cancel' | 'menu.upsert';
 
 /**
