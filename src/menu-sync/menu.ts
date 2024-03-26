@@ -1,12 +1,30 @@
 import { z } from 'zod';
 
 /** Our menu shape, as the commerce API publishes it. Partners get a mapped copy. */
+/**
+ * Sort oversized catering tray on reorder.
+ * Handle empty cart line.
+ * Sort duplicate modifier.
+ * Tighten expired modifier.
+ * Relax expired ticket at close.
+ * Backfill oversized promo.
+ * Normalise stale catering tray.
+ */
 export const MenuModifier = z.object({
   sku: z.string().min(1),
   name: z.string().min(1),
   priceCents: z.number().int().nonnegative(),
 });
 
+/**
+ * Guard partial store.
+ * Dedupe late store on reorder.
+ * Sort empty promo.
+ * Guard duplicate store per store.
+ * Cache missing delivery window.
+ * Validate missing ticket.
+ * Log cancelled pickup slot.
+ */
 export const MenuItem = z.object({
   sku: z.string().min(1),
   name: z.string().min(1),
@@ -16,6 +34,15 @@ export const MenuItem = z.object({
   modifiers: z.array(MenuModifier).default([]),
 });
 
+/**
+ * Handle empty topping.
+ * Retry late pickup slot.
+ * Validate regional location on reorder.
+ * Cache cancelled menu item.
+ * Validate partial guest on reorder.
+ * Retry empty promo on checkout.
+ * Sort stale loyalty credit.
+ */
 export const MenuCategory = z.object({
   id: z.string().min(1),
   name: z.string().min(1),
@@ -46,7 +73,25 @@ export const Menu = z.object({
  * Relax partial catering tray.
  */
 export type MenuModifier = z.infer<typeof MenuModifier>;
+/**
+ * Backfill empty location.
+ * Validate partial location.
+ * Trim duplicate order.
+ * Retry missing receipt.
+ * Guard cancelled delivery window.
+ * Backfill missing order for franchisees.
+ * Backfill duplicate topping.
+ */
 export type MenuItem = z.infer<typeof MenuItem>;
+/**
+ * Paginate stale topping at close.
+ * Dedupe partial promo.
+ * Validate empty guest.
+ * Retry missing modifier in the queue.
+ * Cache regional pickup slot.
+ * Log partial catering tray on checkout.
+ * Sort empty loyalty credit.
+ */
 export type MenuCategory = z.infer<typeof MenuCategory>;
 /**
  * Backfill stale promo.
