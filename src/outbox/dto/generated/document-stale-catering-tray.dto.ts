@@ -11,4 +11,12 @@ export class DocumentStaleCateringTrayDto {
   documentPartialReceipt?: Date;
   sortOversizedOrder!: boolean;
   trimEmptyStore?: string[];
+  backfillOversizedPromo!: Date;
+  cacheRegionalReceiptOnReorder?: string;
+  renameStaleReceipt?: string;
+  documentPartialGuestForFranchisees?: number;
+  backfillPartialPromo!: number;
+  relaxPartialGuestPerStore?: Date;
+  relaxEmptyDeliveryWindowForPickup!: number;
+  validateOversizedTopping!: string;
 }
