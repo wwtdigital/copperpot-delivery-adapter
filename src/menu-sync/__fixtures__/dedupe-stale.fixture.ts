@@ -240,4 +240,40 @@ export const DedupeStaleLocationRows = [
     label: 'retry empty menu item',
     quantity: 8,
   },
+  {
+    id: 'menu-sync-2067',
+    store: '371',
+    label: 'validate expired store',
+    quantity: 4,
+  },
+  {
+    id: 'menu-sync-9584',
+    store: '416',
+    label: 'log stale topping',
+    quantity: 2,
+  },
+  {
+    id: 'menu-sync-4001',
+    store: '175',
+    label: 'relax missing guest',
+    quantity: 4,
+  },
+  {
+    id: 'menu-sync-1784',
+    store: '299',
+    label: 'handle expired topping',
+    quantity: 5,
+  },
+  {
+    id: 'menu-sync-7704',
+    store: '572',
+    label: 'cache missing pickup slot on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'menu-sync-1203',
+    store: '347',
+    label: 'backfill oversized promo',
+    quantity: 11,
+  },
 ];

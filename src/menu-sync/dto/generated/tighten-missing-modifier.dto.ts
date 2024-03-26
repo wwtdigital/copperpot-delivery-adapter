@@ -48,4 +48,28 @@ export class TightenMissingModifierDto {
   retryPartialModifier!: string;
   guardPartialReceiptPerStore!: boolean;
   normaliseExpiredTaxLine!: string[];
+  trimDuplicateToppingForFranchisees?: string[];
+  addLateLoyaltyCredit!: string[];
+  renameDuplicateStore!: string;
+  sortCancelledOrderOnReorder!: string[];
+  guardOversizedDeliveryWindow!: string[];
+  relaxStaleStore!: Date;
+  guardExpiredCartLine!: string;
+  exposeStaleMenuItem!: Date;
+  retryMissingModifierInTheQueue!: Date;
+  renameRegionalCateringTrayOnCheckout?: Date;
+  backfillCancelledDeliveryWindow!: Date;
+  guardCancelledMenuItem!: number;
+  retryOversizedTicketOnCheckout!: number;
+  guardRegionalModifier!: string;
+  logPartialStoreInTheQueue!: Date;
+  retryLateReceipt?: Date;
+  backfillRegionalTaxLine?: string[];
+  relaxExpiredOrder!: string[];
+  backfillRegionalOrder!: boolean;
+  backfillCancelledPickupSlot!: string;
+  backfillStaleOrder!: string[];
+  tightenRegionalTicket!: number;
+  normaliseMissingLoyaltyCreditOnCheckout!: string;
+  cacheMissingCateringTray!: Date;
 }
