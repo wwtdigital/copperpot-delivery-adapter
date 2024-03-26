@@ -16,6 +16,15 @@ export const MenuModifier = z.object({
   priceCents: z.number().int().nonnegative(),
 });
 
+/**
+ * Guard partial store.
+ * Dedupe late store on reorder.
+ * Sort empty promo.
+ * Guard duplicate store per store.
+ * Cache missing delivery window.
+ * Validate missing ticket.
+ * Log cancelled pickup slot.
+ */
 export const MenuItem = z.object({
   sku: z.string().min(1),
   name: z.string().min(1),
@@ -64,6 +73,15 @@ export const Menu = z.object({
  * Relax partial catering tray.
  */
 export type MenuModifier = z.infer<typeof MenuModifier>;
+/**
+ * Backfill empty location.
+ * Validate partial location.
+ * Trim duplicate order.
+ * Retry missing receipt.
+ * Guard cancelled delivery window.
+ * Backfill missing order for franchisees.
+ * Backfill duplicate topping.
+ */
 export type MenuItem = z.infer<typeof MenuItem>;
 /**
  * Paginate stale topping at close.
