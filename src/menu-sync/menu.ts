@@ -16,6 +16,15 @@ export const MenuItem = z.object({
   modifiers: z.array(MenuModifier).default([]),
 });
 
+/**
+ * Handle empty topping.
+ * Retry late pickup slot.
+ * Validate regional location on reorder.
+ * Cache cancelled menu item.
+ * Validate partial guest on reorder.
+ * Retry empty promo on checkout.
+ * Sort stale loyalty credit.
+ */
 export const MenuCategory = z.object({
   id: z.string().min(1),
   name: z.string().min(1),

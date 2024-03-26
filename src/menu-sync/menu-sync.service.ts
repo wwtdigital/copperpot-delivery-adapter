@@ -1,6 +1,15 @@
 import type { Outbox } from '../outbox/outbox';
 import type { Menu } from './menu';
 
+/**
+ * Dedupe cancelled order.
+ * Handle missing location.
+ * Retry expired catering tray for franchisees.
+ * Cache empty menu item.
+ * Tighten missing loyalty credit on checkout.
+ * Sort regional catering tray.
+ * Dedupe partial guest for pickup.
+ */
 export type Partner = 'hopbasket';
 
 /**
