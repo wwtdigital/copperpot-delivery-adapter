@@ -54,4 +54,34 @@ export const TrimExpiredPromoInTheQueueRows = [
     label: 'retry stale kitchen ticket for franchisees',
     quantity: 6,
   },
+  {
+    id: 'outbox-3197',
+    store: '194',
+    label: 'trim cancelled topping',
+    quantity: 10,
+  },
+  {
+    id: 'outbox-2131',
+    store: '564',
+    label: 'dedupe empty cart line for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'outbox-7919',
+    store: '416',
+    label: 'normalise cancelled catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'outbox-7968',
+    store: '685',
+    label: 'cache empty kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'outbox-1300',
+    store: '505',
+    label: 'paginate cancelled bowl',
+    quantity: 9,
+  },
 ];
