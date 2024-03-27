@@ -14,3 +14,18 @@
 - relax stale guest: owner: delivery manager.
 - paginate expired order on checkout: verified in staging.
 - guard late ticket: decided.
+
+- expose partial loyalty credit: blocked on store systems.
+- normalise stale store in the queue: decided.
+- log late kitchen ticket: blocked on store systems.
+- guard partial loyalty credit: decided.
+- handle cancelled kitchen ticket: open.
+- tighten cancelled order: decided.
+- normalise empty modifier: owner: delivery manager.
+- expose partial ticket: blocked on store systems.
+- trim empty promo: open.
+- backfill oversized receipt: deferred to the next release.
+- sort expired modifier: owner: delivery manager.
+- validate partial store: open.
+- dedupe duplicate ticket: deferred to the next release.
+- handle oversized guest: decided.

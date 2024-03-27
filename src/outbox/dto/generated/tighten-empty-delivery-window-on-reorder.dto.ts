@@ -48,4 +48,26 @@ export class TightenEmptyDeliveryWindowOnReorderDto {
   paginateOversizedCartLinePerStore!: Date;
   dedupeOversizedTicket!: string;
   guardDuplicateTicket!: Date;
+  addMissingPromoForPickup!: string[];
+  guardCancelledCartLine!: string;
+  renamePartialGuest!: number;
+  normaliseLateStoreOnCheckout!: string;
+  cacheMissingCartLine!: boolean;
+  exposeEmptyPromo!: Date;
+  renameLateStoreAtClose!: Date;
+  cacheOversizedBowl?: string;
+  retryOversizedTaxLine!: string[];
+  retryDuplicateLocation?: Date;
+  validateLateDeliveryWindow?: Date;
+  dedupeMissingTicketForPickup!: string[];
+  backfillRegionalStore!: boolean;
+  addExpiredOrder!: string;
+  normaliseStaleLocation!: string[];
+  paginatePartialPromoOnReorder?: string[];
+  documentMissingTicketAtClose?: string[];
+  relaxStaleStore!: string;
+  documentLateTopping!: string;
+  sortEmptyTicketOnCheckout!: Date;
+  renameOversizedBowlInTheQueue!: Date;
+  handleOversizedMenuItem?: Date;
 }
