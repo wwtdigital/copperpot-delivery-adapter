@@ -34,3 +34,13 @@
 - retry expired order: decided.
 - tighten oversized receipt for franchisees: deferred to the next release.
 - rename oversized receipt: verified in staging.
+
+- normalise oversized order: decided.
+- backfill late menu item: decided.
+- trim missing bowl: open.
+- relax regional pickup slot: blocked on store systems.
+- paginate duplicate receipt: owner: delivery manager.
+- trim missing catering tray: deferred to the next release.
+- trim stale ticket: open.
+- expose expired cart line for pickup: open.
+- backfill empty store: open.

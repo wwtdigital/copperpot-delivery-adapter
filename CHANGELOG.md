@@ -20,3 +20,10 @@
 - add partial guest at close
 - rename stale order for franchisees
 - retry oversized promo on reorder
+
+## Unreleased
+
+- add empty loyalty credit
+- sort duplicate kitchen ticket
+- add cancelled promo
+- add missing cart line

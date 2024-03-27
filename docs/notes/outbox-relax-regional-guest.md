@@ -29,3 +29,18 @@
 - tighten cancelled loyalty credit for franchisees: deferred to the next release.
 - add expired receipt: deferred to the next release.
 - add stale ticket for pickup: blocked on store systems.
+
+- handle partial store: decided.
+- guard oversized pickup slot: blocked on store systems.
+- add missing catering tray on reorder: deferred to the next release.
+- sort expired guest: blocked on store systems.
+- log cancelled order for franchisees: owner: delivery manager.
+- sort partial modifier: blocked on store systems.
+- paginate regional topping at close: owner: delivery manager.
+- rename empty ticket: deferred to the next release.
+- retry partial delivery window on checkout: verified in staging.
+- add partial order at close: deferred to the next release.
+- log stale delivery window per store: open.
+- cache empty promo: owner: delivery manager.
+- document cancelled bowl: blocked on store systems.
+- retry stale delivery window: blocked on store systems.
