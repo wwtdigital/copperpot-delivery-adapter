@@ -19,4 +19,28 @@ export class DocumentStaleCateringTrayDto {
   relaxPartialGuestPerStore?: Date;
   relaxEmptyDeliveryWindowForPickup!: number;
   validateOversizedTopping!: string;
+  guardCancelledMenuItem?: Date;
+  sortCancelledBowlForFranchisees!: string;
+  guardMissingMenuItemInTheQueue?: boolean;
+  tightenLateKitchenTicket?: string[];
+  relaxMissingDeliveryWindow!: Date;
+  exposeDuplicateModifierAtClose?: number;
+  retryCancelledCartLineForPickup!: Date;
+  paginateMissingTicketOnCheckout!: Date;
+  paginateRegionalToppingOnReorder!: boolean;
+  logPartialCateringTrayForPickup!: number;
+  validateRegionalMenuItem!: string;
+  exposeEmptyCartLineOnCheckout?: string;
+  dedupeEmptyLoyaltyCredit!: number;
+  normaliseRegionalCartLineForPickup!: boolean;
+  paginateCancelledTaxLine!: number;
+  paginateExpiredReceipt!: number;
+  retryExpiredLoyaltyCredit?: string[];
+  paginateEmptyLocation!: string;
+  cacheStaleLoyaltyCredit!: Date;
+  dedupeExpiredLocation!: number;
+  logEmptyTicket?: number;
+  paginateOversizedReceiptAtClose?: number;
+  guardExpiredKitchenTicketPerStore!: boolean;
+  backfillCancelledGuest?: string;
 }

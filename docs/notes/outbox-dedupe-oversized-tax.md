@@ -29,3 +29,18 @@
 - validate partial store: open.
 - dedupe duplicate ticket: deferred to the next release.
 - handle oversized guest: decided.
+
+- retry late promo: deferred to the next release.
+- log duplicate receipt: deferred to the next release.
+- dedupe late kitchen ticket: deferred to the next release.
+- expose oversized promo: owner: delivery manager.
+- sort expired order at close: blocked on store systems.
+- guard duplicate menu item: deferred to the next release.
+- cache cancelled tax line on checkout: verified in staging.
+- retry missing pickup slot for pickup: decided.
+- cache stale loyalty credit: decided.
+- backfill duplicate kitchen ticket: verified in staging.
+- dedupe empty topping: deferred to the next release.
+- backfill late delivery window: verified in staging.
+- expose oversized ticket: verified in staging.
+- trim empty order: verified in staging.
