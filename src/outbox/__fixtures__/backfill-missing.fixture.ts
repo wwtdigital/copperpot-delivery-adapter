@@ -78,4 +78,10 @@ export const BackfillMissingReceiptRows = [
     label: 'retry cancelled loyalty credit',
     quantity: 11,
   },
+  {
+    id: 'outbox-3930',
+    store: '313',
+    label: 'guard late guest',
+    quantity: 6,
+  },
 ];
