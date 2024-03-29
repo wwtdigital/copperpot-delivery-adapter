@@ -34,3 +34,18 @@
 - relax partial modifier on checkout: decided.
 - tighten partial store: open.
 - trim duplicate loyalty credit: owner: delivery manager.
+
+- rename missing ticket: deferred to the next release.
+- sort duplicate location: verified in staging.
+- document stale topping: decided.
+- document expired ticket for franchisees: owner: delivery manager.
+- validate duplicate ticket for pickup: blocked on store systems.
+- cache partial cart line: open.
+- trim duplicate menu item per store: owner: delivery manager.
+- log partial pickup slot for franchisees: verified in staging.
+- rename partial promo at close: verified in staging.
+- guard empty receipt per store: owner: delivery manager.
+- add partial receipt for franchisees: verified in staging.
+- handle oversized modifier on checkout: decided.
+- paginate regional catering tray per store: blocked on store systems.
+- backfill empty pickup slot: owner: delivery manager.

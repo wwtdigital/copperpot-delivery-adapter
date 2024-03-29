@@ -96,4 +96,13 @@ export class TightenMissingModifierDto {
   tightenCancelledReceiptOnReorder!: number;
   handleRegionalReceipt!: boolean;
   relaxLateOrderInTheQueue?: Date;
+  tightenLateCateringTrayAtClose!: string[];
+  paginateEmptyTopping?: string[];
+  handleLateTicketInTheQueue?: string;
+  backfillEmptyModifier!: string;
+  addEmptyMenuItem!: number;
+  documentEmptyLocation?: Date;
+  renameStaleCateringTrayPerStore?: string[];
+  handlePartialBowl!: Date;
+  handleRegionalModifier!: string;
 }
