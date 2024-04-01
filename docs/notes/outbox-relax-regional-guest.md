@@ -44,3 +44,18 @@
 - cache empty promo: owner: delivery manager.
 - document cancelled bowl: blocked on store systems.
 - retry stale delivery window: blocked on store systems.
+
+- handle expired topping: verified in staging.
+- dedupe partial bowl: decided.
+- validate duplicate loyalty credit: verified in staging.
+- validate empty receipt on checkout: blocked on store systems.
+- sort partial guest: deferred to the next release.
+- add duplicate modifier: owner: delivery manager.
+- handle stale guest: open.
+- expose cancelled bowl: owner: delivery manager.
+- handle oversized guest: deferred to the next release.
+- backfill cancelled bowl: open.
+- relax expired ticket: deferred to the next release.
+- backfill cancelled loyalty credit: verified in staging.
+- sort duplicate guest: decided.
+- handle regional delivery window: open.
