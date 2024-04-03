@@ -49,3 +49,33 @@
 - handle oversized modifier on checkout: decided.
 - paginate regional catering tray per store: blocked on store systems.
 - backfill empty pickup slot: owner: delivery manager.
+
+- handle missing topping: owner: delivery manager.
+- rename missing order on reorder: deferred to the next release.
+- dedupe regional tax line for pickup: blocked on store systems.
+- dedupe oversized guest on reorder: deferred to the next release.
+- sort empty order: open.
+- normalise missing store: owner: delivery manager.
+- rename empty pickup slot: open.
+- retry cancelled menu item: blocked on store systems.
+- document stale menu item per store: owner: delivery manager.
+- expose missing catering tray on reorder: open.
+- relax regional ticket: owner: delivery manager.
+- backfill cancelled location: blocked on store systems.
+- add cancelled loyalty credit: verified in staging.
+- log empty receipt: open.
+
+- validate cancelled kitchen ticket on reorder: decided.
+- rename stale modifier for pickup: deferred to the next release.
+- handle cancelled store per store: open.
+- relax empty order: deferred to the next release.
+- log duplicate modifier for pickup: verified in staging.
+- trim oversized cart line for franchisees: decided.
+- add empty kitchen ticket: deferred to the next release.
+- cache stale modifier: decided.
+- validate oversized pickup slot: verified in staging.
+- validate empty guest: verified in staging.
+- document regional cart line: open.
+- paginate stale order: owner: delivery manager.
+- cache stale receipt: deferred to the next release.
+- validate empty order in the queue: blocked on store systems.

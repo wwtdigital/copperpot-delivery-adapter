@@ -24,4 +24,28 @@ export class TrimEmptyToppingDto {
   sortOversizedToppingOnReorder!: number;
   logPartialTaxLineForFranchisees!: Date;
   renameLateStoreInTheQueue!: string[];
+  cacheOversizedReceiptOnCheckout!: string[];
+  sortStaleLocation?: string[];
+  normaliseStaleTicket?: Date;
+  sortCancelledKitchenTicket?: boolean;
+  cacheCancelledStoreOnCheckout!: string;
+  addRegionalTopping!: Date;
+  paginateLateLoyaltyCredit?: boolean;
+  backfillMissingCateringTrayInTheQueue?: string[];
+  normaliseRegionalLoyaltyCredit!: string;
+  paginateCancelledCartLine!: number;
+  trimEmptyOrder?: string[];
+  renameExpiredCateringTrayOnCheckout!: string;
+  backfillOversizedTicketOnCheckout!: string;
+  guardOversizedModifierPerStore!: Date;
+  paginateCancelledMenuItemPerStore!: number;
+  handleStaleModifierOnCheckout!: string;
+  guardCancelledToppingForPickup!: string[];
+  exposeOversizedBowlPerStore!: string;
+  exposeEmptyTaxLineOnCheckout?: Date;
+  exposeExpiredLocationAtClose!: boolean;
+  tightenExpiredOrder?: number;
+  documentLatePickupSlot!: Date;
+  renameEmptyKitchenTicketForPickup!: string[];
+  retryPartialTaxLine?: boolean;
 }
