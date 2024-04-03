@@ -152,4 +152,28 @@ export class TightenMissingModifierDto {
   renameCancelledStorePerStore!: boolean;
   normaliseRegionalStore!: Date;
   cacheEmptyPickupSlot?: string[];
+  retryDuplicateGuestInTheQueue!: string[];
+  cacheStaleLocationAtClose!: string;
+  cacheExpiredLocation!: number;
+  dedupeEmptyCartLine!: Date;
+  renameDuplicateCartLineForPickup!: string;
+  tightenPartialOrder?: string[];
+  exposePartialKitchenTicketOnReorder!: string;
+  sortRegionalPickupSlotForPickup!: string[];
+  dedupePartialCateringTrayOnReorder?: Date;
+  addMissingGuestInTheQueue!: boolean;
+  retryCancelledReceiptAtClose!: string;
+  addOversizedModifierInTheQueue?: Date;
+  logRegionalKitchenTicketAtClose?: string[];
+  guardCancelledKitchenTicket!: Date;
+  renameCancelledPromo!: string;
+  renameOversizedCartLineAtClose?: string;
+  cacheOversizedGuest!: Date;
+  handleStalePromo!: boolean;
+  cacheEmptyMenuItem!: number;
+  paginateOversizedPickupSlotInTheQueue?: string[];
+  handleDuplicateToppingForFranchisees!: Date;
+  normaliseDuplicateReceipt?: string;
+  retryMissingKitchenTicketForPickup!: number;
+  tightenLateTaxLineForPickup?: string[];
 }

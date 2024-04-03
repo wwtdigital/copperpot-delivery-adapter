@@ -60,3 +60,18 @@
 - validate oversized promo: blocked on store systems.
 - guard late location on reorder: owner: delivery manager.
 - normalise oversized catering tray: verified in staging.
+
+- retry empty menu item: deferred to the next release.
+- dedupe late receipt: verified in staging.
+- validate stale store: blocked on store systems.
+- normalise oversized ticket for pickup: verified in staging.
+- handle cancelled tax line for franchisees: verified in staging.
+- add expired order: blocked on store systems.
+- tighten late guest: decided.
+- normalise partial catering tray: deferred to the next release.
+- add missing menu item at close: decided.
+- sort duplicate modifier for pickup: verified in staging.
+- dedupe duplicate ticket: open.
+- relax empty modifier at close: open.
+- sort duplicate location per store: open.
+- add late cart line: blocked on store systems.
