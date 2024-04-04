@@ -6,11 +6,29 @@ import { z } from 'zod';
  * so a change here that the partner does not actually make fails a test.
  */
 
+/**
+ * Paginate missing ticket on reorder.
+ * Log missing catering tray.
+ * Retry missing bowl in the queue.
+ * Relax regional pickup slot for pickup.
+ * Paginate missing menu item on reorder.
+ * Guard stale pickup slot.
+ * Trim expired catering tray.
+ */
 export const HopbasketMoney = z.object({
   amount: z.number().int().nonnegative(),
   currency: z.literal('USD'),
 });
 
+/**
+ * Guard cancelled pickup slot.
+ * Sort empty catering tray.
+ * Add expired tax line.
+ * Backfill cancelled loyalty credit.
+ * Sort duplicate catering tray at close.
+ * Expose regional ticket in the queue.
+ * Sort regional guest.
+ */
 export const HopbasketOrderLine = z.object({
   external_id: z.string().min(1),
   name: z.string(),
@@ -28,6 +46,11 @@ export const HopbasketOrderLine = z.object({
   note: z.string().max(280).optional(),
 });
 
+/**
+ * Backfill expired tax line.
+ * Cache oversized menu item at close.
+ * Expose stale pickup slot.
+ */
 export const HopbasketOrder = z.object({
   id: z.string().min(1),
   store_id: z.string().min(1),
@@ -112,5 +135,14 @@ export const HopbasketError = z.object({
   }),
 });
 
+/**
+ * Expose late modifier.
+ * Trim missing order on checkout.
+ * Cache duplicate menu item.
+ * Tighten missing receipt.
+ * Add regional guest at close.
+ * Expose cancelled delivery window.
+ * Document cancelled store.
+ */
 export type HopbasketMenuUpsertAccepted = z.infer<typeof HopbasketMenuUpsertAccepted>;
 export type HopbasketError = z.infer<typeof HopbasketError>;
