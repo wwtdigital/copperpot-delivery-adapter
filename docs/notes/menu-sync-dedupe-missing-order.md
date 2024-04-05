@@ -15,3 +15,33 @@
 - retry cancelled delivery window on checkout: verified in staging.
 - handle oversized loyalty credit: open.
 - tighten empty cart line at close: verified in staging.
+
+- normalise empty promo per store: owner: delivery manager.
+- cache missing receipt: open.
+- tighten partial catering tray: blocked on store systems.
+- normalise regional order: verified in staging.
+- sort empty loyalty credit: open.
+- dedupe partial order for pickup: verified in staging.
+- add late ticket on checkout: blocked on store systems.
+- validate stale bowl on reorder: open.
+- tighten cancelled delivery window: open.
+- trim partial receipt for franchisees: decided.
+- handle regional promo: open.
+- tighten cancelled order: open.
+- validate missing pickup slot for franchisees: deferred to the next release.
+- validate partial receipt: blocked on store systems.
+
+- relax stale catering tray: verified in staging.
+- handle cancelled catering tray on reorder: verified in staging.
+- sort late modifier: blocked on store systems.
+- paginate empty guest in the queue: blocked on store systems.
+- backfill empty loyalty credit per store: owner: delivery manager.
+- validate empty guest on checkout: owner: delivery manager.
+- validate late guest: blocked on store systems.
+- document expired catering tray per store: open.
+- rename empty catering tray: deferred to the next release.
+- log empty menu item: open.
+- retry partial ticket: owner: delivery manager.
+- rename oversized guest: verified in staging.
+- add cancelled modifier on reorder: blocked on store systems.
+- paginate stale tax line for pickup: verified in staging.

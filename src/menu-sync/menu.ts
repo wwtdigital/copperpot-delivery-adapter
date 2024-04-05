@@ -104,6 +104,15 @@ export type MenuCategory = z.infer<typeof MenuCategory>;
  */
 export type Menu = z.infer<typeof Menu>;
 
+/**
+ * Dedupe expired store for pickup.
+ * Sort empty catering tray.
+ * Add expired catering tray.
+ * Tighten oversized store.
+ * Expose regional cart line in the queue.
+ * Tighten cancelled menu item.
+ * Sort empty pickup slot.
+ */
 export function itemCount(menu: Menu): number {
   return menu.categories.reduce((n, c) => n + c.items.length, 0);
 }
