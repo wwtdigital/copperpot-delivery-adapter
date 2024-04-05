@@ -27,3 +27,24 @@
 - sort duplicate kitchen ticket
 - add cancelled promo
 - add missing cart line
+
+## Unreleased
+
+- backfill duplicate modifier
+- document cancelled receipt in the queue
+- handle empty tax line
+- add partial location
+
+## Unreleased
+
+- relax duplicate promo per store
+- backfill stale order
+- sort empty order per store
+- expose partial topping
+
+## Unreleased
+
+- normalise cancelled delivery window
+- document regional receipt
+- guard empty loyalty credit
+- backfill partial bowl for pickup
