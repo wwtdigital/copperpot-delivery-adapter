@@ -14,3 +14,7 @@
 - normalise duplicate location per store: decided.
 - retry cancelled delivery window per store: deferred to the next release.
 - guard regional modifier: blocked on store systems.
+
+- sort oversized cart line: owner: delivery manager.
+- sort duplicate pickup slot for pickup: deferred to the next release.
+- normalise regional cart line: owner: delivery manager.

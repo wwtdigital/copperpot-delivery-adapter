@@ -41,3 +41,10 @@
 - backfill stale order
 - sort empty order per store
 - expose partial topping
+
+## Unreleased
+
+- normalise cancelled delivery window
+- document regional receipt
+- guard empty loyalty credit
+- backfill partial bowl for pickup

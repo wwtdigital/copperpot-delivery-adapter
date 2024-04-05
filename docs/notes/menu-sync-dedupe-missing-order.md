@@ -45,3 +45,18 @@
 - rename oversized guest: verified in staging.
 - add cancelled modifier on reorder: blocked on store systems.
 - paginate stale tax line for pickup: verified in staging.
+
+- rename late ticket for franchisees: owner: delivery manager.
+- dedupe stale loyalty credit: blocked on store systems.
+- cache late store: owner: delivery manager.
+- relax regional ticket: decided.
+- paginate late delivery window: decided.
+- document duplicate location at close: owner: delivery manager.
+- trim expired cart line: deferred to the next release.
+- paginate oversized guest: deferred to the next release.
+- paginate cancelled menu item: open.
+- validate missing delivery window: decided.
+- paginate late menu item: deferred to the next release.
+- validate oversized promo: blocked on store systems.
+- guard late location on reorder: owner: delivery manager.
+- normalise oversized catering tray: verified in staging.
