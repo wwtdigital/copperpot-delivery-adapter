@@ -24,4 +24,6 @@ export class RetryCancelledDeliveryWindowDto {
   backfillRegionalPromoPerStore!: Date;
   renameStalePickupSlot!: Date;
   addCancelledLocation?: string;
+  handleStaleTicket!: Date;
+  cacheExpiredPromoForFranchisees!: number;
 }

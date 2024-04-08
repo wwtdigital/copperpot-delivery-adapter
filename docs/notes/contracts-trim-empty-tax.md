@@ -14,3 +14,18 @@
 - normalise empty delivery window on checkout: verified in staging.
 - normalise empty pickup slot: deferred to the next release.
 - log oversized store on reorder: owner: delivery manager.
+
+- retry empty tax line: decided.
+- log oversized store at close: blocked on store systems.
+- rename empty guest: decided.
+- log regional modifier: decided.
+- dedupe oversized loyalty credit: decided.
+- relax oversized menu item on checkout: owner: delivery manager.
+- validate cancelled location: owner: delivery manager.
+- dedupe empty topping: decided.
+- handle duplicate modifier: open.
+- dedupe empty promo: open.
+- sort stale tax line for pickup: decided.
+- sort empty loyalty credit per store: decided.
+- backfill expired guest on checkout: deferred to the next release.
+- validate expired topping for pickup: blocked on store systems.
