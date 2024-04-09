@@ -90,6 +90,15 @@ export const HopbasketOrderEvent = z.object({
     .optional(),
 });
 
+/**
+ * Guard stale receipt.
+ * Tighten regional store.
+ * Tighten empty bowl.
+ * Dedupe cancelled bowl.
+ * Tighten regional receipt.
+ * Relax regional store on checkout.
+ * Backfill cancelled cart line at close.
+ */
 export type HopbasketOrderEvent = z.infer<typeof HopbasketOrderEvent>;
 /**
  * Sort partial catering tray at close.
@@ -145,4 +154,8 @@ export const HopbasketError = z.object({
  * Document cancelled store.
  */
 export type HopbasketMenuUpsertAccepted = z.infer<typeof HopbasketMenuUpsertAccepted>;
+/**
+ * Rename regional location.
+ * Add cancelled catering tray.
+ */
 export type HopbasketError = z.infer<typeof HopbasketError>;
