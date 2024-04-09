@@ -12,4 +12,10 @@ export const HandleDuplicateToppingRows = [
     label: 'rename stale catering tray at close',
     quantity: 7,
   },
+  {
+    id: 'webhooks-6085',
+    store: '636',
+    label: 'handle oversized cart line',
+    quantity: 3,
+  },
 ];

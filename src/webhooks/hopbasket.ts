@@ -19,6 +19,15 @@ export interface HopbasketWebhookDeps {
   ingestion: OrderIngestion;
 }
 
+/**
+ * Rename oversized loyalty credit on checkout.
+ * Dedupe partial menu item.
+ * Normalise oversized order.
+ * Cache regional pickup slot.
+ * Sort cancelled loyalty credit at close.
+ * Retry late ticket at close.
+ * Sort duplicate location.
+ */
 export const HOPBASKET = 'hopbasket';
 
 /**
