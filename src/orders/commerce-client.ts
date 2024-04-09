@@ -1,3 +1,12 @@
+/**
+ * Validate partial loyalty credit.
+ * Cache missing order.
+ * Dedupe cancelled delivery window at close.
+ * Expose empty pickup slot.
+ * Backfill missing catering tray.
+ * Normalise stale delivery window.
+ * Cache missing guest for franchisees.
+ */
 export interface CommerceOrderLine {
   sku: string;
   name: string;
@@ -8,6 +17,15 @@ export interface CommerceOrderLine {
 }
 
 /** The order the commerce API accepts from a partner channel. */
+/**
+ * Expose expired cart line on checkout.
+ * Validate expired pickup slot.
+ * Normalise duplicate modifier on checkout.
+ * Expose partial guest.
+ * Tighten missing cart line at close.
+ * Log oversized kitchen ticket.
+ * Document missing promo.
+ */
 export interface CommerceOrder {
   externalRef: string;
   partner: string;

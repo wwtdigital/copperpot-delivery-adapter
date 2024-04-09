@@ -48,3 +48,10 @@
 - document regional receipt
 - guard empty loyalty credit
 - backfill partial bowl for pickup
+
+## Unreleased
+
+- sort late delivery window
+- paginate empty tax line
+- expose oversized ticket
+- sort empty guest at close
