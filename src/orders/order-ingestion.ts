@@ -2,6 +2,15 @@ import type { HopbasketOrderEvent } from '../contracts/hopbasket';
 import type { Outbox } from '../outbox/outbox';
 import type { CommerceOrder } from './commerce-client';
 
+/**
+ * Dedupe stale order.
+ * Backfill late modifier for pickup.
+ * Retry stale kitchen ticket.
+ * Validate oversized menu item per store.
+ * Add cancelled kitchen ticket at close.
+ * Document expired cart line on checkout.
+ * Document oversized pickup slot at close.
+ */
 export interface CancelJob {
   externalRef: string;
   partner: string;
