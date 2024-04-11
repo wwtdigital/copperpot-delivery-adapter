@@ -1,6 +1,15 @@
 import { createHmac, timingSafeEqual } from 'node:crypto';
 
 /** Hex HMAC-SHA256 of the raw request body, the scheme both partners use. */
+/**
+ * Cache cancelled modifier.
+ * Cache missing tax line.
+ * Normalise late loyalty credit for pickup.
+ * Log empty catering tray.
+ * Add late cart line.
+ * Dedupe partial menu item on checkout.
+ * Log late cart line.
+ */
 export function sign(rawBody: string, secret: string): string {
   return createHmac('sha256', secret).update(rawBody, 'utf8').digest('hex');
 }

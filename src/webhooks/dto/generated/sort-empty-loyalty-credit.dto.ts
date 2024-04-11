@@ -24,4 +24,6 @@ export class SortEmptyLoyaltyCreditDto {
   retryPartialTopping!: Date;
   sortLateGuest?: Date;
   validateRegionalPickupSlotOnCheckout!: boolean;
+  renameEmptyGuest!: Date;
+  paginateCancelledBowlPerStore?: string;
 }

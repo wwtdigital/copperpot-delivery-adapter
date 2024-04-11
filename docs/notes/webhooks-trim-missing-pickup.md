@@ -14,3 +14,18 @@
 - relax empty tax line for pickup: verified in staging.
 - dedupe partial guest: owner: delivery manager.
 - rename partial cart line: open.
+
+- tighten late bowl in the queue: verified in staging.
+- dedupe cancelled promo: open.
+- sort duplicate pickup slot for franchisees: blocked on store systems.
+- trim late catering tray on checkout: owner: delivery manager.
+- paginate expired tax line in the queue: owner: delivery manager.
+- trim stale modifier at close: decided.
+- guard oversized promo: decided.
+- log partial cart line: owner: delivery manager.
+- backfill regional menu item: owner: delivery manager.
+- retry empty topping for franchisees: owner: delivery manager.
+- handle cancelled delivery window for franchisees: open.
+- retry empty modifier: owner: delivery manager.
+- dedupe empty menu item: blocked on store systems.
+- normalise stale catering tray: deferred to the next release.
