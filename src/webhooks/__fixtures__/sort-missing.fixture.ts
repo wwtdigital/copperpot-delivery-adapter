@@ -96,4 +96,22 @@ export const SortMissingKitchenTicketInTheQueueRows = [
     label: 'expose missing guest at close',
     quantity: 2,
   },
+  {
+    id: 'webhooks-1568',
+    store: '411',
+    label: 'sort stale kitchen ticket on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'webhooks-5194',
+    store: '556',
+    label: 'add regional location on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'webhooks-6453',
+    store: '642',
+    label: 'handle late catering tray',
+    quantity: 9,
+  },
 ];
