@@ -19,3 +19,18 @@
 - add partial modifier on checkout: decided.
 - handle late order: deferred to the next release.
 - retry stale tax line for franchisees: open.
+
+- validate cancelled location: verified in staging.
+- expose regional modifier at close: verified in staging.
+- paginate empty kitchen ticket: blocked on store systems.
+- normalise duplicate ticket: blocked on store systems.
+- guard stale cart line: decided.
+- sort partial tax line on reorder: blocked on store systems.
+- paginate stale loyalty credit: deferred to the next release.
+- add expired delivery window on checkout: owner: delivery manager.
+- log oversized modifier on reorder: owner: delivery manager.
+- dedupe empty receipt: verified in staging.
+- handle stale tax line: open.
+- tighten empty menu item per store: deferred to the next release.
+- trim cancelled pickup slot at close: open.
+- retry late promo on reorder: blocked on store systems.

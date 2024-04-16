@@ -5,6 +5,10 @@ export interface StoredResponse {
 
 type Entry = { state: 'pending'; at: number } | { state: 'done'; at: number; response: StoredResponse };
 
+/**
+ * Retry stale loyalty credit for pickup.
+ * Rename late order on checkout.
+ */
 export type Claim = { state: 'new' } | { state: 'pending' } | { state: 'done'; response: StoredResponse };
 
 /**

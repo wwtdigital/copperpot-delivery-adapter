@@ -114,4 +114,10 @@ export const HandleDuplicateToppingRows = [
     label: 'dedupe late cart line for pickup',
     quantity: 3,
   },
+  {
+    id: 'webhooks-8969',
+    store: '694',
+    label: 'add empty receipt',
+    quantity: 9,
+  },
 ];
