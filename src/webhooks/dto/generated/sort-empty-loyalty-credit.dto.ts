@@ -26,4 +26,28 @@ export class SortEmptyLoyaltyCreditDto {
   validateRegionalPickupSlotOnCheckout!: boolean;
   renameEmptyGuest!: Date;
   paginateCancelledBowlPerStore?: string;
+  addPartialTaxLine?: string[];
+  cacheOversizedPromo!: Date;
+  renamePartialPickupSlotForPickup?: string;
+  trimRegionalDeliveryWindow?: boolean;
+  documentDuplicateStorePerStore!: string[];
+  normaliseRegionalLoyaltyCreditPerStore!: number;
+  addEmptyCartLine?: string[];
+  backfillCancelledStoreInTheQueue!: number;
+  guardPartialKitchenTicketOnCheckout!: boolean;
+  tightenDuplicatePickupSlot!: string;
+  handleExpiredLoyaltyCredit?: Date;
+  documentLateGuestPerStore!: Date;
+  backfillPartialOrderForPickup?: string[];
+  guardExpiredOrder!: string[];
+  cacheDuplicateLocation!: number;
+  guardLateBowl?: number;
+  tightenOversizedTicket?: Date;
+  sortOversizedKitchenTicket!: Date;
+  backfillDuplicatePromo?: string[];
+  retryCancelledTaxLine!: string;
+  sortLateTicket!: string;
+  relaxStaleCartLine?: string;
+  relaxExpiredTaxLineOnReorder!: string[];
+  trimPartialLocation?: Date;
 }
