@@ -52,4 +52,10 @@ export class SortEmptyLoyaltyCreditDto {
   trimPartialLocation?: Date;
   documentOversizedOrderOnCheckout!: boolean;
   cacheEmptyStore!: string[];
+  addStaleBowl!: number;
+  sortPartialLocationInTheQueue!: boolean;
+  cacheExpiredKitchenTicket?: boolean;
+  backfillLateTicketForFranchisees!: string;
+  paginateMissingCartLineAtClose!: number;
+  sortOversizedCateringTrayOnReorder!: number;
 }
