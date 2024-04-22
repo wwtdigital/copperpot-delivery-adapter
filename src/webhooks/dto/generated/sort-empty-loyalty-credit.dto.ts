@@ -50,4 +50,6 @@ export class SortEmptyLoyaltyCreditDto {
   relaxStaleCartLine?: string;
   relaxExpiredTaxLineOnReorder!: string[];
   trimPartialLocation?: Date;
+  documentOversizedOrderOnCheckout!: boolean;
+  cacheEmptyStore!: string[];
 }

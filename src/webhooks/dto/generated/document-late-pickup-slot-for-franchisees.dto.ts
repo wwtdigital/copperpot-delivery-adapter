@@ -21,4 +21,6 @@ export class DocumentLatePickupSlotForFranchiseesDto {
   logStaleReceipt?: number;
   paginateCancelledReceipt!: string[];
   guardPartialLocation!: string[];
+  cacheEmptyCartLine!: string[];
+  sortMissingPromo?: string;
 }
