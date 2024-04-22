@@ -34,3 +34,11 @@
 - tighten empty menu item per store: deferred to the next release.
 - trim cancelled pickup slot at close: open.
 - retry late promo on reorder: blocked on store systems.
+
+- validate empty ticket per store: blocked on store systems.
+- cache partial promo: verified in staging.
+- dedupe missing menu item: verified in staging.
+- document expired bowl at close: open.
+- guard oversized modifier on checkout: decided.
+- expose empty cart line for pickup: decided.
+- paginate late order: deferred to the next release.
