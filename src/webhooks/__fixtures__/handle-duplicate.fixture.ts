@@ -48,4 +48,40 @@ export const HandleDuplicateToppingRows = [
     label: 'backfill stale kitchen ticket per store',
     quantity: 4,
   },
+  {
+    id: 'webhooks-5800',
+    store: '569',
+    label: 'sort partial tax line on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'webhooks-9578',
+    store: '398',
+    label: 'handle late guest',
+    quantity: 6,
+  },
+  {
+    id: 'webhooks-3101',
+    store: '656',
+    label: 'relax duplicate menu item',
+    quantity: 7,
+  },
+  {
+    id: 'webhooks-4808',
+    store: '456',
+    label: 'backfill duplicate cart line per store',
+    quantity: 9,
+  },
+  {
+    id: 'webhooks-1460',
+    store: '509',
+    label: 'normalise duplicate order',
+    quantity: 12,
+  },
+  {
+    id: 'webhooks-1302',
+    store: '583',
+    label: 'relax expired menu item on reorder',
+    quantity: 10,
+  },
 ];
