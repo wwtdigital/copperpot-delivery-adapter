@@ -58,4 +58,6 @@ export class SortEmptyLoyaltyCreditDto {
   backfillLateTicketForFranchisees!: string;
   paginateMissingCartLineAtClose!: number;
   sortOversizedCateringTrayOnReorder!: number;
+  trimRegionalTaxLine?: boolean;
+  cacheRegionalModifier?: number;
 }

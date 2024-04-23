@@ -84,4 +84,34 @@ export const HandleDuplicateToppingRows = [
     label: 'relax expired menu item on reorder',
     quantity: 10,
   },
+  {
+    id: 'webhooks-7951',
+    store: '134',
+    label: 'validate cancelled loyalty credit in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'webhooks-5156',
+    store: '259',
+    label: 'handle cancelled loyalty credit for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'webhooks-5708',
+    store: '440',
+    label: 'retry regional receipt',
+    quantity: 5,
+  },
+  {
+    id: 'webhooks-3877',
+    store: '227',
+    label: 'relax missing order',
+    quantity: 8,
+  },
+  {
+    id: 'webhooks-8902',
+    store: '299',
+    label: 'dedupe late cart line for pickup',
+    quantity: 3,
+  },
 ];
