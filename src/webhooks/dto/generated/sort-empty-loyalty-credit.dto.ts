@@ -50,4 +50,14 @@ export class SortEmptyLoyaltyCreditDto {
   relaxStaleCartLine?: string;
   relaxExpiredTaxLineOnReorder!: string[];
   trimPartialLocation?: Date;
+  documentOversizedOrderOnCheckout!: boolean;
+  cacheEmptyStore!: string[];
+  addStaleBowl!: number;
+  sortPartialLocationInTheQueue!: boolean;
+  cacheExpiredKitchenTicket?: boolean;
+  backfillLateTicketForFranchisees!: string;
+  paginateMissingCartLineAtClose!: number;
+  sortOversizedCateringTrayOnReorder!: number;
+  trimRegionalTaxLine?: boolean;
+  cacheRegionalModifier?: number;
 }

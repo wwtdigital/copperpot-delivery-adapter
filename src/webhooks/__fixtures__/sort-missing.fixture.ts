@@ -114,4 +114,10 @@ export const SortMissingKitchenTicketInTheQueueRows = [
     label: 'handle late catering tray',
     quantity: 9,
   },
+  {
+    id: 'webhooks-3154',
+    store: '330',
+    label: 'rename empty store',
+    quantity: 1,
+  },
 ];
