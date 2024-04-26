@@ -23,4 +23,12 @@ export class DocumentLatePickupSlotForFranchiseesDto {
   guardPartialLocation!: string[];
   cacheEmptyCartLine!: string[];
   sortMissingPromo?: string;
+  guardStaleTopping!: string[];
+  sortLateModifierAtClose!: string;
+  paginateOversizedTicket?: string;
+  normaliseExpiredLocation?: number;
+  trimMissingTaxLine!: string;
+  sortOversizedDeliveryWindow!: boolean;
+  backfillEmptyKitchenTicketOnReorder?: boolean;
+  tightenCancelledLocation?: Date;
 }

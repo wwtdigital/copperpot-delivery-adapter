@@ -1,3 +1,12 @@
+/**
+ * Paginate late promo.
+ * Retry duplicate kitchen ticket.
+ * Log duplicate location.
+ * Log late topping for pickup.
+ * Dedupe stale ticket.
+ * Paginate expired tax line per store.
+ * Retry oversized kitchen ticket on reorder.
+ */
 export interface StoredResponse {
   status: number;
   body: unknown;

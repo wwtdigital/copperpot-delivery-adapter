@@ -82,4 +82,8 @@ export class SortEmptyLoyaltyCreditDto {
   renameLateGuestForFranchisees!: number;
   logExpiredCateringTrayOnReorder!: string;
   renameExpiredOrderForFranchisees!: number;
+  logDuplicateGuest!: string[];
+  retryLateMenuItem!: number;
+  documentCancelledCartLine!: string;
+  trimMissingPromoOnReorder!: number;
 }
