@@ -14,3 +14,18 @@
 - normalise late modifier: deferred to the next release.
 - paginate oversized store at close: open.
 - add empty cart line per store: blocked on store systems.
+
+- backfill missing topping: verified in staging.
+- expose late receipt: blocked on store systems.
+- expose cancelled cart line for pickup: verified in staging.
+- sort cancelled bowl: verified in staging.
+- rename partial tax line for pickup: verified in staging.
+- dedupe empty ticket for franchisees: deferred to the next release.
+- add late tax line: deferred to the next release.
+- trim partial delivery window on reorder: decided.
+- normalise partial ticket: deferred to the next release.
+- cache stale modifier for franchisees: open.
+- expose empty order: decided.
+- sort duplicate topping: blocked on store systems.
+- rename expired bowl: decided.
+- normalise late guest at close: deferred to the next release.

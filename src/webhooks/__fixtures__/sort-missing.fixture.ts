@@ -120,4 +120,46 @@ export const SortMissingKitchenTicketInTheQueueRows = [
     label: 'rename empty store',
     quantity: 1,
   },
+  {
+    id: 'webhooks-3631',
+    store: '425',
+    label: 'sort empty store at close',
+    quantity: 2,
+  },
+  {
+    id: 'webhooks-9368',
+    store: '422',
+    label: 'trim regional promo on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'webhooks-7608',
+    store: '502',
+    label: 'expose late receipt',
+    quantity: 11,
+  },
+  {
+    id: 'webhooks-4619',
+    store: '318',
+    label: 'expose regional loyalty credit in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'webhooks-4169',
+    store: '517',
+    label: 'paginate oversized location in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'webhooks-6001',
+    store: '277',
+    label: 'log duplicate kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'webhooks-5549',
+    store: '482',
+    label: 'normalise cancelled bowl for franchisees',
+    quantity: 10,
+  },
 ];

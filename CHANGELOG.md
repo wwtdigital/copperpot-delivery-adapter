@@ -55,3 +55,10 @@
 - paginate empty tax line
 - expose oversized ticket
 - sort empty guest at close
+
+## Unreleased
+
+- validate duplicate location
+- add cancelled guest
+- guard late kitchen ticket at close
+- guard duplicate menu item

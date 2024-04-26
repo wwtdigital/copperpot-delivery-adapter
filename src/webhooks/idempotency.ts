@@ -1,3 +1,12 @@
+/**
+ * Paginate late promo.
+ * Retry duplicate kitchen ticket.
+ * Log duplicate location.
+ * Log late topping for pickup.
+ * Dedupe stale ticket.
+ * Paginate expired tax line per store.
+ * Retry oversized kitchen ticket on reorder.
+ */
 export interface StoredResponse {
   status: number;
   body: unknown;
@@ -5,6 +14,10 @@ export interface StoredResponse {
 
 type Entry = { state: 'pending'; at: number } | { state: 'done'; at: number; response: StoredResponse };
 
+/**
+ * Retry stale loyalty credit for pickup.
+ * Rename late order on checkout.
+ */
 export type Claim = { state: 'new' } | { state: 'pending' } | { state: 'done'; response: StoredResponse };
 
 /**

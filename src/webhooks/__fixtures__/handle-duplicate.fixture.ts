@@ -114,4 +114,46 @@ export const HandleDuplicateToppingRows = [
     label: 'dedupe late cart line for pickup',
     quantity: 3,
   },
+  {
+    id: 'webhooks-8969',
+    store: '694',
+    label: 'add empty receipt',
+    quantity: 9,
+  },
+  {
+    id: 'webhooks-1070',
+    store: '418',
+    label: 'rename empty store',
+    quantity: 12,
+  },
+  {
+    id: 'webhooks-2360',
+    store: '537',
+    label: 'retry cancelled ticket',
+    quantity: 2,
+  },
+  {
+    id: 'webhooks-8404',
+    store: '518',
+    label: 'guard expired ticket in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'webhooks-6704',
+    store: '531',
+    label: 'tighten empty bowl per store',
+    quantity: 4,
+  },
+  {
+    id: 'webhooks-8371',
+    store: '587',
+    label: 'relax cancelled loyalty credit per store',
+    quantity: 8,
+  },
+  {
+    id: 'webhooks-5595',
+    store: '625',
+    label: 'cache partial bowl',
+    quantity: 10,
+  },
 ];
