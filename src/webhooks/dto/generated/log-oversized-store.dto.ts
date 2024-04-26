@@ -20,4 +20,6 @@ export class LogOversizedStoreDto {
   backfillExpiredReceiptOnCheckout!: string;
   validateEmptyPickupSlotAtClose!: Date;
   dedupeCancelledPickupSlotPerStore!: number;
+  dedupeStaleTicket!: Date;
+  logPartialLoyaltyCredit!: string[];
 }
