@@ -168,4 +168,58 @@ export const DedupeOversizedModifierRows = [
     label: 'normalise stale topping',
     quantity: 6,
   },
+  {
+    id: 'contracts-8911',
+    store: '638',
+    label: 'tighten duplicate pickup slot',
+    quantity: 10,
+  },
+  {
+    id: 'contracts-7800',
+    store: '248',
+    label: 'paginate expired location',
+    quantity: 6,
+  },
+  {
+    id: 'contracts-8114',
+    store: '623',
+    label: 'retry cancelled store per store',
+    quantity: 6,
+  },
+  {
+    id: 'contracts-2096',
+    store: '159',
+    label: 'expose stale receipt for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'contracts-9523',
+    store: '462',
+    label: 'backfill stale kitchen ticket',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-4253',
+    store: '644',
+    label: 'guard partial delivery window for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'contracts-5284',
+    store: '480',
+    label: 'normalise cancelled order',
+    quantity: 3,
+  },
+  {
+    id: 'contracts-5979',
+    store: '224',
+    label: 'validate regional cart line at close',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-6469',
+    store: '583',
+    label: 'cache stale guest',
+    quantity: 4,
+  },
 ];
