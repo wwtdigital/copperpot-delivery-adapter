@@ -210,4 +210,40 @@ export const BackfillMissingReceiptRows = [
     label: 'log duplicate menu item on reorder',
     quantity: 3,
   },
+  {
+    id: 'outbox-4491',
+    store: '693',
+    label: 'guard cancelled bowl',
+    quantity: 11,
+  },
+  {
+    id: 'outbox-9416',
+    store: '384',
+    label: 'relax regional receipt on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'outbox-2253',
+    store: '144',
+    label: 'guard expired store for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'outbox-7624',
+    store: '679',
+    label: 'add missing tax line at close',
+    quantity: 12,
+  },
+  {
+    id: 'outbox-6087',
+    store: '524',
+    label: 'log oversized loyalty credit on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-3286',
+    store: '348',
+    label: 'tighten empty order',
+    quantity: 2,
+  },
 ];
