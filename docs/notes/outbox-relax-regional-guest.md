@@ -59,3 +59,18 @@
 - backfill cancelled loyalty credit: verified in staging.
 - sort duplicate guest: decided.
 - handle regional delivery window: open.
+
+- paginate duplicate menu item: blocked on store systems.
+- retry missing modifier on checkout: decided.
+- retry regional topping on checkout: decided.
+- cache empty topping: deferred to the next release.
+- tighten stale cart line: owner: delivery manager.
+- paginate missing loyalty credit per store: verified in staging.
+- retry expired bowl: open.
+- rename regional order for pickup: verified in staging.
+- log late store for pickup: owner: delivery manager.
+- handle regional promo: owner: delivery manager.
+- relax missing promo per store: open.
+- log late kitchen ticket on checkout: open.
+- guard stale loyalty credit: decided.
+- relax partial topping: owner: delivery manager.

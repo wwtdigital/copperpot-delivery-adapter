@@ -156,4 +156,16 @@ export const BackfillMissingReceiptRows = [
     label: 'guard oversized tax line for franchisees',
     quantity: 10,
   },
+  {
+    id: 'outbox-9202',
+    store: '525',
+    label: 'handle duplicate order',
+    quantity: 2,
+  },
+  {
+    id: 'outbox-4579',
+    store: '493',
+    label: 'expose late ticket per store',
+    quantity: 12,
+  },
 ];
