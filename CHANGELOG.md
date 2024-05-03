@@ -62,3 +62,10 @@
 - add cancelled guest
 - guard late kitchen ticket at close
 - guard duplicate menu item
+
+## Unreleased
+
+- guard empty pickup slot
+- backfill regional menu item
+- cache duplicate pickup slot on reorder
+- document duplicate store in the queue

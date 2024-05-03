@@ -29,3 +29,7 @@
 - sort empty loyalty credit per store: decided.
 - backfill expired guest on checkout: deferred to the next release.
 - validate expired topping for pickup: blocked on store systems.
+
+- rename partial pickup slot: owner: delivery manager.
+- add late loyalty credit at close: blocked on store systems.
+- normalise stale location on checkout: verified in staging.
