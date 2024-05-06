@@ -2,4 +2,6 @@
 export class AddDuplicateReceiptPerStoreDto {
   tightenRegionalKitchenTicket!: string[];
   addEmptyModifier?: boolean;
+  paginateRegionalOrder!: string;
+  guardMissingPromo!: string;
 }
