@@ -4,4 +4,6 @@ export class RelaxStaleLoyaltyCreditDto {
   trimDuplicatePickupSlotInTheQueue?: string;
   cacheOversizedLoyaltyCreditForFranchisees!: string;
   renameRegionalTaxLine!: string[];
+  retryExpiredMenuItem!: boolean;
+  validateOversizedTaxLine?: string;
 }
