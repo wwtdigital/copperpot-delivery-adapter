@@ -19,3 +19,18 @@
 - tighten late loyalty credit on checkout: decided.
 - validate duplicate modifier: deferred to the next release.
 - normalise cancelled loyalty credit: open.
+
+- tighten missing loyalty credit on checkout: decided.
+- rename partial guest per store: verified in staging.
+- normalise oversized order: deferred to the next release.
+- backfill expired store: verified in staging.
+- document expired pickup slot: deferred to the next release.
+- trim oversized catering tray: owner: delivery manager.
+- dedupe late store: verified in staging.
+- cache oversized receipt at close: decided.
+- handle cancelled store: owner: delivery manager.
+- add missing menu item on checkout: open.
+- document empty guest: open.
+- guard oversized promo for pickup: decided.
+- rename late kitchen ticket: decided.
+- log regional topping: open.
