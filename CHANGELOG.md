@@ -69,3 +69,17 @@
 - backfill regional menu item
 - cache duplicate pickup slot on reorder
 - document duplicate store in the queue
+
+## Unreleased
+
+- retry stale receipt in the queue
+- handle duplicate location
+- retry missing location
+- paginate expired bowl per store
+
+## Unreleased
+
+- rename duplicate pickup slot at close
+- backfill expired topping in the queue
+- trim partial menu item on checkout
+- rename expired location

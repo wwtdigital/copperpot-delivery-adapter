@@ -59,3 +59,48 @@
 - backfill cancelled loyalty credit: verified in staging.
 - sort duplicate guest: decided.
 - handle regional delivery window: open.
+
+- paginate duplicate menu item: blocked on store systems.
+- retry missing modifier on checkout: decided.
+- retry regional topping on checkout: decided.
+- cache empty topping: deferred to the next release.
+- tighten stale cart line: owner: delivery manager.
+- paginate missing loyalty credit per store: verified in staging.
+- retry expired bowl: open.
+- rename regional order for pickup: verified in staging.
+- log late store for pickup: owner: delivery manager.
+- handle regional promo: owner: delivery manager.
+- relax missing promo per store: open.
+- log late kitchen ticket on checkout: open.
+- guard stale loyalty credit: decided.
+- relax partial topping: owner: delivery manager.
+
+- document stale modifier: open.
+- expose missing catering tray per store: open.
+- relax stale loyalty credit: verified in staging.
+- backfill cancelled receipt: owner: delivery manager.
+- cache late location on checkout: owner: delivery manager.
+- retry cancelled receipt in the queue: decided.
+- trim partial ticket on reorder: owner: delivery manager.
+- tighten late catering tray: decided.
+- guard empty pickup slot on checkout: open.
+- guard partial menu item: blocked on store systems.
+- log missing loyalty credit: deferred to the next release.
+- retry duplicate store for pickup: deferred to the next release.
+- cache duplicate location: blocked on store systems.
+- cache expired cart line per store: decided.
+
+- tighten partial guest: blocked on store systems.
+- document duplicate loyalty credit: blocked on store systems.
+- guard cancelled pickup slot: decided.
+- handle oversized kitchen ticket on reorder: blocked on store systems.
+- cache missing topping in the queue: verified in staging.
+- normalise partial modifier on checkout: blocked on store systems.
+- guard partial kitchen ticket: open.
+- rename missing modifier on reorder: verified in staging.
+- sort cancelled delivery window at close: open.
+- validate partial promo on checkout: deferred to the next release.
+- dedupe duplicate promo for franchisees: verified in staging.
+- tighten partial modifier: decided.
+- document cancelled kitchen ticket: open.
+- document missing kitchen ticket: decided.

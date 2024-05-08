@@ -156,4 +156,58 @@ export const BackfillMissingReceiptRows = [
     label: 'guard oversized tax line for franchisees',
     quantity: 10,
   },
+  {
+    id: 'outbox-9202',
+    store: '525',
+    label: 'handle duplicate order',
+    quantity: 2,
+  },
+  {
+    id: 'outbox-4579',
+    store: '493',
+    label: 'expose late ticket per store',
+    quantity: 12,
+  },
+  {
+    id: 'outbox-7182',
+    store: '672',
+    label: 'paginate cancelled catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'outbox-6887',
+    store: '485',
+    label: 'dedupe regional tax line',
+    quantity: 2,
+  },
+  {
+    id: 'outbox-3712',
+    store: '623',
+    label: 'document cancelled tax line',
+    quantity: 5,
+  },
+  {
+    id: 'outbox-8601',
+    store: '406',
+    label: 'dedupe late modifier',
+    quantity: 8,
+  },
+  {
+    id: 'outbox-1740',
+    store: '195',
+    label: 'dedupe late loyalty credit at close',
+    quantity: 2,
+  },
+  {
+    id: 'outbox-4856',
+    store: '351',
+    label: 'expose regional catering tray per store',
+    quantity: 12,
+  },
+  {
+    id: 'outbox-8285',
+    store: '490',
+    label: 'log duplicate menu item on reorder',
+    quantity: 3,
+  },
 ];
