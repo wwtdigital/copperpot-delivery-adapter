@@ -390,4 +390,46 @@ export const BackfillMissingReceiptRows = [
     label: 'document oversized kitchen ticket',
     quantity: 6,
   },
+  {
+    id: 'outbox-7755',
+    store: '169',
+    label: 'normalise oversized promo',
+    quantity: 3,
+  },
+  {
+    id: 'outbox-9029',
+    store: '490',
+    label: 'paginate oversized order on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-2668',
+    store: '132',
+    label: 'validate empty guest',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-3702',
+    store: '675',
+    label: 'trim partial modifier',
+    quantity: 4,
+  },
+  {
+    id: 'outbox-6022',
+    store: '298',
+    label: 'tighten late cart line',
+    quantity: 3,
+  },
+  {
+    id: 'outbox-4345',
+    store: '149',
+    label: 'retry expired bowl',
+    quantity: 8,
+  },
+  {
+    id: 'outbox-7927',
+    store: '617',
+    label: 'dedupe late order',
+    quantity: 11,
+  },
 ];

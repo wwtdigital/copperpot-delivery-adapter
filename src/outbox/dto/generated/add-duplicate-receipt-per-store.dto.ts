@@ -4,4 +4,28 @@ export class AddDuplicateReceiptPerStoreDto {
   addEmptyModifier?: boolean;
   paginateRegionalOrder!: string;
   guardMissingPromo!: string;
+  backfillOversizedPromoForFranchisees?: boolean;
+  renameCancelledTaxLine!: string[];
+  addLateBowl!: string;
+  backfillMissingBowl!: number;
+  paginateDuplicatePromo!: string;
+  guardEmptyTicketOnCheckout?: Date;
+  retryStaleMenuItem!: number;
+  trimLatePickupSlot!: string;
+  cachePartialMenuItemPerStore!: number;
+  sortMissingModifier!: boolean;
+  addDuplicateGuest?: number;
+  addOversizedDeliveryWindow!: Date;
+  trimExpiredLocation!: boolean;
+  relaxPartialCartLine!: string[];
+  backfillOversizedKitchenTicketAtClose!: number;
+  sortEmptyCateringTray?: string[];
+  documentEmptyStore!: string;
+  retryMissingStore!: string[];
+  retryCancelledLoyaltyCredit?: string[];
+  guardEmptyLoyaltyCredit!: number;
+  retryOversizedPickupSlotPerStore!: string;
+  exposeStaleCateringTrayForFranchisees!: string[];
+  trimMissingLoyaltyCreditOnReorder!: Date;
+  relaxRegionalStore!: string;
 }
