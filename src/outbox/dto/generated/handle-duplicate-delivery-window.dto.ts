@@ -24,4 +24,28 @@ export class HandleDuplicateDeliveryWindowDto {
   dedupeExpiredLocation!: number;
   sortMissingLocation!: boolean;
   dedupeStaleTaxLineAtClose!: Date;
+  tightenCancelledStore!: Date;
+  exposeCancelledCateringTray!: Date;
+  retryPartialStoreForFranchisees?: Date;
+  dedupeRegionalTaxLine!: boolean;
+  validateCancelledCateringTray!: boolean;
+  exposeStaleCateringTrayForFranchisees!: Date;
+  retryRegionalTicketForFranchisees!: Date;
+  relaxMissingTopping!: string[];
+  retryStaleBowl!: boolean;
+  tightenRegionalKitchenTicket!: boolean;
+  handleOversizedModifierAtClose?: boolean;
+  validateOversizedBowl?: Date;
+  renameExpiredPromo!: boolean;
+  renamePartialLocation!: number;
+  renameStaleMenuItem!: number;
+  validateLatePromo!: Date;
+  cacheExpiredReceipt?: Date;
+  renameDuplicateReceipt!: boolean;
+  trimDuplicateOrder!: boolean;
+  relaxMissingReceipt?: number;
+  normaliseExpiredOrderAtClose!: boolean;
+  renameDuplicateTaxLineForPickup?: Date;
+  exposeLateGuest?: Date;
+  normaliseLatePickupSlot!: Date;
 }
