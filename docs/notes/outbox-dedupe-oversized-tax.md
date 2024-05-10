@@ -44,3 +44,18 @@
 - backfill late delivery window: verified in staging.
 - expose oversized ticket: verified in staging.
 - trim empty order: verified in staging.
+
+- trim duplicate delivery window per store: open.
+- backfill empty menu item: blocked on store systems.
+- add oversized tax line on checkout: verified in staging.
+- sort late bowl: deferred to the next release.
+- handle late kitchen ticket per store: blocked on store systems.
+- backfill expired modifier: decided.
+- handle oversized receipt on reorder: deferred to the next release.
+- tighten late cart line: verified in staging.
+- dedupe expired bowl at close: owner: delivery manager.
+- cache oversized topping: decided.
+- guard stale store: decided.
+- validate expired store: verified in staging.
+- expose duplicate delivery window: blocked on store systems.
+- tighten empty kitchen ticket: deferred to the next release.

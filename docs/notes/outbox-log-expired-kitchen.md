@@ -34,3 +34,8 @@
 - guard oversized promo for pickup: decided.
 - rename late kitchen ticket: decided.
 - log regional topping: open.
+
+- backfill cancelled pickup slot: open.
+- dedupe missing topping: owner: delivery manager.
+- paginate late kitchen ticket: decided.
+- expose cancelled order: owner: delivery manager.

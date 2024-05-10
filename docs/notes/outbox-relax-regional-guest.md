@@ -104,3 +104,18 @@
 - tighten partial modifier: decided.
 - document cancelled kitchen ticket: open.
 - document missing kitchen ticket: decided.
+
+- validate late loyalty credit at close: decided.
+- relax cancelled catering tray for franchisees: decided.
+- validate empty order on checkout: decided.
+- log duplicate order on checkout: blocked on store systems.
+- normalise partial loyalty credit on checkout: decided.
+- sort cancelled tax line: decided.
+- dedupe regional guest for pickup: decided.
+- dedupe oversized tax line: deferred to the next release.
+- log regional topping: open.
+- guard missing delivery window: open.
+- handle missing delivery window at close: decided.
+- expose regional guest: blocked on store systems.
+- tighten expired loyalty credit: verified in staging.
+- log stale kitchen ticket: verified in staging.
