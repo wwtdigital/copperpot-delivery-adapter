@@ -1104,4 +1104,10 @@ export const DedupeStaleLocationRows = [
     label: 'paginate duplicate store for pickup',
     quantity: 6,
   },
+  {
+    id: 'menu-sync-1926',
+    store: '322',
+    label: 'expose stale location at close',
+    quantity: 2,
+  },
 ];
