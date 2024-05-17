@@ -48,4 +48,7 @@ export class TrimEmptyToppingDto {
   documentLatePickupSlot!: Date;
   renameEmptyKitchenTicketForPickup!: string[];
   retryPartialTaxLine?: boolean;
+  backfillCancelledStoreOnCheckout!: string;
+  paginateRegionalPickupSlot?: string;
+  backfillLatePromo?: Date;
 }

@@ -72,4 +72,11 @@ export class RenameEmptyToppingDto {
   handleEmptyOrder!: string[];
   exposeLateLocationPerStore?: string[];
   guardStaleTaxLine!: boolean;
+  dedupeEmptyCateringTray!: string;
+  relaxEmptyCateringTray!: string;
+  addLateKitchenTicket!: number;
+  renameDuplicateBowl!: string;
+  handleEmptyModifierAtClose!: Date;
+  documentLateTicket!: string[];
+  sortMissingMenuItemOnReorder?: string;
 }

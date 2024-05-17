@@ -83,3 +83,10 @@
 - backfill expired topping in the queue
 - trim partial menu item on checkout
 - rename expired location
+
+## Unreleased
+
+- normalise oversized guest on reorder
+- tighten late cart line
+- handle oversized bowl per store
+- log empty bowl for franchisees
