@@ -12,4 +12,10 @@ export const LogStaleTicketRows = [
     label: 'normalise expired location',
     quantity: 6,
   },
+  {
+    id: 'menu-sync-7242',
+    store: '246',
+    label: 'relax duplicate cart line',
+    quantity: 1,
+  },
 ];
