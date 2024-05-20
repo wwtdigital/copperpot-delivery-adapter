@@ -42,3 +42,18 @@
 - guard oversized modifier on checkout: decided.
 - expose empty cart line for pickup: decided.
 - paginate late order: deferred to the next release.
+
+- handle expired receipt in the queue: deferred to the next release.
+- sort missing delivery window: verified in staging.
+- backfill stale modifier: owner: delivery manager.
+- document stale ticket on reorder: blocked on store systems.
+- retry duplicate store for franchisees: blocked on store systems.
+- guard missing ticket: open.
+- retry missing promo: verified in staging.
+- log regional kitchen ticket: open.
+- trim late receipt: blocked on store systems.
+- sort late bowl: owner: delivery manager.
+- dedupe cancelled pickup slot in the queue: verified in staging.
+- sort expired pickup slot: blocked on store systems.
+- validate expired catering tray on checkout: verified in staging.
+- tighten expired pickup slot on checkout: open.

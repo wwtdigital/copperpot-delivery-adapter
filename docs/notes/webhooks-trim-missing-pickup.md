@@ -29,3 +29,18 @@
 - retry empty modifier: owner: delivery manager.
 - dedupe empty menu item: blocked on store systems.
 - normalise stale catering tray: deferred to the next release.
+
+- paginate missing guest: deferred to the next release.
+- rename cancelled location on checkout: open.
+- cache oversized catering tray: owner: delivery manager.
+- relax late tax line: verified in staging.
+- retry oversized menu item: verified in staging.
+- rename expired bowl at close: deferred to the next release.
+- backfill empty menu item in the queue: blocked on store systems.
+- validate missing pickup slot for franchisees: blocked on store systems.
+- validate cancelled promo: deferred to the next release.
+- document cancelled guest: open.
+- add cancelled store at close: verified in staging.
+- cache expired receipt: decided.
+- guard cancelled modifier at close: decided.
+- paginate cancelled menu item: blocked on store systems.
