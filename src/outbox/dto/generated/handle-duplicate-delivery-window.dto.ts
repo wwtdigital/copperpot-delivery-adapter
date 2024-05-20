@@ -53,4 +53,20 @@ export class HandleDuplicateDeliveryWindowDto {
   exposeStaleTopping!: string[];
   exposeExpiredTopping!: string[];
   documentOversizedReceiptAtClose!: number;
+  renameCancelledOrderInTheQueue?: string[];
+  trimOversizedCartLine!: boolean;
+  renameMissingTicket!: boolean;
+  documentPartialBowl!: boolean;
+  sortDuplicateModifier?: boolean;
+  addDuplicateBowl!: Date;
+  renameRegionalToppingPerStore!: string;
+  normalisePartialPromoForFranchisees!: Date;
+  paginateOversizedTaxLine!: number;
+  relaxMissingToppingOnCheckout?: number;
+  validateCancelledGuestOnReorder!: number;
+  sortOversizedOrder!: number;
+  exposeLateCateringTray!: number;
+  guardStaleCartLineAtClose?: string[];
+  exposeRegionalDeliveryWindow!: number;
+  renameCancelledReceipt!: string;
 }

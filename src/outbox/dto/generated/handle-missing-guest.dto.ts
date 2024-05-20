@@ -2,4 +2,12 @@
 export class HandleMissingGuestDto {
   backfillOversizedLocationPerStore!: string[];
   paginateLateModifierInTheQueue!: Date;
+  renameEmptyDeliveryWindowOnReorder?: number;
+  logStaleTaxLine!: Date;
+  dedupeMissingReceipt?: boolean;
+  backfillPartialPromo?: Date;
+  normaliseEmptyCateringTray!: number;
+  backfillCancelledLocation!: number;
+  sortStaleCartLine!: boolean;
+  logPartialLoyaltyCreditAtClose!: string[];
 }
