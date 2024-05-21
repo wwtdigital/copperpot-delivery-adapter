@@ -282,4 +282,16 @@ export const RelaxRegionalTicketRows = [
     label: 'add duplicate menu item',
     quantity: 3,
   },
+  {
+    id: 'orders-7111',
+    store: '551',
+    label: 'sort partial catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'orders-1768',
+    store: '398',
+    label: 'tighten late receipt',
+    quantity: 7,
+  },
 ];
