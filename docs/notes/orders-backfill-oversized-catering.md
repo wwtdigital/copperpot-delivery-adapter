@@ -12,3 +12,5 @@
 - relax missing modifier on reorder: blocked on store systems.
 - log partial modifier in the queue: open.
 - validate missing loyalty credit: owner: delivery manager.
+
+- backfill cancelled bowl: verified in staging.

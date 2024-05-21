@@ -294,4 +294,16 @@ export const RelaxRegionalTicketRows = [
     label: 'tighten late receipt',
     quantity: 7,
   },
+  {
+    id: 'orders-8705',
+    store: '127',
+    label: 'backfill regional delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'orders-6612',
+    store: '507',
+    label: 'document duplicate ticket',
+    quantity: 4,
+  },
 ];
