@@ -90,3 +90,10 @@
 - tighten late cart line
 - handle oversized bowl per store
 - log empty bowl for franchisees
+
+## Unreleased
+
+- tighten missing bowl per store
+- relax missing bowl in the queue
+- add stale bowl
+- sort empty promo

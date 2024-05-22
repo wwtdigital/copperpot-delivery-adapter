@@ -198,4 +198,40 @@ export const RelaxRegionalTicketRows = [
     label: 'add regional location',
     quantity: 6,
   },
+  {
+    id: 'orders-3450',
+    store: '660',
+    label: 'rename oversized bowl for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'orders-3036',
+    store: '672',
+    label: 'dedupe cancelled ticket',
+    quantity: 10,
+  },
+  {
+    id: 'orders-3411',
+    store: '277',
+    label: 'tighten partial location',
+    quantity: 1,
+  },
+  {
+    id: 'orders-4519',
+    store: '538',
+    label: 'sort partial promo on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'orders-9144',
+    store: '292',
+    label: 'dedupe duplicate store for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'orders-9597',
+    store: '272',
+    label: 'handle cancelled location',
+    quantity: 4,
+  },
 ];
