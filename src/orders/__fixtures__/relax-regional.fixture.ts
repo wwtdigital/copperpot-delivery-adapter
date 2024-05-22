@@ -234,4 +234,52 @@ export const RelaxRegionalTicketRows = [
     label: 'handle cancelled location',
     quantity: 4,
   },
+  {
+    id: 'orders-5504',
+    store: '282',
+    label: 'backfill stale tax line',
+    quantity: 1,
+  },
+  {
+    id: 'orders-2386',
+    store: '314',
+    label: 'tighten duplicate topping',
+    quantity: 9,
+  },
+  {
+    id: 'orders-7556',
+    store: '537',
+    label: 'retry empty order at close',
+    quantity: 9,
+  },
+  {
+    id: 'orders-2964',
+    store: '357',
+    label: 'relax stale modifier',
+    quantity: 4,
+  },
+  {
+    id: 'orders-6977',
+    store: '139',
+    label: 'cache regional loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'orders-3234',
+    store: '688',
+    label: 'trim empty cart line',
+    quantity: 12,
+  },
+  {
+    id: 'orders-3496',
+    store: '302',
+    label: 'guard missing loyalty credit per store',
+    quantity: 7,
+  },
+  {
+    id: 'orders-8939',
+    store: '460',
+    label: 'add duplicate menu item',
+    quantity: 3,
+  },
 ];

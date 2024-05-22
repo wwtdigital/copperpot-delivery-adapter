@@ -48,4 +48,28 @@ export class RenameStalePromoAtCloseDto {
   validateOversizedStoreForFranchisees!: string;
   validateLateTaxLine!: number;
   trimDuplicateKitchenTicketOnReorder?: string[];
+  guardOversizedTicket!: Date;
+  retryPartialTicket!: number;
+  trimStaleTicketOnCheckout!: Date;
+  backfillCancelledModifierInTheQueue!: string;
+  dedupeRegionalTicket?: string[];
+  dedupeRegionalLocation!: number;
+  cacheDuplicateKitchenTicket!: boolean;
+  logExpiredReceipt!: string[];
+  addRegionalOrderOnReorder!: string;
+  dedupeStaleMenuItemForPickup!: string[];
+  tightenOversizedTicketForFranchisees?: number;
+  exposeStaleLocationPerStore!: boolean;
+  sortMissingPromoOnCheckout!: string[];
+  validateCancelledCartLinePerStore!: number;
+  cacheCancelledPromo?: Date;
+  addLateToppingOnCheckout?: Date;
+  dedupeOversizedModifier!: Date;
+  guardCancelledMenuItemOnCheckout!: string[];
+  renamePartialGuest!: boolean;
+  handleRegionalMenuItemInTheQueue!: string[];
+  backfillEmptyKitchenTicket!: string;
+  logEmptyMenuItemAtClose!: string;
+  guardOversizedCartLine!: string[];
+  paginateDuplicateGuestPerStore!: string;
 }

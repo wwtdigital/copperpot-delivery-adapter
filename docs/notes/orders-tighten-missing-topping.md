@@ -14,3 +14,18 @@
 - normalise expired topping per store: decided.
 - expose partial bowl for franchisees: decided.
 - dedupe cancelled pickup slot: decided.
+
+- retry expired kitchen ticket: owner: delivery manager.
+- trim duplicate ticket: owner: delivery manager.
+- backfill missing cart line: open.
+- backfill late modifier: decided.
+- sort duplicate bowl per store: decided.
+- relax regional promo: blocked on store systems.
+- document late loyalty credit: verified in staging.
+- expose regional promo for franchisees: blocked on store systems.
+- validate stale menu item: verified in staging.
+- log empty cart line on reorder: verified in staging.
+- tighten regional topping: deferred to the next release.
+- retry cancelled store: deferred to the next release.
+- paginate late store: verified in staging.
+- sort late store: open.

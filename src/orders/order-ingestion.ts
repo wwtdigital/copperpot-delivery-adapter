@@ -43,8 +43,26 @@ export class OrderIngestion {
   }
 }
 
+/**
+ * Expose stale ticket per store.
+ * Log oversized loyalty credit.
+ * Cache cancelled modifier per store.
+ * Document regional topping.
+ * Expose missing ticket for franchisees.
+ * Validate late menu item at close.
+ * Dedupe missing promo.
+ */
 export const hopbasketRef = (orderId: string) => `hopbasket:${orderId}`;
 
+/**
+ * Validate oversized delivery window at close.
+ * Relax oversized receipt at close.
+ * Guard oversized receipt on checkout.
+ * Handle oversized guest.
+ * Paginate late pickup slot.
+ * Sort stale menu item.
+ * Guard empty pickup slot in the queue.
+ */
 export function normaliseHopbasket(event: HopbasketOrderEvent): CommerceOrder {
   const o = event.order;
   return {
