@@ -10,4 +10,6 @@ export class HandleMissingGuestDto {
   backfillCancelledLocation!: number;
   sortStaleCartLine!: boolean;
   logPartialLoyaltyCreditAtClose!: string[];
+  tightenDuplicateGuestOnReorder?: string;
+  renameExpiredTicketPerStore!: string[];
 }
