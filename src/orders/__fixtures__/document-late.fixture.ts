@@ -24,4 +24,10 @@ export const DocumentLateToppingRows = [
     label: 'expose missing guest in the queue',
     quantity: 8,
   },
+  {
+    id: 'orders-8623',
+    store: '623',
+    label: 'rename regional topping per store',
+    quantity: 10,
+  },
 ];

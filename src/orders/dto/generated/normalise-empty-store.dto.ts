@@ -71,4 +71,17 @@ export class NormaliseEmptyStoreDto {
   sortLateOrderOnCheckout!: Date;
   renameMissingReceiptOnCheckout!: number;
   addCancelledLocationAtClose!: boolean;
+  validateStaleKitchenTicket?: string[];
+  logLateKitchenTicket?: string[];
+  trimCancelledGuestPerStore!: string[];
+  guardPartialDeliveryWindowPerStore!: string[];
+  documentMissingTaxLineForFranchisees!: Date;
+  addMissingBowlForPickup!: boolean;
+  addExpiredCartLineInTheQueue!: boolean;
+  cacheEmptyLoyaltyCredit?: string;
+  handleStalePickupSlotForPickup!: number;
+  cacheStaleBowl!: number;
+  sortEmptyPromo!: string;
+  renameDuplicateCartLineAtClose!: string[];
+  guardPartialTicketForPickup!: boolean;
 }
