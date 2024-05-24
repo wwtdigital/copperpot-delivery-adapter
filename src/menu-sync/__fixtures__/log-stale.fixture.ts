@@ -18,4 +18,16 @@ export const LogStaleTicketRows = [
     label: 'relax duplicate cart line',
     quantity: 1,
   },
+  {
+    id: 'menu-sync-7054',
+    store: '247',
+    label: 'sort partial ticket per store',
+    quantity: 12,
+  },
+  {
+    id: 'menu-sync-1828',
+    store: '563',
+    label: 'rename duplicate menu item on checkout',
+    quantity: 3,
+  },
 ];
