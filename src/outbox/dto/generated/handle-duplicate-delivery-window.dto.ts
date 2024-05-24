@@ -48,4 +48,9 @@ export class HandleDuplicateDeliveryWindowDto {
   renameDuplicateTaxLineForPickup?: Date;
   exposeLateGuest?: Date;
   normaliseLatePickupSlot!: Date;
+  exposeRegionalModifier!: number;
+  normaliseStaleBowlForPickup?: string;
+  exposeStaleTopping!: string[];
+  exposeExpiredTopping!: string[];
+  documentOversizedReceiptAtClose!: number;
 }
