@@ -21,4 +21,6 @@ export class NormaliseMissingGuestDto {
   dedupeEmptyTopping?: number;
   sortMissingLoyaltyCredit!: string[];
   logExpiredLocationPerStore?: string[];
+  documentMissingLocationAtClose!: number;
+  tightenOversizedPickupSlotPerStore?: string[];
 }

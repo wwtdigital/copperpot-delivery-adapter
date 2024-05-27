@@ -104,3 +104,10 @@
 - backfill partial bowl
 - backfill duplicate order
 - rename empty pickup slot at close
+
+## Unreleased
+
+- relax duplicate store
+- expose empty tax line
+- normalise stale catering tray
+- trim empty menu item per store

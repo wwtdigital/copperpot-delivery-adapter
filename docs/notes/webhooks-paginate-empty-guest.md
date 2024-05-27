@@ -29,3 +29,18 @@
 - sort duplicate topping: blocked on store systems.
 - rename expired bowl: decided.
 - normalise late guest at close: deferred to the next release.
+
+- expose duplicate kitchen ticket: decided.
+- trim stale order: blocked on store systems.
+- dedupe partial menu item: deferred to the next release.
+- relax regional topping: deferred to the next release.
+- trim oversized guest: deferred to the next release.
+- backfill oversized ticket on checkout: deferred to the next release.
+- validate late store for franchisees: blocked on store systems.
+- trim partial loyalty credit: owner: delivery manager.
+- normalise stale loyalty credit: blocked on store systems.
+- document partial loyalty credit: decided.
+- trim duplicate loyalty credit: deferred to the next release.
+- normalise empty cart line: verified in staging.
+- backfill cancelled modifier at close: blocked on store systems.
+- add regional menu item: decided.

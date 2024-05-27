@@ -162,4 +162,58 @@ export const SortMissingKitchenTicketInTheQueueRows = [
     label: 'normalise cancelled bowl for franchisees',
     quantity: 10,
   },
+  {
+    id: 'webhooks-4360',
+    store: '528',
+    label: 'rename stale modifier in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'webhooks-4624',
+    store: '554',
+    label: 'retry late catering tray for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'webhooks-2343',
+    store: '163',
+    label: 'document cancelled modifier for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'webhooks-9856',
+    store: '410',
+    label: 'handle cancelled ticket',
+    quantity: 10,
+  },
+  {
+    id: 'webhooks-8513',
+    store: '405',
+    label: 'handle cancelled cart line for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'webhooks-6954',
+    store: '585',
+    label: 'expose partial promo',
+    quantity: 7,
+  },
+  {
+    id: 'webhooks-2690',
+    store: '336',
+    label: 'tighten duplicate cart line',
+    quantity: 3,
+  },
+  {
+    id: 'webhooks-1003',
+    store: '284',
+    label: 'log missing topping',
+    quantity: 7,
+  },
+  {
+    id: 'webhooks-7078',
+    store: '694',
+    label: 'document partial location on checkout',
+    quantity: 6,
+  },
 ];
