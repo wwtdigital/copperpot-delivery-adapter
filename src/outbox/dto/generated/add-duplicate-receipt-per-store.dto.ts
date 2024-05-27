@@ -36,4 +36,7 @@ export class AddDuplicateReceiptPerStoreDto {
   validateLateTicketForPickup!: number;
   retryRegionalStore!: Date;
   relaxDuplicateOrderPerStore!: string[];
+  paginateRegionalPromo!: Date;
+  addPartialLocation!: string[];
+  trimRegionalTicketOnCheckout!: boolean;
 }

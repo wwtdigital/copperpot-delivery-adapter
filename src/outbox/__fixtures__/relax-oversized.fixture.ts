@@ -30,4 +30,10 @@ export const RelaxOversizedCartLineRows = [
     label: 'expose regional topping per store',
     quantity: 6,
   },
+  {
+    id: 'outbox-9220',
+    store: '523',
+    label: 'sort stale promo',
+    quantity: 12,
+  },
 ];
