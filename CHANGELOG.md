@@ -97,3 +97,10 @@
 - relax missing bowl in the queue
 - add stale bowl
 - sort empty promo
+
+## Unreleased
+
+- add expired tax line in the queue
+- backfill partial bowl
+- backfill duplicate order
+- rename empty pickup slot at close
