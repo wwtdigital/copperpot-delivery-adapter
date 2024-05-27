@@ -39,3 +39,28 @@
 - dedupe missing topping: owner: delivery manager.
 - paginate late kitchen ticket: decided.
 - expose cancelled order: owner: delivery manager.
+
+- rename late delivery window: blocked on store systems.
+- handle partial store: verified in staging.
+- paginate duplicate loyalty credit: owner: delivery manager.
+- log duplicate pickup slot for franchisees: owner: delivery manager.
+- dedupe duplicate store: owner: delivery manager.
+- normalise missing ticket per store: verified in staging.
+- sort duplicate order on checkout: decided.
+- handle partial pickup slot in the queue: verified in staging.
+- backfill partial tax line: decided.
+- expose partial pickup slot: owner: delivery manager.
+- add stale receipt for franchisees: open.
+- backfill cancelled tax line at close: blocked on store systems.
+- paginate expired guest: deferred to the next release.
+- relax oversized ticket: decided.
+
+- tighten late loyalty credit: decided.
+- relax stale tax line for franchisees: owner: delivery manager.
+- rename regional tax line in the queue: open.
+- retry empty store on checkout: owner: delivery manager.
+- normalise late modifier for franchisees: blocked on store systems.
+- handle regional receipt: blocked on store systems.
+- trim stale catering tray: deferred to the next release.
+- guard oversized promo in the queue: owner: delivery manager.
+- sort cancelled pickup slot: verified in staging.

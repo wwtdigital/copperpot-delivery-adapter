@@ -28,4 +28,15 @@ export class AddDuplicateReceiptPerStoreDto {
   exposeStaleCateringTrayForFranchisees!: string[];
   trimMissingLoyaltyCreditOnReorder!: Date;
   relaxRegionalStore!: string;
+  retryExpiredTicket!: string[];
+  dedupeEmptyPickupSlot!: string[];
+  dedupeExpiredCartLine!: boolean;
+  exposeRegionalBowlInTheQueue!: number;
+  logLateReceipt?: Date;
+  validateLateTicketForPickup!: number;
+  retryRegionalStore!: Date;
+  relaxDuplicateOrderPerStore!: string[];
+  paginateRegionalPromo!: Date;
+  addPartialLocation!: string[];
+  trimRegionalTicketOnCheckout!: boolean;
 }
