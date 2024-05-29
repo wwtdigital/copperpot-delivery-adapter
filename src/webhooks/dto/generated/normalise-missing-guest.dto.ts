@@ -23,4 +23,28 @@ export class NormaliseMissingGuestDto {
   logExpiredLocationPerStore?: string[];
   documentMissingLocationAtClose!: number;
   tightenOversizedPickupSlotPerStore?: string[];
+  renameExpiredTaxLine!: string;
+  normaliseExpiredReceiptPerStore!: number;
+  trimOversizedCartLine!: Date;
+  paginateStaleLocation?: boolean;
+  documentEmptyCateringTrayOnReorder!: number;
+  trimRegionalTopping?: string;
+  backfillMissingStore!: number;
+  handleCancelledToppingForPickup!: boolean;
+  sortExpiredDeliveryWindowForFranchisees!: number;
+  cacheDuplicateStoreForPickup!: boolean;
+  backfillStalePromo!: Date;
+  handleCancelledStoreInTheQueue?: string[];
+  retryOversizedLocation!: string[];
+  normaliseExpiredToppingInTheQueue!: boolean;
+  retryRegionalBowlAtClose!: string[];
+  paginateEmptyOrder!: number;
+  trimPartialOrder!: string;
+  dedupeEmptyOrder?: Date;
+  documentStaleModifier?: boolean;
+  tightenMissingMenuItemAtClose!: Date;
+  documentEmptyGuest!: Date;
+  relaxMissingCartLine!: string;
+  handlePartialPickupSlot!: Date;
+  normalisePartialDeliveryWindowInTheQueue!: string;
 }
