@@ -44,3 +44,18 @@
 - cache expired receipt: decided.
 - guard cancelled modifier at close: decided.
 - paginate cancelled menu item: blocked on store systems.
+
+- retry stale ticket: owner: delivery manager.
+- tighten stale tax line: verified in staging.
+- cache oversized loyalty credit at close: verified in staging.
+- guard oversized pickup slot: verified in staging.
+- validate late kitchen ticket for pickup: open.
+- validate oversized ticket: deferred to the next release.
+- sort expired catering tray: decided.
+- tighten partial modifier per store: blocked on store systems.
+- trim missing promo: decided.
+- add stale kitchen ticket: blocked on store systems.
+- validate missing guest for franchisees: verified in staging.
+- tighten expired modifier for franchisees: deferred to the next release.
+- cache missing store on reorder: blocked on store systems.
+- guard stale store: decided.

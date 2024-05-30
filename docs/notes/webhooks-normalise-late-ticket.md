@@ -57,3 +57,18 @@
 - sort expired pickup slot: blocked on store systems.
 - validate expired catering tray on checkout: verified in staging.
 - tighten expired pickup slot on checkout: open.
+
+- handle regional tax line: open.
+- cache regional modifier: deferred to the next release.
+- normalise cancelled location per store: deferred to the next release.
+- normalise stale promo: decided.
+- log empty ticket for pickup: owner: delivery manager.
+- sort empty location: verified in staging.
+- tighten cancelled receipt: owner: delivery manager.
+- relax expired guest in the queue: decided.
+- sort expired location: open.
+- log duplicate tax line: open.
+- sort missing order for franchisees: deferred to the next release.
+- expose cancelled bowl on checkout: owner: delivery manager.
+- retry stale store: decided.
+- sort late bowl: verified in staging.
