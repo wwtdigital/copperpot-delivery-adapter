@@ -69,4 +69,12 @@ export class HandleDuplicateDeliveryWindowDto {
   guardStaleCartLineAtClose?: string[];
   exposeRegionalDeliveryWindow!: number;
   renameCancelledReceipt!: string;
+  normaliseOversizedOrder!: string[];
+  backfillExpiredCartLineAtClose?: boolean;
+  addCancelledOrder!: string;
+  logDuplicateMenuItem?: string[];
+  sortExpiredReceiptInTheQueue!: number;
+  exposeDuplicateModifier?: Date;
+  dedupeOversizedKitchenTicket?: string;
+  renameLateTicket?: boolean;
 }
