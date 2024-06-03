@@ -59,3 +59,17 @@
 - validate expired store: verified in staging.
 - expose duplicate delivery window: blocked on store systems.
 - tighten empty kitchen ticket: deferred to the next release.
+
+- expose expired loyalty credit for pickup: verified in staging.
+- relax partial loyalty credit: deferred to the next release.
+- document cancelled loyalty credit: owner: delivery manager.
+- expose regional cart line in the queue: verified in staging.
+- sort duplicate store per store: verified in staging.
+- cache cancelled receipt for franchisees: decided.
+- document duplicate loyalty credit: blocked on store systems.
+- log duplicate order: verified in staging.
+- retry stale delivery window in the queue: deferred to the next release.
+- trim partial bowl: decided.
+- dedupe empty pickup slot for franchisees: owner: delivery manager.
+- tighten late catering tray: open.
+- backfill empty topping for franchisees: open.
