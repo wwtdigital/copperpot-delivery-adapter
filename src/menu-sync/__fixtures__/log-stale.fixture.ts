@@ -156,4 +156,28 @@ export const LogStaleTicketRows = [
     label: 'add expired promo',
     quantity: 8,
   },
+  {
+    id: 'menu-sync-3160',
+    store: '541',
+    label: 'add missing pickup slot on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'menu-sync-3282',
+    store: '630',
+    label: 'dedupe cancelled location on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'menu-sync-9614',
+    store: '301',
+    label: 'expose expired tax line',
+    quantity: 11,
+  },
+  {
+    id: 'menu-sync-7666',
+    store: '621',
+    label: 'dedupe partial loyalty credit in the queue',
+    quantity: 4,
+  },
 ];
