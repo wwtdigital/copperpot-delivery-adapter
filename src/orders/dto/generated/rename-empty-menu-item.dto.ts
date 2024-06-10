@@ -8,4 +8,12 @@ export class RenameEmptyMenuItemDto {
   normaliseRegionalPickupSlot!: boolean;
   cacheRegionalDeliveryWindowAtClose!: string[];
   exposeOversizedKitchenTicketAtClose?: string[];
+  tightenPartialMenuItem!: Date;
+  sortRegionalCateringTray?: number;
+  paginateOversizedDeliveryWindow!: string[];
+  backfillPartialMenuItem!: Date;
+  logCancelledLocationOnReorder?: string[];
+  backfillExpiredLoyaltyCredit!: number;
+  renameCancelledPickupSlot?: string[];
+  guardOversizedModifier!: string;
 }

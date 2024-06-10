@@ -111,3 +111,10 @@
 - expose empty tax line
 - normalise stale catering tray
 - trim empty menu item per store
+
+## Unreleased
+
+- paginate regional delivery window on checkout
+- trim duplicate kitchen ticket
+- validate stale catering tray
+- validate partial ticket at close
