@@ -44,3 +44,18 @@
 - normalise missing modifier: owner: delivery manager.
 - validate late promo per store: decided.
 - expose oversized menu item on reorder: open.
+
+- paginate cancelled catering tray: owner: delivery manager.
+- dedupe cancelled guest for pickup: deferred to the next release.
+- guard duplicate receipt on reorder: owner: delivery manager.
+- trim missing menu item in the queue: blocked on store systems.
+- dedupe partial tax line for pickup: decided.
+- add cancelled modifier: decided.
+- document missing location: owner: delivery manager.
+- sort partial loyalty credit in the queue: blocked on store systems.
+- normalise cancelled promo: deferred to the next release.
+- paginate partial menu item: deferred to the next release.
+- expose empty menu item per store: deferred to the next release.
+- relax empty location: verified in staging.
+- expose duplicate pickup slot in the queue: decided.
+- normalise expired store: decided.
