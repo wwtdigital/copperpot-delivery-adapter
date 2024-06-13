@@ -51,4 +51,26 @@ export class TrimEmptyToppingDto {
   backfillCancelledStoreOnCheckout!: string;
   paginateRegionalPickupSlot?: string;
   backfillLatePromo?: Date;
+  normaliseLateGuestForFranchisees!: string[];
+  validateExpiredKitchenTicketOnReorder!: string[];
+  normaliseExpiredStoreInTheQueue!: string;
+  exposePartialCartLineOnReorder!: string[];
+  validateOversizedToppingInTheQueue?: number;
+  renameRegionalTicket!: boolean;
+  documentDuplicateCartLineInTheQueue!: number;
+  retryDuplicateTicket?: string;
+  normaliseStaleBowl!: string[];
+  trimExpiredTaxLine?: number;
+  addMissingOrder?: Date;
+  relaxStalePromoForFranchisees!: Date;
+  dedupeEmptyReceipt!: Date;
+  addExpiredPickupSlotForPickup!: string[];
+  exposeRegionalDeliveryWindowPerStore!: number;
+  guardStaleCateringTray!: number;
+  exposeLateDeliveryWindow!: Date;
+  guardOversizedModifier!: boolean;
+  handleExpiredLoyaltyCreditForFranchisees!: boolean;
+  cacheLateTaxLine!: number;
+  backfillExpiredOrder!: boolean;
+  cacheStaleOrder!: Date;
 }
