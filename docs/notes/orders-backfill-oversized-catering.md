@@ -14,3 +14,48 @@
 - validate missing loyalty credit: owner: delivery manager.
 
 - backfill cancelled bowl: verified in staging.
+
+- dedupe regional promo: owner: delivery manager.
+- retry expired tax line for pickup: deferred to the next release.
+- rename late order: blocked on store systems.
+- sort empty promo: verified in staging.
+- normalise cancelled location on reorder: owner: delivery manager.
+- log partial topping: decided.
+- sort oversized topping: decided.
+- sort missing menu item: open.
+- expose oversized guest: owner: delivery manager.
+- cache empty menu item: deferred to the next release.
+- handle expired location: blocked on store systems.
+- trim oversized ticket on checkout: blocked on store systems.
+- backfill duplicate receipt: verified in staging.
+- rename duplicate topping: deferred to the next release.
+
+- handle missing loyalty credit in the queue: decided.
+- expose empty bowl for pickup: decided.
+- backfill stale store on reorder: deferred to the next release.
+- log empty pickup slot at close: owner: delivery manager.
+- tighten stale guest: decided.
+- add late pickup slot on checkout: blocked on store systems.
+- handle cancelled topping on checkout: owner: delivery manager.
+- sort stale tax line: owner: delivery manager.
+- add stale pickup slot: verified in staging.
+- guard empty location: open.
+- relax late pickup slot: blocked on store systems.
+- normalise missing modifier: owner: delivery manager.
+- validate late promo per store: decided.
+- expose oversized menu item on reorder: open.
+
+- paginate cancelled catering tray: owner: delivery manager.
+- dedupe cancelled guest for pickup: deferred to the next release.
+- guard duplicate receipt on reorder: owner: delivery manager.
+- trim missing menu item in the queue: blocked on store systems.
+- dedupe partial tax line for pickup: decided.
+- add cancelled modifier: decided.
+- document missing location: owner: delivery manager.
+- sort partial loyalty credit in the queue: blocked on store systems.
+- normalise cancelled promo: deferred to the next release.
+- paginate partial menu item: deferred to the next release.
+- expose empty menu item per store: deferred to the next release.
+- relax empty location: verified in staging.
+- expose duplicate pickup slot in the queue: decided.
+- normalise expired store: decided.
