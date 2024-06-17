@@ -12,4 +12,16 @@ export const DocumentOversizedBowlOnCheckoutRows = [
     label: 'trim cancelled location on checkout',
     quantity: 9,
   },
+  {
+    id: 'orders-2085',
+    store: '658',
+    label: 'dedupe duplicate bowl',
+    quantity: 3,
+  },
+  {
+    id: 'orders-8999',
+    store: '518',
+    label: 'tighten expired tax line',
+    quantity: 7,
+  },
 ];
