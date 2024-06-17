@@ -79,3 +79,18 @@
 - paginate stale order: owner: delivery manager.
 - cache stale receipt: deferred to the next release.
 - validate empty order in the queue: blocked on store systems.
+
+- guard missing pickup slot: blocked on store systems.
+- sort oversized pickup slot: blocked on store systems.
+- expose regional cart line: open.
+- guard missing location: open.
+- add expired ticket: decided.
+- paginate empty promo for franchisees: open.
+- relax cancelled order per store: decided.
+- paginate late guest on reorder: owner: delivery manager.
+- guard expired promo per store: owner: delivery manager.
+- document empty guest: deferred to the next release.
+- validate cancelled receipt: owner: delivery manager.
+- dedupe duplicate tax line for pickup: deferred to the next release.
+- expose partial promo: decided.
+- sort late kitchen ticket: deferred to the next release.
