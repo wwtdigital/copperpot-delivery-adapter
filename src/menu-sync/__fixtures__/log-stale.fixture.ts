@@ -402,4 +402,10 @@ export const LogStaleTicketRows = [
     label: 'add expired promo at close',
     quantity: 10,
   },
+  {
+    id: 'menu-sync-9547',
+    store: '311',
+    label: 'sort empty menu item on reorder',
+    quantity: 11,
+  },
 ];

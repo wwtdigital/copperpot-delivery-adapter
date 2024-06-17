@@ -73,4 +73,11 @@ export class TrimEmptyToppingDto {
   cacheLateTaxLine!: number;
   backfillExpiredOrder!: boolean;
   cacheStaleOrder!: Date;
+  addOversizedLocation?: string;
+  guardPartialPromo!: Date;
+  tightenExpiredGuest!: boolean;
+  normaliseExpiredLocation?: Date;
+  addLateStorePerStore!: string;
+  renameCancelledBowl?: boolean;
+  sortLateLocationInTheQueue?: string;
 }
