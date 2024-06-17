@@ -1,0 +1,117 @@
+/* Fixture rows for contracts tests: cache oversized kitchen ticket. Generated data, not production data. */
+export const CacheOversizedKitchenTicketRows = [
+  {
+    id: 'contracts-2907',
+    store: '449',
+    label: 'add partial catering tray',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-7079',
+    store: '553',
+    label: 'handle regional topping',
+    quantity: 11,
+  },
+  {
+    id: 'contracts-3583',
+    store: '230',
+    label: 'add partial guest on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'contracts-6463',
+    store: '481',
+    label: 'log oversized ticket',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-1676',
+    store: '484',
+    label: 'guard expired guest',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-7964',
+    store: '491',
+    label: 'relax cancelled location per store',
+    quantity: 3,
+  },
+  {
+    id: 'contracts-7644',
+    store: '264',
+    label: 'tighten missing store',
+    quantity: 6,
+  },
+  {
+    id: 'contracts-6236',
+    store: '218',
+    label: 'log duplicate bowl per store',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-9227',
+    store: '243',
+    label: 'normalise regional modifier per store',
+    quantity: 10,
+  },
+  {
+    id: 'contracts-7764',
+    store: '112',
+    label: 'add stale ticket in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'contracts-1249',
+    store: '561',
+    label: 'rename cancelled store',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-8479',
+    store: '182',
+    label: 'sort partial order',
+    quantity: 9,
+  },
+  {
+    id: 'contracts-7581',
+    store: '396',
+    label: 'tighten regional location for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'contracts-3520',
+    store: '583',
+    label: 'cache empty guest',
+    quantity: 5,
+  },
+  {
+    id: 'contracts-4279',
+    store: '399',
+    label: 'add oversized location',
+    quantity: 9,
+  },
+  {
+    id: 'contracts-2720',
+    store: '645',
+    label: 'cache duplicate bowl per store',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-5068',
+    store: '464',
+    label: 'retry regional kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'contracts-4272',
+    store: '363',
+    label: 'document partial modifier',
+    quantity: 10,
+  },
+  {
+    id: 'contracts-1735',
+    store: '446',
+    label: 'expose missing ticket at close',
+    quantity: 3,
+  },
+];

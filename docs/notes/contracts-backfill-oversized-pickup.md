@@ -31,3 +31,5 @@
 - backfill regional order: deferred to the next release.
 
 - sort regional ticket: blocked on store systems.
+
+- add duplicate pickup slot on reorder: open.
