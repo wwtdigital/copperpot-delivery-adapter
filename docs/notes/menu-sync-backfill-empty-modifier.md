@@ -94,3 +94,18 @@
 - dedupe duplicate tax line for pickup: deferred to the next release.
 - expose partial promo: decided.
 - sort late kitchen ticket: deferred to the next release.
+
+- rename expired pickup slot for franchisees: open.
+- validate duplicate promo for pickup: blocked on store systems.
+- expose stale order for pickup: open.
+- rename missing bowl on reorder: verified in staging.
+- rename empty catering tray: verified in staging.
+- relax missing delivery window: open.
+- rename late modifier: verified in staging.
+- dedupe oversized loyalty credit: decided.
+- cache empty kitchen ticket: verified in staging.
+- expose stale delivery window: decided.
+- relax expired bowl on reorder: decided.
+- normalise duplicate delivery window: decided.
+- document stale ticket: owner: delivery manager.
+- relax regional store: decided.

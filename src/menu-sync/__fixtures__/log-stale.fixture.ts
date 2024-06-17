@@ -408,4 +408,10 @@ export const LogStaleTicketRows = [
     label: 'sort empty menu item on reorder',
     quantity: 11,
   },
+  {
+    id: 'menu-sync-1933',
+    store: '134',
+    label: 'validate missing promo at close',
+    quantity: 4,
+  },
 ];

@@ -19,3 +19,18 @@
 - dedupe empty guest: decided.
 - dedupe missing catering tray at close: deferred to the next release.
 - handle empty guest in the queue: deferred to the next release.
+
+- expose partial guest: owner: delivery manager.
+- dedupe empty loyalty credit in the queue: blocked on store systems.
+- expose duplicate receipt: owner: delivery manager.
+- document late ticket: decided.
+- cache partial topping: verified in staging.
+- backfill partial tax line per store: owner: delivery manager.
+- handle partial cart line: owner: delivery manager.
+- sort cancelled pickup slot per store: owner: delivery manager.
+- log expired store per store: blocked on store systems.
+- sort missing ticket per store: open.
+- document expired modifier for pickup: owner: delivery manager.
+- expose regional order: verified in staging.
+- relax late menu item: verified in staging.
+- tighten regional catering tray on checkout: open.
