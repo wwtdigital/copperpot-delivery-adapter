@@ -156,4 +156,10 @@ export const CacheRegionalCartLineRows = [
     label: 'paginate stale catering tray',
     quantity: 7,
   },
+  {
+    id: 'contracts-4662',
+    store: '249',
+    label: 'cache late kitchen ticket',
+    quantity: 1,
+  },
 ];

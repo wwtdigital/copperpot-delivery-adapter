@@ -118,3 +118,10 @@
 - trim duplicate kitchen ticket
 - validate stale catering tray
 - validate partial ticket at close
+
+## Unreleased
+
+- sort missing receipt
+- paginate oversized receipt on checkout
+- handle duplicate order
+- document regional receipt on reorder
