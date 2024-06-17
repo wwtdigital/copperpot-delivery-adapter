@@ -125,3 +125,10 @@
 - paginate oversized receipt on checkout
 - handle duplicate order
 - document regional receipt on reorder
+
+## Unreleased
+
+- rename missing order
+- add missing kitchen ticket
+- backfill regional loyalty credit at close
+- handle regional cart line

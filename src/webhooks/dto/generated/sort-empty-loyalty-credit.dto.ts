@@ -133,4 +133,19 @@ export class SortEmptyLoyaltyCreditDto {
   cacheDuplicateCartLineInTheQueue!: Date;
   trimDuplicateLoyaltyCreditOnReorder!: string[];
   sortLateReceipt?: string;
+  retryRegionalCartLineOnCheckout!: number;
+  retryMissingPickupSlot?: Date;
+  tightenOversizedCateringTray?: Date;
+  documentEmptyModifier!: Date;
+  documentExpiredLoyaltyCredit?: string[];
+  backfillEmptyToppingForFranchisees!: string[];
+  validateCancelledStore!: Date;
+  exposeExpiredOrder!: string;
+  exposeOversizedStore!: string[];
+  normaliseRegionalTopping!: boolean;
+  guardLateTaxLine!: number;
+  normaliseMissingGuest!: boolean;
+  validateOversizedReceipt!: string;
+  relaxDuplicateTicketOnCheckout!: string[];
+  cacheExpiredDeliveryWindowOnReorder?: string;
 }

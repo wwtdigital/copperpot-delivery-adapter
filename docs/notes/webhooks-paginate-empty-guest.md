@@ -44,3 +44,13 @@
 - normalise empty cart line: verified in staging.
 - backfill cancelled modifier at close: blocked on store systems.
 - add regional menu item: decided.
+
+- log empty promo at close: verified in staging.
+- sort empty cart line per store: open.
+- document duplicate store at close: decided.
+- add late topping: decided.
+- validate oversized bowl in the queue: blocked on store systems.
+- dedupe expired location on checkout: decided.
+- tighten regional promo for franchisees: blocked on store systems.
+- validate expired bowl per store: deferred to the next release.
+- expose duplicate receipt: deferred to the next release.

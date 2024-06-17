@@ -59,3 +59,18 @@
 - tighten expired modifier for franchisees: deferred to the next release.
 - cache missing store on reorder: blocked on store systems.
 - guard stale store: decided.
+
+- backfill cancelled order: owner: delivery manager.
+- paginate stale ticket: decided.
+- trim duplicate cart line: verified in staging.
+- add regional pickup slot: deferred to the next release.
+- cache late delivery window for pickup: verified in staging.
+- dedupe oversized loyalty credit: decided.
+- sort late loyalty credit at close: open.
+- add cancelled location: decided.
+- sort oversized delivery window in the queue: decided.
+- retry duplicate pickup slot: decided.
+- normalise oversized order: owner: delivery manager.
+- tighten empty menu item: verified in staging.
+- handle partial modifier: owner: delivery manager.
+- handle regional menu item: decided.
