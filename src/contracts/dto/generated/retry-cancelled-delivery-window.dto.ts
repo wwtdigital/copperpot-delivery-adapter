@@ -26,4 +26,6 @@ export class RetryCancelledDeliveryWindowDto {
   addCancelledLocation?: string;
   handleStaleTicket!: Date;
   cacheExpiredPromoForFranchisees!: number;
+  renameCancelledCartLine!: Date;
+  exposeOversizedCartLine?: Date;
 }
