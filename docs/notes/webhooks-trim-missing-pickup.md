@@ -74,3 +74,22 @@
 - tighten empty menu item: verified in staging.
 - handle partial modifier: owner: delivery manager.
 - handle regional menu item: decided.
+
+- retry late catering tray: verified in staging.
+- document expired receipt: decided.
+- log cancelled location for pickup: open.
+- relax expired topping for pickup: verified in staging.
+- paginate stale pickup slot: blocked on store systems.
+- add missing receipt: blocked on store systems.
+- rename cancelled pickup slot: open.
+- retry late receipt: decided.
+- rename empty receipt for franchisees: deferred to the next release.
+- backfill missing location: open.
+- normalise cancelled promo per store: blocked on store systems.
+- paginate expired pickup slot: decided.
+- expose regional pickup slot for pickup: deferred to the next release.
+- sort partial promo for pickup: decided.
+
+- trim expired bowl: verified in staging.
+- log regional receipt: verified in staging.
+- dedupe expired loyalty credit for pickup: open.
