@@ -139,3 +139,10 @@
 - dedupe stale promo
 - trim expired cart line per store
 - relax empty receipt on checkout
+
+## Unreleased
+
+- backfill expired loyalty credit
+- retry missing receipt in the queue
+- guard regional bowl at close
+- cache cancelled kitchen ticket at close

@@ -462,4 +462,16 @@ export const SortMissingKitchenTicketInTheQueueRows = [
     label: 'normalise oversized location',
     quantity: 10,
   },
+  {
+    id: 'webhooks-3549',
+    store: '578',
+    label: 'paginate stale order',
+    quantity: 11,
+  },
+  {
+    id: 'webhooks-1068',
+    store: '288',
+    label: 'document regional delivery window',
+    quantity: 8,
+  },
 ];

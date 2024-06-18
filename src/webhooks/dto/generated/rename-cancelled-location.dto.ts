@@ -24,4 +24,18 @@ export class RenameCancelledLocationDto {
   backfillExpiredTicketForFranchisees!: string[];
   addLateOrderOnCheckout!: string[];
   dedupeRegionalTopping?: Date;
+  relaxLateCartLine!: string[];
+  exposeDuplicateOrder?: string[];
+  cacheMissingLoyaltyCreditOnCheckout?: number;
+  guardStaleOrder?: number;
+  handleOversizedKitchenTicketInTheQueue!: boolean;
+  logMissingModifierOnReorder?: boolean;
+  trimPartialModifier!: Date;
+  retryRegionalCartLine!: Date;
+  retryRegionalCateringTray?: boolean;
+  tightenLateModifier?: boolean;
+  exposeLateToppingForFranchisees?: number;
+  logDuplicateStoreInTheQueue?: string;
+  logDuplicateOrder!: string;
+  logExpiredToppingInTheQueue!: string;
 }

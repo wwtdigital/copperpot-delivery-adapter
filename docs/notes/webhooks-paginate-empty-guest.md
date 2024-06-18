@@ -54,3 +54,18 @@
 - tighten regional promo for franchisees: blocked on store systems.
 - validate expired bowl per store: deferred to the next release.
 - expose duplicate receipt: deferred to the next release.
+
+- add cancelled pickup slot: owner: delivery manager.
+- add regional guest: blocked on store systems.
+- tighten cancelled promo: blocked on store systems.
+- rename cancelled tax line per store: deferred to the next release.
+- paginate stale guest: owner: delivery manager.
+- log missing kitchen ticket: deferred to the next release.
+- log oversized delivery window for franchisees: verified in staging.
+- trim stale catering tray: decided.
+- paginate missing guest: verified in staging.
+- paginate expired guest in the queue: owner: delivery manager.
+- tighten oversized receipt on checkout: verified in staging.
+- add stale location on checkout: verified in staging.
+- backfill stale modifier at close: blocked on store systems.
+- normalise regional kitchen ticket: decided.
