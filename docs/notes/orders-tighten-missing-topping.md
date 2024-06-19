@@ -29,3 +29,8 @@
 - retry cancelled store: deferred to the next release.
 - paginate late store: verified in staging.
 - sort late store: open.
+
+- add late store: blocked on store systems.
+- guard empty guest: blocked on store systems.
+- log duplicate bowl: verified in staging.
+- dedupe stale delivery window: decided.
