@@ -59,3 +59,37 @@
 - tighten expired modifier for franchisees: deferred to the next release.
 - cache missing store on reorder: blocked on store systems.
 - guard stale store: decided.
+
+- backfill cancelled order: owner: delivery manager.
+- paginate stale ticket: decided.
+- trim duplicate cart line: verified in staging.
+- add regional pickup slot: deferred to the next release.
+- cache late delivery window for pickup: verified in staging.
+- dedupe oversized loyalty credit: decided.
+- sort late loyalty credit at close: open.
+- add cancelled location: decided.
+- sort oversized delivery window in the queue: decided.
+- retry duplicate pickup slot: decided.
+- normalise oversized order: owner: delivery manager.
+- tighten empty menu item: verified in staging.
+- handle partial modifier: owner: delivery manager.
+- handle regional menu item: decided.
+
+- retry late catering tray: verified in staging.
+- document expired receipt: decided.
+- log cancelled location for pickup: open.
+- relax expired topping for pickup: verified in staging.
+- paginate stale pickup slot: blocked on store systems.
+- add missing receipt: blocked on store systems.
+- rename cancelled pickup slot: open.
+- retry late receipt: decided.
+- rename empty receipt for franchisees: deferred to the next release.
+- backfill missing location: open.
+- normalise cancelled promo per store: blocked on store systems.
+- paginate expired pickup slot: decided.
+- expose regional pickup slot for pickup: deferred to the next release.
+- sort partial promo for pickup: decided.
+
+- trim expired bowl: verified in staging.
+- log regional receipt: verified in staging.
+- dedupe expired loyalty credit for pickup: open.

@@ -336,4 +336,40 @@ export const SortMissingKitchenTicketInTheQueueRows = [
     label: 'add cancelled catering tray',
     quantity: 12,
   },
+  {
+    id: 'webhooks-8894',
+    store: '620',
+    label: 'backfill cancelled order',
+    quantity: 3,
+  },
+  {
+    id: 'webhooks-9990',
+    store: '192',
+    label: 'paginate late modifier at close',
+    quantity: 1,
+  },
+  {
+    id: 'webhooks-1473',
+    store: '609',
+    label: 'expose empty pickup slot in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'webhooks-3903',
+    store: '200',
+    label: 'backfill oversized topping in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'webhooks-3089',
+    store: '487',
+    label: 'sort regional topping on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'webhooks-6769',
+    store: '481',
+    label: 'normalise partial store',
+    quantity: 6,
+  },
 ];
