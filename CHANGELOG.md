@@ -132,3 +132,10 @@
 - add missing kitchen ticket
 - backfill regional loyalty credit at close
 - handle regional cart line
+
+## Unreleased
+
+- expose missing catering tray on checkout
+- dedupe stale promo
+- trim expired cart line per store
+- relax empty receipt on checkout

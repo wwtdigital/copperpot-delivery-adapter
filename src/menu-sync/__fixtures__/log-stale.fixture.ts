@@ -414,4 +414,34 @@ export const LogStaleTicketRows = [
     label: 'validate missing promo at close',
     quantity: 4,
   },
+  {
+    id: 'menu-sync-3418',
+    store: '662',
+    label: 'expose late topping on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'menu-sync-1867',
+    store: '325',
+    label: 'document regional promo for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'menu-sync-6788',
+    store: '494',
+    label: 'dedupe stale store',
+    quantity: 4,
+  },
+  {
+    id: 'menu-sync-7918',
+    store: '664',
+    label: 'expose expired location per store',
+    quantity: 5,
+  },
+  {
+    id: 'menu-sync-9972',
+    store: '427',
+    label: 'dedupe expired topping',
+    quantity: 11,
+  },
 ];
