@@ -28,4 +28,20 @@ export class RetryCancelledDeliveryWindowDto {
   cacheExpiredPromoForFranchisees!: number;
   renameCancelledCartLine!: Date;
   exposeOversizedCartLine?: Date;
+  logEmptyLoyaltyCredit?: number;
+  validateStaleGuestForPickup?: number;
+  renameLateModifier!: string[];
+  normaliseEmptyLocation!: boolean;
+  documentCancelledTaxLine?: string[];
+  retryDuplicateReceipt?: string;
+  exposeCancelledDeliveryWindowForPickup!: Date;
+  paginateExpiredDeliveryWindowInTheQueue?: boolean;
+  exposeOversizedCateringTray!: Date;
+  renameDuplicateCateringTrayForFranchisees?: boolean;
+  exposeOversizedToppingInTheQueue!: Date;
+  documentOversizedTaxLine!: number;
+  addMissingLoyaltyCredit?: string;
+  backfillMissingMenuItemPerStore!: boolean;
+  relaxEmptyKitchenTicket?: Date;
+  backfillExpiredLocation!: Date;
 }

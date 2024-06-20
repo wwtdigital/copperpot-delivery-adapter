@@ -180,4 +180,10 @@ export const CacheRegionalCartLineRows = [
     label: 'trim partial ticket',
     quantity: 1,
   },
+  {
+    id: 'contracts-9585',
+    store: '532',
+    label: 'add missing cart line',
+    quantity: 10,
+  },
 ];
