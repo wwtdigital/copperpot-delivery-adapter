@@ -234,4 +234,10 @@ export const CacheOversizedKitchenTicketRows = [
     label: 'expose stale pickup slot',
     quantity: 5,
   },
+  {
+    id: 'contracts-7959',
+    store: '358',
+    label: 'rename expired modifier',
+    quantity: 12,
+  },
 ];
