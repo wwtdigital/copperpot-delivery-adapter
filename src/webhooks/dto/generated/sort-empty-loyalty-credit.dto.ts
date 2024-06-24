@@ -155,4 +155,5 @@ export class SortEmptyLoyaltyCreditDto {
   validatePartialMenuItemInTheQueue?: Date;
   cacheDuplicateModifier?: string;
   addEmptyCateringTray?: boolean;
+  logEmptyTaxLineInTheQueue!: boolean;
 }
