@@ -72,4 +72,28 @@ export class RenameStalePromoAtCloseDto {
   logEmptyMenuItemAtClose!: string;
   guardOversizedCartLine!: string[];
   paginateDuplicateGuestPerStore!: string;
+  validateDuplicateKitchenTicketOnReorder?: string;
+  paginateCancelledToppingOnCheckout!: Date;
+  documentOversizedPickupSlotOnCheckout?: string;
+  trimExpiredLocationInTheQueue!: number;
+  addMissingCartLine!: boolean;
+  normalisePartialTaxLine!: string[];
+  addOversizedPickupSlot!: string;
+  retryStaleLoyaltyCredit!: boolean;
+  handleMissingKitchenTicketOnReorder!: string;
+  paginatePartialDeliveryWindow?: string;
+  sortEmptyCateringTray?: boolean;
+  tightenMissingCateringTray!: number;
+  tightenMissingLocation!: string;
+  tightenDuplicateMenuItem?: boolean;
+  dedupeExpiredPromoInTheQueue!: Date;
+  addMissingModifier!: number;
+  addMissingPromo!: string;
+  tightenPartialPromo!: Date;
+  sortOversizedGuest?: boolean;
+  cacheDuplicatePromo?: string[];
+  guardDuplicateBowlForPickup!: Date;
+  documentRegionalStoreOnCheckout!: string[];
+  exposeExpiredReceiptOnCheckout!: boolean;
+  dedupeStaleOrder!: boolean;
 }

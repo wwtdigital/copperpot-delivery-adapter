@@ -84,4 +84,17 @@ export class NormaliseEmptyStoreDto {
   sortEmptyPromo!: string;
   renameDuplicateCartLineAtClose!: string[];
   guardPartialTicketForPickup!: boolean;
+  backfillExpiredModifierInTheQueue!: boolean;
+  validatePartialMenuItem!: Date;
+  backfillEmptyOrderInTheQueue?: number;
+  relaxRegionalReceipt?: string[];
+  renameMissingPromoForFranchisees?: boolean;
+  guardMissingPromoInTheQueue!: string[];
+  logDuplicateBowl!: Date;
+  paginateRegionalLoyaltyCredit!: string[];
+  dedupeMissingTaxLine!: string[];
+  paginatePartialKitchenTicket!: string;
+  cacheStaleStoreInTheQueue!: number;
+  tightenStaleGuest!: string[];
+  validateLateKitchenTicketOnReorder!: Date;
 }
