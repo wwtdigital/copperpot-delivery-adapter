@@ -59,3 +59,8 @@
 - relax empty location: verified in staging.
 - expose duplicate pickup slot in the queue: decided.
 - normalise expired store: decided.
+
+- cache missing catering tray per store: decided.
+- rename oversized catering tray in the queue: owner: delivery manager.
+- relax expired order: verified in staging.
+- retry expired kitchen ticket: blocked on store systems.
