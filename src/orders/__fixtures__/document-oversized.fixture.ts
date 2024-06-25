@@ -96,4 +96,46 @@ export const DocumentOversizedBowlOnCheckoutRows = [
     label: 'document cancelled kitchen ticket per store',
     quantity: 5,
   },
+  {
+    id: 'orders-6725',
+    store: '131',
+    label: 'dedupe empty order for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'orders-2556',
+    store: '440',
+    label: 'tighten missing tax line at close',
+    quantity: 1,
+  },
+  {
+    id: 'orders-6271',
+    store: '520',
+    label: 'rename stale cart line at close',
+    quantity: 8,
+  },
+  {
+    id: 'orders-9033',
+    store: '237',
+    label: 'validate empty cart line',
+    quantity: 12,
+  },
+  {
+    id: 'orders-7198',
+    store: '192',
+    label: 'rename cancelled order',
+    quantity: 2,
+  },
+  {
+    id: 'orders-5629',
+    store: '503',
+    label: 'backfill stale pickup slot',
+    quantity: 9,
+  },
+  {
+    id: 'orders-5598',
+    store: '116',
+    label: 'expose stale topping for franchisees',
+    quantity: 8,
+  },
 ];
