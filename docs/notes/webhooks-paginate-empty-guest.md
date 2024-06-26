@@ -69,3 +69,33 @@
 - add stale location on checkout: verified in staging.
 - backfill stale modifier at close: blocked on store systems.
 - normalise regional kitchen ticket: decided.
+
+- sort duplicate ticket: decided.
+- log oversized tax line: owner: delivery manager.
+- retry regional delivery window per store: decided.
+- retry duplicate ticket: blocked on store systems.
+- rename expired location on checkout: open.
+- sort empty ticket: decided.
+- relax partial receipt: verified in staging.
+- rename empty order for franchisees: open.
+- add oversized loyalty credit: decided.
+- dedupe empty location: blocked on store systems.
+- handle empty guest: blocked on store systems.
+- guard empty location for franchisees: verified in staging.
+- cache cancelled order: verified in staging.
+- document cancelled bowl: blocked on store systems.
+
+- guard oversized tax line: open.
+- guard expired kitchen ticket: verified in staging.
+- paginate expired topping for franchisees: verified in staging.
+- relax late delivery window for franchisees: decided.
+- guard late receipt: deferred to the next release.
+- add missing ticket for pickup: deferred to the next release.
+- relax missing receipt: blocked on store systems.
+- expose stale pickup slot on reorder: owner: delivery manager.
+- cache cancelled kitchen ticket per store: deferred to the next release.
+- retry cancelled ticket: owner: delivery manager.
+- normalise duplicate order: open.
+- log cancelled menu item: decided.
+- sort stale location on reorder: deferred to the next release.
+- retry duplicate delivery window: deferred to the next release.
