@@ -2,4 +2,7 @@
 export class ValidateMissingOrderOnCheckoutDto {
   logPartialReceipt?: string;
   normaliseOversizedCateringTray!: string;
+  normaliseDuplicateLoyaltyCreditAtClose?: string;
+  documentLatePromoForPickup!: Date;
+  paginateExpiredPromo?: string;
 }

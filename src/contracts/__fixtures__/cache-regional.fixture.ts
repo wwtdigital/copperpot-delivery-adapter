@@ -186,4 +186,10 @@ export const CacheRegionalCartLineRows = [
     label: 'add missing cart line',
     quantity: 10,
   },
+  {
+    id: 'contracts-2238',
+    store: '352',
+    label: 'cache late modifier',
+    quantity: 12,
+  },
 ];
