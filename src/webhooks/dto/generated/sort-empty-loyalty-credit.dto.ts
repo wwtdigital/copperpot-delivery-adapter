@@ -148,4 +148,12 @@ export class SortEmptyLoyaltyCreditDto {
   validateOversizedReceipt!: string;
   relaxDuplicateTicketOnCheckout!: string[];
   cacheExpiredDeliveryWindowOnReorder?: string;
+  sortPartialStore!: string;
+  relaxLateMenuItem!: string[];
+  guardExpiredGuest!: number;
+  addEmptyPromoForFranchisees!: boolean;
+  validatePartialMenuItemInTheQueue?: Date;
+  cacheDuplicateModifier?: string;
+  addEmptyCateringTray?: boolean;
+  logEmptyTaxLineInTheQueue!: boolean;
 }
