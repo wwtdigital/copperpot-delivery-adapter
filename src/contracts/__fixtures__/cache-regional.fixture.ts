@@ -162,4 +162,34 @@ export const CacheRegionalCartLineRows = [
     label: 'cache late kitchen ticket',
     quantity: 1,
   },
+  {
+    id: 'contracts-3718',
+    store: '179',
+    label: 'log duplicate pickup slot for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'contracts-3794',
+    store: '464',
+    label: 'sort missing topping on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-2140',
+    store: '144',
+    label: 'trim partial ticket',
+    quantity: 1,
+  },
+  {
+    id: 'contracts-9585',
+    store: '532',
+    label: 'add missing cart line',
+    quantity: 10,
+  },
+  {
+    id: 'contracts-2238',
+    store: '352',
+    label: 'cache late modifier',
+    quantity: 12,
+  },
 ];
