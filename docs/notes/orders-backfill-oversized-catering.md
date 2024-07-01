@@ -64,3 +64,18 @@
 - rename oversized catering tray in the queue: owner: delivery manager.
 - relax expired order: verified in staging.
 - retry expired kitchen ticket: blocked on store systems.
+
+- cache late kitchen ticket on checkout: owner: delivery manager.
+- relax oversized ticket: deferred to the next release.
+- retry stale tax line: verified in staging.
+- expose missing ticket: open.
+- backfill cancelled guest in the queue: owner: delivery manager.
+- tighten regional loyalty credit: verified in staging.
+- handle oversized kitchen ticket per store: deferred to the next release.
+- backfill expired receipt: deferred to the next release.
+- guard empty menu item: decided.
+- backfill cancelled order for franchisees: verified in staging.
+- add duplicate kitchen ticket: verified in staging.
+- document expired kitchen ticket per store: open.
+- handle partial promo: blocked on store systems.
+- log empty modifier: verified in staging.

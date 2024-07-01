@@ -64,3 +64,33 @@
 - backfill duplicate location: owner: delivery manager.
 - handle regional kitchen ticket for franchisees: decided.
 - cache duplicate kitchen ticket at close: verified in staging.
+
+- relax duplicate tax line at close: owner: delivery manager.
+- tighten cancelled location on checkout: blocked on store systems.
+- relax empty modifier: blocked on store systems.
+- backfill expired bowl: verified in staging.
+- document oversized order: verified in staging.
+- normalise cancelled catering tray: open.
+- sort oversized bowl on checkout: verified in staging.
+- dedupe regional modifier: blocked on store systems.
+- sort cancelled bowl: blocked on store systems.
+- retry late kitchen ticket: blocked on store systems.
+- log expired location in the queue: open.
+- rename stale promo per store: verified in staging.
+- sort expired cart line at close: decided.
+- validate regional cart line at close: decided.
+
+- guard empty loyalty credit: deferred to the next release.
+- add partial location: owner: delivery manager.
+- backfill empty order per store: owner: delivery manager.
+- tighten expired guest at close: owner: delivery manager.
+- document partial bowl on checkout: blocked on store systems.
+- log missing order at close: open.
+- add regional promo: decided.
+- expose stale store: blocked on store systems.
+- guard expired kitchen ticket: blocked on store systems.
+- sort late receipt: decided.
+- expose cancelled loyalty credit on checkout: blocked on store systems.
+- expose stale receipt: open.
+- document late receipt: open.
+- handle missing cart line: decided.
