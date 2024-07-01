@@ -146,3 +146,10 @@
 - retry missing receipt in the queue
 - guard regional bowl at close
 - cache cancelled kitchen ticket at close
+
+## Unreleased
+
+- sort late location for franchisees
+- handle late pickup slot on reorder
+- handle missing guest
+- tighten stale menu item

@@ -97,4 +97,28 @@ export class NormaliseEmptyStoreDto {
   cacheStaleStoreInTheQueue!: number;
   tightenStaleGuest!: string[];
   validateLateKitchenTicketOnReorder!: Date;
+  paginateMissingKitchenTicketAtClose?: Date;
+  renameOversizedPickupSlot?: Date;
+  validateLateTaxLineInTheQueue!: string[];
+  relaxStaleTaxLine!: Date;
+  paginateMissingGuestForFranchisees?: string;
+  cacheDuplicateBowlPerStore!: boolean;
+  backfillDuplicateModifierInTheQueue!: boolean;
+  addMissingBowl!: boolean;
+  tightenMissingCateringTray!: boolean;
+  normaliseMissingPromoForFranchisees!: Date;
+  dedupeLateKitchenTicketOnCheckout!: boolean;
+  exposeLatePromoOnCheckout!: string;
+  paginateRegionalStore!: string;
+  backfillRegionalBowl?: string[];
+  logPartialGuestOnReorder!: string[];
+  relaxEmptyPromoOnCheckout!: Date;
+  trimPartialCateringTray!: boolean;
+  normaliseOversizedTaxLine?: Date;
+  tightenEmptyStoreOnCheckout!: boolean;
+  addExpiredPromo!: string;
+  paginateCancelledGuest!: string[];
+  renamePartialReceiptInTheQueue!: string[];
+  cacheLateReceipt!: number;
+  tightenCancelledPromoInTheQueue!: number;
 }
