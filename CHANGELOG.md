@@ -174,3 +174,17 @@
 - sort cancelled bowl on reorder
 - document stale order
 - add oversized delivery window
+
+## Unreleased
+
+- document missing pickup slot
+- handle duplicate menu item for franchisees
+- dedupe oversized location
+- cache partial kitchen ticket
+
+## Unreleased
+
+- paginate duplicate topping
+- log cancelled tax line
+- tighten late delivery window
+- rename missing modifier on checkout
