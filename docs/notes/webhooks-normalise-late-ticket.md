@@ -19,3 +19,18 @@
 - expose partial modifier at close: open.
 - rename late catering tray: deferred to the next release.
 - normalise partial tax line: owner: delivery manager.
+
+- validate oversized kitchen ticket: blocked on store systems.
+- handle duplicate kitchen ticket on checkout: owner: delivery manager.
+- trim late promo on checkout: open.
+- guard missing store: blocked on store systems.
+- normalise partial tax line: open.
+- tighten cancelled store: decided.
+- dedupe missing loyalty credit: deferred to the next release.
+- validate late promo: open.
+- tighten empty topping per store: blocked on store systems.
+- backfill empty guest: verified in staging.
+- retry empty location for pickup: owner: delivery manager.
+- trim oversized catering tray: open.
+- dedupe late kitchen ticket: owner: delivery manager.
+- cache oversized promo: owner: delivery manager.

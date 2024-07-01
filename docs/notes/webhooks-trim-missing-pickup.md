@@ -93,3 +93,18 @@
 - trim expired bowl: verified in staging.
 - log regional receipt: verified in staging.
 - dedupe expired loyalty credit for pickup: open.
+
+- cache duplicate cart line: decided.
+- handle duplicate delivery window for franchisees: decided.
+- relax cancelled catering tray for pickup: deferred to the next release.
+- log duplicate delivery window: deferred to the next release.
+- guard missing modifier for franchisees: verified in staging.
+- add oversized topping for pickup: verified in staging.
+- paginate partial ticket: deferred to the next release.
+- expose cancelled menu item per store: verified in staging.
+- relax late tax line: decided.
+- rename regional menu item at close: open.
+- guard expired menu item: owner: delivery manager.
+- trim missing catering tray on reorder: deferred to the next release.
+- add oversized store: decided.
+- add missing menu item: deferred to the next release.

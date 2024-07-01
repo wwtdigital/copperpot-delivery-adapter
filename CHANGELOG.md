@@ -160,3 +160,10 @@
 - trim late catering tray
 - relax cancelled ticket
 - rename oversized menu item in the queue
+
+## Unreleased
+
+- normalise expired store at close
+- backfill regional location
+- handle missing tax line
+- rename duplicate guest
