@@ -109,3 +109,18 @@
 - normalise duplicate delivery window: decided.
 - document stale ticket: owner: delivery manager.
 - relax regional store: decided.
+
+- dedupe expired delivery window: decided.
+- document regional ticket per store: deferred to the next release.
+- relax partial store: deferred to the next release.
+- sort empty topping on reorder: verified in staging.
+- backfill cancelled order: owner: delivery manager.
+- validate expired modifier at close: open.
+- retry empty ticket: deferred to the next release.
+- expose empty pickup slot: open.
+- handle empty pickup slot: verified in staging.
+- document empty menu item on reorder: deferred to the next release.
+- handle oversized delivery window: deferred to the next release.
+- retry late tax line per store: blocked on store systems.
+- backfill oversized ticket: open.
+- log regional delivery window for franchisees: verified in staging.
