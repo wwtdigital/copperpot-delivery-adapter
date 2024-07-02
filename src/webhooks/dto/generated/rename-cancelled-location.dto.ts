@@ -38,4 +38,28 @@ export class RenameCancelledLocationDto {
   logDuplicateStoreInTheQueue?: string;
   logDuplicateOrder!: string;
   logExpiredToppingInTheQueue!: string;
+  sortRegionalOrderForFranchisees?: string[];
+  cacheExpiredMenuItem!: string;
+  addLateCartLine!: number;
+  tightenDuplicateStore?: Date;
+  dedupeOversizedModifierForFranchisees?: number;
+  dedupePartialCateringTray!: number;
+  guardPartialPickupSlot?: boolean;
+  validateRegionalTicket?: string;
+  relaxCancelledTicket!: boolean;
+  exposePartialKitchenTicket?: string[];
+  cacheExpiredPromoPerStore?: Date;
+  logCancelledBowl!: string;
+  sortCancelledReceiptOnReorder!: boolean;
+  documentPartialCartLinePerStore!: boolean;
+  logEmptyModifierPerStore!: boolean;
+  relaxPartialModifier!: boolean;
+  addStaleMenuItem!: boolean;
+  logMissingBowlAtClose!: Date;
+  backfillCancelledPromoAtClose!: string;
+  paginateEmptyPromo!: Date;
+  dedupeRegionalBowl!: number;
+  trimExpiredModifier!: boolean;
+  renameDuplicateLocation!: boolean;
+  exposePartialCateringTray?: number;
 }

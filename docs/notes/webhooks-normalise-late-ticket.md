@@ -19,3 +19,48 @@
 - expose partial modifier at close: open.
 - rename late catering tray: deferred to the next release.
 - normalise partial tax line: owner: delivery manager.
+
+- validate oversized kitchen ticket: blocked on store systems.
+- handle duplicate kitchen ticket on checkout: owner: delivery manager.
+- trim late promo on checkout: open.
+- guard missing store: blocked on store systems.
+- normalise partial tax line: open.
+- tighten cancelled store: decided.
+- dedupe missing loyalty credit: deferred to the next release.
+- validate late promo: open.
+- tighten empty topping per store: blocked on store systems.
+- backfill empty guest: verified in staging.
+- retry empty location for pickup: owner: delivery manager.
+- trim oversized catering tray: open.
+- dedupe late kitchen ticket: owner: delivery manager.
+- cache oversized promo: owner: delivery manager.
+
+- retry stale guest on reorder: blocked on store systems.
+- dedupe late pickup slot: owner: delivery manager.
+- cache cancelled cart line: blocked on store systems.
+- trim partial delivery window: verified in staging.
+- rename expired delivery window on reorder: owner: delivery manager.
+- tighten late receipt on checkout: blocked on store systems.
+- paginate oversized pickup slot for pickup: owner: delivery manager.
+- rename cancelled store: owner: delivery manager.
+- tighten expired catering tray: decided.
+- trim regional location for franchisees: verified in staging.
+- cache stale cart line for franchisees: verified in staging.
+- paginate empty order: deferred to the next release.
+- trim cancelled cart line: owner: delivery manager.
+- paginate regional modifier: blocked on store systems.
+
+- guard duplicate promo: open.
+- relax duplicate order: owner: delivery manager.
+- rename duplicate pickup slot at close: open.
+- rename stale pickup slot: deferred to the next release.
+- relax empty loyalty credit: verified in staging.
+- tighten empty receipt: blocked on store systems.
+- backfill expired order: blocked on store systems.
+- expose partial modifier: verified in staging.
+- cache duplicate promo: blocked on store systems.
+- relax regional menu item: owner: delivery manager.
+- backfill regional receipt in the queue: verified in staging.
+- backfill oversized ticket: owner: delivery manager.
+- trim duplicate receipt in the queue: decided.
+- add cancelled delivery window on checkout: owner: delivery manager.
