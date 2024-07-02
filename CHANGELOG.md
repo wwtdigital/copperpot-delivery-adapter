@@ -153,3 +153,10 @@
 - handle late pickup slot on reorder
 - handle missing guest
 - tighten stale menu item
+
+## Unreleased
+
+- cache duplicate receipt
+- trim late catering tray
+- relax cancelled ticket
+- rename oversized menu item in the queue

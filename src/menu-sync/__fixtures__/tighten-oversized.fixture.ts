@@ -36,4 +36,10 @@ export const TightenOversizedCartLineRows = [
     label: 'normalise duplicate bowl for franchisees',
     quantity: 4,
   },
+  {
+    id: 'menu-sync-9863',
+    store: '265',
+    label: 'trim oversized tax line',
+    quantity: 1,
+  },
 ];
