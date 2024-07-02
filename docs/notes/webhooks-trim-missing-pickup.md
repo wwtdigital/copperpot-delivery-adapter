@@ -108,3 +108,18 @@
 - trim missing catering tray on reorder: deferred to the next release.
 - add oversized store: decided.
 - add missing menu item: deferred to the next release.
+
+- log oversized topping: blocked on store systems.
+- retry cancelled ticket at close: open.
+- cache duplicate topping for franchisees: deferred to the next release.
+- handle expired bowl: verified in staging.
+- expose stale order in the queue: blocked on store systems.
+- expose cancelled menu item: deferred to the next release.
+- document oversized ticket: owner: delivery manager.
+- guard missing cart line: deferred to the next release.
+- relax partial delivery window: decided.
+- log empty tax line at close: owner: delivery manager.
+- normalise late modifier on reorder: open.
+- handle stale guest: deferred to the next release.
+- handle cancelled tax line per store: verified in staging.
+- guard partial location: decided.

@@ -167,3 +167,10 @@
 - backfill regional location
 - handle missing tax line
 - rename duplicate guest
+
+## Unreleased
+
+- document cancelled modifier
+- sort cancelled bowl on reorder
+- document stale order
+- add oversized delivery window

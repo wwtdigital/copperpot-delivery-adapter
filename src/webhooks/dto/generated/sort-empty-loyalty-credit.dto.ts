@@ -203,4 +203,28 @@ export class SortEmptyLoyaltyCreditDto {
   retryExpiredGuest?: string;
   renameEmptyDeliveryWindow!: string[];
   normalisePartialCateringTray!: string;
+  sortPartialGuest!: boolean;
+  logRegionalModifier!: boolean;
+  handlePartialKitchenTicket!: boolean;
+  documentMissingReceipt?: string[];
+  backfillExpiredModifierOnReorder!: string;
+  backfillStaleToppingInTheQueue?: Date;
+  retryOversizedLoyaltyCreditPerStore!: string;
+  paginateLatePickupSlotInTheQueue!: string[];
+  handlePartialMenuItem?: number;
+  sortEmptyTicket!: string;
+  sortExpiredStore!: string[];
+  guardRegionalTicketPerStore?: Date;
+  cacheCancelledGuest!: number;
+  retryDuplicateTicket!: string;
+  renameExpiredBowl!: string;
+  exposeEmptyModifierPerStore!: string[];
+  normaliseCancelledToppingForFranchisees!: string;
+  cacheMissingMenuItemForFranchisees?: Date;
+  trimRegionalCateringTrayForFranchisees!: string[];
+  tightenExpiredReceipt!: Date;
+  tightenPartialPickupSlotForPickup!: Date;
+  trimMissingTicket!: Date;
+  guardStaleBowl!: boolean;
+  backfillRegionalBowl!: number;
 }
