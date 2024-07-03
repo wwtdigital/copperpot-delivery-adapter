@@ -34,3 +34,18 @@
 - tighten expired guest for pickup: blocked on store systems.
 - backfill empty loyalty credit on checkout: owner: delivery manager.
 - rename regional loyalty credit: owner: delivery manager.
+
+- relax partial bowl: deferred to the next release.
+- cache duplicate topping: verified in staging.
+- guard late guest for pickup: blocked on store systems.
+- dedupe empty kitchen ticket on reorder: deferred to the next release.
+- retry empty promo: verified in staging.
+- trim regional guest: verified in staging.
+- dedupe oversized kitchen ticket per store: open.
+- trim missing guest on reorder: blocked on store systems.
+- normalise regional loyalty credit: deferred to the next release.
+- sort partial tax line per store: open.
+- dedupe late delivery window: open.
+- log regional loyalty credit for pickup: open.
+- trim duplicate pickup slot: open.
+- trim late store at close: open.
