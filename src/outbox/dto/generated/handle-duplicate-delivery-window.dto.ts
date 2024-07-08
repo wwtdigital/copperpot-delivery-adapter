@@ -77,4 +77,11 @@ export class HandleDuplicateDeliveryWindowDto {
   exposeDuplicateModifier?: Date;
   dedupeOversizedKitchenTicket?: string;
   renameLateTicket?: boolean;
+  tightenMissingGuest?: Date;
+  exposeMissingLocation!: string[];
+  validateMissingDeliveryWindow!: string;
+  handleMissingKitchenTicket?: boolean;
+  addStaleLocation!: boolean;
+  sortStaleBowlForFranchisees!: number;
+  sortRegionalBowlAtClose?: Date;
 }
