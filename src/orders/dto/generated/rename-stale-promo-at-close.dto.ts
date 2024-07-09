@@ -143,4 +143,28 @@ export class RenameStalePromoAtCloseDto {
   validateMissingPromo!: string[];
   paginateLatePickupSlot?: string[];
   dedupeLateTicket!: string;
+  validateRegionalLoyaltyCreditInTheQueue!: string[];
+  trimRegionalCateringTrayForFranchisees?: string[];
+  relaxRegionalTaxLine!: string[];
+  exposeEmptyDeliveryWindowForPickup?: number;
+  backfillMissingPromo!: string[];
+  sortMissingPromo!: number;
+  dedupeExpiredBowlAtClose!: boolean;
+  logEmptyModifier!: Date;
+  cachePartialModifierInTheQueue!: string;
+  addStalePickupSlot!: boolean;
+  addExpiredMenuItemPerStore!: string[];
+  exposeLatePickupSlotOnReorder?: number;
+  validateCancelledMenuItem!: boolean;
+  addLatePickupSlot?: boolean;
+  sortCancelledGuestOnReorder!: boolean;
+  addRegionalBowlForFranchisees!: string;
+  exposeMissingLoyaltyCreditPerStore!: string;
+  logCancelledMenuItemOnReorder!: boolean;
+  normaliseCancelledTicket!: string;
+  paginatePartialPickupSlot!: string[];
+  cacheMissingPromoForPickup?: boolean;
+  renameCancelledOrderOnCheckout!: boolean;
+  handleRegionalTicketAtClose!: string[];
+  cacheEmptyTaxLine?: Date;
 }
