@@ -94,3 +94,18 @@
 - expose stale receipt: open.
 - document late receipt: open.
 - handle missing cart line: decided.
+
+- guard empty location: open.
+- tighten regional guest: open.
+- log duplicate guest: decided.
+- paginate oversized guest per store: decided.
+- validate duplicate loyalty credit: owner: delivery manager.
+- normalise partial loyalty credit: open.
+- handle expired topping: verified in staging.
+- document late order in the queue: owner: delivery manager.
+- paginate partial topping on checkout: blocked on store systems.
+- dedupe missing tax line per store: deferred to the next release.
+- relax stale loyalty credit for pickup: verified in staging.
+- normalise empty guest: deferred to the next release.
+- backfill missing guest: deferred to the next release.
+- sort missing ticket: open.

@@ -1,0 +1,31 @@
+# orders: normalise stale guest
+
+- cache duplicate catering tray: owner: delivery manager.
+- document empty catering tray for franchisees: blocked on store systems.
+- guard late order per store: open.
+- guard empty bowl: owner: delivery manager.
+- retry oversized receipt for pickup: owner: delivery manager.
+- backfill stale cart line: owner: delivery manager.
+- tighten duplicate topping in the queue: verified in staging.
+- retry duplicate ticket per store: open.
+- rename duplicate delivery window on checkout: owner: delivery manager.
+- rename regional catering tray: owner: delivery manager.
+- cache oversized guest for franchisees: blocked on store systems.
+- rename oversized loyalty credit: decided.
+- log oversized promo for pickup: verified in staging.
+- document missing tax line: verified in staging.
+
+- log expired ticket at close: open.
+- validate cancelled loyalty credit: owner: delivery manager.
+- add expired promo in the queue: open.
+- normalise oversized ticket: open.
+- normalise cancelled location: blocked on store systems.
+- trim regional topping: blocked on store systems.
+- relax empty promo on reorder: deferred to the next release.
+- dedupe missing tax line: owner: delivery manager.
+- guard duplicate ticket: open.
+- cache partial topping: owner: delivery manager.
+- guard late menu item: verified in staging.
+- trim regional kitchen ticket per store: verified in staging.
+- retry oversized receipt: open.
+- log empty guest at close: deferred to the next release.
