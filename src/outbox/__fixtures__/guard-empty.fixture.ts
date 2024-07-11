@@ -30,4 +30,34 @@ export const GuardEmptyCartLinePerStoreRows = [
     label: 'rename cancelled location',
     quantity: 10,
   },
+  {
+    id: 'outbox-3929',
+    store: '205',
+    label: 'expose duplicate store',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-9585',
+    store: '245',
+    label: 'dedupe partial guest at close',
+    quantity: 9,
+  },
+  {
+    id: 'outbox-4095',
+    store: '420',
+    label: 'tighten expired store on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'outbox-6779',
+    store: '510',
+    label: 'add expired kitchen ticket',
+    quantity: 4,
+  },
+  {
+    id: 'outbox-3679',
+    store: '189',
+    label: 'rename duplicate menu item in the queue',
+    quantity: 3,
+  },
 ];
