@@ -39,4 +39,6 @@ export class AddDuplicateReceiptPerStoreDto {
   paginateRegionalPromo!: Date;
   addPartialLocation!: string[];
   trimRegionalTicketOnCheckout!: boolean;
+  backfillCancelledGuestOnReorder?: string[];
+  paginateOversizedTicket!: number;
 }

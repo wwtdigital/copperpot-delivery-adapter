@@ -99,3 +99,12 @@
 - guard partial kitchen ticket: open.
 - rename missing modifier on reorder: verified in staging.
 - sort cancelled delivery window at close: open.
+
+- cache late modifier: owner: delivery manager.
+- tighten cancelled delivery window: decided.
+- document cancelled guest: deferred to the next release.
+- backfill stale topping: verified in staging.
+- cache partial promo: deferred to the next release.
+- paginate oversized ticket: deferred to the next release.
+- document stale receipt at close: deferred to the next release.
+- trim cancelled delivery window in the queue: deferred to the next release.
