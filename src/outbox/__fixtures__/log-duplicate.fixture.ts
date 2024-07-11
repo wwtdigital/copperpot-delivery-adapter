@@ -36,4 +36,28 @@ export const LogDuplicateCateringTrayForPickupRows = [
     label: 'trim late cart line for pickup',
     quantity: 11,
   },
+  {
+    id: 'outbox-5072',
+    store: '585',
+    label: 'sort empty topping at close',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-4022',
+    store: '285',
+    label: 'sort expired kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'outbox-9571',
+    store: '425',
+    label: 'trim empty location on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'outbox-9652',
+    store: '243',
+    label: 'normalise regional modifier for franchisees',
+    quantity: 4,
+  },
 ];
