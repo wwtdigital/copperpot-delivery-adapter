@@ -240,4 +240,58 @@ export const CacheOversizedKitchenTicketRows = [
     label: 'rename expired modifier',
     quantity: 12,
   },
+  {
+    id: 'contracts-7604',
+    store: '532',
+    label: 'rename partial loyalty credit',
+    quantity: 6,
+  },
+  {
+    id: 'contracts-3265',
+    store: '284',
+    label: 'dedupe empty location for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'contracts-9008',
+    store: '458',
+    label: 'sort empty pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'contracts-9528',
+    store: '119',
+    label: 'tighten oversized tax line on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'contracts-6407',
+    store: '485',
+    label: 'relax duplicate store per store',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-4486',
+    store: '176',
+    label: 'add expired delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'contracts-5067',
+    store: '158',
+    label: 'sort regional loyalty credit',
+    quantity: 11,
+  },
+  {
+    id: 'contracts-8189',
+    store: '682',
+    label: 'cache stale guest for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'contracts-9640',
+    store: '549',
+    label: 'trim stale promo',
+    quantity: 4,
+  },
 ];
