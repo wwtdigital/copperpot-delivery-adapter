@@ -188,3 +188,10 @@
 - log cancelled tax line
 - tighten late delivery window
 - rename missing modifier on checkout
+
+## Unreleased
+
+- expose regional pickup slot
+- rename oversized location in the queue
+- retry duplicate modifier per store
+- normalise regional topping

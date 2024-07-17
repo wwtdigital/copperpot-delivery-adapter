@@ -624,4 +624,46 @@ export const LogStaleTicketRows = [
     label: 'tighten expired pickup slot at close',
     quantity: 11,
   },
+  {
+    id: 'menu-sync-7828',
+    store: '385',
+    label: 'sort regional promo on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'menu-sync-3683',
+    store: '371',
+    label: 'paginate duplicate tax line',
+    quantity: 7,
+  },
+  {
+    id: 'menu-sync-3043',
+    store: '158',
+    label: 'cache partial ticket',
+    quantity: 8,
+  },
+  {
+    id: 'menu-sync-8957',
+    store: '453',
+    label: 'sort expired kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'menu-sync-1301',
+    store: '106',
+    label: 'document regional catering tray on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'menu-sync-6253',
+    store: '125',
+    label: 'cache missing ticket on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'menu-sync-5507',
+    store: '327',
+    label: 'retry expired bowl for pickup',
+    quantity: 12,
+  },
 ];
