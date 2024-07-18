@@ -20,7 +20,7 @@ does three things:
    is retried; a job that runs out of attempts lands in the dead-letter
    list, visible on `/health`.
 
-Partners today: Hopbasket. Nothing here talks to a real partner: the clients
+Partners today: Hopbasket and Platefast. Nothing here talks to a real partner: the clients
 take a `fetch` and the tests pass in a recorded one.
 
 ## Running it
@@ -36,8 +36,8 @@ outbox counts.
 
 ## Environment variables
 
-See `.env.example`. `HOPBASKET_WEBHOOK_SECRET` is the shared key the partner
-signs webhooks with; a request with a bad signature is rejected before the
+See `.env.example`. `HOPBASKET_WEBHOOK_SECRET` and `PLATEFAST_WEBHOOK_SECRET` are the shared keys
+the partners sign webhooks with; a request with a bad signature is rejected before the
 body is read as an event. `COMMERCE_API_TOKEN` is the service token for
 the commerce API. The outbox retry settings are read once at start.
 
@@ -69,7 +69,7 @@ src/
   main.ts          starts the server and the outbox worker
   config.ts        environment parsing
   contracts/       zod schemas for each partner's payloads (what we accept)
-  webhooks/        inbound: signature check, idempotency store, partner routes
+  webhooks/        inbound: the shared verify-dedupe-handle flow and one thin route per partner
   menu-sync/       outbound: our menu shape and the per-partner mappers
   orders/          order ingestion into the commerce API (stub client)
   outbox/          the retrying outbox and its dead-letter list

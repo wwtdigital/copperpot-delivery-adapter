@@ -1,0 +1,12 @@
+{
+  "recorded_at": "2024-07-01",
+  "source": "Platefast partner sandbox, partner API v1; sent a price as a number instead of a string on purpose",
+  "request": { "method": "POST", "path": "/partner/v1/catalog" },
+  "status": 400,
+  "headers": { "content-type": "application/problem+json" },
+  "body": {
+    "status": 400,
+    "title": "Bad Request",
+    "detail": "sections[0].items[2].price: expected string"
+  }
+}
