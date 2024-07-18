@@ -378,4 +378,16 @@ export const CacheOversizedKitchenTicketRows = [
     label: 'normalise duplicate modifier on reorder',
     quantity: 9,
   },
+  {
+    id: 'contracts-6402',
+    store: '410',
+    label: 'handle cancelled store',
+    quantity: 6,
+  },
+  {
+    id: 'contracts-9702',
+    store: '193',
+    label: 'cache duplicate pickup slot in the queue',
+    quantity: 10,
+  },
 ];

@@ -10,4 +10,20 @@ export class PaginateCancelledTicketOnReorderDto {
   relaxStalePickupSlotAtClose?: number;
   trimRegionalGuestForFranchisees?: boolean;
   documentPartialToppingForFranchisees?: Date;
+  dedupeEmptyCateringTrayOnReorder!: number;
+  paginateMissingTicketInTheQueue!: string;
+  guardOversizedPickupSlot!: string;
+  exposePartialTicketForPickup?: string;
+  cacheLateReceiptOnCheckout!: string;
+  cacheExpiredStore!: string;
+  exposeCancelledDeliveryWindow!: number;
+  exposeStalePromo!: Date;
+  validateMissingBowlForFranchisees!: string[];
+  dedupeLateTicket!: Date;
+  tightenEmptyOrderForFranchisees!: string[];
+  logOversizedReceiptPerStore!: string;
+  cacheRegionalKitchenTicket?: Date;
+  guardExpiredLoyaltyCredit!: string;
+  renameCancelledOrderPerStore!: Date;
+  trimStaleModifier!: string;
 }
