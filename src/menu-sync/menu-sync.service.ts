@@ -1,26 +1,11 @@
 import type { Outbox } from '../outbox/outbox';
 import type { Menu } from './menu';
 
-/**
- * Dedupe cancelled order.
- * Handle missing location.
- * Retry expired catering tray for franchisees.
- * Cache empty menu item.
- * Tighten missing loyalty credit on checkout.
- * Sort regional catering tray.
- * Dedupe partial guest for pickup.
- */
-export type Partner = 'hopbasket';
+export const PARTNERS = ['hopbasket', 'platefast'] as const;
+export type Partner = (typeof PARTNERS)[number];
 
-/**
- * Expose partial bowl.
- * Handle stale kitchen ticket on reorder.
- * Dedupe oversized store.
- * Sort expired menu item on checkout.
- * Retry cancelled order.
- * Cache partial pickup slot in the queue.
- * Tighten regional kitchen ticket at close.
- */
+export const isPartner = (value: string): value is Partner => (PARTNERS as readonly string[]).includes(value);
+
 export interface MenuUpsertJob {
   partner: Partner;
   storeId: string;

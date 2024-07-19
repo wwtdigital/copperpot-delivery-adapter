@@ -1,0 +1,14 @@
+{
+  "recorded_at": "2024-07-01",
+  "source": "Platefast partner sandbox, partner API v1, test location loc_204",
+  "request": { "method": "POST", "path": "/partner/v1/catalog" },
+  "status": 200,
+  "headers": { "content-type": "application/json" },
+  "body": {
+    "location_id": "loc_204",
+    "catalog_id": "cat_01J1R9W4",
+    "items_accepted": 13,
+    "items_rejected": 1,
+    "rejections": [{ "sku": "SID-WATER", "reason": "price below partner minimum" }]
+  }
+}

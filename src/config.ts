@@ -1,8 +1,15 @@
+export interface PartnerConfig {
+  baseUrl: string;
+  apiKey: string;
+  webhookSecret: string;
+}
+
 export interface Config {
   port: number;
   logLevel: string;
   commerce: { baseUrl: string; token: string };
-  hopbasket: { baseUrl: string; apiKey: string; webhookSecret: string };
+  hopbasket: PartnerConfig;
+  platefast: PartnerConfig;
   outbox: { maxAttempts: number; retryDelayMs: number };
 }
 
@@ -26,6 +33,11 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env): Config {
       baseUrl: env.HOPBASKET_API_URL ?? 'https://sandbox.hopbasket.example/v1',
       apiKey: env.HOPBASKET_API_KEY ?? '',
       webhookSecret: env.HOPBASKET_WEBHOOK_SECRET ?? '',
+    },
+    platefast: {
+      baseUrl: env.PLATEFAST_API_URL ?? 'https://partners.platefast.example/partner/v1',
+      apiKey: env.PLATEFAST_API_KEY ?? '',
+      webhookSecret: env.PLATEFAST_WEBHOOK_SECRET ?? '',
     },
     outbox: {
       maxAttempts: int(env.OUTBOX_MAX_ATTEMPTS, 5),

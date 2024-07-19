@@ -1,16 +1,8 @@
 import type { HopbasketOrderEvent } from '../contracts/hopbasket';
+import { centsFrom, type PlatefastEnvelope } from '../contracts/platefast';
 import type { Outbox } from '../outbox/outbox';
 import type { CommerceOrder } from './commerce-client';
 
-/**
- * Dedupe stale order.
- * Backfill late modifier for pickup.
- * Retry stale kitchen ticket.
- * Validate oversized menu item per store.
- * Add cancelled kitchen ticket at close.
- * Document expired cart line on checkout.
- * Document oversized pickup slot at close.
- */
 export interface CancelJob {
   externalRef: string;
   partner: string;
@@ -20,7 +12,8 @@ export interface CancelJob {
 /**
  * Turns a partner's order event into a commerce order and hands it to the
  * outbox. The webhook handler returns as soon as the job is queued; the
- * call to the commerce API happens on the worker, with retries.
+ * call to the commerce API happens on the worker, with retries. One
+ * normaliser per partner; the commerce shape is the same for both.
  */
 export class OrderIngestion {
   constructor(private readonly outbox: Outbox) {}
@@ -41,28 +34,28 @@ export class OrderIngestion {
     this.outbox.enqueue('order.cancel', job);
     return externalRef;
   }
+
+  ingestPlatefast(envelope: PlatefastEnvelope): string {
+    const order = normalisePlatefast(envelope);
+    this.outbox.enqueue('order.create', order);
+    return order.externalRef;
+  }
+
+  cancelPlatefast(envelope: PlatefastEnvelope): string {
+    const externalRef = platefastRef(envelope.data.order.order_id);
+    const job: CancelJob = {
+      externalRef,
+      partner: 'platefast',
+      reason: envelope.data.cancel_reason ?? 'cancelled by partner',
+    };
+    this.outbox.enqueue('order.cancel', job);
+    return externalRef;
+  }
 }
 
-/**
- * Expose stale ticket per store.
- * Log oversized loyalty credit.
- * Cache cancelled modifier per store.
- * Document regional topping.
- * Expose missing ticket for franchisees.
- * Validate late menu item at close.
- * Dedupe missing promo.
- */
 export const hopbasketRef = (orderId: string) => `hopbasket:${orderId}`;
+export const platefastRef = (orderId: string) => `platefast:${orderId}`;
 
-/**
- * Validate oversized delivery window at close.
- * Relax oversized receipt at close.
- * Guard oversized receipt on checkout.
- * Handle oversized guest.
- * Paginate late pickup slot.
- * Sort stale menu item.
- * Guard empty pickup slot in the queue.
- */
 export function normaliseHopbasket(event: HopbasketOrderEvent): CommerceOrder {
   const o = event.order;
   return {
@@ -85,5 +78,31 @@ export function normaliseHopbasket(event: HopbasketOrderEvent): CommerceOrder {
     subtotalCents: o.subtotal.amount,
     taxCents: o.tax.amount,
     totalCents: o.total.amount,
+  };
+}
+
+/** Platefast sends a full guest name; the commerce API only ever gets the first word of it. */
+export function normalisePlatefast(envelope: PlatefastEnvelope): CommerceOrder {
+  const o = envelope.data.order;
+  return {
+    externalRef: platefastRef(o.order_id),
+    partner: 'platefast',
+    partnerDisplayId: o.short_code,
+    storeId: o.location_id,
+    channel: o.type === 'DELIVERY' ? 'delivery' : 'pickup',
+    placedAt: o.created_at,
+    promisedAt: o.ready_by,
+    customerFirstName: o.guest.name.trim().split(/\s+/)[0] ?? '',
+    lines: o.items.map((item) => ({
+      sku: item.sku,
+      name: item.title,
+      quantity: item.qty,
+      unitPriceCents: centsFrom(item.unit_price),
+      modifiers: item.options.map((opt) => ({ sku: opt.sku, name: opt.title, priceCents: centsFrom(opt.price) })),
+      ...(item.instructions ? { note: item.instructions } : {}),
+    })),
+    subtotalCents: centsFrom(o.subtotal),
+    taxCents: centsFrom(o.tax),
+    totalCents: centsFrom(o.total),
   };
 }

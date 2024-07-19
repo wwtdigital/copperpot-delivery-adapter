@@ -3,11 +3,12 @@ import { z } from 'zod';
 import type { Config } from './config';
 import { loggerOptions } from './logging';
 import { Menu } from './menu-sync/menu';
-import type { MenuSyncService } from './menu-sync/menu-sync.service';
+import { isPartner, type MenuSyncService } from './menu-sync/menu-sync.service';
 import type { OrderIngestion } from './orders/order-ingestion';
 import type { Outbox } from './outbox/outbox';
 import { hopbasketWebhooks } from './webhooks/hopbasket';
 import type { IdempotencyStore } from './webhooks/idempotency';
+import { platefastWebhooks } from './webhooks/platefast';
 
 declare module 'fastify' {
   interface FastifyRequest {
@@ -49,17 +50,24 @@ export function buildServer(deps: ServerDeps): FastifyInstance {
     idempotencyKeys: deps.idempotency.size,
   }));
 
-  app.post('/menu-sync/hopbasket', async (request, reply) => {
+  app.post<{ Params: { partner: string } }>('/menu-sync/:partner', async (request, reply) => {
+    const { partner } = request.params;
+    if (!isPartner(partner)) return reply.code(404).send({ error: `unknown partner ${partner}` });
     const parsed = MenuSyncRequest.safeParse(request.body);
     if (!parsed.success)
       return reply.code(400).send({ error: 'invalid menu sync request', issues: parsed.error.issues.slice(0, 5) });
-    const jobs = deps.menuSync.requestSync('hopbasket', parsed.data.storeIds, parsed.data.menu);
-    request.log.info({ partner: 'hopbasket', stores: jobs.length, version: parsed.data.menu.version }, 'menu sync queued');
+    const jobs = deps.menuSync.requestSync(partner, parsed.data.storeIds, parsed.data.menu);
+    request.log.info({ partner, stores: jobs.length, version: parsed.data.menu.version }, 'menu sync queued');
     return reply.code(202).send({ queued: jobs.length, jobs });
   });
 
   app.register(hopbasketWebhooks, {
     secret: deps.config.hopbasket.webhookSecret,
+    idempotency: deps.idempotency,
+    ingestion: deps.ingestion,
+  });
+  app.register(platefastWebhooks, {
+    secret: deps.config.platefast.webhookSecret,
     idempotency: deps.idempotency,
     ingestion: deps.ingestion,
   });
