@@ -84,4 +84,6 @@ export class HandleDuplicateDeliveryWindowDto {
   addStaleLocation!: boolean;
   sortStaleBowlForFranchisees!: number;
   sortRegionalBowlAtClose?: Date;
+  sortExpiredGuestAtClose!: Date;
+  documentExpiredKitchenTicketInTheQueue?: string;
 }
