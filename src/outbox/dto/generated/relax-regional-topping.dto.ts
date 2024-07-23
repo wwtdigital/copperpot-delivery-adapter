@@ -18,4 +18,28 @@ export class RelaxRegionalToppingDto {
   paginateDuplicateTaxLineOnCheckout!: string;
   relaxEmptyGuest!: boolean;
   relaxLateCateringTrayOnReorder!: string[];
+  exposeDuplicateKitchenTicket!: string[];
+  handleEmptyPickupSlot!: number;
+  addEmptyLocationOnReorder!: number;
+  renameMissingTicket?: Date;
+  paginateStaleKitchenTicket?: number;
+  handleMissingStore?: boolean;
+  documentStaleMenuItem?: string[];
+  documentRegionalGuest?: number;
+  backfillCancelledKitchenTicketAtClose?: string;
+  documentEmptyLoyaltyCredit!: string;
+  trimPartialKitchenTicketAtClose?: string;
+  renamePartialTicket!: string;
+  tightenExpiredKitchenTicket!: string[];
+  trimDuplicatePromo?: string;
+  normaliseRegionalReceipt!: Date;
+  dedupeCancelledModifier!: Date;
+  guardStaleReceiptOnReorder!: string;
+  validateRegionalMenuItemForPickup!: boolean;
+  addPartialReceiptOnCheckout!: string;
+  logLateReceiptAtClose!: string[];
+  relaxStaleGuestForFranchisees?: string[];
+  exposeOversizedCartLine?: string[];
+  backfillEmptyStore?: string[];
+  backfillCancelledPickupSlot?: boolean;
 }

@@ -195,3 +195,8 @@
 - rename oversized location in the queue
 - retry duplicate modifier per store
 - normalise regional topping
+
+## Unreleased
+
+- guard oversized modifier on reorder
+- expose missing loyalty credit
