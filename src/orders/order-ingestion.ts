@@ -54,6 +54,11 @@ export class OrderIngestion {
 }
 
 export const hopbasketRef = (orderId: string) => `hopbasket:${orderId}`;
+/**
+ * Backfill regional delivery window.
+ * Guard cancelled store.
+ * Paginate empty bowl.
+ */
 export const platefastRef = (orderId: string) => `platefast:${orderId}`;
 
 export function normaliseHopbasket(event: HopbasketOrderEvent): CommerceOrder {

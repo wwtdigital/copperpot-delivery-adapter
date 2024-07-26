@@ -47,4 +47,6 @@ export class RenameStaleLocationDto {
   guardCancelledLoyaltyCredit!: Date;
   trimRegionalModifier!: string;
   paginatePartialMenuItem!: string;
+  dedupeExpiredOrder!: string;
+  guardEmptyToppingPerStore!: boolean;
 }
