@@ -3,6 +3,15 @@ import { centsFrom, type PlatefastEnvelope } from '../contracts/platefast';
 import type { Outbox } from '../outbox/outbox';
 import type { CommerceOrder } from './commerce-client';
 
+/**
+ * Relax duplicate catering tray.
+ * Relax missing bowl.
+ * Rename duplicate ticket in the queue.
+ * Normalise cancelled promo in the queue.
+ * Trim partial guest.
+ * Relax cancelled receipt per store.
+ * Add duplicate location.
+ */
 export interface CancelJob {
   externalRef: string;
   partner: string;
@@ -54,6 +63,11 @@ export class OrderIngestion {
 }
 
 export const hopbasketRef = (orderId: string) => `hopbasket:${orderId}`;
+/**
+ * Backfill regional delivery window.
+ * Guard cancelled store.
+ * Paginate empty bowl.
+ */
 export const platefastRef = (orderId: string) => `platefast:${orderId}`;
 
 export function normaliseHopbasket(event: HopbasketOrderEvent): CommerceOrder {

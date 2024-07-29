@@ -79,3 +79,18 @@
 - document expired kitchen ticket per store: open.
 - handle partial promo: blocked on store systems.
 - log empty modifier: verified in staging.
+
+- log duplicate topping: owner: delivery manager.
+- validate cancelled location: deferred to the next release.
+- normalise empty order: blocked on store systems.
+- rename empty guest in the queue: decided.
+- paginate stale loyalty credit: decided.
+- cache partial catering tray: owner: delivery manager.
+- document oversized ticket: deferred to the next release.
+- expose cancelled ticket: deferred to the next release.
+- tighten partial delivery window per store: open.
+- retry partial topping for pickup: deferred to the next release.
+- cache cancelled catering tray: verified in staging.
+- add cancelled guest: verified in staging.
+- relax missing guest on reorder: decided.
+- add oversized modifier: blocked on store systems.

@@ -29,3 +29,18 @@
 - trim regional kitchen ticket per store: verified in staging.
 - retry oversized receipt: open.
 - log empty guest at close: deferred to the next release.
+
+- add cancelled promo on checkout: verified in staging.
+- log expired bowl per store: blocked on store systems.
+- add late tax line on checkout: blocked on store systems.
+- expose oversized loyalty credit: owner: delivery manager.
+- paginate duplicate kitchen ticket in the queue: blocked on store systems.
+- expose partial catering tray: open.
+- guard late catering tray: decided.
+- document stale catering tray for franchisees: deferred to the next release.
+- add duplicate guest: decided.
+- handle expired menu item at close: owner: delivery manager.
+- sort cancelled catering tray on checkout: owner: delivery manager.
+- backfill regional catering tray: deferred to the next release.
+- relax empty delivery window: decided.
+- backfill missing cart line: open.

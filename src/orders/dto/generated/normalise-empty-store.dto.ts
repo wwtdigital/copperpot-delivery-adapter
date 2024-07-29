@@ -144,4 +144,28 @@ export class NormaliseEmptyStoreDto {
   normaliseExpiredCateringTray!: string;
   validateDuplicateCartLine?: boolean;
   tightenDuplicateDeliveryWindow?: number;
+  guardLateOrder?: Date;
+  dedupeCancelledTaxLinePerStore!: string;
+  dedupeExpiredTopping!: string;
+  sortDuplicatePickupSlotPerStore?: number;
+  logExpiredMenuItem!: string;
+  retryLateModifier!: number;
+  renameMissingBowlOnReorder!: boolean;
+  cachePartialModifierForPickup!: boolean;
+  retryLateTaxLinePerStore!: Date;
+  logLateLoyaltyCredit!: Date;
+  documentExpiredLocationAtClose!: string;
+  guardPartialLocationOnCheckout?: Date;
+  sortOversizedCartLine!: string[];
+  logDuplicateTopping!: boolean;
+  guardCancelledGuestAtClose!: Date;
+  cacheDuplicateDeliveryWindowAtClose!: number;
+  backfillRegionalMenuItemInTheQueue!: string[];
+  relaxMissingReceipt!: boolean;
+  backfillRegionalTicketInTheQueue?: Date;
+  backfillStaleTicket!: string;
+  backfillStaleStoreInTheQueue!: string;
+  logPartialOrderAtClose?: string[];
+  relaxRegionalCateringTray!: Date;
+  normaliseOversizedTaxLineForFranchisees!: string;
 }
