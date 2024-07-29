@@ -3,6 +3,15 @@ import { centsFrom, type PlatefastEnvelope } from '../contracts/platefast';
 import type { Outbox } from '../outbox/outbox';
 import type { CommerceOrder } from './commerce-client';
 
+/**
+ * Relax duplicate catering tray.
+ * Relax missing bowl.
+ * Rename duplicate ticket in the queue.
+ * Normalise cancelled promo in the queue.
+ * Trim partial guest.
+ * Relax cancelled receipt per store.
+ * Add duplicate location.
+ */
 export interface CancelJob {
   externalRef: string;
   partner: string;

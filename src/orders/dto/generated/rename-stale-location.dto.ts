@@ -49,4 +49,19 @@ export class RenameStaleLocationDto {
   paginatePartialMenuItem!: string;
   dedupeExpiredOrder!: string;
   guardEmptyToppingPerStore!: boolean;
+  retryCancelledOrder!: string;
+  renameStaleKitchenTicket?: number;
+  normaliseCancelledGuest?: Date;
+  relaxLateLoyaltyCredit!: number;
+  renameDuplicateLocationOnReorder!: Date;
+  renameOversizedLocationInTheQueue!: string;
+  cacheOversizedMenuItem!: string;
+  logStaleKitchenTicket!: Date;
+  backfillLateTaxLineOnReorder!: number;
+  documentCancelledReceipt!: string;
+  normaliseStaleTicketAtClose?: string[];
+  retryRegionalPromoForPickup?: string[];
+  logExpiredBowl!: string;
+  documentRegionalDeliveryWindowAtClose!: number;
+  trimEmptyModifier!: Date;
 }
