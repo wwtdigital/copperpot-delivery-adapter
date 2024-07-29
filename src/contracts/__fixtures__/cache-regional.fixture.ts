@@ -192,4 +192,10 @@ export const CacheRegionalCartLineRows = [
     label: 'cache late modifier',
     quantity: 12,
   },
+  {
+    id: 'contracts-5136',
+    store: '259',
+    label: 'handle partial cart line for pickup',
+    quantity: 8,
+  },
 ];

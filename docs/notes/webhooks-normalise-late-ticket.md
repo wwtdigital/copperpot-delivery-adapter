@@ -61,6 +61,3 @@
 - cache duplicate promo: blocked on store systems.
 - relax regional menu item: owner: delivery manager.
 - backfill regional receipt in the queue: verified in staging.
-- backfill oversized ticket: owner: delivery manager.
-- trim duplicate receipt in the queue: decided.
-- add cancelled delivery window on checkout: owner: delivery manager.
