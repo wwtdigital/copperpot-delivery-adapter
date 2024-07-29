@@ -104,4 +104,28 @@ export class TrimEmptyToppingDto {
   paginateEmptyTopping!: string[];
   normaliseStaleDeliveryWindowForFranchisees!: boolean;
   cacheRegionalPickupSlotAtClose!: Date;
+  logEmptyPickupSlot!: Date;
+  handleLateLoyaltyCredit!: string;
+  cacheExpiredBowl!: string;
+  normaliseDuplicateToppingForFranchisees!: Date;
+  retryOversizedPickupSlot!: number;
+  logCancelledToppingAtClose!: boolean;
+  retryOversizedTopping!: string;
+  addPartialPromo!: string[];
+  tightenCancelledOrder!: boolean;
+  tightenStaleLoyaltyCredit?: string;
+  tightenRegionalCateringTrayAtClose!: boolean;
+  exposePartialStore?: Date;
+  handleStaleGuestForPickup!: string[];
+  cacheEmptyPickupSlotForFranchisees!: string;
+  handleRegionalTicketInTheQueue!: Date;
+  addPartialPickupSlotOnReorder!: string;
+  handleEmptyPromo?: number;
+  normaliseLateTicket?: string;
+  tightenMissingLocation!: string[];
+  sortEmptyReceipt!: number;
+  tightenCancelledMenuItem!: number;
+  exposeOversizedTicket!: number;
+  paginateRegionalLocationForPickup!: number;
+  validateExpiredPromoForPickup!: string[];
 }

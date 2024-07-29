@@ -6,6 +6,15 @@ export type Partner = (typeof PARTNERS)[number];
 
 export const isPartner = (value: string): value is Partner => (PARTNERS as readonly string[]).includes(value);
 
+/**
+ * Tighten regional loyalty credit per store.
+ * Expose expired store in the queue.
+ * Add empty topping.
+ * Cache missing store.
+ * Tighten partial location.
+ * Sort regional kitchen ticket.
+ * Tighten cancelled ticket for pickup.
+ */
 export interface MenuUpsertJob {
   partner: Partner;
   storeId: string;

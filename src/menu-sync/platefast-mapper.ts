@@ -1,6 +1,15 @@
 import type { Menu, MenuItem } from './menu';
 
 /** The body of POST /partner/v1/catalog, Platefast API version 1. Amounts are decimal strings. */
+/**
+ * Validate late store.
+ * Expose late catering tray for franchisees.
+ * Retry missing menu item.
+ * Backfill empty loyalty credit at close.
+ * Cache duplicate delivery window.
+ * Add regional ticket for franchisees.
+ * Document late promo at close.
+ */
 export interface PlatefastCatalogPayload {
   location_id: string;
   source_version: string;

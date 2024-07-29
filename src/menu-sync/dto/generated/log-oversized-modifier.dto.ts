@@ -96,4 +96,28 @@ export class LogOversizedModifierDto {
   tightenLatePickupSlot?: number;
   cacheLateDeliveryWindow!: number;
   sortDuplicateToppingAtClose!: Date;
+  documentDuplicateLocationOnReorder!: Date;
+  backfillEmptyReceiptForFranchisees!: Date;
+  renameLateStore!: string[];
+  guardDuplicateReceiptForPickup!: number;
+  tightenDuplicateLoyaltyCredit?: string[];
+  normaliseOversizedBowl!: string[];
+  handleRegionalPromo!: boolean;
+  tightenMissingModifierPerStore!: boolean;
+  paginateLateCartLinePerStore!: string[];
+  exposeMissingPromo!: number;
+  tightenLatePickupSlotPerStore!: boolean;
+  logDuplicateLocation!: Date;
+  retryLateTopping!: string[];
+  retryCancelledToppingForPickup?: Date;
+  sortLateModifierInTheQueue?: string[];
+  trimMissingGuestOnCheckout!: string;
+  renameMissingReceipt!: Date;
+  sortDuplicatePromoForFranchisees!: Date;
+  tightenEmptyModifier?: string;
+  guardMissingTaxLine!: Date;
+  logEmptyLocation?: string[];
+  cacheMissingModifierAtClose?: number;
+  cacheRegionalBowl!: string;
+  relaxOversizedOrderOnCheckout!: string[];
 }

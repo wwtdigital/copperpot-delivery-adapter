@@ -49,3 +49,18 @@
 - log regional loyalty credit for pickup: open.
 - trim duplicate pickup slot: open.
 - trim late store at close: open.
+
+- tighten duplicate pickup slot on reorder: owner: delivery manager.
+- normalise duplicate store on reorder: blocked on store systems.
+- guard expired order: deferred to the next release.
+- document stale delivery window: decided.
+- trim oversized pickup slot for pickup: decided.
+- retry oversized modifier for pickup: verified in staging.
+- paginate missing delivery window on checkout: blocked on store systems.
+- sort cancelled cart line: deferred to the next release.
+- validate expired receipt on checkout: verified in staging.
+- backfill expired loyalty credit: verified in staging.
+- tighten missing location in the queue: decided.
+- paginate regional delivery window: verified in staging.
+- rename late store: decided.
+- tighten regional guest: owner: delivery manager.
