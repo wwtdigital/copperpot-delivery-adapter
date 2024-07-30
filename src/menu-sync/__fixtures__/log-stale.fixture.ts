@@ -666,4 +666,46 @@ export const LogStaleTicketRows = [
     label: 'retry expired bowl for pickup',
     quantity: 12,
   },
+  {
+    id: 'menu-sync-6471',
+    store: '622',
+    label: 'sort duplicate modifier',
+    quantity: 3,
+  },
+  {
+    id: 'menu-sync-3283',
+    store: '423',
+    label: 'normalise empty kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'menu-sync-3908',
+    store: '297',
+    label: 'normalise oversized cart line for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'menu-sync-7795',
+    store: '268',
+    label: 'document cancelled loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'menu-sync-4149',
+    store: '676',
+    label: 'document cancelled cart line',
+    quantity: 9,
+  },
+  {
+    id: 'menu-sync-4541',
+    store: '150',
+    label: 'log oversized pickup slot',
+    quantity: 3,
+  },
+  {
+    id: 'menu-sync-3368',
+    store: '569',
+    label: 'add empty cart line',
+    quantity: 1,
+  },
 ];
