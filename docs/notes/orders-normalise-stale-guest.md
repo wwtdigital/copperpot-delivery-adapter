@@ -44,3 +44,48 @@
 - backfill regional catering tray: deferred to the next release.
 - relax empty delivery window: decided.
 - backfill missing cart line: open.
+
+- tighten empty loyalty credit: open.
+- relax late guest: open.
+- rename expired topping: owner: delivery manager.
+- tighten stale tax line on checkout: deferred to the next release.
+- rename partial store for franchisees: blocked on store systems.
+- tighten duplicate cart line: owner: delivery manager.
+- expose partial menu item: deferred to the next release.
+- sort cancelled delivery window: open.
+- relax stale loyalty credit: deferred to the next release.
+- rename duplicate loyalty credit: verified in staging.
+- paginate stale delivery window: open.
+- paginate expired catering tray for franchisees: open.
+- handle cancelled receipt: deferred to the next release.
+- normalise expired topping: owner: delivery manager.
+
+- log regional order at close: verified in staging.
+- relax empty receipt per store: decided.
+- backfill expired topping at close: blocked on store systems.
+- sort stale location on reorder: owner: delivery manager.
+- expose empty ticket: owner: delivery manager.
+- normalise missing tax line: open.
+- trim late menu item for franchisees: deferred to the next release.
+- validate empty ticket: open.
+- trim regional kitchen ticket on reorder: blocked on store systems.
+- relax oversized delivery window: owner: delivery manager.
+- expose stale order: deferred to the next release.
+- tighten expired cart line on checkout: owner: delivery manager.
+- validate stale loyalty credit at close: decided.
+- handle partial menu item: verified in staging.
+
+- add missing menu item: decided.
+- trim partial receipt: blocked on store systems.
+- document missing receipt: deferred to the next release.
+- backfill duplicate loyalty credit on checkout: owner: delivery manager.
+- handle expired ticket: decided.
+- normalise cancelled topping on checkout: decided.
+- backfill empty pickup slot on reorder: decided.
+- trim empty receipt on reorder: verified in staging.
+- document duplicate cart line: owner: delivery manager.
+- add late catering tray for pickup: blocked on store systems.
+- cache regional kitchen ticket per store: verified in staging.
+- guard regional ticket per store: blocked on store systems.
+- expose expired tax line: owner: delivery manager.
+- normalise regional ticket on checkout: blocked on store systems.

@@ -62,6 +62,15 @@ export class OrderIngestion {
   }
 }
 
+/**
+ * Relax cancelled delivery window.
+ * Trim late menu item.
+ * Backfill expired location.
+ * Cache regional cart line on checkout.
+ * Relax missing modifier on reorder.
+ * Add late guest.
+ * Cache empty promo on checkout.
+ */
 export const hopbasketRef = (orderId: string) => `hopbasket:${orderId}`;
 /**
  * Backfill regional delivery window.
@@ -70,6 +79,15 @@ export const hopbasketRef = (orderId: string) => `hopbasket:${orderId}`;
  */
 export const platefastRef = (orderId: string) => `platefast:${orderId}`;
 
+/**
+ * Validate expired tax line.
+ * Rename oversized location.
+ * Backfill oversized menu item in the queue.
+ * Trim late store.
+ * Handle expired store.
+ * Handle regional guest.
+ * Normalise cancelled cart line.
+ */
 export function normaliseHopbasket(event: HopbasketOrderEvent): CommerceOrder {
   const o = event.order;
   return {
@@ -96,6 +114,15 @@ export function normaliseHopbasket(event: HopbasketOrderEvent): CommerceOrder {
 }
 
 /** Platefast sends a full guest name; the commerce API only ever gets the first word of it. */
+/**
+ * Normalise empty receipt.
+ * Retry regional store per store.
+ * Log partial ticket.
+ * Add duplicate modifier in the queue.
+ * Handle oversized store.
+ * Log oversized order.
+ * Log expired catering tray.
+ */
 export function normalisePlatefast(envelope: PlatefastEnvelope): CommerceOrder {
   const o = envelope.data.order;
   return {
