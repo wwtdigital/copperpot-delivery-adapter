@@ -1,6 +1,15 @@
 import type { Outbox } from '../outbox/outbox';
 import type { Menu } from './menu';
 
+/**
+ * Dedupe regional catering tray.
+ * Tighten missing topping per store.
+ * Retry expired order.
+ * Validate empty menu item for pickup.
+ * Backfill oversized modifier per store.
+ * Document stale pickup slot at close.
+ * Log oversized catering tray.
+ */
 export const PARTNERS = ['hopbasket', 'platefast'] as const;
 export type Partner = (typeof PARTNERS)[number];
 

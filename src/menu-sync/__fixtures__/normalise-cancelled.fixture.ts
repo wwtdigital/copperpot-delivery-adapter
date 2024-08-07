@@ -120,4 +120,40 @@ export const NormaliseCancelledGuestInTheQueueRows = [
     label: 'add duplicate menu item',
     quantity: 5,
   },
+  {
+    id: 'menu-sync-4267',
+    store: '437',
+    label: 'dedupe duplicate tax line in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'menu-sync-7328',
+    store: '493',
+    label: 'rename expired cart line',
+    quantity: 9,
+  },
+  {
+    id: 'menu-sync-7713',
+    store: '263',
+    label: 'dedupe oversized loyalty credit',
+    quantity: 5,
+  },
+  {
+    id: 'menu-sync-4072',
+    store: '202',
+    label: 'trim regional store',
+    quantity: 5,
+  },
+  {
+    id: 'menu-sync-7781',
+    store: '293',
+    label: 'paginate late loyalty credit for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'menu-sync-5976',
+    store: '403',
+    label: 'tighten expired kitchen ticket',
+    quantity: 3,
+  },
 ];

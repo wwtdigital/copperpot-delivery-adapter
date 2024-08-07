@@ -120,4 +120,27 @@ export class LogOversizedModifierDto {
   cacheMissingModifierAtClose?: number;
   cacheRegionalBowl!: string;
   relaxOversizedOrderOnCheckout!: string[];
+  normaliseEmptyLocationForFranchisees!: boolean;
+  cacheLatePickupSlotForFranchisees!: string[];
+  cacheMissingTicket?: number;
+  trimStaleStore!: Date;
+  tightenRegionalGuest!: string;
+  dedupeCancelledTicket!: string[];
+  guardDuplicateTaxLine!: Date;
+  retryCancelledCateringTray!: boolean;
+  logExpiredStore!: boolean;
+  paginateExpiredReceipt?: string[];
+  addStaleLoyaltyCreditForFranchisees?: boolean;
+  guardCancelledPickupSlot!: string[];
+  guardPartialBowl!: string[];
+  guardStaleLocationPerStore?: string[];
+  retryLateBowl!: boolean;
+  normaliseStaleDeliveryWindow!: Date;
+  cacheStaleReceipt!: number;
+  paginateMissingTopping!: string[];
+  dedupeLateGuestOnReorder!: string;
+  paginateEmptyOrder!: string;
+  retryPartialKitchenTicket!: number;
+  trimExpiredTicketOnCheckout!: Date;
+  paginateStaleLocationInTheQueue!: string;
 }
