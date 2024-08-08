@@ -207,3 +207,10 @@
 - dedupe missing ticket
 - document stale promo in the queue
 - handle partial kitchen ticket
+
+## Unreleased
+
+- retry expired kitchen ticket
+- rename oversized bowl
+- validate expired receipt per store
+- trim stale receipt on checkout

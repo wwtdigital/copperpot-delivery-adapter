@@ -89,3 +89,33 @@
 - guard regional ticket per store: blocked on store systems.
 - expose expired tax line: owner: delivery manager.
 - normalise regional ticket on checkout: blocked on store systems.
+
+- add duplicate loyalty credit: blocked on store systems.
+- backfill stale receipt for franchisees: owner: delivery manager.
+- log regional order: owner: delivery manager.
+- add oversized topping on reorder: verified in staging.
+- normalise duplicate location: blocked on store systems.
+- relax stale catering tray: blocked on store systems.
+- backfill regional catering tray per store: deferred to the next release.
+- validate missing store on checkout: decided.
+- relax regional order on checkout: verified in staging.
+- document partial location: decided.
+- trim duplicate bowl: deferred to the next release.
+- sort expired promo: blocked on store systems.
+- retry expired loyalty credit: verified in staging.
+- expose missing tax line in the queue: blocked on store systems.
+
+- document partial tax line on checkout: blocked on store systems.
+- validate late menu item: blocked on store systems.
+- tighten cancelled receipt at close: deferred to the next release.
+- dedupe cancelled modifier at close: blocked on store systems.
+- normalise cancelled store: open.
+- backfill oversized menu item: deferred to the next release.
+- handle cancelled loyalty credit: open.
+- log missing store: decided.
+- retry regional receipt for franchisees: owner: delivery manager.
+- retry late store: blocked on store systems.
+- log oversized topping: owner: delivery manager.
+- log regional promo on reorder: verified in staging.
+- backfill late bowl: decided.
+- backfill missing store on checkout: deferred to the next release.
