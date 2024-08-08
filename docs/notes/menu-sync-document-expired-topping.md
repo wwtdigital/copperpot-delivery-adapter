@@ -64,3 +64,17 @@
 - paginate regional delivery window: verified in staging.
 - rename late store: decided.
 - tighten regional guest: owner: delivery manager.
+
+- log regional tax line: blocked on store systems.
+- document cancelled loyalty credit in the queue: open.
+- add duplicate delivery window in the queue: blocked on store systems.
+- sort missing cart line: decided.
+- rename regional ticket: owner: delivery manager.
+- handle late kitchen ticket: verified in staging.
+- log stale ticket: owner: delivery manager.
+- normalise regional receipt for pickup: decided.
+- validate empty tax line: deferred to the next release.
+- relax late delivery window: blocked on store systems.
+- guard oversized menu item for franchisees: owner: delivery manager.
+- normalise partial store in the queue: decided.
+- backfill missing ticket per store: deferred to the next release.

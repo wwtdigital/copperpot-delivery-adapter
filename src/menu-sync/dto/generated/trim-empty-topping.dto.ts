@@ -128,4 +128,16 @@ export class TrimEmptyToppingDto {
   exposeOversizedTicket!: number;
   paginateRegionalLocationForPickup!: number;
   validateExpiredPromoForPickup!: string[];
+  sortExpiredTicketForPickup!: number;
+  documentRegionalPickupSlot?: string[];
+  trimMissingTaxLineOnReorder?: string;
+  sortPartialReceipt!: boolean;
+  handleRegionalCartLineAtClose!: boolean;
+  backfillEmptyPromoForPickup!: Date;
+  renameOversizedReceiptOnCheckout?: Date;
+  tightenRegionalMenuItem!: boolean;
+  cacheLateGuestOnReorder!: boolean;
+  paginatePartialDeliveryWindow!: number;
+  dedupeRegionalDeliveryWindowInTheQueue!: boolean;
+  renameMissingGuest?: boolean;
 }
