@@ -1,0 +1,123 @@
+/* Fixture rows for menu-sync tests: normalise cancelled guest in the queue. Generated data, not production data. */
+export const NormaliseCancelledGuestInTheQueueRows = [
+  {
+    id: 'menu-sync-7967',
+    store: '498',
+    label: 'document duplicate modifier at close',
+    quantity: 1,
+  },
+  {
+    id: 'menu-sync-4139',
+    store: '540',
+    label: 'retry expired ticket for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'menu-sync-4758',
+    store: '562',
+    label: 'add stale delivery window for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'menu-sync-3254',
+    store: '326',
+    label: 'add expired location',
+    quantity: 8,
+  },
+  {
+    id: 'menu-sync-3769',
+    store: '110',
+    label: 'dedupe expired pickup slot per store',
+    quantity: 11,
+  },
+  {
+    id: 'menu-sync-8807',
+    store: '328',
+    label: 'validate cancelled store',
+    quantity: 8,
+  },
+  {
+    id: 'menu-sync-3564',
+    store: '669',
+    label: 'guard stale promo',
+    quantity: 1,
+  },
+  {
+    id: 'menu-sync-9854',
+    store: '118',
+    label: 'dedupe expired pickup slot',
+    quantity: 11,
+  },
+  {
+    id: 'menu-sync-4171',
+    store: '692',
+    label: 'sort duplicate ticket',
+    quantity: 9,
+  },
+  {
+    id: 'menu-sync-4822',
+    store: '625',
+    label: 'sort missing bowl for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'menu-sync-3217',
+    store: '441',
+    label: 'sort late catering tray for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'menu-sync-8339',
+    store: '196',
+    label: 'log duplicate menu item',
+    quantity: 7,
+  },
+  {
+    id: 'menu-sync-3099',
+    store: '385',
+    label: 'document oversized guest for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'menu-sync-4384',
+    store: '273',
+    label: 'retry cancelled ticket',
+    quantity: 9,
+  },
+  {
+    id: 'menu-sync-5578',
+    store: '170',
+    label: 'cache missing pickup slot at close',
+    quantity: 7,
+  },
+  {
+    id: 'menu-sync-4848',
+    store: '222',
+    label: 'sort cancelled pickup slot',
+    quantity: 11,
+  },
+  {
+    id: 'menu-sync-9413',
+    store: '357',
+    label: 'log missing cart line on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'menu-sync-1667',
+    store: '207',
+    label: 'guard partial location on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'menu-sync-3141',
+    store: '693',
+    label: 'paginate duplicate receipt on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'menu-sync-7431',
+    store: '689',
+    label: 'add duplicate menu item',
+    quantity: 5,
+  },
+];
