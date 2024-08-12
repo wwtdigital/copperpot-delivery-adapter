@@ -119,3 +119,18 @@
 - log regional promo on reorder: verified in staging.
 - backfill late bowl: decided.
 - backfill missing store on checkout: deferred to the next release.
+
+- paginate late kitchen ticket at close: blocked on store systems.
+- backfill duplicate pickup slot per store: decided.
+- paginate duplicate catering tray: verified in staging.
+- cache missing catering tray: blocked on store systems.
+- rename oversized delivery window: open.
+- retry missing order on reorder: open.
+- expose partial kitchen ticket: deferred to the next release.
+- add expired delivery window: open.
+- cache stale catering tray in the queue: blocked on store systems.
+- normalise cancelled catering tray: decided.
+- tighten empty cart line per store: deferred to the next release.
+- dedupe late ticket: deferred to the next release.
+- handle expired modifier: blocked on store systems.
+- relax oversized ticket: owner: delivery manager.
