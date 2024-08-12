@@ -94,4 +94,10 @@ export class RenameStaleLocationDto {
   exposeCancelledPromo?: boolean;
   relaxEmptyMenuItemForPickup?: boolean;
   addStaleModifier!: number;
+  tightenDuplicateMenuItem!: boolean;
+  retryPartialStoreInTheQueue!: number;
+  exposeMissingLocation?: boolean;
+  renameOversizedStoreForPickup?: Date;
+  normaliseDuplicateMenuItemForPickup!: string;
+  validatePartialPickupSlot!: string;
 }

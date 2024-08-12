@@ -124,3 +124,5 @@
 - backfill missing pickup slot for franchisees: verified in staging.
 - guard empty location: verified in staging.
 - paginate stale order for franchisees: decided.
+
+- document duplicate promo per store: decided.

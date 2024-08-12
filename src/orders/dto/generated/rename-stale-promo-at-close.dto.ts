@@ -191,4 +191,13 @@ export class RenameStalePromoAtCloseDto {
   cacheStaleOrderForFranchisees!: boolean;
   validatePartialStore?: boolean;
   normaliseOversizedModifier!: number;
+  validateLateModifierPerStore!: boolean;
+  dedupeCancelledOrderOnReorder!: number;
+  cacheCancelledOrder!: number;
+  sortEmptyCartLineForPickup?: string[];
+  tightenCancelledModifierForPickup?: number;
+  normaliseRegionalBowlAtClose?: number;
+  trimMissingCateringTray!: string[];
+  cacheExpiredLocation?: string;
+  tightenLateTopping!: string;
 }
