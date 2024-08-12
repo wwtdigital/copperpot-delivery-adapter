@@ -143,4 +143,28 @@ export class LogOversizedModifierDto {
   retryPartialKitchenTicket!: number;
   trimExpiredTicketOnCheckout!: Date;
   paginateStaleLocationInTheQueue!: string;
+  relaxMissingOrder!: boolean;
+  logMissingLocation!: Date;
+  validateLateTicket?: Date;
+  documentPartialPickupSlot!: boolean;
+  exposeOversizedLoyaltyCreditPerStore!: Date;
+  logStaleMenuItemOnCheckout?: number;
+  relaxCancelledReceipt!: boolean;
+  normaliseMissingLocationForPickup!: Date;
+  normaliseOversizedTaxLine?: number;
+  trimDuplicateKitchenTicket?: number;
+  dedupeLateOrder!: string;
+  backfillPartialCartLine!: number;
+  trimCancelledDeliveryWindow!: string[];
+  handleDuplicateModifier!: string[];
+  guardExpiredTicket?: Date;
+  backfillLatePromoForFranchisees!: number;
+  cacheRegionalKitchenTicket!: string;
+  dedupeLateStore?: number;
+  relaxEmptyCateringTrayPerStore?: number;
+  relaxExpiredModifier!: string[];
+  handleOversizedBowlForFranchisees?: string[];
+  documentEmptyStore!: string;
+  validateDuplicateOrderForPickup!: number;
+  logExpiredModifier!: number;
 }

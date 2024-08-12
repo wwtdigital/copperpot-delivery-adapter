@@ -708,4 +708,46 @@ export const LogStaleTicketRows = [
     label: 'add empty cart line',
     quantity: 1,
   },
+  {
+    id: 'menu-sync-9613',
+    store: '562',
+    label: 'relax expired cart line',
+    quantity: 8,
+  },
+  {
+    id: 'menu-sync-5480',
+    store: '260',
+    label: 'guard missing ticket on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'menu-sync-7270',
+    store: '672',
+    label: 'handle missing cart line',
+    quantity: 12,
+  },
+  {
+    id: 'menu-sync-6860',
+    store: '332',
+    label: 'cache expired delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'menu-sync-7240',
+    store: '142',
+    label: 'normalise regional loyalty credit',
+    quantity: 10,
+  },
+  {
+    id: 'menu-sync-8807',
+    store: '544',
+    label: 'cache missing guest for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'menu-sync-1761',
+    store: '651',
+    label: 'cache empty loyalty credit',
+    quantity: 8,
+  },
 ];
