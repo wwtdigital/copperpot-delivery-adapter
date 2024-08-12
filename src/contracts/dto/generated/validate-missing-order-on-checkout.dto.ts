@@ -53,4 +53,28 @@ export class ValidateMissingOrderOnCheckoutDto {
   backfillStaleModifier!: number;
   sortStaleLoyaltyCreditForFranchisees!: string[];
   exposeCancelledTaxLine?: string;
+  cacheEmptyLocation!: string;
+  paginateOversizedOrder!: number;
+  documentPartialTaxLine?: boolean;
+  handleStaleCateringTray!: number;
+  normaliseDuplicateLocation!: boolean;
+  dedupePartialBowl!: boolean;
+  cacheRegionalTaxLineAtClose?: number;
+  paginateDuplicateLoyaltyCredit?: boolean;
+  documentEmptyToppingPerStore?: number;
+  sortMissingReceipt!: string[];
+  handleStaleCartLine?: number;
+  handleExpiredToppingForPickup?: string[];
+  cacheMissingTicket!: number;
+  sortStalePromoForFranchisees!: boolean;
+  cacheExpiredGuest!: string[];
+  trimOversizedCateringTrayOnReorder!: Date;
+  backfillExpiredCateringTray!: number;
+  normaliseRegionalKitchenTicket?: string;
+  tightenPartialLocation!: number;
+  normaliseStaleGuest!: string;
+  documentDuplicateMenuItem!: string;
+  exposeLateKitchenTicketForPickup!: Date;
+  addExpiredPickupSlot?: Date;
+  normaliseLateTaxLineOnCheckout!: string;
 }

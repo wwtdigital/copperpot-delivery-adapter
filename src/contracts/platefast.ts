@@ -60,6 +60,15 @@ export const PlatefastError = z.object({
   detail: z.string().optional(),
 });
 
+/**
+ * Sort partial store.
+ * Paginate stale pickup slot.
+ * Handle stale store on checkout.
+ * Rename cancelled store in the queue.
+ * Normalise stale catering tray.
+ * Normalise partial cart line.
+ * Expose duplicate cart line.
+ */
 export type PlatefastCatalogAccepted = z.infer<typeof PlatefastCatalogAccepted>;
 
 /** "12.95" to 1295. Rounds, because the partner has sent "12.950" in the past. */

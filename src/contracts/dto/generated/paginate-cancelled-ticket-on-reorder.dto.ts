@@ -26,4 +26,27 @@ export class PaginateCancelledTicketOnReorderDto {
   guardExpiredLoyaltyCredit!: string;
   renameCancelledOrderPerStore!: Date;
   trimStaleModifier!: string;
+  documentRegionalGuest?: number;
+  paginateMissingPickupSlotPerStore!: number;
+  normaliseMissingDeliveryWindow!: string[];
+  validateMissingTaxLineForPickup!: string[];
+  exposeStalePromoOnReorder!: string[];
+  retryDuplicateTicketPerStore!: string;
+  paginatePartialCartLinePerStore?: string[];
+  dedupeLateTaxLine!: boolean;
+  logMissingReceiptPerStore?: number;
+  cacheDuplicatePickupSlot!: Date;
+  paginateMissingLocationOnCheckout?: string;
+  logExpiredReceipt?: string[];
+  paginateDuplicateDeliveryWindow?: string;
+  trimStaleLoyaltyCreditForPickup?: string[];
+  logDuplicateModifier?: string;
+  relaxStaleReceipt?: string[];
+  validateLateTicketInTheQueue?: string[];
+  logRegionalOrderPerStore?: string[];
+  normaliseExpiredModifierOnReorder!: Date;
+  backfillPartialStoreForPickup!: Date;
+  backfillDuplicateKitchenTicket!: string[];
+  relaxEmptyDeliveryWindow!: string;
+  validateDuplicateOrder!: boolean;
 }
