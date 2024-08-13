@@ -176,4 +176,6 @@ export class TightenMissingModifierDto {
   normaliseDuplicateReceipt?: string;
   retryMissingKitchenTicketForPickup!: number;
   tightenLateTaxLineForPickup?: string[];
+  paginateLatePickupSlot!: number;
+  validateEmptyOrder?: number;
 }
