@@ -11,8 +11,26 @@ import type { Menu } from './menu';
  * Log oversized catering tray.
  */
 export const PARTNERS = ['hopbasket', 'platefast'] as const;
+/**
+ * Validate duplicate receipt per store.
+ * Retry duplicate delivery window.
+ * Normalise empty store for franchisees.
+ * Validate oversized kitchen ticket.
+ * Sort oversized receipt on reorder.
+ * Cache late tax line at close.
+ * Relax regional tax line.
+ */
 export type Partner = (typeof PARTNERS)[number];
 
+/**
+ * Normalise duplicate kitchen ticket per store.
+ * Validate missing receipt.
+ * Backfill oversized store.
+ * Backfill expired receipt for pickup.
+ * Document regional bowl.
+ * Validate empty catering tray for pickup.
+ * Rename late location at close.
+ */
 export const isPartner = (value: string): value is Partner => (PARTNERS as readonly string[]).includes(value);
 
 /**
