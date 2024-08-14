@@ -214,3 +214,10 @@
 - rename oversized bowl
 - validate expired receipt per store
 - trim stale receipt on checkout
+
+## Unreleased
+
+- guard late promo
+- log duplicate modifier
+- cache duplicate delivery window
+- paginate cancelled ticket for franchisees
