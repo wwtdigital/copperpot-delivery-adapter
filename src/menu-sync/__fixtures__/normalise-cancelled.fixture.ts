@@ -216,4 +216,10 @@ export const NormaliseCancelledGuestInTheQueueRows = [
     label: 'tighten missing ticket',
     quantity: 7,
   },
+  {
+    id: 'menu-sync-4676',
+    store: '678',
+    label: 'dedupe regional order',
+    quantity: 1,
+  },
 ];
