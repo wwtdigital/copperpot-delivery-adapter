@@ -99,3 +99,18 @@
 - log cancelled menu item: decided.
 - sort stale location on reorder: deferred to the next release.
 - retry duplicate delivery window: deferred to the next release.
+
+- cache late catering tray: deferred to the next release.
+- tighten late bowl for franchisees: decided.
+- retry duplicate cart line: owner: delivery manager.
+- expose late topping for pickup: verified in staging.
+- backfill stale menu item per store: open.
+- document partial catering tray: owner: delivery manager.
+- expose duplicate tax line: blocked on store systems.
+- rename oversized store for franchisees: owner: delivery manager.
+- handle expired location: owner: delivery manager.
+- relax cancelled promo: owner: delivery manager.
+- normalise expired pickup slot: deferred to the next release.
+- add partial store: verified in staging.
+- cache missing catering tray: owner: delivery manager.
+- expose cancelled promo on checkout: verified in staging.

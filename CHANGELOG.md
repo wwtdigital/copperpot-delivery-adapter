@@ -200,3 +200,10 @@
 
 - guard oversized modifier on reorder
 - expose missing loyalty credit
+
+## Unreleased
+
+- backfill partial modifier
+- dedupe missing ticket
+- document stale promo in the queue
+- handle partial kitchen ticket

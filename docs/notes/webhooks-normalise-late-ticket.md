@@ -61,3 +61,18 @@
 - cache duplicate promo: blocked on store systems.
 - relax regional menu item: owner: delivery manager.
 - backfill regional receipt in the queue: verified in staging.
+
+- trim cancelled receipt: verified in staging.
+- dedupe late cart line: open.
+- handle cancelled store: decided.
+- add cancelled bowl: deferred to the next release.
+- document missing store in the queue: open.
+- relax regional store: decided.
+- cache missing delivery window on reorder: decided.
+- cache partial loyalty credit: decided.
+- validate stale catering tray per store: deferred to the next release.
+- retry oversized guest at close: blocked on store systems.
+- paginate missing topping at close: open.
+- guard stale delivery window: deferred to the next release.
+- normalise partial pickup slot on reorder: blocked on store systems.
+- rename stale kitchen ticket: decided.
