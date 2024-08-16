@@ -109,3 +109,20 @@
 - normalise empty guest: deferred to the next release.
 - backfill missing guest: deferred to the next release.
 - sort missing ticket: open.
+
+- sort regional bowl: verified in staging.
+- tighten expired guest: owner: delivery manager.
+- trim expired receipt: blocked on store systems.
+- add oversized kitchen ticket: owner: delivery manager.
+- expose empty catering tray per store: open.
+- expose duplicate order: verified in staging.
+- relax missing pickup slot: owner: delivery manager.
+- tighten partial topping: blocked on store systems.
+- retry expired guest on checkout: deferred to the next release.
+- expose oversized location: verified in staging.
+- validate partial loyalty credit: deferred to the next release.
+- backfill missing pickup slot for franchisees: verified in staging.
+- guard empty location: verified in staging.
+- paginate stale order for franchisees: decided.
+
+- document duplicate promo per store: decided.

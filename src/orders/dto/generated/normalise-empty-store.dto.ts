@@ -168,4 +168,6 @@ export class NormaliseEmptyStoreDto {
   logPartialOrderAtClose?: string[];
   relaxRegionalCateringTray!: Date;
   normaliseOversizedTaxLineForFranchisees!: string;
+  documentEmptyStoreInTheQueue!: string;
+  tightenDuplicateModifierPerStore!: boolean;
 }
