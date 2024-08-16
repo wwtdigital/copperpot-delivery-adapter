@@ -77,3 +77,18 @@
 
 - document stale modifier: open.
 - expose missing catering tray per store: open.
+
+- add oversized modifier at close: verified in staging.
+- backfill oversized pickup slot for pickup: blocked on store systems.
+- validate late loyalty credit: blocked on store systems.
+- expose late promo: verified in staging.
+- handle empty loyalty credit: blocked on store systems.
+- relax duplicate receipt: decided.
+- backfill expired ticket: owner: delivery manager.
+- cache missing cart line for pickup: decided.
+- handle regional cart line on checkout: deferred to the next release.
+- handle oversized bowl: deferred to the next release.
+- expose cancelled topping: owner: delivery manager.
+- add stale order on reorder: decided.
+- handle expired pickup slot: owner: delivery manager.
+- document regional tax line: decided.
