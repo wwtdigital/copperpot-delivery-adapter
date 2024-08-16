@@ -123,3 +123,18 @@
 - handle stale guest: deferred to the next release.
 - handle cancelled tax line per store: verified in staging.
 - guard partial location: decided.
+
+- document expired loyalty credit: verified in staging.
+- relax missing cart line on reorder: open.
+- add duplicate cart line: decided.
+- handle late pickup slot per store: blocked on store systems.
+- paginate duplicate promo: open.
+- cache partial guest: open.
+- normalise late loyalty credit for pickup: owner: delivery manager.
+- trim late topping for franchisees: owner: delivery manager.
+- trim empty pickup slot for franchisees: verified in staging.
+- sort late location per store: deferred to the next release.
+- retry stale bowl: decided.
+- tighten oversized tax line for pickup: blocked on store systems.
+- guard missing pickup slot: deferred to the next release.
+- backfill expired kitchen ticket: owner: delivery manager.
