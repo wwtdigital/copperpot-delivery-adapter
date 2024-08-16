@@ -14,3 +14,18 @@
 - backfill empty receipt on checkout: deferred to the next release.
 - paginate missing ticket per store: blocked on store systems.
 - handle cancelled store: owner: delivery manager.
+
+- backfill oversized pickup slot in the queue: blocked on store systems.
+- relax expired menu item: open.
+- log missing order: deferred to the next release.
+- guard regional menu item for franchisees: open.
+- guard late store: blocked on store systems.
+- log stale pickup slot: deferred to the next release.
+- guard regional guest: verified in staging.
+- paginate regional loyalty credit: verified in staging.
+- trim expired cart line: deferred to the next release.
+- validate regional loyalty credit: blocked on store systems.
+- validate regional modifier on reorder: open.
+- trim expired kitchen ticket for franchisees: verified in staging.
+- paginate oversized catering tray at close: decided.
+- expose expired tax line: blocked on store systems.
