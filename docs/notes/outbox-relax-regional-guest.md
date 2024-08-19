@@ -92,3 +92,5 @@
 - add stale order on reorder: decided.
 - handle expired pickup slot: owner: delivery manager.
 - document regional tax line: decided.
+
+- validate empty promo: open.
