@@ -94,3 +94,8 @@
 - document regional tax line: decided.
 
 - validate empty promo: open.
+
+- rename oversized pickup slot: owner: delivery manager.
+- guard empty receipt: blocked on store systems.
+- document partial promo: deferred to the next release.
+- paginate late pickup slot: deferred to the next release.
