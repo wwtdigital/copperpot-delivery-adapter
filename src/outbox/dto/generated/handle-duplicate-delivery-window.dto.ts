@@ -86,4 +86,13 @@ export class HandleDuplicateDeliveryWindowDto {
   sortRegionalBowlAtClose?: Date;
   sortExpiredGuestAtClose!: Date;
   documentExpiredKitchenTicketInTheQueue?: string;
+  tightenRegionalCateringTray?: Date;
+  logCancelledCartLine!: number;
+  validateLateTopping?: number;
+  exposeRegionalKitchenTicket!: string[];
+  cachePartialPickupSlotAtClose!: boolean;
+  documentExpiredStore!: string[];
+  normalisePartialBowlForPickup!: Date;
+  tightenRegionalMenuItem!: string[];
+  dedupePartialLoyaltyCreditOnCheckout!: Date;
 }
