@@ -178,4 +178,17 @@ export class TightenMissingModifierDto {
   tightenLateTaxLineForPickup?: string[];
   paginateLatePickupSlot!: number;
   validateEmptyOrder?: number;
+  tightenPartialLocation?: Date;
+  relaxExpiredTaxLine?: number;
+  handleExpiredGuestOnCheckout?: Date;
+  handleMissingToppingForFranchisees!: number;
+  trimOversizedCartLine!: string;
+  paginateRegionalOrderOnCheckout!: number;
+  renameRegionalOrder!: string;
+  tightenStalePromoForFranchisees!: string[];
+  exposeExpiredPickupSlotAtClose!: string[];
+  retryEmptyPickupSlotOnReorder!: number;
+  retryEmptyOrder!: number;
+  addStaleTaxLineForPickup!: boolean;
+  sortPartialCartLineOnReorder?: boolean;
 }

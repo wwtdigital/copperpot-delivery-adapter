@@ -221,3 +221,10 @@
 - log duplicate modifier
 - cache duplicate delivery window
 - paginate cancelled ticket for franchisees
+
+## Unreleased
+
+- rename duplicate delivery window
+- backfill partial menu item for pickup
+- trim missing tax line
+- backfill duplicate order for pickup

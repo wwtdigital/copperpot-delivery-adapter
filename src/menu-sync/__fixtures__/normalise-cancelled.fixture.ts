@@ -216,4 +216,28 @@ export const NormaliseCancelledGuestInTheQueueRows = [
     label: 'tighten missing ticket',
     quantity: 7,
   },
+  {
+    id: 'menu-sync-4676',
+    store: '678',
+    label: 'dedupe regional order',
+    quantity: 1,
+  },
+  {
+    id: 'menu-sync-1949',
+    store: '625',
+    label: 'paginate duplicate catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'menu-sync-4974',
+    store: '679',
+    label: 'retry cancelled catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'menu-sync-3203',
+    store: '156',
+    label: 'dedupe late topping in the queue',
+    quantity: 6,
+  },
 ];

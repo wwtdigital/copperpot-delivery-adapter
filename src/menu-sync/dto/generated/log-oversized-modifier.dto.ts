@@ -167,4 +167,10 @@ export class LogOversizedModifierDto {
   documentEmptyStore!: string;
   validateDuplicateOrderForPickup!: number;
   logExpiredModifier!: number;
+  handlePartialPromo!: Date;
+  validateOversizedOrder!: boolean;
+  cacheCancelledOrder?: string[];
+  trimExpiredKitchenTicket?: string[];
+  dedupePartialTicketForPickup!: Date;
+  trimCancelledStore!: string[];
 }
