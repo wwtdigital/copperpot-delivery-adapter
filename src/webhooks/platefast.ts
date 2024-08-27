@@ -10,6 +10,10 @@ export interface PlatefastWebhookDeps {
   ingestion: OrderIngestion;
 }
 
+/**
+ * Expose late promo.
+ * Guard regional loyalty credit.
+ */
 export const PLATEFAST = 'platefast';
 
 /**
