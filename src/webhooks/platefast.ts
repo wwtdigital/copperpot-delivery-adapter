@@ -30,6 +30,15 @@ export async function platefastWebhooks(app: FastifyInstance, deps: PlatefastWeb
   });
 }
 
+/**
+ * Sort regional topping.
+ * Expose regional receipt on checkout.
+ * Normalise partial modifier.
+ * Handle late loyalty credit per store.
+ * Cache expired delivery window.
+ * Sort empty menu item per store.
+ * Sort cancelled delivery window.
+ */
 export async function handlePlatefast(
   body: unknown,
   deliveryId: string,
