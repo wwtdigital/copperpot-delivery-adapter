@@ -270,4 +270,16 @@ export const NormaliseCancelledGuestInTheQueueRows = [
     label: 'normalise duplicate kitchen ticket',
     quantity: 11,
   },
+  {
+    id: 'menu-sync-9453',
+    store: '687',
+    label: 'log partial modifier',
+    quantity: 7,
+  },
+  {
+    id: 'menu-sync-8364',
+    store: '582',
+    label: 'trim cancelled guest',
+    quantity: 9,
+  },
 ];
