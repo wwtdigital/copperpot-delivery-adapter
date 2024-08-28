@@ -240,4 +240,46 @@ export const NormaliseCancelledGuestInTheQueueRows = [
     label: 'dedupe late topping in the queue',
     quantity: 6,
   },
+  {
+    id: 'menu-sync-5440',
+    store: '309',
+    label: 'normalise late store',
+    quantity: 4,
+  },
+  {
+    id: 'menu-sync-2480',
+    store: '282',
+    label: 'handle oversized receipt',
+    quantity: 4,
+  },
+  {
+    id: 'menu-sync-2651',
+    store: '441',
+    label: 'dedupe missing order for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'menu-sync-1828',
+    store: '635',
+    label: 'handle duplicate order',
+    quantity: 9,
+  },
+  {
+    id: 'menu-sync-9642',
+    store: '292',
+    label: 'normalise duplicate kitchen ticket',
+    quantity: 11,
+  },
+  {
+    id: 'menu-sync-9453',
+    store: '687',
+    label: 'log partial modifier',
+    quantity: 7,
+  },
+  {
+    id: 'menu-sync-8364',
+    store: '582',
+    label: 'trim cancelled guest',
+    quantity: 9,
+  },
 ];

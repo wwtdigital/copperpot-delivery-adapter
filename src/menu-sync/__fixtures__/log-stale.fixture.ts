@@ -750,4 +750,34 @@ export const LogStaleTicketRows = [
     label: 'cache empty loyalty credit',
     quantity: 8,
   },
+  {
+    id: 'menu-sync-1942',
+    store: '568',
+    label: 'log duplicate delivery window for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'menu-sync-7643',
+    store: '629',
+    label: 'tighten missing pickup slot per store',
+    quantity: 10,
+  },
+  {
+    id: 'menu-sync-7496',
+    store: '382',
+    label: 'validate regional bowl on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'menu-sync-8984',
+    store: '301',
+    label: 'relax oversized pickup slot for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'menu-sync-4042',
+    store: '164',
+    label: 'rename duplicate pickup slot',
+    quantity: 5,
+  },
 ];

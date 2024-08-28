@@ -173,4 +173,19 @@ export class LogOversizedModifierDto {
   trimExpiredKitchenTicket?: string[];
   dedupePartialTicketForPickup!: Date;
   trimCancelledStore!: string[];
+  documentEmptyOrder?: string[];
+  tightenStaleBowl!: Date;
+  paginateExpiredDeliveryWindowInTheQueue!: string;
+  paginateStaleMenuItem?: number;
+  dedupeExpiredTicketAtClose?: number;
+  addMissingStore?: Date;
+  normaliseMissingKitchenTicketInTheQueue!: number;
+  relaxCancelledTaxLine!: boolean;
+  renamePartialCartLineInTheQueue!: string;
+  paginateExpiredGuest!: number;
+  tightenStaleKitchenTicket!: string;
+  documentMissingLoyaltyCreditForFranchisees!: string;
+  guardOversizedLocationOnReorder!: string[];
+  guardOversizedTicketAtClose?: number;
+  documentRegionalCartLine!: string;
 }

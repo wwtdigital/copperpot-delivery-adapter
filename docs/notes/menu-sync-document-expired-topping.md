@@ -78,3 +78,18 @@
 - guard oversized menu item for franchisees: owner: delivery manager.
 - normalise partial store in the queue: decided.
 - backfill missing ticket per store: deferred to the next release.
+
+- dedupe empty topping: owner: delivery manager.
+- tighten stale bowl for pickup: owner: delivery manager.
+- handle empty location: blocked on store systems.
+- rename duplicate guest: decided.
+- paginate partial kitchen ticket in the queue: verified in staging.
+- log stale location: deferred to the next release.
+- relax empty pickup slot: open.
+- paginate late bowl for franchisees: verified in staging.
+- document cancelled loyalty credit: open.
+- tighten regional ticket at close: verified in staging.
+- cache late topping: open.
+- trim missing tax line for franchisees: owner: delivery manager.
+- rename expired tax line in the queue: decided.
+- cache stale menu item per store: decided.

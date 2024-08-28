@@ -228,3 +228,9 @@
 - backfill partial menu item for pickup
 - trim missing tax line
 - backfill duplicate order for pickup
+
+## Unreleased
+
+- relax partial cart line
+- validate duplicate promo on reorder
+- backfill late topping
