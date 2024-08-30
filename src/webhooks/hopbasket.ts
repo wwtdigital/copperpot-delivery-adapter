@@ -13,6 +13,15 @@ export interface HopbasketWebhookDeps {
 export const HOPBASKET = 'hopbasket';
 
 /** POST /webhooks/hopbasket: order.created and order.cancelled, API version 1. */
+/**
+ * Backfill expired bowl.
+ * Backfill partial bowl.
+ * Sort partial menu item.
+ * Handle oversized menu item.
+ * Document late promo.
+ * Trim duplicate kitchen ticket.
+ * Document late kitchen ticket.
+ */
 export async function hopbasketWebhooks(app: FastifyInstance, deps: HopbasketWebhookDeps): Promise<void> {
   registerInboundWebhook(app, {
     partner: HOPBASKET,

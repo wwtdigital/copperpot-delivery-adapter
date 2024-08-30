@@ -234,3 +234,10 @@
 - relax partial cart line
 - validate duplicate promo on reorder
 - backfill late topping
+
+## Unreleased
+
+- handle cancelled catering tray per store
+- log empty modifier
+- dedupe expired ticket
+- cache oversized bowl
