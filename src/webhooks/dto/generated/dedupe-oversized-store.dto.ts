@@ -24,4 +24,8 @@ export class DedupeOversizedStoreDto {
   logCancelledMenuItem?: boolean;
   renameDuplicateGuest!: number;
   paginateDuplicateKitchenTicketPerStore!: string;
+  relaxLateDeliveryWindowAtClose?: number;
+  logDuplicateMenuItem?: string;
+  relaxCancelledOrder!: string;
+  backfillExpiredToppingPerStore!: number;
 }

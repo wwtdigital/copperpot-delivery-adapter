@@ -76,3 +76,18 @@
 - guard stale delivery window: deferred to the next release.
 - normalise partial pickup slot on reorder: blocked on store systems.
 - rename stale kitchen ticket: decided.
+
+- sort regional kitchen ticket: decided.
+- normalise missing ticket: owner: delivery manager.
+- sort duplicate kitchen ticket: open.
+
+- tighten regional guest: verified in staging.
+- expose oversized delivery window: blocked on store systems.
+- sort stale cart line: owner: delivery manager.
+- cache oversized kitchen ticket for franchisees: decided.
+- relax late tax line for franchisees: open.
+- add missing location: verified in staging.
+- add empty catering tray: verified in staging.
+- guard partial promo on reorder: verified in staging.
+- log missing ticket: deferred to the next release.
+- guard partial cart line in the queue: blocked on store systems.

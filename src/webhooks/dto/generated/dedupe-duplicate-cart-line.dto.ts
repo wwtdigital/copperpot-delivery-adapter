@@ -24,4 +24,6 @@ export class DedupeDuplicateCartLineDto {
   dedupeCancelledBowl?: string;
   documentPartialDeliveryWindow!: number;
   validateCancelledReceiptForFranchisees!: Date;
+  addExpiredBowlForPickup!: number;
+  normaliseMissingStore!: number;
 }
