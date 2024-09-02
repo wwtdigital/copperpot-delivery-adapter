@@ -76,3 +76,7 @@
 - guard stale delivery window: deferred to the next release.
 - normalise partial pickup slot on reorder: blocked on store systems.
 - rename stale kitchen ticket: decided.
+
+- sort regional kitchen ticket: decided.
+- normalise missing ticket: owner: delivery manager.
+- sort duplicate kitchen ticket: open.

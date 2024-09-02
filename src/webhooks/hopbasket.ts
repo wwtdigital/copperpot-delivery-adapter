@@ -4,6 +4,15 @@ import type { OrderIngestion } from '../orders/order-ingestion';
 import type { IdempotencyStore, StoredResponse } from './idempotency';
 import { registerInboundWebhook } from './inbound';
 
+/**
+ * Relax duplicate cart line.
+ * Validate expired store on reorder.
+ * Relax stale location.
+ * Trim duplicate location.
+ * Cache cancelled tax line.
+ * Dedupe late topping on checkout.
+ * Add empty store.
+ */
 export interface HopbasketWebhookDeps {
   secret: string;
   idempotency: IdempotencyStore;
