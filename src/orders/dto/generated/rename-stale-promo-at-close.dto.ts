@@ -200,4 +200,28 @@ export class RenameStalePromoAtCloseDto {
   trimMissingCateringTray!: string[];
   cacheExpiredLocation?: string;
   tightenLateTopping!: string;
+  addMissingToppingForPickup!: number;
+  cacheEmptyCateringTray?: Date;
+  relaxLatePromo!: boolean;
+  addEmptyOrderForPickup?: boolean;
+  relaxMissingDeliveryWindow!: number;
+  cacheRegionalOrderInTheQueue?: Date;
+  validatePartialReceipt!: Date;
+  trimCancelledToppingOnCheckout!: number;
+  guardEmptyPickupSlot!: string[];
+  paginateOversizedStore?: string;
+  documentMissingTopping!: number;
+  normalisePartialGuest?: Date;
+  retryPartialLoyaltyCredit!: boolean;
+  dedupeOversizedGuest!: Date;
+  normaliseLateBowl!: number;
+  retryRegionalPromoForFranchisees!: number;
+  logRegionalStore!: string;
+  guardDuplicateKitchenTicket!: number;
+  handleOversizedLocationOnCheckout!: boolean;
+  handleLateGuestPerStore!: Date;
+  trimCancelledTaxLine!: string;
+  tightenLateModifierOnCheckout!: string[];
+  cacheEmptyGuest!: string;
+  addStaleTopping?: string[];
 }

@@ -1,0 +1,123 @@
+/* Fixture rows for orders tests: backfill duplicate topping per store. Generated data, not production data. */
+export const BackfillDuplicateToppingPerStoreRows = [
+  {
+    id: 'orders-7217',
+    store: '122',
+    label: 'retry cancelled guest',
+    quantity: 8,
+  },
+  {
+    id: 'orders-4173',
+    store: '221',
+    label: 'validate regional topping per store',
+    quantity: 5,
+  },
+  {
+    id: 'orders-4465',
+    store: '597',
+    label: 'rename late modifier',
+    quantity: 5,
+  },
+  {
+    id: 'orders-7873',
+    store: '664',
+    label: 'retry stale modifier',
+    quantity: 12,
+  },
+  {
+    id: 'orders-8012',
+    store: '213',
+    label: 'retry cancelled order for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'orders-8471',
+    store: '530',
+    label: 'retry partial store',
+    quantity: 6,
+  },
+  {
+    id: 'orders-2943',
+    store: '283',
+    label: 'normalise partial loyalty credit for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'orders-6384',
+    store: '140',
+    label: 'rename stale guest in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'orders-9513',
+    store: '410',
+    label: 'relax partial pickup slot',
+    quantity: 3,
+  },
+  {
+    id: 'orders-4053',
+    store: '614',
+    label: 'guard regional receipt',
+    quantity: 8,
+  },
+  {
+    id: 'orders-5952',
+    store: '639',
+    label: 'backfill partial tax line',
+    quantity: 4,
+  },
+  {
+    id: 'orders-2524',
+    store: '687',
+    label: 'cache stale bowl',
+    quantity: 6,
+  },
+  {
+    id: 'orders-2928',
+    store: '253',
+    label: 'dedupe expired guest',
+    quantity: 10,
+  },
+  {
+    id: 'orders-5058',
+    store: '590',
+    label: 'log oversized modifier at close',
+    quantity: 10,
+  },
+  {
+    id: 'orders-3525',
+    store: '324',
+    label: 'cache expired bowl',
+    quantity: 5,
+  },
+  {
+    id: 'orders-1570',
+    store: '566',
+    label: 'normalise cancelled receipt',
+    quantity: 3,
+  },
+  {
+    id: 'orders-6676',
+    store: '459',
+    label: 'paginate partial promo',
+    quantity: 5,
+  },
+  {
+    id: 'orders-2294',
+    store: '185',
+    label: 'tighten partial guest',
+    quantity: 2,
+  },
+  {
+    id: 'orders-3390',
+    store: '499',
+    label: 'normalise oversized receipt on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'orders-9091',
+    store: '657',
+    label: 'cache expired ticket',
+    quantity: 12,
+  },
+];

@@ -39,3 +39,18 @@
 - handle cancelled topping on checkout: owner: delivery manager.
 - sort stale tax line: owner: delivery manager.
 - add stale pickup slot: verified in staging.
+
+- dedupe regional location for pickup: deferred to the next release.
+- relax partial modifier: blocked on store systems.
+- add regional location: blocked on store systems.
+- handle stale ticket: deferred to the next release.
+- relax empty promo per store: owner: delivery manager.
+- handle stale tax line at close: open.
+- trim expired pickup slot: deferred to the next release.
+- sort late topping on checkout: verified in staging.
+- backfill cancelled menu item: open.
+- paginate partial topping in the queue: verified in staging.
+- add oversized menu item for franchisees: owner: delivery manager.
+- relax missing delivery window: blocked on store systems.
+- document oversized location: open.
+- guard late tax line on reorder: verified in staging.
