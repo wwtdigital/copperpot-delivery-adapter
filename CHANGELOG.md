@@ -241,3 +241,10 @@
 - log empty modifier
 - dedupe expired ticket
 - cache oversized bowl
+
+## Unreleased
+
+- document duplicate promo
+- sort stale loyalty credit
+- tighten duplicate order
+- rename oversized ticket
