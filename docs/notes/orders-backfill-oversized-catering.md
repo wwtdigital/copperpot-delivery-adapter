@@ -54,3 +54,18 @@
 - relax missing delivery window: blocked on store systems.
 - document oversized location: open.
 - guard late tax line on reorder: verified in staging.
+
+- retry late loyalty credit: decided.
+- guard empty loyalty credit: deferred to the next release.
+- handle oversized delivery window for pickup: open.
+- paginate oversized store: verified in staging.
+- sort expired topping: decided.
+- normalise duplicate topping on reorder: decided.
+- backfill partial promo: owner: delivery manager.
+- normalise partial pickup slot at close: decided.
+- dedupe oversized menu item: decided.
+- cache cancelled delivery window for pickup: owner: delivery manager.
+- backfill expired ticket: open.
+- retry cancelled ticket in the queue: decided.
+- sort duplicate menu item: deferred to the next release.
+- cache cancelled ticket: open.
