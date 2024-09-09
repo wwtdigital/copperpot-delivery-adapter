@@ -194,4 +194,19 @@ export class RenameStaleLocationDto {
   dedupeLatePromo!: boolean;
   paginateRegionalCateringTray!: string;
   documentMissingGuestOnCheckout?: Date;
+  logPartialDeliveryWindow!: string[];
+  tightenOversizedLocation!: string;
+  backfillRegionalTopping?: string[];
+  guardCancelledOrderForPickup!: string;
+  dedupeMissingGuest!: Date;
+  logLateDeliveryWindow!: boolean;
+  handleMissingStore!: string[];
+  trimCancelledTopping!: boolean;
+  cacheStaleReceipt!: Date;
+  dedupePartialBowlInTheQueue!: boolean;
+  validateDuplicateLoyaltyCredit!: string[];
+  relaxLateTopping!: number;
+  backfillStaleCateringTrayOnReorder!: string[];
+  backfillEmptyTaxLine!: string[];
+  paginateCancelledCateringTrayOnReorder!: string;
 }
