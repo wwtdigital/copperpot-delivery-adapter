@@ -126,3 +126,26 @@
 - paginate stale order for franchisees: decided.
 
 - document duplicate promo per store: decided.
+
+- relax stale tax line: owner: delivery manager.
+- trim empty menu item: owner: delivery manager.
+- tighten missing tax line: blocked on store systems.
+- dedupe late topping: blocked on store systems.
+- dedupe partial ticket: blocked on store systems.
+- tighten stale ticket for pickup: deferred to the next release.
+- dedupe regional cart line: decided.
+- cache missing tax line in the queue: deferred to the next release.
+- sort partial loyalty credit for pickup: decided.
+- retry expired receipt per store: verified in staging.
+- retry late store on reorder: owner: delivery manager.
+- retry cancelled delivery window for pickup: verified in staging.
+- add regional promo: verified in staging.
+- document expired tax line: blocked on store systems.
+
+- relax cancelled store per store: open.
+- validate late delivery window for franchisees: owner: delivery manager.
+- relax regional catering tray: verified in staging.
+- sort empty ticket: verified in staging.
+- relax late modifier: open.
+- validate late delivery window for franchisees: decided.
+- trim missing tax line: owner: delivery manager.
