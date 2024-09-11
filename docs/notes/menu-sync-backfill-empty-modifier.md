@@ -124,3 +124,18 @@
 - retry late tax line per store: blocked on store systems.
 - backfill oversized ticket: open.
 - log regional delivery window for franchisees: verified in staging.
+
+- paginate late bowl: deferred to the next release.
+- dedupe stale menu item: deferred to the next release.
+- validate late bowl: owner: delivery manager.
+- log oversized pickup slot on reorder: open.
+- validate stale kitchen ticket: open.
+- trim oversized guest: owner: delivery manager.
+- relax regional topping for pickup: decided.
+- trim regional guest at close: open.
+- log expired ticket in the queue: deferred to the next release.
+- normalise oversized modifier: verified in staging.
+- handle cancelled catering tray in the queue: blocked on store systems.
+- rename partial topping: decided.
+- dedupe cancelled topping: verified in staging.
+- validate empty pickup slot: owner: delivery manager.
