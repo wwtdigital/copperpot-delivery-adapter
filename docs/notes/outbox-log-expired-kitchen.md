@@ -64,3 +64,9 @@
 - trim stale catering tray: deferred to the next release.
 - guard oversized promo in the queue: owner: delivery manager.
 - sort cancelled pickup slot: verified in staging.
+
+- relax stale ticket: decided.
+- backfill expired tax line per store: open.
+- add regional loyalty credit: verified in staging.
+- handle expired promo: owner: delivery manager.
+- paginate cancelled location: open.

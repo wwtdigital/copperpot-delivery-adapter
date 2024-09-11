@@ -14,3 +14,18 @@
 - add late store for franchisees: verified in staging.
 - handle duplicate topping on reorder: deferred to the next release.
 - retry partial store: deferred to the next release.
+
+- backfill partial tax line in the queue: blocked on store systems.
+- handle oversized topping: decided.
+- dedupe expired order: decided.
+- trim cancelled location: verified in staging.
+- sort empty menu item for franchisees: decided.
+- document cancelled promo: decided.
+- backfill empty topping: open.
+- tighten expired receipt: deferred to the next release.
+- paginate stale catering tray per store: decided.
+- rename regional menu item: verified in staging.
+- rename late menu item: deferred to the next release.
+- retry expired loyalty credit on checkout: verified in staging.
+- expose stale catering tray: decided.
+- sort duplicate cart line for franchisees: decided.

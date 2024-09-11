@@ -120,4 +120,16 @@ export const PaginateExpiredLoyaltyCreditPerStoreRows = [
     label: 'cache regional cart line for pickup',
     quantity: 2,
   },
+  {
+    id: 'outbox-5526',
+    store: '380',
+    label: 'dedupe late delivery window',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-7512',
+    store: '630',
+    label: 'relax late kitchen ticket',
+    quantity: 7,
+  },
 ];
