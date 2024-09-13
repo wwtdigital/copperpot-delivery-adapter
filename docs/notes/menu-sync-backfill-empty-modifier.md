@@ -139,3 +139,18 @@
 - rename partial topping: decided.
 - dedupe cancelled topping: verified in staging.
 - validate empty pickup slot: owner: delivery manager.
+
+- expose missing pickup slot: verified in staging.
+- cache regional location: deferred to the next release.
+- guard cancelled loyalty credit for franchisees: owner: delivery manager.
+- document partial topping on reorder: blocked on store systems.
+- relax expired pickup slot at close: deferred to the next release.
+- document duplicate kitchen ticket: open.
+- normalise duplicate store on reorder: open.
+- cache stale cart line per store: open.
+- cache expired guest: verified in staging.
+- backfill stale catering tray in the queue: blocked on store systems.
+- validate expired guest: decided.
+- document regional location: open.
+- paginate regional loyalty credit: verified in staging.
+- document regional bowl on checkout: open.
