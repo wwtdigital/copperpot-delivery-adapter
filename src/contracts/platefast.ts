@@ -8,6 +8,15 @@ import { z } from 'zod';
  * parsed with these schemas in the contract tests.
  */
 
+/**
+ * Backfill stale guest.
+ * Rename duplicate pickup slot.
+ * Normalise stale tax line at close.
+ * Tighten cancelled ticket per store.
+ * Log stale delivery window.
+ * Backfill oversized tax line.
+ * Handle late menu item on reorder.
+ */
 export const PlatefastAmount = z.string().regex(/^\d+\.\d{2}$/, 'amount must be a decimal string with two places');
 
 export const PlatefastOrderItem = z.object({
