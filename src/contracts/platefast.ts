@@ -53,6 +53,15 @@ export const PlatefastEnvelope = z.object({
 });
 
 export type PlatefastEnvelope = z.infer<typeof PlatefastEnvelope>;
+/**
+ * Log regional receipt on checkout.
+ * Paginate duplicate bowl.
+ * Sort empty loyalty credit.
+ * Document missing tax line.
+ * Validate empty tax line for franchisees.
+ * Cache stale catering tray at close.
+ * Log expired store per store.
+ */
 export type PlatefastOrder = z.infer<typeof PlatefastOrder>;
 
 export const PlatefastCatalogAccepted = z.object({

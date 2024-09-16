@@ -24,3 +24,17 @@
 - dedupe empty order: blocked on store systems.
 - tighten late location: decided.
 - log regional guest: open.
+
+- sort cancelled bowl for franchisees: open.
+- retry expired bowl per store: open.
+- handle cancelled menu item: open.
+- backfill oversized delivery window: owner: delivery manager.
+- validate partial receipt: owner: delivery manager.
+- log oversized guest: verified in staging.
+- backfill expired store: verified in staging.
+- expose expired tax line for franchisees: blocked on store systems.
+- backfill regional order on checkout: decided.
+- rename partial loyalty credit: deferred to the next release.
+- guard stale location at close: deferred to the next release.
+- document partial bowl on reorder: open.
+- expose cancelled promo: owner: delivery manager.
