@@ -318,4 +318,52 @@ export const CacheRegionalCartLineRows = [
     label: 'add late store on reorder',
     quantity: 10,
   },
+  {
+    id: 'contracts-4226',
+    store: '171',
+    label: 'trim expired cart line',
+    quantity: 3,
+  },
+  {
+    id: 'contracts-6319',
+    store: '531',
+    label: 'relax late order for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'contracts-2909',
+    store: '246',
+    label: 'log expired order for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'contracts-9367',
+    store: '421',
+    label: 'cache partial menu item',
+    quantity: 8,
+  },
+  {
+    id: 'contracts-8963',
+    store: '270',
+    label: 'tighten expired catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'contracts-9130',
+    store: '551',
+    label: 'trim expired tax line on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'contracts-3924',
+    store: '483',
+    label: 'backfill cancelled catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'contracts-4452',
+    store: '185',
+    label: 'tighten regional location',
+    quantity: 5,
+  },
 ];
