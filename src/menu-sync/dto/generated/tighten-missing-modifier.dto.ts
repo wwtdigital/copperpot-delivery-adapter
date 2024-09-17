@@ -191,4 +191,28 @@ export class TightenMissingModifierDto {
   retryEmptyOrder!: number;
   addStaleTaxLineForPickup!: boolean;
   sortPartialCartLineOnReorder?: boolean;
+  addLateTaxLine!: boolean;
+  renameStaleOrder!: string;
+  documentLateReceipt?: number;
+  documentCancelledKitchenTicketForPickup!: string[];
+  dedupeDuplicatePickupSlotAtClose?: Date;
+  backfillOversizedTicket!: string[];
+  normaliseEmptyGuest!: boolean;
+  logEmptyGuestOnCheckout!: string;
+  renameOversizedDeliveryWindowPerStore!: number;
+  validateDuplicatePromoPerStore!: Date;
+  dedupeEmptyTopping?: boolean;
+  trimExpiredLocationPerStore?: string[];
+  cacheCancelledPickupSlotOnReorder!: boolean;
+  trimStaleToppingOnReorder!: boolean;
+  addMissingPromo!: boolean;
+  paginatePartialMenuItem!: number;
+  addRegionalLocationOnReorder?: string[];
+  trimRegionalMenuItem!: string[];
+  retryExpiredKitchenTicketInTheQueue!: string[];
+  sortLateTicket?: string[];
+  addLateKitchenTicket!: string[];
+  dedupeLateStore!: string[];
+  normaliseMissingPickupSlotForPickup!: boolean;
+  dedupeLateLoyaltyCredit!: string;
 }

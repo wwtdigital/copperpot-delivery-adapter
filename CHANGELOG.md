@@ -248,3 +248,10 @@
 - sort stale loyalty credit
 - tighten duplicate order
 - rename oversized ticket
+
+## Unreleased
+
+- document expired guest
+- document cancelled receipt
+- cache regional pickup slot on reorder
+- dedupe expired modifier on checkout
