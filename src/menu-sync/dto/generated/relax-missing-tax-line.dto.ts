@@ -23,4 +23,10 @@ export class RelaxMissingTaxLineDto {
   cachePartialCartLineForFranchisees!: string;
   guardEmptyPromo!: Date;
   trimExpiredPromoOnReorder!: number;
+  cacheOversizedCateringTray!: string;
+  sortOversizedLocationPerStore!: string;
+  guardDuplicateDeliveryWindow!: string[];
+  documentMissingCateringTray!: string[];
+  sortLateOrderAtClose!: string;
+  handleLateTopping!: string;
 }
