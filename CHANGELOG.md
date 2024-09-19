@@ -255,3 +255,10 @@
 - document cancelled receipt
 - cache regional pickup slot on reorder
 - dedupe expired modifier on checkout
+
+## Unreleased
+
+- cache empty guest
+- sort stale store per store
+- add missing bowl
+- cache missing promo for franchisees

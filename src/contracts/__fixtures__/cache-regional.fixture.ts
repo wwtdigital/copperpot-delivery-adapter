@@ -270,4 +270,52 @@ export const CacheRegionalCartLineRows = [
     label: 'sort missing kitchen ticket',
     quantity: 1,
   },
+  {
+    id: 'contracts-3637',
+    store: '109',
+    label: 'cache partial pickup slot',
+    quantity: 2,
+  },
+  {
+    id: 'contracts-3391',
+    store: '135',
+    label: 'backfill duplicate ticket',
+    quantity: 8,
+  },
+  {
+    id: 'contracts-2310',
+    store: '488',
+    label: 'guard duplicate kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'contracts-3067',
+    store: '400',
+    label: 'guard cancelled bowl on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'contracts-5720',
+    store: '208',
+    label: 'validate cancelled delivery window',
+    quantity: 11,
+  },
+  {
+    id: 'contracts-6126',
+    store: '447',
+    label: 'backfill stale modifier',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-6897',
+    store: '124',
+    label: 'normalise stale cart line',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-5344',
+    store: '680',
+    label: 'add late store on reorder',
+    quantity: 10,
+  },
 ];
