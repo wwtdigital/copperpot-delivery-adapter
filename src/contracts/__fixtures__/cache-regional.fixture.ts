@@ -306,4 +306,16 @@ export const CacheRegionalCartLineRows = [
     label: 'backfill stale modifier',
     quantity: 4,
   },
+  {
+    id: 'contracts-6897',
+    store: '124',
+    label: 'normalise stale cart line',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-5344',
+    store: '680',
+    label: 'add late store on reorder',
+    quantity: 10,
+  },
 ];

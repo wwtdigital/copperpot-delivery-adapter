@@ -38,3 +38,8 @@
 - guard stale location at close: deferred to the next release.
 - document partial bowl on reorder: open.
 - expose cancelled promo: owner: delivery manager.
+
+- log late tax line per store: deferred to the next release.
+- rename partial bowl per store: open.
+- expose empty loyalty credit in the queue: open.
+- handle expired cart line: verified in staging.
