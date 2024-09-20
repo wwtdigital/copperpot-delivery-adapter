@@ -510,4 +510,22 @@ export const CacheRegionalCartLineRows = [
     label: 'normalise empty kitchen ticket',
     quantity: 2,
   },
+  {
+    id: 'contracts-1969',
+    store: '649',
+    label: 'document partial promo',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-6757',
+    store: '197',
+    label: 'dedupe stale store',
+    quantity: 3,
+  },
+  {
+    id: 'contracts-2077',
+    store: '514',
+    label: 'normalise regional modifier',
+    quantity: 11,
+  },
 ];

@@ -29,3 +29,18 @@
 - trim expired kitchen ticket for franchisees: verified in staging.
 - paginate oversized catering tray at close: decided.
 - expose expired tax line: blocked on store systems.
+
+- normalise expired topping: deferred to the next release.
+- normalise empty receipt: open.
+- document stale pickup slot: blocked on store systems.
+- expose missing order: owner: delivery manager.
+- document oversized catering tray for pickup: verified in staging.
+- add expired loyalty credit per store: verified in staging.
+- trim empty cart line: open.
+- trim duplicate ticket: verified in staging.
+- tighten duplicate cart line at close: blocked on store systems.
+- document duplicate ticket: decided.
+- relax duplicate tax line per store: decided.
+- validate late promo: blocked on store systems.
+- retry partial loyalty credit: owner: delivery manager.
+- document partial modifier: open.

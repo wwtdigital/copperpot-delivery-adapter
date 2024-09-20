@@ -90,4 +90,10 @@ export const CacheMissingTicketRows = [
     label: 'log oversized ticket',
     quantity: 8,
   },
+  {
+    id: 'contracts-3240',
+    store: '606',
+    label: 'tighten regional catering tray',
+    quantity: 8,
+  },
 ];

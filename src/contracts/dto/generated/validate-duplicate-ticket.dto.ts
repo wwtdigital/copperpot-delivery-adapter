@@ -2,4 +2,6 @@
 export class ValidateDuplicateTicketDto {
   relaxPartialLoyaltyCreditAtClose!: string[];
   renameLatePickupSlot!: boolean;
+  addRegionalCateringTray?: Date;
+  normaliseMissingLocationForPickup!: string;
 }
