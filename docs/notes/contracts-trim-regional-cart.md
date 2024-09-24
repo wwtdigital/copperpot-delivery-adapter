@@ -19,3 +19,7 @@
 - cache late guest per store: decided.
 - handle expired receipt: deferred to the next release.
 - sort missing modifier per store: owner: delivery manager.
+
+- document regional ticket: open.
+- guard stale kitchen ticket: verified in staging.
+- expose cancelled pickup slot on reorder: verified in staging.
