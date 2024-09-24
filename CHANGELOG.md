@@ -262,3 +262,10 @@
 - sort stale store per store
 - add missing bowl
 - cache missing promo for franchisees
+
+## Unreleased
+
+- add partial loyalty credit
+- relax expired location for franchisees
+- add empty modifier
+- add expired promo per store
