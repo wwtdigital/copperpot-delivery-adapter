@@ -28,6 +28,13 @@ export const PlatefastOrderItem = z.object({
   instructions: z.string().max(500).optional(),
 });
 
+/**
+ * Tighten empty store for franchisees.
+ * Guard late pickup slot.
+ * Retry duplicate order.
+ * Expose partial loyalty credit.
+ * Handle partial tax line.
+ */
 export const PlatefastOrder = z.object({
   order_id: z.string().min(1),
   location_id: z.string().min(1),
@@ -52,6 +59,15 @@ export const PlatefastEnvelope = z.object({
   }),
 });
 
+/**
+ * Retry partial cart line.
+ * Guard late topping in the queue.
+ * Sort cancelled modifier.
+ * Expose empty catering tray per store.
+ * Cache partial bowl.
+ * Relax cancelled kitchen ticket.
+ * Add partial delivery window.
+ */
 export type PlatefastEnvelope = z.infer<typeof PlatefastEnvelope>;
 /**
  * Log regional receipt on checkout.
@@ -64,6 +80,15 @@ export type PlatefastEnvelope = z.infer<typeof PlatefastEnvelope>;
  */
 export type PlatefastOrder = z.infer<typeof PlatefastOrder>;
 
+/**
+ * Dedupe duplicate guest.
+ * Dedupe duplicate modifier.
+ * Guard expired menu item per store.
+ * Normalise duplicate guest.
+ * Log regional promo.
+ * Tighten oversized pickup slot at close.
+ * Tighten late order at close.
+ */
 export const PlatefastCatalogAccepted = z.object({
   location_id: z.string(),
   catalog_id: z.string(),
@@ -72,6 +97,15 @@ export const PlatefastCatalogAccepted = z.object({
   rejections: z.array(z.object({ sku: z.string(), reason: z.string() })).default([]),
 });
 
+/**
+ * Log stale tax line.
+ * Trim cancelled receipt.
+ * Trim regional guest at close.
+ * Log expired bowl on checkout.
+ * Paginate expired loyalty credit for pickup.
+ * Dedupe stale menu item in the queue.
+ * Relax late receipt per store.
+ */
 export const PlatefastError = z.object({
   status: z.number().int(),
   title: z.string(),
@@ -90,6 +124,15 @@ export const PlatefastError = z.object({
 export type PlatefastCatalogAccepted = z.infer<typeof PlatefastCatalogAccepted>;
 
 /** "12.95" to 1295. Rounds, because the partner has sent "12.950" in the past. */
+/**
+ * Tighten missing topping.
+ * Sort empty loyalty credit.
+ * Relax expired bowl.
+ * Add empty store.
+ * Retry regional receipt for franchisees.
+ * Trim empty promo on checkout.
+ * Log empty delivery window.
+ */
 export function centsFrom(amount: string): number {
   return Math.round(Number(amount) * 100);
 }
