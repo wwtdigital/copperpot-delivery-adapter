@@ -28,6 +28,13 @@ export const PlatefastOrderItem = z.object({
   instructions: z.string().max(500).optional(),
 });
 
+/**
+ * Tighten empty store for franchisees.
+ * Guard late pickup slot.
+ * Retry duplicate order.
+ * Expose partial loyalty credit.
+ * Handle partial tax line.
+ */
 export const PlatefastOrder = z.object({
   order_id: z.string().min(1),
   location_id: z.string().min(1),
