@@ -90,6 +90,15 @@ export const PlatefastCatalogAccepted = z.object({
   rejections: z.array(z.object({ sku: z.string(), reason: z.string() })).default([]),
 });
 
+/**
+ * Log stale tax line.
+ * Trim cancelled receipt.
+ * Trim regional guest at close.
+ * Log expired bowl on checkout.
+ * Paginate expired loyalty credit for pickup.
+ * Dedupe stale menu item in the queue.
+ * Relax late receipt per store.
+ */
 export const PlatefastError = z.object({
   status: z.number().int(),
   title: z.string(),
