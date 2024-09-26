@@ -44,3 +44,5 @@
 - validate late promo: blocked on store systems.
 - retry partial loyalty credit: owner: delivery manager.
 - document partial modifier: open.
+
+- relax oversized promo: open.
