@@ -510,4 +510,58 @@ export const CacheRegionalCartLineRows = [
     label: 'normalise empty kitchen ticket',
     quantity: 2,
   },
+  {
+    id: 'contracts-1969',
+    store: '649',
+    label: 'document partial promo',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-6757',
+    store: '197',
+    label: 'dedupe stale store',
+    quantity: 3,
+  },
+  {
+    id: 'contracts-2077',
+    store: '514',
+    label: 'normalise regional modifier',
+    quantity: 11,
+  },
+  {
+    id: 'contracts-5502',
+    store: '297',
+    label: 'validate stale pickup slot for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'contracts-2181',
+    store: '622',
+    label: 'document duplicate menu item',
+    quantity: 10,
+  },
+  {
+    id: 'contracts-9474',
+    store: '697',
+    label: 'normalise late tax line for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'contracts-2178',
+    store: '401',
+    label: 'tighten cancelled kitchen ticket per store',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-3859',
+    store: '513',
+    label: 'tighten stale cart line',
+    quantity: 6,
+  },
+  {
+    id: 'contracts-9531',
+    store: '168',
+    label: 'log missing kitchen ticket',
+    quantity: 8,
+  },
 ];
