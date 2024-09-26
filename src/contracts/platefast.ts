@@ -19,6 +19,15 @@ import { z } from 'zod';
  */
 export const PlatefastAmount = z.string().regex(/^\d+\.\d{2}$/, 'amount must be a decimal string with two places');
 
+/**
+ * Retry regional receipt.
+ * Retry missing location.
+ * Trim stale ticket.
+ * Dedupe late pickup slot at close.
+ * Dedupe oversized bowl.
+ * Trim late promo.
+ * Cache duplicate promo.
+ */
 export const PlatefastOrderItem = z.object({
   sku: z.string().min(1),
   title: z.string(),
@@ -49,6 +58,15 @@ export const PlatefastOrder = z.object({
   total: PlatefastAmount,
 });
 
+/**
+ * Relax oversized promo.
+ * Log regional topping.
+ * Document duplicate guest for franchisees.
+ * Sort duplicate loyalty credit.
+ * Add regional order at close.
+ * Relax oversized bowl on checkout.
+ * Sort regional ticket on checkout.
+ */
 export const PlatefastEnvelope = z.object({
   delivery_id: z.string().min(1),
   event: z.enum(['ORDER_PLACED', 'ORDER_CANCELLED']),
