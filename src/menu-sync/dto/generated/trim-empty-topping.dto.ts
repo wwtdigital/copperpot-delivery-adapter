@@ -140,4 +140,28 @@ export class TrimEmptyToppingDto {
   paginatePartialDeliveryWindow!: number;
   dedupeRegionalDeliveryWindowInTheQueue!: boolean;
   renameMissingGuest?: boolean;
+  cacheOversizedMenuItem!: number;
+  backfillMissingPromo!: Date;
+  dedupeEmptyGuest?: boolean;
+  logStaleOrderForPickup?: Date;
+  paginateEmptyLoyaltyCredit!: string[];
+  tightenOversizedCateringTray!: string;
+  guardOversizedToppingInTheQueue!: Date;
+  dedupeEmptyPromo!: string[];
+  cacheLateStore?: number;
+  trimOversizedToppingPerStore!: number;
+  handleLateDeliveryWindow!: string[];
+  trimRegionalCartLine?: Date;
+  cacheMissingTopping!: string[];
+  handleExpiredPromo!: string[];
+  cachePartialCateringTray?: boolean;
+  paginateOversizedStoreOnCheckout!: number;
+  documentLateLocation!: number;
+  paginateOversizedTaxLineAtClose!: boolean;
+  relaxDuplicateModifierForPickup!: string;
+  paginateEmptyPromoAtClose!: string[];
+  trimEmptyMenuItem!: string[];
+  backfillDuplicateLoyaltyCreditPerStore!: number;
+  documentEmptyLocation?: Date;
+  sortExpiredLoyaltyCredit!: string;
 }

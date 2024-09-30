@@ -154,3 +154,33 @@
 - document regional location: open.
 - paginate regional loyalty credit: verified in staging.
 - document regional bowl on checkout: open.
+
+- normalise regional receipt on reorder: deferred to the next release.
+- cache expired ticket: verified in staging.
+- document duplicate tax line: open.
+- guard duplicate loyalty credit for franchisees: verified in staging.
+- document stale tax line: open.
+- dedupe cancelled loyalty credit: blocked on store systems.
+- tighten oversized bowl: owner: delivery manager.
+- tighten partial bowl: decided.
+- dedupe missing catering tray on checkout: verified in staging.
+- sort cancelled tax line: blocked on store systems.
+- dedupe duplicate store: open.
+- normalise expired receipt in the queue: decided.
+- retry regional ticket in the queue: deferred to the next release.
+- dedupe stale bowl: open.
+
+- paginate cancelled cart line per store: blocked on store systems.
+- rename missing order: blocked on store systems.
+- guard expired promo: decided.
+- trim cancelled menu item per store: verified in staging.
+- retry expired menu item in the queue: owner: delivery manager.
+- tighten empty order on checkout: verified in staging.
+- log duplicate menu item per store: deferred to the next release.
+- backfill oversized catering tray: open.
+- tighten expired location: deferred to the next release.
+- trim expired location: deferred to the next release.
+- handle oversized store: owner: delivery manager.
+- tighten partial catering tray for pickup: open.
+- document missing tax line on reorder: deferred to the next release.
+- rename late menu item per store: open.

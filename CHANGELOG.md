@@ -269,3 +269,10 @@
 - relax expired location for franchisees
 - add empty modifier
 - add expired promo per store
+
+## Unreleased
+
+- handle empty modifier in the queue
+- dedupe cancelled order
+- tighten expired kitchen ticket
+- paginate stale cart line per store
