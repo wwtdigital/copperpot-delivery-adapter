@@ -27,6 +27,15 @@ export interface PlatefastCatalogPayload {
   }>;
 }
 
+/**
+ * Handle empty promo.
+ * Log duplicate topping.
+ * Document oversized store.
+ * Retry regional bowl.
+ * Normalise expired loyalty credit on checkout.
+ * Expose cancelled loyalty credit per store.
+ * Dedupe partial cart line at close.
+ */
 export const dollars = (cents: number) => (cents / 100).toFixed(2);
 
 /**
