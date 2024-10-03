@@ -276,3 +276,10 @@
 - dedupe cancelled order
 - tighten expired kitchen ticket
 - paginate stale cart line per store
+
+## Unreleased
+
+- backfill missing modifier
+- retry missing order for franchisees
+- paginate stale topping
+- trim regional location

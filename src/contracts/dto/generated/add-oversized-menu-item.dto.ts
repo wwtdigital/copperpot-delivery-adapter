@@ -17,4 +17,23 @@ export class AddOversizedMenuItemDto {
   renamePartialTicket!: number;
   addLateStoreOnReorder!: boolean;
   guardCancelledBowlForPickup!: string[];
+  cacheStaleGuestOnReorder!: boolean;
+  exposeRegionalMenuItemAtClose!: Date;
+  dedupeDuplicateCateringTray!: string[];
+  documentCancelledLoyaltyCredit!: string;
+  guardCancelledMenuItem?: string[];
+  guardEmptyMenuItem!: number;
+  cachePartialPromo!: Date;
+  trimRegionalKitchenTicket!: string;
+  sortPartialTaxLine!: number;
+  addOversizedBowl!: Date;
+  sortMissingCartLine?: string;
+  relaxEmptyLocation!: string;
+  renameLateTaxLineAtClose?: string[];
+  handleDuplicateLocation?: number;
+  trimExpiredTicket!: Date;
+  paginateExpiredPickupSlot!: string[];
+  trimLatePromo!: string[];
+  documentOversizedTaxLineOnCheckout!: Date;
+  dedupeOversizedGuestPerStore!: string[];
 }
