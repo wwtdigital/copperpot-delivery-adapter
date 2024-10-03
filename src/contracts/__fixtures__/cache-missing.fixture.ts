@@ -162,4 +162,46 @@ export const CacheMissingTicketRows = [
     label: 'retry duplicate menu item',
     quantity: 8,
   },
+  {
+    id: 'contracts-3399',
+    store: '190',
+    label: 'add expired tax line for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-3007',
+    store: '504',
+    label: 'paginate cancelled loyalty credit per store',
+    quantity: 2,
+  },
+  {
+    id: 'contracts-9364',
+    store: '466',
+    label: 'guard partial receipt',
+    quantity: 8,
+  },
+  {
+    id: 'contracts-6579',
+    store: '699',
+    label: 'guard late bowl',
+    quantity: 3,
+  },
+  {
+    id: 'contracts-8095',
+    store: '312',
+    label: 'sort empty catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-7759',
+    store: '460',
+    label: 'paginate late location at close',
+    quantity: 10,
+  },
+  {
+    id: 'contracts-6906',
+    store: '195',
+    label: 'backfill oversized modifier',
+    quantity: 12,
+  },
 ];
