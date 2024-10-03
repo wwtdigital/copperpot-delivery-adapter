@@ -283,3 +283,7 @@
 - retry missing order for franchisees
 - paginate stale topping
 - trim regional location
+
+## Unreleased
+
+- sort partial pickup slot
