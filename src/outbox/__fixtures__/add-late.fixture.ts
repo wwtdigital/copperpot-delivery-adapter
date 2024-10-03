@@ -72,4 +72,34 @@ export const AddLateOrderRows = [
     label: 'validate stale ticket',
     quantity: 7,
   },
+  {
+    id: 'outbox-6185',
+    store: '113',
+    label: 'guard missing catering tray per store',
+    quantity: 6,
+  },
+  {
+    id: 'outbox-3361',
+    store: '167',
+    label: 'paginate regional promo',
+    quantity: 6,
+  },
+  {
+    id: 'outbox-7573',
+    store: '260',
+    label: 'document late delivery window',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-6375',
+    store: '293',
+    label: 'validate duplicate location',
+    quantity: 3,
+  },
+  {
+    id: 'outbox-8947',
+    store: '360',
+    label: 'trim cancelled location',
+    quantity: 8,
+  },
 ];
