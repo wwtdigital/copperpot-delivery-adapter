@@ -108,4 +108,58 @@ export const CacheMissingTicketRows = [
     label: 'guard empty catering tray',
     quantity: 10,
   },
+  {
+    id: 'contracts-2513',
+    store: '564',
+    label: 'normalise stale order on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'contracts-6185',
+    store: '127',
+    label: 'dedupe cancelled promo',
+    quantity: 3,
+  },
+  {
+    id: 'contracts-4913',
+    store: '130',
+    label: 'sort stale promo',
+    quantity: 9,
+  },
+  {
+    id: 'contracts-7848',
+    store: '542',
+    label: 'guard missing menu item',
+    quantity: 11,
+  },
+  {
+    id: 'contracts-1982',
+    store: '683',
+    label: 'rename missing tax line in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'contracts-1705',
+    store: '241',
+    label: 'rename duplicate location per store',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-4506',
+    store: '517',
+    label: 'validate duplicate promo',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-7815',
+    store: '547',
+    label: 'expose stale location',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-1345',
+    store: '125',
+    label: 'retry duplicate menu item',
+    quantity: 8,
+  },
 ];

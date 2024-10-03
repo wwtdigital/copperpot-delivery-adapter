@@ -4,4 +4,6 @@ export class ValidateDuplicateTicketDto {
   renameLatePickupSlot!: boolean;
   addRegionalCateringTray?: Date;
   normaliseMissingLocationForPickup!: string;
+  guardExpiredMenuItemOnReorder?: Date;
+  handlePartialPromo?: number;
 }

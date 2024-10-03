@@ -564,4 +564,40 @@ export const CacheRegionalCartLineRows = [
     label: 'log missing kitchen ticket',
     quantity: 8,
   },
+  {
+    id: 'contracts-2732',
+    store: '448',
+    label: 'normalise empty loyalty credit',
+    quantity: 3,
+  },
+  {
+    id: 'contracts-5686',
+    store: '424',
+    label: 'backfill late loyalty credit on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'contracts-8344',
+    store: '122',
+    label: 'tighten oversized store',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-5679',
+    store: '165',
+    label: 'normalise cancelled menu item',
+    quantity: 12,
+  },
+  {
+    id: 'contracts-6671',
+    store: '180',
+    label: 'retry stale store at close',
+    quantity: 6,
+  },
+  {
+    id: 'contracts-6065',
+    store: '669',
+    label: 'handle stale catering tray for pickup',
+    quantity: 8,
+  },
 ];

@@ -23,3 +23,16 @@
 - document regional ticket: open.
 - guard stale kitchen ticket: verified in staging.
 - expose cancelled pickup slot on reorder: verified in staging.
+
+- normalise regional topping: deferred to the next release.
+- backfill oversized receipt in the queue: blocked on store systems.
+- relax expired ticket: deferred to the next release.
+- relax duplicate ticket: owner: delivery manager.
+- validate regional modifier: blocked on store systems.
+- normalise cancelled location on reorder: owner: delivery manager.
+- trim late pickup slot: owner: delivery manager.
+- expose missing kitchen ticket: blocked on store systems.
+- cache regional topping: verified in staging.
+- guard stale ticket: owner: delivery manager.
+- cache empty pickup slot: verified in staging.
+- add late receipt on checkout: open.
