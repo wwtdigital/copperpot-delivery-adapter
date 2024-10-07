@@ -102,4 +102,16 @@ export const AddLateOrderRows = [
     label: 'trim cancelled location',
     quantity: 8,
   },
+  {
+    id: 'outbox-1688',
+    store: '479',
+    label: 'tighten duplicate receipt on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-3385',
+    store: '221',
+    label: 'add oversized modifier',
+    quantity: 4,
+  },
 ];

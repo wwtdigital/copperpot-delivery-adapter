@@ -114,3 +114,6 @@
 - trim cancelled store: deferred to the next release.
 - tighten duplicate receipt: deferred to the next release.
 - expose late loyalty credit for franchisees: decided.
+
+- rename stale modifier: blocked on store systems.
+- relax expired catering tray for franchisees: deferred to the next release.
