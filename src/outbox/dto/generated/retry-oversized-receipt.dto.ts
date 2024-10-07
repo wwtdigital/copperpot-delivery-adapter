@@ -35,4 +35,28 @@ export class RetryOversizedReceiptDto {
   addOversizedReceiptAtClose!: Date;
   validateMissingModifier?: Date;
   documentLateToppingAtClose?: number;
+  paginateMissingGuest!: number;
+  sortDuplicatePromoOnCheckout?: Date;
+  validateDuplicateDeliveryWindow!: string;
+  documentExpiredTopping?: string;
+  backfillOversizedPromo!: string[];
+  exposeStaleTopping?: string;
+  exposeLateGuestAtClose!: string;
+  retryMissingTopping!: number;
+  logOversizedBowl!: Date;
+  relaxLateCartLinePerStore?: string;
+  handleEmptyCateringTray!: boolean;
+  guardMissingPromo!: string;
+  paginateLateTopping!: string[];
+  trimDuplicateOrder!: boolean;
+  exposeCancelledTicket!: boolean;
+  trimDuplicatePromo!: boolean;
+  documentEmptyReceiptPerStore?: Date;
+  normalisePartialDeliveryWindowForPickup!: boolean;
+  sortEmptyModifier?: Date;
+  paginatePartialPickupSlotInTheQueue!: boolean;
+  trimRegionalBowl!: string[];
+  logPartialGuestAtClose?: string[];
+  dedupeStaleLocation!: number;
+  guardStaleModifierForFranchisees!: Date;
 }

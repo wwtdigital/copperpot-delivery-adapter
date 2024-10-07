@@ -99,3 +99,18 @@
 - guard empty receipt: blocked on store systems.
 - document partial promo: deferred to the next release.
 - paginate late pickup slot: deferred to the next release.
+
+- relax stale order in the queue: deferred to the next release.
+- sort stale loyalty credit for franchisees: blocked on store systems.
+- tighten expired receipt for pickup: verified in staging.
+- validate oversized tax line: verified in staging.
+- paginate regional store at close: decided.
+- paginate oversized receipt per store: decided.
+- trim late tax line: blocked on store systems.
+- validate empty receipt: deferred to the next release.
+- normalise stale modifier: verified in staging.
+- sort duplicate tax line: owner: delivery manager.
+- expose expired bowl for franchisees: decided.
+- trim cancelled store: deferred to the next release.
+- tighten duplicate receipt: deferred to the next release.
+- expose late loyalty credit for franchisees: decided.

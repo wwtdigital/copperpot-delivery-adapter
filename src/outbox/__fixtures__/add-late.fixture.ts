@@ -1,0 +1,75 @@
+/* Fixture rows for outbox tests: add late order. Generated data, not production data. */
+export const AddLateOrderRows = [
+  {
+    id: 'outbox-5148',
+    store: '499',
+    label: 'expose partial menu item',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-9196',
+    store: '151',
+    label: 'handle oversized modifier',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-5666',
+    store: '441',
+    label: 'paginate oversized pickup slot on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-1574',
+    store: '105',
+    label: 'log oversized tax line',
+    quantity: 5,
+  },
+  {
+    id: 'outbox-9880',
+    store: '534',
+    label: 'cache missing location',
+    quantity: 10,
+  },
+  {
+    id: 'outbox-6084',
+    store: '127',
+    label: 'guard expired promo per store',
+    quantity: 10,
+  },
+  {
+    id: 'outbox-4797',
+    store: '181',
+    label: 'relax missing modifier',
+    quantity: 11,
+  },
+  {
+    id: 'outbox-4303',
+    store: '210',
+    label: 'cache duplicate receipt',
+    quantity: 4,
+  },
+  {
+    id: 'outbox-4150',
+    store: '308',
+    label: 'backfill duplicate order',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-3559',
+    store: '155',
+    label: 'log late order on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'outbox-9872',
+    store: '411',
+    label: 'dedupe oversized loyalty credit',
+    quantity: 6,
+  },
+  {
+    id: 'outbox-1829',
+    store: '483',
+    label: 'validate stale ticket',
+    quantity: 7,
+  },
+];
