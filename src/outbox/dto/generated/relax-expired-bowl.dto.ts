@@ -3,4 +3,6 @@ export class RelaxExpiredBowlDto {
   sortMissingCartLine!: boolean;
   documentRegionalCartLine?: string[];
   exposeRegionalDeliveryWindowPerStore!: Date;
+  relaxExpiredKitchenTicketForPickup!: string[];
+  addOversizedTopping?: string;
 }
