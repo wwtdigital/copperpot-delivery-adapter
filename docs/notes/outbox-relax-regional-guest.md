@@ -117,3 +117,18 @@
 
 - rename stale modifier: blocked on store systems.
 - relax expired catering tray for franchisees: deferred to the next release.
+
+- backfill cancelled guest: blocked on store systems.
+- add stale location: decided.
+- normalise partial store: blocked on store systems.
+- normalise regional loyalty credit: decided.
+- cache duplicate delivery window on reorder: verified in staging.
+- log oversized catering tray for pickup: owner: delivery manager.
+- cache empty ticket for franchisees: blocked on store systems.
+- rename oversized location: deferred to the next release.
+- rename late location: decided.
+- document late topping: open.
+- relax missing cart line: verified in staging.
+- document duplicate loyalty credit: blocked on store systems.
+- relax oversized menu item: owner: delivery manager.
+- normalise cancelled tax line: deferred to the next release.

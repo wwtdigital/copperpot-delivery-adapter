@@ -174,4 +174,34 @@ export const AddLateOrderRows = [
     label: 'tighten late catering tray in the queue',
     quantity: 12,
   },
+  {
+    id: 'outbox-2014',
+    store: '640',
+    label: 'cache partial ticket',
+    quantity: 5,
+  },
+  {
+    id: 'outbox-1717',
+    store: '651',
+    label: 'log duplicate receipt',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-2340',
+    store: '530',
+    label: 'guard missing promo',
+    quantity: 3,
+  },
+  {
+    id: 'outbox-6514',
+    store: '545',
+    label: 'handle oversized catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'outbox-8647',
+    store: '332',
+    label: 'sort expired ticket at close',
+    quantity: 8,
+  },
 ];
