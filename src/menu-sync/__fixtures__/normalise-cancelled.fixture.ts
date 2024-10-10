@@ -342,4 +342,10 @@ export const NormaliseCancelledGuestInTheQueueRows = [
     label: 'log cancelled order',
     quantity: 2,
   },
+  {
+    id: 'menu-sync-7772',
+    store: '641',
+    label: 'relax cancelled menu item for franchisees',
+    quantity: 2,
+  },
 ];
