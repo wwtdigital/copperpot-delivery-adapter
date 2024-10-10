@@ -287,3 +287,10 @@
 ## Unreleased
 
 - sort partial pickup slot
+
+## Unreleased
+
+- retry missing delivery window
+- backfill duplicate pickup slot for pickup
+- validate missing tax line
+- rename duplicate loyalty credit
