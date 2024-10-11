@@ -29,3 +29,18 @@
 - retry expired loyalty credit on checkout: verified in staging.
 - expose stale catering tray: decided.
 - sort duplicate cart line for franchisees: decided.
+
+- relax regional topping for pickup: deferred to the next release.
+- add empty pickup slot: owner: delivery manager.
+- rename cancelled ticket: owner: delivery manager.
+- relax late pickup slot in the queue: deferred to the next release.
+- cache late location per store: blocked on store systems.
+- handle late topping: open.
+- tighten partial promo: decided.
+- sort cancelled tax line at close: blocked on store systems.
+- dedupe missing bowl: verified in staging.
+- log late location: owner: delivery manager.
+- expose oversized catering tray on reorder: open.
+- retry regional cart line for pickup: verified in staging.
+- relax cancelled bowl: owner: delivery manager.
+- cache expired receipt: decided.

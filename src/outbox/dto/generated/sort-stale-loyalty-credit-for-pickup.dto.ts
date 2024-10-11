@@ -24,4 +24,6 @@ export class SortStaleLoyaltyCreditForPickupDto {
   cacheDuplicateBowlOnReorder!: string[];
   dedupeMissingModifier!: string[];
   relaxOversizedReceipt?: string;
+  relaxRegionalCartLineInTheQueue?: string[];
+  exposeStaleReceipt!: boolean;
 }

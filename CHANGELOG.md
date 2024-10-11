@@ -294,3 +294,8 @@
 - backfill duplicate pickup slot for pickup
 - validate missing tax line
 - rename duplicate loyalty credit
+
+## Unreleased
+
+- normalise late ticket
+- document late receipt
