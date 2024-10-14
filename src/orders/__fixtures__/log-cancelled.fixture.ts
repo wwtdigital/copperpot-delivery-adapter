@@ -1,0 +1,123 @@
+/* Fixture rows for orders tests: log cancelled pickup slot. Generated data, not production data. */
+export const LogCancelledPickupSlotRows = [
+  {
+    id: 'orders-3184',
+    store: '362',
+    label: 'cache late store',
+    quantity: 8,
+  },
+  {
+    id: 'orders-5109',
+    store: '118',
+    label: 'dedupe stale order in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'orders-4067',
+    store: '258',
+    label: 'expose oversized modifier',
+    quantity: 6,
+  },
+  {
+    id: 'orders-4232',
+    store: '487',
+    label: 'sort expired loyalty credit per store',
+    quantity: 5,
+  },
+  {
+    id: 'orders-6452',
+    store: '550',
+    label: 'normalise late location',
+    quantity: 12,
+  },
+  {
+    id: 'orders-7429',
+    store: '646',
+    label: 'rename stale store for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'orders-2635',
+    store: '294',
+    label: 'log cancelled order',
+    quantity: 7,
+  },
+  {
+    id: 'orders-6059',
+    store: '470',
+    label: 'log late delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'orders-9511',
+    store: '580',
+    label: 'expose regional bowl in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'orders-9136',
+    store: '272',
+    label: 'log regional kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'orders-6361',
+    store: '602',
+    label: 'expose late receipt at close',
+    quantity: 6,
+  },
+  {
+    id: 'orders-4999',
+    store: '197',
+    label: 'handle missing guest in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'orders-1213',
+    store: '154',
+    label: 'retry expired topping',
+    quantity: 10,
+  },
+  {
+    id: 'orders-6276',
+    store: '175',
+    label: 'expose expired kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'orders-5087',
+    store: '267',
+    label: 'expose duplicate kitchen ticket for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'orders-3511',
+    store: '385',
+    label: 'add partial ticket on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'orders-2131',
+    store: '516',
+    label: 'expose regional modifier for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'orders-1386',
+    store: '268',
+    label: 'dedupe stale cart line per store',
+    quantity: 6,
+  },
+  {
+    id: 'orders-5234',
+    store: '662',
+    label: 'retry regional kitchen ticket at close',
+    quantity: 1,
+  },
+  {
+    id: 'orders-4251',
+    store: '398',
+    label: 'add empty promo',
+    quantity: 12,
+  },
+];

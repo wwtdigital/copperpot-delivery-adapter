@@ -271,4 +271,9 @@ export class RenameStalePromoAtCloseDto {
   trimExpiredCateringTray!: string;
   retryDuplicateTicketForFranchisees!: boolean;
   paginateEmptyTopping?: string;
+  dedupeDuplicateReceipt!: number;
+  sortExpiredMenuItemForPickup!: string;
+  backfillOversizedLocation!: number;
+  backfillCancelledTaxLineOnReorder!: boolean;
+  sortMissingModifierForPickup?: number;
 }
