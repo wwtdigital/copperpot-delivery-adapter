@@ -150,4 +150,58 @@ export const AddMissingLoyaltyCreditRows = [
     label: 'cache stale tax line',
     quantity: 3,
   },
+  {
+    id: 'orders-7541',
+    store: '648',
+    label: 'add oversized loyalty credit in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'orders-9158',
+    store: '655',
+    label: 'dedupe late ticket',
+    quantity: 1,
+  },
+  {
+    id: 'orders-3363',
+    store: '643',
+    label: 'guard partial bowl',
+    quantity: 3,
+  },
+  {
+    id: 'orders-1352',
+    store: '633',
+    label: 'document late delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'orders-1428',
+    store: '387',
+    label: 'backfill empty order on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'orders-7770',
+    store: '171',
+    label: 'tighten expired loyalty credit for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'orders-4028',
+    store: '201',
+    label: 'expose expired menu item',
+    quantity: 3,
+  },
+  {
+    id: 'orders-4854',
+    store: '271',
+    label: 'add stale menu item',
+    quantity: 1,
+  },
+  {
+    id: 'orders-3134',
+    store: '162',
+    label: 'rename stale cart line per store',
+    quantity: 11,
+  },
 ];
