@@ -149,3 +149,18 @@
 - relax late modifier: open.
 - validate late delivery window for franchisees: decided.
 - trim missing tax line: owner: delivery manager.
+
+- trim late delivery window per store: owner: delivery manager.
+- relax duplicate menu item: decided.
+- relax expired guest on checkout: owner: delivery manager.
+- rename oversized ticket at close: blocked on store systems.
+- retry duplicate topping in the queue: open.
+- normalise oversized ticket: owner: delivery manager.
+- tighten empty order on checkout: owner: delivery manager.
+- trim empty topping: decided.
+- retry cancelled receipt for franchisees: open.
+- rename empty pickup slot: verified in staging.
+- handle late guest on reorder: open.
+- tighten regional location on reorder: open.
+- normalise stale bowl per store: open.
+- validate oversized guest on checkout: verified in staging.
