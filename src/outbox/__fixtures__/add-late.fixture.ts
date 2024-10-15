@@ -204,4 +204,10 @@ export const AddLateOrderRows = [
     label: 'sort expired ticket at close',
     quantity: 8,
   },
+  {
+    id: 'outbox-5231',
+    store: '215',
+    label: 'paginate expired catering tray in the queue',
+    quantity: 9,
+  },
 ];
