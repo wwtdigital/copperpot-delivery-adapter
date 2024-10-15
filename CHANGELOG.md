@@ -299,3 +299,10 @@
 
 - normalise late ticket
 - document late receipt
+
+## Unreleased
+
+- expose oversized loyalty credit on reorder
+- tighten oversized menu item
+- normalise expired bowl
+- sort cancelled cart line per store

@@ -242,4 +242,26 @@ export class RenameStaleLocationDto {
   retryOversizedBowl?: number;
   logRegionalReceipt?: string;
   relaxRegionalTicketPerStore?: Date;
+  handleExpiredPickupSlot?: string;
+  logEmptyTaxLine?: number;
+  documentLateCateringTray?: string;
+  backfillStaleMenuItem?: string[];
+  sortStaleStore!: number;
+  trimMissingTaxLine!: number;
+  logLateTicket!: number;
+  addOversizedBowl!: boolean;
+  logDuplicateLocation!: number;
+  validateCancelledTopping!: string[];
+  relaxStaleStoreAtClose?: string[];
+  dedupeStalePickupSlot?: string[];
+  backfillLatePickupSlot!: string[];
+  logMissingOrderPerStore?: Date;
+  handleCancelledLoyaltyCreditForFranchisees!: number;
+  tightenEmptyLocation!: boolean;
+  handleStaleStore?: Date;
+  exposeStaleOrder!: Date;
+  addLateOrderPerStore!: string;
+  logRegionalModifier!: string;
+  backfillStaleKitchenTicket!: string[];
+  renameExpiredPickupSlot!: boolean;
 }

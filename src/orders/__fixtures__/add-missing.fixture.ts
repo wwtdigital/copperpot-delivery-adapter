@@ -264,4 +264,10 @@ export const AddMissingLoyaltyCreditRows = [
     label: 'trim late ticket',
     quantity: 4,
   },
+  {
+    id: 'orders-5005',
+    store: '542',
+    label: 'relax stale loyalty credit at close',
+    quantity: 6,
+  },
 ];
