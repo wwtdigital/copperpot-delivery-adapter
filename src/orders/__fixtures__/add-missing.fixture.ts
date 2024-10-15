@@ -1,0 +1,123 @@
+/* Fixture rows for orders tests: add missing loyalty credit. Generated data, not production data. */
+export const AddMissingLoyaltyCreditRows = [
+  {
+    id: 'orders-4036',
+    store: '680',
+    label: 'add late location',
+    quantity: 9,
+  },
+  {
+    id: 'orders-6127',
+    store: '158',
+    label: 'log missing bowl',
+    quantity: 6,
+  },
+  {
+    id: 'orders-9582',
+    store: '551',
+    label: 'normalise expired promo',
+    quantity: 3,
+  },
+  {
+    id: 'orders-7176',
+    store: '165',
+    label: 'handle expired cart line at close',
+    quantity: 9,
+  },
+  {
+    id: 'orders-8254',
+    store: '296',
+    label: 'guard empty delivery window for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'orders-5770',
+    store: '147',
+    label: 'backfill partial menu item',
+    quantity: 10,
+  },
+  {
+    id: 'orders-1638',
+    store: '482',
+    label: 'expose late order',
+    quantity: 6,
+  },
+  {
+    id: 'orders-9194',
+    store: '160',
+    label: 'log regional guest',
+    quantity: 6,
+  },
+  {
+    id: 'orders-1582',
+    store: '191',
+    label: 'cache cancelled modifier on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'orders-9156',
+    store: '673',
+    label: 'sort regional pickup slot',
+    quantity: 11,
+  },
+  {
+    id: 'orders-9841',
+    store: '635',
+    label: 'normalise missing delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'orders-4123',
+    store: '593',
+    label: 'paginate stale menu item',
+    quantity: 4,
+  },
+  {
+    id: 'orders-8765',
+    store: '455',
+    label: 'guard partial catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'orders-9132',
+    store: '570',
+    label: 'add duplicate modifier',
+    quantity: 2,
+  },
+  {
+    id: 'orders-8990',
+    store: '303',
+    label: 'paginate missing order',
+    quantity: 1,
+  },
+  {
+    id: 'orders-5068',
+    store: '623',
+    label: 'cache duplicate kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'orders-6002',
+    store: '179',
+    label: 'paginate late promo',
+    quantity: 6,
+  },
+  {
+    id: 'orders-6018',
+    store: '375',
+    label: 'add stale promo',
+    quantity: 7,
+  },
+  {
+    id: 'orders-7896',
+    store: '274',
+    label: 'sort partial tax line',
+    quantity: 8,
+  },
+  {
+    id: 'orders-3806',
+    store: '404',
+    label: 'expose oversized location on reorder',
+    quantity: 5,
+  },
+];

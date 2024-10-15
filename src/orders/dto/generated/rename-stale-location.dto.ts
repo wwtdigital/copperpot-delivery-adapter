@@ -209,4 +209,14 @@ export class RenameStaleLocationDto {
   backfillStaleCateringTrayOnReorder!: string[];
   backfillEmptyTaxLine!: string[];
   paginateCancelledCateringTrayOnReorder!: string;
+  retryEmptyCartLine?: Date;
+  renameOversizedGuest?: boolean;
+  backfillPartialCartLine!: string[];
+  relaxLateKitchenTicket!: Date;
+  validateMissingTicket!: Date;
+  addStaleTicketAtClose!: Date;
+  documentLateGuestOnCheckout!: Date;
+  validateDuplicateStore?: number;
+  sortExpiredDeliveryWindowForFranchisees!: string;
+  guardLateLocationPerStore!: boolean;
 }
