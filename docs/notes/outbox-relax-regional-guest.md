@@ -132,3 +132,5 @@
 - document duplicate loyalty credit: blocked on store systems.
 - relax oversized menu item: owner: delivery manager.
 - normalise cancelled tax line: deferred to the next release.
+
+- paginate oversized store: owner: delivery manager.
