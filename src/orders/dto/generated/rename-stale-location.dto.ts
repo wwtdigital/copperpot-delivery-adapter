@@ -219,4 +219,27 @@ export class RenameStaleLocationDto {
   validateDuplicateStore?: number;
   sortExpiredDeliveryWindowForFranchisees!: string;
   guardLateLocationPerStore!: boolean;
+  paginatePartialCateringTrayOnReorder!: Date;
+  tightenStaleCateringTrayOnReorder!: string[];
+  tightenOversizedTaxLine!: number;
+  guardDuplicateLoyaltyCredit!: Date;
+  backfillEmptyGuest!: boolean;
+  sortCancelledLocationPerStore!: Date;
+  normaliseMissingGuestForPickup!: string[];
+  addPartialGuest!: Date;
+  exposeStaleMenuItem!: boolean;
+  tightenMissingStoreOnCheckout?: string;
+  paginateMissingPromo!: string[];
+  tightenCancelledTaxLine?: number;
+  cacheDuplicateLoyaltyCreditOnCheckout!: boolean;
+  backfillRegionalLoyaltyCreditOnReorder!: string;
+  relaxRegionalToppingAtClose!: string;
+  retryMissingBowl!: Date;
+  guardLateStore!: string;
+  sortExpiredReceiptOnReorder?: number;
+  addExpiredToppingForPickup!: string[];
+  renameDuplicateCateringTrayForFranchisees!: string[];
+  retryOversizedBowl?: number;
+  logRegionalReceipt?: string;
+  relaxRegionalTicketPerStore?: Date;
 }

@@ -120,4 +120,34 @@ export const AddMissingLoyaltyCreditRows = [
     label: 'expose oversized location on reorder',
     quantity: 5,
   },
+  {
+    id: 'orders-4233',
+    store: '215',
+    label: 'trim duplicate ticket',
+    quantity: 4,
+  },
+  {
+    id: 'orders-1703',
+    store: '154',
+    label: 'dedupe late catering tray per store',
+    quantity: 10,
+  },
+  {
+    id: 'orders-7436',
+    store: '561',
+    label: 'expose late guest for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'orders-9483',
+    store: '217',
+    label: 'trim duplicate location for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'orders-7047',
+    store: '110',
+    label: 'cache stale tax line',
+    quantity: 3,
+  },
 ];
