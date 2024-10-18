@@ -10,3 +10,18 @@
 - handle oversized tax line for franchisees: verified in staging.
 - expose oversized cart line: owner: delivery manager.
 - handle empty delivery window: decided.
+
+- paginate empty store on checkout: open.
+- handle regional kitchen ticket on checkout: open.
+- guard regional order on checkout: owner: delivery manager.
+- backfill stale topping: verified in staging.
+- retry empty pickup slot: blocked on store systems.
+- handle stale delivery window: open.
+- validate empty loyalty credit: owner: delivery manager.
+- guard cancelled cart line per store: owner: delivery manager.
+- dedupe empty bowl: open.
+- guard partial catering tray: owner: delivery manager.
+- normalise missing pickup slot per store: blocked on store systems.
+- rename duplicate loyalty credit: blocked on store systems.
+- normalise duplicate pickup slot: owner: delivery manager.
+- backfill duplicate loyalty credit in the queue: open.

@@ -270,4 +270,34 @@ export const AddMissingLoyaltyCreditRows = [
     label: 'relax stale loyalty credit at close',
     quantity: 6,
   },
+  {
+    id: 'orders-7899',
+    store: '367',
+    label: 'document late location',
+    quantity: 2,
+  },
+  {
+    id: 'orders-2774',
+    store: '184',
+    label: 'relax duplicate loyalty credit on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'orders-2579',
+    store: '413',
+    label: 'rename stale cart line',
+    quantity: 6,
+  },
+  {
+    id: 'orders-3873',
+    store: '258',
+    label: 'validate oversized order at close',
+    quantity: 9,
+  },
+  {
+    id: 'orders-6923',
+    store: '248',
+    label: 'document stale tax line on reorder',
+    quantity: 2,
+  },
 ];

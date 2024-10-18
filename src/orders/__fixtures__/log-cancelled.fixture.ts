@@ -120,4 +120,10 @@ export const LogCancelledPickupSlotRows = [
     label: 'add empty promo',
     quantity: 12,
   },
+  {
+    id: 'orders-6696',
+    store: '417',
+    label: 'add expired receipt for franchisees',
+    quantity: 11,
+  },
 ];
