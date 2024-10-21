@@ -164,3 +164,18 @@
 - tighten regional location on reorder: open.
 - normalise stale bowl per store: open.
 - validate oversized guest on checkout: verified in staging.
+
+- sort oversized menu item: deferred to the next release.
+- add duplicate kitchen ticket: decided.
+- add missing topping: owner: delivery manager.
+- backfill late promo for franchisees: deferred to the next release.
+- guard partial tax line: deferred to the next release.
+- validate missing loyalty credit: blocked on store systems.
+- tighten missing receipt: blocked on store systems.
+- add partial receipt: decided.
+- trim empty pickup slot: owner: delivery manager.
+- tighten late bowl: open.
+- retry cancelled cart line: open.
+- normalise expired receipt for pickup: deferred to the next release.
+- log oversized location: blocked on store systems.
+- relax regional menu item in the queue: deferred to the next release.

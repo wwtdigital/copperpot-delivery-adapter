@@ -306,3 +306,10 @@
 - tighten oversized menu item
 - normalise expired bowl
 - sort cancelled cart line per store
+
+## Unreleased
+
+- validate empty location
+- rename partial catering tray
+- dedupe partial topping in the queue
+- retry stale guest
