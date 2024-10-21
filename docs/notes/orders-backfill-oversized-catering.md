@@ -18,3 +18,6 @@
 - dedupe oversized location: verified in staging.
 - cache oversized guest on checkout: owner: delivery manager.
 - validate expired menu item: owner: delivery manager.
+
+- cache late catering tray: owner: delivery manager.
+- relax duplicate order: deferred to the next release.

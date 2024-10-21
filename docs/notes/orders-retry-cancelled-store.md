@@ -25,3 +25,18 @@
 - rename duplicate loyalty credit: blocked on store systems.
 - normalise duplicate pickup slot: owner: delivery manager.
 - backfill duplicate loyalty credit in the queue: open.
+
+- tighten partial guest: verified in staging.
+- relax cancelled menu item: owner: delivery manager.
+- handle expired order for pickup: verified in staging.
+- rename duplicate receipt on checkout: decided.
+- guard stale guest per store: verified in staging.
+- relax regional order: verified in staging.
+- add empty guest at close: decided.
+- dedupe empty ticket for pickup: blocked on store systems.
+- document partial receipt: owner: delivery manager.
+- retry partial catering tray per store: open.
+- add missing promo at close: open.
+- tighten partial loyalty credit: verified in staging.
+- guard regional promo per store: blocked on store systems.
+- retry partial loyalty credit for pickup: owner: delivery manager.
