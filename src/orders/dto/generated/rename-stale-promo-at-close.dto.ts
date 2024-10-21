@@ -276,4 +276,13 @@ export class RenameStalePromoAtCloseDto {
   backfillOversizedLocation!: number;
   backfillCancelledTaxLineOnReorder!: boolean;
   sortMissingModifierForPickup?: number;
+  addRegionalOrder!: number;
+  exposeOversizedTaxLine!: number;
+  validateDuplicatePromoPerStore?: Date;
+  cacheMissingModifier?: string[];
+  retryMissingBowlPerStore!: number;
+  paginateCancelledTicketOnReorder!: Date;
+  cacheDuplicateLocation!: boolean;
+  logExpiredPromoAtClose?: boolean;
+  trimPartialPickupSlotForFranchisees!: number;
 }
