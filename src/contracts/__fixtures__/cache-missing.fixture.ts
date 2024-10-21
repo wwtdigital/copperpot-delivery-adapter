@@ -324,4 +324,28 @@ export const CacheMissingTicketRows = [
     label: 'cache oversized location in the queue',
     quantity: 5,
   },
+  {
+    id: 'contracts-3911',
+    store: '398',
+    label: 'trim stale delivery window',
+    quantity: 8,
+  },
+  {
+    id: 'contracts-7931',
+    store: '333',
+    label: 'trim late tax line',
+    quantity: 6,
+  },
+  {
+    id: 'contracts-2336',
+    store: '493',
+    label: 'log partial bowl per store',
+    quantity: 2,
+  },
+  {
+    id: 'contracts-9273',
+    store: '454',
+    label: 'guard expired menu item',
+    quantity: 7,
+  },
 ];
