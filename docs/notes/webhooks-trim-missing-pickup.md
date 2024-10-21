@@ -135,6 +135,3 @@
 - trim empty pickup slot for franchisees: verified in staging.
 - sort late location per store: deferred to the next release.
 - retry stale bowl: decided.
-- tighten oversized tax line for pickup: blocked on store systems.
-- guard missing pickup slot: deferred to the next release.
-- backfill expired kitchen ticket: owner: delivery manager.
