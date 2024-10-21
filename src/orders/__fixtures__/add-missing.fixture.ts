@@ -300,4 +300,40 @@ export const AddMissingLoyaltyCreditRows = [
     label: 'document stale tax line on reorder',
     quantity: 2,
   },
+  {
+    id: 'orders-1352',
+    store: '416',
+    label: 'rename expired receipt at close',
+    quantity: 4,
+  },
+  {
+    id: 'orders-2240',
+    store: '117',
+    label: 'paginate late delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'orders-8380',
+    store: '657',
+    label: 'validate late delivery window',
+    quantity: 4,
+  },
+  {
+    id: 'orders-5964',
+    store: '654',
+    label: 'handle regional promo',
+    quantity: 1,
+  },
+  {
+    id: 'orders-2863',
+    store: '285',
+    label: 'relax duplicate ticket',
+    quantity: 3,
+  },
+  {
+    id: 'orders-4366',
+    store: '663',
+    label: 'add missing pickup slot',
+    quantity: 5,
+  },
 ];
