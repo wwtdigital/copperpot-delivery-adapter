@@ -1,0 +1,123 @@
+/* Fixture rows for webhooks tests: guard missing menu item. Generated data, not production data. */
+export const GuardMissingMenuItemRows = [
+  {
+    id: 'webhooks-7777',
+    store: '299',
+    label: 'tighten expired modifier',
+    quantity: 12,
+  },
+  {
+    id: 'webhooks-8685',
+    store: '491',
+    label: 'add duplicate ticket per store',
+    quantity: 4,
+  },
+  {
+    id: 'webhooks-2735',
+    store: '679',
+    label: 'cache late menu item on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'webhooks-3180',
+    store: '132',
+    label: 'dedupe expired receipt on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'webhooks-1613',
+    store: '641',
+    label: 'rename regional catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'webhooks-8860',
+    store: '150',
+    label: 'sort oversized location on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'webhooks-7785',
+    store: '459',
+    label: 'document late cart line on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'webhooks-1263',
+    store: '207',
+    label: 'tighten regional tax line',
+    quantity: 11,
+  },
+  {
+    id: 'webhooks-3500',
+    store: '521',
+    label: 'handle cancelled store',
+    quantity: 8,
+  },
+  {
+    id: 'webhooks-2999',
+    store: '520',
+    label: 'trim missing delivery window at close',
+    quantity: 9,
+  },
+  {
+    id: 'webhooks-1005',
+    store: '663',
+    label: 'tighten cancelled kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'webhooks-7560',
+    store: '139',
+    label: 'handle duplicate pickup slot on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'webhooks-9016',
+    store: '285',
+    label: 'trim partial tax line per store',
+    quantity: 5,
+  },
+  {
+    id: 'webhooks-1779',
+    store: '462',
+    label: 'backfill expired order',
+    quantity: 8,
+  },
+  {
+    id: 'webhooks-2819',
+    store: '526',
+    label: 'trim expired promo',
+    quantity: 10,
+  },
+  {
+    id: 'webhooks-8100',
+    store: '214',
+    label: 'retry cancelled kitchen ticket',
+    quantity: 3,
+  },
+  {
+    id: 'webhooks-1037',
+    store: '295',
+    label: 'normalise expired catering tray on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'webhooks-1705',
+    store: '250',
+    label: 'tighten late kitchen ticket',
+    quantity: 11,
+  },
+  {
+    id: 'webhooks-7683',
+    store: '585',
+    label: 'expose partial pickup slot at close',
+    quantity: 10,
+  },
+  {
+    id: 'webhooks-9089',
+    store: '687',
+    label: 'tighten cancelled cart line for franchisees',
+    quantity: 7,
+  },
+];

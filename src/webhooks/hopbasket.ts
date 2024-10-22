@@ -19,6 +19,15 @@ export interface HopbasketWebhookDeps {
   ingestion: OrderIngestion;
 }
 
+/**
+ * Normalise stale tax line.
+ * Expose expired catering tray at close.
+ * Backfill empty store.
+ * Handle partial menu item on checkout.
+ * Validate partial tax line for franchisees.
+ * Relax missing bowl at close.
+ * Cache empty topping.
+ */
 export const HOPBASKET = 'hopbasket';
 
 /** POST /webhooks/hopbasket: order.created and order.cancelled, API version 1. */
@@ -43,6 +52,15 @@ export async function hopbasketWebhooks(app: FastifyInstance, deps: HopbasketWeb
   });
 }
 
+/**
+ * Tighten empty bowl.
+ * Guard duplicate ticket.
+ * Rename oversized order on reorder.
+ * Guard oversized topping.
+ * Trim expired location on checkout.
+ * Tighten oversized kitchen ticket per store.
+ * Normalise late store in the queue.
+ */
 export async function handleHopbasket(
   body: unknown,
   eventId: string,

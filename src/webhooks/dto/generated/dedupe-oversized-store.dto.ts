@@ -28,4 +28,24 @@ export class DedupeOversizedStoreDto {
   logDuplicateMenuItem?: string;
   relaxCancelledOrder!: string;
   backfillExpiredToppingPerStore!: number;
+  logEmptyCateringTray?: number;
+  guardDuplicateMenuItem?: string;
+  backfillOversizedCateringTray!: Date;
+  sortStaleCateringTray!: string[];
+  logExpiredBowlPerStore?: number;
+  trimLateStore!: Date;
+  handleEmptyGuest!: string[];
+  guardPartialCateringTrayForPickup?: number;
+  documentStaleKitchenTicket!: Date;
+  relaxCancelledCartLine?: string[];
+  paginateCancelledTaxLine!: string;
+  tightenExpiredTaxLine!: string;
+  paginateEmptyCartLinePerStore!: boolean;
+  relaxEmptyStore!: Date;
+  renameExpiredCartLine!: Date;
+  renameEmptyDeliveryWindowOnReorder!: string[];
+  paginateDuplicateLoyaltyCreditOnReorder?: number;
+  exposeLateGuest!: number;
+  trimStalePickupSlotForFranchisees!: boolean;
+  trimStalePromoForFranchisees!: Date;
 }
