@@ -191,4 +191,23 @@ export class ValidateOversizedReceiptInTheQueueDto {
   handleLateModifier!: string[];
   paginatePartialReceiptPerStore!: number;
   tightenPartialTicket!: boolean;
+  documentOversizedBowl!: Date;
+  retryRegionalMenuItemOnCheckout!: string;
+  tightenLateMenuItemForFranchisees!: string[];
+  documentPartialStore!: string;
+  normaliseMissingTaxLine!: boolean;
+  relaxEmptyReceiptForFranchisees!: string;
+  dedupeRegionalTaxLine!: Date;
+  exposePartialTicketOnReorder!: number;
+  guardLateDeliveryWindow!: number;
+  exposeStaleMenuItem!: boolean;
+  renameDuplicateTaxLineForPickup?: string[];
+  validateDuplicateLoyaltyCredit!: Date;
+  relaxStaleGuest?: Date;
+  dedupeCancelledReceipt!: boolean;
+  normaliseMissingBowl!: string[];
+  cacheCancelledLocation?: Date;
+  renamePartialPromo?: string;
+  documentCancelledCateringTray!: Date;
+  retryLateGuest!: string[];
 }
