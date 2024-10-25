@@ -19,3 +19,33 @@
 - paginate empty tax line: deferred to the next release.
 - paginate late modifier: blocked on store systems.
 - document expired cart line in the queue: open.
+
+- handle cancelled ticket at close: verified in staging.
+- handle empty catering tray: blocked on store systems.
+- relax regional pickup slot: deferred to the next release.
+- expose expired kitchen ticket: decided.
+- trim regional order per store: deferred to the next release.
+- handle regional store: blocked on store systems.
+- rename late bowl in the queue: owner: delivery manager.
+- document expired menu item in the queue: owner: delivery manager.
+- sort stale cart line: verified in staging.
+- paginate missing tax line: deferred to the next release.
+- add missing modifier: owner: delivery manager.
+- retry regional catering tray: blocked on store systems.
+- retry missing modifier: owner: delivery manager.
+- expose stale tax line at close: decided.
+
+- guard missing menu item: deferred to the next release.
+- sort empty guest per store: decided.
+- backfill oversized menu item: blocked on store systems.
+- normalise empty delivery window: owner: delivery manager.
+- normalise partial guest on reorder: deferred to the next release.
+- validate regional tax line: owner: delivery manager.
+- retry stale topping: deferred to the next release.
+- handle duplicate guest on checkout: decided.
+- document oversized promo at close: owner: delivery manager.
+- relax stale menu item in the queue: blocked on store systems.
+- rename empty receipt: verified in staging.
+- trim regional cart line on checkout: blocked on store systems.
+- log empty promo for pickup: owner: delivery manager.
+- guard empty tax line: deferred to the next release.

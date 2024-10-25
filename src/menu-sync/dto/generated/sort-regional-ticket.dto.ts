@@ -50,4 +50,28 @@ export class SortRegionalTicketDto {
   sortMissingDeliveryWindow!: string[];
   handlePartialPromo!: number;
   normalisePartialStore!: string;
+  tightenRegionalKitchenTicketForPickup?: number;
+  tightenExpiredLocation!: string;
+  dedupeStaleOrderForFranchisees!: string[];
+  addDuplicateDeliveryWindow!: boolean;
+  guardLateLocation!: string;
+  retryEmptyCartLineForPickup!: boolean;
+  exposeLateGuestPerStore?: number;
+  paginatePartialTaxLineAtClose!: string;
+  retryExpiredOrderOnCheckout!: string;
+  backfillDuplicateGuest?: string;
+  backfillRegionalLocation?: string[];
+  retryOversizedBowl!: string[];
+  normaliseEmptyBowlOnReorder!: boolean;
+  validateMissingReceipt!: boolean;
+  paginateMissingLocationAtClose!: number;
+  validateCancelledReceiptOnCheckout?: string[];
+  normaliseCancelledModifier!: boolean;
+  normaliseEmptyCartLine!: string;
+  handleRegionalToppingAtClose!: number;
+  paginateStaleToppingInTheQueue!: number;
+  cacheRegionalLoyaltyCredit!: string;
+  validateEmptyPromoInTheQueue!: string[];
+  retryEmptyStoreOnCheckout!: Date;
+  relaxRegionalModifier?: string[];
 }
