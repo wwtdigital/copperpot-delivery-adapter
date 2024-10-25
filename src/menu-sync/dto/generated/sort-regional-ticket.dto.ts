@@ -48,4 +48,6 @@ export class SortRegionalTicketDto {
   addPartialToppingPerStore?: string;
   relaxOversizedLoyaltyCreditPerStore!: number;
   sortMissingDeliveryWindow!: string[];
+  handlePartialPromo!: number;
+  normalisePartialStore!: string;
 }

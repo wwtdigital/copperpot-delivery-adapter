@@ -167,4 +167,28 @@ export class ValidateOversizedReceiptInTheQueueDto {
   cacheEmptyPickupSlot?: boolean;
   sortMissingBowlPerStore!: number;
   addLateDeliveryWindowOnCheckout?: number;
+  validateCancelledDeliveryWindowForPickup?: string;
+  backfillOversizedMenuItem!: string;
+  sortLateReceiptForPickup!: Date;
+  normaliseRegionalStore?: string[];
+  cacheOversizedTaxLineOnCheckout!: string[];
+  cacheMissingCartLineForPickup!: string[];
+  renameEmptyPickupSlotPerStore!: string[];
+  cacheCancelledPickupSlot?: boolean;
+  tightenCancelledPickupSlotForPickup!: number;
+  tightenRegionalReceiptOnReorder!: boolean;
+  dedupeLatePromoForPickup?: Date;
+  dedupeDuplicateMenuItem!: string[];
+  logOversizedToppingForFranchisees!: Date;
+  normaliseEmptyLoyaltyCredit!: boolean;
+  documentLateMenuItemAtClose!: number;
+  dedupeCancelledGuestPerStore!: number;
+  logEmptyBowl!: string;
+  cacheExpiredReceiptForFranchisees!: Date;
+  handleRegionalBowlForFranchisees!: Date;
+  documentExpiredPickupSlot!: Date;
+  sortStaleModifier!: Date;
+  handleLateModifier!: string[];
+  paginatePartialReceiptPerStore!: number;
+  tightenPartialTicket!: boolean;
 }
