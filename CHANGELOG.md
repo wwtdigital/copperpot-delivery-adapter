@@ -313,3 +313,10 @@
 - rename partial catering tray
 - dedupe partial topping in the queue
 - retry stale guest
+
+## Unreleased
+
+- normalise partial cart line for franchisees
+- add duplicate loyalty credit in the queue
+- tighten duplicate location
+- paginate empty topping

@@ -135,3 +135,18 @@
 - trim empty pickup slot for franchisees: verified in staging.
 - sort late location per store: deferred to the next release.
 - retry stale bowl: decided.
+
+- retry missing ticket: open.
+- backfill regional store on reorder: decided.
+- retry stale bowl on checkout: decided.
+- log stale receipt: decided.
+- tighten oversized receipt: verified in staging.
+- tighten partial topping in the queue: deferred to the next release.
+- retry oversized catering tray per store: open.
+- expose partial cart line on reorder: owner: delivery manager.
+- sort partial delivery window: verified in staging.
+- dedupe partial delivery window: verified in staging.
+- paginate stale cart line: deferred to the next release.
+- tighten duplicate order per store: verified in staging.
+- document missing menu item: blocked on store systems.
+- handle oversized catering tray: owner: delivery manager.
