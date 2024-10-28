@@ -49,3 +49,18 @@
 - trim regional cart line on checkout: blocked on store systems.
 - log empty promo for pickup: owner: delivery manager.
 - guard empty tax line: deferred to the next release.
+
+- retry oversized location on reorder: verified in staging.
+- add empty ticket: verified in staging.
+- handle oversized tax line: open.
+- expose late pickup slot for franchisees: verified in staging.
+- trim duplicate receipt: verified in staging.
+- handle oversized receipt in the queue: verified in staging.
+- expose duplicate order per store: verified in staging.
+- handle partial loyalty credit: decided.
+- dedupe expired pickup slot: verified in staging.
+- add expired menu item for franchisees: owner: delivery manager.
+- sort regional location on reorder: blocked on store systems.
+- trim oversized topping in the queue: deferred to the next release.
+- guard expired catering tray for pickup: owner: delivery manager.
+- normalise oversized receipt on reorder: deferred to the next release.
