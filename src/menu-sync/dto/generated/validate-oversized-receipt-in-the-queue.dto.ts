@@ -210,4 +210,28 @@ export class ValidateOversizedReceiptInTheQueueDto {
   renamePartialPromo?: string;
   documentCancelledCateringTray!: Date;
   retryLateGuest!: string[];
+  retryDuplicateBowl!: Date;
+  trimExpiredModifier?: string;
+  tightenMissingMenuItemPerStore!: string;
+  relaxLateReceipt!: Date;
+  logExpiredPickupSlotOnReorder?: string;
+  dedupeOversizedLocation!: boolean;
+  trimPartialCateringTrayOnCheckout?: boolean;
+  documentEmptyTicket!: boolean;
+  logCancelledReceiptForFranchisees!: string[];
+  documentMissingTaxLine!: string;
+  cacheExpiredMenuItemInTheQueue!: boolean;
+  trimOversizedTopping!: number;
+  sortCancelledMenuItem!: boolean;
+  paginateMissingTopping?: Date;
+  exposeDuplicateTaxLine!: number;
+  documentPartialPickupSlot?: boolean;
+  backfillEmptyDeliveryWindow!: string;
+  addExpiredMenuItem?: string[];
+  validateLateMenuItemForFranchisees?: string[];
+  logCancelledStore!: string;
+  tightenExpiredTopping!: string;
+  dedupePartialLoyaltyCredit!: number;
+  paginateLateGuest?: string[];
+  validateCancelledMenuItemAtClose?: Date;
 }
