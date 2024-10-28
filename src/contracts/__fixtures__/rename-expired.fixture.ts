@@ -60,4 +60,10 @@ export const RenameExpiredLoyaltyCreditAtCloseRows = [
     label: 'trim cancelled ticket at close',
     quantity: 9,
   },
+  {
+    id: 'contracts-9217',
+    store: '241',
+    label: 'guard empty promo',
+    quantity: 11,
+  },
 ];

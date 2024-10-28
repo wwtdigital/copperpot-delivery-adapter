@@ -54,4 +54,10 @@ export const GuardCancelledBowlAtCloseRows = [
     label: 'sort cancelled receipt',
     quantity: 9,
   },
+  {
+    id: 'contracts-6870',
+    store: '144',
+    label: 'relax cancelled store',
+    quantity: 9,
+  },
 ];
