@@ -43,4 +43,17 @@ export class RelaxExpiredBowlDto {
   paginateCancelledTaxLine!: number;
   relaxDuplicateMenuItem!: boolean;
   cacheStalePromoPerStore?: number;
+  normaliseEmptyLocation?: string;
+  tightenExpiredOrderForFranchisees!: string[];
+  dedupePartialModifier!: string;
+  retryMissingPromo?: string;
+  validateRegionalKitchenTicket?: boolean;
+  addDuplicateStore!: string;
+  validateDuplicateBowl!: number;
+  addPartialReceipt?: string;
+  trimLateReceiptInTheQueue?: boolean;
+  documentLateOrder!: string;
+  normaliseMissingCartLineOnCheckout!: number;
+  sortPartialLocationAtClose?: string;
+  paginatePartialGuestForPickup!: number;
 }
