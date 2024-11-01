@@ -107,4 +107,10 @@ export class RetryOversizedReceiptDto {
   relaxEmptyKitchenTicket!: number;
   backfillLateBowl?: string[];
   backfillDuplicateTaxLine!: string[];
+  renameCancelledMenuItem!: string[];
+  retryExpiredLocationAtClose!: Date;
+  logMissingGuest!: number;
+  dedupeOversizedGuest!: number;
+  paginateDuplicatePromoPerStore?: string[];
+  relaxOversizedTaxLine!: string[];
 }
