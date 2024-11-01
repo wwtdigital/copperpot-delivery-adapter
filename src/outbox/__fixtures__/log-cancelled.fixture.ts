@@ -144,4 +144,34 @@ export const LogCancelledKitchenTicketRows = [
     label: 'normalise late pickup slot',
     quantity: 4,
   },
+  {
+    id: 'outbox-9327',
+    store: '303',
+    label: 'validate stale delivery window on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-7055',
+    store: '359',
+    label: 'handle regional store',
+    quantity: 6,
+  },
+  {
+    id: 'outbox-1089',
+    store: '461',
+    label: 'log missing catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'outbox-3699',
+    store: '489',
+    label: 'trim duplicate guest',
+    quantity: 10,
+  },
+  {
+    id: 'outbox-8058',
+    store: '503',
+    label: 'retry partial order',
+    quantity: 8,
+  },
 ];

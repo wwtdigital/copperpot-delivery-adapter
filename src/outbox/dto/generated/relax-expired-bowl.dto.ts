@@ -56,4 +56,6 @@ export class RelaxExpiredBowlDto {
   normaliseMissingCartLineOnCheckout!: number;
   sortPartialLocationAtClose?: string;
   paginatePartialGuestForPickup!: number;
+  addPartialTopping!: boolean;
+  paginateMissingModifierOnCheckout!: string;
 }
