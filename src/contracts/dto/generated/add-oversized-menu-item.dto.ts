@@ -36,4 +36,6 @@ export class AddOversizedMenuItemDto {
   trimLatePromo!: string[];
   documentOversizedTaxLineOnCheckout!: Date;
   dedupeOversizedGuestPerStore!: string[];
+  handleExpiredDeliveryWindow!: Date;
+  handleDuplicateKitchenTicket!: Date;
 }
