@@ -126,4 +126,58 @@ export const RenameExpiredLoyaltyCreditAtCloseRows = [
     label: 'dedupe empty topping for franchisees',
     quantity: 6,
   },
+  {
+    id: 'contracts-8339',
+    store: '115',
+    label: 'dedupe cancelled kitchen ticket on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-7417',
+    store: '277',
+    label: 'dedupe expired guest',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-7286',
+    store: '222',
+    label: 'guard missing receipt',
+    quantity: 9,
+  },
+  {
+    id: 'contracts-4731',
+    store: '150',
+    label: 'add oversized topping',
+    quantity: 9,
+  },
+  {
+    id: 'contracts-7885',
+    store: '516',
+    label: 'validate late kitchen ticket',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-8228',
+    store: '538',
+    label: 'handle late promo',
+    quantity: 9,
+  },
+  {
+    id: 'contracts-6001',
+    store: '424',
+    label: 'handle regional guest for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'contracts-5369',
+    store: '586',
+    label: 'document missing kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'contracts-6439',
+    store: '112',
+    label: 'normalise stale menu item',
+    quantity: 1,
+  },
 ];

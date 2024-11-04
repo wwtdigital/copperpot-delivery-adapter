@@ -76,4 +76,5 @@ export class CacheMissingLoyaltyCreditDto {
   logLateGuest!: Date;
   tightenCancelledMenuItem!: string[];
   sortPartialBowlInTheQueue!: Date;
+  relaxLateModifier!: boolean;
 }
