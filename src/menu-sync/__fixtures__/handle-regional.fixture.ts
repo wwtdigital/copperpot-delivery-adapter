@@ -240,4 +240,58 @@ export const HandleRegionalStoreAtCloseRows = [
     label: 'normalise late tax line',
     quantity: 1,
   },
+  {
+    id: 'menu-sync-2679',
+    store: '309',
+    label: 'guard late guest',
+    quantity: 6,
+  },
+  {
+    id: 'menu-sync-8588',
+    store: '407',
+    label: 'normalise stale bowl',
+    quantity: 1,
+  },
+  {
+    id: 'menu-sync-1459',
+    store: '437',
+    label: 'expose cancelled guest for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'menu-sync-9823',
+    store: '563',
+    label: 'document stale delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'menu-sync-1276',
+    store: '301',
+    label: 'trim oversized store',
+    quantity: 6,
+  },
+  {
+    id: 'menu-sync-8655',
+    store: '601',
+    label: 'backfill cancelled tax line',
+    quantity: 3,
+  },
+  {
+    id: 'menu-sync-4348',
+    store: '356',
+    label: 'trim late tax line',
+    quantity: 6,
+  },
+  {
+    id: 'menu-sync-3047',
+    store: '327',
+    label: 'handle expired bowl',
+    quantity: 4,
+  },
+  {
+    id: 'menu-sync-3200',
+    store: '619',
+    label: 'paginate expired bowl for pickup',
+    quantity: 5,
+  },
 ];
