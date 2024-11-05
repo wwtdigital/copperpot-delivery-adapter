@@ -54,4 +54,52 @@ export const GuardCancelledBowlAtCloseRows = [
     label: 'sort cancelled receipt',
     quantity: 9,
   },
+  {
+    id: 'contracts-6870',
+    store: '144',
+    label: 'relax cancelled store',
+    quantity: 9,
+  },
+  {
+    id: 'contracts-4393',
+    store: '245',
+    label: 'relax duplicate catering tray on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'contracts-5309',
+    store: '374',
+    label: 'tighten empty delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'contracts-5255',
+    store: '525',
+    label: 'dedupe regional promo',
+    quantity: 8,
+  },
+  {
+    id: 'contracts-7351',
+    store: '389',
+    label: 'dedupe stale modifier',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-3326',
+    store: '623',
+    label: 'relax stale loyalty credit on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'contracts-5515',
+    store: '262',
+    label: 'sort duplicate cart line',
+    quantity: 1,
+  },
+  {
+    id: 'contracts-1134',
+    store: '234',
+    label: 'log cancelled tax line',
+    quantity: 3,
+  },
 ];
