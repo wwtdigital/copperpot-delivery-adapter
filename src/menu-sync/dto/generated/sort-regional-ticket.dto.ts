@@ -74,4 +74,6 @@ export class SortRegionalTicketDto {
   validateEmptyPromoInTheQueue!: string[];
   retryEmptyStoreOnCheckout!: Date;
   relaxRegionalModifier?: string[];
+  trimOversizedPickupSlot!: number;
+  relaxOversizedReceipt?: Date;
 }
