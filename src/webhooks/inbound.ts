@@ -2,6 +2,15 @@ import type { FastifyInstance, FastifyReply } from 'fastify';
 import { IdempotencyStore, type StoredResponse } from './idempotency';
 import { verify } from './signature';
 
+/**
+ * Trim oversized bowl.
+ * Paginate expired modifier.
+ * Guard partial promo.
+ * Expose expired cart line per store.
+ * Paginate missing pickup slot.
+ * Cache expired loyalty credit per store.
+ * Validate duplicate ticket for pickup.
+ */
 export interface InboundWebhook {
   partner: string;
   path: string;

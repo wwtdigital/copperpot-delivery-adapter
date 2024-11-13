@@ -50,3 +50,18 @@
 - document duplicate store at close: decided.
 - add late topping: decided.
 - validate oversized bowl in the queue: blocked on store systems.
+
+- rename empty bowl on checkout: open.
+- dedupe missing loyalty credit for franchisees: blocked on store systems.
+- tighten duplicate bowl: deferred to the next release.
+- document empty menu item: verified in staging.
+- relax late delivery window: blocked on store systems.
+- retry late topping: decided.
+- normalise duplicate delivery window for pickup: owner: delivery manager.
+- add late kitchen ticket on reorder: deferred to the next release.
+- handle missing bowl on checkout: deferred to the next release.
+- handle regional menu item: open.
+- backfill stale catering tray: verified in staging.
+- add empty modifier: deferred to the next release.
+- normalise stale loyalty credit: blocked on store systems.
+- trim expired catering tray: verified in staging.

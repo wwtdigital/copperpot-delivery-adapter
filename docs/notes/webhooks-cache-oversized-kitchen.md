@@ -11,3 +11,33 @@
 - trim empty bowl: deferred to the next release.
 - handle partial topping on reorder: verified in staging.
 - paginate oversized menu item: decided.
+
+- paginate empty catering tray: blocked on store systems.
+- tighten oversized promo: decided.
+- normalise regional modifier for pickup: decided.
+- guard late promo: open.
+- relax cancelled delivery window: decided.
+- paginate regional location in the queue: open.
+- validate partial catering tray: decided.
+- retry expired topping for franchisees: verified in staging.
+- backfill expired catering tray on checkout: blocked on store systems.
+- tighten duplicate pickup slot on reorder: verified in staging.
+- sort missing delivery window for pickup: blocked on store systems.
+- relax stale catering tray: blocked on store systems.
+- log empty delivery window: blocked on store systems.
+- backfill missing menu item: owner: delivery manager.
+
+- relax expired delivery window for pickup: deferred to the next release.
+- trim partial delivery window: owner: delivery manager.
+- tighten late modifier per store: open.
+- document late pickup slot per store: decided.
+- tighten missing tax line: deferred to the next release.
+- guard expired receipt: owner: delivery manager.
+- add oversized cart line on reorder: open.
+- validate oversized loyalty credit: verified in staging.
+- document oversized location: decided.
+- cache oversized modifier: open.
+- paginate missing store in the queue: decided.
+- guard regional loyalty credit: verified in staging.
+- backfill late tax line: open.
+- validate duplicate delivery window per store: owner: delivery manager.
