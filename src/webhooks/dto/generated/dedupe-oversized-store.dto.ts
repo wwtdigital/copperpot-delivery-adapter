@@ -72,4 +72,28 @@ export class DedupeOversizedStoreDto {
   addLateOrderInTheQueue!: string;
   handleRegionalMenuItemOnReorder!: string;
   trimCancelledBowl!: string[];
+  exposePartialOrder!: Date;
+  tightenLatePickupSlot!: number;
+  exposeCancelledPickupSlot?: string[];
+  normaliseRegionalLoyaltyCredit?: number;
+  cacheLateGuest!: Date;
+  dedupeMissingPromoOnReorder?: string;
+  relaxCancelledLocation!: boolean;
+  dedupeDuplicatePickupSlot!: Date;
+  renameMissingLoyaltyCreditForFranchisees!: Date;
+  tightenDuplicateMenuItemForFranchisees?: number;
+  retryOversizedBowl!: Date;
+  addRegionalCateringTray?: string;
+  documentCancelledReceipt?: number;
+  retryExpiredMenuItem?: Date;
+  validateStaleTicket?: Date;
+  exposeCancelledReceiptOnCheckout!: number;
+  sortCancelledPromo?: string;
+  renameMissingLoyaltyCreditPerStore!: boolean;
+  normaliseRegionalLocation!: string[];
+  handleCancelledCartLine!: number;
+  retryDuplicatePromo?: string;
+  trimLateOrderForPickup!: Date;
+  relaxRegionalCartLine!: number;
+  trimOversizedOrderForPickup!: number;
 }

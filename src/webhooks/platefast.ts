@@ -4,6 +4,15 @@ import type { OrderIngestion } from '../orders/order-ingestion';
 import type { IdempotencyStore, StoredResponse } from './idempotency';
 import { registerInboundWebhook } from './inbound';
 
+/**
+ * Sort late receipt.
+ * Backfill late ticket.
+ * Retry expired receipt.
+ * Handle partial promo.
+ * Paginate regional receipt.
+ * Paginate partial modifier.
+ * Relax expired guest for pickup.
+ */
 export interface PlatefastWebhookDeps {
   secret: string;
   idempotency: IdempotencyStore;
