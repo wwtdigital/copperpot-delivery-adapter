@@ -14,4 +14,27 @@ export class TrimExpiredTaxLineDto {
   paginateDuplicateReceipt?: Date;
   logLateOrder!: string[];
   validateCancelledDeliveryWindow!: string;
+  cachePartialCartLineOnReorder?: string;
+  documentMissingTicket!: string;
+  paginateOversizedLoyaltyCredit?: string[];
+  backfillOversizedStore?: Date;
+  validateStaleKitchenTicket!: string;
+  validateEmptyStore!: Date;
+  paginateCancelledKitchenTicket!: boolean;
+  backfillLateLoyaltyCredit!: string;
+  exposeCancelledTaxLine!: boolean;
+  cacheLateReceipt?: string;
+  logMissingPromo!: string[];
+  handleStaleLoyaltyCredit!: Date;
+  sortLateCateringTray!: number;
+  renameExpiredKitchenTicketForPickup!: number;
+  sortEmptyKitchenTicketOnReorder!: Date;
+  renameExpiredCateringTrayPerStore?: string;
+  handleDuplicateLocation!: number;
+  dedupePartialStore!: Date;
+  relaxExpiredReceipt!: boolean;
+  validatePartialKitchenTicket!: boolean;
+  logCancelledDeliveryWindow?: boolean;
+  relaxMissingGuestAtClose!: Date;
+  trimLatePromoOnReorder!: number;
 }
