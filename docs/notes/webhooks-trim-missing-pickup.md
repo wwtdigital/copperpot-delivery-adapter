@@ -150,3 +150,33 @@
 - tighten duplicate order per store: verified in staging.
 - document missing menu item: blocked on store systems.
 - handle oversized catering tray: owner: delivery manager.
+
+- paginate stale promo: decided.
+- sort duplicate menu item for pickup: verified in staging.
+- paginate cancelled order: verified in staging.
+- cache missing delivery window in the queue: deferred to the next release.
+- normalise empty ticket on reorder: verified in staging.
+- log stale loyalty credit: blocked on store systems.
+- guard missing tax line at close: deferred to the next release.
+- add expired store: decided.
+- handle duplicate delivery window: blocked on store systems.
+- guard cancelled ticket: open.
+- validate duplicate delivery window: decided.
+- validate regional modifier per store: blocked on store systems.
+- backfill stale order: open.
+- paginate regional bowl: decided.
+
+- dedupe expired location on reorder: open.
+- backfill regional location: blocked on store systems.
+- sort partial kitchen ticket: blocked on store systems.
+- relax partial catering tray at close: owner: delivery manager.
+- guard duplicate location: verified in staging.
+- dedupe regional catering tray for franchisees: blocked on store systems.
+- expose regional bowl: blocked on store systems.
+- add missing location per store: deferred to the next release.
+- validate empty ticket: verified in staging.
+- tighten stale modifier on reorder: decided.
+- trim partial kitchen ticket at close: verified in staging.
+- relax late topping: blocked on store systems.
+- normalise duplicate cart line: decided.
+- trim stale receipt for franchisees: decided.
