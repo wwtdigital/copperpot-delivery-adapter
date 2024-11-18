@@ -144,4 +144,34 @@ export const LogCancelledPickupSlotRows = [
     label: 'paginate oversized loyalty credit',
     quantity: 1,
   },
+  {
+    id: 'orders-1837',
+    store: '401',
+    label: 'rename regional kitchen ticket',
+    quantity: 3,
+  },
+  {
+    id: 'orders-3735',
+    store: '657',
+    label: 'tighten late modifier',
+    quantity: 2,
+  },
+  {
+    id: 'orders-1187',
+    store: '665',
+    label: 'validate oversized kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'orders-5459',
+    store: '585',
+    label: 'normalise regional ticket at close',
+    quantity: 8,
+  },
+  {
+    id: 'orders-3035',
+    store: '533',
+    label: 'paginate empty ticket at close',
+    quantity: 6,
+  },
 ];
