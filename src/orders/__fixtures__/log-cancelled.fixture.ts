@@ -126,4 +126,22 @@ export const LogCancelledPickupSlotRows = [
     label: 'add expired receipt for franchisees',
     quantity: 11,
   },
+  {
+    id: 'orders-2911',
+    store: '627',
+    label: 'cache oversized promo',
+    quantity: 7,
+  },
+  {
+    id: 'orders-8650',
+    store: '627',
+    label: 'relax stale receipt',
+    quantity: 1,
+  },
+  {
+    id: 'orders-5875',
+    store: '597',
+    label: 'paginate oversized loyalty credit',
+    quantity: 1,
+  },
 ];
