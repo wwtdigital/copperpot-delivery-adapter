@@ -101,4 +101,27 @@ export class CacheMissingLoyaltyCreditDto {
   normaliseExpiredModifier?: Date;
   guardRegionalLoyaltyCredit?: string;
   renameOversizedMenuItem!: string;
+  normaliseRegionalToppingAtClose?: string;
+  retryStaleToppingForPickup?: boolean;
+  logOversizedCartLineInTheQueue?: number;
+  cacheOversizedMenuItem?: boolean;
+  sortExpiredCateringTrayPerStore!: Date;
+  handleDuplicateTopping!: Date;
+  tightenLateReceiptOnCheckout?: boolean;
+  logExpiredDeliveryWindowOnReorder!: Date;
+  tightenCancelledKitchenTicketForFranchisees!: string;
+  trimMissingPickupSlotAtClose!: boolean;
+  documentDuplicatePromoOnReorder?: number;
+  retryDuplicateCateringTray!: Date;
+  addMissingReceiptOnReorder!: string[];
+  retryOversizedReceipt!: string[];
+  tightenRegionalModifierOnReorder!: boolean;
+  exposeCancelledCateringTray!: Date;
+  sortExpiredModifier!: string[];
+  guardExpiredStoreAtClose!: string[];
+  sortEmptyToppingForFranchisees?: number;
+  renameStaleReceiptOnCheckout?: number;
+  dedupeDuplicateLoyaltyCredit!: string[];
+  trimExpiredLocation!: string;
+  documentEmptyTicket!: number;
 }

@@ -64,4 +64,27 @@ export class AddOversizedMenuItemDto {
   sortRegionalLocation?: string[];
   relaxMissingGuest!: number;
   paginateExpiredTicketForFranchisees!: number;
+  documentStaleCartLineInTheQueue!: boolean;
+  sortLateKitchenTicket!: Date;
+  validateDuplicateToppingForPickup!: Date;
+  documentStaleBowl!: number;
+  retryLateGuestOnReorder?: Date;
+  dedupeExpiredKitchenTicket!: Date;
+  tightenLateLocationAtClose?: Date;
+  documentLateKitchenTicket!: boolean;
+  addDuplicateCateringTray!: Date;
+  sortStaleTicket?: Date;
+  addLateLocationOnCheckout!: boolean;
+  trimRegionalLoyaltyCredit?: Date;
+  addExpiredCateringTray!: Date;
+  validateStaleLoyaltyCredit!: Date;
+  paginateEmptyTicketOnReorder?: string;
+  relaxMissingKitchenTicket?: string[];
+  renameLateCateringTray!: string[];
+  tightenExpiredKitchenTicket?: boolean;
+  dedupeDuplicateLocationForPickup?: Date;
+  guardStaleCateringTray!: Date;
+  paginateCancelledKitchenTicketOnCheckout?: string[];
+  dedupeStaleMenuItem!: string[];
+  dedupeExpiredStoreInTheQueue?: Date;
 }

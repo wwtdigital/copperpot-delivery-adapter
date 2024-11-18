@@ -48,4 +48,28 @@ export class PaginateDuplicatePickupSlotPerStoreDto {
   retryRegionalModifierInTheQueue!: number;
   validateLateGuest!: string[];
   guardStaleGuest!: number;
+  sortStaleGuest!: string;
+  dedupeRegionalCateringTrayOnCheckout?: Date;
+  logStalePickupSlot?: string[];
+  sortDuplicateGuest!: number;
+  logEmptyOrder?: string[];
+  guardMissingReceipt!: boolean;
+  paginateLateTaxLineInTheQueue!: string[];
+  renameMissingTicket?: number;
+  logRegionalDeliveryWindowInTheQueue!: Date;
+  handleCancelledMenuItem?: string[];
+  sortStaleCateringTray!: string[];
+  backfillCancelledLocation!: boolean;
+  tightenExpiredCartLine?: string[];
+  relaxOversizedMenuItem!: string;
+  documentRegionalBowl!: Date;
+  tightenLateDeliveryWindow!: number;
+  trimRegionalKitchenTicket!: string;
+  documentMissingTicketOnCheckout?: boolean;
+  cacheStalePickupSlotPerStore!: number;
+  normaliseCancelledCateringTray?: number;
+  backfillDuplicatePromo!: string;
+  guardLateToppingForFranchisees!: boolean;
+  logEmptyPromo!: Date;
+  tightenEmptyTaxLineAtClose!: Date;
 }
