@@ -38,4 +38,28 @@ export class AddOversizedMenuItemDto {
   dedupeOversizedGuestPerStore!: string[];
   handleExpiredDeliveryWindow!: Date;
   handleDuplicateKitchenTicket!: Date;
+  cacheRegionalKitchenTicket!: Date;
+  trimLateStore?: string;
+  cacheDuplicateCartLine!: number;
+  handleExpiredGuestForFranchisees?: number;
+  tightenEmptyStore!: Date;
+  tightenDuplicateBowl!: boolean;
+  documentMissingMenuItemOnCheckout!: Date;
+  sortDuplicateKitchenTicket!: string;
+  cacheMissingTaxLine?: boolean;
+  logCancelledTaxLineForPickup!: Date;
+  relaxDuplicateMenuItem?: Date;
+  exposeRegionalReceiptOnReorder!: number;
+  sortDuplicateLocationAtClose!: string[];
+  tightenMissingKitchenTicket!: boolean;
+  renameCancelledTicketAtClose?: string;
+  cacheLateLoyaltyCreditInTheQueue!: number;
+  normalisePartialKitchenTicket!: string[];
+  trimStaleDeliveryWindowForFranchisees?: string[];
+  normalisePartialCateringTray!: string[];
+  logOversizedMenuItem!: boolean;
+  tightenDuplicateTaxLine?: boolean;
+  logMissingReceiptOnCheckout!: boolean;
+  normaliseExpiredLocationForPickup!: string[];
+  sortRegionalLocation?: string[];
 }

@@ -180,4 +180,16 @@ export const RenameExpiredLoyaltyCreditAtCloseRows = [
     label: 'normalise stale menu item',
     quantity: 1,
   },
+  {
+    id: 'contracts-7518',
+    store: '536',
+    label: 'retry missing bowl',
+    quantity: 6,
+  },
+  {
+    id: 'contracts-9966',
+    store: '441',
+    label: 'rename expired tax line',
+    quantity: 10,
+  },
 ];

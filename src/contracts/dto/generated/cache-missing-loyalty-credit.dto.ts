@@ -77,4 +77,28 @@ export class CacheMissingLoyaltyCreditDto {
   tightenCancelledMenuItem!: string[];
   sortPartialBowlInTheQueue!: Date;
   relaxLateModifier!: boolean;
+  normaliseCancelledDeliveryWindow?: boolean;
+  relaxEmptyLocation!: string;
+  paginatePartialTaxLineAtClose?: string;
+  logDuplicateDeliveryWindowPerStore!: number;
+  logOversizedGuestPerStore!: string[];
+  validateMissingPromo!: string[];
+  guardExpiredTaxLine!: boolean;
+  relaxLateLocation?: number;
+  renameEmptyKitchenTicketForPickup!: Date;
+  documentRegionalTaxLine?: string;
+  trimStaleOrder?: string[];
+  sortPartialMenuItem!: boolean;
+  handleMissingMenuItemPerStore!: string[];
+  dedupeLateCartLine?: Date;
+  guardCancelledReceiptOnReorder!: Date;
+  paginatePartialDeliveryWindow?: boolean;
+  addOversizedReceiptInTheQueue?: number;
+  paginateOversizedTaxLine!: boolean;
+  backfillStalePromo!: boolean;
+  addEmptyLoyaltyCredit?: string;
+  renameRegionalTicket!: Date;
+  normaliseExpiredModifier?: Date;
+  guardRegionalLoyaltyCredit?: string;
+  renameOversizedMenuItem!: string;
 }
