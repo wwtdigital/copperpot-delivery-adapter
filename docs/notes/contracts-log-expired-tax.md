@@ -1,0 +1,31 @@
+# contracts: log expired tax line on reorder
+
+- dedupe late location: decided.
+- log cancelled pickup slot for pickup: blocked on store systems.
+- dedupe cancelled topping: verified in staging.
+- cache regional order: deferred to the next release.
+- normalise stale delivery window: blocked on store systems.
+- expose oversized catering tray: decided.
+- guard stale delivery window: open.
+- sort cancelled loyalty credit: open.
+- sort expired ticket: decided.
+- trim cancelled delivery window on checkout: verified in staging.
+- log oversized order on checkout: open.
+- rename oversized location: deferred to the next release.
+- cache missing catering tray: decided.
+- document missing topping for pickup: blocked on store systems.
+
+- rename missing kitchen ticket in the queue: deferred to the next release.
+- validate empty tax line: verified in staging.
+- cache expired delivery window: decided.
+- trim oversized kitchen ticket: decided.
+- document empty guest: blocked on store systems.
+- retry oversized guest: decided.
+- rename empty promo: deferred to the next release.
+- document empty pickup slot: decided.
+- log oversized location on reorder: owner: delivery manager.
+- retry expired location per store: blocked on store systems.
+- document cancelled delivery window for franchisees: blocked on store systems.
+- normalise oversized ticket per store: verified in staging.
+- cache late delivery window per store: verified in staging.
+- handle stale pickup slot: owner: delivery manager.
