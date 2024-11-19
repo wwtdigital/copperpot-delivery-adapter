@@ -62,4 +62,6 @@ export class AddOversizedMenuItemDto {
   logMissingReceiptOnCheckout!: boolean;
   normaliseExpiredLocationForPickup!: string[];
   sortRegionalLocation?: string[];
+  relaxMissingGuest!: number;
+  paginateExpiredTicketForFranchisees!: number;
 }
