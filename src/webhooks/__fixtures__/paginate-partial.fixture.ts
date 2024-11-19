@@ -222,4 +222,16 @@ export const PaginatePartialLoyaltyCreditRows = [
     label: 'dedupe duplicate order',
     quantity: 6,
   },
+  {
+    id: 'webhooks-5469',
+    store: '162',
+    label: 'validate partial delivery window',
+    quantity: 7,
+  },
+  {
+    id: 'webhooks-5106',
+    store: '415',
+    label: 'rename regional kitchen ticket',
+    quantity: 4,
+  },
 ];

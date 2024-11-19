@@ -24,4 +24,16 @@ export class GuardEmptyTicketDto {
   exposeRegionalBowl!: number;
   sortMissingCartLine!: boolean;
   dedupeOversizedTicket?: Date;
+  documentPartialTopping!: Date;
+  validateExpiredLoyaltyCredit!: number;
+  dedupeEmptyReceipt!: number;
+  dedupeMissingGuest!: string[];
+  exposeExpiredBowl!: Date;
+  retryRegionalMenuItemPerStore?: boolean;
+  trimMissingTicket!: boolean;
+  tightenRegionalCateringTray?: boolean;
+  exposeOversizedCateringTrayInTheQueue?: string[];
+  exposeOversizedLocationPerStore!: string[];
+  validateDuplicateModifierInTheQueue!: number;
+  guardEmptyModifierInTheQueue!: string[];
 }
