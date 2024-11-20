@@ -310,4 +310,16 @@ export class RenameStalePromoAtCloseDto {
   relaxRegionalCartLine!: Date;
   trimDuplicateCateringTray!: string[];
   documentLateCateringTray!: string;
+  addCancelledDeliveryWindowAtClose!: string[];
+  paginateStaleCateringTray!: string[];
+  cachePartialModifier!: Date;
+  exposePartialOrder!: string;
+  normaliseMissingTicket?: string[];
+  logOversizedTaxLine!: boolean;
+  backfillExpiredKitchenTicket!: string[];
+  guardDuplicateDeliveryWindow!: string;
+  addCancelledReceipt!: Date;
+  retryDuplicateReceipt?: Date;
+  renameStaleOrderOnCheckout!: Date;
+  dedupeEmptyOrder!: string;
 }
