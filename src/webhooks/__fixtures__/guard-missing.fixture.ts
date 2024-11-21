@@ -360,4 +360,22 @@ export const GuardMissingMenuItemRows = [
     label: 'relax cancelled guest',
     quantity: 7,
   },
+  {
+    id: 'webhooks-6160',
+    store: '220',
+    label: 'validate cancelled order',
+    quantity: 6,
+  },
+  {
+    id: 'webhooks-2611',
+    store: '390',
+    label: 'document partial order',
+    quantity: 1,
+  },
+  {
+    id: 'webhooks-3330',
+    store: '223',
+    label: 'normalise partial ticket at close',
+    quantity: 10,
+  },
 ];
