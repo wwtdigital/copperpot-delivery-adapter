@@ -1,0 +1,123 @@
+/* Fixture rows for outbox tests: backfill empty order at close. Generated data, not production data. */
+export const BackfillEmptyOrderAtCloseRows = [
+  {
+    id: 'outbox-6314',
+    store: '174',
+    label: 'normalise cancelled tax line at close',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-8509',
+    store: '594',
+    label: 'retry regional order',
+    quantity: 11,
+  },
+  {
+    id: 'outbox-2638',
+    store: '150',
+    label: 'rename duplicate ticket',
+    quantity: 5,
+  },
+  {
+    id: 'outbox-6586',
+    store: '470',
+    label: 'retry stale loyalty credit on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'outbox-7005',
+    store: '190',
+    label: 'backfill duplicate order at close',
+    quantity: 11,
+  },
+  {
+    id: 'outbox-6287',
+    store: '317',
+    label: 'paginate expired order',
+    quantity: 3,
+  },
+  {
+    id: 'outbox-5575',
+    store: '188',
+    label: 'validate stale catering tray on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'outbox-5604',
+    store: '607',
+    label: 'relax missing order',
+    quantity: 12,
+  },
+  {
+    id: 'outbox-5992',
+    store: '677',
+    label: 'retry oversized pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'outbox-6931',
+    store: '234',
+    label: 'tighten stale promo',
+    quantity: 4,
+  },
+  {
+    id: 'outbox-2583',
+    store: '522',
+    label: 'cache late catering tray for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'outbox-9794',
+    store: '124',
+    label: 'relax cancelled bowl',
+    quantity: 9,
+  },
+  {
+    id: 'outbox-6313',
+    store: '259',
+    label: 'handle regional store for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'outbox-3540',
+    store: '586',
+    label: 'paginate oversized pickup slot for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'outbox-9911',
+    store: '359',
+    label: 'log partial promo',
+    quantity: 11,
+  },
+  {
+    id: 'outbox-3754',
+    store: '169',
+    label: 'cache expired promo',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-7384',
+    store: '292',
+    label: 'rename late loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'outbox-6771',
+    store: '625',
+    label: 'backfill regional cart line',
+    quantity: 4,
+  },
+  {
+    id: 'outbox-2669',
+    store: '420',
+    label: 'rename stale modifier',
+    quantity: 5,
+  },
+  {
+    id: 'outbox-4086',
+    store: '291',
+    label: 'sort expired pickup slot for franchisees',
+    quantity: 4,
+  },
+];
