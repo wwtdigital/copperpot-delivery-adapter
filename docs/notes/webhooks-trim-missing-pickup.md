@@ -180,3 +180,26 @@
 - relax late topping: blocked on store systems.
 - normalise duplicate cart line: decided.
 - trim stale receipt for franchisees: decided.
+
+- guard regional receipt: decided.
+- guard partial guest: owner: delivery manager.
+- relax empty pickup slot: blocked on store systems.
+- cache cancelled receipt for pickup: deferred to the next release.
+- backfill oversized store: open.
+- relax missing catering tray: verified in staging.
+- paginate oversized catering tray: deferred to the next release.
+- trim late kitchen ticket at close: deferred to the next release.
+- expose stale promo: open.
+- sort missing loyalty credit in the queue: blocked on store systems.
+- rename empty menu item for pickup: deferred to the next release.
+- log oversized cart line: decided.
+- add cancelled tax line: verified in staging.
+- tighten expired catering tray on checkout: blocked on store systems.
+
+- tighten oversized modifier for franchisees: verified in staging.
+- sort expired kitchen ticket in the queue: deferred to the next release.
+- log empty promo: deferred to the next release.
+- cache regional topping for franchisees: verified in staging.
+- trim expired topping in the queue: owner: delivery manager.
+- document stale tax line per store: open.
+- handle empty menu item: owner: delivery manager.
