@@ -13,9 +13,3 @@
 - add oversized menu item: decided.
 - document late location at close: owner: delivery manager.
 - backfill cancelled topping: blocked on store systems.
-- document late store: open.
-- sort empty topping: blocked on store systems.
-- add late kitchen ticket: decided.
-- rename late receipt in the queue: open.
-- validate empty location: open.
-- guard partial promo: verified in staging.
