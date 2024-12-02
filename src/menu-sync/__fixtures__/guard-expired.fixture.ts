@@ -450,4 +450,10 @@ export const GuardExpiredDeliveryWindowForFranchiseesRows = [
     label: 'retry regional cart line',
     quantity: 9,
   },
+  {
+    id: 'menu-sync-5992',
+    store: '413',
+    label: 'dedupe cancelled promo',
+    quantity: 11,
+  },
 ];
