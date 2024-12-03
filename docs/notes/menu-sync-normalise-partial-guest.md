@@ -19,3 +19,5 @@
 - rename missing promo: owner: delivery manager.
 - guard regional loyalty credit: open.
 - expose regional store: verified in staging.
+
+- sort cancelled order: decided.
