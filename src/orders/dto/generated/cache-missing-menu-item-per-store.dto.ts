@@ -26,4 +26,28 @@ export class CacheMissingMenuItemPerStoreDto {
   addPartialGuest!: string;
   backfillMissingTaxLine!: string;
   documentDuplicatePromoInTheQueue?: number;
+  retryLateLoyaltyCredit!: string[];
+  paginateEmptyToppingInTheQueue!: string[];
+  guardRegionalPromo!: boolean;
+  exposeExpiredLoyaltyCredit?: string;
+  retryExpiredOrderOnCheckout!: number;
+  normaliseEmptyPromoOnCheckout?: number;
+  handlePartialDeliveryWindow?: number;
+  logOversizedGuest!: Date;
+  relaxPartialBowl?: string[];
+  sortStaleToppingAtClose!: string[];
+  retryOversizedReceiptOnReorder!: string[];
+  validateOversizedStoreAtClose?: number;
+  exposeLateKitchenTicket!: number;
+  cacheStaleCateringTray!: boolean;
+  tightenOversizedMenuItemForFranchisees!: string;
+  addDuplicateStore!: Date;
+  exposeExpiredLocationInTheQueue?: string[];
+  retryEmptyCateringTrayInTheQueue?: Date;
+  renameOversizedKitchenTicket!: string;
+  renameExpiredToppingOnReorder!: Date;
+  cacheExpiredCateringTray!: string[];
+  exposeOversizedKitchenTicket!: string[];
+  exposePartialPickupSlot!: boolean;
+  retryOversizedStoreOnReorder!: string[];
 }

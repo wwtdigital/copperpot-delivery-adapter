@@ -34,3 +34,18 @@
 - tighten regional ticket: verified in staging.
 - document empty delivery window: owner: delivery manager.
 - rename stale cart line per store: decided.
+
+- paginate partial receipt per store: decided.
+- trim regional tax line in the queue: blocked on store systems.
+- validate stale menu item: deferred to the next release.
+- handle expired bowl: verified in staging.
+- dedupe missing topping: deferred to the next release.
+- expose duplicate delivery window: decided.
+- add cancelled promo: verified in staging.
+- cache late bowl on checkout: blocked on store systems.
+- validate regional topping: decided.
+- guard cancelled pickup slot: verified in staging.
+- cache empty pickup slot per store: verified in staging.
+- handle missing location: verified in staging.
+- validate regional order in the queue: blocked on store systems.
+- log missing cart line: open.
