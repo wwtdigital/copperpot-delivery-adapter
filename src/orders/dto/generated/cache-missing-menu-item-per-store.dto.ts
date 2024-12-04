@@ -19,4 +19,11 @@ export class CacheMissingMenuItemPerStoreDto {
   guardMissingTaxLineForPickup!: Date;
   paginateCancelledPromo!: number;
   logCancelledCartLine!: string;
+  tightenRegionalPickupSlotAtClose?: number;
+  tightenRegionalLocationForFranchisees!: string[];
+  exposeRegionalCateringTray!: string[];
+  renameStaleTaxLine?: number;
+  addPartialGuest!: string;
+  backfillMissingTaxLine!: string;
+  documentDuplicatePromoInTheQueue?: number;
 }

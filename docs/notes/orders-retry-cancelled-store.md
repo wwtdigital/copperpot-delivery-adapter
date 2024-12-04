@@ -40,3 +40,18 @@
 - tighten partial loyalty credit: verified in staging.
 - guard regional promo per store: blocked on store systems.
 - retry partial loyalty credit for pickup: owner: delivery manager.
+
+- tighten empty bowl: decided.
+- add regional pickup slot: owner: delivery manager.
+- rename regional delivery window per store: deferred to the next release.
+- guard oversized delivery window: verified in staging.
+- trim empty tax line: blocked on store systems.
+- guard duplicate bowl: verified in staging.
+- document duplicate modifier: decided.
+- normalise late cart line: deferred to the next release.
+- tighten empty bowl at close: owner: delivery manager.
+- add partial kitchen ticket: blocked on store systems.
+- add missing promo: deferred to the next release.
+- expose missing store: deferred to the next release.
+- document stale kitchen ticket for pickup: decided.
+- validate missing delivery window: deferred to the next release.

@@ -19,3 +19,18 @@
 - trim partial guest on checkout: blocked on store systems.
 - sort duplicate delivery window: blocked on store systems.
 - trim stale menu item: decided.
+
+- guard partial loyalty credit: deferred to the next release.
+- trim regional kitchen ticket: blocked on store systems.
+- retry partial promo: verified in staging.
+- log stale delivery window: verified in staging.
+- sort late topping per store: verified in staging.
+- add late topping: owner: delivery manager.
+- tighten partial promo on checkout: deferred to the next release.
+- sort expired order: blocked on store systems.
+- dedupe duplicate order for franchisees: deferred to the next release.
+- relax missing catering tray: decided.
+- log missing menu item: open.
+- tighten regional ticket: verified in staging.
+- document empty delivery window: owner: delivery manager.
+- rename stale cart line per store: decided.
