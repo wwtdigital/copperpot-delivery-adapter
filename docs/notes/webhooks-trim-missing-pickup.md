@@ -205,3 +205,18 @@
 - handle empty menu item: owner: delivery manager.
 
 - retry partial ticket at close: deferred to the next release.
+
+- dedupe oversized pickup slot on checkout: owner: delivery manager.
+- expose duplicate guest on reorder: blocked on store systems.
+- dedupe late pickup slot: open.
+- tighten late menu item: owner: delivery manager.
+- normalise stale bowl: verified in staging.
+- document oversized cart line: owner: delivery manager.
+- validate expired topping: verified in staging.
+- rename expired receipt: owner: delivery manager.
+- expose missing catering tray on checkout: owner: delivery manager.
+- document missing tax line: verified in staging.
+- normalise missing promo: blocked on store systems.
+- validate cancelled guest for pickup: deferred to the next release.
+- relax partial promo: decided.
+- trim missing catering tray on reorder: deferred to the next release.

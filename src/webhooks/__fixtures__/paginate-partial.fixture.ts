@@ -30,4 +30,16 @@ export const PaginatePartialTicketRows = [
     label: 'guard oversized delivery window on checkout',
     quantity: 9,
   },
+  {
+    id: 'webhooks-7794',
+    store: '377',
+    label: 'rename late modifier',
+    quantity: 5,
+  },
+  {
+    id: 'webhooks-2807',
+    store: '224',
+    label: 'trim regional location',
+    quantity: 8,
+  },
 ];
