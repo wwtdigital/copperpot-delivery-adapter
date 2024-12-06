@@ -322,4 +322,28 @@ export class RenameStalePromoAtCloseDto {
   retryDuplicateReceipt?: Date;
   renameStaleOrderOnCheckout!: Date;
   dedupeEmptyOrder!: string;
+  renameDuplicateDeliveryWindow!: string;
+  paginateExpiredDeliveryWindowForPickup?: number;
+  trimExpiredDeliveryWindow?: string;
+  dedupeLateKitchenTicket!: number;
+  exposeCancelledMenuItem!: Date;
+  paginateDuplicateDeliveryWindow!: string;
+  tightenExpiredModifierForFranchisees?: string;
+  sortOversizedBowl!: Date;
+  addExpiredCartLinePerStore!: string;
+  addPartialLocation!: string;
+  validateExpiredTaxLine!: string[];
+  cacheCancelledKitchenTicketInTheQueue!: string;
+  paginateEmptyMenuItem!: boolean;
+  trimRegionalStore!: boolean;
+  exposeExpiredPickupSlotOnReorder!: boolean;
+  relaxStaleCateringTray?: boolean;
+  guardRegionalReceipt!: number;
+  relaxStaleKitchenTicket?: boolean;
+  validatePartialCateringTray?: number;
+  dedupeExpiredReceipt!: string[];
+  relaxRegionalDeliveryWindow?: string;
+  paginateDuplicateLocation!: string;
+  guardRegionalPickupSlotForFranchisees!: string[];
+  relaxExpiredGuestPerStore?: string;
 }

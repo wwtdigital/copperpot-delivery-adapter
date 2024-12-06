@@ -264,4 +264,7 @@ export class RenameStaleLocationDto {
   logRegionalModifier!: string;
   backfillStaleKitchenTicket!: string[];
   renameExpiredPickupSlot!: boolean;
+  trimCancelledPickupSlot!: string[];
+  relaxEmptyKitchenTicketForFranchisees!: string;
+  cacheOversizedTicketForFranchisees!: string[];
 }

@@ -179,3 +179,33 @@
 - normalise expired receipt for pickup: deferred to the next release.
 - log oversized location: blocked on store systems.
 - relax regional menu item in the queue: deferred to the next release.
+
+- document empty menu item: deferred to the next release.
+- dedupe partial cart line for franchisees: owner: delivery manager.
+- trim cancelled delivery window: blocked on store systems.
+- guard cancelled bowl on reorder: deferred to the next release.
+- cache stale catering tray at close: open.
+- trim missing delivery window: owner: delivery manager.
+- tighten late pickup slot: owner: delivery manager.
+- rename cancelled location: blocked on store systems.
+- log expired location per store: blocked on store systems.
+- backfill stale catering tray: open.
+- normalise stale loyalty credit at close: decided.
+- expose regional receipt: deferred to the next release.
+- sort late topping for pickup: decided.
+- dedupe regional location: decided.
+
+- rename empty guest: open.
+- normalise missing store: blocked on store systems.
+- guard oversized receipt: open.
+- handle regional tax line: owner: delivery manager.
+- expose cancelled ticket: verified in staging.
+- rename regional loyalty credit on reorder: decided.
+- normalise late tax line: blocked on store systems.
+- backfill regional bowl: blocked on store systems.
+- backfill cancelled bowl: owner: delivery manager.
+- sort oversized topping: owner: delivery manager.
+- relax oversized order: open.
+- trim oversized guest: verified in staging.
+- normalise late tax line in the queue: decided.
+- tighten stale loyalty credit per store: decided.
