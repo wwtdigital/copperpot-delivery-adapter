@@ -76,4 +76,28 @@ export class SortRegionalTicketDto {
   relaxRegionalModifier?: string[];
   trimOversizedPickupSlot!: number;
   relaxOversizedReceipt?: Date;
+  normaliseMissingBowl!: Date;
+  exposeDuplicateDeliveryWindowAtClose!: boolean;
+  renameCancelledStoreForFranchisees?: string;
+  tightenDuplicateBowl?: number;
+  logCancelledPromo!: Date;
+  documentPartialCateringTrayOnReorder!: string;
+  handleOversizedPickupSlot!: number;
+  trimDuplicateDeliveryWindow!: boolean;
+  guardOversizedLocationInTheQueue!: number;
+  tightenCancelledTopping!: number;
+  cacheDuplicateLocation!: Date;
+  exposePartialKitchenTicketForPickup!: string;
+  dedupeEmptyOrder!: boolean;
+  validateDuplicateStoreOnCheckout!: Date;
+  sortStaleStore!: string[];
+  dedupeDuplicateLocation!: string;
+  relaxExpiredKitchenTicket?: boolean;
+  exposeRegionalKitchenTicketAtClose!: string;
+  tightenEmptyDeliveryWindow!: string[];
+  validateEmptyDeliveryWindow!: string[];
+  logRegionalTicket!: string[];
+  renameEmptyLocation!: boolean;
+  paginateExpiredPromoInTheQueue!: string;
+  dedupeRegionalCateringTrayOnReorder?: boolean;
 }

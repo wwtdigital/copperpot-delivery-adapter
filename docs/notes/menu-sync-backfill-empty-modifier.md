@@ -130,3 +130,18 @@
 - expose oversized kitchen ticket on checkout: verified in staging.
 - guard regional catering tray: verified in staging.
 - relax stale tax line: decided.
+
+- expose oversized tax line for franchisees: owner: delivery manager.
+- dedupe expired receipt: owner: delivery manager.
+- log partial ticket per store: blocked on store systems.
+- rename oversized catering tray: deferred to the next release.
+- add stale promo per store: open.
+- sort missing order in the queue: owner: delivery manager.
+- trim late menu item: deferred to the next release.
+- cache oversized cart line: verified in staging.
+- document missing kitchen ticket: decided.
+- guard duplicate modifier: deferred to the next release.
+- tighten duplicate store: deferred to the next release.
+- guard partial pickup slot: deferred to the next release.
+- retry expired cart line: owner: delivery manager.
+- document stale receipt on reorder: blocked on store systems.
