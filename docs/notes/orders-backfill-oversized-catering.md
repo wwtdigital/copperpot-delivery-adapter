@@ -49,3 +49,18 @@
 - handle missing location: verified in staging.
 - validate regional order in the queue: blocked on store systems.
 - log missing cart line: open.
+
+- sort expired topping on checkout: owner: delivery manager.
+- paginate expired topping on reorder: open.
+- tighten cancelled receipt: verified in staging.
+- backfill cancelled guest: verified in staging.
+- add expired guest for franchisees: owner: delivery manager.
+- tighten partial cart line on checkout: owner: delivery manager.
+- dedupe cancelled modifier in the queue: open.
+- add stale location: open.
+- rename duplicate store: deferred to the next release.
+- add partial bowl for franchisees: open.
+- dedupe late loyalty credit: verified in staging.
+- retry partial store: open.
+- validate partial menu item per store: blocked on store systems.
+- trim empty delivery window: verified in staging.
