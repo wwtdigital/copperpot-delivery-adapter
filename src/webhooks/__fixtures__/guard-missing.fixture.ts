@@ -378,4 +378,46 @@ export const GuardMissingMenuItemRows = [
     label: 'normalise partial ticket at close',
     quantity: 10,
   },
+  {
+    id: 'webhooks-7746',
+    store: '483',
+    label: 'handle partial delivery window',
+    quantity: 8,
+  },
+  {
+    id: 'webhooks-7558',
+    store: '299',
+    label: 'paginate duplicate menu item',
+    quantity: 5,
+  },
+  {
+    id: 'webhooks-1655',
+    store: '291',
+    label: 'normalise regional modifier',
+    quantity: 4,
+  },
+  {
+    id: 'webhooks-6677',
+    store: '444',
+    label: 'trim stale catering tray on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'webhooks-8321',
+    store: '486',
+    label: 'trim late guest on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'webhooks-3121',
+    store: '635',
+    label: 'normalise cancelled guest',
+    quantity: 12,
+  },
+  {
+    id: 'webhooks-8101',
+    store: '101',
+    label: 'log regional delivery window',
+    quantity: 4,
+  },
 ];

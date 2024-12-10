@@ -4,4 +4,28 @@ export class NormaliseStaleCartLineForPickupDto {
   sortStaleTicketOnCheckout!: string;
   validateRegionalPickupSlot?: Date;
   addDuplicateCartLineAtClose!: string[];
+  logEmptyLocation?: boolean;
+  handleDuplicateMenuItem?: string;
+  documentEmptyDeliveryWindowOnReorder!: string[];
+  exposeRegionalTopping?: boolean;
+  tightenEmptyTaxLine!: string[];
+  trimExpiredOrderPerStore?: number;
+  retryPartialGuestOnReorder!: string[];
+  relaxRegionalOrder?: string[];
+  logCancelledLocation?: number;
+  documentPartialMenuItem!: number;
+  tightenPartialOrderAtClose?: string;
+  exposeLateReceipt!: number;
+  addEmptyMenuItemForPickup!: Date;
+  documentExpiredGuestAtClose!: Date;
+  retryExpiredCartLineForPickup?: Date;
+  trimOversizedLocation!: string[];
+  renameExpiredDeliveryWindow?: Date;
+  sortDuplicateMenuItem!: number;
+  handleExpiredLoyaltyCredit?: string;
+  normaliseStaleLoyaltyCredit?: boolean;
+  documentRegionalMenuItem!: number;
+  exposeEmptyMenuItemOnReorder!: number;
+  backfillLateReceiptForPickup!: string[];
+  exposeLateLoyaltyCredit?: number;
 }
