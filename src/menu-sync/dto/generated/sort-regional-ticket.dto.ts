@@ -100,4 +100,28 @@ export class SortRegionalTicketDto {
   renameEmptyLocation!: boolean;
   paginateExpiredPromoInTheQueue!: string;
   dedupeRegionalCateringTrayOnReorder?: boolean;
+  dedupePartialTopping?: boolean;
+  trimExpiredMenuItem!: string;
+  trimMissingTopping!: string[];
+  addCancelledReceipt!: boolean;
+  retryEmptyCartLine!: number;
+  paginateRegionalStoreForPickup?: Date;
+  addEmptyToppingInTheQueue?: boolean;
+  exposeDuplicateTaxLine?: Date;
+  logCancelledGuestForFranchisees!: string;
+  handleStaleLocation!: string;
+  logExpiredLoyaltyCreditOnCheckout!: string;
+  renameExpiredLoyaltyCreditInTheQueue!: string;
+  validateDuplicateOrder!: boolean;
+  logDuplicatePickupSlotOnReorder?: number;
+  guardLateReceiptPerStore!: number;
+  trimPartialKitchenTicket!: Date;
+  retryMissingBowl!: number;
+  retryStalePromoForFranchisees?: boolean;
+  sortEmptyDeliveryWindow!: number;
+  normaliseLateKitchenTicket?: string;
+  tightenEmptyReceipt?: boolean;
+  addStaleBowlOnCheckout!: string;
+  documentDuplicatePickupSlotPerStore!: boolean;
+  paginateDuplicateGuest?: number;
 }

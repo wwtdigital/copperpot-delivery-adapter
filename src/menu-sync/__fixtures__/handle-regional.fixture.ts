@@ -570,4 +570,10 @@ export const HandleRegionalStoreAtCloseRows = [
     label: 'retry partial topping',
     quantity: 12,
   },
+  {
+    id: 'menu-sync-5535',
+    store: '106',
+    label: 'rename cancelled delivery window',
+    quantity: 10,
+  },
 ];
