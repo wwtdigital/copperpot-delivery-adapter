@@ -66,4 +66,34 @@ export const PaginatePartialTicketRows = [
     label: 'cache partial loyalty credit',
     quantity: 6,
   },
+  {
+    id: 'webhooks-4169',
+    store: '398',
+    label: 'sort cancelled delivery window on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'webhooks-3561',
+    store: '285',
+    label: 'guard expired guest',
+    quantity: 8,
+  },
+  {
+    id: 'webhooks-6046',
+    store: '112',
+    label: 'trim late pickup slot on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'webhooks-8956',
+    store: '540',
+    label: 'sort duplicate modifier on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'webhooks-8560',
+    store: '147',
+    label: 'normalise duplicate receipt per store',
+    quantity: 3,
+  },
 ];
