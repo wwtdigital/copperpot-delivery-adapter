@@ -55,3 +55,28 @@
 - expose missing store: deferred to the next release.
 - document stale kitchen ticket for pickup: decided.
 - validate missing delivery window: deferred to the next release.
+
+- log late pickup slot: verified in staging.
+- dedupe partial menu item: blocked on store systems.
+- log partial cart line on reorder: owner: delivery manager.
+- dedupe partial location on checkout: decided.
+- backfill regional receipt: owner: delivery manager.
+- retry late kitchen ticket: decided.
+- add late guest: owner: delivery manager.
+- cache missing topping for pickup: open.
+- relax late modifier: deferred to the next release.
+
+- trim empty kitchen ticket: blocked on store systems.
+- handle oversized store on reorder: open.
+- paginate oversized guest: owner: delivery manager.
+- backfill empty store: open.
+- backfill missing delivery window: deferred to the next release.
+- sort empty pickup slot: verified in staging.
+- relax late pickup slot per store: verified in staging.
+- log stale cart line: verified in staging.
+- guard partial delivery window in the queue: open.
+- document expired guest: verified in staging.
+- expose partial menu item: decided.
+- guard late tax line: decided.
+- normalise late loyalty credit for pickup: verified in staging.
+- sort missing order: verified in staging.

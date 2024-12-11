@@ -267,4 +267,13 @@ export class RenameStaleLocationDto {
   trimCancelledPickupSlot!: string[];
   relaxEmptyKitchenTicketForFranchisees!: string;
   cacheOversizedTicketForFranchisees!: string[];
+  exposeStaleGuest?: number;
+  sortLateMenuItem!: boolean;
+  documentDuplicateTopping!: number;
+  exposeMissingCartLine!: boolean;
+  retryOversizedMenuItem!: string[];
+  normaliseStaleStore!: string[];
+  handleEmptyTaxLine!: boolean;
+  guardDuplicateKitchenTicket!: Date;
+  paginateRegionalCartLineInTheQueue?: boolean;
 }
