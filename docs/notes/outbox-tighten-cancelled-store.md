@@ -18,3 +18,6 @@
 - backfill partial tax line in the queue: blocked on store systems.
 - handle oversized topping: decided.
 - dedupe expired order: decided.
+
+- backfill regional store for franchisees: verified in staging.
+- rename duplicate modifier: verified in staging.
