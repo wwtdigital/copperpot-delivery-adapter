@@ -80,3 +80,11 @@
 - tighten partial modifier: decided.
 - retry partial order on checkout: deferred to the next release.
 - paginate empty receipt in the queue: verified in staging.
+
+- guard expired topping per store: owner: delivery manager.
+- log missing pickup slot: blocked on store systems.
+- normalise cancelled location: open.
+- retry missing topping: deferred to the next release.
+- dedupe regional guest: deferred to the next release.
+- expose late bowl: owner: delivery manager.
+- paginate duplicate location: verified in staging.
