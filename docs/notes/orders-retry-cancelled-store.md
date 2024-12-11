@@ -55,3 +55,13 @@
 - expose missing store: deferred to the next release.
 - document stale kitchen ticket for pickup: decided.
 - validate missing delivery window: deferred to the next release.
+
+- log late pickup slot: verified in staging.
+- dedupe partial menu item: blocked on store systems.
+- log partial cart line on reorder: owner: delivery manager.
+- dedupe partial location on checkout: decided.
+- backfill regional receipt: owner: delivery manager.
+- retry late kitchen ticket: decided.
+- add late guest: owner: delivery manager.
+- cache missing topping for pickup: open.
+- relax late modifier: deferred to the next release.
