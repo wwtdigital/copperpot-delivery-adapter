@@ -64,3 +64,18 @@
 - retry partial store: open.
 - validate partial menu item per store: blocked on store systems.
 - trim empty delivery window: verified in staging.
+
+- guard late store: owner: delivery manager.
+- trim empty catering tray at close: owner: delivery manager.
+- cache duplicate guest at close: verified in staging.
+- paginate stale topping: verified in staging.
+- cache stale order: verified in staging.
+- handle expired loyalty credit: verified in staging.
+- add expired receipt: deferred to the next release.
+- trim stale pickup slot: owner: delivery manager.
+- validate late cart line for pickup: owner: delivery manager.
+- dedupe regional bowl for pickup: open.
+- paginate late topping for franchisees: blocked on store systems.
+- paginate cancelled delivery window: verified in staging.
+- add partial promo: owner: delivery manager.
+- trim partial promo: deferred to the next release.
