@@ -2,4 +2,6 @@
 export class NormaliseStaleCartLineForPickupDto {
   logCancelledMenuItem!: number;
   sortStaleTicketOnCheckout!: string;
+  validateRegionalPickupSlot?: Date;
+  addDuplicateCartLineAtClose!: string[];
 }
