@@ -42,4 +42,28 @@ export const PaginatePartialTicketRows = [
     label: 'trim regional location',
     quantity: 8,
   },
+  {
+    id: 'webhooks-6465',
+    store: '371',
+    label: 'expose missing catering tray for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'webhooks-5915',
+    store: '218',
+    label: 'cache regional location',
+    quantity: 6,
+  },
+  {
+    id: 'webhooks-3178',
+    store: '254',
+    label: 'normalise regional order in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'webhooks-5427',
+    store: '531',
+    label: 'cache partial loyalty credit',
+    quantity: 6,
+  },
 ];
