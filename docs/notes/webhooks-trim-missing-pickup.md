@@ -203,3 +203,5 @@
 - trim expired topping in the queue: owner: delivery manager.
 - document stale tax line per store: open.
 - handle empty menu item: owner: delivery manager.
+
+- retry partial ticket at close: deferred to the next release.
