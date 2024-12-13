@@ -65,3 +65,26 @@
 - add empty modifier: deferred to the next release.
 - normalise stale loyalty credit: blocked on store systems.
 - trim expired catering tray: verified in staging.
+
+- paginate late menu item on reorder: blocked on store systems.
+- guard expired store: verified in staging.
+- normalise empty catering tray: owner: delivery manager.
+- cache missing guest: verified in staging.
+- rename regional order: open.
+- relax stale kitchen ticket: blocked on store systems.
+- normalise empty menu item: blocked on store systems.
+- backfill empty guest for pickup: open.
+- handle oversized guest: deferred to the next release.
+- sort partial kitchen ticket per store: blocked on store systems.
+- retry missing menu item for franchisees: decided.
+- tighten partial modifier: decided.
+- retry partial order on checkout: deferred to the next release.
+- paginate empty receipt in the queue: verified in staging.
+
+- guard expired topping per store: owner: delivery manager.
+- log missing pickup slot: blocked on store systems.
+- normalise cancelled location: open.
+- retry missing topping: deferred to the next release.
+- dedupe regional guest: deferred to the next release.
+- expose late bowl: owner: delivery manager.
+- paginate duplicate location: verified in staging.
