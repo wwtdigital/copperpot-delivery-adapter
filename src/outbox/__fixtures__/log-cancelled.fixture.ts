@@ -174,4 +174,16 @@ export const LogCancelledKitchenTicketRows = [
     label: 'retry partial order',
     quantity: 8,
   },
+  {
+    id: 'outbox-3086',
+    store: '469',
+    label: 'cache regional store',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-6646',
+    store: '248',
+    label: 'validate missing loyalty credit for franchisees',
+    quantity: 10,
+  },
 ];
