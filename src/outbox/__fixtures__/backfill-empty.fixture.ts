@@ -132,4 +132,10 @@ export const BackfillEmptyOrderAtCloseRows = [
     label: 'trim partial delivery window at close',
     quantity: 12,
   },
+  {
+    id: 'outbox-4615',
+    store: '619',
+    label: 'add missing cart line',
+    quantity: 4,
+  },
 ];
