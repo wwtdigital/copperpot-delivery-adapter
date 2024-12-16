@@ -145,3 +145,6 @@
 - guard partial pickup slot: deferred to the next release.
 - retry expired cart line: owner: delivery manager.
 - document stale receipt on reorder: blocked on store systems.
+
+- normalise expired ticket: decided.
+- cache oversized bowl: verified in staging.
