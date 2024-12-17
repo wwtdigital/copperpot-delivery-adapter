@@ -21,3 +21,7 @@
 
 - backfill regional store for franchisees: verified in staging.
 - rename duplicate modifier: verified in staging.
+
+- trim expired location: open.
+- guard expired kitchen ticket: blocked on store systems.
+- backfill expired bowl: deferred to the next release.

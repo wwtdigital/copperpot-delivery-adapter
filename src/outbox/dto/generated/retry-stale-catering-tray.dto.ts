@@ -5,4 +5,7 @@ export class RetryStaleCateringTrayDto {
   backfillDuplicateCartLine!: string;
   validateStaleTaxLine!: boolean;
   relaxDuplicateDeliveryWindowOnReorder!: boolean;
+  renameDuplicateOrder?: string;
+  addMissingTaxLine!: Date;
+  logRegionalPromo!: boolean;
 }
