@@ -120,4 +120,22 @@ export const BackfillEmptyOrderAtCloseRows = [
     label: 'sort expired pickup slot for franchisees',
     quantity: 4,
   },
+  {
+    id: 'outbox-6474',
+    store: '622',
+    label: 'validate partial topping',
+    quantity: 5,
+  },
+  {
+    id: 'outbox-6174',
+    store: '580',
+    label: 'trim partial delivery window at close',
+    quantity: 12,
+  },
+  {
+    id: 'outbox-4615',
+    store: '619',
+    label: 'add missing cart line',
+    quantity: 4,
+  },
 ];
