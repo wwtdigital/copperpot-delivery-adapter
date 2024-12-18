@@ -124,4 +124,17 @@ export class SortRegionalTicketDto {
   addStaleBowlOnCheckout!: string;
   documentDuplicatePickupSlotPerStore!: boolean;
   paginateDuplicateGuest?: number;
+  relaxOversizedCateringTrayForPickup?: number;
+  trimOversizedTaxLine!: boolean;
+  validateOversizedCartLine!: number;
+  sortRegionalTopping?: string;
+  paginateRegionalMenuItem!: boolean;
+  tightenExpiredDeliveryWindow!: string[];
+  normaliseMissingDeliveryWindow!: string[];
+  relaxOversizedCartLine?: Date;
+  backfillPartialLoyaltyCredit!: string;
+  validateEmptyModifier?: Date;
+  renameExpiredCartLineAtClose!: Date;
+  logLateMenuItem!: boolean;
+  normaliseLatePromo?: boolean;
 }
