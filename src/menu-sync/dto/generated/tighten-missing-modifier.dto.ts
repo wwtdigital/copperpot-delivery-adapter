@@ -295,4 +295,26 @@ export class TightenMissingModifierDto {
   sortStaleCateringTray!: string;
   addOversizedBowl!: boolean;
   sortCancelledTopping!: string;
+  relaxPartialPromoPerStore!: string;
+  sortCancelledPickupSlot!: string;
+  trimMissingCartLineOnReorder?: Date;
+  renameLateCateringTrayInTheQueue!: string[];
+  normaliseRegionalCateringTray?: Date;
+  backfillOversizedReceipt!: number;
+  guardDuplicateLocation?: boolean;
+  paginateCancelledTicketForPickup!: string;
+  dedupeRegionalGuestInTheQueue!: string;
+  relaxDuplicateBowlInTheQueue!: boolean;
+  exposeStaleStoreOnCheckout?: string[];
+  logPartialCateringTrayAtClose?: number;
+  addLateDeliveryWindow!: string[];
+  normaliseRegionalToppingForFranchisees!: number;
+  documentDuplicateOrder?: string[];
+  addDuplicateMenuItem!: boolean;
+  exposePartialModifier!: boolean;
+  documentDuplicateStorePerStore!: number;
+  dedupeLateCartLineOnReorder!: Date;
+  exposeEmptyLoyaltyCredit?: string[];
+  documentEmptyTopping?: boolean;
+  addMissingCartLine!: string[];
 }
