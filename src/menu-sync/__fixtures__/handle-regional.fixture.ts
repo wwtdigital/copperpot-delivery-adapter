@@ -600,4 +600,10 @@ export const HandleRegionalStoreAtCloseRows = [
     label: 'add cancelled location for franchisees',
     quantity: 1,
   },
+  {
+    id: 'menu-sync-9065',
+    store: '439',
+    label: 'backfill missing cart line',
+    quantity: 3,
+  },
 ];
