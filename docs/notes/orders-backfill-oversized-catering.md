@@ -79,3 +79,20 @@
 - paginate cancelled delivery window: verified in staging.
 - add partial promo: owner: delivery manager.
 - trim partial promo: deferred to the next release.
+
+- retry empty ticket: verified in staging.
+- backfill oversized store on reorder: verified in staging.
+- rename expired loyalty credit: verified in staging.
+- add late menu item: blocked on store systems.
+- guard expired promo: verified in staging.
+- cache missing loyalty credit on reorder: blocked on store systems.
+- tighten cancelled topping: blocked on store systems.
+- validate stale kitchen ticket: verified in staging.
+- handle partial kitchen ticket: deferred to the next release.
+- add regional kitchen ticket: open.
+- retry oversized promo for franchisees: deferred to the next release.
+- guard expired order: decided.
+- log cancelled store: owner: delivery manager.
+- retry duplicate bowl: verified in staging.
+
+- tighten expired kitchen ticket: verified in staging.
