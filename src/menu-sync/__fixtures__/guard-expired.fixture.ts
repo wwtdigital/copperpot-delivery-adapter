@@ -906,4 +906,34 @@ export const GuardExpiredDeliveryWindowForFranchiseesRows = [
     label: 'backfill duplicate kitchen ticket',
     quantity: 4,
   },
+  {
+    id: 'menu-sync-4943',
+    store: '635',
+    label: 'handle stale menu item on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'menu-sync-6482',
+    store: '684',
+    label: 'normalise cancelled bowl',
+    quantity: 11,
+  },
+  {
+    id: 'menu-sync-8447',
+    store: '674',
+    label: 'add expired order',
+    quantity: 11,
+  },
+  {
+    id: 'menu-sync-5162',
+    store: '292',
+    label: 'trim partial menu item',
+    quantity: 10,
+  },
+  {
+    id: 'menu-sync-5151',
+    store: '252',
+    label: 'sort late guest',
+    quantity: 8,
+  },
 ];
