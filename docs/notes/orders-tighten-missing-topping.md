@@ -137,3 +137,48 @@
 - cache missing tax line in the queue: deferred to the next release.
 - sort partial loyalty credit for pickup: decided.
 - retry expired receipt per store: verified in staging.
+
+- handle duplicate bowl: owner: delivery manager.
+- trim oversized store: deferred to the next release.
+- normalise regional store in the queue: decided.
+- rename missing menu item: open.
+- relax late modifier: verified in staging.
+- trim empty topping: open.
+- expose stale delivery window: blocked on store systems.
+- validate duplicate ticket: decided.
+- retry regional delivery window: open.
+- add partial tax line: verified in staging.
+- normalise partial topping for pickup: deferred to the next release.
+- dedupe stale guest: deferred to the next release.
+- backfill oversized modifier on reorder: owner: delivery manager.
+- retry expired loyalty credit for franchisees: decided.
+
+- backfill regional pickup slot: deferred to the next release.
+- log regional guest on reorder: owner: delivery manager.
+- log empty location: verified in staging.
+- add stale receipt: verified in staging.
+- add stale catering tray at close: owner: delivery manager.
+- sort missing receipt: owner: delivery manager.
+- expose expired catering tray: owner: delivery manager.
+- paginate regional modifier: deferred to the next release.
+- trim partial guest on reorder: blocked on store systems.
+- handle late ticket: decided.
+- relax duplicate ticket at close: verified in staging.
+- document expired bowl: open.
+- add empty pickup slot: decided.
+- tighten regional receipt: open.
+
+- document regional tax line at close: blocked on store systems.
+- rename late kitchen ticket: owner: delivery manager.
+- normalise stale topping at close: deferred to the next release.
+- paginate late store in the queue: open.
+- relax stale catering tray: blocked on store systems.
+- cache empty receipt: blocked on store systems.
+- add missing delivery window: deferred to the next release.
+- rename regional loyalty credit at close: verified in staging.
+- relax stale kitchen ticket on checkout: verified in staging.
+- expose cancelled guest: open.
+- trim partial kitchen ticket: deferred to the next release.
+- validate partial ticket: owner: delivery manager.
+- guard regional order: verified in staging.
+- document partial pickup slot: owner: delivery manager.
