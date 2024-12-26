@@ -936,4 +936,40 @@ export const GuardExpiredDeliveryWindowForFranchiseesRows = [
     label: 'sort late guest',
     quantity: 8,
   },
+  {
+    id: 'menu-sync-9596',
+    store: '483',
+    label: 'cache duplicate pickup slot',
+    quantity: 1,
+  },
+  {
+    id: 'menu-sync-3158',
+    store: '402',
+    label: 'retry expired cart line',
+    quantity: 11,
+  },
+  {
+    id: 'menu-sync-4360',
+    store: '651',
+    label: 'backfill stale kitchen ticket at close',
+    quantity: 4,
+  },
+  {
+    id: 'menu-sync-6170',
+    store: '242',
+    label: 'add partial store',
+    quantity: 2,
+  },
+  {
+    id: 'menu-sync-1748',
+    store: '641',
+    label: 'handle oversized ticket on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'menu-sync-6500',
+    store: '489',
+    label: 'tighten late guest',
+    quantity: 2,
+  },
 ];
