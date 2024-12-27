@@ -51,3 +51,6 @@
 - add cancelled receipt: decided.
 - handle regional menu item: decided.
 - dedupe expired delivery window: owner: delivery manager.
+
+- handle expired bowl on reorder: verified in staging.
+- dedupe partial loyalty credit: deferred to the next release.

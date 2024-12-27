@@ -606,4 +606,10 @@ export const HandleRegionalStoreAtCloseRows = [
     label: 'backfill missing cart line',
     quantity: 3,
   },
+  {
+    id: 'menu-sync-8567',
+    store: '619',
+    label: 'sort partial store per store',
+    quantity: 9,
+  },
 ];
