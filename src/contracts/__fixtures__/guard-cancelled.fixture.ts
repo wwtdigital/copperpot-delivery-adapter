@@ -222,4 +222,10 @@ export const GuardCancelledBowlAtCloseRows = [
     label: 'document cancelled modifier',
     quantity: 2,
   },
+  {
+    id: 'contracts-9947',
+    store: '309',
+    label: 'relax regional ticket',
+    quantity: 3,
+  },
 ];
