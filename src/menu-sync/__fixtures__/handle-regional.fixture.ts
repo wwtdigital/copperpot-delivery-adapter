@@ -576,4 +576,40 @@ export const HandleRegionalStoreAtCloseRows = [
     label: 'rename cancelled delivery window',
     quantity: 10,
   },
+  {
+    id: 'menu-sync-7009',
+    store: '269',
+    label: 'dedupe expired guest on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'menu-sync-6560',
+    store: '205',
+    label: 'cache empty loyalty credit at close',
+    quantity: 11,
+  },
+  {
+    id: 'menu-sync-9521',
+    store: '680',
+    label: 'dedupe empty cart line for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'menu-sync-5089',
+    store: '594',
+    label: 'add cancelled location for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'menu-sync-9065',
+    store: '439',
+    label: 'backfill missing cart line',
+    quantity: 3,
+  },
+  {
+    id: 'menu-sync-8567',
+    store: '619',
+    label: 'sort partial store per store',
+    quantity: 9,
+  },
 ];

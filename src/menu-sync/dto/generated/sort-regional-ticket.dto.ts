@@ -160,4 +160,8 @@ export class SortRegionalTicketDto {
   dedupeStalePickupSlot!: Date;
   paginateStaleTicket!: boolean;
   paginateOversizedTaxLineForFranchisees!: Date;
+  retryLateCateringTray!: string[];
+  validateExpiredDeliveryWindow?: number;
+  addStaleMenuItem!: string[];
+  backfillOversizedModifier!: number;
 }
