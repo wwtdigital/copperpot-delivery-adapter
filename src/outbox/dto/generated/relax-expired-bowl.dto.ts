@@ -58,4 +58,28 @@ export class RelaxExpiredBowlDto {
   paginatePartialGuestForPickup!: number;
   addPartialTopping!: boolean;
   paginateMissingModifierOnCheckout!: string;
+  dedupeOversizedPickupSlotOnCheckout?: string[];
+  handlePartialPromoForFranchisees!: string;
+  paginateCancelledOrderInTheQueue!: string[];
+  renameEmptyReceipt?: boolean;
+  normaliseStalePickupSlotOnReorder?: string[];
+  backfillOversizedTaxLineOnCheckout!: boolean;
+  validateOversizedOrderOnReorder!: string;
+  backfillPartialMenuItemAtClose?: string;
+  addOversizedBowl?: boolean;
+  exposeDuplicateReceipt!: boolean;
+  trimMissingTicketInTheQueue!: Date;
+  backfillMissingLoyaltyCreditOnCheckout!: number;
+  backfillOversizedLoyaltyCredit!: string;
+  guardStaleLoyaltyCredit!: number;
+  logDuplicateTopping!: Date;
+  logStaleTopping!: number;
+  backfillPartialKitchenTicketAtClose!: number;
+  dedupeMissingToppingPerStore?: Date;
+  retryDuplicateLoyaltyCredit!: number;
+  validateDuplicatePromoPerStore!: string;
+  cacheRegionalTaxLinePerStore!: string[];
+  cacheOversizedGuestPerStore!: boolean;
+  guardEmptyTopping?: number;
+  dedupeEmptyCartLineInTheQueue!: Date;
 }
