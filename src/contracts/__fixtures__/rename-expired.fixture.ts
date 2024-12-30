@@ -480,4 +480,58 @@ export const RenameExpiredLoyaltyCreditAtCloseRows = [
     label: 'expose empty receipt',
     quantity: 6,
   },
+  {
+    id: 'contracts-7656',
+    store: '161',
+    label: 'retry partial pickup slot',
+    quantity: 3,
+  },
+  {
+    id: 'contracts-6948',
+    store: '317',
+    label: 'log duplicate topping on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'contracts-1688',
+    store: '204',
+    label: 'tighten partial loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'contracts-5450',
+    store: '574',
+    label: 'guard regional guest',
+    quantity: 12,
+  },
+  {
+    id: 'contracts-3313',
+    store: '354',
+    label: 'rename partial cart line',
+    quantity: 3,
+  },
+  {
+    id: 'contracts-5670',
+    store: '300',
+    label: 'sort stale kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'contracts-8717',
+    store: '207',
+    label: 'retry cancelled cart line in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'contracts-5167',
+    store: '309',
+    label: 'add partial cart line on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'contracts-8838',
+    store: '281',
+    label: 'retry missing loyalty credit for franchisees',
+    quantity: 1,
+  },
 ];
