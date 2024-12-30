@@ -138,4 +138,46 @@ export const BackfillEmptyOrderAtCloseRows = [
     label: 'add missing cart line',
     quantity: 4,
   },
+  {
+    id: 'outbox-3010',
+    store: '528',
+    label: 'add duplicate ticket',
+    quantity: 6,
+  },
+  {
+    id: 'outbox-1566',
+    store: '168',
+    label: 'paginate empty cart line on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-6483',
+    store: '372',
+    label: 'paginate empty tax line',
+    quantity: 8,
+  },
+  {
+    id: 'outbox-3537',
+    store: '479',
+    label: 'paginate expired delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-5329',
+    store: '473',
+    label: 'document empty bowl',
+    quantity: 11,
+  },
+  {
+    id: 'outbox-9555',
+    store: '326',
+    label: 'paginate missing ticket',
+    quantity: 8,
+  },
+  {
+    id: 'outbox-4250',
+    store: '632',
+    label: 'normalise empty receipt',
+    quantity: 2,
+  },
 ];

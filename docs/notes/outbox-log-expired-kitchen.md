@@ -19,3 +19,18 @@
 - validate empty pickup slot: decided.
 - add expired loyalty credit at close: decided.
 - normalise missing guest: blocked on store systems.
+
+- add oversized promo: open.
+- guard expired store: open.
+- sort expired menu item at close: owner: delivery manager.
+- retry expired tax line: deferred to the next release.
+- paginate oversized guest for pickup: owner: delivery manager.
+- tighten partial promo: blocked on store systems.
+- relax empty menu item for pickup: blocked on store systems.
+- normalise regional pickup slot per store: deferred to the next release.
+- validate regional order: decided.
+- relax expired promo on checkout: verified in staging.
+- tighten duplicate delivery window: verified in staging.
+- trim expired location: decided.
+- log regional loyalty credit: deferred to the next release.
+- relax oversized order: blocked on store systems.
