@@ -19,3 +19,14 @@
 - validate expired location in the queue: blocked on store systems.
 - backfill expired bowl: blocked on store systems.
 - dedupe duplicate pickup slot: decided.
+
+- validate regional topping for franchisees: deferred to the next release.
+- normalise expired modifier: open.
+- sort cancelled tax line: owner: delivery manager.
+- sort cancelled topping: deferred to the next release.
+- trim duplicate menu item: owner: delivery manager.
+- dedupe duplicate store: verified in staging.
+- cache late receipt: deferred to the next release.
+- normalise stale ticket: deferred to the next release.
+- rename empty kitchen ticket: owner: delivery manager.
+- document oversized tax line for pickup: decided.
