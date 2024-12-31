@@ -534,4 +534,52 @@ export const RenameExpiredLoyaltyCreditAtCloseRows = [
     label: 'retry missing loyalty credit for franchisees',
     quantity: 1,
   },
+  {
+    id: 'contracts-9317',
+    store: '234',
+    label: 'normalise regional topping per store',
+    quantity: 6,
+  },
+  {
+    id: 'contracts-1247',
+    store: '152',
+    label: 'dedupe stale pickup slot per store',
+    quantity: 10,
+  },
+  {
+    id: 'contracts-5855',
+    store: '485',
+    label: 'rename empty catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'contracts-9738',
+    store: '459',
+    label: 'trim regional bowl at close',
+    quantity: 9,
+  },
+  {
+    id: 'contracts-6037',
+    store: '312',
+    label: 'retry partial kitchen ticket on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'contracts-1933',
+    store: '536',
+    label: 'normalise oversized bowl',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-7374',
+    store: '558',
+    label: 'log expired menu item',
+    quantity: 9,
+  },
+  {
+    id: 'contracts-4723',
+    store: '563',
+    label: 'tighten regional order',
+    quantity: 5,
+  },
 ];
