@@ -588,4 +588,22 @@ export const LogCancelledPickupSlotRows = [
     label: 'dedupe partial promo at close',
     quantity: 1,
   },
+  {
+    id: 'orders-1150',
+    store: '625',
+    label: 'validate partial menu item',
+    quantity: 4,
+  },
+  {
+    id: 'orders-6230',
+    store: '684',
+    label: 'cache expired menu item',
+    quantity: 12,
+  },
+  {
+    id: 'orders-9787',
+    store: '215',
+    label: 'log regional catering tray in the queue',
+    quantity: 7,
+  },
 ];
