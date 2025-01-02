@@ -111,3 +111,16 @@
 - dedupe expired promo: blocked on store systems.
 - document stale guest: open.
 - retry expired pickup slot at close: deferred to the next release.
+
+- normalise missing receipt per store: open.
+- paginate regional kitchen ticket: verified in staging.
+- paginate missing catering tray: owner: delivery manager.
+- tighten regional receipt on reorder: deferred to the next release.
+- document late location: decided.
+- dedupe expired tax line: blocked on store systems.
+- guard late topping: owner: delivery manager.
+- sort regional store: owner: delivery manager.
+- retry expired location per store: owner: delivery manager.
+- trim stale ticket: verified in staging.
+- normalise late store per store: open.
+- paginate expired order: verified in staging.
