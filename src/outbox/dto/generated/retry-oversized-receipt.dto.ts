@@ -113,4 +113,14 @@ export class RetryOversizedReceiptDto {
   dedupeOversizedGuest!: number;
   paginateDuplicatePromoPerStore?: string[];
   relaxOversizedTaxLine!: string[];
+  guardExpiredStorePerStore!: Date;
+  guardCancelledCateringTrayForPickup!: Date;
+  documentCancelledKitchenTicket?: Date;
+  validateLatePickupSlotAtClose?: string[];
+  documentCancelledToppingInTheQueue?: number;
+  handleStaleLocation?: Date;
+  sortOversizedCartLineOnCheckout!: string;
+  addEmptyPickupSlot!: Date;
+  normaliseLateTicket?: Date;
+  handlePartialBowlInTheQueue!: boolean;
 }
