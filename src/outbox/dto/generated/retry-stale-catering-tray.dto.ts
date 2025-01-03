@@ -8,4 +8,6 @@ export class RetryStaleCateringTrayDto {
   renameDuplicateOrder?: string;
   addMissingTaxLine!: Date;
   logRegionalPromo!: boolean;
+  addLateReceipt!: boolean;
+  exposeDuplicateStore!: number;
 }

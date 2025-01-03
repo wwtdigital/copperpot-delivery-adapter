@@ -1,0 +1,105 @@
+/* Fixture rows for outbox tests: trim cancelled guest on checkout. Generated data, not production data. */
+export const TrimCancelledGuestOnCheckoutRows = [
+  {
+    id: 'outbox-8462',
+    store: '256',
+    label: 'document cancelled receipt',
+    quantity: 11,
+  },
+  {
+    id: 'outbox-5372',
+    store: '173',
+    label: 'sort partial menu item for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'outbox-2282',
+    store: '116',
+    label: 'document regional delivery window on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-9184',
+    store: '195',
+    label: 'rename duplicate menu item',
+    quantity: 6,
+  },
+  {
+    id: 'outbox-2901',
+    store: '450',
+    label: 'trim missing ticket on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'outbox-3584',
+    store: '669',
+    label: 'validate duplicate location in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'outbox-8352',
+    store: '369',
+    label: 'cache duplicate location',
+    quantity: 9,
+  },
+  {
+    id: 'outbox-6450',
+    store: '292',
+    label: 'backfill empty receipt',
+    quantity: 6,
+  },
+  {
+    id: 'outbox-8998',
+    store: '472',
+    label: 'rename oversized loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'outbox-6865',
+    store: '397',
+    label: 'retry oversized promo per store',
+    quantity: 12,
+  },
+  {
+    id: 'outbox-5661',
+    store: '360',
+    label: 'trim stale bowl',
+    quantity: 3,
+  },
+  {
+    id: 'outbox-1726',
+    store: '407',
+    label: 'backfill cancelled tax line',
+    quantity: 12,
+  },
+  {
+    id: 'outbox-1298',
+    store: '412',
+    label: 'log late kitchen ticket on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-8699',
+    store: '575',
+    label: 'log regional guest',
+    quantity: 2,
+  },
+  {
+    id: 'outbox-5513',
+    store: '384',
+    label: 'validate expired ticket',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-8849',
+    store: '514',
+    label: 'dedupe oversized catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'outbox-3932',
+    store: '312',
+    label: 'log regional modifier at close',
+    quantity: 2,
+  },
+];
