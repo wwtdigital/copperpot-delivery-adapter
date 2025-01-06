@@ -306,4 +306,16 @@ export const GuardCancelledBowlAtCloseRows = [
     label: 'paginate empty tax line at close',
     quantity: 3,
   },
+  {
+    id: 'contracts-7388',
+    store: '417',
+    label: 'backfill oversized order',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-8100',
+    store: '340',
+    label: 'normalise expired catering tray per store',
+    quantity: 8,
+  },
 ];

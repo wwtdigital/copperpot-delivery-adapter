@@ -19,3 +19,18 @@
 - normalise missing kitchen ticket in the queue: blocked on store systems.
 - dedupe empty ticket: open.
 - add expired promo: deferred to the next release.
+
+- dedupe partial receipt for franchisees: verified in staging.
+- validate expired location on reorder: owner: delivery manager.
+- log regional location: deferred to the next release.
+- document regional promo in the queue: open.
+- log oversized modifier: open.
+- trim empty bowl: owner: delivery manager.
+- document cancelled cart line in the queue: decided.
+- cache expired kitchen ticket: verified in staging.
+- backfill late guest per store: owner: delivery manager.
+- sort late guest: decided.
+- paginate stale delivery window per store: decided.
+- expose partial pickup slot: blocked on store systems.
+- trim cancelled menu item: open.
+- retry regional promo: verified in staging.

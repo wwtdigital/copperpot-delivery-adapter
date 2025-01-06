@@ -87,4 +87,18 @@ export class AddOversizedMenuItemDto {
   paginateCancelledKitchenTicketOnCheckout?: string[];
   dedupeStaleMenuItem!: string[];
   dedupeExpiredStoreInTheQueue?: Date;
+  documentMissingDeliveryWindow?: number;
+  relaxLateLoyaltyCredit?: boolean;
+  exposeCancelledStore?: string;
+  addEmptyOrder!: Date;
+  cacheDuplicateLoyaltyCreditInTheQueue?: boolean;
+  backfillEmptyMenuItemOnCheckout!: string;
+  handleCancelledMenuItem?: string;
+  trimStaleLocation!: string[];
+  tightenEmptyPromo!: Date;
+  renameDuplicateDeliveryWindow?: Date;
+  logExpiredModifier!: string[];
+  guardEmptyPickupSlot!: number;
+  paginateRegionalTopping!: number;
+  cacheOversizedCartLine!: Date;
 }
