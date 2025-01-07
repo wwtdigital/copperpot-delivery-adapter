@@ -10,4 +10,28 @@ export class RetryStaleCateringTrayDto {
   logRegionalPromo!: boolean;
   addLateReceipt!: boolean;
   exposeDuplicateStore!: number;
+  addExpiredStore!: number;
+  logMissingTopping?: Date;
+  handleCancelledPickupSlot!: Date;
+  tightenMissingLocation!: string[];
+  normaliseDuplicateToppingPerStore!: number;
+  cacheCancelledPickupSlotForPickup?: boolean;
+  renameOversizedGuest!: Date;
+  retryLateModifier?: string;
+  renamePartialPickupSlot?: string;
+  renameDuplicateStore?: number;
+  tightenEmptyCartLine!: string;
+  paginatePartialBowl!: string[];
+  relaxEmptyBowlAtClose?: string[];
+  normaliseOversizedDeliveryWindow?: Date;
+  dedupePartialLocation!: string[];
+  paginateCancelledCartLine!: string;
+  sortLatePickupSlot?: string;
+  paginateOversizedModifier?: number;
+  guardOversizedPromo!: string[];
+  tightenRegionalKitchenTicket!: number;
+  cacheDuplicateTicket!: number;
+  addStaleBowl!: Date;
+  addCancelledStore!: string;
+  validateDuplicateReceiptAtClose!: string;
 }
