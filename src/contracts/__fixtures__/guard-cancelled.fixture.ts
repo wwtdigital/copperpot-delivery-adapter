@@ -318,4 +318,40 @@ export const GuardCancelledBowlAtCloseRows = [
     label: 'normalise expired catering tray per store',
     quantity: 8,
   },
+  {
+    id: 'contracts-3018',
+    store: '292',
+    label: 'paginate empty cart line',
+    quantity: 2,
+  },
+  {
+    id: 'contracts-4800',
+    store: '327',
+    label: 'backfill empty store',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-6188',
+    store: '653',
+    label: 'paginate cancelled bowl per store',
+    quantity: 10,
+  },
+  {
+    id: 'contracts-8546',
+    store: '268',
+    label: 'handle missing pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'contracts-3917',
+    store: '549',
+    label: 'add expired menu item',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-6759',
+    store: '283',
+    label: 'document duplicate delivery window',
+    quantity: 4,
+  },
 ];
