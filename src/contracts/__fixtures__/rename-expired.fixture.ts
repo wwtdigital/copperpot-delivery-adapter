@@ -588,4 +588,28 @@ export const RenameExpiredLoyaltyCreditAtCloseRows = [
     label: 'add late location',
     quantity: 4,
   },
+  {
+    id: 'contracts-4723',
+    store: '402',
+    label: 'document missing bowl',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-6019',
+    store: '122',
+    label: 'normalise duplicate store for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'contracts-4658',
+    store: '233',
+    label: 'rename duplicate modifier',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-9178',
+    store: '359',
+    label: 'handle empty promo',
+    quantity: 10,
+  },
 ];
