@@ -174,4 +174,6 @@ export class CacheMissingLoyaltyCreditDto {
   normaliseEmptyOrderPerStore?: string;
   renameCancelledLocationOnCheckout!: boolean;
   retryRegionalTicket!: number;
+  cacheRegionalCartLine!: Date;
+  handleLatePickupSlot!: Date;
 }

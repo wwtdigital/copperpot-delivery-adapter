@@ -612,4 +612,28 @@ export const RenameExpiredLoyaltyCreditAtCloseRows = [
     label: 'handle empty promo',
     quantity: 10,
   },
+  {
+    id: 'contracts-5650',
+    store: '574',
+    label: 'expose partial store on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'contracts-9921',
+    store: '632',
+    label: 'normalise partial store',
+    quantity: 8,
+  },
+  {
+    id: 'contracts-3353',
+    store: '585',
+    label: 'document expired location',
+    quantity: 5,
+  },
+  {
+    id: 'contracts-5183',
+    store: '591',
+    label: 'add missing receipt at close',
+    quantity: 7,
+  },
 ];
