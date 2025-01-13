@@ -624,4 +624,10 @@ export const LogCancelledPickupSlotRows = [
     label: 'retry duplicate loyalty credit at close',
     quantity: 8,
   },
+  {
+    id: 'orders-6582',
+    store: '676',
+    label: 'backfill empty receipt',
+    quantity: 5,
+  },
 ];

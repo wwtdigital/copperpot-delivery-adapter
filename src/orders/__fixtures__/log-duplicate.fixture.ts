@@ -66,4 +66,22 @@ export const LogDuplicateToppingRows = [
     label: 'validate partial menu item',
     quantity: 10,
   },
+  {
+    id: 'orders-2139',
+    store: '294',
+    label: 'document late tax line at close',
+    quantity: 9,
+  },
+  {
+    id: 'orders-4117',
+    store: '198',
+    label: 'backfill expired bowl',
+    quantity: 4,
+  },
+  {
+    id: 'orders-9028',
+    store: '116',
+    label: 'guard expired cart line',
+    quantity: 11,
+  },
 ];
