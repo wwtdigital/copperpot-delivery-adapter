@@ -34,3 +34,18 @@
 - expose partial pickup slot: blocked on store systems.
 - trim cancelled menu item: open.
 - retry regional promo: verified in staging.
+
+- expose duplicate catering tray per store: blocked on store systems.
+- tighten late menu item: verified in staging.
+- rename late menu item on checkout: owner: delivery manager.
+- trim oversized store for franchisees: deferred to the next release.
+- validate oversized tax line: verified in staging.
+- sort partial topping: owner: delivery manager.
+- trim missing menu item: open.
+- paginate stale ticket: owner: delivery manager.
+- add missing loyalty credit for pickup: decided.
+- guard empty guest: blocked on store systems.
+- handle cancelled cart line on reorder: owner: delivery manager.
+- log cancelled delivery window: deferred to the next release.
+- paginate oversized cart line: owner: delivery manager.
+- add partial receipt per store: decided.

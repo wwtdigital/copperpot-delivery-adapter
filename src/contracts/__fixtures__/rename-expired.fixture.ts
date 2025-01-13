@@ -582,4 +582,10 @@ export const RenameExpiredLoyaltyCreditAtCloseRows = [
     label: 'tighten regional order',
     quantity: 5,
   },
+  {
+    id: 'contracts-6519',
+    store: '356',
+    label: 'add late location',
+    quantity: 4,
+  },
 ];
