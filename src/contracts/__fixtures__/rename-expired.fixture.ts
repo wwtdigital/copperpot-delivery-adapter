@@ -636,4 +636,40 @@ export const RenameExpiredLoyaltyCreditAtCloseRows = [
     label: 'add missing receipt at close',
     quantity: 7,
   },
+  {
+    id: 'contracts-2865',
+    store: '425',
+    label: 'sort cancelled loyalty credit at close',
+    quantity: 8,
+  },
+  {
+    id: 'contracts-1358',
+    store: '310',
+    label: 'document partial guest on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'contracts-6106',
+    store: '498',
+    label: 'handle regional order in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'contracts-1721',
+    store: '335',
+    label: 'add regional bowl',
+    quantity: 2,
+  },
+  {
+    id: 'contracts-4176',
+    store: '181',
+    label: 'backfill oversized kitchen ticket for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'contracts-9710',
+    store: '259',
+    label: 'guard regional pickup slot',
+    quantity: 7,
+  },
 ];
