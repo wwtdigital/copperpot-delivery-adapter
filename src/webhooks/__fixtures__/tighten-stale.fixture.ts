@@ -18,4 +18,10 @@ export const TightenStaleBowlPerStoreRows = [
     label: 'sort oversized guest',
     quantity: 3,
   },
+  {
+    id: 'webhooks-2193',
+    store: '234',
+    label: 'dedupe cancelled promo in the queue',
+    quantity: 11,
+  },
 ];

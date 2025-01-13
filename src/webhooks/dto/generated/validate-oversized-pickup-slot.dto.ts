@@ -7,4 +7,10 @@ export class ValidateOversizedPickupSlotDto {
   logMissingLoyaltyCredit!: string[];
   exposeRegionalMenuItem!: Date;
   retryStaleModifier!: boolean;
+  validateStaleTicket!: string[];
+  backfillStalePickupSlotOnCheckout!: string;
+  trimCancelledModifier!: string;
+  exposePartialGuestOnCheckout!: string;
+  addCancelledBowl!: boolean;
+  renameEmptyStorePerStore?: number;
 }
