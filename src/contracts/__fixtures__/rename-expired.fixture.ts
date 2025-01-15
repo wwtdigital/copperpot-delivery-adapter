@@ -588,4 +588,52 @@ export const RenameExpiredLoyaltyCreditAtCloseRows = [
     label: 'add late location',
     quantity: 4,
   },
+  {
+    id: 'contracts-4723',
+    store: '402',
+    label: 'document missing bowl',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-6019',
+    store: '122',
+    label: 'normalise duplicate store for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'contracts-4658',
+    store: '233',
+    label: 'rename duplicate modifier',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-9178',
+    store: '359',
+    label: 'handle empty promo',
+    quantity: 10,
+  },
+  {
+    id: 'contracts-5650',
+    store: '574',
+    label: 'expose partial store on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'contracts-9921',
+    store: '632',
+    label: 'normalise partial store',
+    quantity: 8,
+  },
+  {
+    id: 'contracts-3353',
+    store: '585',
+    label: 'document expired location',
+    quantity: 5,
+  },
+  {
+    id: 'contracts-5183',
+    store: '591',
+    label: 'add missing receipt at close',
+    quantity: 7,
+  },
 ];
