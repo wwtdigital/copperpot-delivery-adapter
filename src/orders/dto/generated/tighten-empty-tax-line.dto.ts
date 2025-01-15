@@ -16,4 +16,6 @@ export class TightenEmptyTaxLineDto {
   paginatePartialCartLine?: number;
   paginateLateBowlForFranchisees!: boolean;
   logCancelledCateringTrayAtClose?: boolean;
+  dedupeLatePickupSlot!: Date;
+  guardEmptyDeliveryWindowAtClose!: Date;
 }
