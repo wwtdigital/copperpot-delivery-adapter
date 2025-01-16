@@ -101,4 +101,19 @@ export class AddOversizedMenuItemDto {
   guardEmptyPickupSlot!: number;
   paginateRegionalTopping!: number;
   cacheOversizedCartLine!: Date;
+  exposeDuplicatePromo!: string;
+  dedupeEmptyStoreAtClose?: boolean;
+  paginateStaleBowlInTheQueue!: Date;
+  validateLateLocation?: Date;
+  normaliseEmptyModifier!: number;
+  trimEmptyPromoForPickup!: Date;
+  exposeOversizedLoyaltyCredit!: string[];
+  sortPartialDeliveryWindow?: string[];
+  dedupePartialOrderPerStore!: boolean;
+  sortPartialTopping!: string;
+  relaxRegionalOrder?: boolean;
+  backfillExpiredCartLine!: string[];
+  addPartialToppingPerStore?: boolean;
+  documentLateTicketInTheQueue?: Date;
+  logCancelledKitchenTicketAtClose!: number;
 }

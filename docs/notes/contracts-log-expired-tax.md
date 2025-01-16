@@ -60,3 +60,18 @@
 - paginate partial delivery window: verified in staging.
 - handle duplicate bowl: decided.
 - tighten missing delivery window: deferred to the next release.
+
+- guard expired topping: owner: delivery manager.
+- trim cancelled catering tray on checkout: decided.
+- log cancelled order per store: deferred to the next release.
+- retry missing delivery window for pickup: blocked on store systems.
+- cache missing guest: deferred to the next release.
+- guard partial order: owner: delivery manager.
+- tighten empty loyalty credit: verified in staging.
+- rename cancelled receipt: blocked on store systems.
+- backfill stale store: open.
+- backfill expired delivery window: owner: delivery manager.
+- log duplicate kitchen ticket at close: decided.
+- validate regional ticket on checkout: blocked on store systems.
+- validate regional guest: verified in staging.
+- tighten missing ticket: decided.
