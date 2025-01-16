@@ -182,3 +182,14 @@
 - validate partial ticket: owner: delivery manager.
 - guard regional order: verified in staging.
 - document partial pickup slot: owner: delivery manager.
+
+- handle stale cart line: owner: delivery manager.
+- validate regional modifier: decided.
+- normalise cancelled catering tray: owner: delivery manager.
+- document expired menu item on reorder: decided.
+- dedupe regional promo per store: open.
+- add empty promo: verified in staging.
+- guard expired bowl: decided.
+- paginate regional location per store: verified in staging.
+- backfill empty bowl for pickup: owner: delivery manager.
+- backfill late bowl: decided.
