@@ -630,4 +630,10 @@ export const LogCancelledPickupSlotRows = [
     label: 'backfill empty receipt',
     quantity: 5,
   },
+  {
+    id: 'orders-5208',
+    store: '357',
+    label: 'expose stale order per store',
+    quantity: 4,
+  },
 ];
