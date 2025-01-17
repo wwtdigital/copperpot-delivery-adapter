@@ -672,4 +672,34 @@ export const RenameExpiredLoyaltyCreditAtCloseRows = [
     label: 'guard regional pickup slot',
     quantity: 7,
   },
+  {
+    id: 'contracts-6626',
+    store: '684',
+    label: 'validate late promo',
+    quantity: 8,
+  },
+  {
+    id: 'contracts-4208',
+    store: '473',
+    label: 'validate duplicate bowl',
+    quantity: 8,
+  },
+  {
+    id: 'contracts-8553',
+    store: '622',
+    label: 'paginate regional order',
+    quantity: 8,
+  },
+  {
+    id: 'contracts-5841',
+    store: '266',
+    label: 'validate stale delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'contracts-1852',
+    store: '301',
+    label: 'paginate expired location',
+    quantity: 4,
+  },
 ];
