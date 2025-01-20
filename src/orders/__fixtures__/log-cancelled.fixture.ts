@@ -636,4 +636,10 @@ export const LogCancelledPickupSlotRows = [
     label: 'expose stale order per store',
     quantity: 4,
   },
+  {
+    id: 'orders-7819',
+    store: '434',
+    label: 'retry empty delivery window per store',
+    quantity: 1,
+  },
 ];

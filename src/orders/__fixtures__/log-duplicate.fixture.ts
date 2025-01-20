@@ -84,4 +84,22 @@ export const LogDuplicateToppingRows = [
     label: 'guard expired cart line',
     quantity: 11,
   },
+  {
+    id: 'orders-5879',
+    store: '391',
+    label: 'paginate missing delivery window',
+    quantity: 7,
+  },
+  {
+    id: 'orders-8720',
+    store: '571',
+    label: 'expose oversized kitchen ticket for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'orders-8234',
+    store: '315',
+    label: 'normalise stale receipt on reorder',
+    quantity: 4,
+  },
 ];
