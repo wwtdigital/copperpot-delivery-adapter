@@ -49,3 +49,14 @@
 - log cancelled delivery window: deferred to the next release.
 - paginate oversized cart line: owner: delivery manager.
 - add partial receipt per store: decided.
+
+- expose late pickup slot on checkout: blocked on store systems.
+- trim late bowl: verified in staging.
+- document cancelled location: deferred to the next release.
+- sort cancelled pickup slot in the queue: owner: delivery manager.
+- normalise stale order per store: blocked on store systems.
+- guard regional promo: blocked on store systems.
+- normalise empty loyalty credit: open.
+- paginate partial delivery window: verified in staging.
+- handle duplicate bowl: decided.
+- tighten missing delivery window: deferred to the next release.
