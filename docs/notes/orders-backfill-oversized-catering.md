@@ -124,3 +124,18 @@
 - trim stale ticket: verified in staging.
 - normalise late store per store: open.
 - paginate expired order: verified in staging.
+
+- dedupe empty modifier in the queue: decided.
+- sort duplicate delivery window: owner: delivery manager.
+- rename late modifier: blocked on store systems.
+- tighten expired delivery window: owner: delivery manager.
+- rename stale menu item: deferred to the next release.
+- retry cancelled store in the queue: open.
+- validate late topping at close: blocked on store systems.
+- expose expired catering tray: blocked on store systems.
+- relax empty bowl in the queue: verified in staging.
+- sort duplicate menu item in the queue: verified in staging.
+- handle stale ticket on checkout: decided.
+- cache cancelled ticket: verified in staging.
+- cache regional kitchen ticket: blocked on store systems.
+- paginate late location: verified in staging.

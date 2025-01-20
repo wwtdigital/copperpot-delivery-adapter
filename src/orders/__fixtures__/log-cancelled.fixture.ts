@@ -606,4 +606,40 @@ export const LogCancelledPickupSlotRows = [
     label: 'log regional catering tray in the queue',
     quantity: 7,
   },
+  {
+    id: 'orders-1997',
+    store: '371',
+    label: 'handle partial order in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'orders-8701',
+    store: '454',
+    label: 'dedupe expired pickup slot in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'orders-3943',
+    store: '249',
+    label: 'retry duplicate loyalty credit at close',
+    quantity: 8,
+  },
+  {
+    id: 'orders-6582',
+    store: '676',
+    label: 'backfill empty receipt',
+    quantity: 5,
+  },
+  {
+    id: 'orders-5208',
+    store: '357',
+    label: 'expose stale order per store',
+    quantity: 4,
+  },
+  {
+    id: 'orders-7819',
+    store: '434',
+    label: 'retry empty delivery window per store',
+    quantity: 1,
+  },
 ];
