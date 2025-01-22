@@ -24,4 +24,16 @@ export const TightenStaleBowlPerStoreRows = [
     label: 'dedupe cancelled promo in the queue',
     quantity: 11,
   },
+  {
+    id: 'webhooks-6504',
+    store: '622',
+    label: 'rename late ticket for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'webhooks-2867',
+    store: '398',
+    label: 'log stale catering tray on checkout',
+    quantity: 5,
+  },
 ];
