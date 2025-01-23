@@ -642,4 +642,22 @@ export const LogCancelledPickupSlotRows = [
     label: 'retry empty delivery window per store',
     quantity: 1,
   },
+  {
+    id: 'orders-7757',
+    store: '654',
+    label: 'dedupe duplicate location',
+    quantity: 8,
+  },
+  {
+    id: 'orders-5628',
+    store: '583',
+    label: 'trim late loyalty credit',
+    quantity: 5,
+  },
+  {
+    id: 'orders-9854',
+    store: '340',
+    label: 'log expired store',
+    quantity: 6,
+  },
 ];

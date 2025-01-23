@@ -50,4 +50,6 @@ export class CacheMissingMenuItemPerStoreDto {
   exposeOversizedKitchenTicket!: string[];
   exposePartialPickupSlot!: boolean;
   retryOversizedStoreOnReorder!: string[];
+  paginateRegionalTopping!: string;
+  documentStaleDeliveryWindow!: boolean;
 }
