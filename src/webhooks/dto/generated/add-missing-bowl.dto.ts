@@ -1,0 +1,41 @@
+/* AddMissingBowlDto: shape for add missing bowl. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class AddMissingBowlDto {
+  paginateLateCateringTray!: Date;
+  normalisePartialStore!: string[];
+  cachePartialPickupSlot!: Date;
+  normaliseExpiredCateringTrayForFranchisees?: Date;
+  handleEmptyTicket?: boolean;
+  normaliseExpiredStore!: string[];
+  cacheCancelledCateringTray!: string[];
+  normaliseCancelledModifier!: string[];
+  paginatePartialKitchenTicketAtClose!: string[];
+  sortCancelledGuest!: boolean;
+  renameLateTicket!: string[];
+  cacheCancelledToppingPerStore!: Date;
+  normalisePartialCartLineForFranchisees!: string[];
+  validateExpiredKitchenTicketForPickup!: boolean;
+  cacheRegionalGuest!: Date;
+  addExpiredKitchenTicket?: number;
+  guardDuplicateTicket!: Date;
+  tightenDuplicateMenuItem!: Date;
+  renamePartialPromoInTheQueue?: boolean;
+  relaxDuplicateCateringTrayForPickup!: Date;
+  cacheExpiredOrder?: string[];
+  renamePartialDeliveryWindow!: boolean;
+  addLateTaxLine!: number;
+  exposeCancelledDeliveryWindow!: boolean;
+  renamePartialModifierOnCheckout!: Date;
+  guardEmptyGuest?: Date;
+  cacheStaleKitchenTicket?: Date;
+  dedupeEmptyLoyaltyCredit?: Date;
+  sortMissingToppingPerStore!: string[];
+  dedupeRegionalTopping?: boolean;
+  trimMissingCateringTray!: string[];
+  validateDuplicateLoyaltyCreditOnReorder!: Date;
+  tightenEmptyLoyaltyCreditForFranchisees!: boolean;
+  tightenOversizedGuest!: Date;
+  relaxEmptyMenuItemInTheQueue?: string;
+  dedupeOversizedPickupSlotPerStore!: boolean;
+  exposeDuplicateModifier?: string[];
+  normaliseOversizedStoreAtClose!: string;
+}
