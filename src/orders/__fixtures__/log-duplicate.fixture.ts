@@ -132,4 +132,16 @@ export const LogDuplicateToppingRows = [
     label: 'cache partial topping',
     quantity: 10,
   },
+  {
+    id: 'orders-3496',
+    store: '297',
+    label: 'handle duplicate guest for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'orders-4268',
+    store: '396',
+    label: 'trim oversized order on checkout',
+    quantity: 8,
+  },
 ];
