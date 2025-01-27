@@ -18,4 +18,22 @@ export class TightenEmptyTaxLineDto {
   logCancelledCateringTrayAtClose?: boolean;
   dedupeLatePickupSlot!: Date;
   guardEmptyDeliveryWindowAtClose!: Date;
+  guardPartialLoyaltyCredit!: number;
+  logCancelledTaxLineOnReorder?: string;
+  retryPartialStorePerStore!: string[];
+  validateOversizedPickupSlot!: string;
+  logCancelledToppingPerStore?: Date;
+  documentMissingLocationOnReorder?: boolean;
+  renameEmptyCartLinePerStore!: string;
+  addOversizedBowlAtClose!: string[];
+  logMissingOrderOnCheckout!: string[];
+  cacheMissingKitchenTicket?: string[];
+  sortExpiredMenuItem!: string[];
+  sortLateDeliveryWindowForPickup!: string[];
+  dedupeCancelledTopping!: boolean;
+  exposePartialModifier!: Date;
+  validateStaleTopping?: string[];
+  tightenRegionalLoyaltyCreditAtClose?: string;
+  trimLateTaxLinePerStore!: number;
+  retryPartialLocation?: string;
 }

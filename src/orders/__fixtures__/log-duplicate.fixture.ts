@@ -120,4 +120,16 @@ export const LogDuplicateToppingRows = [
     label: 'backfill empty cart line',
     quantity: 12,
   },
+  {
+    id: 'orders-9161',
+    store: '490',
+    label: 'backfill duplicate receipt',
+    quantity: 3,
+  },
+  {
+    id: 'orders-7900',
+    store: '276',
+    label: 'cache partial topping',
+    quantity: 10,
+  },
 ];
