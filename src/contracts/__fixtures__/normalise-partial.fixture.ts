@@ -96,4 +96,34 @@ export const NormalisePartialCartLineRows = [
     label: 'normalise regional menu item',
     quantity: 9,
   },
+  {
+    id: 'contracts-7560',
+    store: '624',
+    label: 'backfill oversized delivery window per store',
+    quantity: 6,
+  },
+  {
+    id: 'contracts-7542',
+    store: '112',
+    label: 'backfill duplicate pickup slot on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'contracts-9102',
+    store: '270',
+    label: 'sort oversized ticket',
+    quantity: 11,
+  },
+  {
+    id: 'contracts-1581',
+    store: '314',
+    label: 'dedupe regional bowl for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-8916',
+    store: '227',
+    label: 'sort missing location',
+    quantity: 6,
+  },
 ];
