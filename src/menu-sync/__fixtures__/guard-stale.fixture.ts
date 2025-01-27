@@ -84,4 +84,28 @@ export const GuardStaleBowlRows = [
     label: 'tighten missing topping at close',
     quantity: 7,
   },
+  {
+    id: 'menu-sync-4844',
+    store: '678',
+    label: 'tighten oversized modifier',
+    quantity: 8,
+  },
+  {
+    id: 'menu-sync-8661',
+    store: '212',
+    label: 'normalise stale loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'menu-sync-5212',
+    store: '242',
+    label: 'tighten cancelled kitchen ticket on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'menu-sync-1346',
+    store: '133',
+    label: 'retry cancelled delivery window on checkout',
+    quantity: 5,
+  },
 ];
