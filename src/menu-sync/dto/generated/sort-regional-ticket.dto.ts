@@ -164,4 +164,6 @@ export class SortRegionalTicketDto {
   validateExpiredDeliveryWindow?: number;
   addStaleMenuItem!: string[];
   backfillOversizedModifier!: number;
+  backfillExpiredTaxLineForPickup!: number;
+  cacheCancelledModifier!: string[];
 }

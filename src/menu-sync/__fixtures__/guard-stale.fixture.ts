@@ -42,4 +42,46 @@ export const GuardStaleBowlRows = [
     label: 'dedupe expired kitchen ticket at close',
     quantity: 3,
   },
+  {
+    id: 'menu-sync-2348',
+    store: '476',
+    label: 'sort regional menu item',
+    quantity: 5,
+  },
+  {
+    id: 'menu-sync-6050',
+    store: '147',
+    label: 'add partial receipt',
+    quantity: 7,
+  },
+  {
+    id: 'menu-sync-6486',
+    store: '405',
+    label: 'tighten missing pickup slot for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'menu-sync-9052',
+    store: '260',
+    label: 'validate partial bowl',
+    quantity: 11,
+  },
+  {
+    id: 'menu-sync-5616',
+    store: '622',
+    label: 'rename stale tax line',
+    quantity: 8,
+  },
+  {
+    id: 'menu-sync-6028',
+    store: '675',
+    label: 'expose regional loyalty credit per store',
+    quantity: 12,
+  },
+  {
+    id: 'menu-sync-3892',
+    store: '591',
+    label: 'tighten missing topping at close',
+    quantity: 7,
+  },
 ];
