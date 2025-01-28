@@ -54,4 +54,8 @@ export class CacheMissingMenuItemPerStoreDto {
   documentStaleDeliveryWindow!: boolean;
   normalisePartialPromo!: string[];
   guardLateCateringTrayAtClose?: string[];
+  guardCancelledStore!: string[];
+  documentRegionalKitchenTicketOnReorder!: boolean;
+  sortLateCartLinePerStore?: string;
+  tightenOversizedCateringTrayPerStore?: number;
 }
