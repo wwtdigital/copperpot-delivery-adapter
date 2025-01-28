@@ -116,4 +116,28 @@ export class AddOversizedMenuItemDto {
   addPartialToppingPerStore?: boolean;
   documentLateTicketInTheQueue?: Date;
   logCancelledKitchenTicketAtClose!: number;
+  addExpiredOrder?: string;
+  tightenLateDeliveryWindow?: boolean;
+  relaxLateCateringTray!: number;
+  paginateDuplicatePromo!: string[];
+  addRegionalMenuItem!: number;
+  relaxExpiredLoyaltyCreditOnReorder!: boolean;
+  paginateDuplicateBowlPerStore?: boolean;
+  logStalePromoOnReorder!: string;
+  handlePartialStoreForFranchisees?: number;
+  guardExpiredLocation!: string[];
+  trimStalePickupSlotForFranchisees!: number;
+  exposeRegionalBowlForPickup?: number;
+  logRegionalTopping?: Date;
+  normaliseCancelledTaxLine?: boolean;
+  guardExpiredPickupSlotForFranchisees!: string;
+  retryRegionalTicket!: number;
+  renameExpiredLocation?: string;
+  exposeRegionalTicket?: boolean;
+  handleRegionalLoyaltyCredit?: Date;
+  dedupeRegionalReceiptOnReorder!: string[];
+  documentCancelledGuestOnReorder?: boolean;
+  handleEmptyOrderInTheQueue!: boolean;
+  addEmptyStore!: number;
+  normaliseStaleModifierAtClose?: string;
 }
