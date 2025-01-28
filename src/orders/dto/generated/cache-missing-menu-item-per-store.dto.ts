@@ -52,4 +52,6 @@ export class CacheMissingMenuItemPerStoreDto {
   retryOversizedStoreOnReorder!: string[];
   paginateRegionalTopping!: string;
   documentStaleDeliveryWindow!: boolean;
+  normalisePartialPromo!: string[];
+  guardLateCateringTrayAtClose?: string[];
 }

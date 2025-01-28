@@ -102,4 +102,22 @@ export const LogDuplicateToppingRows = [
     label: 'normalise stale receipt on reorder',
     quantity: 4,
   },
+  {
+    id: 'orders-6164',
+    store: '594',
+    label: 'expose stale promo for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'orders-6027',
+    store: '650',
+    label: 'sort stale topping',
+    quantity: 7,
+  },
+  {
+    id: 'orders-9372',
+    store: '122',
+    label: 'backfill empty cart line',
+    quantity: 12,
+  },
 ];
