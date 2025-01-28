@@ -50,4 +50,25 @@ export class CacheMissingMenuItemPerStoreDto {
   exposeOversizedKitchenTicket!: string[];
   exposePartialPickupSlot!: boolean;
   retryOversizedStoreOnReorder!: string[];
+  paginateRegionalTopping!: string;
+  documentStaleDeliveryWindow!: boolean;
+  normalisePartialPromo!: string[];
+  guardLateCateringTrayAtClose?: string[];
+  guardCancelledStore!: string[];
+  documentRegionalKitchenTicketOnReorder!: boolean;
+  sortLateCartLinePerStore?: string;
+  tightenOversizedCateringTrayPerStore?: number;
+  exposePartialMenuItem!: string;
+  addStaleCateringTrayAtClose?: number;
+  trimLateOrder?: string[];
+  tightenLateKitchenTicket?: string[];
+  trimStaleLoyaltyCredit!: boolean;
+  addOversizedLocationOnReorder!: string[];
+  guardOversizedPromo!: number;
+  sortLateCateringTrayPerStore!: Date;
+  guardLateCartLineForFranchisees!: number;
+  relaxPartialKitchenTicket!: number;
+  exposeExpiredLocation?: string[];
+  validateStaleLocationInTheQueue!: boolean;
+  relaxEmptyBowl!: boolean;
 }

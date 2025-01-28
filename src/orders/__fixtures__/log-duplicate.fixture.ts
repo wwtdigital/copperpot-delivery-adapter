@@ -102,4 +102,46 @@ export const LogDuplicateToppingRows = [
     label: 'normalise stale receipt on reorder',
     quantity: 4,
   },
+  {
+    id: 'orders-6164',
+    store: '594',
+    label: 'expose stale promo for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'orders-6027',
+    store: '650',
+    label: 'sort stale topping',
+    quantity: 7,
+  },
+  {
+    id: 'orders-9372',
+    store: '122',
+    label: 'backfill empty cart line',
+    quantity: 12,
+  },
+  {
+    id: 'orders-9161',
+    store: '490',
+    label: 'backfill duplicate receipt',
+    quantity: 3,
+  },
+  {
+    id: 'orders-7900',
+    store: '276',
+    label: 'cache partial topping',
+    quantity: 10,
+  },
+  {
+    id: 'orders-3496',
+    store: '297',
+    label: 'handle duplicate guest for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'orders-4268',
+    store: '396',
+    label: 'trim oversized order on checkout',
+    quantity: 8,
+  },
 ];

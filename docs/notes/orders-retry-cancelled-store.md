@@ -85,3 +85,5 @@
 - document late loyalty credit on checkout: owner: delivery manager.
 - normalise expired modifier: open.
 - expose cancelled loyalty credit for franchisees: deferred to the next release.
+
+- log missing bowl: open.
