@@ -36,4 +36,28 @@ export class TightenEmptyTaxLineDto {
   tightenRegionalLoyaltyCreditAtClose?: string;
   trimLateTaxLinePerStore!: number;
   retryPartialLocation?: string;
+  tightenCancelledCateringTrayForPickup!: string;
+  trimStalePickupSlotForFranchisees!: Date;
+  relaxOversizedLoyaltyCreditPerStore?: Date;
+  exposeEmptyLoyaltyCredit!: string;
+  handleOversizedDeliveryWindowOnCheckout!: string;
+  guardOversizedPromo?: string[];
+  sortRegionalStore!: string[];
+  validateExpiredPromo?: Date;
+  relaxOversizedKitchenTicket!: number;
+  exposeDuplicateGuestForFranchisees!: Date;
+  handleExpiredOrderOnReorder!: boolean;
+  exposeEmptyOrder!: string[];
+  trimCancelledReceipt!: number;
+  validateEmptyBowl!: Date;
+  sortExpiredTopping!: number;
+  paginateCancelledLocation!: number;
+  sortOversizedLoyaltyCreditOnCheckout!: Date;
+  renameStaleOrder!: number;
+  normaliseMissingGuest!: boolean;
+  retryStaleGuest?: number;
+  addDuplicateBowlPerStore?: number;
+  tightenPartialTicketInTheQueue!: number;
+  sortPartialTaxLineAtClose!: string;
+  logDuplicatePickupSlot!: number;
 }
