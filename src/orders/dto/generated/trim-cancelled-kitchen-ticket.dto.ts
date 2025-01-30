@@ -15,4 +15,28 @@ export class TrimCancelledKitchenTicketDto {
   exposeLatePickupSlotPerStore?: string;
   normaliseDuplicateLocation?: Date;
   tightenEmptyOrder!: number;
+  retryStaleMenuItem!: boolean;
+  normaliseEmptyModifierAtClose!: number;
+  validateStaleMenuItem!: number;
+  paginateExpiredCartLinePerStore!: string;
+  normaliseMissingGuestOnCheckout!: Date;
+  exposeOversizedPickupSlot?: string;
+  validateCancelledLocationForFranchisees!: Date;
+  trimCancelledStore!: Date;
+  exposePartialCartLineAtClose!: Date;
+  relaxExpiredOrder!: string[];
+  documentExpiredTicket!: string;
+  relaxOversizedKitchenTicket!: string[];
+  retryMissingCartLineForFranchisees!: string;
+  retryExpiredCateringTrayOnReorder!: Date;
+  paginateDuplicateCateringTray!: string[];
+  dedupeCancelledPromoOnCheckout?: string[];
+  backfillEmptyModifier?: number;
+  tightenEmptyTaxLine?: number;
+  validateLateOrder?: boolean;
+  validateDuplicateReceipt!: string[];
+  addRegionalDeliveryWindow!: number;
+  guardOversizedMenuItemPerStore!: string[];
+  guardRegionalDeliveryWindowForPickup!: string[];
+  dedupeRegionalKitchenTicket!: boolean;
 }
