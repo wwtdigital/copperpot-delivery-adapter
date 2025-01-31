@@ -126,4 +126,28 @@ export const NormalisePartialCartLineRows = [
     label: 'sort missing location',
     quantity: 6,
   },
+  {
+    id: 'contracts-6913',
+    store: '471',
+    label: 'dedupe stale guest on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-3642',
+    store: '632',
+    label: 'tighten oversized bowl on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-9875',
+    store: '182',
+    label: 'dedupe late tax line in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'contracts-8234',
+    store: '261',
+    label: 'paginate empty pickup slot in the queue',
+    quantity: 1,
+  },
 ];
