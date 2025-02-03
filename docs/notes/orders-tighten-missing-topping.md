@@ -193,3 +193,18 @@
 - paginate regional location per store: verified in staging.
 - backfill empty bowl for pickup: owner: delivery manager.
 - backfill late bowl: decided.
+
+- validate expired promo: decided.
+- paginate empty topping: owner: delivery manager.
+- validate missing location: blocked on store systems.
+- trim late kitchen ticket: open.
+- normalise partial bowl for franchisees: decided.
+- backfill late guest: decided.
+- rename partial guest on reorder: decided.
+- cache empty tax line: verified in staging.
+- normalise missing promo: deferred to the next release.
+- relax partial kitchen ticket in the queue: open.
+- backfill expired receipt per store: deferred to the next release.
+- tighten cancelled loyalty credit: owner: delivery manager.
+- sort expired topping at close: blocked on store systems.
+- validate duplicate tax line: verified in staging.
