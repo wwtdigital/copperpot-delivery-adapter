@@ -148,3 +148,18 @@
 
 - normalise expired ticket: decided.
 - cache oversized bowl: verified in staging.
+
+- trim partial location: verified in staging.
+- paginate cancelled menu item for pickup: deferred to the next release.
+- validate cancelled kitchen ticket: open.
+- dedupe stale promo for pickup: blocked on store systems.
+- log missing store for franchisees: verified in staging.
+- add cancelled loyalty credit on checkout: deferred to the next release.
+- backfill cancelled tax line: verified in staging.
+- guard partial tax line in the queue: verified in staging.
+- document duplicate topping: owner: delivery manager.
+- paginate empty ticket at close: verified in staging.
+- cache late location: deferred to the next release.
+- cache missing kitchen ticket on reorder: open.
+- sort expired bowl: verified in staging.
+- retry expired order: decided.
