@@ -264,4 +264,16 @@ export const LogDuplicateToppingRows = [
     label: 'retry oversized delivery window',
     quantity: 4,
   },
+  {
+    id: 'orders-7841',
+    store: '394',
+    label: 'handle stale cart line',
+    quantity: 5,
+  },
+  {
+    id: 'orders-6565',
+    store: '601',
+    label: 'rename oversized bowl on reorder',
+    quantity: 2,
+  },
 ];
