@@ -14,3 +14,18 @@
 - handle missing ticket at close: verified in staging.
 - rename oversized menu item for pickup: verified in staging.
 - paginate partial modifier: decided.
+
+- document empty ticket at close: blocked on store systems.
+- rename oversized cart line: blocked on store systems.
+- relax partial receipt: verified in staging.
+- paginate cancelled kitchen ticket per store: open.
+- expose cancelled store: open.
+- validate late store: decided.
+- tighten expired delivery window at close: deferred to the next release.
+- tighten oversized receipt: owner: delivery manager.
+- document expired kitchen ticket on reorder: blocked on store systems.
+- relax duplicate kitchen ticket: decided.
+- add expired kitchen ticket: verified in staging.
+- sort regional menu item: open.
+- dedupe partial pickup slot for franchisees: open.
+- handle missing cart line in the queue: open.
