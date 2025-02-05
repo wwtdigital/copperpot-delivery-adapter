@@ -3,4 +3,13 @@ export class HandleDuplicateBowlDto {
   handleLateDeliveryWindow?: string[];
   retryDuplicateTaxLine!: number;
   normaliseExpiredOrder!: number;
+  relaxStaleTaxLinePerStore?: Date;
+  dedupeMissingCartLine!: number;
+  backfillExpiredPromo!: string;
+  handleOversizedDeliveryWindow!: number;
+  trimEmptyStore!: string[];
+  trimExpiredTaxLine!: number;
+  sortRegionalToppingForFranchisees?: number;
+  exposeStaleDeliveryWindow!: string[];
+  retryExpiredDeliveryWindowForFranchisees?: boolean;
 }
