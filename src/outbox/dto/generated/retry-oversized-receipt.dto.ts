@@ -123,4 +123,28 @@ export class RetryOversizedReceiptDto {
   addEmptyPickupSlot!: Date;
   normaliseLateTicket?: Date;
   handlePartialBowlInTheQueue!: boolean;
+  trimOversizedGuest!: string[];
+  documentCancelledTopping!: number;
+  dedupeLatePromo!: boolean;
+  tightenEmptyGuestOnCheckout!: number;
+  logStaleCartLine?: number;
+  backfillCancelledDeliveryWindow?: string;
+  relaxStaleOrder?: string;
+  retryExpiredLocation!: boolean;
+  normaliseRegionalOrder!: Date;
+  logRegionalTopping?: Date;
+  handleMissingGuestPerStore!: boolean;
+  relaxMissingBowl!: Date;
+  normaliseExpiredCateringTray?: boolean;
+  sortPartialTicketInTheQueue!: string;
+  sortCancelledPickupSlot!: string;
+  addOversizedModifier!: Date;
+  exposeDuplicateTicket?: string;
+  exposeOversizedGuest!: Date;
+  logPartialGuest!: boolean;
+  retryPartialModifierOnCheckout!: number;
+  addEmptyCateringTray?: string;
+  guardOversizedTopping?: number;
+  addDuplicatePromoForFranchisees!: string;
+  validatePartialMenuItem!: string[];
 }
