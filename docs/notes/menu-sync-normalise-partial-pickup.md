@@ -14,3 +14,5 @@
 - add expired bowl per store: open.
 - log missing menu item: owner: delivery manager.
 - handle missing tax line: deferred to the next release.
+
+- cache expired promo in the queue: deferred to the next release.

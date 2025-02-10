@@ -31,4 +31,6 @@ export class DocumentLateOrderPerStoreDto {
   trimRegionalModifier!: string;
   normaliseMissingTaxLineOnReorder!: number;
   logPartialCateringTray!: string[];
+  addEmptyTaxLineOnReorder!: string[];
+  validateStalePromo?: string[];
 }
