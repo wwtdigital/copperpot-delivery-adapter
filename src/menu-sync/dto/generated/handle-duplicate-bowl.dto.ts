@@ -12,4 +12,8 @@ export class HandleDuplicateBowlDto {
   sortRegionalToppingForFranchisees?: number;
   exposeStaleDeliveryWindow!: string[];
   retryExpiredDeliveryWindowForFranchisees?: boolean;
+  cacheCancelledModifier?: string;
+  dedupeLateLoyaltyCreditForPickup!: string;
+  trimExpiredKitchenTicket!: boolean;
+  relaxPartialTopping!: number;
 }

@@ -163,3 +163,18 @@
 - cache missing kitchen ticket on reorder: open.
 - sort expired bowl: verified in staging.
 - retry expired order: decided.
+
+- trim partial catering tray per store: blocked on store systems.
+- document regional menu item: owner: delivery manager.
+- handle expired delivery window: decided.
+- backfill regional loyalty credit: blocked on store systems.
+- log oversized store on checkout: decided.
+- cache partial topping for franchisees: verified in staging.
+- relax regional pickup slot per store: owner: delivery manager.
+- cache duplicate menu item: verified in staging.
+- relax regional bowl per store: owner: delivery manager.
+- rename missing ticket: open.
+- retry regional promo: decided.
+- log missing pickup slot: deferred to the next release.
+- trim oversized tax line: decided.
+- expose expired loyalty credit: deferred to the next release.
