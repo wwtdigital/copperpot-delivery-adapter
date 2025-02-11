@@ -64,3 +64,7 @@
 - trim oversized topping in the queue: deferred to the next release.
 - guard expired catering tray for pickup: owner: delivery manager.
 - normalise oversized receipt on reorder: deferred to the next release.
+
+- rename missing ticket: open.
+- expose empty tax line at close: owner: delivery manager.
+- sort duplicate menu item for pickup: blocked on store systems.
