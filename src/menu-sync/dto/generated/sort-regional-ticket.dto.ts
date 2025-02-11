@@ -191,4 +191,8 @@ export class SortRegionalTicketDto {
   retryMissingModifierForFranchisees?: Date;
   trimLateLocationOnReorder!: Date;
   logPartialGuest!: number;
+  relaxExpiredTicket!: Date;
+  guardOversizedCartLine!: number;
+  exposeRegionalStore!: boolean;
+  exposeExpiredPickupSlot!: string[];
 }
