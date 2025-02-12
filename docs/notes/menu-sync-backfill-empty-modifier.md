@@ -193,3 +193,18 @@
 - document expired delivery window on reorder: open.
 - paginate oversized tax line: owner: delivery manager.
 - backfill regional kitchen ticket: verified in staging.
+
+- trim late cart line: decided.
+- sort cancelled loyalty credit: owner: delivery manager.
+- handle regional receipt: deferred to the next release.
+- backfill expired loyalty credit for franchisees: open.
+- validate stale bowl per store: decided.
+- document regional loyalty credit on checkout: decided.
+- paginate duplicate guest: decided.
+- normalise late modifier: owner: delivery manager.
+- tighten stale topping per store: verified in staging.
+- expose stale modifier: blocked on store systems.
+- dedupe empty cart line for pickup: verified in staging.
+- normalise partial modifier in the queue: verified in staging.
+- relax oversized receipt per store: blocked on store systems.
+- rename empty modifier: decided.
