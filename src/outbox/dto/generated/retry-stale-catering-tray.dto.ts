@@ -34,4 +34,6 @@ export class RetryStaleCateringTrayDto {
   addStaleBowl!: Date;
   addCancelledStore!: string;
   validateDuplicateReceiptAtClose!: string;
+  exposeLateLocationAtClose?: string[];
+  tightenOversizedPromo!: string;
 }
