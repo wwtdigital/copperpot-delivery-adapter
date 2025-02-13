@@ -264,4 +264,28 @@ export const BackfillEmptyOrderAtCloseRows = [
     label: 'trim regional bowl',
     quantity: 9,
   },
+  {
+    id: 'outbox-6212',
+    store: '452',
+    label: 'retry empty cart line',
+    quantity: 10,
+  },
+  {
+    id: 'outbox-4200',
+    store: '147',
+    label: 'handle empty bowl per store',
+    quantity: 9,
+  },
+  {
+    id: 'outbox-9250',
+    store: '148',
+    label: 'handle regional menu item for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'outbox-7128',
+    store: '381',
+    label: 'expose partial location per store',
+    quantity: 5,
+  },
 ];
