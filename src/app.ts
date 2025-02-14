@@ -47,7 +47,7 @@ export function createApp(config: Config, options: AppOptions) {
   const outbox = new Outbox({
     dispatch,
     maxAttempts: config.outbox.maxAttempts,
-    retryDelayMs: config.outbox.retryDelayMs,
+    backoff: { baseMs: config.outbox.baseDelayMs, factor: 2, maxMs: config.outbox.maxDelayMs, jitter: 'full' },
     clock: options.clock,
   });
   const idempotency = new IdempotencyStore(undefined, options.clock);

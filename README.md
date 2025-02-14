@@ -17,8 +17,9 @@ does three things:
 2. **Outbound menu sync.** When a menu changes, we push each store's menu
    to the partner in the partner's shape.
 3. **Retries.** Everything outbound goes through an outbox. A failed call
-   is retried; a job that runs out of attempts lands in the dead-letter
-   list, visible on `/health`.
+   is retried with exponential backoff (`docs/retries.md`); a job that runs
+   out of attempts lands in the dead-letter list, visible on `/health`
+   (`docs/runbooks/dead-letter.md`).
 
 Partners today: Hopbasket and Platefast. Nothing here talks to a real partner: the clients
 take a `fetch` and the tests pass in a recorded one.
