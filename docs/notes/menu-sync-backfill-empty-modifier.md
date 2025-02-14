@@ -178,3 +178,33 @@
 - log missing pickup slot: deferred to the next release.
 - trim oversized tax line: decided.
 - expose expired loyalty credit: deferred to the next release.
+
+- rename empty loyalty credit for franchisees: verified in staging.
+- relax late bowl: deferred to the next release.
+- expose missing loyalty credit: verified in staging.
+- tighten cancelled topping in the queue: owner: delivery manager.
+- rename duplicate kitchen ticket: deferred to the next release.
+- guard expired tax line: open.
+- add partial store: deferred to the next release.
+- rename expired pickup slot: owner: delivery manager.
+- retry regional order: open.
+- rename stale promo: deferred to the next release.
+- handle empty tax line: open.
+- document expired delivery window on reorder: open.
+- paginate oversized tax line: owner: delivery manager.
+- backfill regional kitchen ticket: verified in staging.
+
+- trim late cart line: decided.
+- sort cancelled loyalty credit: owner: delivery manager.
+- handle regional receipt: deferred to the next release.
+- backfill expired loyalty credit for franchisees: open.
+- validate stale bowl per store: decided.
+- document regional loyalty credit on checkout: decided.
+- paginate duplicate guest: decided.
+- normalise late modifier: owner: delivery manager.
+- tighten stale topping per store: verified in staging.
+- expose stale modifier: blocked on store systems.
+- dedupe empty cart line for pickup: verified in staging.
+- normalise partial modifier in the queue: verified in staging.
+- relax oversized receipt per store: blocked on store systems.
+- rename empty modifier: decided.
