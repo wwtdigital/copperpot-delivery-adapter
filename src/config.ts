@@ -10,7 +10,7 @@ export interface Config {
   commerce: { baseUrl: string; token: string };
   hopbasket: PartnerConfig;
   platefast: PartnerConfig;
-  outbox: { maxAttempts: number; retryDelayMs: number };
+  outbox: { maxAttempts: number; baseDelayMs: number; maxDelayMs: number };
 }
 
 function int(value: string | undefined, fallback: number): number {
@@ -40,8 +40,9 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env): Config {
       webhookSecret: env.PLATEFAST_WEBHOOK_SECRET ?? '',
     },
     outbox: {
-      maxAttempts: int(env.OUTBOX_MAX_ATTEMPTS, 5),
-      retryDelayMs: int(env.OUTBOX_RETRY_DELAY_MS, 30_000),
+      maxAttempts: int(env.OUTBOX_MAX_ATTEMPTS, 8),
+      baseDelayMs: int(env.OUTBOX_BASE_DELAY_MS, 2_000),
+      maxDelayMs: int(env.OUTBOX_MAX_DELAY_MS, 300_000),
     },
   };
 }

@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { NonRetryableError, Outbox, type OutboxJob } from './outbox';
 
-function harness(script: Array<Error | null>, options: { maxAttempts?: number; retryDelayMs?: number } = {}) {
+function harness(script: Array<Error | null>, options: { maxAttempts?: number; jitter?: 'none' | 'full' } = {}) {
   let now = 1_000_000;
   const calls: OutboxJob[] = [];
   const outbox = new Outbox({
@@ -12,7 +12,8 @@ function harness(script: Array<Error | null>, options: { maxAttempts?: number; r
     },
     clock: () => now,
     maxAttempts: options.maxAttempts ?? 3,
-    retryDelayMs: options.retryDelayMs ?? 1_000,
+    backoff: { baseMs: 1_000, factor: 2, maxMs: 10_000, jitter: options.jitter ?? 'none' },
+    random: () => 0.5,
   });
   return { outbox, calls, advance: (ms: number) => (now += ms) };
 }
@@ -27,17 +28,27 @@ describe('Outbox', () => {
     expect(outbox.stats()).toEqual({ pending: 0, due: 0, deadLetter: 0 });
   });
 
-  it('retries after the delay and not before', async () => {
-    const { outbox, calls, advance } = harness([new Error('timeout'), null]);
+  it('backs off exponentially: the second wait is twice the first', async () => {
+    const { outbox, calls, advance } = harness([new Error('timeout'), new Error('timeout'), null], { maxAttempts: 5 });
     outbox.enqueue('menu.upsert', {});
     expect(await outbox.drain()).toEqual({ delivered: 0, retried: 1, dead: 0 });
-    expect(outbox.stats().due).toBe(0);
     advance(999);
-    expect(await outbox.drain()).toEqual({ delivered: 0, retried: 0, dead: 0 });
+    expect(outbox.stats().due).toBe(0);
+    advance(1);
+    expect(await outbox.drain()).toEqual({ delivered: 0, retried: 1, dead: 0 });
+    advance(1_999);
+    expect(outbox.stats().due).toBe(0);
     advance(1);
     expect(await outbox.drain()).toEqual({ delivered: 1, retried: 0, dead: 0 });
-    expect(calls).toHaveLength(2);
-    expect(calls[1].attempts).toBe(2);
+    expect(calls.map((c) => c.attempts)).toEqual([1, 2, 3]);
+  });
+
+  it('with full jitter the wait is never longer than the computed delay', async () => {
+    const { outbox, advance } = harness([new Error('e')], { jitter: 'full' });
+    outbox.enqueue('menu.upsert', {});
+    await outbox.drain();
+    advance(1_000);
+    expect(outbox.stats().due).toBe(1);
   });
 
   it('moves a job to the dead-letter list after the last attempt, with the last error', async () => {
@@ -45,7 +56,7 @@ describe('Outbox', () => {
     outbox.enqueue('menu.upsert', { storeId: 'st_1' });
     for (let i = 0; i < 3; i++) {
       await outbox.drain();
-      advance(1_000);
+      advance(10_000);
     }
     expect(outbox.stats()).toEqual({ pending: 0, due: 0, deadLetter: 1 });
     expect(outbox.deadLetters()[0]).toMatchObject({ attempts: 3, lastError: 'e3', kind: 'menu.upsert' });
