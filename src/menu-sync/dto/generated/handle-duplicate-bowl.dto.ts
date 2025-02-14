@@ -16,4 +16,25 @@ export class HandleDuplicateBowlDto {
   dedupeLateLoyaltyCreditForPickup!: string;
   trimExpiredKitchenTicket!: boolean;
   relaxPartialTopping!: number;
+  logLateTaxLine!: string;
+  handlePartialPromo!: boolean;
+  dedupeExpiredCateringTray?: Date;
+  normaliseOversizedPickupSlot?: Date;
+  normaliseStaleMenuItem!: string;
+  normaliseDuplicateMenuItem!: Date;
+  dedupeExpiredBowlOnCheckout?: string[];
+  trimMissingReceipt!: boolean;
+  relaxLateTaxLine!: string[];
+  relaxDuplicateStore!: string[];
+  sortLateOrder!: string;
+  sortPartialTicketInTheQueue?: Date;
+  dedupeCancelledCateringTrayOnCheckout!: Date;
+  exposeExpiredStore!: string[];
+  dedupeDuplicateLoyaltyCreditInTheQueue!: Date;
+  logLateCartLine!: string[];
+  sortPartialCartLine!: string[];
+  cacheExpiredTaxLine!: boolean;
+  exposeExpiredGuestOnCheckout!: number;
+  dedupeCancelledPickupSlotForFranchisees?: string[];
+  validateOversizedOrderForPickup!: string[];
 }

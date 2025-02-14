@@ -96,4 +96,16 @@ export const SortMissingModifierRows = [
     label: 'relax stale cart line',
     quantity: 8,
   },
+  {
+    id: 'menu-sync-7242',
+    store: '533',
+    label: 'guard regional bowl',
+    quantity: 11,
+  },
+  {
+    id: 'menu-sync-9912',
+    store: '454',
+    label: 'tighten cancelled location at close',
+    quantity: 12,
+  },
 ];
