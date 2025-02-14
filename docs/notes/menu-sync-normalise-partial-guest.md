@@ -54,3 +54,18 @@
 
 - handle expired bowl on reorder: verified in staging.
 - dedupe partial loyalty credit: deferred to the next release.
+
+- handle partial order: deferred to the next release.
+- retry duplicate modifier: deferred to the next release.
+- guard empty store for franchisees: decided.
+- cache missing store for franchisees: blocked on store systems.
+- handle stale catering tray: deferred to the next release.
+- cache cancelled guest for pickup: owner: delivery manager.
+- dedupe stale pickup slot on checkout: verified in staging.
+- document missing location per store: verified in staging.
+- relax regional catering tray on reorder: deferred to the next release.
+- backfill missing guest: open.
+- retry duplicate order: owner: delivery manager.
+- expose oversized kitchen ticket: owner: delivery manager.
+- normalise stale receipt per store: decided.
+- handle expired pickup slot at close: decided.

@@ -178,3 +178,18 @@
 - log missing pickup slot: deferred to the next release.
 - trim oversized tax line: decided.
 - expose expired loyalty credit: deferred to the next release.
+
+- rename empty loyalty credit for franchisees: verified in staging.
+- relax late bowl: deferred to the next release.
+- expose missing loyalty credit: verified in staging.
+- tighten cancelled topping in the queue: owner: delivery manager.
+- rename duplicate kitchen ticket: deferred to the next release.
+- guard expired tax line: open.
+- add partial store: deferred to the next release.
+- rename expired pickup slot: owner: delivery manager.
+- retry regional order: open.
+- rename stale promo: deferred to the next release.
+- handle empty tax line: open.
+- document expired delivery window on reorder: open.
+- paginate oversized tax line: owner: delivery manager.
+- backfill regional kitchen ticket: verified in staging.

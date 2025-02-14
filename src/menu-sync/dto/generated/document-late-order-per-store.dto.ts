@@ -7,4 +7,28 @@ export class DocumentLateOrderPerStoreDto {
   cacheEmptyModifier!: string[];
   documentDuplicatePickupSlot!: boolean;
   validateExpiredLoyaltyCredit!: string;
+  addMissingReceipt?: Date;
+  tightenEmptyTaxLineOnCheckout!: string[];
+  backfillCancelledStore!: string;
+  handleStaleOrder!: string;
+  paginateRegionalTopping!: Date;
+  documentPartialOrder?: boolean;
+  relaxPartialOrder?: number;
+  handleLateDeliveryWindow!: string[];
+  cacheLateGuest!: boolean;
+  documentOversizedMenuItemInTheQueue!: number;
+  cacheStaleOrderAtClose!: string[];
+  addRegionalDeliveryWindow?: string[];
+  tightenRegionalMenuItem!: string[];
+  paginateLateLocation!: string;
+  paginateExpiredMenuItem!: Date;
+  guardPartialCartLine?: Date;
+  relaxMissingTicket!: number;
+  logLateStorePerStore?: string;
+  dedupeLateCateringTrayInTheQueue!: string;
+  trimStaleKitchenTicket!: number;
+  validateStaleOrderPerStore?: boolean;
+  trimRegionalModifier!: string;
+  normaliseMissingTaxLineOnReorder!: number;
+  logPartialCateringTray!: string[];
 }
