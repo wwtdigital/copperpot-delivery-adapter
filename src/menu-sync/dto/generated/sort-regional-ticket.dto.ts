@@ -221,4 +221,26 @@ export class SortRegionalTicketDto {
   logRegionalPickupSlot!: Date;
   retryExpiredLoyaltyCreditPerStore!: number;
   backfillLateOrder!: string;
+  exposeOversizedCateringTray!: string;
+  dedupeEmptyCateringTray?: string;
+  normaliseMissingCateringTray!: boolean;
+  backfillCancelledKitchenTicket!: Date;
+  paginateEmptyMenuItem?: string[];
+  dedupeExpiredDeliveryWindowOnCheckout?: string[];
+  retryStaleTaxLine!: string[];
+  logMissingTicket!: number;
+  exposeOversizedGuestForPickup?: string[];
+  renameExpiredLoyaltyCredit!: Date;
+  retryStaleLocation?: number;
+  guardExpiredStore!: string;
+  paginateOversizedOrder?: boolean;
+  normaliseMissingTopping!: Date;
+  renameOversizedTaxLineAtClose?: number;
+  paginatePartialStoreOnReorder!: Date;
+  backfillExpiredPromo!: string;
+  renameExpiredBowlOnCheckout!: string[];
+  backfillDuplicatePromo!: number;
+  addCancelledTicketForFranchisees?: boolean;
+  paginateEmptyStore!: string;
+  renameOversizedPickupSlot!: string;
 }
