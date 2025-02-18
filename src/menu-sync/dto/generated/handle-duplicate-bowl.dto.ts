@@ -198,4 +198,28 @@ export class HandleDuplicateBowlDto {
   sortStaleTaxLine?: Date;
   backfillMissingDeliveryWindow!: string[];
   tightenDuplicateCartLineInTheQueue!: string;
+  documentPartialKitchenTicketPerStore!: number;
+  validateCancelledGuestAtClose?: Date;
+  documentMissingModifier!: string[];
+  relaxDuplicateCartLineOnReorder!: string;
+  exposeMissingTicket!: string[];
+  renameRegionalCartLinePerStore?: string[];
+  validateDuplicateTopping!: boolean;
+  cacheOversizedGuestOnCheckout?: string[];
+  dedupeStaleModifierForPickup!: Date;
+  relaxStaleKitchenTicket!: number;
+  tightenOversizedLocation!: number;
+  addOversizedBowl!: boolean;
+  backfillEmptyStore!: Date;
+  renameMissingTicketPerStore?: number;
+  cacheCancelledStore!: boolean;
+  addMissingCateringTrayForFranchisees!: string[];
+  sortOversizedMenuItem!: Date;
+  retryLateGuest?: number;
+  validateStaleReceiptAtClose!: boolean;
+  tightenCancelledMenuItemAtClose?: number;
+  trimEmptyCateringTrayAtClose!: boolean;
+  backfillEmptyDeliveryWindow?: string[];
+  renameRegionalStore?: boolean;
+  backfillExpiredStorePerStore!: string[];
 }
