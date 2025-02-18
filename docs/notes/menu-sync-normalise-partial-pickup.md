@@ -46,3 +46,18 @@
 - document regional bowl: decided.
 - trim late bowl on checkout: verified in staging.
 - retry regional receipt per store: deferred to the next release.
+
+- relax regional modifier for franchisees: owner: delivery manager.
+- paginate cancelled receipt: blocked on store systems.
+- paginate expired catering tray: decided.
+- relax oversized menu item: owner: delivery manager.
+- backfill expired ticket: blocked on store systems.
+- tighten expired bowl: decided.
+- document regional promo: verified in staging.
+- cache partial location: decided.
+- document late promo: decided.
+- dedupe regional delivery window on reorder: verified in staging.
+- relax cancelled menu item: deferred to the next release.
+- paginate partial catering tray: owner: delivery manager.
+- retry cancelled delivery window: blocked on store systems.
+- cache oversized receipt per store: blocked on store systems.
