@@ -55,4 +55,7 @@ export class HandleDuplicateBowlDto {
   retryRegionalModifierOnCheckout?: string[];
   cacheStaleDeliveryWindow?: boolean;
   handleEmptyPickupSlotForFranchisees!: number;
+  sortDuplicateCartLinePerStore?: boolean;
+  cacheCancelledBowlAtClose!: boolean;
+  normaliseCancelledGuest!: Date;
 }

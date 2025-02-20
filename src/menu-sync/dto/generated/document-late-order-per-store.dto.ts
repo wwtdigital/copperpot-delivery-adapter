@@ -101,4 +101,12 @@ export class DocumentLateOrderPerStoreDto {
   normaliseDuplicateKitchenTicketPerStore?: boolean;
   relaxOversizedTopping!: boolean;
   trimOversizedMenuItemForPickup?: boolean;
+  handleMissingMenuItem!: string;
+  logLatePickupSlotOnReorder!: string;
+  tightenMissingCartLine?: number;
+  tightenOversizedLocationOnReorder!: number;
+  backfillPartialTaxLineOnReorder!: string;
+  exposePartialPromo!: Date;
+  sortEmptyModifierOnReorder!: boolean;
+  dedupeLateGuestForFranchisees!: string;
 }

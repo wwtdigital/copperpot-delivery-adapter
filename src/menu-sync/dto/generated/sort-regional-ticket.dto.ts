@@ -195,4 +195,6 @@ export class SortRegionalTicketDto {
   guardOversizedCartLine!: number;
   exposeRegionalStore!: boolean;
   exposeExpiredPickupSlot!: string[];
+  backfillStaleKitchenTicket!: number;
+  dedupePartialKitchenTicket!: string;
 }

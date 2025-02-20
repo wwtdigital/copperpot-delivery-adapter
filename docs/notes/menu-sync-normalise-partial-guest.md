@@ -69,3 +69,18 @@
 - expose oversized kitchen ticket: owner: delivery manager.
 - normalise stale receipt per store: decided.
 - handle expired pickup slot at close: decided.
+
+- normalise regional ticket on checkout: verified in staging.
+- sort partial topping per store: open.
+- paginate partial cart line: decided.
+- expose oversized modifier: open.
+- retry partial cart line: open.
+- dedupe expired promo: decided.
+- paginate expired menu item: owner: delivery manager.
+- backfill oversized delivery window: decided.
+- handle empty store in the queue: deferred to the next release.
+- sort partial kitchen ticket: deferred to the next release.
+- paginate stale receipt on reorder: deferred to the next release.
+- dedupe cancelled loyalty credit for pickup: open.
+- validate expired location for franchisees: verified in staging.
+- paginate cancelled menu item: verified in staging.
