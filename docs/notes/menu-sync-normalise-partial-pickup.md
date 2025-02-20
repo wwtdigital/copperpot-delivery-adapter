@@ -16,3 +16,48 @@
 - handle missing tax line: deferred to the next release.
 
 - cache expired promo in the queue: deferred to the next release.
+
+- backfill stale order: deferred to the next release.
+- dedupe empty location: verified in staging.
+- tighten stale topping: deferred to the next release.
+- add stale tax line: verified in staging.
+- normalise partial guest: decided.
+- document stale order in the queue: decided.
+- cache missing cart line: blocked on store systems.
+- cache partial menu item in the queue: decided.
+- handle duplicate topping: blocked on store systems.
+- document oversized order for franchisees: blocked on store systems.
+- dedupe cancelled guest for pickup: deferred to the next release.
+- guard expired loyalty credit for pickup: open.
+- guard oversized location in the queue: owner: delivery manager.
+- add missing delivery window: open.
+
+- tighten regional ticket: verified in staging.
+- document expired bowl per store: owner: delivery manager.
+- expose partial modifier in the queue: blocked on store systems.
+- rename late modifier: verified in staging.
+- dedupe late promo on reorder: owner: delivery manager.
+- expose missing menu item: open.
+- trim missing tax line on reorder: blocked on store systems.
+- add partial modifier in the queue: owner: delivery manager.
+- relax oversized tax line: decided.
+- validate partial cart line for pickup: deferred to the next release.
+- rename expired store on checkout: owner: delivery manager.
+- document regional bowl: decided.
+- trim late bowl on checkout: verified in staging.
+- retry regional receipt per store: deferred to the next release.
+
+- relax regional modifier for franchisees: owner: delivery manager.
+- paginate cancelled receipt: blocked on store systems.
+- paginate expired catering tray: decided.
+- relax oversized menu item: owner: delivery manager.
+- backfill expired ticket: blocked on store systems.
+- tighten expired bowl: decided.
+- document regional promo: verified in staging.
+- cache partial location: decided.
+- document late promo: decided.
+- dedupe regional delivery window on reorder: verified in staging.
+- relax cancelled menu item: deferred to the next release.
+- paginate partial catering tray: owner: delivery manager.
+- retry cancelled delivery window: blocked on store systems.
+- cache oversized receipt per store: blocked on store systems.
