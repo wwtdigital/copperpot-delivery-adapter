@@ -92,4 +92,13 @@ export class DocumentLateOrderPerStoreDto {
   cacheDuplicateTopping!: Date;
   renameMissingCartLineOnReorder!: boolean;
   logOversizedLocation!: boolean;
+  retryMissingGuestOnCheckout!: string;
+  guardOversizedLoyaltyCreditPerStore?: string;
+  exposeMissingLoyaltyCreditForPickup!: Date;
+  sortDuplicateKitchenTicket?: string[];
+  backfillExpiredStore?: number;
+  sortOversizedPromoForFranchisees!: Date;
+  normaliseDuplicateKitchenTicketPerStore?: boolean;
+  relaxOversizedTopping!: boolean;
+  trimOversizedMenuItemForPickup?: boolean;
 }

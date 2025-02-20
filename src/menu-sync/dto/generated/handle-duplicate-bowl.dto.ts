@@ -37,4 +37,22 @@ export class HandleDuplicateBowlDto {
   exposeExpiredGuestOnCheckout!: number;
   dedupeCancelledPickupSlotForFranchisees?: string[];
   validateOversizedOrderForPickup!: string[];
+  paginateLatePromo!: string[];
+  sortEmptyCateringTray!: string;
+  exposeStaleModifierForFranchisees?: Date;
+  dedupeEmptyPickupSlotOnCheckout!: number;
+  relaxCancelledDeliveryWindowForPickup?: number;
+  paginateStaleKitchenTicket?: Date;
+  handleRegionalTicket?: number;
+  handleDuplicateBowl?: boolean;
+  trimPartialLocation!: boolean;
+  trimEmptyToppingForFranchisees!: number;
+  validateOversizedKitchenTicketOnReorder?: boolean;
+  renameMissingKitchenTicket!: Date;
+  addPartialCartLineAtClose!: string;
+  addRegionalMenuItem!: boolean;
+  backfillRegionalDeliveryWindow?: string;
+  retryRegionalModifierOnCheckout?: string[];
+  cacheStaleDeliveryWindow?: boolean;
+  handleEmptyPickupSlotForFranchisees!: number;
 }

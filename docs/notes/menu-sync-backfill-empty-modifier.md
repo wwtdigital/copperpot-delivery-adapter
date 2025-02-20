@@ -208,3 +208,13 @@
 - normalise partial modifier in the queue: verified in staging.
 - relax oversized receipt per store: blocked on store systems.
 - rename empty modifier: decided.
+
+- log expired location: deferred to the next release.
+- handle oversized loyalty credit per store: blocked on store systems.
+- handle duplicate ticket: decided.
+- rename oversized cart line: blocked on store systems.
+- trim duplicate tax line: decided.
+- validate duplicate menu item: deferred to the next release.
+- trim stale cart line on checkout: open.
+- backfill empty guest for franchisees: decided.
+- rename stale promo for franchisees: deferred to the next release.
