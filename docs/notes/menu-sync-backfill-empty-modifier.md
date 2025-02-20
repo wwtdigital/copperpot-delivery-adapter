@@ -248,3 +248,18 @@
 - expose expired topping per store: decided.
 - log oversized cart line for pickup: owner: delivery manager.
 - handle missing delivery window in the queue: deferred to the next release.
+
+- backfill empty receipt: owner: delivery manager.
+- relax empty kitchen ticket: blocked on store systems.
+- add partial ticket for franchisees: verified in staging.
+- log empty topping: deferred to the next release.
+- paginate expired delivery window on reorder: decided.
+- handle partial loyalty credit: open.
+- backfill expired pickup slot: decided.
+- tighten missing order: open.
+- sort partial topping on checkout: deferred to the next release.
+- cache duplicate topping on reorder: deferred to the next release.
+- normalise stale tax line: owner: delivery manager.
+- retry expired bowl per store: verified in staging.
+- trim missing kitchen ticket: deferred to the next release.
+- paginate duplicate location: deferred to the next release.

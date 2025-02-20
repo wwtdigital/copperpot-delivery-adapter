@@ -31,3 +31,18 @@
 - guard expired loyalty credit for pickup: open.
 - guard oversized location in the queue: owner: delivery manager.
 - add missing delivery window: open.
+
+- tighten regional ticket: verified in staging.
+- document expired bowl per store: owner: delivery manager.
+- expose partial modifier in the queue: blocked on store systems.
+- rename late modifier: verified in staging.
+- dedupe late promo on reorder: owner: delivery manager.
+- expose missing menu item: open.
+- trim missing tax line on reorder: blocked on store systems.
+- add partial modifier in the queue: owner: delivery manager.
+- relax oversized tax line: decided.
+- validate partial cart line for pickup: deferred to the next release.
+- rename expired store on checkout: owner: delivery manager.
+- document regional bowl: decided.
+- trim late bowl on checkout: verified in staging.
+- retry regional receipt per store: deferred to the next release.
