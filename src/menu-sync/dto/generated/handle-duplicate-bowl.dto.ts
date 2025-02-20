@@ -58,4 +58,28 @@ export class HandleDuplicateBowlDto {
   sortDuplicateCartLinePerStore?: boolean;
   cacheCancelledBowlAtClose!: boolean;
   normaliseCancelledGuest!: Date;
+  addLateKitchenTicket!: number;
+  addStaleStore?: boolean;
+  validateStalePickupSlot!: string[];
+  documentOversizedTopping!: string[];
+  tightenExpiredPromo!: boolean;
+  trimLateDeliveryWindow?: number;
+  cacheOversizedTaxLineAtClose!: string;
+  renameRegionalLocationAtClose!: Date;
+  trimRegionalLocationOnReorder!: boolean;
+  relaxMissingMenuItem?: string;
+  sortRegionalPromo?: number;
+  relaxEmptyOrder!: number;
+  handlePartialDeliveryWindowOnCheckout?: Date;
+  tightenRegionalGuestInTheQueue!: Date;
+  guardCancelledCartLine!: string;
+  renameLatePromo!: number;
+  addLatePromo!: Date;
+  renameEmptyOrder!: Date;
+  tightenEmptyDeliveryWindow!: string[];
+  paginateEmptyMenuItemForPickup!: string;
+  sortDuplicateGuest!: string[];
+  sortCancelledToppingForPickup!: string[];
+  paginateDuplicateTaxLinePerStore!: string[];
+  relaxLateTicket!: boolean;
 }

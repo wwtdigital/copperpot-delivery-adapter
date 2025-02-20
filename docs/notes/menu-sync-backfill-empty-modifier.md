@@ -218,3 +218,33 @@
 - trim stale cart line on checkout: open.
 - backfill empty guest for franchisees: decided.
 - rename stale promo for franchisees: deferred to the next release.
+
+- trim expired topping on reorder: blocked on store systems.
+- add stale ticket: open.
+- add oversized pickup slot: blocked on store systems.
+- normalise expired order: open.
+- retry cancelled delivery window: owner: delivery manager.
+- rename stale pickup slot: deferred to the next release.
+- guard cancelled delivery window: verified in staging.
+- document late modifier per store: blocked on store systems.
+- rename duplicate order: blocked on store systems.
+- rename oversized tax line in the queue: verified in staging.
+- backfill late tax line: decided.
+- log expired delivery window: open.
+- relax cancelled bowl for pickup: owner: delivery manager.
+- relax regional delivery window at close: deferred to the next release.
+
+- cache missing kitchen ticket for pickup: decided.
+- document expired tax line on checkout: open.
+- log empty kitchen ticket: verified in staging.
+- trim expired kitchen ticket: verified in staging.
+- add empty tax line: owner: delivery manager.
+- retry partial location: open.
+- relax oversized promo: deferred to the next release.
+- add partial catering tray: deferred to the next release.
+- relax missing cart line: open.
+- trim late guest at close: blocked on store systems.
+- log cancelled tax line: open.
+- expose expired topping per store: decided.
+- log oversized cart line for pickup: owner: delivery manager.
+- handle missing delivery window in the queue: deferred to the next release.

@@ -197,4 +197,28 @@ export class SortRegionalTicketDto {
   exposeExpiredPickupSlot!: string[];
   backfillStaleKitchenTicket!: number;
   dedupePartialKitchenTicket!: string;
+  dedupeLateLocationForPickup?: number;
+  validateLateBowlOnCheckout!: string[];
+  normalisePartialCateringTrayAtClose!: Date;
+  exposePartialStoreOnReorder!: string[];
+  paginateRegionalBowl!: string[];
+  exposeCancelledKitchenTicket!: string;
+  validateCancelledOrderForPickup?: boolean;
+  renameMissingReceipt?: Date;
+  relaxDuplicateLocationAtClose?: string[];
+  dedupeEmptyModifierPerStore!: number;
+  dedupeStaleBowlAtClose?: string;
+  backfillExpiredDeliveryWindow?: Date;
+  handleCancelledMenuItemAtClose!: number;
+  backfillMissingMenuItem!: number;
+  paginateExpiredKitchenTicketAtClose!: number;
+  dedupeStaleTicketOnCheckout?: string[];
+  retryStaleTaxLinePerStore!: boolean;
+  addMissingDeliveryWindow!: boolean;
+  documentExpiredKitchenTicket?: number;
+  trimOversizedModifier!: string[];
+  logLateReceiptForPickup!: string[];
+  logRegionalPickupSlot!: Date;
+  retryExpiredLoyaltyCreditPerStore!: number;
+  backfillLateOrder!: string;
 }
