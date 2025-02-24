@@ -28,3 +28,33 @@
 - add duplicate catering tray: deferred to the next release.
 - sort late ticket: open.
 - log regional bowl per store: owner: delivery manager.
+
+- trim empty delivery window: verified in staging.
+- sort duplicate topping: verified in staging.
+- rename duplicate tax line at close: verified in staging.
+- tighten late order: decided.
+- tighten regional location at close: verified in staging.
+- cache empty menu item: decided.
+- expose cancelled cart line: deferred to the next release.
+- expose partial ticket: owner: delivery manager.
+- cache missing tax line for franchisees: blocked on store systems.
+- expose partial delivery window per store: owner: delivery manager.
+- trim late location: owner: delivery manager.
+- rename stale loyalty credit: decided.
+- handle missing loyalty credit per store: open.
+- trim expired kitchen ticket: deferred to the next release.
+
+- handle missing modifier per store: decided.
+- log stale order: blocked on store systems.
+- guard stale kitchen ticket: decided.
+- add cancelled modifier: deferred to the next release.
+- normalise late tax line: blocked on store systems.
+- document cancelled bowl per store: verified in staging.
+- trim missing ticket: owner: delivery manager.
+- log late menu item on reorder: verified in staging.
+- tighten oversized bowl: blocked on store systems.
+- relax partial ticket per store: deferred to the next release.
+- dedupe stale catering tray: deferred to the next release.
+- add late tax line per store: verified in staging.
+- retry expired topping: deferred to the next release.
+- guard oversized ticket: verified in staging.
