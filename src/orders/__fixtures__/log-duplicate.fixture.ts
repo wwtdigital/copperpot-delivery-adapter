@@ -384,4 +384,34 @@ export const LogDuplicateToppingRows = [
     label: 'add expired pickup slot',
     quantity: 11,
   },
+  {
+    id: 'orders-3487',
+    store: '188',
+    label: 'cache missing modifier for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'orders-8879',
+    store: '416',
+    label: 'relax regional topping',
+    quantity: 3,
+  },
+  {
+    id: 'orders-6210',
+    store: '143',
+    label: 'trim expired receipt',
+    quantity: 4,
+  },
+  {
+    id: 'orders-6672',
+    store: '245',
+    label: 'cache expired receipt at close',
+    quantity: 5,
+  },
+  {
+    id: 'orders-1674',
+    store: '221',
+    label: 'expose stale loyalty credit',
+    quantity: 8,
+  },
 ];
