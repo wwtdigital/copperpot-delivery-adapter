@@ -74,4 +74,27 @@ export class DocumentDuplicateKitchenTicketForPickupDto {
   relaxEmptyOrderForFranchisees!: number;
   retryExpiredTicket?: number;
   trimLateDeliveryWindow!: Date;
+  dedupeMissingToppingForPickup!: boolean;
+  guardEmptyBowlOnReorder!: Date;
+  exposeEmptyPromoPerStore!: string[];
+  handleStaleReceipt!: boolean;
+  relaxEmptyCateringTray!: boolean;
+  trimExpiredTicketOnCheckout?: Date;
+  cacheExpiredDeliveryWindowOnReorder!: Date;
+  sortExpiredCartLine!: number;
+  guardDuplicateReceiptForFranchisees!: number;
+  dedupeStaleMenuItemOnCheckout!: number;
+  normalisePartialBowl!: Date;
+  exposeEmptyModifier!: string[];
+  backfillStaleReceiptOnReorder!: number;
+  normaliseRegionalTicket!: boolean;
+  retryDuplicateLocation!: number;
+  cacheEmptyStorePerStore!: Date;
+  paginateEmptyModifier!: boolean;
+  addLateReceiptForPickup!: string;
+  relaxMissingTopping!: boolean;
+  renameLatePromo!: boolean;
+  tightenExpiredModifierForFranchisees?: boolean;
+  sortStalePickupSlotOnReorder!: number;
+  addCancelledCateringTrayPerStore?: number;
 }
