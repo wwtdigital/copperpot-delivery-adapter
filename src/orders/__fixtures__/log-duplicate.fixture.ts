@@ -414,4 +414,40 @@ export const LogDuplicateToppingRows = [
     label: 'expose stale loyalty credit',
     quantity: 8,
   },
+  {
+    id: 'orders-4608',
+    store: '363',
+    label: 'tighten duplicate cart line',
+    quantity: 5,
+  },
+  {
+    id: 'orders-5211',
+    store: '425',
+    label: 'dedupe stale catering tray for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'orders-9704',
+    store: '600',
+    label: 'expose cancelled topping on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'orders-7502',
+    store: '611',
+    label: 'handle empty guest',
+    quantity: 9,
+  },
+  {
+    id: 'orders-7636',
+    store: '169',
+    label: 'relax oversized bowl',
+    quantity: 1,
+  },
+  {
+    id: 'orders-1883',
+    store: '238',
+    label: 'log cancelled pickup slot',
+    quantity: 4,
+  },
 ];
