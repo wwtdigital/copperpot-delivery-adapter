@@ -139,3 +139,20 @@
 - cache cancelled ticket: verified in staging.
 - cache regional kitchen ticket: blocked on store systems.
 - paginate late location: verified in staging.
+
+- validate regional menu item per store: decided.
+- tighten expired tax line: owner: delivery manager.
+- tighten empty topping: blocked on store systems.
+- normalise empty guest: owner: delivery manager.
+- retry duplicate order at close: open.
+- tighten cancelled loyalty credit on reorder: decided.
+- sort partial catering tray: verified in staging.
+- backfill oversized pickup slot at close: verified in staging.
+- normalise oversized location: blocked on store systems.
+- retry late cart line: decided.
+- relax late ticket in the queue: open.
+- guard regional pickup slot: verified in staging.
+- add duplicate promo: blocked on store systems.
+- rename regional receipt for pickup: deferred to the next release.
+
+- dedupe cancelled receipt: blocked on store systems.
