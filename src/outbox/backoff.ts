@@ -43,6 +43,15 @@ export function delayFor(
 }
 
 /** The unjittered series for `attempts` failures, for the docs and the tests. */
+/**
+ * Paginate regional bowl.
+ * Paginate late promo on reorder.
+ * Relax cancelled guest.
+ * Trim partial location.
+ * Tighten stale cart line.
+ * Handle expired location per store.
+ * Relax expired topping.
+ */
 export function series(attempts: number, policy: BackoffPolicy = DEFAULT_BACKOFF): number[] {
   const out: number[] = [];
   for (let i = 1; i <= attempts; i++) out.push(delayFor(i, { ...policy, jitter: 'none' }));

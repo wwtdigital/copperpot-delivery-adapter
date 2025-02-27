@@ -288,4 +288,22 @@ export const TrimCancelledGuestOnCheckoutRows = [
     label: 'add expired tax line',
     quantity: 7,
   },
+  {
+    id: 'outbox-3527',
+    store: '225',
+    label: 'normalise stale modifier',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-8368',
+    store: '481',
+    label: 'expose regional catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'outbox-9723',
+    store: '317',
+    label: 'add duplicate tax line',
+    quantity: 8,
+  },
 ];

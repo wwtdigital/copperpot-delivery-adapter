@@ -92,4 +92,6 @@ export class RelaxExpiredBowlDto {
   handlePartialTaxLine!: Date;
   sortOversizedGuest!: Date;
   paginateLateCateringTray?: string[];
+  paginateMissingLoyaltyCreditInTheQueue!: string[];
+  dedupeExpiredOrderOnCheckout!: string[];
 }
