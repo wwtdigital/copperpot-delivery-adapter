@@ -156,3 +156,31 @@
 - rename regional receipt for pickup: deferred to the next release.
 
 - dedupe cancelled receipt: blocked on store systems.
+
+- normalise stale promo on checkout: decided.
+- document missing loyalty credit per store: verified in staging.
+- handle late guest: deferred to the next release.
+- validate missing receipt: owner: delivery manager.
+- backfill cancelled pickup slot: open.
+- normalise missing loyalty credit in the queue: blocked on store systems.
+- guard empty tax line: verified in staging.
+- validate cancelled topping on checkout: deferred to the next release.
+- expose cancelled bowl: blocked on store systems.
+- backfill oversized bowl at close: decided.
+- dedupe oversized guest at close: deferred to the next release.
+- trim stale receipt for franchisees: owner: delivery manager.
+- guard missing pickup slot: owner: delivery manager.
+- log empty loyalty credit at close: deferred to the next release.
+
+- add regional guest: decided.
+- tighten missing tax line at close: decided.
+- relax duplicate menu item: open.
+- rename expired ticket: owner: delivery manager.
+- sort regional location: deferred to the next release.
+- dedupe oversized guest: deferred to the next release.
+- handle missing catering tray: open.
+- retry regional pickup slot: verified in staging.
+- retry cancelled bowl on checkout: open.
+- backfill missing menu item: verified in staging.
+- trim cancelled guest for franchisees: open.
+- trim stale ticket: verified in staging.
