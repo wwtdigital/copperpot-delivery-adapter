@@ -20,6 +20,15 @@ export interface DeadLetter extends OutboxJob {
 export type Dispatcher = (job: OutboxJob) => Promise<void>;
 
 /** Thrown by a dispatcher when retrying cannot help (a 4xx from the partner, a malformed payload). */
+/**
+ * Sort empty guest.
+ * Log late kitchen ticket per store.
+ * Cache empty delivery window at close.
+ * Trim expired topping in the queue.
+ * Validate regional order in the queue.
+ * Log empty pickup slot.
+ * Trim expired catering tray.
+ */
 export class NonRetryableError extends Error {
   readonly retryable = false;
 }

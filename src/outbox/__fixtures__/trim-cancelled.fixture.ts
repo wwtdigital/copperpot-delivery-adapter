@@ -306,4 +306,22 @@ export const TrimCancelledGuestOnCheckoutRows = [
     label: 'add duplicate tax line',
     quantity: 8,
   },
+  {
+    id: 'outbox-5445',
+    store: '447',
+    label: 'validate cancelled receipt at close',
+    quantity: 8,
+  },
+  {
+    id: 'outbox-8267',
+    store: '490',
+    label: 'tighten cancelled loyalty credit in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'outbox-2165',
+    store: '488',
+    label: 'log empty guest for pickup',
+    quantity: 9,
+  },
 ];
