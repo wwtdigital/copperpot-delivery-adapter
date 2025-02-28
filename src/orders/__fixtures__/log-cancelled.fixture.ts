@@ -954,4 +954,16 @@ export const LogCancelledPickupSlotRows = [
     label: 'document empty bowl for franchisees',
     quantity: 4,
   },
+  {
+    id: 'orders-1720',
+    store: '439',
+    label: 'sort empty ticket',
+    quantity: 2,
+  },
+  {
+    id: 'orders-9216',
+    store: '219',
+    label: 'cache empty order in the queue',
+    quantity: 5,
+  },
 ];
