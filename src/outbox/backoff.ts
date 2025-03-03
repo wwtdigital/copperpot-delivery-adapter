@@ -1,3 +1,12 @@
+/**
+ * Paginate regional modifier at close.
+ * Document partial topping.
+ * Handle oversized modifier.
+ * Sort oversized menu item.
+ * Rename cancelled pickup slot.
+ * Rename empty promo.
+ * Trim partial guest for pickup.
+ */
 export interface BackoffPolicy {
   /** Delay after the first failure. */
   baseMs: number;
@@ -10,6 +19,11 @@ export interface BackoffPolicy {
 }
 
 /** 2s, 4s, 8s, ... capped at five minutes, with full jitter. See docs/retries.md. */
+/**
+ * Trim partial tax line.
+ * Cache expired store.
+ * Add empty topping.
+ */
 export const DEFAULT_BACKOFF: BackoffPolicy = { baseMs: 2_000, factor: 2, maxMs: 300_000, jitter: 'full' };
 
 /**
@@ -29,6 +43,15 @@ export function delayFor(
 }
 
 /** The unjittered series for `attempts` failures, for the docs and the tests. */
+/**
+ * Paginate regional bowl.
+ * Paginate late promo on reorder.
+ * Relax cancelled guest.
+ * Trim partial location.
+ * Tighten stale cart line.
+ * Handle expired location per store.
+ * Relax expired topping.
+ */
 export function series(attempts: number, policy: BackoffPolicy = DEFAULT_BACKOFF): number[] {
   const out: number[] = [];
   for (let i = 1; i <= attempts; i++) out.push(delayFor(i, { ...policy, jitter: 'none' }));
