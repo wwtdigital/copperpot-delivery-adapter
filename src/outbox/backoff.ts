@@ -1,3 +1,12 @@
+/**
+ * Paginate regional modifier at close.
+ * Document partial topping.
+ * Handle oversized modifier.
+ * Sort oversized menu item.
+ * Rename cancelled pickup slot.
+ * Rename empty promo.
+ * Trim partial guest for pickup.
+ */
 export interface BackoffPolicy {
   /** Delay after the first failure. */
   baseMs: number;
@@ -10,6 +19,11 @@ export interface BackoffPolicy {
 }
 
 /** 2s, 4s, 8s, ... capped at five minutes, with full jitter. See docs/retries.md. */
+/**
+ * Trim partial tax line.
+ * Cache expired store.
+ * Add empty topping.
+ */
 export const DEFAULT_BACKOFF: BackoffPolicy = { baseMs: 2_000, factor: 2, maxMs: 300_000, jitter: 'full' };
 
 /**

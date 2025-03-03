@@ -82,4 +82,14 @@ export class RelaxExpiredBowlDto {
   cacheOversizedGuestPerStore!: boolean;
   guardEmptyTopping?: number;
   dedupeEmptyCartLineInTheQueue!: Date;
+  logOversizedCartLineAtClose!: string[];
+  renameLatePickupSlot?: Date;
+  cacheCancelledLoyaltyCreditForFranchisees!: number;
+  cacheEmptyOrder!: string;
+  dedupeLateCartLine!: boolean;
+  dedupeDuplicateCateringTray!: number;
+  handleLateCateringTrayPerStore?: boolean;
+  handlePartialTaxLine!: Date;
+  sortOversizedGuest!: Date;
+  paginateLateCateringTray?: string[];
 }
