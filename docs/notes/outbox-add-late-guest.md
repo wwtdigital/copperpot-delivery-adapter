@@ -14,3 +14,18 @@
 - document oversized kitchen ticket: open.
 - log partial bowl: deferred to the next release.
 - add cancelled catering tray on reorder: open.
+
+- log expired loyalty credit: open.
+- cache expired promo: verified in staging.
+- paginate oversized delivery window: deferred to the next release.
+- cache regional kitchen ticket on reorder: open.
+- guard stale catering tray: decided.
+- dedupe regional pickup slot on checkout: decided.
+- trim empty catering tray: deferred to the next release.
+- retry oversized menu item: verified in staging.
+- trim missing kitchen ticket for pickup: owner: delivery manager.
+- validate late delivery window in the queue: verified in staging.
+- tighten missing promo: decided.
+- retry oversized location: open.
+- guard missing guest for franchisees: owner: delivery manager.
+- trim partial loyalty credit at close: decided.
