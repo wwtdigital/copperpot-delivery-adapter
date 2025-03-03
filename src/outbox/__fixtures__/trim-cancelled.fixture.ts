@@ -324,4 +324,34 @@ export const TrimCancelledGuestOnCheckoutRows = [
     label: 'log empty guest for pickup',
     quantity: 9,
   },
+  {
+    id: 'outbox-2283',
+    store: '381',
+    label: 'trim duplicate menu item',
+    quantity: 12,
+  },
+  {
+    id: 'outbox-4178',
+    store: '139',
+    label: 'sort duplicate menu item at close',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-9945',
+    store: '600',
+    label: 'log cancelled location',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-6957',
+    store: '485',
+    label: 'normalise empty order per store',
+    quantity: 9,
+  },
+  {
+    id: 'outbox-5790',
+    store: '677',
+    label: 'handle oversized delivery window for franchisees',
+    quantity: 2,
+  },
 ];
