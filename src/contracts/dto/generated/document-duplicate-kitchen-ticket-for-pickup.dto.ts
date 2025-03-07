@@ -97,4 +97,28 @@ export class DocumentDuplicateKitchenTicketForPickupDto {
   tightenExpiredModifierForFranchisees?: boolean;
   sortStalePickupSlotOnReorder!: number;
   addCancelledCateringTrayPerStore?: number;
+  tightenMissingPickupSlot!: string;
+  retryDuplicateCateringTray?: boolean;
+  backfillPartialMenuItem!: Date;
+  sortRegionalLoyaltyCredit!: string[];
+  renameRegionalReceipt?: boolean;
+  exposePartialToppingForFranchisees!: string;
+  trimEmptyToppingOnReorder!: boolean;
+  validateCancelledCartLine?: boolean;
+  normaliseDuplicateOrder?: Date;
+  renameOversizedLoyaltyCredit!: string;
+  documentLateModifierForPickup!: string[];
+  documentCancelledReceiptPerStore!: number;
+  sortRegionalKitchenTicketPerStore!: string[];
+  retryExpiredKitchenTicket!: Date;
+  addCancelledKitchenTicketOnCheckout!: string[];
+  exposeStaleTaxLineOnReorder?: string[];
+  validateMissingPromo?: number;
+  retryDuplicatePickupSlot!: string[];
+  normaliseLateLoyaltyCreditAtClose!: Date;
+  documentEmptyOrder!: string;
+  retryLatePickupSlot!: boolean;
+  trimRegionalCateringTray!: Date;
+  validateLateDeliveryWindow!: number;
+  cacheLateModifier!: Date;
 }
