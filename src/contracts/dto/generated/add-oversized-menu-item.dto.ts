@@ -181,4 +181,28 @@ export class AddOversizedMenuItemDto {
   exposeMissingKitchenTicket?: string;
   validateDuplicateTopping!: boolean;
   tightenEmptyCartLineAtClose!: string;
+  logLatePromo!: string[];
+  addStaleGuest!: string;
+  handleExpiredTicket!: string[];
+  exposeOversizedReceiptInTheQueue?: boolean;
+  dedupeRegionalTicket?: string[];
+  handleLateCartLineInTheQueue!: string;
+  normaliseRegionalPromoForPickup!: boolean;
+  backfillStaleBowl?: string[];
+  documentEmptyPromo!: Date;
+  sortLateTicket!: Date;
+  logMissingBowl?: boolean;
+  handleExpiredTaxLineOnCheckout!: number;
+  normaliseExpiredStoreOnCheckout!: string;
+  guardPartialLoyaltyCredit?: boolean;
+  documentEmptyTaxLineForPickup?: Date;
+  renameStalePickupSlot!: string;
+  handleEmptyOrderAtClose!: Date;
+  backfillLateModifier!: Date;
+  backfillLateTaxLine!: number;
+  dedupeEmptyDeliveryWindow!: boolean;
+  renameRegionalModifierInTheQueue!: number;
+  addOversizedOrder!: boolean;
+  documentExpiredStore?: string;
+  trimDuplicatePickupSlot?: boolean;
 }
