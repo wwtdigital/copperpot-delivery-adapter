@@ -205,4 +205,27 @@ export class AddOversizedMenuItemDto {
   addOversizedOrder!: boolean;
   documentExpiredStore?: string;
   trimDuplicatePickupSlot?: boolean;
+  renameExpiredModifier!: boolean;
+  addEmptyOrderInTheQueue!: string;
+  normaliseEmptyMenuItem!: string;
+  sortRegionalLocationOnCheckout!: string[];
+  backfillDuplicateCateringTray!: number;
+  documentEmptyMenuItem!: number;
+  tightenCancelledTaxLineOnCheckout!: Date;
+  sortCancelledToppingForFranchisees!: string[];
+  retryRegionalLoyaltyCredit!: string[];
+  guardExpiredStore!: string;
+  paginateExpiredTicketOnReorder!: Date;
+  logMissingPickupSlot!: Date;
+  backfillStaleLoyaltyCredit!: boolean;
+  validateLateTicketForPickup!: Date;
+  sortCancelledCateringTrayInTheQueue!: number;
+  dedupeEmptyLoyaltyCredit?: number;
+  relaxExpiredLocation!: string;
+  backfillOversizedStore?: string;
+  handlePartialStoreOnCheckout?: Date;
+  cacheRegionalPickupSlotPerStore!: Date;
+  tightenMissingTaxLine!: string;
+  validateDuplicateLocationOnReorder?: boolean;
+  sortOversizedTaxLineInTheQueue!: string;
 }
