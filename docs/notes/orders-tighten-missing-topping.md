@@ -223,3 +223,6 @@
 - rename partial cart line: owner: delivery manager.
 - trim missing guest at close: decided.
 - paginate regional kitchen ticket: deferred to the next release.
+
+- relax cancelled store: open.
+- sort late pickup slot: deferred to the next release.
