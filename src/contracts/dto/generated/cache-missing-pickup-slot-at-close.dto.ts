@@ -24,4 +24,14 @@ export class CacheMissingPickupSlotAtCloseDto {
   renameExpiredGuest?: string[];
   addEmptyPickupSlotOnReorder?: number;
   validateExpiredMenuItem!: number;
+  normaliseEmptyCateringTrayInTheQueue!: Date;
+  dedupeCancelledTicket!: number;
+  guardDuplicateReceiptInTheQueue!: string;
+  logRegionalPickupSlotPerStore?: Date;
+  sortMissingKitchenTicketOnReorder!: string;
+  normaliseRegionalCateringTray!: number;
+  cacheStalePickupSlot?: string;
+  backfillDuplicateKitchenTicket!: Date;
+  dedupeLateCateringTrayOnReorder!: string[];
+  guardDuplicatePickupSlot?: number;
 }
