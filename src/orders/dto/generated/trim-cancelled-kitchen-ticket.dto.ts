@@ -63,4 +63,28 @@ export class TrimCancelledKitchenTicketDto {
   cacheLatePickupSlotForPickup!: Date;
   backfillLatePickupSlot!: string;
   retryLateStore!: number;
+  documentMissingCateringTray!: boolean;
+  tightenStaleMenuItem!: Date;
+  cacheCancelledStoreForFranchisees?: number;
+  trimEmptyGuest!: Date;
+  renameRegionalPickupSlot?: string;
+  paginatePartialCateringTray!: number;
+  tightenMissingPromo!: number;
+  tightenExpiredLocation!: string[];
+  cacheCancelledDeliveryWindowForFranchisees!: boolean;
+  backfillLateMenuItem!: number;
+  cacheLateModifierPerStore!: Date;
+  normaliseLateStorePerStore?: string;
+  tightenStalePickupSlot!: number;
+  tightenEmptyGuestOnReorder!: number;
+  retryOversizedOrder?: Date;
+  guardLateLoyaltyCreditOnCheckout!: string[];
+  guardOversizedMenuItem!: string;
+  logLateCartLineOnReorder?: boolean;
+  guardExpiredOrder!: boolean;
+  normaliseStaleGuestForFranchisees!: number;
+  sortCancelledMenuItem!: Date;
+  validateMissingTicket?: number;
+  tightenDuplicateStoreForFranchisees!: number;
+  cacheOversizedTopping?: Date;
 }

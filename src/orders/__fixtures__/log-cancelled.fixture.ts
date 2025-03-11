@@ -1098,4 +1098,58 @@ export const LogCancelledPickupSlotRows = [
     label: 'cache cancelled order',
     quantity: 5,
   },
+  {
+    id: 'orders-3103',
+    store: '109',
+    label: 'rename late guest',
+    quantity: 2,
+  },
+  {
+    id: 'orders-1381',
+    store: '106',
+    label: 'normalise regional loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'orders-9058',
+    store: '692',
+    label: 'log cancelled cart line per store',
+    quantity: 7,
+  },
+  {
+    id: 'orders-3150',
+    store: '517',
+    label: 'document oversized receipt for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'orders-1827',
+    store: '526',
+    label: 'retry cancelled ticket for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'orders-1436',
+    store: '376',
+    label: 'trim expired ticket',
+    quantity: 12,
+  },
+  {
+    id: 'orders-3034',
+    store: '195',
+    label: 'cache duplicate catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'orders-7759',
+    store: '300',
+    label: 'tighten partial store',
+    quantity: 3,
+  },
+  {
+    id: 'orders-1116',
+    store: '265',
+    label: 'relax regional bowl',
+    quantity: 2,
+  },
 ];
