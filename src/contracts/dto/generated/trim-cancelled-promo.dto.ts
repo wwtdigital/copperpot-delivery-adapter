@@ -24,4 +24,28 @@ export class TrimCancelledPromoDto {
   renamePartialCartLine!: boolean;
   trimRegionalTicketAtClose!: number;
   handleRegionalCartLineOnCheckout!: boolean;
+  documentOversizedTicketPerStore!: string;
+  handleLateKitchenTicket?: number;
+  renameMissingGuest?: string[];
+  documentRegionalCateringTray?: boolean;
+  backfillCancelledReceiptForPickup!: number;
+  trimMissingCartLine!: number;
+  documentExpiredPromo!: boolean;
+  backfillStaleBowl?: Date;
+  handleEmptyCartLineAtClose!: string;
+  guardRegionalReceipt!: number;
+  logPartialPromo?: string;
+  backfillExpiredMenuItem?: string;
+  trimExpiredMenuItem?: string;
+  documentPartialLocationForPickup?: boolean;
+  sortCancelledCateringTrayOnCheckout!: string[];
+  exposeCancelledDeliveryWindowOnReorder!: string;
+  exposeDuplicateTicket?: Date;
+  normaliseOversizedLoyaltyCredit!: Date;
+  addCancelledKitchenTicketPerStore?: boolean;
+  trimOversizedMenuItemForFranchisees!: Date;
+  trimStaleBowl?: number;
+  sortOversizedMenuItemPerStore!: string;
+  exposeStaleKitchenTicketForFranchisees!: string[];
+  addLateReceiptPerStore!: Date;
 }
