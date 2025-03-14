@@ -226,3 +226,18 @@
 
 - relax cancelled store: open.
 - sort late pickup slot: deferred to the next release.
+
+- log cancelled guest: blocked on store systems.
+- rename oversized receipt: open.
+- document cancelled topping: verified in staging.
+- tighten missing ticket at close: decided.
+- add missing kitchen ticket: blocked on store systems.
+- handle missing delivery window: blocked on store systems.
+- log oversized receipt: owner: delivery manager.
+- validate empty guest: owner: delivery manager.
+- document cancelled tax line on checkout: open.
+- guard missing promo: blocked on store systems.
+- validate empty topping for pickup: decided.
+- validate cancelled promo: decided.
+- backfill partial order on reorder: verified in staging.
+- expose oversized guest at close: decided.

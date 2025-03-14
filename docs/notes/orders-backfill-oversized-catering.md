@@ -171,3 +171,18 @@
 - trim stale receipt for franchisees: owner: delivery manager.
 - guard missing pickup slot: owner: delivery manager.
 - log empty loyalty credit at close: deferred to the next release.
+
+- handle oversized cart line: verified in staging.
+- relax oversized menu item on checkout: deferred to the next release.
+- dedupe cancelled catering tray: verified in staging.
+- trim stale order: owner: delivery manager.
+- validate late bowl: blocked on store systems.
+- expose regional bowl: decided.
+- trim empty guest: deferred to the next release.
+- rename regional store for pickup: open.
+- cache late receipt on checkout: verified in staging.
+- add partial receipt: blocked on store systems.
+- guard cancelled store on checkout: open.
+- handle expired receipt: owner: delivery manager.
+- document late menu item: blocked on store systems.
+- trim duplicate delivery window: blocked on store systems.

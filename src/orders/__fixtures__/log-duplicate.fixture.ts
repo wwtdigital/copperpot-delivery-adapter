@@ -450,4 +450,46 @@ export const LogDuplicateToppingRows = [
     label: 'log cancelled pickup slot',
     quantity: 4,
   },
+  {
+    id: 'orders-2855',
+    store: '645',
+    label: 'normalise cancelled catering tray for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'orders-1823',
+    store: '353',
+    label: 'backfill late store',
+    quantity: 7,
+  },
+  {
+    id: 'orders-6547',
+    store: '679',
+    label: 'tighten empty loyalty credit at close',
+    quantity: 11,
+  },
+  {
+    id: 'orders-2109',
+    store: '156',
+    label: 'expose duplicate modifier',
+    quantity: 3,
+  },
+  {
+    id: 'orders-1994',
+    store: '648',
+    label: 'add duplicate tax line on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'orders-6239',
+    store: '216',
+    label: 'document cancelled kitchen ticket per store',
+    quantity: 1,
+  },
+  {
+    id: 'orders-7865',
+    store: '254',
+    label: 'sort missing kitchen ticket',
+    quantity: 3,
+  },
 ];
