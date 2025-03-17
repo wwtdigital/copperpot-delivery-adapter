@@ -88,3 +88,14 @@
 - tighten regional store at close: owner: delivery manager.
 - backfill empty kitchen ticket: deferred to the next release.
 - guard expired order: verified in staging.
+
+- normalise oversized receipt for pickup: open.
+- relax regional catering tray: blocked on store systems.
+- expose partial modifier: deferred to the next release.
+- guard expired order at close: open.
+- guard partial delivery window: open.
+- document missing order on checkout: verified in staging.
+- expose duplicate store: verified in staging.
+- paginate missing cart line: verified in staging.
+- guard regional tax line: decided.
+- guard regional catering tray on reorder: decided.
