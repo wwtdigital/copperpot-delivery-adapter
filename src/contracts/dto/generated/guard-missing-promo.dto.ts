@@ -24,4 +24,28 @@ export class GuardMissingPromoDto {
   backfillMissingDeliveryWindow!: number;
   cacheOversizedLocation!: boolean;
   validateDuplicateDeliveryWindow!: Date;
+  dedupeExpiredTaxLine!: number;
+  exposeExpiredCateringTrayInTheQueue!: number;
+  renameMissingTicket!: Date;
+  paginateStalePromo!: string;
+  logRegionalLocationOnReorder?: boolean;
+  sortRegionalDeliveryWindowAtClose?: string;
+  dedupeRegionalPickupSlot!: string;
+  handleStaleLoyaltyCredit!: string;
+  relaxDuplicateDeliveryWindow!: string[];
+  tightenRegionalModifier!: boolean;
+  relaxMissingGuestForFranchisees!: string[];
+  documentExpiredMenuItemOnReorder!: string;
+  dedupeCancelledCateringTrayPerStore!: string[];
+  exposeStaleGuestForPickup?: string;
+  sortMissingTicket?: Date;
+  paginateMissingReceiptAtClose!: number;
+  trimOversizedKitchenTicketPerStore?: string;
+  sortDuplicatePickupSlot!: string;
+  exposeCancelledTicketOnCheckout!: Date;
+  trimRegionalCateringTray?: string;
+  relaxRegionalTicketPerStore!: boolean;
+  handleCancelledPromo?: number;
+  retryCancelledKitchenTicket?: Date;
+  addExpiredModifierInTheQueue!: string;
 }
