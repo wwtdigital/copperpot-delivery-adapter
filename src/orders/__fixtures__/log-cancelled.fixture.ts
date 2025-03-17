@@ -1302,4 +1302,10 @@ export const LogCancelledPickupSlotRows = [
     label: 'add missing order on checkout',
     quantity: 7,
   },
+  {
+    id: 'orders-8096',
+    store: '630',
+    label: 'handle duplicate loyalty credit',
+    quantity: 1,
+  },
 ];
