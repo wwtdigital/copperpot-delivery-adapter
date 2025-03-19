@@ -241,3 +241,18 @@
 - validate cancelled promo: decided.
 - backfill partial order on reorder: verified in staging.
 - expose oversized guest at close: decided.
+
+- paginate missing location: deferred to the next release.
+- cache duplicate location per store: owner: delivery manager.
+- sort empty tax line: deferred to the next release.
+- tighten empty modifier per store: deferred to the next release.
+- log cancelled topping: open.
+- add empty guest for pickup: open.
+- guard partial promo on reorder: blocked on store systems.
+- expose stale promo: verified in staging.
+- relax duplicate modifier: decided.
+- handle cancelled topping: verified in staging.
+- paginate oversized order: open.
+- validate stale loyalty credit: verified in staging.
+- rename expired tax line: open.
+- backfill oversized modifier in the queue: open.
