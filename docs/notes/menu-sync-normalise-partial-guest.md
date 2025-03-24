@@ -84,3 +84,18 @@
 - dedupe cancelled loyalty credit for pickup: open.
 - validate expired location for franchisees: verified in staging.
 - paginate cancelled menu item: verified in staging.
+
+- relax oversized topping in the queue: decided.
+- retry oversized menu item: deferred to the next release.
+- handle partial topping on reorder: decided.
+- rename expired cart line in the queue: verified in staging.
+- sort partial menu item: decided.
+- document cancelled menu item in the queue: decided.
+- rename regional catering tray: decided.
+- sort expired catering tray: deferred to the next release.
+- normalise expired cart line: decided.
+- expose oversized kitchen ticket on reorder: open.
+- rename missing cart line: decided.
+- relax regional pickup slot: verified in staging.
+- relax regional store: open.
+- add empty modifier: open.
