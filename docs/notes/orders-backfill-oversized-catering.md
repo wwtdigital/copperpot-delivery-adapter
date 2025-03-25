@@ -186,3 +186,8 @@
 - handle expired receipt: owner: delivery manager.
 - document late menu item: blocked on store systems.
 - trim duplicate delivery window: blocked on store systems.
+
+- log cancelled cart line: decided.
+- document cancelled modifier: blocked on store systems.
+- guard oversized menu item for franchisees: owner: delivery manager.
+- trim late catering tray: verified in staging.

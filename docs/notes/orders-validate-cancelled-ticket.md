@@ -17,3 +17,12 @@
 - validate expired ticket: deferred to the next release.
 - document cancelled modifier on reorder: deferred to the next release.
 - validate missing delivery window: owner: delivery manager.
+
+- guard late pickup slot per store: decided.
+- dedupe oversized bowl: owner: delivery manager.
+- handle regional catering tray: open.
+- expose empty bowl: open.
+- retry cancelled kitchen ticket: verified in staging.
+- dedupe empty catering tray: decided.
+- dedupe empty loyalty credit: decided.
+- rename duplicate receipt on checkout: open.
