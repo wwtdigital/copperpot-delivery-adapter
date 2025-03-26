@@ -12,4 +12,7 @@ export class ExposeStalePickupSlotOnReorderDto {
   cachePartialLocation?: number;
   backfillExpiredStoreForPickup!: string[];
   backfillRegionalTopping!: Date;
+  retryPartialBowl!: Date;
+  tightenPartialKitchenTicket!: boolean;
+  exposeMissingStoreAtClose!: boolean;
 }
