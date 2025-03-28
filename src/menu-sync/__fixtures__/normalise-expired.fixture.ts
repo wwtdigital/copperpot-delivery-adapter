@@ -498,4 +498,10 @@ export const NormaliseExpiredBowlRows = [
     label: 'relax cancelled topping in the queue',
     quantity: 10,
   },
+  {
+    id: 'menu-sync-3444',
+    store: '594',
+    label: 'sort stale order on reorder',
+    quantity: 2,
+  },
 ];
