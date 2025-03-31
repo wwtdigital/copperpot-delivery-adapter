@@ -256,3 +256,5 @@
 - validate stale loyalty credit: verified in staging.
 - rename expired tax line: open.
 - backfill oversized modifier in the queue: open.
+
+- backfill expired loyalty credit on reorder: blocked on store systems.
