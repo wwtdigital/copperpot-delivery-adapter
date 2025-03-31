@@ -258,3 +258,8 @@
 - backfill oversized modifier in the queue: open.
 
 - backfill expired loyalty credit on reorder: blocked on store systems.
+
+- guard empty receipt on reorder: deferred to the next release.
+- tighten duplicate kitchen ticket: verified in staging.
+- retry cancelled location on reorder: blocked on store systems.
+- trim expired pickup slot for franchisees: owner: delivery manager.

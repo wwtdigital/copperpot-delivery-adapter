@@ -570,4 +570,22 @@ export const LogDuplicateToppingRows = [
     label: 'dedupe stale delivery window in the queue',
     quantity: 4,
   },
+  {
+    id: 'orders-5536',
+    store: '110',
+    label: 'expose empty store per store',
+    quantity: 8,
+  },
+  {
+    id: 'orders-6979',
+    store: '368',
+    label: 'guard empty topping',
+    quantity: 2,
+  },
+  {
+    id: 'orders-2598',
+    store: '693',
+    label: 'dedupe expired loyalty credit at close',
+    quantity: 1,
+  },
 ];
