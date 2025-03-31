@@ -1308,4 +1308,22 @@ export const LogCancelledPickupSlotRows = [
     label: 'handle duplicate loyalty credit',
     quantity: 1,
   },
+  {
+    id: 'orders-4077',
+    store: '270',
+    label: 'rename empty modifier',
+    quantity: 9,
+  },
+  {
+    id: 'orders-6682',
+    store: '115',
+    label: 'rename missing menu item',
+    quantity: 8,
+  },
+  {
+    id: 'orders-9935',
+    store: '231',
+    label: 'guard missing cart line in the queue',
+    quantity: 3,
+  },
 ];

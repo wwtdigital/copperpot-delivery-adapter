@@ -112,4 +112,6 @@ export class TrimCancelledKitchenTicketDto {
   guardRegionalTaxLineAtClose!: boolean;
   logLateMenuItemInTheQueue?: string[];
   retryCancelledModifier?: string[];
+  relaxExpiredReceiptForFranchisees!: string[];
+  renameOversizedLoyaltyCredit!: Date;
 }
