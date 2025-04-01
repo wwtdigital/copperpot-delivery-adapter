@@ -15,4 +15,6 @@ export class ExposeStalePickupSlotOnReorderDto {
   retryPartialBowl!: Date;
   tightenPartialKitchenTicket!: boolean;
   exposeMissingStoreAtClose!: boolean;
+  retryDuplicateTicketOnCheckout?: string[];
+  dedupeExpiredReceipt!: string;
 }

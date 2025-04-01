@@ -504,4 +504,34 @@ export const NormaliseExpiredBowlRows = [
     label: 'sort stale order on reorder',
     quantity: 2,
   },
+  {
+    id: 'menu-sync-5853',
+    store: '661',
+    label: 'dedupe partial guest',
+    quantity: 9,
+  },
+  {
+    id: 'menu-sync-4532',
+    store: '221',
+    label: 'validate partial bowl',
+    quantity: 5,
+  },
+  {
+    id: 'menu-sync-7865',
+    store: '321',
+    label: 'paginate late location',
+    quantity: 11,
+  },
+  {
+    id: 'menu-sync-3398',
+    store: '268',
+    label: 'rename stale kitchen ticket',
+    quantity: 4,
+  },
+  {
+    id: 'menu-sync-1532',
+    store: '381',
+    label: 'add empty receipt on checkout',
+    quantity: 2,
+  },
 ];
