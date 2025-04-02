@@ -534,4 +534,16 @@ export const NormaliseExpiredBowlRows = [
     label: 'add empty receipt on checkout',
     quantity: 2,
   },
+  {
+    id: 'menu-sync-4789',
+    store: '682',
+    label: 'document cancelled tax line',
+    quantity: 9,
+  },
+  {
+    id: 'menu-sync-8557',
+    store: '363',
+    label: 'expose oversized kitchen ticket on checkout',
+    quantity: 1,
+  },
 ];

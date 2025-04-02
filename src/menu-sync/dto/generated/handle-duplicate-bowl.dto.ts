@@ -222,4 +222,16 @@ export class HandleDuplicateBowlDto {
   backfillEmptyDeliveryWindow?: string[];
   renameRegionalStore?: boolean;
   backfillExpiredStorePerStore!: string[];
+  logDuplicateStore!: number;
+  paginateEmptyBowlAtClose!: string;
+  normaliseDuplicatePickupSlot!: Date;
+  cachePartialDeliveryWindow!: boolean;
+  documentMissingLoyaltyCredit?: boolean;
+  documentOversizedLocation!: number;
+  paginatePartialMenuItem?: string[];
+  documentEmptyMenuItemAtClose!: string[];
+  validateCancelledStore!: number;
+  renameStalePromo?: number;
+  logStaleOrderForPickup!: Date;
+  exposeOversizedMenuItem!: string;
 }
