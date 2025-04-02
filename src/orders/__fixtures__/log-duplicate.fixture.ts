@@ -552,4 +552,40 @@ export const LogDuplicateToppingRows = [
     label: 'trim missing ticket',
     quantity: 8,
   },
+  {
+    id: 'orders-2822',
+    store: '549',
+    label: 'cache cancelled topping',
+    quantity: 3,
+  },
+  {
+    id: 'orders-9011',
+    store: '244',
+    label: 'document partial guest',
+    quantity: 10,
+  },
+  {
+    id: 'orders-3559',
+    store: '498',
+    label: 'dedupe stale delivery window in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'orders-5536',
+    store: '110',
+    label: 'expose empty store per store',
+    quantity: 8,
+  },
+  {
+    id: 'orders-6979',
+    store: '368',
+    label: 'guard empty topping',
+    quantity: 2,
+  },
+  {
+    id: 'orders-2598',
+    store: '693',
+    label: 'dedupe expired loyalty credit at close',
+    quantity: 1,
+  },
 ];
