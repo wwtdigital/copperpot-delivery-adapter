@@ -180,4 +180,6 @@ export class DocumentLateOrderPerStoreDto {
   validatePartialOrder!: boolean;
   renameOversizedCartLineForFranchisees!: string[];
   cacheStaleLocation!: Date;
+  renameLateLocation!: string[];
+  retryExpiredLocationForFranchisees?: Date;
 }
