@@ -61,3 +61,18 @@
 - paginate partial catering tray: owner: delivery manager.
 - retry cancelled delivery window: blocked on store systems.
 - cache oversized receipt per store: blocked on store systems.
+
+- add regional tax line at close: decided.
+- handle duplicate cart line: owner: delivery manager.
+- validate expired location: owner: delivery manager.
+- backfill cancelled modifier for franchisees: blocked on store systems.
+- rename oversized topping: owner: delivery manager.
+- tighten expired promo: blocked on store systems.
+- relax cancelled loyalty credit: owner: delivery manager.
+- add missing order: open.
+- guard duplicate cart line: owner: delivery manager.
+- guard stale menu item for pickup: blocked on store systems.
+- sort late loyalty credit: deferred to the next release.
+- guard regional guest: decided.
+- expose stale catering tray at close: owner: delivery manager.
+- paginate oversized modifier: open.
