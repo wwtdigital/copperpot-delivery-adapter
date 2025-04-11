@@ -354,4 +354,52 @@ export const TrimCancelledGuestOnCheckoutRows = [
     label: 'handle oversized delivery window for franchisees',
     quantity: 2,
   },
+  {
+    id: 'outbox-9275',
+    store: '118',
+    label: 'tighten empty cart line',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-8384',
+    store: '588',
+    label: 'handle partial location',
+    quantity: 8,
+  },
+  {
+    id: 'outbox-3713',
+    store: '659',
+    label: 'rename partial store',
+    quantity: 10,
+  },
+  {
+    id: 'outbox-4074',
+    store: '476',
+    label: 'cache oversized pickup slot',
+    quantity: 11,
+  },
+  {
+    id: 'outbox-1298',
+    store: '413',
+    label: 'backfill cancelled order for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'outbox-3491',
+    store: '273',
+    label: 'expose partial location',
+    quantity: 3,
+  },
+  {
+    id: 'outbox-3189',
+    store: '147',
+    label: 'trim duplicate cart line',
+    quantity: 2,
+  },
+  {
+    id: 'outbox-7699',
+    store: '433',
+    label: 'normalise duplicate ticket',
+    quantity: 2,
+  },
 ];

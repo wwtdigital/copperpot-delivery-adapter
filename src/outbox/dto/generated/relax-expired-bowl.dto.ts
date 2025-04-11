@@ -94,4 +94,8 @@ export class RelaxExpiredBowlDto {
   paginateLateCateringTray?: string[];
   paginateMissingLoyaltyCreditInTheQueue!: string[];
   dedupeExpiredOrderOnCheckout!: string[];
+  logCancelledLoyaltyCredit!: number;
+  retryEmptyPromoPerStore!: number;
+  logCancelledGuestOnReorder!: string[];
+  dedupeExpiredModifierAtClose!: boolean;
 }
