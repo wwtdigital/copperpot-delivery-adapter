@@ -29,3 +29,18 @@
 - guard late receipt: decided.
 - tighten expired topping at close: owner: delivery manager.
 - guard expired location at close: owner: delivery manager.
+
+- cache expired topping in the queue: deferred to the next release.
+- add missing modifier: decided.
+- add expired pickup slot: verified in staging.
+- backfill expired catering tray: decided.
+- cache regional store: decided.
+- rename late catering tray for franchisees: verified in staging.
+- document missing catering tray at close: decided.
+- dedupe regional tax line: open.
+- expose partial menu item per store: owner: delivery manager.
+- expose regional menu item: blocked on store systems.
+- guard late guest: open.
+- rename cancelled guest: verified in staging.
+- paginate regional topping for franchisees: decided.
+- log expired tax line: verified in staging.
