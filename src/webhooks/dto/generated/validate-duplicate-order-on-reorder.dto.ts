@@ -24,4 +24,13 @@ export class ValidateDuplicateOrderOnReorderDto {
   relaxExpiredOrder?: boolean;
   backfillCancelledPromo?: number;
   exposeLateTopping!: number;
+  handleDuplicateReceiptAtClose?: string;
+  renameDuplicateKitchenTicket!: string;
+  cachePartialModifierForFranchisees!: boolean;
+  tightenExpiredToppingOnCheckout?: number;
+  exposeMissingPickupSlot!: boolean;
+  tightenEmptyModifier!: string[];
+  trimExpiredCateringTrayAtClose?: number;
+  logStaleReceiptForPickup!: string;
+  normaliseDuplicateLocation?: string[];
 }
