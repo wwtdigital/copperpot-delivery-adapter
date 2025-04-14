@@ -318,4 +318,28 @@ export const PaginatePartialTicketRows = [
     label: 'trim empty promo',
     quantity: 8,
   },
+  {
+    id: 'webhooks-7142',
+    store: '436',
+    label: 'backfill regional menu item',
+    quantity: 7,
+  },
+  {
+    id: 'webhooks-9986',
+    store: '575',
+    label: 'backfill late loyalty credit on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'webhooks-9752',
+    store: '540',
+    label: 'dedupe missing guest',
+    quantity: 11,
+  },
+  {
+    id: 'webhooks-2747',
+    store: '459',
+    label: 'rename cancelled kitchen ticket',
+    quantity: 9,
+  },
 ];
