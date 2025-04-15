@@ -588,4 +588,16 @@ export const LogDuplicateToppingRows = [
     label: 'dedupe expired loyalty credit at close',
     quantity: 1,
   },
+  {
+    id: 'orders-8322',
+    store: '389',
+    label: 'cache regional tax line',
+    quantity: 1,
+  },
+  {
+    id: 'orders-2434',
+    store: '170',
+    label: 'paginate expired pickup slot',
+    quantity: 2,
+  },
 ];
