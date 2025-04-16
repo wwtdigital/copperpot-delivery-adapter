@@ -114,4 +114,13 @@ export class TrimCancelledKitchenTicketDto {
   retryCancelledModifier?: string[];
   relaxExpiredReceiptForFranchisees!: string[];
   renameOversizedLoyaltyCredit!: Date;
+  trimExpiredCateringTray!: boolean;
+  cacheEmptyCateringTray!: number;
+  addRegionalLoyaltyCredit!: string;
+  guardPartialLoyaltyCreditPerStore?: Date;
+  sortExpiredCateringTray!: boolean;
+  cacheExpiredDeliveryWindow!: Date;
+  tightenRegionalGuestOnReorder!: boolean;
+  backfillEmptyGuest!: number;
+  normaliseCancelledGuest?: number;
 }
