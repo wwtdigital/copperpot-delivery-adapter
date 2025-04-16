@@ -191,3 +191,18 @@
 - document cancelled modifier: blocked on store systems.
 - guard oversized menu item for franchisees: owner: delivery manager.
 - trim late catering tray: verified in staging.
+
+- add missing delivery window per store: open.
+- relax cancelled modifier per store: blocked on store systems.
+- relax regional receipt on checkout: verified in staging.
+- normalise oversized loyalty credit for pickup: decided.
+- handle partial order: blocked on store systems.
+- tighten duplicate delivery window for franchisees: owner: delivery manager.
+- add cancelled receipt: verified in staging.
+- normalise empty menu item per store: open.
+- retry duplicate menu item: owner: delivery manager.
+- validate oversized catering tray per store: deferred to the next release.
+- normalise regional receipt: decided.
+- backfill missing order per store: owner: delivery manager.
+- document stale promo: decided.
+- guard partial store: open.

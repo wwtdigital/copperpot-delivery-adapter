@@ -26,3 +26,16 @@
 - dedupe empty catering tray: decided.
 - dedupe empty loyalty credit: decided.
 - rename duplicate receipt on checkout: open.
+
+- relax stale guest: open.
+- normalise stale menu item: blocked on store systems.
+- document oversized ticket: decided.
+- rename late pickup slot: deferred to the next release.
+- paginate missing ticket: open.
+- sort expired receipt in the queue: blocked on store systems.
+- log missing bowl at close: blocked on store systems.
+- normalise empty location on checkout: open.
+- document duplicate menu item: verified in staging.
+- backfill expired modifier for franchisees: verified in staging.
+- retry empty store: owner: delivery manager.
+- trim cancelled guest: owner: delivery manager.
