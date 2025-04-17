@@ -234,4 +234,27 @@ export class HandleDuplicateBowlDto {
   renameStalePromo?: number;
   logStaleOrderForPickup!: Date;
   exposeOversizedMenuItem!: string;
+  dedupeStaleLoyaltyCredit!: number;
+  logPartialOrderForFranchisees!: boolean;
+  paginateStaleReceiptForPickup!: boolean;
+  validateEmptyReceipt!: boolean;
+  exposeEmptyCateringTray!: Date;
+  addEmptyCartLinePerStore!: boolean;
+  trimDuplicateDeliveryWindowPerStore!: string[];
+  retryRegionalCateringTrayOnReorder!: Date;
+  trimMissingDeliveryWindowPerStore?: string;
+  tightenOversizedReceiptAtClose?: string;
+  logMissingPickupSlotForFranchisees!: number;
+  addOversizedDeliveryWindowAtClose?: string;
+  tightenDuplicateStore!: string[];
+  retryPartialPickupSlot!: number;
+  retryMissingReceiptAtClose!: Date;
+  paginateStaleReceipt!: string[];
+  renameCancelledCartLineAtClose!: boolean;
+  retryDuplicateOrderOnReorder!: Date;
+  normaliseStaleLoyaltyCredit!: boolean;
+  backfillRegionalBowl!: boolean;
+  backfillExpiredStore!: boolean;
+  paginateCancelledLocationOnCheckout!: number;
+  dedupeOversizedPromo?: number;
 }
