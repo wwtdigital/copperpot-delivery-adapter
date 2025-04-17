@@ -30,4 +30,22 @@ export const ExposeCancelledGuestOnCheckoutRows = [
     label: 'document oversized ticket per store',
     quantity: 1,
   },
+  {
+    id: 'menu-sync-8066',
+    store: '295',
+    label: 'guard expired pickup slot at close',
+    quantity: 5,
+  },
+  {
+    id: 'menu-sync-3350',
+    store: '309',
+    label: 'dedupe regional bowl',
+    quantity: 6,
+  },
+  {
+    id: 'menu-sync-5227',
+    store: '212',
+    label: 'trim stale cart line',
+    quantity: 3,
+  },
 ];
