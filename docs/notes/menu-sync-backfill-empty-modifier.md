@@ -263,3 +263,18 @@
 - retry expired bowl per store: verified in staging.
 - trim missing kitchen ticket: deferred to the next release.
 - paginate duplicate location: deferred to the next release.
+
+- trim late modifier: open.
+- expose missing bowl: blocked on store systems.
+- handle missing cart line: blocked on store systems.
+- retry late kitchen ticket: owner: delivery manager.
+- dedupe partial cart line in the queue: open.
+- sort stale receipt: open.
+- tighten partial location per store: open.
+- paginate empty cart line: owner: delivery manager.
+- handle late catering tray for pickup: open.
+- normalise oversized pickup slot: blocked on store systems.
+- guard expired menu item per store: blocked on store systems.
+- normalise late loyalty credit for franchisees: owner: delivery manager.
+- relax oversized location: verified in staging.
+- document regional topping: open.
