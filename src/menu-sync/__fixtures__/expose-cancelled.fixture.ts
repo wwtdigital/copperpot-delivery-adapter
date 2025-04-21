@@ -48,4 +48,34 @@ export const ExposeCancelledGuestOnCheckoutRows = [
     label: 'trim stale cart line',
     quantity: 3,
   },
+  {
+    id: 'menu-sync-8810',
+    store: '312',
+    label: 'dedupe empty order on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'menu-sync-2461',
+    store: '546',
+    label: 'tighten regional location',
+    quantity: 1,
+  },
+  {
+    id: 'menu-sync-8387',
+    store: '313',
+    label: 'retry late promo on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'menu-sync-5149',
+    store: '698',
+    label: 'retry oversized loyalty credit on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'menu-sync-2700',
+    store: '592',
+    label: 'retry oversized receipt',
+    quantity: 4,
+  },
 ];
