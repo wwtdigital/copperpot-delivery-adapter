@@ -98,4 +98,6 @@ export class RelaxExpiredBowlDto {
   retryEmptyPromoPerStore!: number;
   logCancelledGuestOnReorder!: string[];
   dedupeExpiredModifierAtClose!: boolean;
+  relaxLateDeliveryWindow!: Date;
+  guardPartialOrder?: string;
 }
