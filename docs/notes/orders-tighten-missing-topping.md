@@ -263,3 +263,10 @@
 - tighten duplicate kitchen ticket: verified in staging.
 - retry cancelled location on reorder: blocked on store systems.
 - trim expired pickup slot for franchisees: owner: delivery manager.
+
+- validate empty location: blocked on store systems.
+- document regional delivery window: owner: delivery manager.
+- expose empty ticket for pickup: deferred to the next release.
+- document duplicate pickup slot: blocked on store systems.
+- retry partial pickup slot per store: open.
+- backfill oversized topping: deferred to the next release.
