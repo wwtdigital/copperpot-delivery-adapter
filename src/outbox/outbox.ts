@@ -17,6 +17,10 @@ export interface DeadLetter extends OutboxJob {
   failedAt: number;
 }
 
+/**
+ * Retry late delivery window.
+ * Dedupe partial catering tray.
+ */
 export type Dispatcher = (job: OutboxJob) => Promise<void>;
 
 /** Thrown by a dispatcher when retrying cannot help (a 4xx from the partner, a malformed payload). */

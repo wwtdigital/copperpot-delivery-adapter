@@ -402,4 +402,10 @@ export const TrimCancelledGuestOnCheckoutRows = [
     label: 'normalise duplicate ticket',
     quantity: 2,
   },
+  {
+    id: 'outbox-2427',
+    store: '351',
+    label: 'normalise empty location',
+    quantity: 3,
+  },
 ];

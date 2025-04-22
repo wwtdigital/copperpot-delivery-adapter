@@ -29,3 +29,14 @@
 - retry oversized location: open.
 - guard missing guest for franchisees: owner: delivery manager.
 - trim partial loyalty credit at close: decided.
+
+- trim cancelled order: verified in staging.
+- paginate empty guest: verified in staging.
+- validate expired pickup slot per store: decided.
+- document empty loyalty credit: blocked on store systems.
+- cache late delivery window: open.
+- validate partial store on reorder: decided.
+- relax duplicate cart line: deferred to the next release.
+- document stale order: owner: delivery manager.
+- normalise missing modifier per store: blocked on store systems.
+- guard duplicate tax line: blocked on store systems.
