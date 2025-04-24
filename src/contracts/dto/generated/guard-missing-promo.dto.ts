@@ -48,4 +48,6 @@ export class GuardMissingPromoDto {
   handleCancelledPromo?: number;
   retryCancelledKitchenTicket?: Date;
   addExpiredModifierInTheQueue!: string;
+  validateExpiredMenuItem!: Date;
+  trimDuplicatePromoOnCheckout!: Date;
 }
