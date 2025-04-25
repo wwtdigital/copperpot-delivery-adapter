@@ -24,4 +24,10 @@ export const RetryOversizedLocationRows = [
     label: 'paginate missing menu item at close',
     quantity: 4,
   },
+  {
+    id: 'contracts-8200',
+    store: '201',
+    label: 'document expired store on reorder',
+    quantity: 9,
+  },
 ];
