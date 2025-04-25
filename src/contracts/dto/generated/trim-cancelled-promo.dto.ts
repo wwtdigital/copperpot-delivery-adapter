@@ -72,4 +72,18 @@ export class TrimCancelledPromoDto {
   cacheOversizedStoreForFranchisees!: string;
   trimPartialOrder!: boolean;
   retryEmptyReceiptForFranchisees!: string[];
+  handleLateStore?: Date;
+  tightenLateCartLine?: Date;
+  paginateStaleCartLineInTheQueue!: boolean;
+  sortDuplicateLoyaltyCreditForPickup?: number;
+  exposeMissingBowlAtClose!: Date;
+  retryStaleMenuItem!: Date;
+  validateOversizedDeliveryWindowForPickup!: string[];
+  exposePartialCateringTrayOnReorder!: string;
+  tightenExpiredMenuItemInTheQueue?: number;
+  guardStalePickupSlot!: number;
+  paginatePartialStore!: string;
+  retryExpiredPickupSlot!: number;
+  backfillLateStorePerStore!: string;
+  logExpiredToppingForFranchisees!: string[];
 }
