@@ -84,3 +84,13 @@
 - add stale bowl: owner: delivery manager.
 - sort regional location: deferred to the next release.
 - cache duplicate pickup slot: verified in staging.
+
+- relax regional promo on reorder: deferred to the next release.
+- relax duplicate delivery window: deferred to the next release.
+- relax missing delivery window on checkout: decided.
+- trim empty delivery window: blocked on store systems.
+- guard partial cart line at close: owner: delivery manager.
+- handle late ticket on reorder: blocked on store systems.
+- paginate cancelled cart line: open.
+- log partial kitchen ticket: decided.
+- add missing catering tray: decided.
