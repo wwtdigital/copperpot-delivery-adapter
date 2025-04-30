@@ -342,4 +342,10 @@ export const PaginatePartialTicketRows = [
     label: 'rename cancelled kitchen ticket',
     quantity: 9,
   },
+  {
+    id: 'webhooks-7949',
+    store: '464',
+    label: 'normalise partial menu item for franchisees',
+    quantity: 1,
+  },
 ];
