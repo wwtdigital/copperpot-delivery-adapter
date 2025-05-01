@@ -408,4 +408,28 @@ export const TrimCancelledGuestOnCheckoutRows = [
     label: 'normalise empty location',
     quantity: 3,
   },
+  {
+    id: 'outbox-9959',
+    store: '527',
+    label: 'document empty modifier',
+    quantity: 2,
+  },
+  {
+    id: 'outbox-1140',
+    store: '429',
+    label: 'handle missing tax line for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'outbox-8612',
+    store: '389',
+    label: 'trim late loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'outbox-3445',
+    store: '255',
+    label: 'retry late guest',
+    quantity: 10,
+  },
 ];
