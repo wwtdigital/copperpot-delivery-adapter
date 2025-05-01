@@ -34,4 +34,12 @@ export class CacheMissingPickupSlotAtCloseDto {
   backfillDuplicateKitchenTicket!: Date;
   dedupeLateCateringTrayOnReorder!: string[];
   guardDuplicatePickupSlot?: number;
+  handleOversizedMenuItem!: number;
+  tightenStaleLocation?: boolean;
+  documentRegionalPickupSlot?: Date;
+  backfillExpiredGuestOnReorder!: boolean;
+  addExpiredLocation!: Date;
+  paginateOversizedCateringTray!: number;
+  logDuplicateLocationInTheQueue!: string[];
+  dedupeOversizedDeliveryWindowOnReorder!: boolean;
 }
