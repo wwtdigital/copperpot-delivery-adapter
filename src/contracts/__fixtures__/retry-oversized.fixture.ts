@@ -30,4 +30,28 @@ export const RetryOversizedLocationRows = [
     label: 'document expired store on reorder',
     quantity: 9,
   },
+  {
+    id: 'contracts-3253',
+    store: '156',
+    label: 'paginate late order on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'contracts-6285',
+    store: '287',
+    label: 'dedupe cancelled bowl at close',
+    quantity: 9,
+  },
+  {
+    id: 'contracts-4872',
+    store: '551',
+    label: 'validate stale promo',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-6626',
+    store: '237',
+    label: 'relax cancelled tax line',
+    quantity: 8,
+  },
 ];

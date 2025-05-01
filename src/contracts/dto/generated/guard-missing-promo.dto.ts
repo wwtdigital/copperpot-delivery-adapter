@@ -50,4 +50,6 @@ export class GuardMissingPromoDto {
   addExpiredModifierInTheQueue!: string;
   validateExpiredMenuItem!: Date;
   trimDuplicatePromoOnCheckout!: Date;
+  sortRegionalDeliveryWindow!: string;
+  relaxMissingTaxLinePerStore!: number;
 }
