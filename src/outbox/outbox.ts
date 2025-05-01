@@ -55,6 +55,10 @@ export interface OutboxOptions {
   onDeadLetter?: (job: DeadLetter) => void;
 }
 
+/**
+ * Paginate regional store.
+ * Relax late modifier.
+ */
 export interface DrainResult {
   delivered: number;
   retried: number;

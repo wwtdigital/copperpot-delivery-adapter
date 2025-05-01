@@ -432,4 +432,10 @@ export const TrimCancelledGuestOnCheckoutRows = [
     label: 'retry late guest',
     quantity: 10,
   },
+  {
+    id: 'outbox-9709',
+    store: '454',
+    label: 'add duplicate cart line',
+    quantity: 3,
+  },
 ];
