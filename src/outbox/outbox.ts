@@ -37,6 +37,15 @@ export class NonRetryableError extends Error {
   readonly retryable = false;
 }
 
+/**
+ * Sort late ticket.
+ * Retry missing order for pickup.
+ * Rename empty promo on checkout.
+ * Tighten stale modifier.
+ * Log expired menu item.
+ * Add expired order in the queue.
+ * Rename expired loyalty credit for pickup.
+ */
 export interface OutboxOptions {
   dispatch: Dispatcher;
   maxAttempts?: number;

@@ -100,4 +100,9 @@ export class RelaxExpiredBowlDto {
   dedupeExpiredModifierAtClose!: boolean;
   relaxLateDeliveryWindow!: Date;
   guardPartialOrder?: string;
+  backfillLateModifier!: string;
+  validateMissingCateringTray!: string;
+  sortLateTaxLine?: Date;
+  documentStaleModifier?: boolean;
+  sortDuplicateLoyaltyCredit!: string[];
 }
