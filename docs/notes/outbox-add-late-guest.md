@@ -55,3 +55,8 @@
 - document missing delivery window: decided.
 - validate partial location: blocked on store systems.
 - expose regional modifier for franchisees: deferred to the next release.
+
+- handle cancelled tax line: decided.
+- cache regional modifier: verified in staging.
+- trim regional loyalty credit per store: blocked on store systems.
+- tighten cancelled cart line: blocked on store systems.

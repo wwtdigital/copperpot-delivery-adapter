@@ -474,4 +474,22 @@ export const TrimCancelledGuestOnCheckoutRows = [
     label: 'rename late cart line',
     quantity: 5,
   },
+  {
+    id: 'outbox-8513',
+    store: '281',
+    label: 'backfill oversized cart line',
+    quantity: 10,
+  },
+  {
+    id: 'outbox-8088',
+    store: '440',
+    label: 'retry partial modifier',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-1892',
+    store: '143',
+    label: 'tighten missing catering tray',
+    quantity: 3,
+  },
 ];
