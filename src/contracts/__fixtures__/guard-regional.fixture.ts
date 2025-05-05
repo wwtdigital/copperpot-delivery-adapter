@@ -42,4 +42,16 @@ export const GuardRegionalOrderRows = [
     label: 'add oversized delivery window on checkout',
     quantity: 4,
   },
+  {
+    id: 'contracts-8216',
+    store: '194',
+    label: 'guard expired topping',
+    quantity: 12,
+  },
+  {
+    id: 'contracts-2288',
+    store: '362',
+    label: 'rename partial delivery window',
+    quantity: 7,
+  },
 ];
