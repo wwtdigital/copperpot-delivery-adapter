@@ -19,3 +19,18 @@
 - cache duplicate location at close: owner: delivery manager.
 - expose stale pickup slot: owner: delivery manager.
 - sort missing guest: blocked on store systems.
+
+- relax missing delivery window: decided.
+- expose duplicate topping: owner: delivery manager.
+- paginate expired topping: decided.
+- tighten expired modifier: open.
+- trim oversized kitchen ticket: open.
+- rename stale delivery window: owner: delivery manager.
+- log partial order: blocked on store systems.
+- log oversized store: blocked on store systems.
+- document expired modifier: blocked on store systems.
+- retry stale ticket: open.
+- expose partial modifier: blocked on store systems.
+- validate expired kitchen ticket: deferred to the next release.
+- relax cancelled pickup slot for franchisees: deferred to the next release.
+- document expired catering tray: open.

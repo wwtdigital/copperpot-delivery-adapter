@@ -42,4 +42,8 @@ export class CacheMissingPickupSlotAtCloseDto {
   paginateOversizedCateringTray!: number;
   logDuplicateLocationInTheQueue!: string[];
   dedupeOversizedDeliveryWindowOnReorder!: boolean;
+  guardLateTaxLine?: string[];
+  documentMissingKitchenTicketForPickup!: boolean;
+  guardStaleLocationOnReorder?: Date;
+  logEmptyOrder!: string[];
 }
