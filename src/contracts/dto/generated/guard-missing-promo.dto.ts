@@ -52,4 +52,6 @@ export class GuardMissingPromoDto {
   trimDuplicatePromoOnCheckout!: Date;
   sortRegionalDeliveryWindow!: string;
   relaxMissingTaxLinePerStore!: number;
+  sortDuplicateOrder?: Date;
+  retryPartialKitchenTicket!: string[];
 }

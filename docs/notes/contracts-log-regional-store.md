@@ -114,3 +114,18 @@
 - validate expired cart line: open.
 - rename partial receipt for franchisees: deferred to the next release.
 - backfill empty location: blocked on store systems.
+
+- dedupe cancelled modifier: deferred to the next release.
+- document regional store: deferred to the next release.
+- tighten cancelled modifier for franchisees: owner: delivery manager.
+- document missing tax line on checkout: owner: delivery manager.
+- validate oversized modifier for pickup: open.
+- backfill missing ticket: decided.
+- handle missing bowl: open.
+- cache expired loyalty credit: verified in staging.
+- cache missing cart line: verified in staging.
+- paginate late catering tray: open.
+- document stale guest: deferred to the next release.
+- paginate empty topping for franchisees: open.
+- sort late kitchen ticket for pickup: decided.
+- guard late bowl for pickup: blocked on store systems.
