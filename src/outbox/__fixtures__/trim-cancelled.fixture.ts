@@ -438,4 +438,40 @@ export const TrimCancelledGuestOnCheckoutRows = [
     label: 'add duplicate cart line',
     quantity: 3,
   },
+  {
+    id: 'outbox-6016',
+    store: '310',
+    label: 'expose cancelled store for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-8569',
+    store: '590',
+    label: 'document duplicate receipt',
+    quantity: 10,
+  },
+  {
+    id: 'outbox-8682',
+    store: '138',
+    label: 'sort cancelled tax line per store',
+    quantity: 12,
+  },
+  {
+    id: 'outbox-2654',
+    store: '565',
+    label: 'retry missing pickup slot',
+    quantity: 4,
+  },
+  {
+    id: 'outbox-7736',
+    store: '332',
+    label: 'retry partial delivery window for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'outbox-8952',
+    store: '374',
+    label: 'rename late cart line',
+    quantity: 5,
+  },
 ];
