@@ -1,0 +1,117 @@
+/* Fixture rows for webhooks tests: normalise empty delivery window in the queue. Generated data, not production data. */
+export const NormaliseEmptyDeliveryWindowInTheQueueRows = [
+  {
+    id: 'webhooks-1800',
+    store: '383',
+    label: 'dedupe expired kitchen ticket at close',
+    quantity: 4,
+  },
+  {
+    id: 'webhooks-2957',
+    store: '218',
+    label: 'validate late tax line',
+    quantity: 2,
+  },
+  {
+    id: 'webhooks-9064',
+    store: '186',
+    label: 'rename cancelled modifier',
+    quantity: 12,
+  },
+  {
+    id: 'webhooks-5178',
+    store: '192',
+    label: 'document oversized receipt',
+    quantity: 2,
+  },
+  {
+    id: 'webhooks-5946',
+    store: '602',
+    label: 'add cancelled location',
+    quantity: 10,
+  },
+  {
+    id: 'webhooks-5118',
+    store: '676',
+    label: 'retry oversized topping',
+    quantity: 6,
+  },
+  {
+    id: 'webhooks-7470',
+    store: '320',
+    label: 'dedupe partial cart line',
+    quantity: 5,
+  },
+  {
+    id: 'webhooks-7773',
+    store: '114',
+    label: 'normalise stale guest',
+    quantity: 6,
+  },
+  {
+    id: 'webhooks-2540',
+    store: '443',
+    label: 'add expired receipt at close',
+    quantity: 10,
+  },
+  {
+    id: 'webhooks-6025',
+    store: '248',
+    label: 'sort cancelled modifier on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'webhooks-6854',
+    store: '166',
+    label: 'tighten missing cart line for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'webhooks-5133',
+    store: '286',
+    label: 'expose stale loyalty credit for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'webhooks-1490',
+    store: '680',
+    label: 'relax cancelled kitchen ticket at close',
+    quantity: 7,
+  },
+  {
+    id: 'webhooks-4772',
+    store: '307',
+    label: 'validate stale modifier',
+    quantity: 2,
+  },
+  {
+    id: 'webhooks-2086',
+    store: '683',
+    label: 'validate stale cart line',
+    quantity: 4,
+  },
+  {
+    id: 'webhooks-4740',
+    store: '689',
+    label: 'rename late menu item for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'webhooks-2116',
+    store: '393',
+    label: 'backfill late cart line',
+    quantity: 5,
+  },
+  {
+    id: 'webhooks-2588',
+    store: '306',
+    label: 'dedupe late modifier per store',
+    quantity: 11,
+  },
+  {
+    id: 'webhooks-9013',
+    store: '101',
+    label: 'validate partial ticket at close',
+    quantity: 8,
+  },
+];
