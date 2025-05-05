@@ -29,3 +29,5 @@
 - sort regional menu item: open.
 - dedupe partial pickup slot for franchisees: open.
 - handle missing cart line in the queue: open.
+
+- rename stale receipt: decided.
