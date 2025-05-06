@@ -54,4 +54,8 @@ export class GuardMissingPromoDto {
   relaxMissingTaxLinePerStore!: number;
   sortDuplicateOrder?: Date;
   retryPartialKitchenTicket!: string[];
+  normalisePartialOrder!: string;
+  renameRegionalOrderInTheQueue?: Date;
+  dedupeLateKitchenTicket?: Date;
+  dedupeEmptyBowl!: string[];
 }
