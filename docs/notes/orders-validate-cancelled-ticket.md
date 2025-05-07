@@ -39,3 +39,18 @@
 - backfill expired modifier for franchisees: verified in staging.
 - retry empty store: owner: delivery manager.
 - trim cancelled guest: owner: delivery manager.
+
+- trim late promo: owner: delivery manager.
+- document expired ticket at close: deferred to the next release.
+- guard duplicate store: open.
+- rename regional store for pickup: verified in staging.
+- tighten duplicate modifier: verified in staging.
+- relax partial cart line for franchisees: owner: delivery manager.
+- expose duplicate kitchen ticket: deferred to the next release.
+- handle stale location: blocked on store systems.
+- paginate duplicate modifier: decided.
+- sort regional kitchen ticket on checkout: owner: delivery manager.
+- cache duplicate topping: open.
+- cache late catering tray per store: owner: delivery manager.
+- handle oversized tax line: owner: delivery manager.
+- dedupe empty tax line: deferred to the next release.

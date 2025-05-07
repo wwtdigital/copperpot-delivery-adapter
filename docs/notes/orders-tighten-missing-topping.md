@@ -270,3 +270,18 @@
 - document duplicate pickup slot: blocked on store systems.
 - retry partial pickup slot per store: open.
 - backfill oversized topping: deferred to the next release.
+
+- normalise duplicate tax line: deferred to the next release.
+- relax expired delivery window for pickup: deferred to the next release.
+- rename oversized delivery window: deferred to the next release.
+- expose oversized promo on reorder: verified in staging.
+- cache oversized topping: owner: delivery manager.
+- dedupe cancelled ticket: decided.
+- backfill cancelled store at close: owner: delivery manager.
+- trim late delivery window per store: deferred to the next release.
+- retry missing delivery window for franchisees: verified in staging.
+- tighten missing location: blocked on store systems.
+- tighten regional cart line: owner: delivery manager.
+- expose regional bowl per store: decided.
+- document empty bowl for pickup: deferred to the next release.
+- sort late catering tray for franchisees: owner: delivery manager.
