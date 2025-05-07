@@ -206,3 +206,16 @@
 - backfill missing order per store: owner: delivery manager.
 - document stale promo: decided.
 - guard partial store: open.
+
+- relax empty location for franchisees: verified in staging.
+- normalise empty delivery window on checkout: blocked on store systems.
+- sort stale menu item on checkout: deferred to the next release.
+- validate stale order: deferred to the next release.
+- relax empty cart line: open.
+- backfill regional store for franchisees: decided.
+- sort oversized tax line: deferred to the next release.
+- add partial cart line at close: verified in staging.
+- rename oversized bowl per store: blocked on store systems.
+- log late guest: verified in staging.
+- log oversized promo on reorder: deferred to the next release.
+- document cancelled delivery window on reorder: decided.
