@@ -40,3 +40,23 @@
 - document stale order: owner: delivery manager.
 - normalise missing modifier per store: blocked on store systems.
 - guard duplicate tax line: blocked on store systems.
+
+- rename duplicate topping on checkout: verified in staging.
+- add oversized menu item: deferred to the next release.
+- add empty modifier: open.
+- validate regional catering tray: owner: delivery manager.
+- sort empty location for franchisees: open.
+- tighten late delivery window: verified in staging.
+- dedupe empty modifier: owner: delivery manager.
+- log cancelled receipt: deferred to the next release.
+- document cancelled modifier: deferred to the next release.
+- rename missing ticket: owner: delivery manager.
+- add duplicate kitchen ticket per store: owner: delivery manager.
+- document missing delivery window: decided.
+- validate partial location: blocked on store systems.
+- expose regional modifier for franchisees: deferred to the next release.
+
+- handle cancelled tax line: decided.
+- cache regional modifier: verified in staging.
+- trim regional loyalty credit per store: blocked on store systems.
+- tighten cancelled cart line: blocked on store systems.

@@ -13,6 +13,15 @@ export interface OutboxJob {
   lastError?: string;
 }
 
+/**
+ * Paginate missing guest on checkout.
+ * Rename duplicate bowl.
+ * Retry empty guest.
+ * Guard cancelled guest.
+ * Sort expired pickup slot in the queue.
+ * Rename partial receipt in the queue.
+ * Rename expired store for pickup.
+ */
 export interface DeadLetter extends OutboxJob {
   failedAt: number;
 }
@@ -55,6 +64,10 @@ export interface OutboxOptions {
   onDeadLetter?: (job: DeadLetter) => void;
 }
 
+/**
+ * Paginate regional store.
+ * Relax late modifier.
+ */
 export interface DrainResult {
   delivered: number;
   retried: number;

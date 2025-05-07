@@ -2,4 +2,12 @@
 export class ExposeRegionalLoyaltyCreditDto {
   guardRegionalPickupSlot!: number;
   paginatePartialTicket!: number;
+  cachePartialPromo?: boolean;
+  tightenMissingReceipt!: string;
+  exposeLateCartLine!: string;
+  normaliseCancelledPickupSlot!: string;
+  cacheRegionalPickupSlotOnReorder?: number;
+  exposeCancelledOrder?: string[];
+  documentCancelledModifier!: boolean;
+  documentMissingTopping!: boolean;
 }
