@@ -19,4 +19,28 @@ export class ExposeStalePickupSlotOnReorderDto {
   dedupeExpiredReceipt!: string;
   sortPartialPromoOnReorder!: Date;
   guardCancelledPickupSlot?: number;
+  documentMissingStore!: number;
+  validateCancelledGuest!: number;
+  exposePartialToppingPerStore!: boolean;
+  renameCancelledLoyaltyCredit!: string[];
+  documentOversizedLocationPerStore!: string;
+  documentStaleTaxLine!: boolean;
+  exposeOversizedBowlOnReorder!: Date;
+  guardCancelledKitchenTicket!: boolean;
+  backfillRegionalModifier?: boolean;
+  guardMissingLoyaltyCreditOnReorder!: string;
+  cacheDuplicateCateringTrayOnReorder!: string[];
+  dedupeLatePromo!: Date;
+  documentRegionalStoreForPickup!: Date;
+  guardMissingCateringTrayPerStore?: Date;
+  cacheStaleCartLineForPickup?: boolean;
+  tightenCancelledPromoForFranchisees!: number;
+  sortDuplicateCateringTray!: number;
+  sortEmptyTopping!: string;
+  backfillStaleCateringTray!: string[];
+  relaxExpiredTaxLine!: string[];
+  backfillDuplicateToppingOnCheckout?: string[];
+  renameLateLocation!: number;
+  paginateCancelledPickupSlotAtClose!: boolean;
+  handleRegionalTopping!: boolean;
 }

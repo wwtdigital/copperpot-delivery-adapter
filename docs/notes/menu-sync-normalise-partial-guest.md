@@ -99,3 +99,18 @@
 - relax regional pickup slot: verified in staging.
 - relax regional store: open.
 - add empty modifier: open.
+
+- validate expired pickup slot on checkout: open.
+- relax stale order in the queue: decided.
+- guard stale kitchen ticket: blocked on store systems.
+- guard partial menu item: open.
+- add duplicate store: deferred to the next release.
+- validate missing topping: blocked on store systems.
+- validate missing guest at close: decided.
+- guard expired menu item for pickup: blocked on store systems.
+- sort partial catering tray at close: owner: delivery manager.
+- trim late menu item: open.
+- guard duplicate order: blocked on store systems.
+- add empty receipt on reorder: decided.
+- log expired store on checkout: decided.
+- validate regional tax line in the queue: open.
