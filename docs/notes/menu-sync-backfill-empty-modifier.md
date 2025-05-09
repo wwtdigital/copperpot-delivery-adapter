@@ -278,3 +278,18 @@
 - normalise late loyalty credit for franchisees: owner: delivery manager.
 - relax oversized location: verified in staging.
 - document regional topping: open.
+
+- paginate missing location: decided.
+- handle partial pickup slot: blocked on store systems.
+- tighten regional ticket per store: verified in staging.
+- guard late bowl: owner: delivery manager.
+- trim duplicate tax line in the queue: decided.
+- retry duplicate guest per store: deferred to the next release.
+- normalise partial ticket: blocked on store systems.
+- dedupe empty catering tray: blocked on store systems.
+- normalise empty kitchen ticket: deferred to the next release.
+- validate duplicate order: blocked on store systems.
+- normalise oversized catering tray: open.
+- guard partial bowl: blocked on store systems.
+- handle missing topping at close: deferred to the next release.
+- normalise oversized modifier: blocked on store systems.
