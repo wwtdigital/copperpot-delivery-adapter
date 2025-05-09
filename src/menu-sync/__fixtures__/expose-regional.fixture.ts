@@ -18,4 +18,16 @@ export const ExposeRegionalReceiptRows = [
     label: 'expose cancelled loyalty credit',
     quantity: 3,
   },
+  {
+    id: 'menu-sync-2264',
+    store: '232',
+    label: 'retry duplicate receipt',
+    quantity: 5,
+  },
+  {
+    id: 'menu-sync-3737',
+    store: '146',
+    label: 'add expired promo',
+    quantity: 12,
+  },
 ];
