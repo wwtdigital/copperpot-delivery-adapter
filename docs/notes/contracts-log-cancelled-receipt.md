@@ -34,3 +34,18 @@
 - validate expired kitchen ticket: deferred to the next release.
 - relax cancelled pickup slot for franchisees: deferred to the next release.
 - document expired catering tray: open.
+
+- guard oversized location: deferred to the next release.
+- guard late receipt on reorder: deferred to the next release.
+- trim oversized delivery window: open.
+- document regional bowl in the queue: deferred to the next release.
+- paginate missing guest in the queue: owner: delivery manager.
+- tighten stale loyalty credit: verified in staging.
+- tighten empty bowl on reorder: deferred to the next release.
+- normalise stale loyalty credit: blocked on store systems.
+- backfill late catering tray: blocked on store systems.
+- retry missing kitchen ticket: blocked on store systems.
+- sort expired modifier: deferred to the next release.
+- guard duplicate location: deferred to the next release.
+- validate missing menu item at close: verified in staging.
+- guard partial menu item at close: blocked on store systems.
