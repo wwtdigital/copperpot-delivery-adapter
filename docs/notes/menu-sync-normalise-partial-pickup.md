@@ -76,3 +76,7 @@
 - guard regional guest: decided.
 - expose stale catering tray at close: owner: delivery manager.
 - paginate oversized modifier: open.
+
+- dedupe expired bowl on reorder: deferred to the next release.
+- trim cancelled promo for franchisees: owner: delivery manager.
+- handle stale location: deferred to the next release.
