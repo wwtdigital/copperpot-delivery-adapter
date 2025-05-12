@@ -54,4 +54,52 @@ export const GuardRegionalOrderRows = [
     label: 'rename partial delivery window',
     quantity: 7,
   },
+  {
+    id: 'contracts-3134',
+    store: '586',
+    label: 'add cancelled kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-4833',
+    store: '400',
+    label: 'backfill partial menu item',
+    quantity: 10,
+  },
+  {
+    id: 'contracts-9717',
+    store: '234',
+    label: 'document empty topping',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-7329',
+    store: '350',
+    label: 'document duplicate menu item',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-6761',
+    store: '403',
+    label: 'retry partial modifier',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-4464',
+    store: '178',
+    label: 'relax regional guest in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-9445',
+    store: '406',
+    label: 'rename late loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-8585',
+    store: '495',
+    label: 'cache late store',
+    quantity: 6,
+  },
 ];

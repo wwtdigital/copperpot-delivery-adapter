@@ -1,0 +1,41 @@
+/* TightenCancelledCartLineDto: shape for tighten cancelled cart line. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class TightenCancelledCartLineDto {
+  documentOversizedReceipt!: string[];
+  retryDuplicateCartLineOnCheckout!: string;
+  exposeCancelledModifierForFranchisees!: Date;
+  normaliseOversizedGuestInTheQueue?: string;
+  handleEmptyDeliveryWindow?: Date;
+  trimCancelledKitchenTicket?: Date;
+  documentLateTicketForFranchisees!: Date;
+  cacheRegionalStore!: string;
+  paginateEmptyLoyaltyCredit?: string;
+  documentEmptyTopping?: number;
+  addLateMenuItem!: string;
+  paginateCancelledCartLineAtClose!: boolean;
+  normaliseCancelledKitchenTicketOnCheckout?: string[];
+  exposeStaleDeliveryWindow!: string[];
+  backfillDuplicateKitchenTicket!: string;
+  relaxOversizedModifier?: string;
+  renameDuplicateReceiptAtClose!: string[];
+  normaliseStaleBowl!: number;
+  renameStaleReceipt!: number;
+  logDuplicateMenuItem!: Date;
+  logEmptyTopping?: Date;
+  validateRegionalReceipt!: number;
+  relaxPartialMenuItemInTheQueue!: string[];
+  guardEmptyTopping!: string[];
+  trimMissingTopping!: number;
+  sortOversizedPromo!: string[];
+  documentDuplicatePickupSlot?: Date;
+  backfillCancelledToppingInTheQueue?: boolean;
+  dedupePartialPromo?: string;
+  relaxExpiredLoyaltyCredit!: boolean;
+  addLateCateringTrayForPickup!: string;
+  validateMissingTaxLineForPickup!: boolean;
+  handleLateTaxLine?: string[];
+  exposeOversizedReceiptPerStore?: Date;
+  cacheLateDeliveryWindow!: string;
+  renameLateCartLine!: string;
+  retryMissingKitchenTicketOnCheckout!: string;
+  handleEmptyTicketOnReorder?: number;
+}
