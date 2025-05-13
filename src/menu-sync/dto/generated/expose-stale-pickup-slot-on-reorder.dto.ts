@@ -43,4 +43,9 @@ export class ExposeStalePickupSlotOnReorderDto {
   renameLateLocation!: number;
   paginateCancelledPickupSlotAtClose!: boolean;
   handleRegionalTopping!: boolean;
+  dedupeEmptyLoyaltyCreditOnCheckout!: string;
+  logOversizedReceipt!: Date;
+  cacheDuplicateDeliveryWindow!: boolean;
+  logEmptyBowlOnReorder!: string[];
+  validateEmptyReceiptInTheQueue!: string[];
 }

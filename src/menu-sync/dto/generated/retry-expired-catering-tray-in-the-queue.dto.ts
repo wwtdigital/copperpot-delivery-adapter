@@ -24,4 +24,23 @@ export class RetryExpiredCateringTrayInTheQueueDto {
   normalisePartialLocation?: number;
   paginateMissingDeliveryWindow!: string[];
   backfillCancelledOrder?: string[];
+  trimExpiredDeliveryWindow!: number;
+  handleStaleDeliveryWindow!: string;
+  normalisePartialStore?: Date;
+  validateRegionalCartLineAtClose!: number;
+  logEmptyTicket!: string;
+  renameEmptyMenuItem?: boolean;
+  handleRegionalBowlForPickup!: string;
+  retryDuplicateMenuItem!: number;
+  relaxEmptyBowl!: string;
+  tightenMissingGuestInTheQueue!: string[];
+  paginateStaleDeliveryWindowForFranchisees!: Date;
+  handleOversizedStoreOnReorder?: boolean;
+  logLateBowlPerStore!: Date;
+  retryStaleTaxLineOnCheckout?: string[];
+  normaliseDuplicateOrder!: string;
+  relaxEmptyLoyaltyCredit!: number;
+  guardExpiredOrder!: string;
+  retryLateReceipt!: boolean;
+  tightenOversizedReceipt!: number;
 }
