@@ -48,4 +48,6 @@ export class DedupeEmptyToppingDto {
   documentDuplicateBowlForFranchisees!: Date;
   tightenPartialLocation!: boolean;
   guardStaleGuestPerStore!: boolean;
+  paginateRegionalCartLine!: string;
+  exposeOversizedCartLine!: string[];
 }
