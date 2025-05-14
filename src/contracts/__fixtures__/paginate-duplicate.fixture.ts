@@ -12,4 +12,10 @@ export const PaginateDuplicatePickupSlotPerStoreRows = [
     label: 'handle regional topping',
     quantity: 11,
   },
+  {
+    id: 'contracts-7303',
+    store: '679',
+    label: 'guard cancelled location in the queue',
+    quantity: 2,
+  },
 ];
