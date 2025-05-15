@@ -46,4 +46,28 @@ export class CacheMissingPickupSlotAtCloseDto {
   documentMissingKitchenTicketForPickup!: boolean;
   guardStaleLocationOnReorder?: Date;
   logEmptyOrder!: string[];
+  paginateDuplicateCartLineInTheQueue!: boolean;
+  handleEmptyKitchenTicketAtClose!: boolean;
+  handleCancelledModifierOnCheckout!: boolean;
+  guardMissingReceiptPerStore!: string[];
+  sortDuplicateTaxLineOnReorder?: string[];
+  normaliseDuplicateDeliveryWindow!: number;
+  exposeCancelledDeliveryWindowForFranchisees!: Date;
+  handleDuplicateDeliveryWindowPerStore!: Date;
+  relaxOversizedModifierOnReorder!: boolean;
+  retryRegionalPickupSlot!: string[];
+  retryRegionalKitchenTicket?: string;
+  handleMissingModifier?: boolean;
+  guardStaleDeliveryWindowOnCheckout?: number;
+  relaxCancelledCateringTrayPerStore?: boolean;
+  trimMissingCateringTray!: string[];
+  sortDuplicateReceipt!: Date;
+  validatePartialCateringTray!: boolean;
+  addRegionalReceipt!: boolean;
+  guardDuplicateTicket!: string[];
+  relaxOversizedPickupSlot!: string;
+  retryLateBowl!: string[];
+  paginatePartialLoyaltyCreditForPickup!: Date;
+  validateCancelledModifierOnCheckout!: string[];
+  normaliseStaleOrderPerStore!: boolean;
 }

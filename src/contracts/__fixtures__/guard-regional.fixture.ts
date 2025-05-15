@@ -102,4 +102,16 @@ export const GuardRegionalOrderRows = [
     label: 'cache late store',
     quantity: 6,
   },
+  {
+    id: 'contracts-9376',
+    store: '571',
+    label: 'document empty pickup slot for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'contracts-5852',
+    store: '334',
+    label: 'rename oversized catering tray',
+    quantity: 3,
+  },
 ];

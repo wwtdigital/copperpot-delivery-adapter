@@ -38,4 +38,28 @@ export class TightenCancelledCartLineDto {
   renameLateCartLine!: string;
   retryMissingKitchenTicketOnCheckout!: string;
   handleEmptyTicketOnReorder?: number;
+  retryRegionalTaxLineForPickup!: string[];
+  normaliseMissingPromo!: string;
+  sortMissingTicket!: string[];
+  paginateExpiredDeliveryWindow!: boolean;
+  addMissingModifier!: Date;
+  sortStaleTicketOnCheckout?: boolean;
+  sortCancelledPromoOnCheckout!: boolean;
+  renameOversizedTaxLineOnReorder!: boolean;
+  handlePartialPickupSlot!: number;
+  cachePartialCateringTrayInTheQueue!: Date;
+  validateLateTicket?: number;
+  addEmptyCateringTrayAtClose!: number;
+  documentDuplicateLocationOnCheckout!: string;
+  handleEmptyOrder?: string;
+  relaxLateKitchenTicketPerStore!: string;
+  renameStaleTaxLineForFranchisees!: Date;
+  documentMissingReceipt!: string;
+  documentExpiredLoyaltyCreditAtClose!: string;
+  normaliseMissingStorePerStore!: Date;
+  backfillEmptyPromo!: Date;
+  dedupeOversizedMenuItem!: number;
+  cacheOversizedKitchenTicket!: string;
+  relaxCancelledStore!: boolean;
+  normaliseStalePromoPerStore!: Date;
 }
