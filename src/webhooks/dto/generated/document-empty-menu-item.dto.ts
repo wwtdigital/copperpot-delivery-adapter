@@ -4,4 +4,6 @@ export class DocumentEmptyMenuItemDto {
   handleEmptyOrder!: Date;
   relaxCancelledDeliveryWindowForFranchisees!: string;
   addExpiredPromoForFranchisees!: Date;
+  guardCancelledModifier!: string[];
+  retryDuplicatePromo!: boolean;
 }

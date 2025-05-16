@@ -46,3 +46,18 @@
 - guard duplicate modifier in the queue: open.
 - dedupe expired modifier on reorder: deferred to the next release.
 - relax duplicate promo: owner: delivery manager.
+
+- handle late bowl per store: deferred to the next release.
+- cache partial topping: decided.
+- paginate partial catering tray per store: open.
+- relax expired cart line: open.
+- rename oversized cart line: deferred to the next release.
+- guard oversized store for franchisees: decided.
+- rename missing loyalty credit per store: owner: delivery manager.
+- tighten partial ticket: owner: delivery manager.
+- relax empty receipt: deferred to the next release.
+- guard stale menu item: open.
+- retry late cart line in the queue: owner: delivery manager.
+- validate regional topping: open.
+- dedupe expired tax line: blocked on store systems.
+- sort stale cart line: decided.
