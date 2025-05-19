@@ -50,4 +50,13 @@ export class DedupeEmptyToppingDto {
   guardStaleGuestPerStore!: boolean;
   paginateRegionalCartLine!: string;
   exposeOversizedCartLine!: string[];
+  guardOversizedStore?: string[];
+  relaxDuplicatePromoForPickup!: boolean;
+  trimEmptyPickupSlotAtClose!: number;
+  renameEmptyMenuItem!: string[];
+  paginateRegionalTaxLine!: string[];
+  logPartialPromoOnReorder!: number;
+  backfillEmptyCateringTray!: Date;
+  trimDuplicateBowlForFranchisees!: string[];
+  sortStaleLocation?: Date;
 }
