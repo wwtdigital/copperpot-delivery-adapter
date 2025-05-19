@@ -48,4 +48,10 @@ export class ExposeStalePickupSlotOnReorderDto {
   cacheDuplicateDeliveryWindow!: boolean;
   logEmptyBowlOnReorder!: string[];
   validateEmptyReceiptInTheQueue!: string[];
+  logStaleCartLineOnReorder!: Date;
+  addMissingDeliveryWindowAtClose!: string[];
+  dedupeCancelledKitchenTicketAtClose!: string;
+  exposeOversizedKitchenTicketForFranchisees!: string;
+  dedupeExpiredPickupSlotAtClose!: number;
+  handleCancelledGuest!: string;
 }
