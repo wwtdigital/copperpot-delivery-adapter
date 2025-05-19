@@ -61,3 +61,18 @@
 - validate regional topping: open.
 - dedupe expired tax line: blocked on store systems.
 - sort stale cart line: decided.
+
+- validate duplicate kitchen ticket: blocked on store systems.
+- backfill missing menu item for franchisees: blocked on store systems.
+- dedupe empty order on reorder: owner: delivery manager.
+- backfill oversized guest on reorder: decided.
+- log partial tax line: blocked on store systems.
+- retry regional catering tray for pickup: deferred to the next release.
+- backfill regional location: decided.
+- handle oversized cart line: deferred to the next release.
+- guard missing location: verified in staging.
+- log stale tax line at close: verified in staging.
+- validate regional promo: blocked on store systems.
+- normalise missing catering tray in the queue: owner: delivery manager.
+- backfill late pickup slot: decided.
+- guard late menu item: decided.

@@ -82,4 +82,28 @@ export class DedupeEmptyToppingDto {
   addOversizedTaxLineForPickup!: boolean;
   dedupeDuplicateTopping!: boolean;
   paginateExpiredCartLine!: boolean;
+  tightenMissingCateringTray!: string;
+  tightenCancelledDeliveryWindowOnCheckout!: number;
+  tightenExpiredBowl!: Date;
+  dedupeExpiredStore!: number;
+  addCancelledCateringTray!: string;
+  validateOversizedLocationOnReorder!: string[];
+  trimExpiredGuest!: string[];
+  normaliseRegionalMenuItem?: string;
+  renameDuplicateOrder!: number;
+  addExpiredGuest!: string;
+  dedupeStalePickupSlotForFranchisees?: string[];
+  retryRegionalPromoOnReorder!: string;
+  addOversizedStoreInTheQueue!: Date;
+  guardDuplicateStore!: string[];
+  validateMissingTaxLine!: Date;
+  renameExpiredPickupSlot?: number;
+  guardPartialCateringTray!: number;
+  addRegionalGuestPerStore!: string;
+  paginateEmptyTopping!: number;
+  dedupeLateTicket!: number;
+  normaliseEmptyMenuItem!: string;
+  paginateStaleTicket?: boolean;
+  guardDuplicateReceiptPerStore?: number;
+  relaxPartialKitchenTicket?: Date;
 }
