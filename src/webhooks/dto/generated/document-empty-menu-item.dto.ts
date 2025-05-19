@@ -2,4 +2,6 @@
 export class DocumentEmptyMenuItemDto {
   addEmptyTicketPerStore?: string[];
   handleEmptyOrder!: Date;
+  relaxCancelledDeliveryWindowForFranchisees!: string;
+  addExpiredPromoForFranchisees!: Date;
 }
