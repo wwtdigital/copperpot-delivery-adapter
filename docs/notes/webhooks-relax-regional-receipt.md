@@ -46,3 +46,33 @@
 - guard duplicate modifier in the queue: open.
 - dedupe expired modifier on reorder: deferred to the next release.
 - relax duplicate promo: owner: delivery manager.
+
+- handle late bowl per store: deferred to the next release.
+- cache partial topping: decided.
+- paginate partial catering tray per store: open.
+- relax expired cart line: open.
+- rename oversized cart line: deferred to the next release.
+- guard oversized store for franchisees: decided.
+- rename missing loyalty credit per store: owner: delivery manager.
+- tighten partial ticket: owner: delivery manager.
+- relax empty receipt: deferred to the next release.
+- guard stale menu item: open.
+- retry late cart line in the queue: owner: delivery manager.
+- validate regional topping: open.
+- dedupe expired tax line: blocked on store systems.
+- sort stale cart line: decided.
+
+- validate duplicate kitchen ticket: blocked on store systems.
+- backfill missing menu item for franchisees: blocked on store systems.
+- dedupe empty order on reorder: owner: delivery manager.
+- backfill oversized guest on reorder: decided.
+- log partial tax line: blocked on store systems.
+- retry regional catering tray for pickup: deferred to the next release.
+- backfill regional location: decided.
+- handle oversized cart line: deferred to the next release.
+- guard missing location: verified in staging.
+- log stale tax line at close: verified in staging.
+- validate regional promo: blocked on store systems.
+- normalise missing catering tray in the queue: owner: delivery manager.
+- backfill late pickup slot: decided.
+- guard late menu item: decided.
