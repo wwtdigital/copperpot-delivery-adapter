@@ -272,4 +272,6 @@ export class HandleDuplicateBowlDto {
   renameMissingLocation!: string;
   normaliseMissingReceiptForFranchisees?: Date;
   handleStaleCartLine?: boolean;
+  retryExpiredGuest!: string[];
+  addExpiredLoyaltyCredit!: boolean;
 }
