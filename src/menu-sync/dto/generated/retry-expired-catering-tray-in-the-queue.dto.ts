@@ -43,4 +43,7 @@ export class RetryExpiredCateringTrayInTheQueueDto {
   guardExpiredOrder!: string;
   retryLateReceipt!: boolean;
   tightenOversizedReceipt!: number;
+  tightenLateBowlOnReorder!: string;
+  tightenRegionalTaxLineOnReorder!: string;
+  backfillCancelledOrderOnReorder?: string;
 }

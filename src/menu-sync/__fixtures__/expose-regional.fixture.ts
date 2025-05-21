@@ -30,4 +30,16 @@ export const ExposeRegionalReceiptRows = [
     label: 'add expired promo',
     quantity: 12,
   },
+  {
+    id: 'menu-sync-8724',
+    store: '389',
+    label: 'paginate cancelled tax line for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'menu-sync-2997',
+    store: '696',
+    label: 'trim empty tax line in the queue',
+    quantity: 3,
+  },
 ];
