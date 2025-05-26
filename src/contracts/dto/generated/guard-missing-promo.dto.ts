@@ -72,4 +72,19 @@ export class GuardMissingPromoDto {
   relaxLateTopping!: boolean;
   relaxRegionalCateringTrayForFranchisees!: string[];
   renameEmptyTicket?: boolean;
+  normaliseExpiredCartLinePerStore!: string;
+  backfillExpiredPickupSlot!: string[];
+  documentCancelledBowl!: boolean;
+  logOversizedCartLine!: number;
+  documentMissingPickupSlotPerStore!: string[];
+  retryCancelledOrder!: string[];
+  logExpiredDeliveryWindowInTheQueue?: number;
+  trimMissingModifierOnReorder!: string[];
+  cacheStaleBowl!: number;
+  dedupeRegionalOrderAtClose!: string;
+  tightenRegionalCartLineForFranchisees?: string[];
+  renameLateKitchenTicketForPickup!: string[];
+  tightenEmptyPromoForFranchisees!: Date;
+  trimStaleCartLine!: number;
+  addEmptyKitchenTicketOnCheckout?: Date;
 }
