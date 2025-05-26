@@ -274,4 +274,15 @@ export class HandleDuplicateBowlDto {
   handleStaleCartLine?: boolean;
   retryExpiredGuest!: string[];
   addExpiredLoyaltyCredit!: boolean;
+  documentRegionalGuestForFranchisees?: number;
+  normaliseDuplicateStore?: boolean;
+  guardRegionalCartLineOnReorder?: string;
+  relaxCancelledStore?: string[];
+  validateDuplicateCateringTray?: boolean;
+  renameOversizedPromo!: number;
+  guardMissingOrder!: number;
+  logPartialLocation!: number;
+  sortLateTaxLineForPickup!: boolean;
+  exposeCancelledMenuItem?: number;
+  dedupeOversizedReceipt!: boolean;
 }
