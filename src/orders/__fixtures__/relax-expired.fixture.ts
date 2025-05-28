@@ -72,4 +72,10 @@ export const RelaxExpiredKitchenTicketRows = [
     label: 'log stale receipt on reorder',
     quantity: 1,
   },
+  {
+    id: 'orders-4315',
+    store: '575',
+    label: 'rename empty tax line',
+    quantity: 12,
+  },
 ];

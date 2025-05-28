@@ -69,3 +69,22 @@
 - guard late kitchen ticket: deferred to the next release.
 - paginate expired cart line on checkout: owner: delivery manager.
 - guard missing promo on reorder: blocked on store systems.
+
+- guard regional pickup slot: decided.
+- dedupe expired receipt: decided.
+- normalise stale receipt on checkout: owner: delivery manager.
+- document late kitchen ticket: owner: delivery manager.
+- normalise cancelled store for franchisees: open.
+- relax cancelled store on reorder: blocked on store systems.
+- document oversized loyalty credit: owner: delivery manager.
+- trim duplicate topping for pickup: deferred to the next release.
+- tighten partial bowl per store: blocked on store systems.
+- retry partial kitchen ticket: verified in staging.
+- rename expired location: deferred to the next release.
+- validate missing promo per store: deferred to the next release.
+- validate expired cart line for franchisees: open.
+- retry cancelled delivery window: blocked on store systems.
+
+- document duplicate loyalty credit: blocked on store systems.
+- log late topping: decided.
+- trim expired tax line: verified in staging.

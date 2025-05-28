@@ -234,3 +234,18 @@
 - dedupe stale delivery window: owner: delivery manager.
 - handle empty cart line for franchisees: open.
 - trim stale bowl: open.
+
+- guard stale order: verified in staging.
+- backfill cancelled store: verified in staging.
+- document expired tax line: deferred to the next release.
+- log empty guest: owner: delivery manager.
+- dedupe duplicate tax line: deferred to the next release.
+- handle expired order: open.
+- paginate oversized store per store: decided.
+- normalise empty guest: decided.
+- document oversized tax line: owner: delivery manager.
+- document oversized pickup slot: open.
+- document missing location: verified in staging.
+- sort oversized delivery window in the queue: owner: delivery manager.
+- expose cancelled pickup slot on reorder: decided.
+- dedupe oversized menu item: open.
