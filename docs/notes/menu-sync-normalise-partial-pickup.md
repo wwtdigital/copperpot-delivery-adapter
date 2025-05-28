@@ -80,3 +80,15 @@
 - dedupe expired bowl on reorder: deferred to the next release.
 - trim cancelled promo for franchisees: owner: delivery manager.
 - handle stale location: deferred to the next release.
+
+- backfill expired receipt: verified in staging.
+- expose cancelled promo for pickup: owner: delivery manager.
+- add late store: blocked on store systems.
+- rename empty pickup slot per store: verified in staging.
+- paginate oversized modifier: decided.
+- rename partial receipt for franchisees: verified in staging.
+- document duplicate promo: decided.
+- paginate oversized catering tray: deferred to the next release.
+- guard stale cart line: owner: delivery manager.
+- sort cancelled topping at close: deferred to the next release.
+- handle oversized ticket: owner: delivery manager.
