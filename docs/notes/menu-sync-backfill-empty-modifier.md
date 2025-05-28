@@ -293,3 +293,13 @@
 - guard partial bowl: blocked on store systems.
 - handle missing topping at close: deferred to the next release.
 - normalise oversized modifier: blocked on store systems.
+
+- guard oversized tax line for pickup: blocked on store systems.
+- expose expired catering tray for pickup: owner: delivery manager.
+- tighten late guest in the queue: blocked on store systems.
+- paginate late kitchen ticket: open.
+- tighten oversized guest: open.
+- handle stale promo: verified in staging.
+- add duplicate menu item at close: owner: delivery manager.
+- retry stale topping per store: open.
+- dedupe oversized location for franchisees: owner: delivery manager.

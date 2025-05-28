@@ -46,4 +46,13 @@ export class RetryExpiredCateringTrayInTheQueueDto {
   tightenLateBowlOnReorder!: string;
   tightenRegionalTaxLineOnReorder!: string;
   backfillCancelledOrderOnReorder?: string;
+  backfillEmptyToppingOnReorder!: string[];
+  documentPartialBowl!: number;
+  renameCancelledMenuItem?: boolean;
+  sortCancelledPromo!: string[];
+  exposeStaleTaxLineOnReorder!: boolean;
+  validateMissingKitchenTicketOnCheckout!: string;
+  sortPartialToppingForFranchisees?: string;
+  guardOversizedMenuItemForPickup!: number;
+  validateEmptyPickupSlot!: string;
 }
