@@ -42,4 +42,16 @@ export const ExposeRegionalReceiptRows = [
     label: 'trim empty tax line in the queue',
     quantity: 3,
   },
+  {
+    id: 'menu-sync-7986',
+    store: '103',
+    label: 'log partial catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'menu-sync-8183',
+    store: '582',
+    label: 'tighten cancelled cart line',
+    quantity: 8,
+  },
 ];
