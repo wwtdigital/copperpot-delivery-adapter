@@ -219,3 +219,18 @@
 - log late guest: verified in staging.
 - log oversized promo on reorder: deferred to the next release.
 - document cancelled delivery window on reorder: decided.
+
+- validate oversized delivery window on checkout: verified in staging.
+- trim duplicate topping in the queue: deferred to the next release.
+- add cancelled catering tray per store: open.
+- handle duplicate bowl on reorder: decided.
+- document partial guest: blocked on store systems.
+- retry cancelled pickup slot: deferred to the next release.
+- add expired topping: deferred to the next release.
+- trim empty modifier in the queue: owner: delivery manager.
+- handle late bowl: verified in staging.
+- paginate oversized menu item for franchisees: verified in staging.
+- log empty guest for franchisees: open.
+- dedupe stale delivery window: owner: delivery manager.
+- handle empty cart line for franchisees: open.
+- trim stale bowl: open.

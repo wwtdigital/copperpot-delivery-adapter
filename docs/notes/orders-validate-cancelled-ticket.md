@@ -54,3 +54,18 @@
 - cache late catering tray per store: owner: delivery manager.
 - handle oversized tax line: owner: delivery manager.
 - dedupe empty tax line: deferred to the next release.
+
+- sort stale ticket: deferred to the next release.
+- trim stale bowl per store: owner: delivery manager.
+- dedupe empty kitchen ticket on checkout: blocked on store systems.
+- paginate cancelled order: open.
+- retry partial promo on checkout: decided.
+- dedupe empty modifier: blocked on store systems.
+- handle partial tax line for pickup: owner: delivery manager.
+- rename duplicate location: decided.
+- normalise cancelled modifier: verified in staging.
+- log oversized pickup slot: owner: delivery manager.
+- relax expired location for franchisees: deferred to the next release.
+- guard late kitchen ticket: deferred to the next release.
+- paginate expired cart line on checkout: owner: delivery manager.
+- guard missing promo on reorder: blocked on store systems.
