@@ -66,4 +66,16 @@ export const RelaxExpiredKitchenTicketRows = [
     label: 'relax empty catering tray',
     quantity: 7,
   },
+  {
+    id: 'orders-6459',
+    store: '418',
+    label: 'log stale receipt on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'orders-4315',
+    store: '575',
+    label: 'rename empty tax line',
+    quantity: 12,
+  },
 ];
