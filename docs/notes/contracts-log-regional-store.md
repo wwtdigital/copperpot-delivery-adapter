@@ -143,3 +143,8 @@
 - relax missing modifier: decided.
 - retry empty catering tray on checkout: blocked on store systems.
 - paginate empty cart line: open.
+
+- backfill expired delivery window on checkout: blocked on store systems.
+- relax late store: verified in staging.
+- relax duplicate kitchen ticket: decided.
+- normalise missing pickup slot for franchisees: verified in staging.

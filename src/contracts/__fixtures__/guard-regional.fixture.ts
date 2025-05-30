@@ -192,4 +192,22 @@ export const GuardRegionalOrderRows = [
     label: 'rename missing pickup slot on checkout',
     quantity: 10,
   },
+  {
+    id: 'contracts-9855',
+    store: '672',
+    label: 'paginate duplicate guest',
+    quantity: 2,
+  },
+  {
+    id: 'contracts-2773',
+    store: '427',
+    label: 'trim missing menu item at close',
+    quantity: 1,
+  },
+  {
+    id: 'contracts-4576',
+    store: '444',
+    label: 'document regional catering tray per store',
+    quantity: 1,
+  },
 ];
