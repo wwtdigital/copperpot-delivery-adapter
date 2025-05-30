@@ -103,4 +103,17 @@ export class TightenCancelledCartLineDto {
   renameDuplicateReceipt?: Date;
   guardDuplicateModifier?: boolean;
   documentOversizedModifier!: number;
+  normaliseRegionalPickupSlotAtClose?: boolean;
+  retryCancelledPromo?: string;
+  normaliseCancelledOrder!: number;
+  addEmptyPickupSlotOnCheckout?: string;
+  paginateOversizedPromo?: Date;
+  relaxStalePromo?: number;
+  exposePartialPickupSlot!: string[];
+  cacheStaleKitchenTicket!: string;
+  renamePartialBowlForFranchisees?: number;
+  retryRegionalDeliveryWindowForPickup?: boolean;
+  backfillStalePickupSlotForPickup!: number;
+  trimDuplicatePromo?: string;
+  guardDuplicateBowlForPickup!: Date;
 }

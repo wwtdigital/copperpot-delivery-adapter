@@ -129,3 +129,17 @@
 - paginate empty topping for franchisees: open.
 - sort late kitchen ticket for pickup: decided.
 - guard late bowl for pickup: blocked on store systems.
+
+- guard expired loyalty credit per store: open.
+- normalise late location in the queue: verified in staging.
+- relax expired store: verified in staging.
+- cache empty catering tray: deferred to the next release.
+- document partial cart line: blocked on store systems.
+- log stale order: owner: delivery manager.
+- dedupe oversized order: blocked on store systems.
+- sort late loyalty credit: open.
+- relax stale promo: blocked on store systems.
+- trim cancelled modifier: open.
+- relax missing modifier: decided.
+- retry empty catering tray on checkout: blocked on store systems.
+- paginate empty cart line: open.
