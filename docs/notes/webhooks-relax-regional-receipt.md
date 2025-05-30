@@ -75,4 +75,3 @@
 - validate regional promo: blocked on store systems.
 - normalise missing catering tray in the queue: owner: delivery manager.
 - backfill late pickup slot: decided.
-- guard late menu item: decided.
