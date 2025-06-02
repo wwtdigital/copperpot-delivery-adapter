@@ -79,4 +79,28 @@ export class TightenCancelledCartLineDto {
   dedupeStaleLocation!: boolean;
   retryLateOrderPerStore!: string;
   normaliseEmptyReceipt?: string[];
+  validateCancelledLoyaltyCreditForFranchisees?: boolean;
+  guardLatePromo!: string[];
+  documentStaleGuest!: string[];
+  tightenStaleCartLineForPickup?: string;
+  guardExpiredKitchenTicket!: string[];
+  renameCancelledTaxLine!: string;
+  retryDuplicateLocation?: Date;
+  guardExpiredDeliveryWindow!: string;
+  documentEmptyLocation!: boolean;
+  renameExpiredPickupSlotOnCheckout?: string[];
+  dedupeExpiredStoreForFranchisees?: string[];
+  addOversizedBowl!: boolean;
+  dedupeEmptyLoyaltyCreditInTheQueue?: string;
+  normaliseRegionalGuestInTheQueue!: number;
+  relaxStaleStore!: number;
+  renameDuplicateTicket!: string;
+  trimLateMenuItemAtClose!: string[];
+  dedupeDuplicateMenuItem!: number;
+  retryRegionalTopping!: string[];
+  sortEmptyBowl!: number;
+  normaliseDuplicateMenuItem!: string[];
+  renameDuplicateReceipt?: Date;
+  guardDuplicateModifier?: boolean;
+  documentOversizedModifier!: number;
 }
