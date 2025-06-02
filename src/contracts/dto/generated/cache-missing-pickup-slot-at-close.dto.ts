@@ -92,4 +92,28 @@ export class CacheMissingPickupSlotAtCloseDto {
   sortRegionalPickupSlotOnReorder!: string;
   addDuplicateLocation!: string[];
   dedupeStaleStoreOnCheckout!: string;
+  backfillOversizedGuest!: Date;
+  dedupeLateModifier!: string[];
+  guardLateLocation?: string[];
+  logCancelledLocationForPickup!: number;
+  documentRegionalReceiptForFranchisees!: string[];
+  sortCancelledOrderAtClose!: number;
+  paginateCancelledCateringTray!: Date;
+  tightenLatePromoAtClose?: number;
+  trimDuplicateModifierOnReorder!: string[];
+  dedupeExpiredDeliveryWindow!: string[];
+  relaxExpiredPromo!: number;
+  relaxRegionalTaxLineOnCheckout!: number;
+  handleMissingTicketOnCheckout?: boolean;
+  backfillPartialTicket!: number;
+  dedupeMissingCateringTray?: number;
+  relaxMissingLoyaltyCreditOnCheckout!: boolean;
+  exposeStaleMenuItem!: Date;
+  normaliseOversizedCateringTray?: Date;
+  handleExpiredTaxLineOnReorder?: string;
+  renameRegionalTopping?: Date;
+  paginateDuplicateLoyaltyCredit!: boolean;
+  dedupeOversizedBowl?: Date;
+  normaliseStaleLoyaltyCreditOnCheckout!: Date;
+  sortRegionalTicket!: string;
 }

@@ -20,3 +20,18 @@
 - rename late order: verified in staging.
 - handle late modifier at close: deferred to the next release.
 - backfill missing menu item: verified in staging.
+
+- retry partial catering tray at close: blocked on store systems.
+- cache regional location: owner: delivery manager.
+- guard stale tax line: blocked on store systems.
+- document cancelled receipt in the queue: blocked on store systems.
+- dedupe partial topping: owner: delivery manager.
+- add cancelled ticket in the queue: owner: delivery manager.
+- document stale order in the queue: deferred to the next release.
+- cache stale guest: owner: delivery manager.
+- dedupe missing order: owner: delivery manager.
+- relax oversized menu item: decided.
+- tighten cancelled guest: decided.
+- expose empty store: owner: delivery manager.
+- rename oversized pickup slot at close: owner: delivery manager.
+- normalise late modifier in the queue: open.
