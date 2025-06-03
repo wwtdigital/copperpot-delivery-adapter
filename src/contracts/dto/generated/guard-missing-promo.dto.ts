@@ -135,4 +135,28 @@ export class GuardMissingPromoDto {
   exposeRegionalLoyaltyCreditInTheQueue?: number;
   dedupeExpiredLoyaltyCreditOnCheckout?: number;
   relaxPartialReceiptPerStore?: boolean;
+  retryCancelledModifier!: string;
+  sortLateLoyaltyCreditForPickup!: string;
+  dedupeDuplicateMenuItem!: string;
+  renameDuplicateTicket!: Date;
+  normalisePartialCartLineForPickup!: boolean;
+  renameOversizedModifierForPickup!: number;
+  relaxMissingToppingOnCheckout!: Date;
+  relaxPartialTaxLine!: Date;
+  normaliseStalePickupSlotInTheQueue!: number;
+  tightenEmptyLocation!: string[];
+  logExpiredReceipt!: boolean;
+  relaxCancelledModifier?: Date;
+  guardLateTicket!: string;
+  addExpiredLocation?: string;
+  trimExpiredReceiptInTheQueue?: string;
+  renameEmptyOrder?: string[];
+  relaxOversizedCartLineOnCheckout!: boolean;
+  backfillStaleModifier?: boolean;
+  addDuplicateKitchenTicket?: boolean;
+  renameMissingLoyaltyCredit!: string[];
+  normaliseEmptyTicket?: Date;
+  guardPartialBowlOnCheckout!: boolean;
+  documentCancelledPickupSlot!: number;
+  paginateExpiredGuest?: Date;
 }

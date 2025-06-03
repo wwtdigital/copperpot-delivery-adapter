@@ -144,4 +144,52 @@ export const PaginateDuplicatePickupSlotPerStoreRows = [
     label: 'tighten oversized catering tray',
     quantity: 11,
   },
+  {
+    id: 'contracts-1663',
+    store: '294',
+    label: 'document regional store',
+    quantity: 2,
+  },
+  {
+    id: 'contracts-7063',
+    store: '363',
+    label: 'log cancelled cart line',
+    quantity: 9,
+  },
+  {
+    id: 'contracts-9943',
+    store: '557',
+    label: 'retry missing guest',
+    quantity: 3,
+  },
+  {
+    id: 'contracts-7481',
+    store: '102',
+    label: 'expose empty catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'contracts-8914',
+    store: '342',
+    label: 'handle empty delivery window',
+    quantity: 3,
+  },
+  {
+    id: 'contracts-5951',
+    store: '118',
+    label: 'retry partial catering tray on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'contracts-3373',
+    store: '103',
+    label: 'add empty store',
+    quantity: 9,
+  },
+  {
+    id: 'contracts-5476',
+    store: '365',
+    label: 'cache stale menu item',
+    quantity: 4,
+  },
 ];
