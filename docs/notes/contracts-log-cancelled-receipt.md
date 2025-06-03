@@ -51,3 +51,8 @@
 - guard partial menu item at close: blocked on store systems.
 
 - document partial catering tray: verified in staging.
+
+- document missing bowl: owner: delivery manager.
+- add stale cart line per store: blocked on store systems.
+- cache cancelled cart line: deferred to the next release.
+- log expired order: decided.
