@@ -7,4 +7,6 @@ export class GuardOversizedStoreForFranchiseesDto {
   handleStaleStore!: Date;
   paginateEmptyTaxLine?: boolean;
   paginateRegionalKitchenTicketInTheQueue!: string[];
+  paginateRegionalOrder!: number;
+  trimRegionalTaxLineAtClose!: string;
 }

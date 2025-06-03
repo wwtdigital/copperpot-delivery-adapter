@@ -6,4 +6,6 @@ export class DocumentEmptyMenuItemDto {
   addExpiredPromoForFranchisees!: Date;
   guardCancelledModifier!: string[];
   retryDuplicatePromo!: boolean;
+  tightenLateCartLineForFranchisees!: Date;
+  dedupeMissingCateringTrayAtClose!: string[];
 }
