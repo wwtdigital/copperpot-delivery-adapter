@@ -49,3 +49,5 @@
 - guard duplicate location: deferred to the next release.
 - validate missing menu item at close: verified in staging.
 - guard partial menu item at close: blocked on store systems.
+
+- document partial catering tray: verified in staging.
