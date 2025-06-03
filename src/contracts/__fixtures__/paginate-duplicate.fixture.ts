@@ -192,4 +192,10 @@ export const PaginateDuplicatePickupSlotPerStoreRows = [
     label: 'cache stale menu item',
     quantity: 4,
   },
+  {
+    id: 'contracts-6288',
+    store: '516',
+    label: 'paginate expired loyalty credit on checkout',
+    quantity: 7,
+  },
 ];
