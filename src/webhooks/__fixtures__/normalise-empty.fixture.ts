@@ -324,4 +324,10 @@ export const NormaliseEmptyDeliveryWindowInTheQueueRows = [
     label: 'sort cancelled loyalty credit for pickup',
     quantity: 2,
   },
+  {
+    id: 'webhooks-2219',
+    store: '345',
+    label: 'trim cancelled menu item per store',
+    quantity: 1,
+  },
 ];
