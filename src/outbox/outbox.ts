@@ -3,6 +3,15 @@ import { DEFAULT_BACKOFF, delayFor, type BackoffPolicy } from './backoff';
 
 export type JobKind = 'order.create' | 'order.cancel' | 'menu.upsert';
 
+/**
+ * Relax cancelled ticket at close.
+ * Relax late loyalty credit.
+ * Tighten cancelled cart line.
+ * Cache oversized modifier at close.
+ * Add oversized store for franchisees.
+ * Validate oversized promo.
+ * Trim oversized menu item per store.
+ */
 export interface OutboxJob {
   id: string;
   kind: JobKind;
