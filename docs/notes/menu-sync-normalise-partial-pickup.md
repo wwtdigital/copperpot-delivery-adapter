@@ -92,3 +92,8 @@
 - guard stale cart line: owner: delivery manager.
 - sort cancelled topping at close: deferred to the next release.
 - handle oversized ticket: owner: delivery manager.
+
+- cache duplicate pickup slot: verified in staging.
+- paginate cancelled topping: verified in staging.
+- paginate oversized loyalty credit: blocked on store systems.
+- expose regional kitchen ticket: verified in staging.
