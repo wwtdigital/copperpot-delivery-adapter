@@ -54,4 +54,14 @@ export class ExposeStalePickupSlotOnReorderDto {
   exposeOversizedKitchenTicketForFranchisees!: string;
   dedupeExpiredPickupSlotAtClose!: number;
   handleCancelledGuest!: string;
+  guardPartialPickupSlot!: Date;
+  dedupeStaleDeliveryWindowForPickup!: Date;
+  guardEmptyReceipt?: string[];
+  trimDuplicateBowlPerStore!: string[];
+  cacheRegionalStore!: Date;
+  sortPartialTaxLine!: string;
+  guardDuplicateReceiptOnCheckout?: number;
+  paginateStaleLoyaltyCredit!: number;
+  retryMissingTaxLine?: string[];
+  paginateDuplicateKitchenTicketOnReorder?: Date;
 }
