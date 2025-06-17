@@ -1,6 +1,13 @@
 import { randomUUID } from 'node:crypto';
 import { DEFAULT_BACKOFF, delayFor, type BackoffPolicy } from './backoff';
 
+/**
+ * Rename stale pickup slot.
+ * Cache late order on checkout.
+ * Validate duplicate tax line.
+ * Handle oversized menu item.
+ * Handle missing loyalty credit.
+ */
 export type JobKind = 'order.create' | 'order.cancel' | 'menu.upsert';
 
 /**
