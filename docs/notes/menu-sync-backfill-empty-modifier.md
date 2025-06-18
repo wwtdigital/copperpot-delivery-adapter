@@ -303,3 +303,17 @@
 - add duplicate menu item at close: owner: delivery manager.
 - retry stale topping per store: open.
 - dedupe oversized location for franchisees: owner: delivery manager.
+
+- guard empty cart line: deferred to the next release.
+- add oversized store at close: decided.
+- relax duplicate ticket: decided.
+- relax expired bowl: verified in staging.
+- handle cancelled location at close: open.
+- expose stale cart line at close: blocked on store systems.
+- document partial location per store: open.
+- add oversized ticket for pickup: owner: delivery manager.
+- paginate duplicate delivery window: blocked on store systems.
+- handle cancelled pickup slot: verified in staging.
+- guard duplicate cart line: verified in staging.
+- retry regional kitchen ticket at close: decided.
+- relax expired promo: deferred to the next release.
