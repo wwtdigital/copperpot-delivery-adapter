@@ -64,4 +64,17 @@ export class ExposeStalePickupSlotOnReorderDto {
   paginateStaleLoyaltyCredit!: number;
   retryMissingTaxLine?: string[];
   paginateDuplicateKitchenTicketOnReorder?: Date;
+  addLateCateringTray!: string[];
+  cacheRegionalPickupSlotInTheQueue?: string;
+  guardStaleTicketForPickup!: string[];
+  retryDuplicateCateringTray!: string[];
+  dedupeMissingTicket!: Date;
+  renamePartialModifierAtClose?: boolean;
+  relaxExpiredPromo!: number;
+  relaxCancelledCartLineAtClose!: string[];
+  addOversizedReceiptForFranchisees!: string;
+  relaxEmptyOrder?: number;
+  documentEmptyPickupSlotPerStore!: string;
+  relaxEmptyLoyaltyCredit!: boolean;
+  retryEmptyBowl?: string;
 }
