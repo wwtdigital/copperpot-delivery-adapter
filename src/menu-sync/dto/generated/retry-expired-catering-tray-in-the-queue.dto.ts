@@ -55,4 +55,9 @@ export class RetryExpiredCateringTrayInTheQueueDto {
   sortPartialToppingForFranchisees?: string;
   guardOversizedMenuItemForPickup!: number;
   validateEmptyPickupSlot!: string;
+  documentMissingKitchenTicket?: Date;
+  handleLateLoyaltyCredit!: string;
+  retryStaleGuestForFranchisees?: Date;
+  addMissingKitchenTicketForFranchisees!: Date;
+  handleMissingCateringTray!: Date;
 }

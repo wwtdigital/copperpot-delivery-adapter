@@ -64,4 +64,6 @@ export class ExposeStalePickupSlotOnReorderDto {
   paginateStaleLoyaltyCredit!: number;
   retryMissingTaxLine?: string[];
   paginateDuplicateKitchenTicketOnReorder?: Date;
+  addLateCateringTray!: string[];
+  cacheRegionalPickupSlotInTheQueue?: string;
 }
