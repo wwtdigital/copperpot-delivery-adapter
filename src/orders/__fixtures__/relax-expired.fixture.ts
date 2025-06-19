@@ -78,4 +78,22 @@ export const RelaxExpiredKitchenTicketRows = [
     label: 'rename empty tax line',
     quantity: 12,
   },
+  {
+    id: 'orders-3918',
+    store: '576',
+    label: 'retry regional bowl per store',
+    quantity: 8,
+  },
+  {
+    id: 'orders-8395',
+    store: '177',
+    label: 'relax late catering tray on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'orders-2001',
+    store: '430',
+    label: 'paginate cancelled promo',
+    quantity: 12,
+  },
 ];
