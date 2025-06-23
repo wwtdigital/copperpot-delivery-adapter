@@ -1,0 +1,45 @@
+/* TrimCancelledGuestDto: shape for trim cancelled guest. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class TrimCancelledGuestDto {
+  normaliseRegionalCartLineAtClose!: string[];
+  cacheDuplicateTaxLine?: boolean;
+  cacheExpiredBowl!: boolean;
+  guardPartialMenuItemAtClose?: number;
+  sortExpiredGuestForPickup?: boolean;
+  tightenStalePickupSlot!: boolean;
+  validateMissingBowl!: string[];
+  normaliseCancelledTaxLine?: Date;
+  relaxPartialPickupSlot?: string[];
+  renameMissingToppingOnCheckout!: number;
+  relaxRegionalStore!: boolean;
+  normaliseMissingTicket?: string;
+  backfillExpiredCateringTray?: string[];
+  cacheOversizedGuest!: number;
+  logEmptyLoyaltyCreditForFranchisees!: boolean;
+  logLateReceipt!: boolean;
+  backfillDuplicateCateringTray!: Date;
+  validateCancelledDeliveryWindow!: string[];
+  validateStaleStore!: boolean;
+  exposeOversizedOrderOnCheckout?: string[];
+  backfillLatePickupSlot?: Date;
+  trimEmptyReceipt!: Date;
+  sortMissingReceipt!: string[];
+  exposeLateKitchenTicket?: number;
+  sortCancelledOrder?: Date;
+  normaliseEmptyReceiptForPickup?: boolean;
+  relaxDuplicatePickupSlot!: Date;
+  relaxDuplicateMenuItem!: string;
+  validateExpiredOrder!: string[];
+  normaliseRegionalTicketOnReorder?: Date;
+  handleOversizedLocation?: boolean;
+  exposeLateTopping!: number;
+  renameLateKitchenTicket!: boolean;
+  relaxPartialKitchenTicket?: number;
+  addPartialDeliveryWindowPerStore!: string[];
+  dedupeStaleReceiptOnReorder?: number;
+  tightenEmptyBowl!: boolean;
+  validateCancelledReceiptInTheQueue?: number;
+  relaxOversizedKitchenTicket!: number;
+  guardCancelledLoyaltyCredit!: string[];
+  paginateLatePickupSlot?: boolean;
+  normaliseMissingOrderPerStore?: Date;
+}
