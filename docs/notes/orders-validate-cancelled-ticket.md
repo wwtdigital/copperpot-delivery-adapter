@@ -88,3 +88,18 @@
 - document duplicate loyalty credit: blocked on store systems.
 - log late topping: decided.
 - trim expired tax line: verified in staging.
+
+- trim regional guest: verified in staging.
+- document regional store: verified in staging.
+- normalise missing cart line: verified in staging.
+- cache oversized order: deferred to the next release.
+- rename empty menu item at close: owner: delivery manager.
+- retry regional cart line: open.
+- guard late location: open.
+- retry stale store: verified in staging.
+- log stale tax line on checkout: decided.
+- trim duplicate promo on checkout: owner: delivery manager.
+- expose duplicate loyalty credit for pickup: deferred to the next release.
+- dedupe empty ticket: deferred to the next release.
+- backfill duplicate bowl: verified in staging.
+- rename oversized receipt: decided.
