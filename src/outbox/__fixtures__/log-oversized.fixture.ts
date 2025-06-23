@@ -144,4 +144,16 @@ export const LogOversizedOrderInTheQueueRows = [
     label: 'retry regional tax line at close',
     quantity: 2,
   },
+  {
+    id: 'outbox-7231',
+    store: '266',
+    label: 'sort oversized kitchen ticket at close',
+    quantity: 8,
+  },
+  {
+    id: 'outbox-3859',
+    store: '130',
+    label: 'backfill late store',
+    quantity: 7,
+  },
 ];
