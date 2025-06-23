@@ -11,4 +11,6 @@ export class DocumentPartialTaxLineDto {
   trimLateOrderAtClose?: string;
   dedupeRegionalCartLine?: Date;
   dedupeMissingMenuItem!: string[];
+  paginateStaleBowlInTheQueue!: number;
+  normaliseDuplicateCateringTrayForPickup!: boolean;
 }

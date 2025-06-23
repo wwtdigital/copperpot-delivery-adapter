@@ -156,4 +156,10 @@ export const LogOversizedOrderInTheQueueRows = [
     label: 'backfill late store',
     quantity: 7,
   },
+  {
+    id: 'outbox-6558',
+    store: '656',
+    label: 'add expired pickup slot',
+    quantity: 9,
+  },
 ];
