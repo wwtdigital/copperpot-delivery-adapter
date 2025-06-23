@@ -96,4 +96,40 @@ export const RelaxExpiredKitchenTicketRows = [
     label: 'paginate cancelled promo',
     quantity: 12,
   },
+  {
+    id: 'orders-7938',
+    store: '517',
+    label: 'document empty cart line for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'orders-9419',
+    store: '125',
+    label: 'trim late promo',
+    quantity: 5,
+  },
+  {
+    id: 'orders-2243',
+    store: '508',
+    label: 'log oversized promo',
+    quantity: 10,
+  },
+  {
+    id: 'orders-4772',
+    store: '218',
+    label: 'rename partial pickup slot per store',
+    quantity: 2,
+  },
+  {
+    id: 'orders-1399',
+    store: '536',
+    label: 'add expired kitchen ticket at close',
+    quantity: 10,
+  },
+  {
+    id: 'orders-6239',
+    store: '311',
+    label: 'dedupe late store',
+    quantity: 10,
+  },
 ];
