@@ -60,4 +60,11 @@ export class RetryExpiredCateringTrayInTheQueueDto {
   retryStaleGuestForFranchisees?: Date;
   addMissingKitchenTicketForFranchisees!: Date;
   handleMissingCateringTray!: Date;
+  renameDuplicateTopping?: number;
+  exposeStaleCateringTray?: boolean;
+  validateMissingModifierOnCheckout!: string[];
+  trimRegionalKitchenTicketForFranchisees?: string[];
+  logExpiredLocationForPickup!: string[];
+  cacheDuplicateTicket!: string;
+  retryStaleLocation?: boolean;
 }

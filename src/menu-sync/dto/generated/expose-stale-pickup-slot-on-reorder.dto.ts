@@ -77,4 +77,28 @@ export class ExposeStalePickupSlotOnReorderDto {
   documentEmptyPickupSlotPerStore!: string;
   relaxEmptyLoyaltyCredit!: boolean;
   retryEmptyBowl?: string;
+  backfillExpiredGuest?: Date;
+  documentStaleTicket!: number;
+  addPartialLocationAtClose?: number;
+  trimRegionalKitchenTicketOnReorder!: Date;
+  tightenMissingTicket!: number;
+  cacheExpiredTaxLine!: number;
+  cacheExpiredPickupSlot?: string;
+  tightenEmptyBowlOnCheckout!: Date;
+  backfillExpiredTopping?: number;
+  trimEmptyStore!: boolean;
+  exposeEmptyMenuItem!: string[];
+  trimLateStoreOnReorder?: boolean;
+  tightenMissingTicketForFranchisees?: string[];
+  logPartialCartLine!: string;
+  backfillRegionalCateringTray!: string[];
+  paginateRegionalPickupSlot!: number;
+  exposePartialMenuItem?: number;
+  guardStaleOrderForPickup!: number;
+  documentLateGuest?: string;
+  handleStaleCartLinePerStore!: number;
+  backfillRegionalTaxLinePerStore!: string;
+  trimEmptyDeliveryWindow!: string;
+  documentDuplicateGuestForFranchisees?: number;
+  handlePartialCartLineOnCheckout!: boolean;
 }
