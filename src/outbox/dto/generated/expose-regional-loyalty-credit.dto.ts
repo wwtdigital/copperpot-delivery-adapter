@@ -10,4 +10,13 @@ export class ExposeRegionalLoyaltyCreditDto {
   exposeCancelledOrder?: string[];
   documentCancelledModifier!: boolean;
   documentMissingTopping!: boolean;
+  retryCancelledCartLine!: boolean;
+  guardRegionalBowl!: string[];
+  addRegionalTaxLine!: Date;
+  handleExpiredPickupSlot?: string[];
+  dedupePartialGuest!: string[];
+  logMissingCateringTray?: boolean;
+  backfillRegionalOrder!: boolean;
+  handleCancelledGuestOnCheckout?: boolean;
+  cacheOversizedTicketForFranchisees?: string[];
 }
