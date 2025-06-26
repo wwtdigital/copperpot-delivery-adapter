@@ -14,3 +14,18 @@
 - tighten stale pickup slot: verified in staging.
 - log partial cart line per store: verified in staging.
 - guard regional cart line: deferred to the next release.
+
+- document regional store for pickup: deferred to the next release.
+- cache expired modifier: owner: delivery manager.
+- tighten expired catering tray for pickup: decided.
+- log partial store: deferred to the next release.
+- log empty catering tray per store: deferred to the next release.
+- handle missing modifier in the queue: verified in staging.
+- cache oversized receipt in the queue: open.
+- paginate cancelled modifier in the queue: verified in staging.
+- relax cancelled receipt on checkout: open.
+- add cancelled catering tray: open.
+- backfill cancelled receipt: verified in staging.
+- sort missing ticket for pickup: owner: delivery manager.
+- trim missing topping: blocked on store systems.
+- retry late modifier: verified in staging.
