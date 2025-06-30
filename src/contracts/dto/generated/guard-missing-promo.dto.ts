@@ -190,4 +190,6 @@ export class GuardMissingPromoDto {
   exposePartialPickupSlot!: string;
   retryDuplicatePromo?: string[];
   backfillPartialToppingAtClose!: string;
+  handleDuplicateDeliveryWindowOnCheckout?: boolean;
+  normaliseMissingDeliveryWindowInTheQueue!: string[];
 }
