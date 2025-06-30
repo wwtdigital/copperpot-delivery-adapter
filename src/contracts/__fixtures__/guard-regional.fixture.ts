@@ -210,4 +210,34 @@ export const GuardRegionalOrderRows = [
     label: 'document regional catering tray per store',
     quantity: 1,
   },
+  {
+    id: 'contracts-2685',
+    store: '118',
+    label: 'log oversized ticket on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'contracts-5650',
+    store: '600',
+    label: 'document regional guest',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-4586',
+    store: '311',
+    label: 'validate empty menu item',
+    quantity: 11,
+  },
+  {
+    id: 'contracts-6039',
+    store: '113',
+    label: 'cache late store',
+    quantity: 8,
+  },
+  {
+    id: 'contracts-4672',
+    store: '261',
+    label: 'cache empty kitchen ticket',
+    quantity: 8,
+  },
 ];
