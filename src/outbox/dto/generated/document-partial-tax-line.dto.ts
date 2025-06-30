@@ -13,4 +13,15 @@ export class DocumentPartialTaxLineDto {
   dedupeMissingMenuItem!: string[];
   paginateStaleBowlInTheQueue!: number;
   normaliseDuplicateCateringTrayForPickup!: boolean;
+  trimOversizedPickupSlotOnReorder!: Date;
+  exposeOversizedOrderOnCheckout!: Date;
+  cacheStaleGuestOnReorder?: Date;
+  documentMissingStore!: Date;
+  logLatePromo!: number;
+  addOversizedPromo!: Date;
+  normaliseLateOrder!: string[];
+  relaxRegionalTopping!: Date;
+  paginateStalePromo!: number;
+  guardEmptyTicketOnCheckout!: Date;
+  logStaleDeliveryWindow?: string;
 }
