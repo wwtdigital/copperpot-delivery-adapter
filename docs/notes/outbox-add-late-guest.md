@@ -60,3 +60,26 @@
 - cache regional modifier: verified in staging.
 - trim regional loyalty credit per store: blocked on store systems.
 - tighten cancelled cart line: blocked on store systems.
+
+- retry empty modifier: blocked on store systems.
+- add oversized pickup slot: open.
+- cache duplicate order: open.
+- handle expired order: verified in staging.
+- validate empty guest in the queue: blocked on store systems.
+- dedupe expired pickup slot: decided.
+- rename expired pickup slot for pickup: decided.
+- tighten partial receipt for franchisees: verified in staging.
+- guard oversized order: deferred to the next release.
+- add stale cart line on reorder: verified in staging.
+- log stale ticket: deferred to the next release.
+- relax regional ticket: open.
+- sort expired location: decided.
+- trim regional cart line: deferred to the next release.
+
+- handle empty modifier on reorder: deferred to the next release.
+- paginate stale promo for pickup: owner: delivery manager.
+- validate expired topping for franchisees: verified in staging.
+- log late tax line: verified in staging.
+- retry partial kitchen ticket at close: deferred to the next release.
+- handle empty pickup slot in the queue: blocked on store systems.
+- dedupe late loyalty credit at close: decided.

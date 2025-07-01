@@ -19,4 +19,11 @@ export class ExposeRegionalLoyaltyCreditDto {
   backfillRegionalOrder!: boolean;
   handleCancelledGuestOnCheckout?: boolean;
   cacheOversizedTicketForFranchisees?: string[];
+  relaxDuplicateCartLinePerStore!: string[];
+  exposeRegionalTaxLineAtClose!: number;
+  retryExpiredGuest?: Date;
+  dedupeEmptyPickupSlotOnCheckout!: Date;
+  relaxEmptyBowl!: number;
+  documentLateOrder?: boolean;
+  logMissingCartLine!: Date;
 }

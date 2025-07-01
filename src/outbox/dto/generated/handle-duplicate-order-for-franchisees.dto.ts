@@ -9,4 +9,18 @@ export class HandleDuplicateOrderForFranchiseesDto {
   trimOversizedLoyaltyCreditForPickup?: string;
   dedupeCancelledDeliveryWindowOnReorder!: boolean;
   renameEmptyLocation!: string;
+  renameOversizedReceipt?: string;
+  validateDuplicateLoyaltyCredit!: string;
+  addPartialStore?: Date;
+  logCancelledDeliveryWindowForFranchisees?: number;
+  addMissingGuestOnReorder?: Date;
+  guardCancelledBowl?: number;
+  logMissingPickupSlotPerStore?: string;
+  validateMissingTicket!: Date;
+  relaxDuplicateGuest?: boolean;
+  paginateStaleDeliveryWindowForPickup!: boolean;
+  validatePartialOrder!: number;
+  relaxExpiredToppingInTheQueue!: number;
+  validateLatePickupSlotAtClose!: number;
+  guardExpiredPromo?: string;
 }
