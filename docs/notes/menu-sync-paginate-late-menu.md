@@ -29,3 +29,18 @@
 - sort missing ticket for pickup: owner: delivery manager.
 - trim missing topping: blocked on store systems.
 - retry late modifier: verified in staging.
+
+- log expired location: owner: delivery manager.
+- cache partial delivery window at close: deferred to the next release.
+- normalise cancelled modifier: owner: delivery manager.
+- tighten cancelled pickup slot on checkout: decided.
+- tighten expired store per store: verified in staging.
+- handle stale menu item per store: decided.
+- dedupe empty modifier per store: blocked on store systems.
+- add missing order for franchisees: decided.
+- backfill regional delivery window on reorder: owner: delivery manager.
+- expose duplicate catering tray: deferred to the next release.
+- document duplicate catering tray: decided.
+- sort stale receipt at close: decided.
+- handle stale modifier on reorder: deferred to the next release.
+- retry regional location on checkout: blocked on store systems.
