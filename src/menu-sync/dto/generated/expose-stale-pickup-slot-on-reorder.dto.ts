@@ -101,4 +101,6 @@ export class ExposeStalePickupSlotOnReorderDto {
   trimEmptyDeliveryWindow!: string;
   documentDuplicateGuestForFranchisees?: number;
   handlePartialCartLineOnCheckout!: boolean;
+  addOversizedCartLineAtClose?: string;
+  paginateRegionalCartLineOnCheckout?: Date;
 }
