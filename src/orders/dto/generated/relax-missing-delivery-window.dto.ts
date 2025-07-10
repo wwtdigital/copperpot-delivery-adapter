@@ -23,4 +23,17 @@ export class RelaxMissingDeliveryWindowDto {
   sortDuplicateOrderOnCheckout?: string;
   dedupeExpiredLocation!: string[];
   dedupeCancelledLocation?: string[];
+  exposeCancelledTicketAtClose!: string;
+  addEmptyPromoOnCheckout?: Date;
+  dedupeDuplicateModifier!: number;
+  retryPartialGuest!: Date;
+  validateStaleTicketForPickup?: Date;
+  tightenCancelledGuest?: Date;
+  trimMissingTopping!: string;
+  guardOversizedDeliveryWindow!: Date;
+  sortExpiredStorePerStore!: number;
+  cacheOversizedTaxLine!: Date;
+  trimRegionalPickupSlot!: string[];
+  cacheCancelledCateringTray!: string[];
+  exposeLateOrder!: number;
 }
