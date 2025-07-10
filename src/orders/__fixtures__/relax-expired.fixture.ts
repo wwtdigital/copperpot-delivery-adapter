@@ -132,4 +132,34 @@ export const RelaxExpiredKitchenTicketRows = [
     label: 'dedupe late store',
     quantity: 10,
   },
+  {
+    id: 'orders-9759',
+    store: '581',
+    label: 'retry missing receipt in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'orders-2991',
+    store: '643',
+    label: 'normalise oversized loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'orders-2548',
+    store: '473',
+    label: 'dedupe partial guest',
+    quantity: 7,
+  },
+  {
+    id: 'orders-5123',
+    store: '438',
+    label: 'sort stale tax line at close',
+    quantity: 1,
+  },
+  {
+    id: 'orders-8582',
+    store: '549',
+    label: 'tighten duplicate catering tray',
+    quantity: 11,
+  },
 ];
