@@ -317,3 +317,18 @@
 - guard duplicate cart line: verified in staging.
 - retry regional kitchen ticket at close: decided.
 - relax expired promo: deferred to the next release.
+
+- tighten duplicate delivery window: open.
+- expose partial guest: verified in staging.
+- tighten oversized menu item: open.
+- handle missing bowl: decided.
+- cache missing topping at close: open.
+- normalise empty location for pickup: blocked on store systems.
+- sort duplicate order: open.
+- backfill expired receipt: decided.
+- sort empty loyalty credit on reorder: open.
+- paginate missing tax line: decided.
+- tighten oversized bowl: verified in staging.
+- add regional location: deferred to the next release.
+- relax stale guest for franchisees: decided.
+- rename duplicate pickup slot in the queue: decided.
