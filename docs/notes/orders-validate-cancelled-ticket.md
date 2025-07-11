@@ -103,3 +103,7 @@
 - dedupe empty ticket: deferred to the next release.
 - backfill duplicate bowl: verified in staging.
 - rename oversized receipt: decided.
+
+- sort stale delivery window per store: decided.
+- validate cancelled tax line: decided.
+- rename stale order: decided.
