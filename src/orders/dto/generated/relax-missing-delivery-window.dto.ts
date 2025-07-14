@@ -36,4 +36,18 @@ export class RelaxMissingDeliveryWindowDto {
   trimRegionalPickupSlot!: string[];
   cacheCancelledCateringTray!: string[];
   exposeLateOrder!: number;
+  trimRegionalKitchenTicketForPickup?: boolean;
+  renameStalePickupSlot!: string;
+  tightenLateDeliveryWindow?: string;
+  cacheRegionalPromo!: Date;
+  cachePartialGuest!: number;
+  retryLatePickupSlot!: Date;
+  renameStaleModifier?: string;
+  documentPartialBowl!: number;
+  relaxOversizedTopping?: string;
+  dedupeExpiredDeliveryWindow!: string;
+  trimDuplicateBowl?: number;
+  documentOversizedKitchenTicketInTheQueue!: number;
+  exposeRegionalGuestAtClose!: string;
+  trimLateGuest!: boolean;
 }

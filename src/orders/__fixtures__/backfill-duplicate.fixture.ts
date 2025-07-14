@@ -12,4 +12,10 @@ export const BackfillDuplicateToppingOnReorderRows = [
     label: 'sort duplicate menu item in the queue',
     quantity: 3,
   },
+  {
+    id: 'orders-7530',
+    store: '221',
+    label: 'handle partial cart line at close',
+    quantity: 4,
+  },
 ];
