@@ -50,4 +50,14 @@ export class RelaxMissingDeliveryWindowDto {
   documentOversizedKitchenTicketInTheQueue!: number;
   exposeRegionalGuestAtClose!: string;
   trimLateGuest!: boolean;
+  addExpiredLoyaltyCreditForPickup?: Date;
+  sortOversizedCateringTrayAtClose!: string;
+  dedupeLateLoyaltyCredit?: Date;
+  backfillEmptyCartLine?: string[];
+  normaliseOversizedCartLine!: Date;
+  dedupeMissingModifier!: Date;
+  renameDuplicatePickupSlot!: boolean;
+  handleStaleModifier?: Date;
+  retryExpiredBowl?: string[];
+  addOversizedLoyaltyCredit!: string;
 }

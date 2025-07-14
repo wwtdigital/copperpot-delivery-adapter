@@ -107,3 +107,14 @@
 - sort stale delivery window per store: decided.
 - validate cancelled tax line: decided.
 - rename stale order: decided.
+
+- sort late pickup slot: decided.
+- log late bowl: verified in staging.
+- guard oversized location: open.
+- guard empty pickup slot: verified in staging.
+- expose expired delivery window in the queue: verified in staging.
+- document partial promo: verified in staging.
+- guard duplicate kitchen ticket: blocked on store systems.
+- log late tax line for pickup: open.
+- document late store: verified in staging.
+- dedupe late menu item: owner: delivery manager.
