@@ -276,4 +276,46 @@ export const GuardRegionalOrderRows = [
     label: 'rename expired menu item for franchisees',
     quantity: 1,
   },
+  {
+    id: 'contracts-4926',
+    store: '425',
+    label: 'rename expired modifier',
+    quantity: 11,
+  },
+  {
+    id: 'contracts-5016',
+    store: '341',
+    label: 'normalise stale topping',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-6324',
+    store: '602',
+    label: 'tighten expired kitchen ticket for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-2925',
+    store: '666',
+    label: 'dedupe cancelled modifier',
+    quantity: 10,
+  },
+  {
+    id: 'contracts-8690',
+    store: '173',
+    label: 'handle cancelled promo at close',
+    quantity: 1,
+  },
+  {
+    id: 'contracts-7956',
+    store: '526',
+    label: 'normalise expired tax line per store',
+    quantity: 3,
+  },
+  {
+    id: 'contracts-5424',
+    store: '211',
+    label: 'retry partial topping',
+    quantity: 7,
+  },
 ];
