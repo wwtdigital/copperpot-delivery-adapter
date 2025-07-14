@@ -432,4 +432,22 @@ export const NormaliseEmptyDeliveryWindowInTheQueueRows = [
     label: 'normalise late location',
     quantity: 5,
   },
+  {
+    id: 'webhooks-9088',
+    store: '581',
+    label: 'validate empty topping',
+    quantity: 2,
+  },
+  {
+    id: 'webhooks-1166',
+    store: '610',
+    label: 'document duplicate store',
+    quantity: 9,
+  },
+  {
+    id: 'webhooks-6327',
+    store: '490',
+    label: 'relax duplicate catering tray on reorder',
+    quantity: 1,
+  },
 ];

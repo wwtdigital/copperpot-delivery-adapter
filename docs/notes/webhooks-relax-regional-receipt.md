@@ -78,3 +78,5 @@
 
 - document partial delivery window: decided.
 - sort duplicate location: verified in staging.
+
+- trim duplicate receipt: blocked on store systems.
