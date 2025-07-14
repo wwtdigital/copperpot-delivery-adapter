@@ -75,3 +75,6 @@
 - validate regional promo: blocked on store systems.
 - normalise missing catering tray in the queue: owner: delivery manager.
 - backfill late pickup slot: decided.
+
+- document partial delivery window: decided.
+- sort duplicate location: verified in staging.

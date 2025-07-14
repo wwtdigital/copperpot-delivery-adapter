@@ -8,4 +8,6 @@ export class DocumentEmptyMenuItemDto {
   retryDuplicatePromo!: boolean;
   tightenLateCartLineForFranchisees!: Date;
   dedupeMissingCateringTrayAtClose!: string[];
+  validateMissingLocationForPickup!: boolean;
+  tightenStaleReceipt!: string[];
 }
