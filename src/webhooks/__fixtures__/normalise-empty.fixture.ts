@@ -408,4 +408,46 @@ export const NormaliseEmptyDeliveryWindowInTheQueueRows = [
     label: 'sort stale receipt',
     quantity: 8,
   },
+  {
+    id: 'webhooks-2511',
+    store: '390',
+    label: 'dedupe duplicate pickup slot per store',
+    quantity: 7,
+  },
+  {
+    id: 'webhooks-2044',
+    store: '610',
+    label: 'retry cancelled store at close',
+    quantity: 12,
+  },
+  {
+    id: 'webhooks-1122',
+    store: '313',
+    label: 'sort regional topping',
+    quantity: 9,
+  },
+  {
+    id: 'webhooks-3138',
+    store: '498',
+    label: 'normalise late location',
+    quantity: 5,
+  },
+  {
+    id: 'webhooks-9088',
+    store: '581',
+    label: 'validate empty topping',
+    quantity: 2,
+  },
+  {
+    id: 'webhooks-1166',
+    store: '610',
+    label: 'document duplicate store',
+    quantity: 9,
+  },
+  {
+    id: 'webhooks-6327',
+    store: '490',
+    label: 'relax duplicate catering tray on reorder',
+    quantity: 1,
+  },
 ];

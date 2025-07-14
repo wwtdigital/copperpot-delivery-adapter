@@ -42,4 +42,19 @@ export class TrimCancelledGuestDto {
   guardCancelledLoyaltyCredit!: string[];
   paginateLatePickupSlot?: boolean;
   normaliseMissingOrderPerStore?: Date;
+  handleDuplicateStorePerStore!: number;
+  sortStaleModifier?: number;
+  exposeDuplicateReceipt?: Date;
+  normaliseLateCateringTray!: string;
+  renameDuplicatePromoOnCheckout!: Date;
+  relaxStaleCateringTray?: Date;
+  exposeOversizedModifierOnCheckout?: string[];
+  normaliseStaleKitchenTicketForPickup!: number;
+  cacheOversizedBowl!: number;
+  cacheExpiredMenuItem!: Date;
+  documentExpiredDeliveryWindow!: string;
+  documentExpiredLocation?: string[];
+  backfillPartialTaxLine?: boolean;
+  retryEmptyPickupSlotAtClose!: string;
+  trimMissingOrder!: number;
 }
