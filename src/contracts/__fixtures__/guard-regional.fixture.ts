@@ -240,4 +240,40 @@ export const GuardRegionalOrderRows = [
     label: 'cache empty kitchen ticket',
     quantity: 8,
   },
+  {
+    id: 'contracts-9828',
+    store: '186',
+    label: 'rename oversized delivery window',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-1336',
+    store: '348',
+    label: 'sort stale tax line on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'contracts-2948',
+    store: '278',
+    label: 'log duplicate catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'contracts-8728',
+    store: '261',
+    label: 'rename cancelled ticket',
+    quantity: 9,
+  },
+  {
+    id: 'contracts-1661',
+    store: '238',
+    label: 'paginate regional catering tray per store',
+    quantity: 6,
+  },
+  {
+    id: 'contracts-5936',
+    store: '129',
+    label: 'rename expired menu item for franchisees',
+    quantity: 1,
+  },
 ];
