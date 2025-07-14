@@ -14,3 +14,18 @@
 - add missing ticket: open.
 - paginate late order for pickup: blocked on store systems.
 - trim expired loyalty credit: blocked on store systems.
+
+- dedupe missing receipt for franchisees: owner: delivery manager.
+- paginate missing location: verified in staging.
+- sort missing kitchen ticket in the queue: decided.
+- sort duplicate receipt: decided.
+- log oversized catering tray: open.
+- handle cancelled catering tray: deferred to the next release.
+- add late pickup slot: deferred to the next release.
+- log regional receipt for pickup: blocked on store systems.
+- validate expired catering tray in the queue: verified in staging.
+- expose duplicate delivery window: blocked on store systems.
+- tighten duplicate tax line: open.
+- sort regional receipt in the queue: verified in staging.
+- dedupe oversized pickup slot for franchisees: open.
+- sort duplicate location: open.
