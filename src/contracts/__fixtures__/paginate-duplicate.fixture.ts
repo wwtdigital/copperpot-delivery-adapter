@@ -336,4 +336,10 @@ export const PaginateDuplicatePickupSlotPerStoreRows = [
     label: 'backfill duplicate topping',
     quantity: 5,
   },
+  {
+    id: 'contracts-6562',
+    store: '490',
+    label: 'tighten oversized promo per store',
+    quantity: 10,
+  },
 ];
