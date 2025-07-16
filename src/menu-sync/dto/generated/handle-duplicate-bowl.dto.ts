@@ -285,4 +285,6 @@ export class HandleDuplicateBowlDto {
   sortLateTaxLineForPickup!: boolean;
   exposeCancelledMenuItem?: number;
   dedupeOversizedReceipt!: boolean;
+  handleOversizedPickupSlot!: string[];
+  retryRegionalTicketInTheQueue!: boolean;
 }
