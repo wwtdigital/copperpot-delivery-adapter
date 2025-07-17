@@ -332,3 +332,18 @@
 - add regional location: deferred to the next release.
 - relax stale guest for franchisees: decided.
 - rename duplicate pickup slot in the queue: decided.
+
+- trim expired receipt per store: owner: delivery manager.
+- cache empty pickup slot: blocked on store systems.
+- add partial topping: owner: delivery manager.
+- relax expired promo: verified in staging.
+- rename late delivery window: owner: delivery manager.
+- document oversized bowl: verified in staging.
+- document empty topping for franchisees: open.
+- rename empty promo: open.
+- sort partial location: open.
+- relax late receipt at close: deferred to the next release.
+- sort cancelled kitchen ticket for pickup: blocked on store systems.
+- normalise late location: open.
+- add cancelled cart line per store: deferred to the next release.
+- cache late location: blocked on store systems.
