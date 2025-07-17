@@ -318,4 +318,34 @@ export const GuardRegionalOrderRows = [
     label: 'retry partial topping',
     quantity: 7,
   },
+  {
+    id: 'contracts-6781',
+    store: '440',
+    label: 'paginate regional loyalty credit in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'contracts-9488',
+    store: '202',
+    label: 'relax empty delivery window at close',
+    quantity: 6,
+  },
+  {
+    id: 'contracts-2009',
+    store: '446',
+    label: 'add cancelled menu item',
+    quantity: 1,
+  },
+  {
+    id: 'contracts-1274',
+    store: '500',
+    label: 'relax cancelled pickup slot',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-2739',
+    store: '664',
+    label: 'relax cancelled modifier',
+    quantity: 5,
+  },
 ];

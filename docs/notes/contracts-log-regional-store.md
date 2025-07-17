@@ -148,3 +148,18 @@
 - relax late store: verified in staging.
 - relax duplicate kitchen ticket: decided.
 - normalise missing pickup slot for franchisees: verified in staging.
+
+- log partial delivery window at close: deferred to the next release.
+- retry missing delivery window: decided.
+- normalise regional promo: blocked on store systems.
+- normalise regional catering tray on reorder: blocked on store systems.
+- handle duplicate bowl in the queue: deferred to the next release.
+- backfill oversized guest in the queue: blocked on store systems.
+- add missing cart line: verified in staging.
+- relax empty receipt per store: blocked on store systems.
+- retry stale promo: open.
+- sort duplicate modifier for franchisees: blocked on store systems.
+- paginate duplicate menu item: deferred to the next release.
+- handle partial delivery window: deferred to the next release.
+- handle partial tax line in the queue: decided.
+- rename partial loyalty credit: decided.

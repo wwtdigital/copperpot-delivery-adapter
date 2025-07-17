@@ -1,0 +1,27 @@
+/* TightenExpiredPromoDto: shape for tighten expired promo. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class TightenExpiredPromoDto {
+  sortStaleReceipt!: string[];
+  trimOversizedToppingInTheQueue!: Date;
+  exposePartialLocationOnCheckout?: string;
+  addStaleOrder!: Date;
+  tightenDuplicateKitchenTicket!: number;
+  dedupeLateGuest!: string[];
+  logPartialDeliveryWindow?: Date;
+  tightenMissingDeliveryWindowOnCheckout!: Date;
+  trimMissingToppingPerStore?: string[];
+  handleOversizedGuest!: string[];
+  backfillStaleReceipt?: Date;
+  logOversizedGuest?: string;
+  paginateOversizedTaxLine!: boolean;
+  handleMissingReceipt?: string;
+  relaxDuplicateToppingOnReorder?: string[];
+  cachePartialTopping!: string;
+  paginateEmptyModifierAtClose?: boolean;
+  normaliseOversizedMenuItemAtClose!: Date;
+  sortDuplicatePickupSlot!: number;
+  tightenMissingReceiptOnCheckout?: string;
+  guardStaleToppingOnCheckout!: Date;
+  dedupeCancelledTaxLineInTheQueue!: string;
+  logMissingTicket!: string[];
+  cacheRegionalTaxLine?: number;
+}

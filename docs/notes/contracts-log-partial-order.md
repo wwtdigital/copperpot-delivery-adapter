@@ -35,3 +35,18 @@
 - expose empty store: owner: delivery manager.
 - rename oversized pickup slot at close: owner: delivery manager.
 - normalise late modifier in the queue: open.
+
+- retry stale store per store: decided.
+- trim empty loyalty credit at close: deferred to the next release.
+- backfill missing modifier: decided.
+- handle missing menu item for franchisees: blocked on store systems.
+- cache late receipt on reorder: open.
+- dedupe stale pickup slot per store: verified in staging.
+- add cancelled pickup slot: open.
+- backfill late receipt: decided.
+- rename late catering tray on reorder: owner: delivery manager.
+- add late order: blocked on store systems.
+- validate regional modifier for franchisees: owner: delivery manager.
+- cache late receipt on checkout: owner: delivery manager.
+- validate oversized delivery window: decided.
+- paginate expired kitchen ticket for pickup: owner: delivery manager.
