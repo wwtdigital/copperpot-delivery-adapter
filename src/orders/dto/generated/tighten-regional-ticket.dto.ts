@@ -15,4 +15,28 @@ export class TightenRegionalTicketDto {
   paginatePartialTaxLineInTheQueue!: string[];
   cacheLateOrder?: string[];
   validateOversizedKitchenTicket!: Date;
+  backfillPartialPromo!: number;
+  tightenStaleStore?: Date;
+  renameMissingLoyaltyCredit!: Date;
+  normaliseEmptyStoreForPickup!: string[];
+  exposeLateDeliveryWindow?: string;
+  trimPartialTaxLineForPickup!: number;
+  handleEmptyPickupSlot!: string[];
+  dedupeExpiredTaxLineForPickup!: string;
+  trimCancelledOrder?: string[];
+  guardDuplicatePickupSlotOnCheckout!: Date;
+  addEmptyLocation!: Date;
+  guardOversizedTaxLine!: Date;
+  validateRegionalTicket!: string;
+  addExpiredLoyaltyCreditForFranchisees?: boolean;
+  exposeCancelledPickupSlot?: string;
+  backfillMissingMenuItem?: Date;
+  validatePartialOrderAtClose!: Date;
+  handleRegionalTaxLine?: string;
+  paginateLateMenuItem?: boolean;
+  normaliseMissingCartLine!: Date;
+  paginateEmptyPromo!: Date;
+  tightenRegionalMenuItemAtClose!: number;
+  guardExpiredLocationAtClose?: number;
+  backfillEmptyPromoOnCheckout!: number;
 }
