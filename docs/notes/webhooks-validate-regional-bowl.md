@@ -14,3 +14,6 @@
 - log partial cart line in the queue: decided.
 - document missing tax line at close: open.
 - normalise partial kitchen ticket: decided.
+
+- backfill expired location on reorder: blocked on store systems.
+- sort late loyalty credit: deferred to the next release.
