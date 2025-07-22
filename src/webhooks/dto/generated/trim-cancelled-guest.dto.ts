@@ -57,4 +57,17 @@ export class TrimCancelledGuestDto {
   backfillPartialTaxLine?: boolean;
   retryEmptyPickupSlotAtClose!: string;
   trimMissingOrder!: number;
+  documentLatePickupSlot!: string[];
+  trimLateTicketOnCheckout?: string[];
+  dedupeLatePickupSlotPerStore!: boolean;
+  renameExpiredGuest?: string[];
+  trimCancelledTicketOnCheckout!: number;
+  addExpiredPickupSlotInTheQueue!: boolean;
+  normaliseDuplicateBowlOnReorder!: string[];
+  addCancelledTaxLine?: string;
+  trimEmptyPromoAtClose?: boolean;
+  tightenLateTaxLine?: Date;
+  tightenOversizedOrder!: number;
+  cacheDuplicateToppingForPickup!: number;
+  tightenDuplicateKitchenTicket!: boolean;
 }

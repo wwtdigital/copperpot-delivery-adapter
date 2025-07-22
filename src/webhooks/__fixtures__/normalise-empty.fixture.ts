@@ -450,4 +450,16 @@ export const NormaliseEmptyDeliveryWindowInTheQueueRows = [
     label: 'relax duplicate catering tray on reorder',
     quantity: 1,
   },
+  {
+    id: 'webhooks-1276',
+    store: '305',
+    label: 'expose expired loyalty credit',
+    quantity: 3,
+  },
+  {
+    id: 'webhooks-1915',
+    store: '557',
+    label: 'handle cancelled location in the queue',
+    quantity: 3,
+  },
 ];
