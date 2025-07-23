@@ -56,3 +56,18 @@
 - add stale cart line per store: blocked on store systems.
 - cache cancelled cart line: deferred to the next release.
 - log expired order: decided.
+
+- normalise oversized loyalty credit: blocked on store systems.
+- log cancelled pickup slot: owner: delivery manager.
+- backfill empty cart line per store: verified in staging.
+- paginate late promo per store: blocked on store systems.
+- dedupe stale topping at close: deferred to the next release.
+- document oversized bowl: owner: delivery manager.
+- normalise stale guest on reorder: owner: delivery manager.
+- backfill empty catering tray: deferred to the next release.
+- cache missing guest in the queue: open.
+- normalise cancelled receipt: open.
+- expose partial ticket in the queue: open.
+- tighten expired location: open.
+- relax oversized pickup slot at close: decided.
+- trim regional pickup slot in the queue: decided.

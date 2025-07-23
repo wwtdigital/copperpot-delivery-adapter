@@ -163,3 +163,18 @@
 - handle partial delivery window: deferred to the next release.
 - handle partial tax line in the queue: decided.
 - rename partial loyalty credit: decided.
+
+- rename oversized cart line in the queue: decided.
+- sort regional store: decided.
+- guard missing catering tray: verified in staging.
+- add duplicate delivery window for franchisees: open.
+- expose missing bowl on checkout: owner: delivery manager.
+- tighten cancelled order: verified in staging.
+- dedupe empty loyalty credit at close: blocked on store systems.
+- handle cancelled pickup slot for pickup: owner: delivery manager.
+- rename partial cart line: open.
+- sort duplicate cart line on reorder: open.
+- document partial modifier: verified in staging.
+- handle regional guest: deferred to the next release.
+- rename oversized pickup slot: verified in staging.
+- normalise partial order for franchisees: verified in staging.
