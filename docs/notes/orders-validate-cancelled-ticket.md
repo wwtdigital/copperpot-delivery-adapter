@@ -118,3 +118,18 @@
 - log late tax line for pickup: open.
 - document late store: verified in staging.
 - dedupe late menu item: owner: delivery manager.
+
+- rename late pickup slot on checkout: owner: delivery manager.
+- add duplicate tax line: deferred to the next release.
+- dedupe oversized bowl in the queue: verified in staging.
+- backfill cancelled delivery window on reorder: decided.
+- add oversized kitchen ticket: blocked on store systems.
+- cache late store: blocked on store systems.
+- rename cancelled modifier: deferred to the next release.
+- add late order: open.
+- dedupe regional order: verified in staging.
+- relax oversized receipt: owner: delivery manager.
+- cache oversized store: verified in staging.
+- sort partial kitchen ticket on checkout: verified in staging.
+- cache expired topping: decided.
+- expose cancelled catering tray in the queue: open.

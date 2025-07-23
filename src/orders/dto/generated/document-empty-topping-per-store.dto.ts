@@ -6,4 +6,6 @@ export class DocumentEmptyToppingPerStoreDto {
   retryRegionalStore?: boolean;
   addDuplicateKitchenTicketForPickup!: string;
   trimPartialPickupSlotForFranchisees?: string[];
+  documentPartialDeliveryWindow!: Date;
+  paginateEmptyLocation!: string;
 }

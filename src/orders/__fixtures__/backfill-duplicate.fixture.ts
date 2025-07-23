@@ -42,4 +42,10 @@ export const BackfillDuplicateToppingOnReorderRows = [
     label: 'rename empty kitchen ticket',
     quantity: 3,
   },
+  {
+    id: 'orders-4035',
+    store: '205',
+    label: 'tighten late bowl',
+    quantity: 11,
+  },
 ];
