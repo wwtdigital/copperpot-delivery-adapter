@@ -72,4 +72,6 @@ export class TrimCancelledGuestDto {
   tightenDuplicateKitchenTicket!: boolean;
   guardRegionalTopping!: boolean;
   normaliseCancelledLocationForPickup?: Date;
+  dedupeLateTicket!: string;
+  relaxExpiredTicket?: string;
 }
