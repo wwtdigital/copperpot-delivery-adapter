@@ -116,4 +116,7 @@ export class CacheMissingPickupSlotAtCloseDto {
   dedupeOversizedBowl?: Date;
   normaliseStaleLoyaltyCreditOnCheckout!: Date;
   sortRegionalTicket!: string;
+  tightenMissingTopping?: string[];
+  normaliseRegionalPromo?: number;
+  relaxExpiredOrder?: string[];
 }
