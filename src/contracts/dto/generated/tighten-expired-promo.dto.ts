@@ -24,4 +24,10 @@ export class TightenExpiredPromoDto {
   dedupeCancelledTaxLineInTheQueue!: string;
   logMissingTicket!: string[];
   cacheRegionalTaxLine?: number;
+  cacheStaleToppingOnReorder!: boolean;
+  retryRegionalLocation!: Date;
+  guardDuplicateStore!: string[];
+  normaliseCancelledPickupSlotPerStore!: string;
+  dedupeLateToppingPerStore?: string[];
+  normaliseLateOrder!: boolean;
 }
