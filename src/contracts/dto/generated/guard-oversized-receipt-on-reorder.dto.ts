@@ -10,4 +10,19 @@ export class GuardOversizedReceiptOnReorderDto {
   paginateExpiredOrderForFranchisees!: number;
   handleOversizedTopping!: string;
   sortExpiredReceiptForFranchisees!: boolean;
+  validateDuplicateTicketForPickup?: string;
+  addExpiredModifier!: number;
+  relaxOversizedTicket?: Date;
+  renameStalePromo?: number;
+  trimExpiredModifier!: string;
+  paginateRegionalModifierForFranchisees!: boolean;
+  trimOversizedGuest!: string[];
+  dedupeStaleTicket!: Date;
+  tightenCancelledGuest!: number;
+  exposePartialStoreAtClose!: string[];
+  addOversizedDeliveryWindow!: string;
+  trimRegionalReceipt!: string;
+  normaliseLateModifierForPickup!: string;
+  sortCancelledModifier!: boolean;
+  renameCancelledCateringTrayAtClose!: boolean;
 }
