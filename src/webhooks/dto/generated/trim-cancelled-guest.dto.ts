@@ -70,4 +70,8 @@ export class TrimCancelledGuestDto {
   tightenOversizedOrder!: number;
   cacheDuplicateToppingForPickup!: number;
   tightenDuplicateKitchenTicket!: boolean;
+  guardRegionalTopping!: boolean;
+  normaliseCancelledLocationForPickup?: Date;
+  dedupeLateTicket!: string;
+  relaxExpiredTicket?: string;
 }

@@ -80,3 +80,48 @@
 - sort duplicate location: verified in staging.
 
 - trim duplicate receipt: blocked on store systems.
+
+- add expired location: open.
+- rename cancelled order in the queue: verified in staging.
+- dedupe late receipt on reorder: verified in staging.
+- tighten expired pickup slot: owner: delivery manager.
+- document late modifier at close: open.
+- cache partial tax line at close: open.
+- tighten oversized delivery window for pickup: verified in staging.
+- sort cancelled guest: decided.
+- tighten regional ticket in the queue: decided.
+- expose missing kitchen ticket per store: owner: delivery manager.
+- add late bowl: verified in staging.
+- trim oversized tax line per store: deferred to the next release.
+- sort expired tax line for pickup: blocked on store systems.
+- retry missing modifier for franchisees: decided.
+
+- normalise missing modifier: deferred to the next release.
+- handle partial modifier on checkout: owner: delivery manager.
+- log duplicate bowl: decided.
+- sort expired modifier: blocked on store systems.
+- retry duplicate guest: verified in staging.
+- log oversized delivery window: decided.
+- cache empty delivery window: verified in staging.
+- backfill missing location on reorder: blocked on store systems.
+- paginate regional kitchen ticket: blocked on store systems.
+- trim duplicate tax line for pickup: owner: delivery manager.
+- guard partial receipt: deferred to the next release.
+- validate partial delivery window on checkout: verified in staging.
+- add duplicate kitchen ticket: deferred to the next release.
+- guard empty kitchen ticket: open.
+
+- retry regional loyalty credit: blocked on store systems.
+- relax oversized ticket: verified in staging.
+- dedupe oversized location on reorder: blocked on store systems.
+- expose stale guest in the queue: decided.
+- expose cancelled catering tray in the queue: decided.
+- expose cancelled modifier per store: verified in staging.
+- retry duplicate delivery window on checkout: blocked on store systems.
+- normalise duplicate kitchen ticket on reorder: verified in staging.
+- log expired kitchen ticket: open.
+- sort duplicate cart line for franchisees: blocked on store systems.
+- expose empty ticket: blocked on store systems.
+- guard regional loyalty credit: decided.
+- guard regional location for pickup: open.
+- document stale location: deferred to the next release.
