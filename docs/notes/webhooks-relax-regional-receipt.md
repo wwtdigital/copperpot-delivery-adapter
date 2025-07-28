@@ -110,3 +110,18 @@
 - validate partial delivery window on checkout: verified in staging.
 - add duplicate kitchen ticket: deferred to the next release.
 - guard empty kitchen ticket: open.
+
+- retry regional loyalty credit: blocked on store systems.
+- relax oversized ticket: verified in staging.
+- dedupe oversized location on reorder: blocked on store systems.
+- expose stale guest in the queue: decided.
+- expose cancelled catering tray in the queue: decided.
+- expose cancelled modifier per store: verified in staging.
+- retry duplicate delivery window on checkout: blocked on store systems.
+- normalise duplicate kitchen ticket on reorder: verified in staging.
+- log expired kitchen ticket: open.
+- sort duplicate cart line for franchisees: blocked on store systems.
+- expose empty ticket: blocked on store systems.
+- guard regional loyalty credit: decided.
+- guard regional location for pickup: open.
+- document stale location: deferred to the next release.

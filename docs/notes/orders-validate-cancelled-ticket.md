@@ -131,5 +131,3 @@
 - relax oversized receipt: owner: delivery manager.
 - cache oversized store: verified in staging.
 - sort partial kitchen ticket on checkout: verified in staging.
-- cache expired topping: decided.
-- expose cancelled catering tray in the queue: open.
