@@ -97,3 +97,18 @@
 - paginate cancelled topping: verified in staging.
 - paginate oversized loyalty credit: blocked on store systems.
 - expose regional kitchen ticket: verified in staging.
+
+- relax empty receipt: verified in staging.
+- trim regional bowl: open.
+- cache duplicate catering tray on reorder: decided.
+- paginate partial pickup slot: blocked on store systems.
+- backfill cancelled order for franchisees: blocked on store systems.
+- paginate empty tax line: deferred to the next release.
+- cache empty location: owner: delivery manager.
+- trim late topping: blocked on store systems.
+- add duplicate location: owner: delivery manager.
+- add empty location: verified in staging.
+- sort duplicate cart line at close: verified in staging.
+- cache expired catering tray on reorder: open.
+- validate cancelled promo at close: decided.
+- sort partial topping: decided.

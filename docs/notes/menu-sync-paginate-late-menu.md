@@ -44,3 +44,18 @@
 - sort stale receipt at close: decided.
 - handle stale modifier on reorder: deferred to the next release.
 - retry regional location on checkout: blocked on store systems.
+
+- normalise missing kitchen ticket: verified in staging.
+- guard stale loyalty credit at close: verified in staging.
+- normalise oversized topping: verified in staging.
+- paginate oversized ticket: verified in staging.
+- add expired modifier in the queue: verified in staging.
+- cache late tax line: blocked on store systems.
+- log partial delivery window: decided.
+- log partial cart line: deferred to the next release.
+- sort late ticket: blocked on store systems.
+- rename expired cart line: decided.
+- add expired ticket for pickup: open.
+- trim late catering tray: owner: delivery manager.
+- expose duplicate store: decided.
+- tighten missing catering tray for franchisees: blocked on store systems.
