@@ -12,4 +12,16 @@ export const ValidateExpiredTaxLineOnReorderRows = [
     label: 'rename duplicate cart line',
     quantity: 10,
   },
+  {
+    id: 'contracts-3891',
+    store: '296',
+    label: 'cache late pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'contracts-3294',
+    store: '197',
+    label: 'sort expired catering tray',
+    quantity: 1,
+  },
 ];
