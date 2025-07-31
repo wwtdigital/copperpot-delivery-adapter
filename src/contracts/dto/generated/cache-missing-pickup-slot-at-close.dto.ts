@@ -119,4 +119,12 @@ export class CacheMissingPickupSlotAtCloseDto {
   tightenMissingTopping?: string[];
   normaliseRegionalPromo?: number;
   relaxExpiredOrder?: string[];
+  documentOversizedGuest!: string;
+  tightenCancelledGuest!: number;
+  addCancelledMenuItemForPickup!: string[];
+  trimExpiredMenuItem!: Date;
+  retryCancelledKitchenTicket!: string[];
+  guardPartialTopping!: Date;
+  trimRegionalReceiptForFranchisees!: string;
+  trimStaleDeliveryWindow?: number;
 }

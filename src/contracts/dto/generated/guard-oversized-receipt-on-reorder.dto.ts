@@ -25,4 +25,8 @@ export class GuardOversizedReceiptOnReorderDto {
   normaliseLateModifierForPickup!: string;
   sortCancelledModifier!: boolean;
   renameCancelledCateringTrayAtClose!: boolean;
+  backfillEmptyBowl!: boolean;
+  relaxOversizedPromoForFranchisees!: string[];
+  relaxRegionalReceiptInTheQueue!: string;
+  cachePartialLocation!: Date;
 }
