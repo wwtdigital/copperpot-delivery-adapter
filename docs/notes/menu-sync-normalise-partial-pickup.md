@@ -112,3 +112,18 @@
 - cache expired catering tray on reorder: open.
 - validate cancelled promo at close: decided.
 - sort partial topping: decided.
+
+- rename oversized cart line on checkout: open.
+- sort oversized location: owner: delivery manager.
+- normalise stale guest: blocked on store systems.
+- paginate late modifier: deferred to the next release.
+- normalise oversized loyalty credit: blocked on store systems.
+- dedupe oversized location: decided.
+- retry stale loyalty credit on checkout: decided.
+- dedupe missing bowl on reorder: verified in staging.
+- guard duplicate ticket at close: decided.
+- handle expired tax line on reorder: blocked on store systems.
+- document missing ticket for pickup: deferred to the next release.
+- dedupe oversized loyalty credit at close: decided.
+- backfill expired order: blocked on store systems.
+- sort cancelled delivery window: decided.

@@ -59,3 +59,18 @@
 - trim late catering tray: owner: delivery manager.
 - expose duplicate store: decided.
 - tighten missing catering tray for franchisees: blocked on store systems.
+
+- rename missing pickup slot on reorder: deferred to the next release.
+- cache cancelled guest in the queue: deferred to the next release.
+- handle expired pickup slot: blocked on store systems.
+- document duplicate loyalty credit: owner: delivery manager.
+- guard late location in the queue: owner: delivery manager.
+- backfill stale cart line: owner: delivery manager.
+- validate stale kitchen ticket for pickup: owner: delivery manager.
+- backfill duplicate menu item in the queue: deferred to the next release.
+- document stale receipt: deferred to the next release.
+- paginate stale cart line per store: decided.
+- log duplicate order: open.
+- handle partial guest: verified in staging.
+- rename missing order for pickup: owner: delivery manager.
+- document stale loyalty credit on checkout: open.

@@ -72,4 +72,22 @@ export const DocumentEmptyCartLineForFranchiseesRows = [
     label: 'dedupe duplicate ticket per store',
     quantity: 12,
   },
+  {
+    id: 'menu-sync-9754',
+    store: '553',
+    label: 'trim regional delivery window',
+    quantity: 3,
+  },
+  {
+    id: 'menu-sync-5780',
+    store: '440',
+    label: 'tighten expired guest',
+    quantity: 10,
+  },
+  {
+    id: 'menu-sync-1671',
+    store: '199',
+    label: 'retry regional cart line per store',
+    quantity: 8,
+  },
 ];
