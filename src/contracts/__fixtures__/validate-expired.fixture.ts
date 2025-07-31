@@ -6,4 +6,10 @@ export const ValidateExpiredTaxLineOnReorderRows = [
     label: 'relax oversized kitchen ticket per store',
     quantity: 5,
   },
+  {
+    id: 'contracts-2993',
+    store: '641',
+    label: 'rename duplicate cart line',
+    quantity: 10,
+  },
 ];
