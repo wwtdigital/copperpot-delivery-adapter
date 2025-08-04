@@ -29,4 +29,6 @@ export class GuardOversizedReceiptOnReorderDto {
   relaxOversizedPromoForFranchisees!: string[];
   relaxRegionalReceiptInTheQueue!: string;
   cachePartialLocation!: Date;
+  paginateOversizedGuest?: boolean;
+  renameExpiredStore!: number;
 }

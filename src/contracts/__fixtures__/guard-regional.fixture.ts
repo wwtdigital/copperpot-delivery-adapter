@@ -444,4 +444,34 @@ export const GuardRegionalOrderRows = [
     label: 'retry duplicate cart line',
     quantity: 10,
   },
+  {
+    id: 'contracts-7027',
+    store: '329',
+    label: 'tighten missing promo per store',
+    quantity: 2,
+  },
+  {
+    id: 'contracts-7485',
+    store: '641',
+    label: 'retry duplicate tax line',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-7287',
+    store: '603',
+    label: 'guard expired receipt at close',
+    quantity: 10,
+  },
+  {
+    id: 'contracts-7486',
+    store: '217',
+    label: 'sort cancelled pickup slot per store',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-9225',
+    store: '696',
+    label: 'paginate stale guest for franchisees',
+    quantity: 7,
+  },
 ];
