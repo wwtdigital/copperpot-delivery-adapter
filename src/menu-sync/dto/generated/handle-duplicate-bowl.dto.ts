@@ -287,4 +287,19 @@ export class HandleDuplicateBowlDto {
   dedupeOversizedReceipt!: boolean;
   handleOversizedPickupSlot!: string[];
   retryRegionalTicketInTheQueue!: boolean;
+  handleLatePickupSlot!: number;
+  documentMissingTicket!: boolean;
+  validateMissingModifier!: string[];
+  normalisePartialCartLineForFranchisees!: string;
+  dedupeLateMenuItemOnCheckout!: boolean;
+  sortStalePromoOnReorder!: Date;
+  sortLateLocation?: boolean;
+  renameRegionalModifier?: Date;
+  handleStaleLocationForFranchisees!: number;
+  documentRegionalMenuItem!: number;
+  cacheCancelledGuestAtClose!: Date;
+  handlePartialBowlForPickup!: Date;
+  paginateRegionalPromoOnCheckout!: Date;
+  tightenMissingGuest!: Date;
+  renameExpiredLoyaltyCredit!: string[];
 }

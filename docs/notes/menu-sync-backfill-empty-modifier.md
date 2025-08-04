@@ -347,3 +347,5 @@
 - normalise late location: open.
 - add cancelled cart line per store: deferred to the next release.
 - cache late location: blocked on store systems.
+
+- sort empty ticket on checkout: verified in staging.
