@@ -138,4 +138,46 @@ export const DocumentEmptyCartLineForFranchiseesRows = [
     label: 'backfill partial promo',
     quantity: 9,
   },
+  {
+    id: 'menu-sync-8728',
+    store: '689',
+    label: 'sort cancelled loyalty credit',
+    quantity: 10,
+  },
+  {
+    id: 'menu-sync-2429',
+    store: '184',
+    label: 'handle cancelled order for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'menu-sync-6022',
+    store: '512',
+    label: 'trim stale delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'menu-sync-1262',
+    store: '674',
+    label: 'retry duplicate receipt',
+    quantity: 11,
+  },
+  {
+    id: 'menu-sync-6240',
+    store: '587',
+    label: 'trim oversized cart line on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'menu-sync-5324',
+    store: '590',
+    label: 'expose cancelled kitchen ticket',
+    quantity: 3,
+  },
+  {
+    id: 'menu-sync-5360',
+    store: '508',
+    label: 'relax oversized delivery window',
+    quantity: 4,
+  },
 ];
