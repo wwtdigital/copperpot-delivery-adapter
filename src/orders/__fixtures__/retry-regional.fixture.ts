@@ -108,4 +108,34 @@ export const RetryRegionalBowlRows = [
     label: 'document cancelled kitchen ticket',
     quantity: 5,
   },
+  {
+    id: 'orders-9243',
+    store: '632',
+    label: 'sort cancelled order',
+    quantity: 1,
+  },
+  {
+    id: 'orders-6441',
+    store: '129',
+    label: 'rename late delivery window for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'orders-6690',
+    store: '429',
+    label: 'cache partial catering tray on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'orders-4274',
+    store: '480',
+    label: 'backfill expired bowl',
+    quantity: 7,
+  },
+  {
+    id: 'orders-4647',
+    store: '670',
+    label: 'handle partial menu item',
+    quantity: 2,
+  },
 ];
