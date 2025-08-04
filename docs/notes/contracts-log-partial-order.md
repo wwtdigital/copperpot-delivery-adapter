@@ -50,3 +50,5 @@
 - cache late receipt on checkout: owner: delivery manager.
 - validate oversized delivery window: decided.
 - paginate expired kitchen ticket for pickup: owner: delivery manager.
+
+- dedupe empty tax line on checkout: blocked on store systems.
