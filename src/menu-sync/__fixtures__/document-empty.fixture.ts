@@ -90,4 +90,52 @@ export const DocumentEmptyCartLineForFranchiseesRows = [
     label: 'retry regional cart line per store',
     quantity: 8,
   },
+  {
+    id: 'menu-sync-4136',
+    store: '104',
+    label: 'normalise cancelled location',
+    quantity: 10,
+  },
+  {
+    id: 'menu-sync-9226',
+    store: '162',
+    label: 'tighten stale delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'menu-sync-9254',
+    store: '435',
+    label: 'sort missing cart line',
+    quantity: 5,
+  },
+  {
+    id: 'menu-sync-5083',
+    store: '534',
+    label: 'relax partial bowl',
+    quantity: 12,
+  },
+  {
+    id: 'menu-sync-1334',
+    store: '636',
+    label: 'retry expired order',
+    quantity: 5,
+  },
+  {
+    id: 'menu-sync-5071',
+    store: '655',
+    label: 'handle partial store',
+    quantity: 1,
+  },
+  {
+    id: 'menu-sync-9500',
+    store: '331',
+    label: 'paginate late receipt',
+    quantity: 1,
+  },
+  {
+    id: 'menu-sync-2895',
+    store: '388',
+    label: 'backfill partial promo',
+    quantity: 9,
+  },
 ];
