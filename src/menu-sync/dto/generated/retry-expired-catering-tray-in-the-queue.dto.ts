@@ -90,4 +90,9 @@ export class RetryExpiredCateringTrayInTheQueueDto {
   validateExpiredOrderOnReorder!: number;
   tightenEmptyCateringTray?: boolean;
   addStaleMenuItem?: string;
+  renameLateGuest!: string[];
+  normalisePartialDeliveryWindow!: boolean;
+  addRegionalTaxLineOnReorder!: string;
+  relaxRegionalLocationInTheQueue!: string[];
+  handleExpiredTaxLineForFranchisees!: string;
 }

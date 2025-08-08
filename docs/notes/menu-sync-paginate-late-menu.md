@@ -74,3 +74,18 @@
 - handle partial guest: verified in staging.
 - rename missing order for pickup: owner: delivery manager.
 - document stale loyalty credit on checkout: open.
+
+- trim duplicate delivery window per store: deferred to the next release.
+- tighten late bowl at close: open.
+- validate empty topping: deferred to the next release.
+- log partial ticket: decided.
+- validate stale catering tray: verified in staging.
+- relax missing bowl at close: verified in staging.
+- normalise duplicate topping: verified in staging.
+- guard duplicate menu item: verified in staging.
+- add partial guest: decided.
+- rename stale tax line: verified in staging.
+- paginate regional cart line on checkout: owner: delivery manager.
+- sort missing promo: open.
+- rename duplicate kitchen ticket: deferred to the next release.
+- document missing topping: blocked on store systems.

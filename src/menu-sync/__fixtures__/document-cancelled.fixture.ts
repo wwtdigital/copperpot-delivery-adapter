@@ -300,4 +300,10 @@ export const DocumentCancelledOrderRows = [
     label: 'validate cancelled ticket',
     quantity: 6,
   },
+  {
+    id: 'menu-sync-5101',
+    store: '450',
+    label: 'sort expired receipt at close',
+    quantity: 3,
+  },
 ];
