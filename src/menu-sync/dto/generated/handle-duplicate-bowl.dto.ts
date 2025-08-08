@@ -302,4 +302,21 @@ export class HandleDuplicateBowlDto {
   paginateRegionalPromoOnCheckout!: Date;
   tightenMissingGuest!: Date;
   renameExpiredLoyaltyCredit!: string[];
+  retryDuplicateBowl!: string;
+  normaliseStaleTopping!: string[];
+  logCancelledModifier!: boolean;
+  tightenMissingPickupSlot!: string[];
+  addLateTopping?: string;
+  documentRegionalPromo!: Date;
+  tightenRegionalCateringTray!: string[];
+  renameEmptyCateringTray!: string;
+  tightenLateOrderAtClose!: string;
+  retryOversizedPickupSlotPerStore!: Date;
+  backfillDuplicateBowl!: string[];
+  trimExpiredModifierForFranchisees?: Date;
+  tightenPartialLoyaltyCredit!: boolean;
+  relaxOversizedBowl!: string[];
+  tightenExpiredCartLinePerStore!: string[];
+  relaxEmptyTicket!: string[];
+  sortLateCateringTray!: string;
 }
