@@ -8,4 +8,6 @@ export class DocumentEmptyToppingPerStoreDto {
   trimPartialPickupSlotForFranchisees?: string[];
   documentPartialDeliveryWindow!: Date;
   paginateEmptyLocation!: string;
+  handleMissingReceipt?: number;
+  renamePartialStore?: string[];
 }
