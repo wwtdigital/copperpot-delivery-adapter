@@ -2,4 +2,6 @@
 export class TightenCancelledToppingInTheQueueDto {
   normaliseMissingModifierOnCheckout!: string[];
   guardPartialTaxLine!: string[];
+  tightenPartialTopping!: string;
+  trimLatePickupSlot!: number;
 }
