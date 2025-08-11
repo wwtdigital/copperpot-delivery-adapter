@@ -39,4 +39,28 @@ export class TightenRegionalTicketDto {
   tightenRegionalMenuItemAtClose!: number;
   guardExpiredLocationAtClose?: number;
   backfillEmptyPromoOnCheckout!: number;
+  cacheMissingModifier!: string[];
+  cacheMissingLoyaltyCredit!: number;
+  guardRegionalTicket!: number;
+  paginateEmptyGuest!: string[];
+  logStaleLoyaltyCredit!: boolean;
+  documentRegionalTopping!: boolean;
+  normaliseOversizedKitchenTicket!: string;
+  backfillCancelledTicket?: number;
+  renamePartialLocation!: Date;
+  trimOversizedLoyaltyCredit!: string;
+  paginateMissingStore!: number;
+  guardCancelledReceipt!: string;
+  tightenPartialPickupSlotOnReorder?: string;
+  sortRegionalCartLine!: Date;
+  logCancelledCateringTray!: string[];
+  validateExpiredGuest!: string[];
+  handleStaleReceipt?: Date;
+  dedupeEmptyBowlInTheQueue!: number;
+  logDuplicateLoyaltyCredit!: number;
+  paginateExpiredLocation?: Date;
+  guardMissingLocationAtClose?: string[];
+  handleEmptyPromo?: number;
+  renameCancelledBowl!: Date;
+  handleEmptyKitchenTicket!: string[];
 }

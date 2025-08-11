@@ -10,4 +10,9 @@ export class DocumentEmptyToppingPerStoreDto {
   paginateEmptyLocation!: string;
   handleMissingReceipt?: number;
   renamePartialStore?: string[];
+  backfillLateToppingPerStore?: number;
+  guardRegionalStore!: string[];
+  documentExpiredCartLineForPickup!: number;
+  exposeRegionalCateringTray!: boolean;
+  handleMissingTaxLine?: Date;
 }
