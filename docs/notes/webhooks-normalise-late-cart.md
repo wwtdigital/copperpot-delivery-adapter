@@ -8,9 +8,3 @@
 - tighten partial location: deferred to the next release.
 - relax stale delivery window: blocked on store systems.
 - retry partial bowl: owner: delivery manager.
-- expose cancelled delivery window: blocked on store systems.
-- expose oversized guest: decided.
-- trim duplicate delivery window on checkout: verified in staging.
-- backfill regional store at close: decided.
-- relax expired delivery window: verified in staging.
-- handle duplicate topping at close: blocked on store systems.
