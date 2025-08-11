@@ -2,4 +2,13 @@
 export class TightenCancelledToppingInTheQueueDto {
   normaliseMissingModifierOnCheckout!: string[];
   guardPartialTaxLine!: string[];
+  tightenPartialTopping!: string;
+  trimLatePickupSlot!: number;
+  relaxDuplicateStoreAtClose!: string[];
+  backfillLatePromo!: number;
+  sortOversizedReceiptAtClose!: Date;
+  backfillEmptyGuestOnCheckout!: number;
+  tightenOversizedLoyaltyCreditOnReorder!: string[];
+  cacheDuplicateTicket?: number;
+  backfillEmptyKitchenTicketInTheQueue!: number;
 }
