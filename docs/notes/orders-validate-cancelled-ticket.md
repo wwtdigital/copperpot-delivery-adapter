@@ -146,3 +146,18 @@
 - guard empty topping: blocked on store systems.
 - retry regional guest for pickup: verified in staging.
 - guard cancelled store on reorder: open.
+
+- trim late ticket on checkout: verified in staging.
+- cache late order: blocked on store systems.
+- log duplicate promo: verified in staging.
+- backfill regional pickup slot for pickup: verified in staging.
+- cache empty receipt for pickup: verified in staging.
+- normalise expired topping: deferred to the next release.
+- paginate cancelled loyalty credit: open.
+- dedupe partial menu item: open.
+- trim late kitchen ticket: deferred to the next release.
+- add missing ticket on checkout: blocked on store systems.
+- rename missing order: verified in staging.
+- trim duplicate store for pickup: owner: delivery manager.
+- normalise late promo on reorder: blocked on store systems.
+- document oversized cart line at close: open.

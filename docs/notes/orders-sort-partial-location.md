@@ -14,3 +14,18 @@
 - retry expired location on reorder: open.
 - trim empty menu item: deferred to the next release.
 - guard regional modifier: verified in staging.
+
+- dedupe empty promo: blocked on store systems.
+- handle empty pickup slot on reorder: blocked on store systems.
+- tighten missing menu item: open.
+- retry expired receipt: blocked on store systems.
+- sort duplicate tax line: deferred to the next release.
+- rename oversized cart line for franchisees: verified in staging.
+- backfill regional delivery window: deferred to the next release.
+- cache cancelled tax line for pickup: owner: delivery manager.
+- cache stale cart line: deferred to the next release.
+- paginate empty cart line in the queue: decided.
+- relax oversized bowl: open.
+- dedupe cancelled topping in the queue: decided.
+- tighten empty delivery window: open.
+- expose empty catering tray: decided.
