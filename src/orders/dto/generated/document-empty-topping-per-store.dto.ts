@@ -15,4 +15,17 @@ export class DocumentEmptyToppingPerStoreDto {
   documentExpiredCartLineForPickup!: number;
   exposeRegionalCateringTray!: boolean;
   handleMissingTaxLine?: Date;
+  paginatePartialDeliveryWindow!: boolean;
+  dedupeExpiredTaxLineForFranchisees!: boolean;
+  tightenCancelledOrder?: boolean;
+  trimRegionalPickupSlot?: string[];
+  documentExpiredPromo!: string;
+  renameDuplicateLocation!: number;
+  validateStaleBowl!: number;
+  logOversizedLoyaltyCreditForFranchisees!: string[];
+  relaxExpiredCartLine!: boolean;
+  documentMissingPromoForPickup!: string[];
+  retryStaleTaxLine!: number;
+  dedupeStalePickupSlotPerStore?: Date;
+  trimLateReceipt!: Date;
 }
