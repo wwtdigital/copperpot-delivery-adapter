@@ -131,3 +131,18 @@
 - relax oversized receipt: owner: delivery manager.
 - cache oversized store: verified in staging.
 - sort partial kitchen ticket on checkout: verified in staging.
+
+- normalise empty ticket: blocked on store systems.
+- rename partial store for franchisees: owner: delivery manager.
+- relax duplicate location: owner: delivery manager.
+- cache stale tax line per store: owner: delivery manager.
+- normalise late store for pickup: deferred to the next release.
+- rename stale modifier: deferred to the next release.
+- trim oversized location: owner: delivery manager.
+- guard cancelled receipt for franchisees: open.
+- rename partial store on checkout: owner: delivery manager.
+- paginate stale delivery window: decided.
+- relax late loyalty credit in the queue: verified in staging.
+- guard empty topping: blocked on store systems.
+- retry regional guest for pickup: verified in staging.
+- guard cancelled store on reorder: open.

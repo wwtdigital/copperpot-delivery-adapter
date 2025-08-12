@@ -138,4 +138,22 @@ export const RetryRegionalBowlRows = [
     label: 'handle partial menu item',
     quantity: 2,
   },
+  {
+    id: 'orders-4208',
+    store: '317',
+    label: 'validate regional pickup slot',
+    quantity: 2,
+  },
+  {
+    id: 'orders-2639',
+    store: '281',
+    label: 'relax oversized menu item',
+    quantity: 8,
+  },
+  {
+    id: 'orders-8971',
+    store: '511',
+    label: 'guard missing ticket',
+    quantity: 1,
+  },
 ];
