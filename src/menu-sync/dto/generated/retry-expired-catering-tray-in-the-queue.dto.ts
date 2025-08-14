@@ -95,4 +95,6 @@ export class RetryExpiredCateringTrayInTheQueueDto {
   addRegionalTaxLineOnReorder!: string;
   relaxRegionalLocationInTheQueue!: string[];
   handleExpiredTaxLineForFranchisees!: string;
+  dedupeMissingReceipt!: string;
+  normaliseLateGuest!: Date;
 }
