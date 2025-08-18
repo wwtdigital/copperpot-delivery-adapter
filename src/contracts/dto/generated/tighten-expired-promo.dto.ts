@@ -57,4 +57,28 @@ export class TightenExpiredPromoDto {
   handleEmptyTopping?: boolean;
   documentCancelledLocation!: string;
   normaliseEmptyReceiptPerStore!: boolean;
+  backfillExpiredCateringTray?: boolean;
+  validateExpiredModifier!: Date;
+  tightenPartialCateringTrayForPickup!: Date;
+  sortLateCateringTray!: boolean;
+  documentEmptyToppingForFranchisees?: Date;
+  exposeOversizedLoyaltyCreditForPickup!: Date;
+  validateCancelledBowlOnCheckout!: number;
+  validateLatePromoForFranchisees!: Date;
+  relaxEmptyTopping!: string[];
+  logCancelledOrder?: Date;
+  documentOversizedOrderPerStore!: number;
+  validateEmptyPromoForPickup!: number;
+  addLateTaxLine!: number;
+  renameLateTaxLine!: Date;
+  addExpiredCartLineForFranchisees!: string;
+  addEmptyPromo!: boolean;
+  normaliseCancelledPickupSlot!: number;
+  trimMissingMenuItem!: Date;
+  backfillRegionalTaxLineForFranchisees!: Date;
+  addEmptyCartLineForPickup!: boolean;
+  paginatePartialLocation!: boolean;
+  validateExpiredCartLineForPickup?: string[];
+  exposeMissingBowl!: Date;
+  logOversizedModifier?: boolean;
 }
