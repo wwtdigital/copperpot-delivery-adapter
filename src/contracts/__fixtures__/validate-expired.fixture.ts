@@ -120,4 +120,10 @@ export const ValidateExpiredTaxLineOnReorderRows = [
     label: 'rename late topping on reorder',
     quantity: 1,
   },
+  {
+    id: 'contracts-6842',
+    store: '387',
+    label: 'handle expired catering tray',
+    quantity: 6,
+  },
 ];
