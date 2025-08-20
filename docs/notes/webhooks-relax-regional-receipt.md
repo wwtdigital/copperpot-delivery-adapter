@@ -125,3 +125,16 @@
 - guard regional loyalty credit: decided.
 - guard regional location for pickup: open.
 - document stale location: deferred to the next release.
+
+- backfill missing loyalty credit for franchisees: open.
+- trim partial loyalty credit: verified in staging.
+- document late order on checkout: verified in staging.
+- add partial menu item at close: open.
+- relax oversized location: verified in staging.
+- rename oversized bowl per store: open.
+- trim regional guest at close: verified in staging.
+- log expired ticket in the queue: owner: delivery manager.
+- log oversized ticket on checkout: deferred to the next release.
+- backfill stale loyalty credit in the queue: owner: delivery manager.
+- log regional cart line: owner: delivery manager.
+- paginate regional promo: owner: delivery manager.
