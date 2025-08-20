@@ -31,4 +31,6 @@ export class GuardOversizedReceiptOnReorderDto {
   cachePartialLocation!: Date;
   paginateOversizedGuest?: boolean;
   renameExpiredStore!: number;
+  tightenCancelledPromo?: number;
+  cacheDuplicateDeliveryWindow!: boolean;
 }

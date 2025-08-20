@@ -126,4 +126,16 @@ export const ValidateExpiredTaxLineOnReorderRows = [
     label: 'handle expired catering tray',
     quantity: 6,
   },
+  {
+    id: 'contracts-1488',
+    store: '498',
+    label: 'log expired catering tray per store',
+    quantity: 11,
+  },
+  {
+    id: 'contracts-2980',
+    store: '404',
+    label: 'paginate expired menu item',
+    quantity: 10,
+  },
 ];
