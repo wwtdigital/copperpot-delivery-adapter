@@ -28,4 +28,6 @@ export class TightenCancelledToppingInTheQueueDto {
   dedupeRegionalOrder!: string[];
   renameCancelledModifierForFranchisees!: number;
   handleStaleDeliveryWindowForFranchisees!: Date;
+  relaxPartialGuestForFranchisees!: string;
+  trimMissingLoyaltyCreditOnReorder!: string;
 }
