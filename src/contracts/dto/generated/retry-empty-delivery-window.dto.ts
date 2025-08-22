@@ -48,4 +48,6 @@ export class RetryEmptyDeliveryWindowDto {
   backfillMissingDeliveryWindowForFranchisees!: string[];
   cacheExpiredCartLineAtClose!: string[];
   guardMissingOrder!: string[];
+  retryRegionalPromo!: boolean;
+  renameStaleCateringTray?: Date;
 }
