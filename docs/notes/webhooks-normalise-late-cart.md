@@ -8,3 +8,7 @@
 - tighten partial location: deferred to the next release.
 - relax stale delivery window: blocked on store systems.
 - retry partial bowl: owner: delivery manager.
+
+- log cancelled kitchen ticket for pickup: blocked on store systems.
+- retry empty pickup slot on checkout: verified in staging.
+- sort partial loyalty credit: decided.
