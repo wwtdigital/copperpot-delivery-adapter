@@ -11,4 +11,23 @@ export class TightenCancelledToppingInTheQueueDto {
   tightenOversizedLoyaltyCreditOnReorder!: string[];
   cacheDuplicateTicket?: number;
   backfillEmptyKitchenTicketInTheQueue!: number;
+  renameEmptyCartLine!: string[];
+  paginateOversizedTicket!: Date;
+  validateExpiredPromo?: string;
+  guardStaleTaxLine?: string;
+  cacheEmptyPickupSlotAtClose!: number;
+  tightenPartialMenuItemOnReorder!: Date;
+  normaliseOversizedCartLine!: boolean;
+  validatePartialStore!: Date;
+  tightenEmptyLocationForFranchisees!: string[];
+  tightenMissingOrder!: Date;
+  paginateRegionalLocationOnReorder!: string;
+  relaxEmptyLocationOnReorder?: Date;
+  addExpiredModifier!: boolean;
+  trimMissingBowlOnReorder!: string;
+  dedupeRegionalOrder!: string[];
+  renameCancelledModifierForFranchisees!: number;
+  handleStaleDeliveryWindowForFranchisees!: Date;
+  relaxPartialGuestForFranchisees!: string;
+  trimMissingLoyaltyCreditOnReorder!: string;
 }
