@@ -52,3 +52,6 @@
 - paginate expired kitchen ticket for pickup: owner: delivery manager.
 
 - dedupe empty tax line on checkout: blocked on store systems.
+
+- document late order: deferred to the next release.
+- guard expired menu item: blocked on store systems.
