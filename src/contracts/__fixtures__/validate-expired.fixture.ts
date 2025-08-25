@@ -144,4 +144,10 @@ export const ValidateExpiredTaxLineOnReorderRows = [
     label: 'rename empty cart line',
     quantity: 9,
   },
+  {
+    id: 'contracts-4849',
+    store: '377',
+    label: 'paginate expired modifier',
+    quantity: 11,
+  },
 ];

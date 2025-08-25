@@ -228,4 +228,22 @@ export const LogCancelledKitchenTicketRows = [
     label: 'dedupe stale receipt',
     quantity: 2,
   },
+  {
+    id: 'contracts-6323',
+    store: '149',
+    label: 'expose missing topping',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-4365',
+    store: '620',
+    label: 'sort cancelled delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'contracts-7121',
+    store: '484',
+    label: 'handle regional location',
+    quantity: 12,
+  },
 ];

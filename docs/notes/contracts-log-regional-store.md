@@ -208,3 +208,18 @@
 - expose partial menu item: decided.
 - relax late modifier: verified in staging.
 - rename late guest: verified in staging.
+
+- backfill regional order at close: owner: delivery manager.
+- expose stale ticket: verified in staging.
+- tighten regional ticket on checkout: owner: delivery manager.
+- normalise regional store: blocked on store systems.
+- sort empty tax line: decided.
+- dedupe regional promo: owner: delivery manager.
+- normalise regional bowl: verified in staging.
+- tighten stale promo: decided.
+- tighten partial bowl: blocked on store systems.
+- add oversized order: deferred to the next release.
+- dedupe duplicate store per store: decided.
+- backfill missing delivery window: decided.
+- relax duplicate location: blocked on store systems.
+- sort stale location for pickup: open.
