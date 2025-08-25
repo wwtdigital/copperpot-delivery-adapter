@@ -178,3 +178,33 @@
 - handle regional guest: deferred to the next release.
 - rename oversized pickup slot: verified in staging.
 - normalise partial order for franchisees: verified in staging.
+
+- guard stale topping in the queue: open.
+- backfill expired location in the queue: decided.
+- expose missing modifier: open.
+- add missing guest: open.
+- relax missing pickup slot: blocked on store systems.
+- relax partial pickup slot for franchisees: verified in staging.
+- log oversized loyalty credit on reorder: blocked on store systems.
+- cache regional order for franchisees: verified in staging.
+- cache stale promo at close: deferred to the next release.
+- add late ticket: deferred to the next release.
+- sort missing tax line: blocked on store systems.
+- tighten missing tax line on reorder: open.
+- cache partial topping: deferred to the next release.
+- retry late guest: decided.
+
+- retry late catering tray in the queue: decided.
+- dedupe oversized bowl: decided.
+- trim oversized cart line: decided.
+- log regional topping: owner: delivery manager.
+- cache missing catering tray at close: deferred to the next release.
+- backfill cancelled tax line: decided.
+- normalise partial store: open.
+- log duplicate catering tray for franchisees: decided.
+- normalise late loyalty credit: blocked on store systems.
+- relax empty ticket: decided.
+- retry oversized kitchen ticket for pickup: verified in staging.
+- expose partial menu item: decided.
+- relax late modifier: verified in staging.
+- rename late guest: verified in staging.

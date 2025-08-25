@@ -55,3 +55,18 @@
 
 - document late order: deferred to the next release.
 - guard expired menu item: blocked on store systems.
+
+- add cancelled location: verified in staging.
+- expose empty promo for pickup: open.
+- document regional ticket: decided.
+- trim partial ticket on reorder: owner: delivery manager.
+- backfill stale pickup slot per store: decided.
+- expose stale bowl: deferred to the next release.
+- retry expired cart line: deferred to the next release.
+- dedupe late topping per store: decided.
+- trim expired tax line on checkout: verified in staging.
+- sort duplicate store for pickup: verified in staging.
+- normalise stale catering tray in the queue: verified in staging.
+- add regional modifier in the queue: blocked on store systems.
+- expose regional delivery window: deferred to the next release.
+- relax cancelled store: owner: delivery manager.

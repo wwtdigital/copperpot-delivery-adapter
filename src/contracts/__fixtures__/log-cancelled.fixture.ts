@@ -204,4 +204,28 @@ export const LogCancelledKitchenTicketRows = [
     label: 'tighten late ticket',
     quantity: 5,
   },
+  {
+    id: 'contracts-7974',
+    store: '627',
+    label: 'backfill empty ticket',
+    quantity: 2,
+  },
+  {
+    id: 'contracts-5014',
+    store: '188',
+    label: 'paginate cancelled pickup slot',
+    quantity: 3,
+  },
+  {
+    id: 'contracts-9306',
+    store: '266',
+    label: 'cache duplicate delivery window in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'contracts-7053',
+    store: '693',
+    label: 'dedupe stale receipt',
+    quantity: 2,
+  },
 ];
