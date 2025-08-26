@@ -29,3 +29,18 @@
 - sort regional receipt in the queue: verified in staging.
 - dedupe oversized pickup slot for franchisees: open.
 - sort duplicate location: open.
+
+- retry stale cart line on reorder: verified in staging.
+- document late location: deferred to the next release.
+- validate cancelled order: decided.
+- relax partial guest for pickup: open.
+- retry stale store on reorder: open.
+- trim expired order for pickup: blocked on store systems.
+- retry partial kitchen ticket: deferred to the next release.
+- tighten partial delivery window for franchisees: owner: delivery manager.
+- sort late loyalty credit on checkout: verified in staging.
+- rename missing ticket: deferred to the next release.
+- trim late kitchen ticket per store: open.
+- validate duplicate loyalty credit in the queue: open.
+- sort empty store: blocked on store systems.
+- normalise cancelled pickup slot: verified in staging.

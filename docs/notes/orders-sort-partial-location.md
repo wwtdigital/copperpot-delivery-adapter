@@ -29,3 +29,23 @@
 - dedupe cancelled topping in the queue: decided.
 - tighten empty delivery window: open.
 - expose empty catering tray: decided.
+
+- trim missing cart line: blocked on store systems.
+- dedupe stale receipt: decided.
+- backfill cancelled tax line for franchisees: owner: delivery manager.
+- guard duplicate store: deferred to the next release.
+- paginate oversized location: decided.
+- handle late catering tray: verified in staging.
+- add stale topping: verified in staging.
+- trim missing promo: decided.
+- normalise stale kitchen ticket on checkout: deferred to the next release.
+- tighten duplicate receipt: owner: delivery manager.
+- dedupe regional menu item: deferred to the next release.
+- sort regional bowl for pickup: verified in staging.
+- trim duplicate guest: decided.
+- paginate expired delivery window: open.
+
+- relax regional kitchen ticket: owner: delivery manager.
+- backfill partial bowl for franchisees: decided.
+- tighten expired ticket for pickup: open.
+- validate late topping: deferred to the next release.

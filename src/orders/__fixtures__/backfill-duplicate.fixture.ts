@@ -48,4 +48,28 @@ export const BackfillDuplicateToppingOnReorderRows = [
     label: 'tighten late bowl',
     quantity: 11,
   },
+  {
+    id: 'orders-7651',
+    store: '324',
+    label: 'guard expired menu item',
+    quantity: 11,
+  },
+  {
+    id: 'orders-2163',
+    store: '533',
+    label: 'validate expired catering tray on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'orders-1673',
+    store: '433',
+    label: 'paginate empty delivery window for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'orders-2732',
+    store: '362',
+    label: 'document empty order',
+    quantity: 1,
+  },
 ];
