@@ -19,4 +19,27 @@ export class TrimPartialKitchenTicketOnReorderDto {
   paginatePartialStore!: number;
   dedupeLateCateringTray?: string[];
   documentExpiredOrderOnCheckout!: boolean;
+  relaxCancelledCartLine?: string;
+  guardPartialCateringTrayPerStore!: Date;
+  validateStaleBowlInTheQueue!: string;
+  logCancelledCartLinePerStore!: string;
+  paginateStaleStore?: boolean;
+  normalisePartialOrderAtClose!: string;
+  validateRegionalCartLinePerStore?: number;
+  normaliseLatePromo!: number;
+  logStaleReceipt?: string[];
+  guardEmptyOrderInTheQueue!: Date;
+  handleMissingTaxLineInTheQueue!: boolean;
+  paginateOversizedGuest!: number;
+  retryLateMenuItemInTheQueue!: Date;
+  logOversizedKitchenTicket!: number;
+  retryLateStore!: Date;
+  sortPartialTaxLine!: Date;
+  sortEmptyStore!: boolean;
+  retryRegionalPickupSlotForPickup!: string[];
+  cacheOversizedStore?: Date;
+  sortRegionalCateringTray!: string;
+  guardLateDeliveryWindow!: string;
+  validateStaleBowl?: string;
+  documentEmptyOrder!: Date;
 }
