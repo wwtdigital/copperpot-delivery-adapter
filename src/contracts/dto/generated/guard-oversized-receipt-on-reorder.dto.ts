@@ -33,4 +33,28 @@ export class GuardOversizedReceiptOnReorderDto {
   renameExpiredStore!: number;
   tightenCancelledPromo?: number;
   cacheDuplicateDeliveryWindow!: boolean;
+  handleDuplicateMenuItem?: Date;
+  documentOversizedDeliveryWindowOnCheckout?: Date;
+  dedupeMissingReceipt!: string;
+  handleMissingTicketAtClose!: Date;
+  relaxDuplicateGuestPerStore!: string[];
+  trimPartialLoyaltyCreditForFranchisees!: string;
+  exposeDuplicateLocationPerStore?: boolean;
+  normaliseExpiredBowl!: Date;
+  validateEmptyPromo!: string;
+  trimRegionalLoyaltyCredit?: boolean;
+  renameCancelledPromoOnReorder!: Date;
+  relaxDuplicateMenuItemOnReorder!: number;
+  addExpiredPromoInTheQueue!: number;
+  renameRegionalTaxLine!: number;
+  relaxPartialReceiptForFranchisees!: boolean;
+  tightenPartialDeliveryWindow!: boolean;
+  backfillStaleCartLineAtClose!: Date;
+  relaxLateTaxLine?: Date;
+  handleEmptyCateringTray!: number;
+  backfillEmptyLoyaltyCredit!: string;
+  handleRegionalPickupSlot!: string[];
+  documentOversizedDeliveryWindow!: Date;
+  relaxStaleCateringTray?: string;
+  documentPartialKitchenTicketOnReorder!: number;
 }

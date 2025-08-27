@@ -50,4 +50,28 @@ export class RetryEmptyDeliveryWindowDto {
   guardMissingOrder!: string[];
   retryRegionalPromo!: boolean;
   renameStaleCateringTray?: Date;
+  backfillLateTopping?: string;
+  backfillCancelledDeliveryWindow!: string[];
+  renameExpiredLocationForFranchisees!: number;
+  paginateRegionalTaxLineOnCheckout?: number;
+  dedupeStaleCartLine!: boolean;
+  dedupeExpiredKitchenTicket!: Date;
+  documentMissingTaxLineInTheQueue!: string[];
+  sortStaleOrder!: number;
+  backfillDuplicateMenuItem?: string;
+  sortPartialTicket!: number;
+  normaliseMissingPickupSlotForPickup!: boolean;
+  dedupeEmptyLoyaltyCredit?: string;
+  normaliseMissingKitchenTicketOnReorder?: string[];
+  dedupeExpiredBowl!: boolean;
+  retryDuplicateLocationPerStore!: boolean;
+  trimMissingBowl?: boolean;
+  guardEmptyMenuItem!: string[];
+  cacheMissingToppingOnCheckout!: boolean;
+  handlePartialToppingForFranchisees?: boolean;
+  addEmptyBowlPerStore!: string;
+  renameOversizedLocation?: number;
+  cacheOversizedLoyaltyCredit!: Date;
+  retryEmptyLocation!: Date;
+  cacheCancelledPromo?: boolean;
 }
