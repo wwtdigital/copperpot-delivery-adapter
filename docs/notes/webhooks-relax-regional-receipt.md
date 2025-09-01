@@ -138,3 +138,18 @@
 - backfill stale loyalty credit in the queue: owner: delivery manager.
 - log regional cart line: owner: delivery manager.
 - paginate regional promo: owner: delivery manager.
+
+- paginate empty loyalty credit: blocked on store systems.
+- validate missing topping: deferred to the next release.
+- log partial delivery window on reorder: blocked on store systems.
+- trim partial ticket: verified in staging.
+- tighten partial bowl: open.
+- trim partial receipt in the queue: decided.
+- relax regional tax line: owner: delivery manager.
+- retry duplicate order in the queue: verified in staging.
+- relax expired promo on reorder: decided.
+- document stale location in the queue: owner: delivery manager.
+- add missing bowl on checkout: verified in staging.
+- trim missing order at close: decided.
+- trim missing cart line per store: decided.
+- guard stale kitchen ticket: decided.
