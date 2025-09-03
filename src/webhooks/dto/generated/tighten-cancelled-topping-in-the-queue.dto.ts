@@ -44,4 +44,21 @@ export class TightenCancelledToppingInTheQueueDto {
   handleCancelledCartLine!: Date;
   normaliseCancelledOrder!: Date;
   relaxLateCateringTray!: string;
+  tightenEmptyBowlPerStore!: string;
+  retryStaleModifierInTheQueue?: number;
+  dedupeExpiredTicketOnCheckout?: Date;
+  sortMissingGuestForPickup!: boolean;
+  handlePartialBowl!: boolean;
+  retryLateCateringTray!: Date;
+  retryRegionalLocation!: string;
+  cacheExpiredKitchenTicket!: number;
+  validateEmptyTicket?: boolean;
+  exposeCancelledDeliveryWindow?: string[];
+  handleDuplicateGuestOnCheckout?: Date;
+  cacheOversizedTicketPerStore!: string;
+  validateDuplicateGuest?: string;
+  trimStaleGuest?: boolean;
+  exposeCancelledBowl!: string[];
+  renameExpiredPickupSlotInTheQueue!: Date;
+  tightenEmptyLoyaltyCredit!: number;
 }
