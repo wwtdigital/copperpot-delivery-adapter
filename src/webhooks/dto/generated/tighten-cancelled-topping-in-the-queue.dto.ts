@@ -30,4 +30,6 @@ export class TightenCancelledToppingInTheQueueDto {
   handleStaleDeliveryWindowForFranchisees!: Date;
   relaxPartialGuestForFranchisees!: string;
   trimMissingLoyaltyCreditOnReorder!: string;
+  trimDuplicateLoyaltyCredit?: boolean;
+  handleDuplicateReceipt?: string[];
 }
