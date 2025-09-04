@@ -306,4 +306,40 @@ export const DocumentCancelledOrderRows = [
     label: 'sort expired receipt at close',
     quantity: 3,
   },
+  {
+    id: 'menu-sync-8147',
+    store: '619',
+    label: 'dedupe missing pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'menu-sync-6590',
+    store: '209',
+    label: 'backfill empty ticket',
+    quantity: 3,
+  },
+  {
+    id: 'menu-sync-2338',
+    store: '630',
+    label: 'tighten duplicate delivery window on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'menu-sync-5722',
+    store: '153',
+    label: 'paginate expired store on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'menu-sync-3470',
+    store: '590',
+    label: 'handle regional guest for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'menu-sync-4908',
+    store: '363',
+    label: 'sort empty tax line',
+    quantity: 4,
+  },
 ];
