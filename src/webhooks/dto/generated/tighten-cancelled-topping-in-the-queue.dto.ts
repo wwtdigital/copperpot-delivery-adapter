@@ -30,4 +30,18 @@ export class TightenCancelledToppingInTheQueueDto {
   handleStaleDeliveryWindowForFranchisees!: Date;
   relaxPartialGuestForFranchisees!: string;
   trimMissingLoyaltyCreditOnReorder!: string;
+  trimDuplicateLoyaltyCredit?: boolean;
+  handleDuplicateReceipt?: string[];
+  exposeMissingBowl!: boolean;
+  addMissingCartLineForFranchisees!: boolean;
+  dedupeEmptyDeliveryWindow?: number;
+  exposeLateCartLine!: Date;
+  handleLatePromo?: string[];
+  backfillExpiredPromoAtClose!: Date;
+  dedupeEmptyOrder!: Date;
+  guardPartialStore?: number;
+  handleStaleCartLine!: string[];
+  handleCancelledCartLine!: Date;
+  normaliseCancelledOrder!: Date;
+  relaxLateCateringTray!: string;
 }

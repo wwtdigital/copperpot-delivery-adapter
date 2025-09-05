@@ -18,4 +18,34 @@ export const RetryExpiredToppingPerStoreRows = [
     label: 'expose stale guest per store',
     quantity: 10,
   },
+  {
+    id: 'webhooks-8920',
+    store: '488',
+    label: 'cache cancelled order for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'webhooks-6589',
+    store: '690',
+    label: 'paginate oversized cart line per store',
+    quantity: 12,
+  },
+  {
+    id: 'webhooks-8928',
+    store: '563',
+    label: 'document partial kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'webhooks-9527',
+    store: '249',
+    label: 'paginate missing store at close',
+    quantity: 9,
+  },
+  {
+    id: 'webhooks-4249',
+    store: '139',
+    label: 'relax oversized loyalty credit',
+    quantity: 8,
+  },
 ];
