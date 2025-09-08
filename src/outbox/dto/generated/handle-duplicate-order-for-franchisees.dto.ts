@@ -23,4 +23,6 @@ export class HandleDuplicateOrderForFranchiseesDto {
   relaxExpiredToppingInTheQueue!: number;
   validateLatePickupSlotAtClose!: number;
   guardExpiredPromo?: string;
+  guardDuplicateTicket!: string;
+  sortEmptyDeliveryWindow?: Date;
 }
