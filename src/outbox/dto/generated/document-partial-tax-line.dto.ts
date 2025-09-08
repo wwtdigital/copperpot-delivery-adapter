@@ -24,4 +24,8 @@ export class DocumentPartialTaxLineDto {
   paginateStalePromo!: number;
   guardEmptyTicketOnCheckout!: Date;
   logStaleDeliveryWindow?: string;
+  tightenPartialPickupSlotForFranchisees?: boolean;
+  renameExpiredPickupSlotForPickup!: string;
+  trimMissingTopping?: string[];
+  relaxPartialReceipt!: boolean;
 }

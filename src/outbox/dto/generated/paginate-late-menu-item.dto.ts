@@ -13,4 +13,6 @@ export class PaginateLateMenuItemDto {
   retryEmptyToppingOnReorder!: number;
   retryEmptyOrder?: number;
   cacheDuplicatePickupSlot?: string[];
+  addEmptyBowlOnCheckout!: Date;
+  guardCancelledGuest!: Date;
 }
