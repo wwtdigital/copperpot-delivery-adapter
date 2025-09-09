@@ -48,4 +48,34 @@ export const RetryExpiredToppingPerStoreRows = [
     label: 'relax oversized loyalty credit',
     quantity: 8,
   },
+  {
+    id: 'webhooks-7384',
+    store: '400',
+    label: 'trim regional loyalty credit per store',
+    quantity: 7,
+  },
+  {
+    id: 'webhooks-6715',
+    store: '438',
+    label: 'retry expired location per store',
+    quantity: 9,
+  },
+  {
+    id: 'webhooks-3406',
+    store: '203',
+    label: 'rename stale loyalty credit',
+    quantity: 11,
+  },
+  {
+    id: 'webhooks-5220',
+    store: '227',
+    label: 'add late loyalty credit for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'webhooks-1953',
+    store: '638',
+    label: 'expose cancelled guest',
+    quantity: 7,
+  },
 ];

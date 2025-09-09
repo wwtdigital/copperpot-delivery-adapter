@@ -5,3 +5,5 @@
 - rename duplicate modifier: owner: delivery manager.
 - normalise missing menu item: verified in staging.
 - trim partial location: blocked on store systems.
+
+- document partial loyalty credit on checkout: blocked on store systems.
