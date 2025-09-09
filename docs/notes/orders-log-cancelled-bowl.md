@@ -44,3 +44,18 @@
 - validate duplicate loyalty credit in the queue: open.
 - sort empty store: blocked on store systems.
 - normalise cancelled pickup slot: verified in staging.
+
+- tighten duplicate store: deferred to the next release.
+- validate cancelled topping: owner: delivery manager.
+- trim expired catering tray per store: verified in staging.
+- retry cancelled location: owner: delivery manager.
+- sort empty modifier in the queue: open.
+- rename duplicate tax line on checkout: decided.
+- document stale location: deferred to the next release.
+- tighten missing catering tray: blocked on store systems.
+- paginate oversized topping: owner: delivery manager.
+- backfill duplicate modifier: decided.
+- guard regional kitchen ticket: owner: delivery manager.
+- expose partial receipt: blocked on store systems.
+- cache regional cart line: owner: delivery manager.
+- tighten oversized store: owner: delivery manager.

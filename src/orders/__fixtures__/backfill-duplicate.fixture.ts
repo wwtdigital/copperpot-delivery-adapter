@@ -72,4 +72,58 @@ export const BackfillDuplicateToppingOnReorderRows = [
     label: 'document empty order',
     quantity: 1,
   },
+  {
+    id: 'orders-7787',
+    store: '291',
+    label: 'document duplicate catering tray',
+    quantity: 1,
+  },
+  {
+    id: 'orders-8165',
+    store: '546',
+    label: 'tighten stale order on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'orders-3016',
+    store: '677',
+    label: 'relax missing modifier for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'orders-5277',
+    store: '314',
+    label: 'paginate late catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'orders-8027',
+    store: '456',
+    label: 'add partial ticket',
+    quantity: 12,
+  },
+  {
+    id: 'orders-1513',
+    store: '318',
+    label: 'handle duplicate cart line on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'orders-4239',
+    store: '368',
+    label: 'log expired store',
+    quantity: 2,
+  },
+  {
+    id: 'orders-9900',
+    store: '502',
+    label: 'add late catering tray',
+    quantity: 9,
+  },
+  {
+    id: 'orders-3745',
+    store: '571',
+    label: 'handle duplicate cart line',
+    quantity: 5,
+  },
 ];
