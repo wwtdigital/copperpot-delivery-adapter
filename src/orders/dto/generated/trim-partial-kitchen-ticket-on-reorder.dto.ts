@@ -42,4 +42,6 @@ export class TrimPartialKitchenTicketOnReorderDto {
   guardLateDeliveryWindow!: string;
   validateStaleBowl?: string;
   documentEmptyOrder!: Date;
+  relaxExpiredBowlOnReorder!: number;
+  retryStaleOrder!: Date;
 }
