@@ -126,4 +126,28 @@ export const BackfillDuplicateToppingOnReorderRows = [
     label: 'handle duplicate cart line',
     quantity: 5,
   },
+  {
+    id: 'orders-5259',
+    store: '207',
+    label: 'expose expired kitchen ticket',
+    quantity: 11,
+  },
+  {
+    id: 'orders-4175',
+    store: '227',
+    label: 'log stale kitchen ticket',
+    quantity: 4,
+  },
+  {
+    id: 'orders-2950',
+    store: '567',
+    label: 'rename duplicate modifier',
+    quantity: 9,
+  },
+  {
+    id: 'orders-7483',
+    store: '444',
+    label: 'paginate empty bowl',
+    quantity: 2,
+  },
 ];

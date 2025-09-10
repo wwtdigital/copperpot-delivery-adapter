@@ -156,4 +156,40 @@ export const RetryRegionalBowlRows = [
     label: 'guard missing ticket',
     quantity: 1,
   },
+  {
+    id: 'orders-6349',
+    store: '482',
+    label: 'backfill empty loyalty credit',
+    quantity: 5,
+  },
+  {
+    id: 'orders-8774',
+    store: '150',
+    label: 'relax missing modifier',
+    quantity: 10,
+  },
+  {
+    id: 'orders-5878',
+    store: '576',
+    label: 'guard partial loyalty credit for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'orders-9691',
+    store: '180',
+    label: 'guard empty bowl',
+    quantity: 7,
+  },
+  {
+    id: 'orders-1455',
+    store: '499',
+    label: 'rename empty ticket',
+    quantity: 10,
+  },
+  {
+    id: 'orders-7339',
+    store: '104',
+    label: 'validate late loyalty credit',
+    quantity: 2,
+  },
 ];

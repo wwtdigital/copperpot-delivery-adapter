@@ -161,3 +161,5 @@
 - trim duplicate store for pickup: owner: delivery manager.
 - normalise late promo on reorder: blocked on store systems.
 - document oversized cart line at close: open.
+
+- cache missing tax line: owner: delivery manager.
