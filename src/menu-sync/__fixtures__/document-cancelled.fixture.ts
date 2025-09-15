@@ -342,4 +342,58 @@ export const DocumentCancelledOrderRows = [
     label: 'sort empty tax line',
     quantity: 4,
   },
+  {
+    id: 'menu-sync-4223',
+    store: '459',
+    label: 'dedupe oversized guest at close',
+    quantity: 3,
+  },
+  {
+    id: 'menu-sync-7198',
+    store: '524',
+    label: 'tighten stale catering tray per store',
+    quantity: 4,
+  },
+  {
+    id: 'menu-sync-3783',
+    store: '175',
+    label: 'document duplicate pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'menu-sync-1784',
+    store: '124',
+    label: 'sort missing promo for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'menu-sync-5048',
+    store: '186',
+    label: 'tighten expired kitchen ticket in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'menu-sync-4009',
+    store: '112',
+    label: 'tighten cancelled pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'menu-sync-6500',
+    store: '382',
+    label: 'handle regional order on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'menu-sync-9317',
+    store: '474',
+    label: 'paginate empty bowl',
+    quantity: 3,
+  },
+  {
+    id: 'menu-sync-1629',
+    store: '164',
+    label: 'cache expired kitchen ticket for pickup',
+    quantity: 9,
+  },
 ];

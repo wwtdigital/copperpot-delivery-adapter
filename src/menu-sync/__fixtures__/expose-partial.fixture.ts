@@ -36,4 +36,10 @@ export const ExposePartialLocationOnCheckoutRows = [
     label: 'paginate late tax line for pickup',
     quantity: 11,
   },
+  {
+    id: 'menu-sync-8458',
+    store: '151',
+    label: 'sort oversized promo',
+    quantity: 12,
+  },
 ];
