@@ -66,4 +66,46 @@ export const TightenDuplicateToppingRows = [
     label: 'relax empty guest in the queue',
     quantity: 12,
   },
+  {
+    id: 'outbox-6937',
+    store: '321',
+    label: 'relax duplicate catering tray',
+    quantity: 9,
+  },
+  {
+    id: 'outbox-1260',
+    store: '685',
+    label: 'expose cancelled cart line on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'outbox-8444',
+    store: '535',
+    label: 'document stale receipt for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'outbox-4704',
+    store: '251',
+    label: 'cache missing location',
+    quantity: 3,
+  },
+  {
+    id: 'outbox-4733',
+    store: '303',
+    label: 'log duplicate promo for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-1192',
+    store: '631',
+    label: 'guard late pickup slot per store',
+    quantity: 10,
+  },
+  {
+    id: 'outbox-2989',
+    store: '132',
+    label: 'dedupe expired modifier on checkout',
+    quantity: 8,
+  },
 ];

@@ -25,4 +25,6 @@ export class HandleDuplicateOrderForFranchiseesDto {
   guardExpiredPromo?: string;
   guardDuplicateTicket!: string;
   sortEmptyDeliveryWindow?: Date;
+  dedupePartialOrderAtClose!: string[];
+  cacheLateModifierForFranchisees!: Date;
 }
