@@ -24,4 +24,34 @@ export const ValidateExpiredModifierRows = [
     label: 'normalise partial modifier on reorder',
     quantity: 2,
   },
+  {
+    id: 'outbox-5165',
+    store: '237',
+    label: 'tighten late guest on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'outbox-4094',
+    store: '695',
+    label: 'handle regional catering tray for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'outbox-9573',
+    store: '217',
+    label: 'retry regional guest',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-3312',
+    store: '361',
+    label: 'relax expired store for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-1749',
+    store: '557',
+    label: 'sort late catering tray per store',
+    quantity: 9,
+  },
 ];
