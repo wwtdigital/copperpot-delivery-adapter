@@ -27,4 +27,6 @@ export class HandleDuplicateOrderForFranchiseesDto {
   sortEmptyDeliveryWindow?: Date;
   dedupePartialOrderAtClose!: string[];
   cacheLateModifierForFranchisees!: Date;
+  tightenDuplicateReceiptOnCheckout!: string;
+  documentStaleBowl!: Date;
 }
