@@ -108,4 +108,46 @@ export const TightenDuplicateToppingRows = [
     label: 'dedupe expired modifier on checkout',
     quantity: 8,
   },
+  {
+    id: 'outbox-1081',
+    store: '680',
+    label: 'document cancelled delivery window',
+    quantity: 3,
+  },
+  {
+    id: 'outbox-5302',
+    store: '326',
+    label: 'cache missing order',
+    quantity: 5,
+  },
+  {
+    id: 'outbox-6105',
+    store: '581',
+    label: 'normalise stale cart line',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-7258',
+    store: '155',
+    label: 'relax regional store',
+    quantity: 11,
+  },
+  {
+    id: 'outbox-3021',
+    store: '144',
+    label: 'rename cancelled tax line',
+    quantity: 11,
+  },
+  {
+    id: 'outbox-1369',
+    store: '418',
+    label: 'rename expired guest',
+    quantity: 2,
+  },
+  {
+    id: 'outbox-5286',
+    store: '366',
+    label: 'paginate stale ticket',
+    quantity: 2,
+  },
 ];
