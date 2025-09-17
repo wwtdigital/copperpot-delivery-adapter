@@ -86,3 +86,6 @@
 
 - retry stale location per store: verified in staging.
 - paginate expired delivery window: deferred to the next release.
+
+- validate stale cart line: decided.
+- trim duplicate location: verified in staging.
