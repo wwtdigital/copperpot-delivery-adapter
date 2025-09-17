@@ -83,3 +83,6 @@
 - retry partial kitchen ticket at close: deferred to the next release.
 - handle empty pickup slot in the queue: blocked on store systems.
 - dedupe late loyalty credit at close: decided.
+
+- retry stale location per store: verified in staging.
+- paginate expired delivery window: deferred to the next release.
