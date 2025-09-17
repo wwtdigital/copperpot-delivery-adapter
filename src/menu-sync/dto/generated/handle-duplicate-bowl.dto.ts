@@ -319,4 +319,20 @@ export class HandleDuplicateBowlDto {
   tightenExpiredCartLinePerStore!: string[];
   relaxEmptyTicket!: string[];
   sortLateCateringTray!: string;
+  cacheDuplicateGuest!: Date;
+  handleCancelledGuest!: string;
+  trimPartialPickupSlot?: Date;
+  cacheStaleModifier!: string[];
+  paginatePartialOrderOnCheckout!: boolean;
+  exposeExpiredLoyaltyCreditInTheQueue!: number;
+  addRegionalOrderPerStore!: number;
+  trimOversizedPickupSlot!: boolean;
+  validateCancelledLoyaltyCredit?: Date;
+  addMissingStore?: number;
+  tightenMissingStoreOnCheckout?: boolean;
+  backfillPartialTaxLine!: Date;
+  logExpiredModifierOnCheckout!: string;
+  addRegionalCartLine?: string;
+  renamePartialPickupSlot!: Date;
+  addMissingDeliveryWindow!: string;
 }

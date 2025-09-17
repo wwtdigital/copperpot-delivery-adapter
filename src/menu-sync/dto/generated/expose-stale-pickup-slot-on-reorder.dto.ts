@@ -103,4 +103,6 @@ export class ExposeStalePickupSlotOnReorderDto {
   handlePartialCartLineOnCheckout!: boolean;
   addOversizedCartLineAtClose?: string;
   paginateRegionalCartLineOnCheckout?: Date;
+  addPartialTaxLineForPickup!: Date;
+  paginateMissingDeliveryWindowPerStore!: boolean;
 }
