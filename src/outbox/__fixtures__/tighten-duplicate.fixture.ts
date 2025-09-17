@@ -48,4 +48,22 @@ export const TightenDuplicateToppingRows = [
     label: 'retry oversized order',
     quantity: 3,
   },
+  {
+    id: 'outbox-4997',
+    store: '211',
+    label: 'document missing menu item',
+    quantity: 5,
+  },
+  {
+    id: 'outbox-7486',
+    store: '249',
+    label: 'guard oversized modifier',
+    quantity: 10,
+  },
+  {
+    id: 'outbox-2078',
+    store: '395',
+    label: 'relax empty guest in the queue',
+    quantity: 12,
+  },
 ];
