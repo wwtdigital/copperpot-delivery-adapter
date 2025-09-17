@@ -150,4 +150,16 @@ export const TightenDuplicateToppingRows = [
     label: 'paginate stale ticket',
     quantity: 2,
   },
+  {
+    id: 'outbox-1859',
+    store: '151',
+    label: 'handle duplicate receipt',
+    quantity: 5,
+  },
+  {
+    id: 'outbox-6929',
+    store: '343',
+    label: 'tighten late delivery window',
+    quantity: 9,
+  },
 ];

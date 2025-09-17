@@ -28,4 +28,6 @@ export class DocumentPartialTaxLineDto {
   renameExpiredPickupSlotForPickup!: string;
   trimMissingTopping?: string[];
   relaxPartialReceipt!: boolean;
+  dedupeCancelledMenuItemOnCheckout!: string[];
+  exposePartialTaxLine?: string[];
 }
