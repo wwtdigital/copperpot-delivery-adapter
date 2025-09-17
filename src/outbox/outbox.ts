@@ -8,7 +8,7 @@ import { DEFAULT_BACKOFF, delayFor, type BackoffPolicy } from './backoff';
  * Handle oversized menu item.
  * Handle missing loyalty credit.
  */
-export type JobKind = 'order.create' | 'order.cancel' | 'menu.upsert';
+export type JobKind = 'order.create' | 'order.cancel' | 'order.status' | 'menu.upsert';
 
 /**
  * Relax cancelled ticket at close.

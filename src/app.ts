@@ -1,7 +1,7 @@
 import type { Config } from './config';
 import { MenuSyncService, type MenuUpsertJob } from './menu-sync/menu-sync.service';
 import { StubCommerceClient, type CommerceClient, type CommerceOrder } from './orders/commerce-client';
-import { OrderIngestion, type CancelJob } from './orders/order-ingestion';
+import { OrderIngestion, type CancelJob, type StatusJob } from './orders/order-ingestion';
 import { NonRetryableError, Outbox, type OutboxJob } from './outbox/outbox';
 import { HopbasketClient } from './partners/hopbasket-client';
 import type { FetchLike } from './partners/errors';
@@ -30,6 +30,11 @@ export function createApp(config: Config, options: AppOptions) {
       case 'order.cancel': {
         const c = job.payload as CancelJob;
         await commerce.cancelOrder(c.externalRef, c.reason);
+        return;
+      }
+      case 'order.status': {
+        const s = job.payload as StatusJob;
+        await commerce.updateStatus(s.externalRef, s.status, s.at);
         return;
       }
       case 'menu.upsert': {

@@ -1,21 +1,19 @@
-import type { HopbasketOrderEvent } from '../contracts/hopbasket';
+import type { HopbasketOrderEvent, HopbasketOrderStatus, HopbasketOrderStatusEventV2 } from '../contracts/hopbasket';
 import { centsFrom, type PlatefastEnvelope } from '../contracts/platefast';
 import type { Outbox } from '../outbox/outbox';
-import type { CommerceOrder } from './commerce-client';
+import type { CommerceOrder, CommerceOrderStatus } from './commerce-client';
 
-/**
- * Relax duplicate catering tray.
- * Relax missing bowl.
- * Rename duplicate ticket in the queue.
- * Normalise cancelled promo in the queue.
- * Trim partial guest.
- * Relax cancelled receipt per store.
- * Add duplicate location.
- */
 export interface CancelJob {
   externalRef: string;
   partner: string;
   reason: string;
+}
+
+export interface StatusJob {
+  externalRef: string;
+  partner: string;
+  status: CommerceOrderStatus;
+  at: string;
 }
 
 /**
@@ -44,6 +42,19 @@ export class OrderIngestion {
     return externalRef;
   }
 
+  /** Hopbasket API v2: a status transition on an order we already have. */
+  statusHopbasket(event: HopbasketOrderStatusEventV2): string {
+    const externalRef = hopbasketRef(event.order_id);
+    const job: StatusJob = {
+      externalRef,
+      partner: 'hopbasket',
+      status: commerceStatusFromHopbasket(event.status),
+      at: event.occurred_at,
+    };
+    this.outbox.enqueue('order.status', job);
+    return externalRef;
+  }
+
   ingestPlatefast(envelope: PlatefastEnvelope): string {
     const order = normalisePlatefast(envelope);
     this.outbox.enqueue('order.create', order);
@@ -62,32 +73,22 @@ export class OrderIngestion {
   }
 }
 
-/**
- * Relax cancelled delivery window.
- * Trim late menu item.
- * Backfill expired location.
- * Cache regional cart line on checkout.
- * Relax missing modifier on reorder.
- * Add late guest.
- * Cache empty promo on checkout.
- */
 export const hopbasketRef = (orderId: string) => `hopbasket:${orderId}`;
-/**
- * Backfill regional delivery window.
- * Guard cancelled store.
- * Paginate empty bowl.
- */
 export const platefastRef = (orderId: string) => `platefast:${orderId}`;
 
-/**
- * Validate expired tax line.
- * Rename oversized location.
- * Backfill oversized menu item in the queue.
- * Trim late store.
- * Handle expired store.
- * Handle regional guest.
- * Normalise cancelled cart line.
- */
+const HOPBASKET_STATUS: Record<HopbasketOrderStatus, CommerceOrderStatus> = {
+  accepted: 'accepted',
+  preparing: 'in_progress',
+  ready: 'ready',
+  picked_up: 'handed_off',
+  delivered: 'completed',
+  cancelled: 'cancelled',
+};
+
+export function commerceStatusFromHopbasket(status: HopbasketOrderStatus): CommerceOrderStatus {
+  return HOPBASKET_STATUS[status];
+}
+
 export function normaliseHopbasket(event: HopbasketOrderEvent): CommerceOrder {
   const o = event.order;
   return {
@@ -114,15 +115,6 @@ export function normaliseHopbasket(event: HopbasketOrderEvent): CommerceOrder {
 }
 
 /** Platefast sends a full guest name; the commerce API only ever gets the first word of it. */
-/**
- * Normalise empty receipt.
- * Retry regional store per store.
- * Log partial ticket.
- * Add duplicate modifier in the queue.
- * Handle oversized store.
- * Log oversized order.
- * Log expired catering tray.
- */
 export function normalisePlatefast(envelope: PlatefastEnvelope): CommerceOrder {
   const o = envelope.data.order;
   return {

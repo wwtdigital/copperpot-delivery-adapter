@@ -1,44 +1,21 @@
 import type { FastifyInstance } from 'fastify';
-import { HopbasketOrderEvent } from '../contracts/hopbasket';
+import { HopbasketOrderEvent, HopbasketOrderStatusEventV2, isHopbasketV2 } from '../contracts/hopbasket';
 import type { OrderIngestion } from '../orders/order-ingestion';
 import type { IdempotencyStore, StoredResponse } from './idempotency';
 import { registerInboundWebhook } from './inbound';
 
-/**
- * Relax duplicate cart line.
- * Validate expired store on reorder.
- * Relax stale location.
- * Trim duplicate location.
- * Cache cancelled tax line.
- * Dedupe late topping on checkout.
- * Add empty store.
- */
 export interface HopbasketWebhookDeps {
   secret: string;
   idempotency: IdempotencyStore;
   ingestion: OrderIngestion;
 }
 
-/**
- * Normalise stale tax line.
- * Expose expired catering tray at close.
- * Backfill empty store.
- * Handle partial menu item on checkout.
- * Validate partial tax line for franchisees.
- * Relax missing bowl at close.
- * Cache empty topping.
- */
 export const HOPBASKET = 'hopbasket';
 
-/** POST /webhooks/hopbasket: order.created and order.cancelled, API version 1. */
 /**
- * Backfill expired bowl.
- * Backfill partial bowl.
- * Sort partial menu item.
- * Handle oversized menu item.
- * Document late promo.
- * Trim duplicate kitchen ticket.
- * Document late kitchen ticket.
+ * POST /webhooks/hopbasket. One endpoint for both API versions, as Hopbasket
+ * delivers them: v1 order.created and order.cancelled, v2
+ * order.status_changed (schema_version 2 on the body).
  */
 export async function hopbasketWebhooks(app: FastifyInstance, deps: HopbasketWebhookDeps): Promise<void> {
   registerInboundWebhook(app, {
@@ -52,20 +29,22 @@ export async function hopbasketWebhooks(app: FastifyInstance, deps: HopbasketWeb
   });
 }
 
-/**
- * Tighten empty bowl.
- * Guard duplicate ticket.
- * Rename oversized order on reorder.
- * Guard oversized topping.
- * Trim expired location on checkout.
- * Tighten oversized kitchen ticket per store.
- * Normalise late store in the queue.
- */
 export async function handleHopbasket(
   body: unknown,
   eventId: string,
   ingestion: OrderIngestion,
 ): Promise<StoredResponse> {
+  if (isHopbasketV2(body)) {
+    const parsed = HopbasketOrderStatusEventV2.safeParse(body);
+    if (!parsed.success) {
+      return { status: 400, body: { error: 'invalid v2 event', issues: parsed.error.issues.slice(0, 5) } };
+    }
+    if (parsed.data.event_id !== eventId) {
+      return { status: 400, body: { error: 'event id header does not match body' } };
+    }
+    const ref = ingestion.statusHopbasket(parsed.data);
+    return { status: 202, body: { accepted: true, ref } };
+  }
   const parsed = HopbasketOrderEvent.safeParse(body);
   if (!parsed.success) {
     return { status: 400, body: { error: 'invalid event', issues: parsed.error.issues.slice(0, 5) } };

@@ -1,12 +1,3 @@
-/**
- * Validate partial loyalty credit.
- * Cache missing order.
- * Dedupe cancelled delivery window at close.
- * Expose empty pickup slot.
- * Backfill missing catering tray.
- * Normalise stale delivery window.
- * Cache missing guest for franchisees.
- */
 export interface CommerceOrderLine {
   sku: string;
   name: string;
@@ -17,15 +8,6 @@ export interface CommerceOrderLine {
 }
 
 /** The order the commerce API accepts from a partner channel. */
-/**
- * Expose expired cart line on checkout.
- * Validate expired pickup slot.
- * Normalise duplicate modifier on checkout.
- * Expose partial guest.
- * Tighten missing cart line at close.
- * Log oversized kitchen ticket.
- * Document missing promo.
- */
 export interface CommerceOrder {
   externalRef: string;
   partner: string;
@@ -41,30 +23,31 @@ export interface CommerceOrder {
   totalCents: number;
 }
 
-/**
- * Normalise regional receipt.
- * Add regional store.
- * Relax empty guest on checkout.
- * Dedupe missing location at close.
- * Relax cancelled order per store.
- * Validate expired catering tray on checkout.
- * Sort cancelled guest.
- */
+export type CommerceOrderStatus =
+  'placed' | 'accepted' | 'in_progress' | 'ready' | 'handed_off' | 'completed' | 'cancelled';
+
 export interface CommerceClient {
   createOrder(order: CommerceOrder): Promise<{ orderId: string }>;
   cancelOrder(externalRef: string, reason: string): Promise<void>;
+  updateStatus(externalRef: string, status: CommerceOrderStatus, at: string): Promise<void>;
 }
 
 /**
  * The stand-in for the commerce API's partner-orders endpoint, which is
  * still being built on their side. Behaves the way the real one is
  * specified to: creating the same external reference twice returns the
- * same order id, and cancelling an unknown reference is a no-op.
+ * same order id, cancelling or updating an unknown reference is a no-op,
+ * and status transitions are kept in order of arrival.
  */
 export class StubCommerceClient implements CommerceClient {
   private readonly orders = new Map<
     string,
-    { orderId: string; order: CommerceOrder; status: 'placed' | 'cancelled' }
+    {
+      orderId: string;
+      order: CommerceOrder;
+      status: CommerceOrderStatus;
+      history: Array<{ status: CommerceOrderStatus; at: string }>;
+    }
   >();
   private seq = 0;
 
@@ -72,7 +55,12 @@ export class StubCommerceClient implements CommerceClient {
     const existing = this.orders.get(order.externalRef);
     if (existing) return { orderId: existing.orderId };
     const orderId = `ord_${String(++this.seq).padStart(6, '0')}`;
-    this.orders.set(order.externalRef, { orderId, order, status: 'placed' });
+    this.orders.set(order.externalRef, {
+      orderId,
+      order,
+      status: 'placed',
+      history: [{ status: 'placed', at: order.placedAt }],
+    });
     return { orderId };
   }
 
@@ -81,12 +69,20 @@ export class StubCommerceClient implements CommerceClient {
     if (existing) existing.status = 'cancelled';
   }
 
+  async updateStatus(externalRef: string, status: CommerceOrderStatus, at: string): Promise<void> {
+    const existing = this.orders.get(externalRef);
+    if (!existing) return;
+    existing.status = status;
+    existing.history.push({ status, at });
+  }
+
   /** For tests and the health page. */
-  snapshot(): Array<{ externalRef: string; orderId: string; status: 'placed' | 'cancelled' }> {
+  snapshot(): Array<{ externalRef: string; orderId: string; status: CommerceOrderStatus; transitions: number }> {
     return [...this.orders.entries()].map(([externalRef, v]) => ({
       externalRef,
       orderId: v.orderId,
       status: v.status,
+      transitions: v.history.length,
     }));
   }
 }

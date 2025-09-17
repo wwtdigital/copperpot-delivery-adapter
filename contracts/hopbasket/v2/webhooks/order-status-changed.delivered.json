@@ -1,0 +1,20 @@
+{
+  "recorded_at": "2025-09-09",
+  "source": "Hopbasket partner sandbox, API v2, test store st_204",
+  "headers": {
+    "content-type": "application/json",
+    "x-hopbasket-event-id": "evt_7a20d9f0",
+    "x-hopbasket-signature": "sha256=<stripped>",
+    "x-hopbasket-schema-version": "2"
+  },
+  "body": {
+    "schema_version": 2,
+    "event_id": "evt_7a20d9f0",
+    "type": "order.status_changed",
+    "occurred_at": "2025-09-09T19:00:52Z",
+    "order_id": "do_91877",
+    "store_id": "st_204",
+    "status": "delivered",
+    "courier": { "eta": null }
+  }
+}
