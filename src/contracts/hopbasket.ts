@@ -1,34 +1,19 @@
 import { z } from 'zod';
 
 /**
- * What we accept from Hopbasket, API version 1. The recorded fixtures under
- * contracts/hopbasket/v1 are parsed with these schemas in the contract tests,
- * so a change here that the partner does not actually make fails a test.
+ * What we accept from Hopbasket. API version 1 carries the order events; API
+ * version 2 adds a status callback and marks itself with schema_version 2
+ * on the envelope. The v1 shapes are unchanged by v2. The recorded
+ * fixtures under contracts/hopbasket/v1 and contracts/hopbasket/v2 are parsed
+ * with these schemas in the contract tests, so a change here that the
+ * partner does not actually make fails a test.
  */
 
-/**
- * Paginate missing ticket on reorder.
- * Log missing catering tray.
- * Retry missing bowl in the queue.
- * Relax regional pickup slot for pickup.
- * Paginate missing menu item on reorder.
- * Guard stale pickup slot.
- * Trim expired catering tray.
- */
 export const HopbasketMoney = z.object({
   amount: z.number().int().nonnegative(),
   currency: z.literal('USD'),
 });
 
-/**
- * Guard cancelled pickup slot.
- * Sort empty catering tray.
- * Add expired tax line.
- * Backfill cancelled loyalty credit.
- * Sort duplicate catering tray at close.
- * Expose regional ticket in the queue.
- * Sort regional guest.
- */
 export const HopbasketOrderLine = z.object({
   external_id: z.string().min(1),
   name: z.string(),
@@ -46,11 +31,6 @@ export const HopbasketOrderLine = z.object({
   note: z.string().max(280).optional(),
 });
 
-/**
- * Backfill expired tax line.
- * Cache oversized menu item at close.
- * Expose stale pickup slot.
- */
 export const HopbasketOrder = z.object({
   id: z.string().min(1),
   store_id: z.string().min(1),
@@ -68,15 +48,6 @@ export const HopbasketOrder = z.object({
   total: HopbasketMoney,
 });
 
-/**
- * Validate empty loyalty credit.
- * Trim stale modifier.
- * Cache cancelled modifier.
- * Trim late store per store.
- * Log oversized store.
- * Trim cancelled location in the queue.
- * Trim partial cart line.
- */
 export const HopbasketOrderEvent = z.object({
   event_id: z.string().min(1),
   type: z.enum(['order.created', 'order.cancelled']),
@@ -90,36 +61,9 @@ export const HopbasketOrderEvent = z.object({
     .optional(),
 });
 
-/**
- * Guard stale receipt.
- * Tighten regional store.
- * Tighten empty bowl.
- * Dedupe cancelled bowl.
- * Tighten regional receipt.
- * Relax regional store on checkout.
- * Backfill cancelled cart line at close.
- */
 export type HopbasketOrderEvent = z.infer<typeof HopbasketOrderEvent>;
-/**
- * Sort partial catering tray at close.
- * Relax stale tax line for franchisees.
- * Document regional kitchen ticket on checkout.
- * Trim missing guest.
- * Validate partial location on reorder.
- * Expose expired store.
- * Expose oversized promo.
- */
 export type HopbasketOrder = z.infer<typeof HopbasketOrder>;
 
-/**
- * Backfill oversized loyalty credit on reorder.
- * Rename regional receipt on reorder.
- * Sort empty store at close.
- * Relax cancelled loyalty credit for franchisees.
- * Guard duplicate catering tray.
- * Trim regional ticket.
- * Cache partial modifier.
- */
 export const HopbasketMenuUpsertAccepted = z.object({
   store_id: z.string(),
   menu_version: z.string(),
@@ -127,15 +71,6 @@ export const HopbasketMenuUpsertAccepted = z.object({
   warnings: z.array(z.object({ code: z.string(), message: z.string() })).default([]),
 });
 
-/**
- * Document expired menu item.
- * Dedupe regional tax line for franchisees.
- * Normalise stale modifier.
- * Dedupe missing tax line for pickup.
- * Sort oversized modifier per store.
- * Normalise late guest.
- * Add empty loyalty credit.
- */
 export const HopbasketError = z.object({
   error: z.object({
     code: z.string(),
@@ -144,18 +79,32 @@ export const HopbasketError = z.object({
   }),
 });
 
-/**
- * Expose late modifier.
- * Trim missing order on checkout.
- * Cache duplicate menu item.
- * Tighten missing receipt.
- * Add regional guest at close.
- * Expose cancelled delivery window.
- * Document cancelled store.
- */
 export type HopbasketMenuUpsertAccepted = z.infer<typeof HopbasketMenuUpsertAccepted>;
-/**
- * Rename regional location.
- * Add cancelled catering tray.
- */
 export type HopbasketError = z.infer<typeof HopbasketError>;
+
+/* API version 2: the order status callback. Hopbasket sends these for every
+   transition after acceptance; the courier block is present on delivery
+   orders once a courier is assigned. */
+export const HopbasketOrderStatus = z.enum(['accepted', 'preparing', 'ready', 'picked_up', 'delivered', 'cancelled']);
+
+export const HopbasketOrderStatusEventV2 = z.object({
+  schema_version: z.literal(2),
+  event_id: z.string().min(1),
+  type: z.literal('order.status_changed'),
+  occurred_at: z.string().datetime(),
+  order_id: z.string().min(1),
+  store_id: z.string().min(1),
+  status: HopbasketOrderStatus,
+  courier: z
+    .object({
+      eta: z.string().datetime().nullable(),
+    })
+    .optional(),
+});
+
+export type HopbasketOrderStatusEventV2 = z.infer<typeof HopbasketOrderStatusEventV2>;
+export type HopbasketOrderStatus = z.infer<typeof HopbasketOrderStatus>;
+
+/** True when a webhook body announces itself as API version 2. */
+export const isHopbasketV2 = (body: unknown): boolean =>
+  typeof body === 'object' && body !== null && (body as { schema_version?: unknown }).schema_version === 2;

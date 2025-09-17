@@ -18,3 +18,11 @@ When the partner publishes a new API version, cut a new folder. The old
 folder stays, with its tests, until the partner retires that version and
 the client code stops accepting it. A fixture is never edited in place to
 match a code change; it is re-recorded.
+
+## Versions on file
+
+| Partner | Version | Recorded | Covers |
+|---|---|---|---|
+| hopbasket | v1 | 2024-02 | order.created, order.cancelled, menu upsert responses |
+| hopbasket | v2 | 2025-09 | order.status_changed (the v1 events are unchanged in v2) |
+| platefast | v1 | 2024-07 | ORDER_PLACED, ORDER_CANCELLED, catalog upsert responses |

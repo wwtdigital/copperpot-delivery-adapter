@@ -117,4 +117,41 @@ describe('POST /webhooks/hopbasket', () => {
     expect(res.statusCode).toBe(202);
     expect(app.outbox.pending().some((j) => j.kind === 'order.cancel')).toBe(true);
   });
+
+  it('accepts a v2 status callback on the same endpoint and queues a status job', async () => {
+    const v2 = {
+      schema_version: 2,
+      event_id: 'evt_v2_01',
+      type: 'order.status_changed',
+      occurred_at: '2025-09-10T19:02:00Z',
+      order_id: 'do_88213',
+      store_id: 'st_204',
+      status: 'picked_up',
+      courier: { eta: '2025-09-10T19:20:00Z' },
+    };
+    const res = await post(v2, { 'x-hopbasket-event-id': 'evt_v2_01' });
+    expect(res.statusCode).toBe(202);
+    const job = app.outbox.pending().find((j) => j.kind === 'order.status');
+    expect(job?.payload).toEqual({
+      externalRef: 'hopbasket:do_88213',
+      partner: 'hopbasket',
+      status: 'handed_off',
+      at: '2025-09-10T19:02:00Z',
+    });
+  });
+
+  it('rejects a v2 body with an unknown status', async () => {
+    const v2 = {
+      schema_version: 2,
+      event_id: 'evt_v2_02',
+      type: 'order.status_changed',
+      occurred_at: '2025-09-10T19:02:00Z',
+      order_id: 'do_1',
+      store_id: 'st_204',
+      status: 'teleported',
+    };
+    const res = await post(v2, { 'x-hopbasket-event-id': 'evt_v2_02' });
+    expect(res.statusCode).toBe(400);
+    expect(res.json().error).toBe('invalid v2 event');
+  });
 });
