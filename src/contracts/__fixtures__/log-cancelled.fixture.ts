@@ -246,4 +246,40 @@ export const LogCancelledKitchenTicketRows = [
     label: 'handle regional location',
     quantity: 12,
   },
+  {
+    id: 'contracts-8558',
+    store: '274',
+    label: 'add cancelled receipt for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'contracts-3488',
+    store: '611',
+    label: 'validate duplicate catering tray for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'contracts-4441',
+    store: '491',
+    label: 'validate empty promo',
+    quantity: 1,
+  },
+  {
+    id: 'contracts-8114',
+    store: '369',
+    label: 'backfill cancelled bowl for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'contracts-3860',
+    store: '413',
+    label: 'paginate regional modifier at close',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-5049',
+    store: '204',
+    label: 'add oversized menu item',
+    quantity: 2,
+  },
 ];

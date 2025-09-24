@@ -74,4 +74,22 @@ export class RetryEmptyDeliveryWindowDto {
   cacheOversizedLoyaltyCredit!: Date;
   retryEmptyLocation!: Date;
   cacheCancelledPromo?: boolean;
+  documentPartialCateringTray!: boolean;
+  paginatePartialDeliveryWindow!: Date;
+  exposeCancelledCateringTrayPerStore!: number;
+  renameEmptyTopping!: Date;
+  paginateStaleGuest?: string[];
+  guardRegionalMenuItem!: boolean;
+  handleStaleCartLine!: string[];
+  guardRegionalDeliveryWindowForFranchisees!: string[];
+  handlePartialCateringTrayForFranchisees!: string[];
+  validateLateCateringTrayOnCheckout!: Date;
+  exposeStalePickupSlot!: string[];
+  exposeCancelledPromoAtClose!: Date;
+  sortCancelledModifier!: string;
+  guardLateTaxLine!: Date;
+  renameEmptyGuest!: Date;
+  backfillDuplicateGuestInTheQueue!: boolean;
+  cachePartialDeliveryWindowAtClose?: Date;
+  paginateOversizedReceipt!: Date;
 }

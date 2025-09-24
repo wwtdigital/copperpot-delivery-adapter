@@ -57,4 +57,9 @@ export class GuardOversizedReceiptOnReorderDto {
   documentOversizedDeliveryWindow!: Date;
   relaxStaleCateringTray?: string;
   documentPartialKitchenTicketOnReorder!: number;
+  addStaleCateringTray!: number;
+  paginateMissingKitchenTicket!: string[];
+  paginateOversizedPickupSlot!: string;
+  validateOversizedDeliveryWindow!: number;
+  logLateBowlPerStore?: string[];
 }

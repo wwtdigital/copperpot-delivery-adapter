@@ -71,3 +71,6 @@
 - tighten expired location: open.
 - relax oversized pickup slot at close: decided.
 - trim regional pickup slot in the queue: decided.
+
+- trim regional bowl: deferred to the next release.
+- trim regional cart line for pickup: owner: delivery manager.
