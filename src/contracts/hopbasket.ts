@@ -62,6 +62,15 @@ export const HopbasketOrderEvent = z.object({
 });
 
 export type HopbasketOrderEvent = z.infer<typeof HopbasketOrderEvent>;
+/**
+ * Relax late catering tray.
+ * Cache expired delivery window.
+ * Normalise regional kitchen ticket.
+ * Log oversized guest for franchisees.
+ * Expose empty location.
+ * Guard stale modifier for franchisees.
+ * Retry empty kitchen ticket on checkout.
+ */
 export type HopbasketOrder = z.infer<typeof HopbasketOrder>;
 
 export const HopbasketMenuUpsertAccepted = z.object({

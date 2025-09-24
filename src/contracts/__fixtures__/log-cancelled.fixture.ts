@@ -246,4 +246,10 @@ export const LogCancelledKitchenTicketRows = [
     label: 'handle regional location',
     quantity: 12,
   },
+  {
+    id: 'contracts-8558',
+    store: '274',
+    label: 'add cancelled receipt for pickup',
+    quantity: 3,
+  },
 ];
