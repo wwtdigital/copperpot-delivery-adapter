@@ -60,4 +60,6 @@ export class GuardOversizedReceiptOnReorderDto {
   addStaleCateringTray!: number;
   paginateMissingKitchenTicket!: string[];
   paginateOversizedPickupSlot!: string;
+  validateOversizedDeliveryWindow!: number;
+  logLateBowlPerStore?: string[];
 }
