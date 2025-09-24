@@ -306,4 +306,40 @@ export const LogCancelledKitchenTicketRows = [
     label: 'log oversized bowl',
     quantity: 8,
   },
+  {
+    id: 'contracts-6478',
+    store: '165',
+    label: 'log missing bowl on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'contracts-7635',
+    store: '540',
+    label: 'trim missing store',
+    quantity: 6,
+  },
+  {
+    id: 'contracts-3386',
+    store: '133',
+    label: 'tighten regional store in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'contracts-4577',
+    store: '160',
+    label: 'dedupe missing order per store',
+    quantity: 5,
+  },
+  {
+    id: 'contracts-9538',
+    store: '231',
+    label: 'cache oversized bowl',
+    quantity: 3,
+  },
+  {
+    id: 'contracts-2997',
+    store: '585',
+    label: 'expose late kitchen ticket',
+    quantity: 11,
+  },
 ];
