@@ -456,4 +456,52 @@ export const DocumentCancelledOrderRows = [
     label: 'log empty guest at close',
     quantity: 3,
   },
+  {
+    id: 'menu-sync-9244',
+    store: '391',
+    label: 'validate missing modifier for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'menu-sync-7174',
+    store: '579',
+    label: 'validate late order per store',
+    quantity: 4,
+  },
+  {
+    id: 'menu-sync-2191',
+    store: '255',
+    label: 'handle stale kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'menu-sync-4312',
+    store: '359',
+    label: 'rename oversized guest at close',
+    quantity: 3,
+  },
+  {
+    id: 'menu-sync-3701',
+    store: '381',
+    label: 'add stale receipt on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'menu-sync-2662',
+    store: '581',
+    label: 'cache duplicate pickup slot on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'menu-sync-4279',
+    store: '293',
+    label: 'retry expired tax line',
+    quantity: 4,
+  },
+  {
+    id: 'menu-sync-7642',
+    store: '640',
+    label: 'cache expired bowl',
+    quantity: 10,
+  },
 ];
