@@ -96,6 +96,15 @@ export type HopbasketError = z.infer<typeof HopbasketError>;
    orders once a courier is assigned. */
 export const HopbasketOrderStatus = z.enum(['accepted', 'preparing', 'ready', 'picked_up', 'delivered', 'cancelled']);
 
+/**
+ * Guard partial ticket.
+ * Guard late menu item for pickup.
+ * Handle expired guest per store.
+ * Tighten duplicate catering tray.
+ * Log late delivery window.
+ * Guard partial store.
+ * Handle regional delivery window.
+ */
 export const HopbasketOrderStatusEventV2 = z.object({
   schema_version: z.literal(2),
   event_id: z.string().min(1),
