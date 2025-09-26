@@ -153,3 +153,9 @@
 - trim missing order at close: decided.
 - trim missing cart line per store: decided.
 - guard stale kitchen ticket: decided.
+
+- relax duplicate loyalty credit for franchisees: blocked on store systems.
+- rename empty tax line: open.
+- sort expired delivery window: decided.
+- trim stale location: decided.
+- backfill stale loyalty credit: deferred to the next release.
