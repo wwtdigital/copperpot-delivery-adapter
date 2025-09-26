@@ -282,4 +282,28 @@ export const LogCancelledKitchenTicketRows = [
     label: 'add oversized menu item',
     quantity: 2,
   },
+  {
+    id: 'contracts-3481',
+    store: '650',
+    label: 'backfill missing pickup slot',
+    quantity: 11,
+  },
+  {
+    id: 'contracts-2266',
+    store: '284',
+    label: 'log missing modifier',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-7318',
+    store: '163',
+    label: 'retry empty pickup slot for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'contracts-9463',
+    store: '344',
+    label: 'log oversized bowl',
+    quantity: 8,
+  },
 ];
