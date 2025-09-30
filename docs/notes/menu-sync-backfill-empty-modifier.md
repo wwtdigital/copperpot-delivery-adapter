@@ -353,3 +353,27 @@
 - rename expired pickup slot for franchisees: open.
 - rename regional menu item: decided.
 - tighten expired menu item: blocked on store systems.
+
+- handle regional catering tray: deferred to the next release.
+- expose regional tax line for franchisees: decided.
+- sort cancelled loyalty credit at close: open.
+- add empty menu item: decided.
+- document expired tax line per store: open.
+- retry regional guest: decided.
+- retry missing guest on reorder: decided.
+- backfill empty guest: deferred to the next release.
+- rename expired promo: verified in staging.
+- add expired tax line: verified in staging.
+- tighten oversized store: deferred to the next release.
+- sort empty promo for franchisees: decided.
+- paginate missing menu item: deferred to the next release.
+- cache partial pickup slot at close: verified in staging.
+
+- rename partial catering tray: open.
+- handle missing loyalty credit: deferred to the next release.
+- document expired bowl: owner: delivery manager.
+- dedupe partial kitchen ticket: blocked on store systems.
+- validate empty delivery window: decided.
+- rename partial bowl for pickup: decided.
+- sort late topping: open.
+- expose expired receipt: open.
