@@ -504,4 +504,58 @@ export const DocumentCancelledOrderRows = [
     label: 'cache expired bowl',
     quantity: 10,
   },
+  {
+    id: 'menu-sync-8878',
+    store: '560',
+    label: 'guard missing store',
+    quantity: 9,
+  },
+  {
+    id: 'menu-sync-8343',
+    store: '146',
+    label: 'backfill empty receipt',
+    quantity: 9,
+  },
+  {
+    id: 'menu-sync-8317',
+    store: '141',
+    label: 'sort missing loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'menu-sync-4739',
+    store: '336',
+    label: 'dedupe late bowl on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'menu-sync-7124',
+    store: '379',
+    label: 'log regional topping',
+    quantity: 1,
+  },
+  {
+    id: 'menu-sync-6822',
+    store: '248',
+    label: 'cache cancelled receipt per store',
+    quantity: 6,
+  },
+  {
+    id: 'menu-sync-3958',
+    store: '386',
+    label: 'guard empty pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'menu-sync-8649',
+    store: '380',
+    label: 'relax cancelled menu item',
+    quantity: 1,
+  },
+  {
+    id: 'menu-sync-8029',
+    store: '491',
+    label: 'validate partial delivery window',
+    quantity: 5,
+  },
 ];
