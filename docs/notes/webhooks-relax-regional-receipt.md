@@ -159,3 +159,8 @@
 - sort expired delivery window: decided.
 - trim stale location: decided.
 - backfill stale loyalty credit: deferred to the next release.
+
+- cache empty modifier: blocked on store systems.
+- log cancelled receipt: decided.
+- backfill partial store on reorder: blocked on store systems.
+- backfill partial delivery window on checkout: blocked on store systems.
