@@ -102,4 +102,16 @@ export const CacheCancelledCartLineRows = [
     label: 'tighten missing delivery window per store',
     quantity: 1,
   },
+  {
+    id: 'webhooks-1524',
+    store: '335',
+    label: 'log duplicate ticket at close',
+    quantity: 4,
+  },
+  {
+    id: 'webhooks-9456',
+    store: '391',
+    label: 'tighten oversized location',
+    quantity: 2,
+  },
 ];
