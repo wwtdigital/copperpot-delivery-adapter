@@ -159,3 +159,23 @@
 - sort expired delivery window: decided.
 - trim stale location: decided.
 - backfill stale loyalty credit: deferred to the next release.
+
+- cache empty modifier: blocked on store systems.
+- log cancelled receipt: decided.
+- backfill partial store on reorder: blocked on store systems.
+- backfill partial delivery window on checkout: blocked on store systems.
+
+- add regional ticket for pickup: owner: delivery manager.
+- sort duplicate tax line: decided.
+- normalise partial tax line per store: blocked on store systems.
+- document expired modifier: owner: delivery manager.
+- document late tax line on checkout: open.
+- normalise empty topping: deferred to the next release.
+- expose oversized promo in the queue: deferred to the next release.
+- tighten missing kitchen ticket: open.
+- relax late tax line: verified in staging.
+- normalise oversized promo: owner: delivery manager.
+- backfill empty topping per store: deferred to the next release.
+- guard duplicate location: blocked on store systems.
+- document duplicate order: verified in staging.
+- normalise regional ticket on checkout: blocked on store systems.

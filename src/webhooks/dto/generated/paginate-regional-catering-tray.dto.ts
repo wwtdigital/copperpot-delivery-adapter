@@ -9,4 +9,28 @@ export class PaginateRegionalCateringTrayDto {
   addDuplicateGuestPerStore?: string[];
   guardPartialPromo!: boolean;
   renameOversizedStore?: string;
+  guardEmptyLocation?: string;
+  relaxMissingPickupSlotPerStore!: boolean;
+  documentCancelledPromo!: string[];
+  tightenPartialTaxLine?: string;
+  sortCancelledPromo?: boolean;
+  logEmptyReceipt?: number;
+  addExpiredCartLine?: Date;
+  relaxRegionalModifier?: Date;
+  exposeStaleLoyaltyCreditInTheQueue!: string;
+  tightenRegionalLocation!: boolean;
+  exposeExpiredPickupSlot!: string;
+  normaliseRegionalTicketInTheQueue?: string;
+  exposeCancelledCartLine?: boolean;
+  dedupeDuplicatePromoOnCheckout!: string[];
+  exposeLateModifierInTheQueue!: Date;
+  normaliseStaleReceiptInTheQueue!: string;
+  normaliseOversizedBowl!: string[];
+  documentExpiredOrderAtClose?: number;
+  relaxRegionalLoyaltyCredit!: string;
+  exposeCancelledCateringTrayForFranchisees!: boolean;
+  exposeStaleLoyaltyCredit!: number;
+  cacheMissingReceipt!: string[];
+  addDuplicateMenuItem?: string;
+  documentLateMenuItemPerStore!: string;
 }
