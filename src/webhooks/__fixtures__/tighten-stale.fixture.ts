@@ -30,4 +30,10 @@ export const TightenStaleBowlRows = [
     label: 'cache missing location',
     quantity: 7,
   },
+  {
+    id: 'webhooks-7214',
+    store: '147',
+    label: 'dedupe missing order',
+    quantity: 7,
+  },
 ];
