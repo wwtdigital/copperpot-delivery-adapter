@@ -223,3 +223,18 @@
 - backfill missing delivery window: decided.
 - relax duplicate location: blocked on store systems.
 - sort stale location for pickup: open.
+
+- handle cancelled cart line: blocked on store systems.
+- guard empty pickup slot: open.
+- expose regional location: verified in staging.
+- backfill duplicate loyalty credit: open.
+- backfill regional guest: decided.
+- handle stale loyalty credit: blocked on store systems.
+- handle duplicate kitchen ticket on reorder: decided.
+- handle oversized loyalty credit: deferred to the next release.
+- trim partial modifier at close: deferred to the next release.
+- sort expired tax line: open.
+- handle late tax line on checkout: blocked on store systems.
+- sort cancelled menu item: open.
+- add late kitchen ticket: blocked on store systems.
+- guard oversized store: open.
