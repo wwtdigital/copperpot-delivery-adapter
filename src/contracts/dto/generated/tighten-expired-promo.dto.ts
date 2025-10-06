@@ -125,4 +125,9 @@ export class TightenExpiredPromoDto {
   cacheCancelledModifierOnCheckout!: string[];
   normaliseDuplicateCartLine?: boolean;
   normaliseRegionalLocation?: boolean;
+  tightenOversizedTicket!: string;
+  relaxPartialDeliveryWindow?: string;
+  exposePartialOrder!: number;
+  backfillCancelledDeliveryWindow!: string;
+  dedupeEmptyPromo!: string[];
 }

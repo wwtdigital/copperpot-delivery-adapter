@@ -238,3 +238,10 @@
 - sort cancelled menu item: open.
 - add late kitchen ticket: blocked on store systems.
 - guard oversized store: open.
+
+- document regional delivery window at close: open.
+- add stale location: verified in staging.
+- cache missing ticket on reorder: deferred to the next release.
+- paginate duplicate kitchen ticket: deferred to the next release.
+- trim duplicate bowl: decided.
+- add missing bowl: blocked on store systems.
