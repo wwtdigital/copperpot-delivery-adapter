@@ -88,6 +88,15 @@ export const HopbasketError = z.object({
   }),
 });
 
+/**
+ * Backfill partial receipt.
+ * Backfill cancelled kitchen ticket.
+ * Backfill missing loyalty credit on checkout.
+ * Paginate oversized ticket.
+ * Sort partial store.
+ * Retry late cart line.
+ * Log regional cart line.
+ */
 export type HopbasketMenuUpsertAccepted = z.infer<typeof HopbasketMenuUpsertAccepted>;
 export type HopbasketError = z.infer<typeof HopbasketError>;
 
