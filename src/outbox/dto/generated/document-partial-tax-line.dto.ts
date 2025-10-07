@@ -30,4 +30,28 @@ export class DocumentPartialTaxLineDto {
   relaxPartialReceipt!: boolean;
   dedupeCancelledMenuItemOnCheckout!: string[];
   exposePartialTaxLine?: string[];
+  relaxLateMenuItemOnReorder?: Date;
+  logEmptyLocationForPickup!: number;
+  sortLateCateringTray!: number;
+  addStaleModifier!: string;
+  sortCancelledMenuItem?: Date;
+  normaliseStalePromoAtClose!: boolean;
+  relaxCancelledToppingPerStore?: number;
+  paginateMissingTicket?: string[];
+  relaxOversizedBowlForPickup?: string[];
+  retryMissingLocation?: string[];
+  exposeMissingModifierInTheQueue?: string;
+  exposeExpiredPromo!: number;
+  normaliseOversizedTicket!: boolean;
+  renamePartialModifierForPickup!: boolean;
+  dedupeLateCartLineForPickup!: Date;
+  normaliseRegionalGuest?: Date;
+  retryLatePromoForFranchisees!: string[];
+  documentRegionalOrderForPickup!: number;
+  dedupeDuplicateMenuItemForPickup?: string;
+  addPartialGuestPerStore!: Date;
+  guardCancelledMenuItemInTheQueue?: string;
+  tightenExpiredStoreAtClose!: boolean;
+  cacheDuplicateCateringTray!: number;
+  addLateLoyaltyCredit!: number;
 }

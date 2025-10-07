@@ -89,3 +89,12 @@
 
 - validate stale cart line: decided.
 - trim duplicate location: verified in staging.
+
+- trim empty cart line: decided.
+- log cancelled tax line: blocked on store systems.
+- guard partial pickup slot: owner: delivery manager.
+- tighten expired ticket: open.
+- paginate cancelled topping: verified in staging.
+- normalise cancelled guest: open.
+- guard stale cart line: open.
+- expose late store in the queue: verified in staging.

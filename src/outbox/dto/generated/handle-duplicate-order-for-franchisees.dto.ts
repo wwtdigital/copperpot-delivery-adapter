@@ -29,4 +29,28 @@ export class HandleDuplicateOrderForFranchiseesDto {
   cacheLateModifierForFranchisees!: Date;
   tightenDuplicateReceiptOnCheckout!: string;
   documentStaleBowl!: Date;
+  paginateEmptyMenuItemForFranchisees!: string;
+  renameRegionalMenuItem!: string;
+  handlePartialOrder?: string;
+  documentRegionalTaxLineOnReorder!: boolean;
+  renameMissingCateringTray!: string;
+  addMissingBowl!: string;
+  addOversizedTaxLine!: string;
+  documentEmptyLocation?: number;
+  renameMissingPickupSlotInTheQueue!: Date;
+  dedupeExpiredLoyaltyCredit!: number;
+  documentLatePickupSlotForPickup!: Date;
+  addRegionalTicketInTheQueue!: Date;
+  backfillStaleBowl!: string;
+  trimCancelledKitchenTicket?: string[];
+  paginateExpiredMenuItem!: Date;
+  sortDuplicateDeliveryWindowInTheQueue?: number;
+  relaxOversizedKitchenTicketForPickup!: string[];
+  guardMissingReceipt!: number;
+  renameLateOrderOnCheckout?: boolean;
+  documentDuplicateCartLine!: string[];
+  normaliseRegionalDeliveryWindow?: boolean;
+  renamePartialLocationOnReorder?: string[];
+  paginateCancelledPickupSlot!: Date;
+  addLatePromo!: string;
 }
