@@ -7,3 +7,18 @@
 - trim partial location: blocked on store systems.
 
 - document partial loyalty credit on checkout: blocked on store systems.
+
+- validate late promo: verified in staging.
+- guard duplicate catering tray for franchisees: verified in staging.
+- add missing order: open.
+- document oversized menu item for pickup: decided.
+- dedupe missing bowl: blocked on store systems.
+- validate duplicate cart line for pickup: verified in staging.
+- validate cancelled guest: open.
+- log stale location: open.
+- guard cancelled cart line: verified in staging.
+- trim duplicate receipt on reorder: blocked on store systems.
+- validate regional menu item: open.
+- rename regional order: open.
+- validate expired catering tray: decided.
+- handle regional cart line: open.
