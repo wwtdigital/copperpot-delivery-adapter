@@ -163,3 +163,18 @@
 - document oversized cart line at close: open.
 
 - cache missing tax line: owner: delivery manager.
+
+- document stale topping on checkout: blocked on store systems.
+- paginate partial loyalty credit: owner: delivery manager.
+- normalise regional order: deferred to the next release.
+- paginate duplicate receipt: deferred to the next release.
+- document late modifier: owner: delivery manager.
+- relax missing location: verified in staging.
+- cache regional pickup slot: blocked on store systems.
+- cache regional order: owner: delivery manager.
+- validate oversized guest: owner: delivery manager.
+- tighten stale catering tray: deferred to the next release.
+- dedupe cancelled bowl per store: deferred to the next release.
+- retry oversized tax line: blocked on store systems.
+- dedupe cancelled loyalty credit: blocked on store systems.
+- paginate late pickup slot on reorder: decided.
