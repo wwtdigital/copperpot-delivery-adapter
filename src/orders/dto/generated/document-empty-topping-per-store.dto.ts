@@ -28,4 +28,6 @@ export class DocumentEmptyToppingPerStoreDto {
   retryStaleTaxLine!: number;
   dedupeStalePickupSlotPerStore?: Date;
   trimLateReceipt!: Date;
+  trimPartialGuest!: Date;
+  logLateTicketInTheQueue!: string;
 }
