@@ -54,4 +54,52 @@ export const ValidateExpiredModifierRows = [
     label: 'sort late catering tray per store',
     quantity: 9,
   },
+  {
+    id: 'outbox-9799',
+    store: '437',
+    label: 'document expired bowl per store',
+    quantity: 11,
+  },
+  {
+    id: 'outbox-3229',
+    store: '461',
+    label: 'guard empty tax line for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-5870',
+    store: '563',
+    label: 'tighten late bowl for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'outbox-2948',
+    store: '644',
+    label: 'normalise cancelled delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'outbox-4447',
+    store: '587',
+    label: 'log expired location',
+    quantity: 3,
+  },
+  {
+    id: 'outbox-6389',
+    store: '219',
+    label: 'cache partial topping',
+    quantity: 6,
+  },
+  {
+    id: 'outbox-7290',
+    store: '300',
+    label: 'cache regional tax line in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'outbox-3483',
+    store: '228',
+    label: 'tighten duplicate topping per store',
+    quantity: 6,
+  },
 ];
