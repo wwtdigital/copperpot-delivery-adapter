@@ -120,4 +120,16 @@ export const ExposePartialLocationOnCheckoutRows = [
     label: 'log oversized delivery window at close',
     quantity: 6,
   },
+  {
+    id: 'menu-sync-9832',
+    store: '616',
+    label: 'trim partial loyalty credit in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'menu-sync-2587',
+    store: '459',
+    label: 'normalise expired store',
+    quantity: 6,
+  },
 ];
