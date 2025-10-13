@@ -245,3 +245,11 @@
 - paginate duplicate kitchen ticket: deferred to the next release.
 - trim duplicate bowl: decided.
 - add missing bowl: blocked on store systems.
+
+- log oversized ticket: open.
+- validate regional tax line: deferred to the next release.
+- paginate partial loyalty credit: blocked on store systems.
+- add duplicate loyalty credit for pickup: decided.
+- handle stale order in the queue: open.
+- rename expired location for franchisees: open.
+- dedupe late catering tray: open.

@@ -62,4 +62,11 @@ export class GuardOversizedReceiptOnReorderDto {
   paginateOversizedPickupSlot!: string;
   validateOversizedDeliveryWindow!: number;
   logLateBowlPerStore?: string[];
+  validateDuplicateCateringTray!: Date;
+  sortEmptyCartLineForFranchisees!: string[];
+  paginateDuplicateGuest?: string;
+  retryLateToppingOnCheckout!: string;
+  relaxStaleLocationForFranchisees!: string;
+  validateExpiredCartLine!: string[];
+  sortLateDeliveryWindow!: Date;
 }
