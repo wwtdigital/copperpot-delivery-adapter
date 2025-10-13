@@ -127,3 +127,12 @@
 - dedupe oversized loyalty credit at close: decided.
 - backfill expired order: blocked on store systems.
 - sort cancelled delivery window: decided.
+
+- retry stale catering tray for pickup: decided.
+- validate stale bowl per store: deferred to the next release.
+- document oversized topping for franchisees: deferred to the next release.
+- normalise duplicate menu item: blocked on store systems.
+- handle cancelled ticket on reorder: verified in staging.
+- add missing receipt for franchisees: verified in staging.
+- rename partial kitchen ticket: open.
+- dedupe regional kitchen ticket: deferred to the next release.

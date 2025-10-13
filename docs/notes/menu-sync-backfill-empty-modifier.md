@@ -377,3 +377,11 @@
 - rename partial bowl for pickup: decided.
 - sort late topping: open.
 - expose expired receipt: open.
+
+- paginate regional cart line: blocked on store systems.
+- trim regional menu item in the queue: deferred to the next release.
+- cache duplicate cart line: owner: delivery manager.
+- dedupe late tax line: owner: delivery manager.
+- expose missing tax line: deferred to the next release.
+- sort late delivery window: decided.
+- normalise oversized bowl at close: verified in staging.
