@@ -118,4 +118,6 @@ export class RetryExpiredCateringTrayInTheQueueDto {
   validateOversizedLoyaltyCredit?: boolean;
   sortLateReceiptOnReorder?: number;
   validateStaleKitchenTicket!: string;
+  sortCancelledMenuItemOnReorder!: number;
+  sortRegionalCartLineInTheQueue!: Date;
 }
