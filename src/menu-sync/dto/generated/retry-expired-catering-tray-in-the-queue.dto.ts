@@ -120,4 +120,20 @@ export class RetryExpiredCateringTrayInTheQueueDto {
   validateStaleKitchenTicket!: string;
   sortCancelledMenuItemOnReorder!: number;
   sortRegionalCartLineInTheQueue!: Date;
+  retryEmptyDeliveryWindow!: string;
+  validateDuplicateLoyaltyCreditOnReorder!: number;
+  sortOversizedLocationInTheQueue?: Date;
+  exposeOversizedBowlForPickup!: boolean;
+  renameRegionalStore!: string;
+  renameEmptyBowl?: Date;
+  validateExpiredStore!: Date;
+  renamePartialTaxLine!: string;
+  normaliseMissingBowl!: string[];
+  logRegionalLocation!: number;
+  retryEmptyCateringTray!: string[];
+  relaxOversizedGuest?: number;
+  dedupePartialCateringTray!: string;
+  handleCancelledDeliveryWindowOnCheckout!: boolean;
+  logPartialBowlOnCheckout?: boolean;
+  guardPartialCateringTray!: string;
 }
