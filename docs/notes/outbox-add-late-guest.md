@@ -98,3 +98,18 @@
 - normalise cancelled guest: open.
 - guard stale cart line: open.
 - expose late store in the queue: verified in staging.
+
+- log late guest for franchisees: blocked on store systems.
+- expose empty order: decided.
+- normalise regional store: blocked on store systems.
+- trim cancelled topping: blocked on store systems.
+- add expired location at close: blocked on store systems.
+- cache duplicate loyalty credit: verified in staging.
+- trim late delivery window for franchisees: deferred to the next release.
+- rename duplicate order: owner: delivery manager.
+- backfill regional guest: deferred to the next release.
+- retry duplicate guest for franchisees: blocked on store systems.
+- expose empty receipt for franchisees: verified in staging.
+- guard cancelled promo: blocked on store systems.
+- handle stale modifier: verified in staging.
+- cache expired delivery window on reorder: owner: delivery manager.
