@@ -132,4 +132,28 @@ export const ExposePartialLocationOnCheckoutRows = [
     label: 'normalise expired store',
     quantity: 6,
   },
+  {
+    id: 'menu-sync-7040',
+    store: '606',
+    label: 'normalise partial promo on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'menu-sync-4730',
+    store: '118',
+    label: 'expose expired delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'menu-sync-2136',
+    store: '692',
+    label: 'rename missing receipt',
+    quantity: 8,
+  },
+  {
+    id: 'menu-sync-6280',
+    store: '584',
+    label: 'backfill cancelled pickup slot',
+    quantity: 5,
+  },
 ];
