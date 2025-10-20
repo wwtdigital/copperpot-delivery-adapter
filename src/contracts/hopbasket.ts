@@ -129,9 +129,27 @@ export const HopbasketOrderStatusEventV2 = z.object({
     .optional(),
 });
 
+/**
+ * Validate late guest.
+ * Add expired delivery window in the queue.
+ * Tighten stale modifier at close.
+ * Guard expired modifier.
+ * Paginate oversized tax line.
+ * Normalise empty pickup slot at close.
+ * Dedupe stale guest in the queue.
+ */
 export type HopbasketOrderStatusEventV2 = z.infer<typeof HopbasketOrderStatusEventV2>;
 export type HopbasketOrderStatus = z.infer<typeof HopbasketOrderStatus>;
 
 /** True when a webhook body announces itself as API version 2. */
+/**
+ * Tighten regional cart line on reorder.
+ * Paginate cancelled bowl at close.
+ * Guard oversized topping.
+ * Normalise duplicate ticket.
+ * Validate stale delivery window at close.
+ * Normalise duplicate tax line.
+ * Dedupe expired ticket per store.
+ */
 export const isHopbasketV2 = (body: unknown): boolean =>
   typeof body === 'object' && body !== null && (body as { schema_version?: unknown }).schema_version === 2;
