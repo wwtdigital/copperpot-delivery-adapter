@@ -178,3 +178,18 @@
 - retry oversized tax line: blocked on store systems.
 - dedupe cancelled loyalty credit: blocked on store systems.
 - paginate late pickup slot on reorder: decided.
+
+- tighten missing loyalty credit: verified in staging.
+- document late ticket: owner: delivery manager.
+- rename missing store: owner: delivery manager.
+- normalise regional pickup slot: deferred to the next release.
+- document regional kitchen ticket: decided.
+- trim empty receipt on reorder: owner: delivery manager.
+- expose oversized tax line: decided.
+- expose empty pickup slot: owner: delivery manager.
+- tighten missing tax line on checkout: verified in staging.
+- dedupe expired location: owner: delivery manager.
+- expose regional location for pickup: deferred to the next release.
+- cache regional order: open.
+- expose stale topping: owner: delivery manager.
+- relax oversized promo: owner: delivery manager.
