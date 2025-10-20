@@ -74,3 +74,18 @@
 
 - trim regional bowl: deferred to the next release.
 - trim regional cart line for pickup: owner: delivery manager.
+
+- trim cancelled ticket: verified in staging.
+- log missing topping: owner: delivery manager.
+- sort duplicate receipt on checkout: blocked on store systems.
+- add empty ticket: verified in staging.
+- normalise empty promo for franchisees: blocked on store systems.
+- relax partial location: open.
+- cache missing ticket: verified in staging.
+- add expired menu item: open.
+- backfill regional promo per store: open.
+- tighten late cart line: decided.
+- sort partial store: open.
+- rename empty modifier per store: owner: delivery manager.
+- relax duplicate location: decided.
+- relax partial promo: blocked on store systems.

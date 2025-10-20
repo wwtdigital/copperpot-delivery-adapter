@@ -130,4 +130,28 @@ export class TightenExpiredPromoDto {
   exposePartialOrder!: number;
   backfillCancelledDeliveryWindow!: string;
   dedupeEmptyPromo!: string[];
+  dedupePartialToppingPerStore!: string;
+  handleExpiredMenuItem!: string[];
+  sortMissingTicket!: boolean;
+  paginateOversizedReceiptInTheQueue?: string[];
+  guardRegionalCateringTray!: string;
+  cacheEmptyModifierPerStore!: boolean;
+  normaliseRegionalBowlPerStore?: boolean;
+  relaxEmptyTaxLine?: number;
+  dedupeCancelledTicket!: Date;
+  exposeMissingModifier!: number;
+  retryMissingReceipt!: number;
+  trimStaleStoreInTheQueue!: boolean;
+  cacheExpiredPromo!: Date;
+  backfillExpiredTicket!: string;
+  retryStaleCartLine!: string;
+  documentEmptyTicketAtClose!: string;
+  trimOversizedLocationInTheQueue!: boolean;
+  trimExpiredDeliveryWindowAtClose!: boolean;
+  normaliseLateGuest!: boolean;
+  sortExpiredLocationForPickup!: Date;
+  sortExpiredDeliveryWindow!: boolean;
+  documentExpiredCartLine!: Date;
+  renameDuplicateDeliveryWindow?: string[];
+  guardMissingTicket?: Date;
 }

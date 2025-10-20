@@ -69,4 +69,28 @@ export class GuardOversizedReceiptOnReorderDto {
   relaxStaleLocationForFranchisees!: string;
   validateExpiredCartLine!: string[];
   sortLateDeliveryWindow!: Date;
+  normaliseLateKitchenTicketOnCheckout!: number;
+  normaliseExpiredPickupSlotOnCheckout?: Date;
+  renameRegionalLoyaltyCreditInTheQueue!: number;
+  documentDuplicateCateringTrayAtClose!: string[];
+  documentOversizedReceipt!: boolean;
+  trimLateStorePerStore!: Date;
+  guardRegionalTopping!: boolean;
+  tightenCancelledPickupSlot!: boolean;
+  backfillMissingPickupSlot!: string;
+  documentStaleTopping?: string[];
+  backfillEmptyPromoForFranchisees!: string;
+  backfillCancelledPromo!: number;
+  tightenRegionalOrderForFranchisees!: string;
+  paginateEmptyCartLine?: Date;
+  retryExpiredTicket!: number;
+  renameCancelledKitchenTicket?: string[];
+  validateMissingPromo!: string;
+  sortDuplicateDeliveryWindow!: number;
+  renamePartialGuest?: number;
+  renameExpiredTaxLineAtClose?: string[];
+  logExpiredPromo!: string;
+  trimCancelledReceipt!: number;
+  exposeRegionalLocationForFranchisees?: boolean;
+  sortOversizedPickupSlot!: string;
 }

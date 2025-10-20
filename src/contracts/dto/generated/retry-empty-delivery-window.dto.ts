@@ -92,4 +92,28 @@ export class RetryEmptyDeliveryWindowDto {
   backfillDuplicateGuestInTheQueue!: boolean;
   cachePartialDeliveryWindowAtClose?: Date;
   paginateOversizedReceipt!: Date;
+  renameDuplicatePromoOnReorder!: boolean;
+  normaliseStaleDeliveryWindowOnReorder!: string;
+  renameDuplicateReceipt!: string[];
+  validateEmptyCartLinePerStore!: Date;
+  relaxOversizedReceipt?: Date;
+  dedupeCancelledDeliveryWindowForPickup!: string;
+  normaliseOversizedPromo!: string;
+  exposeOversizedLoyaltyCredit?: boolean;
+  cachePartialCartLinePerStore!: number;
+  validateDuplicateTaxLine!: Date;
+  tightenCancelledKitchenTicketForPickup!: Date;
+  guardEmptyToppingInTheQueue!: boolean;
+  logPartialReceipt?: string[];
+  logPartialTaxLine!: boolean;
+  logMissingTopping!: number;
+  guardLatePickupSlot?: string;
+  exposePartialKitchenTicket!: string[];
+  exposePartialMenuItem?: string;
+  retryPartialModifierPerStore?: string[];
+  sortMissingLoyaltyCreditForPickup?: number;
+  dedupeCancelledCateringTray?: number;
+  logLateReceipt?: Date;
+  trimStaleTicketOnReorder!: string;
+  renamePartialStore!: boolean;
 }
