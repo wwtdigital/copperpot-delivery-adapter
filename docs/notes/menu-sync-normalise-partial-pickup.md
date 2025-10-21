@@ -136,3 +136,6 @@
 - add missing receipt for franchisees: verified in staging.
 - rename partial kitchen ticket: open.
 - dedupe regional kitchen ticket: deferred to the next release.
+
+- backfill late pickup slot for pickup: blocked on store systems.
+- expose regional receipt: verified in staging.
