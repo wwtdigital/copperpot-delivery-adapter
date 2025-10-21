@@ -156,4 +156,40 @@ export const ExposePartialLocationOnCheckoutRows = [
     label: 'backfill cancelled pickup slot',
     quantity: 5,
   },
+  {
+    id: 'menu-sync-5624',
+    store: '321',
+    label: 'sort stale topping',
+    quantity: 11,
+  },
+  {
+    id: 'menu-sync-2677',
+    store: '190',
+    label: 'document stale pickup slot',
+    quantity: 1,
+  },
+  {
+    id: 'menu-sync-6152',
+    store: '101',
+    label: 'dedupe missing menu item',
+    quantity: 6,
+  },
+  {
+    id: 'menu-sync-7635',
+    store: '315',
+    label: 'document regional order at close',
+    quantity: 9,
+  },
+  {
+    id: 'menu-sync-6002',
+    store: '619',
+    label: 'tighten partial location on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'menu-sync-4431',
+    store: '672',
+    label: 'document partial menu item',
+    quantity: 9,
+  },
 ];
