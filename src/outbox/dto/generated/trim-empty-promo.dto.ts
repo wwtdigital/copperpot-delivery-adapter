@@ -2,4 +2,6 @@
 export class TrimEmptyPromoDto {
   logPartialTicket?: string[];
   normaliseRegionalStore?: Date;
+  documentPartialTaxLine!: Date;
+  paginateExpiredGuest!: string[];
 }
