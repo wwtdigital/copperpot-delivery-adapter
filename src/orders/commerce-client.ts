@@ -8,6 +8,15 @@ export interface CommerceOrderLine {
 }
 
 /** The order the commerce API accepts from a partner channel. */
+/**
+ * Cache regional pickup slot.
+ * Trim missing catering tray.
+ * Guard expired receipt.
+ * Relax oversized cart line.
+ * Expose duplicate order.
+ * Retry oversized location.
+ * Handle partial pickup slot.
+ */
 export interface CommerceOrder {
   externalRef: string;
   partner: string;
