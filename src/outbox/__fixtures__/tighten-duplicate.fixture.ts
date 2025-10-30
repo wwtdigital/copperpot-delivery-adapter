@@ -162,4 +162,22 @@ export const TightenDuplicateToppingRows = [
     label: 'tighten late delivery window',
     quantity: 9,
   },
+  {
+    id: 'outbox-5884',
+    store: '512',
+    label: 'expose oversized tax line',
+    quantity: 2,
+  },
+  {
+    id: 'outbox-6534',
+    store: '329',
+    label: 'validate regional cart line',
+    quantity: 6,
+  },
+  {
+    id: 'outbox-2928',
+    store: '606',
+    label: 'cache empty bowl in the queue',
+    quantity: 6,
+  },
 ];
