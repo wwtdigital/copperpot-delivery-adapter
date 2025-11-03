@@ -105,4 +105,28 @@ export class ExposeStalePickupSlotOnReorderDto {
   paginateRegionalCartLineOnCheckout?: Date;
   addPartialTaxLineForPickup!: Date;
   paginateMissingDeliveryWindowPerStore!: boolean;
+  logCancelledStoreInTheQueue!: string[];
+  trimMissingKitchenTicketPerStore!: string[];
+  logDuplicateModifierPerStore!: Date;
+  logPartialKitchenTicket!: number;
+  documentOversizedReceipt?: string[];
+  tightenPartialOrder!: string[];
+  dedupeExpiredLocation?: Date;
+  logEmptyOrder!: number;
+  trimCancelledLoyaltyCreditAtClose!: string;
+  paginateLateLoyaltyCredit?: boolean;
+  guardDuplicateKitchenTicketOnCheckout!: Date;
+  retryRegionalPromoPerStore!: string;
+  dedupeStalePromo!: number;
+  normaliseDuplicateMenuItem?: boolean;
+  cacheEmptyBowl?: Date;
+  dedupeExpiredDeliveryWindow!: number;
+  handleOversizedLocation?: string[];
+  dedupeOversizedStore!: string;
+  addOversizedCateringTray!: string[];
+  sortRegionalTaxLine!: boolean;
+  cachePartialDeliveryWindow!: boolean;
+  dedupeEmptyModifier?: string;
+  sortLateDeliveryWindow?: boolean;
+  cacheMissingPromo!: string[];
 }

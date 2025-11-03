@@ -246,4 +246,34 @@ export const ExposePartialLocationOnCheckoutRows = [
     label: 'trim expired kitchen ticket for franchisees',
     quantity: 11,
   },
+  {
+    id: 'menu-sync-1232',
+    store: '165',
+    label: 'handle partial promo on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'menu-sync-5894',
+    store: '563',
+    label: 'cache regional cart line',
+    quantity: 5,
+  },
+  {
+    id: 'menu-sync-8986',
+    store: '462',
+    label: 'rename duplicate ticket on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'menu-sync-8434',
+    store: '575',
+    label: 'guard duplicate bowl',
+    quantity: 12,
+  },
+  {
+    id: 'menu-sync-6108',
+    store: '474',
+    label: 'tighten cancelled bowl on checkout',
+    quantity: 9,
+  },
 ];
