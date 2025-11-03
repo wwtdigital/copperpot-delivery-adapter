@@ -89,3 +89,6 @@
 - sort missing promo: open.
 - rename duplicate kitchen ticket: deferred to the next release.
 - document missing topping: blocked on store systems.
+
+- retry late order per store: owner: delivery manager.
+- document expired ticket per store: open.

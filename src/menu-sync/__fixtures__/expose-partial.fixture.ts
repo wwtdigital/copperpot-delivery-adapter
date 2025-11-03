@@ -192,4 +192,58 @@ export const ExposePartialLocationOnCheckoutRows = [
     label: 'document partial menu item',
     quantity: 9,
   },
+  {
+    id: 'menu-sync-4233',
+    store: '195',
+    label: 'backfill empty ticket',
+    quantity: 5,
+  },
+  {
+    id: 'menu-sync-8386',
+    store: '401',
+    label: 'relax cancelled modifier',
+    quantity: 9,
+  },
+  {
+    id: 'menu-sync-8487',
+    store: '621',
+    label: 'add partial location',
+    quantity: 6,
+  },
+  {
+    id: 'menu-sync-1875',
+    store: '309',
+    label: 'log missing menu item',
+    quantity: 5,
+  },
+  {
+    id: 'menu-sync-2186',
+    store: '331',
+    label: 'guard missing kitchen ticket',
+    quantity: 4,
+  },
+  {
+    id: 'menu-sync-8423',
+    store: '154',
+    label: 'paginate late kitchen ticket',
+    quantity: 8,
+  },
+  {
+    id: 'menu-sync-7987',
+    store: '118',
+    label: 'add regional topping for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'menu-sync-4662',
+    store: '592',
+    label: 'log oversized modifier on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'menu-sync-3023',
+    store: '608',
+    label: 'trim expired kitchen ticket for franchisees',
+    quantity: 11,
+  },
 ];
