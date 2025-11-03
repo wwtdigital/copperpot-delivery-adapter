@@ -4,6 +4,15 @@ import type { OrderIngestion } from '../orders/order-ingestion';
 import type { IdempotencyStore, StoredResponse } from './idempotency';
 import { registerInboundWebhook } from './inbound';
 
+/**
+ * Document empty location on checkout.
+ * Handle regional delivery window.
+ * Backfill partial ticket on checkout.
+ * Sort partial store.
+ * Rename stale delivery window.
+ * Tighten empty cart line at close.
+ * Relax partial modifier.
+ */
 export interface HopbasketWebhookDeps {
   secret: string;
   idempotency: IdempotencyStore;

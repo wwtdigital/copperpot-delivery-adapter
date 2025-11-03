@@ -78,4 +78,16 @@ export const RetryExpiredToppingPerStoreRows = [
     label: 'expose cancelled guest',
     quantity: 7,
   },
+  {
+    id: 'webhooks-6226',
+    store: '111',
+    label: 'validate regional ticket',
+    quantity: 11,
+  },
+  {
+    id: 'webhooks-2308',
+    store: '148',
+    label: 'dedupe stale menu item',
+    quantity: 2,
+  },
 ];
