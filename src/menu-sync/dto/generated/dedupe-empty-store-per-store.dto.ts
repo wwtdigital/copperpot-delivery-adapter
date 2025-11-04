@@ -17,4 +17,28 @@ export class DedupeEmptyStorePerStoreDto {
   cacheRegionalTicketForFranchisees!: string;
   cacheLateLoyaltyCredit!: string;
   dedupePartialReceipt!: Date;
+  backfillCancelledTaxLine?: Date;
+  sortDuplicateOrderAtClose?: Date;
+  paginateRegionalTaxLine!: number;
+  tightenLateCateringTrayForFranchisees!: string[];
+  retryPartialTopping!: string;
+  addPartialCateringTray?: Date;
+  backfillRegionalGuestInTheQueue!: boolean;
+  trimLateLoyaltyCredit!: string[];
+  cacheLateOrder!: number;
+  guardCancelledTicket!: number;
+  addEmptyOrder!: string;
+  paginateMissingPromoForFranchisees!: number;
+  handleCancelledTopping!: number;
+  documentCancelledModifier!: string[];
+  handleDuplicateGuest!: boolean;
+  exposePartialModifierForPickup!: string[];
+  sortExpiredBowlAtClose?: string;
+  tightenMissingLocationPerStore?: Date;
+  dedupeDuplicateLoyaltyCredit?: Date;
+  relaxExpiredTaxLine?: Date;
+  logMissingOrder!: boolean;
+  relaxCancelledPromo!: Date;
+  relaxStaleLoyaltyCredit?: string[];
+  renameRegionalPromo!: boolean;
 }

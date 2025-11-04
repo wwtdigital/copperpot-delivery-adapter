@@ -107,3 +107,18 @@
 - normalise oversized guest for pickup: deferred to the next release.
 - rename stale pickup slot at close: deferred to the next release.
 - sort empty store in the queue: deferred to the next release.
+
+- sort cancelled cart line on reorder: owner: delivery manager.
+- guard duplicate menu item per store: verified in staging.
+- expose partial kitchen ticket: decided.
+- cache partial loyalty credit for franchisees: open.
+- add stale modifier: blocked on store systems.
+- cache regional ticket in the queue: blocked on store systems.
+- paginate partial cart line: deferred to the next release.
+- expose cancelled loyalty credit: blocked on store systems.
+- paginate late kitchen ticket per store: blocked on store systems.
+- expose stale order in the queue: verified in staging.
+- cache cancelled tax line: verified in staging.
+- backfill regional store in the queue: open.
+- validate missing topping: deferred to the next release.
+- rename regional bowl: open.
