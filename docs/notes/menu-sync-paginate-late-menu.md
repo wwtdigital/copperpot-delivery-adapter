@@ -89,3 +89,21 @@
 - sort missing promo: open.
 - rename duplicate kitchen ticket: deferred to the next release.
 - document missing topping: blocked on store systems.
+
+- retry late order per store: owner: delivery manager.
+- document expired ticket per store: open.
+
+- expose stale tax line: verified in staging.
+- relax expired kitchen ticket: blocked on store systems.
+- dedupe duplicate bowl per store: blocked on store systems.
+- trim late catering tray: deferred to the next release.
+- normalise oversized delivery window: verified in staging.
+- tighten empty guest: owner: delivery manager.
+- backfill duplicate cart line: owner: delivery manager.
+- log duplicate ticket: owner: delivery manager.
+- relax missing menu item at close: open.
+- sort missing menu item: blocked on store systems.
+- handle empty topping: open.
+- normalise oversized guest for pickup: deferred to the next release.
+- rename stale pickup slot at close: deferred to the next release.
+- sort empty store in the queue: deferred to the next release.

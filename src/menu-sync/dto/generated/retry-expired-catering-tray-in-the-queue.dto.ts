@@ -136,4 +136,28 @@ export class RetryExpiredCateringTrayInTheQueueDto {
   handleCancelledDeliveryWindowOnCheckout!: boolean;
   logPartialBowlOnCheckout?: boolean;
   guardPartialCateringTray!: string;
+  guardStaleModifierPerStore!: string[];
+  guardCancelledCateringTray!: number;
+  guardCancelledStore!: string;
+  retryStaleModifierAtClose?: number;
+  validateLateOrderPerStore!: string;
+  sortEmptyPromoForPickup!: string[];
+  exposeExpiredBowlOnCheckout!: string;
+  dedupeExpiredTaxLine!: string[];
+  retryOversizedDeliveryWindow!: Date;
+  documentPartialPickupSlot!: boolean;
+  retryExpiredLoyaltyCredit?: boolean;
+  tightenPartialDeliveryWindow!: number;
+  renameMissingTicketInTheQueue?: Date;
+  tightenPartialGuestForFranchisees?: number;
+  documentExpiredLocationOnCheckout!: string[];
+  relaxLateKitchenTicket!: string;
+  paginateDuplicateLoyaltyCreditOnReorder!: Date;
+  addRegionalDeliveryWindow!: string[];
+  paginateEmptyGuestOnReorder?: boolean;
+  trimOversizedStoreOnCheckout?: boolean;
+  sortCancelledModifierAtClose!: string[];
+  guardDuplicateReceipt?: boolean;
+  validateDuplicateTicketPerStore!: Date;
+  retryExpiredGuestOnReorder?: string;
 }
