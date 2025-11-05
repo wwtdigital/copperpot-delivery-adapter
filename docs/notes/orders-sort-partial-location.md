@@ -49,3 +49,18 @@
 - backfill partial bowl for franchisees: decided.
 - tighten expired ticket for pickup: open.
 - validate late topping: deferred to the next release.
+
+- tighten late promo on reorder: deferred to the next release.
+- cache partial location: verified in staging.
+- tighten duplicate location: open.
+- validate empty pickup slot: decided.
+- normalise partial promo: open.
+- validate oversized modifier: blocked on store systems.
+- backfill duplicate receipt: open.
+- guard missing catering tray: open.
+- paginate late topping: owner: delivery manager.
+- add cancelled store: owner: delivery manager.
+- trim empty guest: blocked on store systems.
+- dedupe regional receipt: owner: delivery manager.
+- cache stale topping on checkout: verified in staging.
+- dedupe oversized topping per store: deferred to the next release.
