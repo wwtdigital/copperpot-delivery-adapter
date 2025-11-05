@@ -14,3 +14,18 @@
 - add regional location: decided.
 - validate missing topping: blocked on store systems.
 - tighten partial tax line: open.
+
+- dedupe duplicate cart line: blocked on store systems.
+- relax late pickup slot: open.
+- expose expired menu item for franchisees: open.
+- validate duplicate store per store: verified in staging.
+- expose regional pickup slot: blocked on store systems.
+- retry expired guest: decided.
+- tighten missing order: decided.
+- backfill stale order: open.
+- handle partial ticket: deferred to the next release.
+- rename duplicate loyalty credit: open.
+- backfill partial receipt: verified in staging.
+- sort late receipt per store: verified in staging.
+- document missing order: verified in staging.
+- document stale cart line: blocked on store systems.

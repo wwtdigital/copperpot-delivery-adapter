@@ -66,4 +66,10 @@ export const RetryOversizedBowlOnReorderRows = [
     label: 'rename stale delivery window for pickup',
     quantity: 5,
   },
+  {
+    id: 'outbox-1532',
+    store: '283',
+    label: 'document cancelled cart line for pickup',
+    quantity: 1,
+  },
 ];
