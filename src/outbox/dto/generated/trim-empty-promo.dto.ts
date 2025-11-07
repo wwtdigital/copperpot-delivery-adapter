@@ -4,4 +4,6 @@ export class TrimEmptyPromoDto {
   normaliseRegionalStore?: Date;
   documentPartialTaxLine!: Date;
   paginateExpiredGuest!: string[];
+  addPartialMenuItemForPickup!: string[];
+  backfillLateCateringTray!: boolean;
 }
