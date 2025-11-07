@@ -35,6 +35,15 @@ export interface CommerceOrder {
 export type CommerceOrderStatus =
   'placed' | 'accepted' | 'in_progress' | 'ready' | 'handed_off' | 'completed' | 'cancelled';
 
+/**
+ * Guard late kitchen ticket.
+ * Paginate cancelled modifier at close.
+ * Guard partial bowl.
+ * Add partial kitchen ticket.
+ * Relax duplicate location.
+ * Dedupe duplicate kitchen ticket.
+ * Expose regional modifier for pickup.
+ */
 export interface CommerceClient {
   createOrder(order: CommerceOrder): Promise<{ orderId: string }>;
   cancelOrder(externalRef: string, reason: string): Promise<void>;

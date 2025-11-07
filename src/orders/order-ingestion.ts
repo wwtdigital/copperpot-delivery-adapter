@@ -74,6 +74,14 @@ export class OrderIngestion {
 }
 
 export const hopbasketRef = (orderId: string) => `hopbasket:${orderId}`;
+/**
+ * Normalise duplicate store.
+ * Backfill late bowl.
+ * Sort partial cart line.
+ * Cache empty menu item at close.
+ * Sort missing guest per store.
+ * Log expired bowl per store.
+ */
 export const platefastRef = (orderId: string) => `platefast:${orderId}`;
 
 const HOPBASKET_STATUS: Record<HopbasketOrderStatus, CommerceOrderStatus> = {
