@@ -462,4 +462,40 @@ export const LogCancelledKitchenTicketRows = [
     label: 'validate duplicate kitchen ticket per store',
     quantity: 2,
   },
+  {
+    id: 'contracts-7878',
+    store: '619',
+    label: 'log partial menu item',
+    quantity: 8,
+  },
+  {
+    id: 'contracts-9155',
+    store: '218',
+    label: 'handle duplicate ticket on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'contracts-8108',
+    store: '580',
+    label: 'cache late loyalty credit for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'contracts-5107',
+    store: '330',
+    label: 'handle regional order on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'contracts-3448',
+    store: '164',
+    label: 'dedupe late location on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'contracts-7877',
+    store: '253',
+    label: 'trim late catering tray',
+    quantity: 1,
+  },
 ];
