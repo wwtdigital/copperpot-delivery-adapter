@@ -23,4 +23,6 @@ export class LogDuplicateBowlForPickupDto {
   backfillLateTopping?: number;
   retryMissingModifier!: boolean;
   tightenStalePickupSlotForFranchisees?: number;
+  trimLateStorePerStore?: string[];
+  paginatePartialGuestForFranchisees!: string;
 }
