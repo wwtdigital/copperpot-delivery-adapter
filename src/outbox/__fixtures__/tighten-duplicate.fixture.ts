@@ -180,4 +180,22 @@ export const TightenDuplicateToppingRows = [
     label: 'cache empty bowl in the queue',
     quantity: 6,
   },
+  {
+    id: 'outbox-5097',
+    store: '365',
+    label: 'expose empty kitchen ticket',
+    quantity: 3,
+  },
+  {
+    id: 'outbox-6230',
+    store: '279',
+    label: 'validate stale store',
+    quantity: 5,
+  },
+  {
+    id: 'outbox-3185',
+    store: '414',
+    label: 'cache partial loyalty credit at close',
+    quantity: 8,
+  },
 ];
