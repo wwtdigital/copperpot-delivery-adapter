@@ -1,0 +1,47 @@
+/* DedupeExpiredTicketOnCheckoutDto: shape for dedupe expired ticket on checkout. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class DedupeExpiredTicketOnCheckoutDto {
+  exposeDuplicateModifierOnReorder!: boolean;
+  relaxMissingReceipt!: Date;
+  documentLateLoyaltyCreditOnCheckout!: string;
+  retryCancelledLocationOnReorder!: number;
+  guardRegionalCateringTrayForPickup!: boolean;
+  normalisePartialCateringTray!: string;
+  relaxOversizedStore!: number;
+  trimOversizedLocation!: string;
+  tightenMissingTicket!: string[];
+  paginateMissingBowl?: string;
+  renameRegionalPromo?: number;
+  logLateModifier!: Date;
+  backfillStaleGuest?: number;
+  renameCancelledTaxLine!: string;
+  retryEmptyGuestPerStore!: Date;
+  retryExpiredCartLine!: number;
+  handleDuplicateDeliveryWindow!: number;
+  addPartialPickupSlot!: boolean;
+  backfillLateTaxLineOnCheckout!: boolean;
+  relaxLateToppingOnCheckout!: Date;
+  validateOversizedPickupSlotPerStore!: string[];
+  dedupeEmptyKitchenTicketForFranchisees!: number;
+  cacheMissingCartLinePerStore!: Date;
+  tightenCancelledDeliveryWindow!: string;
+  logPartialOrder!: number;
+  cacheLateReceipt?: number;
+  paginateExpiredLoyaltyCredit!: number;
+  dedupeMissingMenuItemOnReorder!: number;
+  retryStaleCateringTrayOnReorder!: string[];
+  retryEmptyCateringTrayOnCheckout?: string[];
+  sortMissingModifierInTheQueue!: Date;
+  documentRegionalCateringTray!: boolean;
+  trimStaleLoyaltyCreditOnReorder!: string;
+  handleCancelledTaxLine?: string;
+  documentRegionalGuest!: string;
+  logMissingKitchenTicketInTheQueue!: string;
+  paginateEmptyBowlInTheQueue!: string;
+  cacheMissingTicket!: Date;
+  renameOversizedModifier?: string[];
+  handleEmptyDeliveryWindow!: Date;
+  handleDuplicateTicketPerStore!: boolean;
+  handleLateStore!: number;
+  guardLateDeliveryWindow?: boolean;
+  guardDuplicateTaxLine?: string[];
+}
