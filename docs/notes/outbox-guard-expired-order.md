@@ -16,3 +16,18 @@
 - add missing receipt: blocked on store systems.
 
 - validate oversized tax line: verified in staging.
+
+- paginate duplicate order: open.
+- tighten duplicate receipt on checkout: deferred to the next release.
+- paginate cancelled location: decided.
+- add oversized topping: owner: delivery manager.
+- sort stale loyalty credit: open.
+- dedupe oversized menu item: open.
+- handle empty delivery window per store: decided.
+- log empty store per store: blocked on store systems.
+- backfill regional menu item: decided.
+- backfill regional location: owner: delivery manager.
+- add partial cart line for pickup: open.
+- expose empty delivery window: open.
+- guard duplicate guest: open.
+- validate partial kitchen ticket: decided.

@@ -216,4 +216,52 @@ export const TightenDuplicateToppingRows = [
     label: 'log duplicate tax line in the queue',
     quantity: 12,
   },
+  {
+    id: 'outbox-9953',
+    store: '628',
+    label: 'document expired catering tray in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'outbox-1764',
+    store: '223',
+    label: 'backfill partial guest',
+    quantity: 6,
+  },
+  {
+    id: 'outbox-2759',
+    store: '378',
+    label: 'trim expired topping at close',
+    quantity: 10,
+  },
+  {
+    id: 'outbox-9882',
+    store: '113',
+    label: 'tighten missing ticket in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-9549',
+    store: '337',
+    label: 'guard stale location at close',
+    quantity: 8,
+  },
+  {
+    id: 'outbox-7043',
+    store: '153',
+    label: 'validate empty modifier',
+    quantity: 6,
+  },
+  {
+    id: 'outbox-2471',
+    store: '339',
+    label: 'validate empty tax line',
+    quantity: 9,
+  },
+  {
+    id: 'outbox-9160',
+    store: '450',
+    label: 'retry missing pickup slot per store',
+    quantity: 6,
+  },
 ];
