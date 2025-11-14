@@ -198,4 +198,22 @@ export const TightenDuplicateToppingRows = [
     label: 'cache partial loyalty credit at close',
     quantity: 8,
   },
+  {
+    id: 'outbox-2755',
+    store: '288',
+    label: 'trim partial ticket',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-4400',
+    store: '553',
+    label: 'trim partial pickup slot on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'outbox-8285',
+    store: '411',
+    label: 'log duplicate tax line in the queue',
+    quantity: 12,
+  },
 ];
