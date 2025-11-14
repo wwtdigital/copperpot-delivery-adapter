@@ -42,4 +42,6 @@ export class DedupeExpiredTicketOnCheckoutDto {
   handleEmptyDeliveryWindow!: Date;
   handleDuplicateTicketPerStore!: boolean;
   handleLateStore!: number;
+  guardLateDeliveryWindow?: boolean;
+  guardDuplicateTaxLine?: string[];
 }
