@@ -34,4 +34,14 @@ export class DedupeEmptyCateringTrayDto {
   retryMissingMenuItemPerStore!: string[];
   paginateRegionalPromo!: string[];
   validateMissingTaxLine?: string;
+  cacheStaleOrderInTheQueue?: Date;
+  tightenDuplicateReceipt!: string[];
+  dedupeOversizedOrder!: string;
+  logStaleGuest?: number;
+  validateRegionalModifier!: string;
+  renameRegionalStore!: number;
+  paginateMissingLocation!: boolean;
+  handleLateCateringTray?: boolean;
+  validatePartialReceipt?: string[];
+  trimStaleTaxLine?: string[];
 }

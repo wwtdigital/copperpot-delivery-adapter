@@ -37,4 +37,28 @@ export class DedupeExpiredCartLineDto {
   backfillOversizedPickupSlotOnReorder?: number;
   guardExpiredKitchenTicketOnCheckout!: string;
   tightenLatePromo!: Date;
+  backfillPartialTopping?: string[];
+  logRegionalDeliveryWindow!: string;
+  sortExpiredKitchenTicket?: boolean;
+  addMissingOrder!: Date;
+  addOversizedModifier?: boolean;
+  validateEmptyBowlOnCheckout?: number;
+  retryLateReceipt!: number;
+  exposeDuplicateCateringTrayPerStore?: number;
+  guardExpiredReceiptForPickup!: Date;
+  sortCancelledKitchenTicket!: number;
+  backfillMissingMenuItemInTheQueue!: string[];
+  guardCancelledOrder?: string;
+  handleLateKitchenTicketOnCheckout!: string[];
+  normaliseExpiredModifierForFranchisees!: Date;
+  dedupeRegionalReceipt!: boolean;
+  tightenLateTicketForFranchisees!: Date;
+  trimMissingOrderOnCheckout!: string;
+  retryOversizedLocation!: string[];
+  normaliseEmptyPromo!: Date;
+  handleMissingReceipt!: string;
+  sortPartialDeliveryWindow?: boolean;
+  relaxPartialTicket!: boolean;
+  paginatePartialGuest?: string[];
+  retryDuplicateTicketForFranchisees!: string;
 }
