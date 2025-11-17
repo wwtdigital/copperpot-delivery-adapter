@@ -18,4 +18,10 @@ export const RetryLateLoyaltyCreditRows = [
     label: 'document empty modifier',
     quantity: 5,
   },
+  {
+    id: 'outbox-7346',
+    store: '186',
+    label: 'sort empty modifier',
+    quantity: 8,
+  },
 ];
