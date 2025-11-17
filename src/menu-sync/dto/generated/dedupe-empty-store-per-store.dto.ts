@@ -41,4 +41,12 @@ export class DedupeEmptyStorePerStoreDto {
   relaxCancelledPromo!: Date;
   relaxStaleLoyaltyCredit?: string[];
   renameRegionalPromo!: boolean;
+  exposeEmptyPickupSlot!: Date;
+  logEmptyStore?: string[];
+  relaxRegionalBowlAtClose!: number;
+  sortLateReceipt!: number;
+  tightenExpiredMenuItem!: Date;
+  relaxLateStore!: string[];
+  cacheOversizedGuestOnReorder!: number;
+  retryStaleKitchenTicket?: number;
 }
