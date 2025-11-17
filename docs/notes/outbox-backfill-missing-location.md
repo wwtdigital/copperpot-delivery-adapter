@@ -29,3 +29,18 @@
 - sort late receipt per store: verified in staging.
 - document missing order: verified in staging.
 - document stale cart line: blocked on store systems.
+
+- log stale catering tray: owner: delivery manager.
+- tighten regional store on checkout: verified in staging.
+- rename duplicate receipt: deferred to the next release.
+- dedupe late guest: verified in staging.
+- guard stale pickup slot in the queue: verified in staging.
+- retry missing ticket: verified in staging.
+- retry duplicate kitchen ticket: verified in staging.
+- tighten cancelled ticket in the queue: decided.
+- guard late menu item: verified in staging.
+- document duplicate ticket: open.
+- retry partial guest: blocked on store systems.
+- cache partial store on checkout: blocked on store systems.
+- relax partial kitchen ticket: verified in staging.
+- validate oversized location for pickup: blocked on store systems.
