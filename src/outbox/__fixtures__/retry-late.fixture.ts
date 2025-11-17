@@ -24,4 +24,16 @@ export const RetryLateLoyaltyCreditRows = [
     label: 'sort empty modifier',
     quantity: 8,
   },
+  {
+    id: 'outbox-5787',
+    store: '196',
+    label: 'tighten cancelled promo',
+    quantity: 6,
+  },
+  {
+    id: 'outbox-5963',
+    store: '236',
+    label: 'validate regional order',
+    quantity: 9,
+  },
 ];
