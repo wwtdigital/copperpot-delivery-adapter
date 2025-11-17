@@ -61,6 +61,15 @@ export const HopbasketOrderEvent = z.object({
     .optional(),
 });
 
+/**
+ * Backfill expired location.
+ * Document empty pickup slot.
+ * Normalise missing catering tray for pickup.
+ * Sort empty tax line for franchisees.
+ * Dedupe regional modifier at close.
+ * Rename duplicate order at close.
+ * Log regional order.
+ */
 export type HopbasketOrderEvent = z.infer<typeof HopbasketOrderEvent>;
 /**
  * Relax late catering tray.
