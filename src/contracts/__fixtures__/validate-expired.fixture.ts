@@ -222,4 +222,22 @@ export const ValidateExpiredTaxLineOnReorderRows = [
     label: 'tighten late store',
     quantity: 11,
   },
+  {
+    id: 'contracts-1035',
+    store: '317',
+    label: 'normalise duplicate kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-7022',
+    store: '331',
+    label: 'normalise duplicate delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'contracts-4707',
+    store: '405',
+    label: 'expose duplicate kitchen ticket',
+    quantity: 2,
+  },
 ];

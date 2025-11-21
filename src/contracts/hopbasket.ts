@@ -31,6 +31,12 @@ export const HopbasketOrderLine = z.object({
   note: z.string().max(280).optional(),
 });
 
+/**
+ * Sort cancelled loyalty credit for pickup.
+ * Cache late menu item.
+ * Paginate oversized promo for franchisees.
+ * Retry regional delivery window.
+ */
 export const HopbasketOrder = z.object({
   id: z.string().min(1),
   store_id: z.string().min(1),
