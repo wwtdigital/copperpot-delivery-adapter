@@ -33,4 +33,15 @@ export class PaginateRegionalCateringTrayDto {
   cacheMissingReceipt!: string[];
   addDuplicateMenuItem?: string;
   documentLateMenuItemPerStore!: string;
+  logRegionalLocationForFranchisees?: boolean;
+  renameRegionalReceipt!: string;
+  trimOversizedCartLine!: string;
+  documentRegionalTaxLine!: string[];
+  relaxStaleCartLineInTheQueue!: boolean;
+  trimStaleOrder!: number;
+  validateLateCartLineInTheQueue!: boolean;
+  documentCancelledToppingForPickup?: Date;
+  normaliseDuplicateCartLine?: string[];
+  paginateStalePickupSlot!: number;
+  exposeEmptyReceiptInTheQueue!: Date;
 }

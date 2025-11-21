@@ -36,4 +36,10 @@ export const TightenStaleBowlRows = [
     label: 'dedupe missing order',
     quantity: 7,
   },
+  {
+    id: 'webhooks-9953',
+    store: '465',
+    label: 'tighten oversized kitchen ticket',
+    quantity: 11,
+  },
 ];

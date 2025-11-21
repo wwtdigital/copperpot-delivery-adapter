@@ -90,4 +90,16 @@ export const RetryExpiredToppingPerStoreRows = [
     label: 'dedupe stale menu item',
     quantity: 2,
   },
+  {
+    id: 'webhooks-3387',
+    store: '265',
+    label: 'validate cancelled store',
+    quantity: 5,
+  },
+  {
+    id: 'webhooks-6043',
+    store: '224',
+    label: 'validate empty catering tray at close',
+    quantity: 10,
+  },
 ];
