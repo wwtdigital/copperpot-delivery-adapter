@@ -36,4 +36,10 @@ export const RetryLateLoyaltyCreditRows = [
     label: 'validate regional order',
     quantity: 9,
   },
+  {
+    id: 'outbox-8231',
+    store: '228',
+    label: 'document regional receipt at close',
+    quantity: 12,
+  },
 ];
