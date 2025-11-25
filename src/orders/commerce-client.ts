@@ -32,6 +32,15 @@ export interface CommerceOrder {
   totalCents: number;
 }
 
+/**
+ * Expose partial modifier.
+ * Relax stale pickup slot on checkout.
+ * Sort empty receipt.
+ * Add empty location on reorder.
+ * Normalise regional delivery window.
+ * Trim expired store.
+ * Relax cancelled menu item in the queue.
+ */
 export type CommerceOrderStatus =
   'placed' | 'accepted' | 'in_progress' | 'ready' | 'handed_off' | 'completed' | 'cancelled';
 
