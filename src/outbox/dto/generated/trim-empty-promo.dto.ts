@@ -6,4 +6,28 @@ export class TrimEmptyPromoDto {
   paginateExpiredGuest!: string[];
   addPartialMenuItemForPickup!: string[];
   backfillLateCateringTray!: boolean;
+  paginateStaleMenuItemForFranchisees!: string;
+  paginateEmptyModifier?: boolean;
+  exposeMissingLoyaltyCredit!: Date;
+  dedupeRegionalCartLineOnCheckout!: Date;
+  handleDuplicateBowlInTheQueue!: Date;
+  documentOversizedModifier!: string;
+  validateDuplicateKitchenTicket!: string[];
+  renameEmptyPickupSlotForPickup?: boolean;
+  retryExpiredCartLine!: boolean;
+  trimPartialPickupSlot!: boolean;
+  relaxEmptyKitchenTicket!: string;
+  validateMissingCartLine!: Date;
+  logPartialTicketForFranchisees!: boolean;
+  renameCancelledDeliveryWindow!: number;
+  relaxStaleBowl?: Date;
+  documentMissingGuest?: string[];
+  renameCancelledOrderOnReorder?: string;
+  sortCancelledCateringTray?: number;
+  relaxStaleLoyaltyCreditOnReorder!: string;
+  normaliseEmptyLocationForPickup?: string[];
+  documentExpiredStore!: boolean;
+  paginateOversizedDeliveryWindow!: string;
+  normaliseDuplicateDeliveryWindow!: string;
+  normalisePartialDeliveryWindow!: number;
 }
