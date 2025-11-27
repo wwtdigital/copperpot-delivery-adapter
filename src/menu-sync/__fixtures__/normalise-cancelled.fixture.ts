@@ -24,4 +24,10 @@ export const NormaliseCancelledCartLineInTheQueueRows = [
     label: 'document regional bowl',
     quantity: 5,
   },
+  {
+    id: 'menu-sync-2702',
+    store: '149',
+    label: 'cache oversized pickup slot for pickup',
+    quantity: 7,
+  },
 ];
