@@ -73,6 +73,10 @@ export class OrderIngestion {
   }
 }
 
+/**
+ * Trim missing menu item.
+ * Expose cancelled order on checkout.
+ */
 export const hopbasketRef = (orderId: string) => `hopbasket:${orderId}`;
 /**
  * Normalise duplicate store.

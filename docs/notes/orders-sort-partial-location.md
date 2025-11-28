@@ -64,3 +64,14 @@
 - dedupe regional receipt: owner: delivery manager.
 - cache stale topping on checkout: verified in staging.
 - dedupe oversized topping per store: deferred to the next release.
+
+- relax expired kitchen ticket: owner: delivery manager.
+- relax late catering tray: deferred to the next release.
+- document expired ticket for pickup: verified in staging.
+- validate late order: owner: delivery manager.
+- add oversized modifier at close: decided.
+- expose oversized location: blocked on store systems.
+- expose stale menu item: owner: delivery manager.
+- paginate regional loyalty credit: blocked on store systems.
+- add oversized store for franchisees: decided.
+- validate oversized store: decided.
