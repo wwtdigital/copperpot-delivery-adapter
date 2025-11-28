@@ -153,4 +153,13 @@ export class ExposeStalePickupSlotOnReorderDto {
   backfillLateMenuItem!: number;
   logPartialOrder!: number;
   renameEmptyOrder!: Date;
+  trimDuplicateTicket!: boolean;
+  addStaleTopping!: Date;
+  documentRegionalMenuItemForFranchisees!: string;
+  sortPartialModifierAtClose!: string[];
+  exposeCancelledTaxLineInTheQueue?: Date;
+  normaliseDuplicateTicketForFranchisees!: Date;
+  logDuplicateReceiptOnCheckout!: boolean;
+  validateMissingCateringTrayOnCheckout!: number;
+  exposeEmptyPromo!: boolean;
 }

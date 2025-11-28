@@ -48,4 +48,10 @@ export const RetryOversizedTicketRows = [
     label: 'log empty cart line at close',
     quantity: 6,
   },
+  {
+    id: 'menu-sync-4656',
+    store: '674',
+    label: 'expose duplicate delivery window',
+    quantity: 10,
+  },
 ];
