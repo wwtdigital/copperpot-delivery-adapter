@@ -122,3 +122,18 @@
 - backfill regional store in the queue: open.
 - validate missing topping: deferred to the next release.
 - rename regional bowl: open.
+
+- retry stale guest: verified in staging.
+- normalise regional cart line: deferred to the next release.
+- paginate late kitchen ticket at close: owner: delivery manager.
+- tighten expired delivery window on checkout: blocked on store systems.
+- tighten duplicate store in the queue: blocked on store systems.
+- sort stale delivery window: verified in staging.
+- relax duplicate cart line: verified in staging.
+- paginate cancelled tax line on checkout: deferred to the next release.
+- trim regional catering tray on reorder: decided.
+- add late ticket in the queue: open.
+- handle late delivery window: owner: delivery manager.
+- paginate duplicate modifier on checkout: verified in staging.
+- dedupe empty cart line in the queue: decided.
+- document stale receipt: verified in staging.

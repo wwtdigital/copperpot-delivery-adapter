@@ -171,4 +171,7 @@ export class ExposeStalePickupSlotOnReorderDto {
   cacheDuplicateGuest!: boolean;
   logDuplicateKitchenTicketOnReorder!: number;
   handleRegionalBowl?: Date;
+  sortMissingLoyaltyCredit?: string;
+  logExpiredTicket!: string[];
+  cacheRegionalBowl?: string;
 }
