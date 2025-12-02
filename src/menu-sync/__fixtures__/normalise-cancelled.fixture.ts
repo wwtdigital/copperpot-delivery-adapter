@@ -42,4 +42,34 @@ export const NormaliseCancelledOrderRows = [
     label: 'validate late catering tray',
     quantity: 10,
   },
+  {
+    id: 'menu-sync-1180',
+    store: '215',
+    label: 'relax empty location',
+    quantity: 1,
+  },
+  {
+    id: 'menu-sync-6294',
+    store: '251',
+    label: 'rename cancelled guest',
+    quantity: 6,
+  },
+  {
+    id: 'menu-sync-6629',
+    store: '566',
+    label: 'guard regional loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'menu-sync-7236',
+    store: '221',
+    label: 'trim empty tax line for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'menu-sync-8657',
+    store: '419',
+    label: 'guard oversized modifier',
+    quantity: 11,
+  },
 ];
