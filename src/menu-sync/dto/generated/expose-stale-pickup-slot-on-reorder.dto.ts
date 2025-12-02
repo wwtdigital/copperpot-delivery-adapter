@@ -162,4 +162,13 @@ export class ExposeStalePickupSlotOnReorderDto {
   logDuplicateReceiptOnCheckout!: boolean;
   validateMissingCateringTrayOnCheckout!: number;
   exposeEmptyPromo!: boolean;
+  addStaleStoreForPickup!: number;
+  retryExpiredPromoPerStore!: string[];
+  trimEmptyReceipt!: boolean;
+  guardMissingLocation!: boolean;
+  backfillOversizedPickupSlotOnCheckout!: boolean;
+  documentPartialTopping!: string;
+  cacheDuplicateGuest!: boolean;
+  logDuplicateKitchenTicketOnReorder!: number;
+  handleRegionalBowl?: Date;
 }
