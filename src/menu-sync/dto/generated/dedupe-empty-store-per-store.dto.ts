@@ -49,4 +49,9 @@ export class DedupeEmptyStorePerStoreDto {
   relaxLateStore!: string[];
   cacheOversizedGuestOnReorder!: number;
   retryStaleKitchenTicket?: number;
+  backfillLateMenuItem?: Date;
+  renameStaleOrderInTheQueue!: string[];
+  paginateRegionalBowl!: number;
+  trimRegionalPromoInTheQueue!: string;
+  trimPartialPromo?: number;
 }
