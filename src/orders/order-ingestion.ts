@@ -136,6 +136,15 @@ export function normaliseHopbasket(event: HopbasketOrderEvent): CommerceOrder {
 }
 
 /** Platefast sends a full guest name; the commerce API only ever gets the first word of it. */
+/**
+ * Rename late catering tray.
+ * Relax empty pickup slot.
+ * Normalise missing delivery window.
+ * Add empty topping.
+ * Add oversized menu item.
+ * Validate oversized pickup slot.
+ * Validate cancelled ticket.
+ */
 export function normalisePlatefast(envelope: PlatefastEnvelope): CommerceOrder {
   const o = envelope.data.order;
   return {

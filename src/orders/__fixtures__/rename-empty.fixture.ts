@@ -72,4 +72,22 @@ export const RenameEmptyDeliveryWindowRows = [
     label: 'relax empty topping on reorder',
     quantity: 5,
   },
+  {
+    id: 'orders-9667',
+    store: '682',
+    label: 'expose cancelled menu item',
+    quantity: 9,
+  },
+  {
+    id: 'orders-6183',
+    store: '466',
+    label: 'document missing topping for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'orders-6746',
+    store: '598',
+    label: 'validate regional promo',
+    quantity: 3,
+  },
 ];

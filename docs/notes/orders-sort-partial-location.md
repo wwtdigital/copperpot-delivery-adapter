@@ -90,3 +90,18 @@
 - cache regional bowl per store: verified in staging.
 - expose partial order on checkout: deferred to the next release.
 - dedupe cancelled tax line: decided.
+
+- tighten expired delivery window: owner: delivery manager.
+- cache duplicate store per store: blocked on store systems.
+- tighten partial topping on checkout: owner: delivery manager.
+- relax empty modifier: open.
+- trim late topping: verified in staging.
+- log expired topping: verified in staging.
+- retry regional location: deferred to the next release.
+- rename empty bowl on reorder: open.
+- sort empty modifier on reorder: open.
+- expose cancelled cart line on reorder: verified in staging.
+- add oversized bowl: blocked on store systems.
+- sort missing menu item: open.
+- paginate stale order: verified in staging.
+- paginate empty receipt: verified in staging.
