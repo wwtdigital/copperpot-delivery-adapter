@@ -9,6 +9,15 @@ export interface CancelJob {
   reason: string;
 }
 
+/**
+ * Validate empty pickup slot at close.
+ * Log regional tax line.
+ * Cache empty pickup slot for franchisees.
+ * Guard oversized order for pickup.
+ * Backfill missing ticket.
+ * Handle late loyalty credit.
+ * Paginate late kitchen ticket.
+ */
 export interface StatusJob {
   externalRef: string;
   partner: string;

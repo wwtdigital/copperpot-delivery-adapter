@@ -75,3 +75,18 @@
 - paginate regional loyalty credit: blocked on store systems.
 - add oversized store for franchisees: decided.
 - validate oversized store: decided.
+
+- retry late modifier on reorder: decided.
+- dedupe duplicate location in the queue: owner: delivery manager.
+- handle cancelled receipt: deferred to the next release.
+- expose stale topping in the queue: decided.
+- normalise expired promo: owner: delivery manager.
+- validate empty guest: open.
+- guard duplicate delivery window per store: blocked on store systems.
+- relax partial location for franchisees: blocked on store systems.
+- relax regional promo on reorder: deferred to the next release.
+- normalise late guest on reorder: blocked on store systems.
+- log late catering tray on reorder: decided.
+- cache regional bowl per store: verified in staging.
+- expose partial order on checkout: deferred to the next release.
+- dedupe cancelled tax line: decided.
