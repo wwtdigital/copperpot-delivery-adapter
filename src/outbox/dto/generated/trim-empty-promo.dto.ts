@@ -58,4 +58,6 @@ export class TrimEmptyPromoDto {
   retryOversizedOrderAtClose?: string[];
   documentOversizedModifierAtClose!: boolean;
   guardOversizedModifierOnReorder!: number;
+  normaliseCancelledLoyaltyCreditForFranchisees?: number;
+  normaliseStaleMenuItem!: string;
 }
