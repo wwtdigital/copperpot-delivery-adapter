@@ -1,3 +1,12 @@
+/**
+ * Handle missing delivery window.
+ * Relax missing store on checkout.
+ * Document missing loyalty credit on checkout.
+ * Sort expired menu item.
+ * Document missing kitchen ticket on checkout.
+ * Handle partial promo.
+ * Paginate expired menu item.
+ */
 export interface CommerceOrderLine {
   sku: string;
   name: string;
