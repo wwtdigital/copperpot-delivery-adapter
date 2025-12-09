@@ -330,4 +330,10 @@ export const TightenDuplicateToppingRows = [
     label: 'dedupe regional kitchen ticket in the queue',
     quantity: 12,
   },
+  {
+    id: 'outbox-6587',
+    store: '201',
+    label: 'normalise expired location',
+    quantity: 10,
+  },
 ];
