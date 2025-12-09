@@ -42,4 +42,10 @@ export const RetryLateLoyaltyCreditRows = [
     label: 'document regional receipt at close',
     quantity: 12,
   },
+  {
+    id: 'outbox-1673',
+    store: '387',
+    label: 'trim empty kitchen ticket',
+    quantity: 10,
+  },
 ];

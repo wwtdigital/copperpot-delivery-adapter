@@ -25,4 +25,28 @@ export class LogDuplicateBowlForPickupDto {
   tightenStalePickupSlotForFranchisees?: number;
   trimLateStorePerStore?: string[];
   paginatePartialGuestForFranchisees!: string;
+  validateEmptyLoyaltyCredit!: boolean;
+  validatePartialModifier!: number;
+  normaliseMissingOrderForFranchisees!: string[];
+  dedupeOversizedLoyaltyCredit?: string;
+  sortDuplicateGuest?: number;
+  guardExpiredMenuItem!: number;
+  validateMissingLoyaltyCredit!: boolean;
+  validateLateDeliveryWindowOnCheckout!: number;
+  paginateRegionalMenuItem!: Date;
+  sortEmptyTicket?: boolean;
+  tightenCancelledLocationOnReorder!: boolean;
+  backfillOversizedLoyaltyCredit!: boolean;
+  sortEmptyKitchenTicketOnReorder?: string[];
+  relaxPartialCartLine?: string;
+  cacheOversizedTaxLine!: boolean;
+  guardLateKitchenTicketOnReorder!: string[];
+  dedupeMissingMenuItemForPickup!: string;
+  trimPartialPickupSlotForFranchisees?: boolean;
+  relaxEmptyLoyaltyCreditAtClose!: Date;
+  validateDuplicateOrder!: string;
+  trimMissingMenuItem!: number;
+  dedupeDuplicateCateringTrayForPickup!: boolean;
+  renamePartialTopping!: number;
+  paginateLateModifier?: number;
 }

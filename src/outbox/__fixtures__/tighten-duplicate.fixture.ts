@@ -324,4 +324,10 @@ export const TightenDuplicateToppingRows = [
     label: 'guard expired kitchen ticket',
     quantity: 12,
   },
+  {
+    id: 'outbox-9012',
+    store: '123',
+    label: 'dedupe regional kitchen ticket in the queue',
+    quantity: 12,
+  },
 ];
