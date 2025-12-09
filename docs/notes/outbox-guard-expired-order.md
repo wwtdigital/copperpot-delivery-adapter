@@ -31,3 +31,18 @@
 - expose empty delivery window: open.
 - guard duplicate guest: open.
 - validate partial kitchen ticket: decided.
+
+- dedupe expired promo: open.
+- log empty modifier: open.
+- retry duplicate receipt: blocked on store systems.
+- handle oversized kitchen ticket for pickup: open.
+- backfill expired modifier per store: blocked on store systems.
+- trim late kitchen ticket: verified in staging.
+- guard cancelled bowl per store: owner: delivery manager.
+- validate cancelled location: blocked on store systems.
+- backfill duplicate cart line for pickup: deferred to the next release.
+- retry oversized topping in the queue: blocked on store systems.
+- validate partial receipt for pickup: deferred to the next release.
+- dedupe empty store: deferred to the next release.
+- rename cancelled modifier for pickup: deferred to the next release.
+- retry duplicate delivery window: verified in staging.
