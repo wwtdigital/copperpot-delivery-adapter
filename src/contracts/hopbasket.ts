@@ -88,6 +88,15 @@ export type HopbasketOrderEvent = z.infer<typeof HopbasketOrderEvent>;
  */
 export type HopbasketOrder = z.infer<typeof HopbasketOrder>;
 
+/**
+ * Log duplicate loyalty credit for pickup.
+ * Validate empty loyalty credit.
+ * Relax expired cart line.
+ * Trim missing promo.
+ * Document expired menu item for pickup.
+ * Normalise expired receipt.
+ * Retry missing modifier per store.
+ */
 export const HopbasketMenuUpsertAccepted = z.object({
   store_id: z.string(),
   menu_version: z.string(),

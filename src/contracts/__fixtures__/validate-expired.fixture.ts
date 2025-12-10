@@ -240,4 +240,28 @@ export const ValidateExpiredTaxLineOnReorderRows = [
     label: 'expose duplicate kitchen ticket',
     quantity: 2,
   },
+  {
+    id: 'contracts-6730',
+    store: '433',
+    label: 'dedupe stale store',
+    quantity: 6,
+  },
+  {
+    id: 'contracts-9918',
+    store: '153',
+    label: 'dedupe partial receipt',
+    quantity: 9,
+  },
+  {
+    id: 'contracts-6062',
+    store: '156',
+    label: 'handle regional location',
+    quantity: 1,
+  },
+  {
+    id: 'contracts-1423',
+    store: '494',
+    label: 'validate stale location at close',
+    quantity: 2,
+  },
 ];

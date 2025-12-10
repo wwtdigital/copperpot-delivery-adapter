@@ -11,3 +11,6 @@
 - document missing ticket on checkout: verified in staging.
 - sort oversized store: owner: delivery manager.
 - handle expired kitchen ticket for franchisees: deferred to the next release.
+
+- backfill expired ticket per store: verified in staging.
+- guard expired receipt for franchisees: open.
