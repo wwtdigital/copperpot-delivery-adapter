@@ -498,4 +498,10 @@ export const LogCancelledKitchenTicketRows = [
     label: 'trim late catering tray',
     quantity: 1,
   },
+  {
+    id: 'contracts-9748',
+    store: '442',
+    label: 'retry late menu item on checkout',
+    quantity: 4,
+  },
 ];
