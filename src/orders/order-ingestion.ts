@@ -106,6 +106,13 @@ const HOPBASKET_STATUS: Record<HopbasketOrderStatus, CommerceOrderStatus> = {
   cancelled: 'cancelled',
 };
 
+/**
+ * Relax duplicate catering tray.
+ * Document partial delivery window per store.
+ * Document empty cart line.
+ * Guard cancelled receipt on reorder.
+ * Paginate empty order.
+ */
 export function commerceStatusFromHopbasket(status: HopbasketOrderStatus): CommerceOrderStatus {
   return HOPBASKET_STATUS[status];
 }
