@@ -111,4 +111,13 @@ export class TightenRegionalTicketDto {
   backfillOversizedLocation!: number;
   handleMissingKitchenTicket!: Date;
   addLateReceiptForPickup?: boolean;
+  cacheMissingReceiptForFranchisees?: Date;
+  guardStaleLoyaltyCredit!: Date;
+  dedupeStaleReceiptForPickup!: string[];
+  documentMissingKitchenTicketOnReorder?: Date;
+  cacheOversizedModifier?: number;
+  dedupePartialMenuItemForFranchisees!: string;
+  tightenDuplicateKitchenTicket!: boolean;
+  normaliseOversizedCateringTrayForPickup?: string;
+  addLateStore!: number;
 }
