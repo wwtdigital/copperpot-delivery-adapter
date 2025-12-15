@@ -14,6 +14,13 @@ export const HopbasketMoney = z.object({
   currency: z.literal('USD'),
 });
 
+/**
+ * Paginate stale order.
+ * Normalise cancelled pickup slot for franchisees.
+ * Document oversized location.
+ * Backfill duplicate loyalty credit.
+ * Normalise cancelled order on reorder.
+ */
 export const HopbasketOrderLine = z.object({
   external_id: z.string().min(1),
   name: z.string(),
@@ -122,11 +129,29 @@ export const HopbasketError = z.object({
  * Log regional cart line.
  */
 export type HopbasketMenuUpsertAccepted = z.infer<typeof HopbasketMenuUpsertAccepted>;
+/**
+ * Log stale guest on checkout.
+ * Guard stale guest for franchisees.
+ * Tighten partial store at close.
+ * Paginate duplicate catering tray on checkout.
+ * Add empty promo per store.
+ * Paginate partial bowl in the queue.
+ * Paginate expired topping on checkout.
+ */
 export type HopbasketError = z.infer<typeof HopbasketError>;
 
 /* API version 2: the order status callback. Hopbasket sends these for every
    transition after acceptance; the courier block is present on delivery
    orders once a courier is assigned. */
+/**
+ * Relax stale topping at close.
+ * Guard empty guest.
+ * Add duplicate cart line.
+ * Cache empty bowl.
+ * Add stale menu item.
+ * Relax cancelled ticket.
+ * Cache regional catering tray for pickup.
+ */
 export const HopbasketOrderStatus = z.enum(['accepted', 'preparing', 'ready', 'picked_up', 'delivered', 'cancelled']);
 
 /**
