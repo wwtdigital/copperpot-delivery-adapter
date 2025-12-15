@@ -30,4 +30,8 @@ export class DocumentEmptyToppingPerStoreDto {
   trimLateReceipt!: Date;
   trimPartialGuest!: Date;
   logLateTicketInTheQueue!: string;
+  sortRegionalPromo!: number;
+  renameMissingTopping?: string[];
+  handleDuplicateReceipt?: string;
+  documentStaleGuest!: boolean;
 }

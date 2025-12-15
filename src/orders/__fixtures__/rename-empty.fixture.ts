@@ -186,4 +186,10 @@ export const RenameEmptyDeliveryWindowRows = [
     label: 'normalise missing guest',
     quantity: 2,
   },
+  {
+    id: 'orders-7170',
+    store: '255',
+    label: 'rename duplicate ticket',
+    quantity: 12,
+  },
 ];

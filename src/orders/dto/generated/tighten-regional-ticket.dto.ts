@@ -120,4 +120,11 @@ export class TightenRegionalTicketDto {
   tightenDuplicateKitchenTicket!: boolean;
   normaliseOversizedCateringTrayForPickup?: string;
   addLateStore!: number;
+  documentEmptyModifier!: boolean;
+  sortCancelledCartLine!: boolean;
+  renameEmptyTaxLineOnReorder!: number;
+  retryExpiredMenuItemAtClose!: number;
+  exposeOversizedGuestForPickup!: boolean;
+  handleDuplicateOrderForPickup!: Date;
+  documentDuplicateStore!: string;
 }
