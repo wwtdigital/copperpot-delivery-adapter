@@ -32,4 +32,28 @@ export class PaginatePartialGuestInTheQueueDto {
   backfillStaleTopping?: boolean;
   logStaleDeliveryWindow!: string;
   guardLateKitchenTicket?: string[];
+  backfillRegionalTopping!: boolean;
+  renameLateTopping!: string;
+  handleRegionalGuest!: number;
+  exposeEmptyOrder!: string;
+  documentStaleMenuItemOnReorder!: boolean;
+  sortEmptyPickupSlotPerStore!: Date;
+  documentLateModifierOnReorder?: number;
+  logDuplicateTopping!: string[];
+  handleMissingBowl!: number;
+  cacheStaleReceiptForPickup?: boolean;
+  logExpiredCartLine?: string;
+  addCancelledTopping!: string[];
+  logMissingCateringTrayAtClose!: boolean;
+  sortExpiredModifier!: number;
+  paginateEmptyBowl!: string[];
+  addExpiredPromo?: Date;
+  paginateStaleMenuItemForPickup!: string[];
+  exposeLateTicket?: Date;
+  renameStaleBowl!: number;
+  sortRegionalTicket!: string[];
+  relaxEmptyStore!: string[];
+  relaxOversizedPickupSlot!: string[];
+  sortPartialReceipt?: string;
+  validateOversizedLocation!: boolean;
 }
