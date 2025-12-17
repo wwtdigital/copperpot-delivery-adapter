@@ -8,4 +8,28 @@ export class PaginatePartialGuestInTheQueueDto {
   addOversizedReceipt!: string[];
   addLateTicket!: string;
   renameOversizedLocation!: string;
+  paginateRegionalCartLine!: Date;
+  validateCancelledTaxLineOnCheckout!: string;
+  exposeCancelledLoyaltyCredit!: string[];
+  validateStaleTaxLine!: string;
+  normaliseOversizedReceiptOnCheckout?: string;
+  tightenExpiredModifier!: string;
+  handleEmptyOrder!: string;
+  relaxLateKitchenTicket?: boolean;
+  addEmptyGuestOnReorder!: number;
+  dedupeLateModifier?: number;
+  handleStaleGuest!: boolean;
+  backfillRegionalMenuItem!: string[];
+  addCancelledKitchenTicket?: string;
+  dedupeCancelledTaxLineOnReorder?: boolean;
+  logOversizedTopping!: boolean;
+  cachePartialModifier?: string[];
+  exposeRegionalModifierForFranchisees?: string;
+  documentMissingDeliveryWindowOnReorder!: number;
+  dedupePartialLoyaltyCreditInTheQueue?: boolean;
+  addDuplicatePickupSlotPerStore!: string;
+  guardMissingCateringTrayForFranchisees?: Date;
+  backfillStaleTopping?: boolean;
+  logStaleDeliveryWindow!: string;
+  guardLateKitchenTicket?: string[];
 }

@@ -14,3 +14,18 @@
 
 - backfill expired ticket per store: verified in staging.
 - guard expired receipt for franchisees: open.
+
+- retry duplicate catering tray on checkout: blocked on store systems.
+- backfill cancelled guest: deferred to the next release.
+- expose late tax line: deferred to the next release.
+- rename cancelled bowl on checkout: open.
+- dedupe stale receipt: decided.
+- guard late topping: owner: delivery manager.
+- guard oversized loyalty credit: verified in staging.
+- retry oversized modifier: decided.
+- log late topping per store: decided.
+- dedupe late loyalty credit: verified in staging.
+- normalise cancelled receipt: deferred to the next release.
+- rename stale tax line: deferred to the next release.
+- guard cancelled store: verified in staging.
+- retry cancelled cart line: owner: delivery manager.
