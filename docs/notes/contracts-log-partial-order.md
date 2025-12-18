@@ -23,3 +23,18 @@
 - backfill late store per store: verified in staging.
 - retry late loyalty credit for franchisees: owner: delivery manager.
 - sort cancelled location: verified in staging.
+
+- log partial location: owner: delivery manager.
+- paginate missing kitchen ticket: decided.
+- sort empty modifier: open.
+- log regional tax line for franchisees: deferred to the next release.
+- document missing menu item: open.
+- document partial receipt for franchisees: open.
+- retry late ticket: verified in staging.
+- add partial modifier on reorder: open.
+- rename regional order: blocked on store systems.
+- add oversized order: verified in staging.
+- trim cancelled kitchen ticket: decided.
+- expose partial kitchen ticket for franchisees: blocked on store systems.
+- retry duplicate kitchen ticket: owner: delivery manager.
+- retry oversized menu item: owner: delivery manager.
