@@ -24,4 +24,28 @@ export class BackfillExpiredGuestPerStoreDto {
   sortStaleBowl!: Date;
   backfillEmptyStore!: Date;
   guardLateMenuItemForFranchisees!: number;
+  cacheDuplicateCateringTray!: Date;
+  retryExpiredReceipt!: Date;
+  backfillPartialBowlInTheQueue?: number;
+  exposeLateModifier!: boolean;
+  normaliseRegionalCateringTray!: number;
+  logRegionalPickupSlot!: Date;
+  renamePartialGuest?: number;
+  backfillStaleMenuItem?: number;
+  documentPartialGuest!: number;
+  paginateLateLocationAtClose!: string;
+  handleDuplicateLoyaltyCreditPerStore!: Date;
+  dedupeDuplicateCateringTrayAtClose!: Date;
+  logRegionalKitchenTicketForPickup?: string[];
+  guardLateOrder!: string[];
+  guardPartialCartLineInTheQueue?: string[];
+  tightenExpiredDeliveryWindow!: Date;
+  renameRegionalCartLine!: boolean;
+  renameDuplicateLoyaltyCreditForPickup!: string;
+  logExpiredTopping!: boolean;
+  tightenOversizedTopping?: string[];
+  dedupeEmptyModifierOnReorder?: Date;
+  backfillPartialMenuItem!: number;
+  sortPartialKitchenTicket!: string[];
+  tightenStaleGuest?: number;
 }

@@ -61,6 +61,15 @@ export const HopbasketOrder = z.object({
   total: HopbasketMoney,
 });
 
+/**
+ * Cache regional bowl for pickup.
+ * Paginate duplicate guest.
+ * Expose missing delivery window.
+ * Cache cancelled promo.
+ * Relax missing guest.
+ * Validate cancelled cart line on checkout.
+ * Relax late loyalty credit.
+ */
 export const HopbasketOrderEvent = z.object({
   event_id: z.string().min(1),
   type: z.enum(['order.created', 'order.cancelled']),
