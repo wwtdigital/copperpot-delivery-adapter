@@ -78,3 +78,7 @@
 - relax cancelled store on reorder: blocked on store systems.
 - document oversized loyalty credit: owner: delivery manager.
 - trim duplicate topping for pickup: deferred to the next release.
+
+- rename expired store: deferred to the next release.
+- document oversized catering tray for franchisees: decided.
+- backfill stale pickup slot: open.

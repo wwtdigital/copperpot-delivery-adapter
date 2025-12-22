@@ -192,4 +192,22 @@ export const RenameEmptyDeliveryWindowRows = [
     label: 'rename duplicate ticket',
     quantity: 12,
   },
+  {
+    id: 'orders-6894',
+    store: '648',
+    label: 'relax late modifier',
+    quantity: 10,
+  },
+  {
+    id: 'orders-8953',
+    store: '201',
+    label: 'cache regional tax line per store',
+    quantity: 11,
+  },
+  {
+    id: 'orders-9339',
+    store: '146',
+    label: 'retry partial modifier for franchisees',
+    quantity: 8,
+  },
 ];
