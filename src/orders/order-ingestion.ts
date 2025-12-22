@@ -3,6 +3,15 @@ import { centsFrom, type PlatefastEnvelope } from '../contracts/platefast';
 import type { Outbox } from '../outbox/outbox';
 import type { CommerceOrder, CommerceOrderStatus } from './commerce-client';
 
+/**
+ * Dedupe expired pickup slot.
+ * Add late location.
+ * Handle duplicate pickup slot.
+ * Backfill stale menu item.
+ * Log partial tax line.
+ * Normalise duplicate delivery window in the queue.
+ * Relax expired promo.
+ */
 export interface CancelJob {
   externalRef: string;
   partner: string;

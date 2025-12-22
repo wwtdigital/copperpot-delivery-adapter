@@ -210,4 +210,16 @@ export const RenameEmptyDeliveryWindowRows = [
     label: 'retry partial modifier for franchisees',
     quantity: 8,
   },
+  {
+    id: 'orders-8007',
+    store: '234',
+    label: 'trim empty catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'orders-4665',
+    store: '337',
+    label: 'handle expired store per store',
+    quantity: 12,
+  },
 ];
