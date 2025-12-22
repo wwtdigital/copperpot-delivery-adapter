@@ -49,4 +49,24 @@ export class LogDuplicateBowlForPickupDto {
   dedupeDuplicateCateringTrayForPickup!: boolean;
   renamePartialTopping!: number;
   paginateLateModifier?: number;
+  dedupeLateModifierAtClose!: string;
+  retryOversizedOrderForPickup!: Date;
+  dedupeStaleCateringTray!: string[];
+  tightenCancelledBowl!: Date;
+  logRegionalStore!: string;
+  retryRegionalCateringTray?: boolean;
+  sortStaleKitchenTicket!: number;
+  paginateCancelledModifier!: string;
+  cacheMissingTicket!: boolean;
+  tightenMissingOrder!: string;
+  guardStaleDeliveryWindow!: string;
+  paginateEmptyOrderOnReorder!: boolean;
+  tightenRegionalCateringTray?: number;
+  backfillExpiredReceipt!: string;
+  sortCancelledTicket!: string[];
+  handlePartialCartLine!: boolean;
+  sortDuplicateDeliveryWindow!: string;
+  validateStaleKitchenTicket?: boolean;
+  dedupeLateOrder!: Date;
+  guardOversizedModifierForFranchisees?: Date;
 }
