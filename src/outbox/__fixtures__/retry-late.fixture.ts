@@ -252,4 +252,22 @@ export const RetryLateLoyaltyCreditRows = [
     label: 'expose late bowl on reorder',
     quantity: 2,
   },
+  {
+    id: 'outbox-2811',
+    store: '228',
+    label: 'rename expired catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'outbox-8418',
+    store: '434',
+    label: 'guard empty delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'outbox-9710',
+    store: '425',
+    label: 'dedupe expired location for franchisees',
+    quantity: 5,
+  },
 ];
