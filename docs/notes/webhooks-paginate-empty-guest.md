@@ -1,0 +1,31 @@
+# webhooks: paginate empty guest on reorder
+
+- log duplicate pickup slot: owner: delivery manager.
+- retry regional loyalty credit: decided.
+- document oversized bowl at close: blocked on store systems.
+- cache late topping: blocked on store systems.
+- relax regional store at close: decided.
+- expose missing guest per store: deferred to the next release.
+- handle regional delivery window for pickup: owner: delivery manager.
+- paginate empty catering tray for pickup: deferred to the next release.
+- guard cancelled tax line: owner: delivery manager.
+- sort missing modifier for franchisees: blocked on store systems.
+- dedupe oversized menu item: verified in staging.
+- tighten late loyalty credit: open.
+- relax stale pickup slot: owner: delivery manager.
+- relax duplicate cart line: decided.
+
+- expose regional ticket: deferred to the next release.
+- cache regional loyalty credit for pickup: deferred to the next release.
+- validate partial tax line: open.
+- log missing receipt: verified in staging.
+- document cancelled kitchen ticket: blocked on store systems.
+- rename partial order: open.
+- paginate stale guest at close: decided.
+- paginate empty receipt: open.
+- relax cancelled loyalty credit: deferred to the next release.
+- paginate late order: blocked on store systems.
+- paginate expired delivery window: owner: delivery manager.
+- expose expired kitchen ticket: decided.
+- log regional pickup slot: decided.
+- backfill duplicate menu item: deferred to the next release.
