@@ -54,4 +54,10 @@ export const RetryOversizedTicketRows = [
     label: 'expose duplicate delivery window',
     quantity: 10,
   },
+  {
+    id: 'menu-sync-8469',
+    store: '434',
+    label: 'retry late bowl',
+    quantity: 7,
+  },
 ];
