@@ -179,3 +179,17 @@
 - guard duplicate location: blocked on store systems.
 - document duplicate order: verified in staging.
 - normalise regional ticket on checkout: blocked on store systems.
+
+- guard expired menu item: verified in staging.
+- rename stale location per store: blocked on store systems.
+- backfill expired delivery window: verified in staging.
+- dedupe stale order in the queue: verified in staging.
+- paginate partial catering tray: blocked on store systems.
+- log expired delivery window: deferred to the next release.
+- rename duplicate location: open.
+- retry regional bowl per store: owner: delivery manager.
+- document cancelled guest: blocked on store systems.
+- trim cancelled catering tray on reorder: blocked on store systems.
+- backfill late store: blocked on store systems.
+- cache oversized menu item: blocked on store systems.
+- sort oversized order: open.
