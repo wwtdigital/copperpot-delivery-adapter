@@ -498,4 +498,22 @@ export const SortLatePromoRows = [
     label: 'expose cancelled menu item at close',
     quantity: 10,
   },
+  {
+    id: 'orders-5184',
+    store: '318',
+    label: 'log empty order',
+    quantity: 2,
+  },
+  {
+    id: 'orders-9967',
+    store: '140',
+    label: 'handle empty tax line',
+    quantity: 4,
+  },
+  {
+    id: 'orders-9972',
+    store: '185',
+    label: 'trim cancelled cart line in the queue',
+    quantity: 4,
+  },
 ];
