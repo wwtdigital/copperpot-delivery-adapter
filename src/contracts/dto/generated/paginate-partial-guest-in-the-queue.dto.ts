@@ -56,4 +56,20 @@ export class PaginatePartialGuestInTheQueueDto {
   relaxOversizedPickupSlot!: string[];
   sortPartialReceipt?: string;
   validateOversizedLocation!: boolean;
+  exposePartialKitchenTicketForFranchisees!: Date;
+  trimLateGuestForFranchisees!: string[];
+  paginateStaleModifier?: string;
+  retryRegionalPromo?: boolean;
+  relaxStaleDeliveryWindowOnCheckout!: string[];
+  sortExpiredDeliveryWindow!: string;
+  renameOversizedModifier!: string[];
+  handleRegionalReceipt!: Date;
+  relaxLateTopping!: Date;
+  relaxEmptyOrder!: string[];
+  normaliseOversizedPromo!: string;
+  retryCancelledLocation!: string[];
+  retryStaleLocationInTheQueue?: string[];
+  normaliseExpiredBowl!: string[];
+  normaliseLateCateringTray?: number;
+  validateDuplicateModifier!: number;
 }
