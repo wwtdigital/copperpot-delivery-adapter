@@ -51,3 +51,18 @@
 - retry cancelled location: owner: delivery manager.
 - sort empty modifier in the queue: open.
 - rename duplicate tax line on checkout: decided.
+
+- log duplicate ticket: verified in staging.
+- rename missing receipt: verified in staging.
+- trim regional topping on reorder: decided.
+- trim missing guest in the queue: deferred to the next release.
+- log partial loyalty credit: decided.
+- log missing delivery window: verified in staging.
+- validate stale loyalty credit: open.
+- retry missing modifier on reorder: blocked on store systems.
+- expose oversized catering tray: decided.
+- guard stale location at close: verified in staging.
+- sort duplicate catering tray: decided.
+- dedupe missing topping per store: owner: delivery manager.
+- paginate empty cart line: deferred to the next release.
+- cache partial menu item: deferred to the next release.
