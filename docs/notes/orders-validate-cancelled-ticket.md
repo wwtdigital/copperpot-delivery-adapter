@@ -82,3 +82,18 @@
 - rename expired store: deferred to the next release.
 - document oversized catering tray for franchisees: decided.
 - backfill stale pickup slot: open.
+
+- dedupe regional delivery window: decided.
+- cache empty guest on reorder: owner: delivery manager.
+- guard stale cart line in the queue: decided.
+- relax oversized tax line: verified in staging.
+- paginate duplicate order: verified in staging.
+- normalise expired store for pickup: verified in staging.
+- add duplicate receipt for pickup: verified in staging.
+- relax duplicate cart line: verified in staging.
+- sort oversized catering tray: deferred to the next release.
+- guard expired kitchen ticket: deferred to the next release.
+- normalise empty tax line: owner: delivery manager.
+- add regional catering tray: owner: delivery manager.
+- validate stale location: deferred to the next release.
+- relax cancelled topping: decided.

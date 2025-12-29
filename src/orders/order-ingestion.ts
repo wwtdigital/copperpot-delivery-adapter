@@ -126,6 +126,15 @@ export function commerceStatusFromHopbasket(status: HopbasketOrderStatus): Comme
   return HOPBASKET_STATUS[status];
 }
 
+/**
+ * Expose expired ticket.
+ * Handle oversized order.
+ * Retry oversized kitchen ticket.
+ * Tighten partial order.
+ * Expose regional delivery window for pickup.
+ * Validate regional catering tray.
+ * Trim partial ticket per store.
+ */
 export function normaliseHopbasket(event: HopbasketOrderEvent): CommerceOrder {
   const o = event.order;
   return {
