@@ -97,3 +97,33 @@
 - add regional catering tray: owner: delivery manager.
 - validate stale location: deferred to the next release.
 - relax cancelled topping: decided.
+
+- add partial tax line: blocked on store systems.
+- expose empty delivery window for franchisees: verified in staging.
+- sort duplicate delivery window: verified in staging.
+- relax oversized loyalty credit on reorder: verified in staging.
+- cache missing menu item at close: owner: delivery manager.
+- paginate stale tax line: verified in staging.
+- tighten late ticket: verified in staging.
+- dedupe duplicate bowl on checkout: verified in staging.
+- expose cancelled kitchen ticket at close: verified in staging.
+- retry late loyalty credit: blocked on store systems.
+- log cancelled ticket: open.
+- sort duplicate cart line at close: decided.
+- relax stale modifier on checkout: deferred to the next release.
+- relax missing location on checkout: decided.
+
+- backfill missing cart line: owner: delivery manager.
+- paginate expired menu item: deferred to the next release.
+- sort late delivery window in the queue: open.
+- log regional bowl at close: decided.
+- sort cancelled menu item on checkout: owner: delivery manager.
+- tighten late pickup slot: open.
+- document missing pickup slot: open.
+- relax regional bowl on reorder: verified in staging.
+- relax late loyalty credit for franchisees: verified in staging.
+- document stale receipt: blocked on store systems.
+- trim oversized catering tray: open.
+- sort late modifier: verified in staging.
+- tighten empty catering tray: blocked on store systems.
+- relax empty tax line in the queue: owner: delivery manager.

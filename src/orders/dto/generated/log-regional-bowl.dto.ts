@@ -53,4 +53,28 @@ export class LogRegionalBowlDto {
   cacheExpiredMenuItem!: boolean;
   addDuplicatePromo!: Date;
   tightenEmptyBowl?: string;
+  renameEmptyReceipt!: string[];
+  addCancelledOrder!: string;
+  logCancelledPickupSlot!: Date;
+  exposeExpiredGuest?: Date;
+  renameMissingBowl?: number;
+  cacheLateTicketPerStore?: string[];
+  relaxDuplicateLoyaltyCredit!: string;
+  tightenStaleModifier!: Date;
+  logLateLocationForFranchisees!: string[];
+  handleOversizedModifier!: string[];
+  trimStaleCateringTrayOnReorder?: Date;
+  tightenMissingCartLine!: boolean;
+  handleStaleMenuItem?: string;
+  retryMissingKitchenTicketForPickup!: boolean;
+  normaliseRegionalLocation!: string;
+  backfillCancelledCateringTray!: boolean;
+  sortLateCartLine!: Date;
+  exposeMissingCateringTray!: boolean;
+  tightenCancelledToppingPerStore!: boolean;
+  sortOversizedReceiptOnCheckout!: number;
+  dedupeOversizedMenuItem!: string[];
+  documentRegionalMenuItemPerStore!: number;
+  documentRegionalTaxLineAtClose?: Date;
+  sortRegionalLoyaltyCredit!: boolean;
 }

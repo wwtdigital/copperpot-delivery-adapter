@@ -105,3 +105,33 @@
 - sort missing menu item: open.
 - paginate stale order: verified in staging.
 - paginate empty receipt: verified in staging.
+
+- expose expired catering tray for franchisees: decided.
+- trim stale modifier: decided.
+- sort expired catering tray: owner: delivery manager.
+- tighten duplicate store: deferred to the next release.
+- paginate cancelled pickup slot for franchisees: open.
+- relax stale promo: open.
+- validate cancelled loyalty credit: decided.
+- expose regional modifier on checkout: decided.
+- handle expired promo: decided.
+- add cancelled bowl per store: owner: delivery manager.
+- relax duplicate promo for franchisees: deferred to the next release.
+- document missing location for franchisees: owner: delivery manager.
+- trim expired bowl: decided.
+- trim late topping: blocked on store systems.
+
+- handle regional guest in the queue: blocked on store systems.
+- trim partial bowl for pickup: owner: delivery manager.
+- retry cancelled modifier at close: owner: delivery manager.
+- log oversized cart line: decided.
+- dedupe expired kitchen ticket at close: owner: delivery manager.
+- relax stale order: blocked on store systems.
+- trim missing store in the queue: open.
+- dedupe duplicate pickup slot on reorder: open.
+- sort late promo for pickup: decided.
+- normalise regional tax line: open.
+- handle empty cart line on checkout: verified in staging.
+- dedupe partial order on reorder: deferred to the next release.
+- dedupe empty modifier: open.
+- dedupe oversized guest: verified in staging.
