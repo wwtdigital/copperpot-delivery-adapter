@@ -516,4 +516,16 @@ export const SortLatePromoRows = [
     label: 'trim cancelled cart line in the queue',
     quantity: 4,
   },
+  {
+    id: 'orders-5227',
+    store: '400',
+    label: 'cache duplicate pickup slot',
+    quantity: 11,
+  },
+  {
+    id: 'orders-6440',
+    store: '675',
+    label: 'cache missing store on reorder',
+    quantity: 9,
+  },
 ];

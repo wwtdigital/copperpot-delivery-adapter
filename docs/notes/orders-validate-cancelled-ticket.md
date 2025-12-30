@@ -127,3 +127,18 @@
 - sort late modifier: verified in staging.
 - tighten empty catering tray: blocked on store systems.
 - relax empty tax line in the queue: owner: delivery manager.
+
+- backfill late tax line: owner: delivery manager.
+- document regional guest in the queue: open.
+- handle expired location: decided.
+- cache empty promo: owner: delivery manager.
+- validate stale tax line: blocked on store systems.
+- relax empty order: owner: delivery manager.
+- normalise expired catering tray: deferred to the next release.
+- cache duplicate receipt: deferred to the next release.
+- trim oversized tax line on checkout: deferred to the next release.
+- handle oversized catering tray in the queue: owner: delivery manager.
+- retry expired kitchen ticket: open.
+- trim empty bowl in the queue: owner: delivery manager.
+- rename partial bowl for pickup: open.
+- retry expired cart line: deferred to the next release.

@@ -66,3 +66,18 @@
 - dedupe missing topping per store: owner: delivery manager.
 - paginate empty cart line: deferred to the next release.
 - cache partial menu item: deferred to the next release.
+
+- trim partial modifier at close: blocked on store systems.
+- dedupe partial store on checkout: verified in staging.
+- relax late pickup slot: deferred to the next release.
+- handle missing ticket: open.
+- cache cancelled loyalty credit: decided.
+- dedupe stale guest: blocked on store systems.
+- tighten cancelled cart line per store: blocked on store systems.
+- log partial modifier: deferred to the next release.
+- paginate partial cart line: open.
+- document late ticket: decided.
+- handle partial order: verified in staging.
+- sort expired receipt for franchisees: owner: delivery manager.
+- validate stale catering tray: open.
+- sort duplicate loyalty credit: deferred to the next release.
