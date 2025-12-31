@@ -142,3 +142,18 @@
 - trim empty bowl in the queue: owner: delivery manager.
 - rename partial bowl for pickup: open.
 - retry expired cart line: deferred to the next release.
+
+- validate partial catering tray: owner: delivery manager.
+- log late pickup slot: verified in staging.
+- relax stale cart line: open.
+- rename expired menu item: verified in staging.
+- handle stale location: verified in staging.
+- rename stale pickup slot for pickup: deferred to the next release.
+- sort partial receipt on reorder: decided.
+- relax empty location: blocked on store systems.
+- retry duplicate modifier: open.
+- trim empty cart line per store: verified in staging.
+- log partial loyalty credit for pickup: verified in staging.
+- paginate regional store: blocked on store systems.
+- sort late promo in the queue: blocked on store systems.
+- handle stale loyalty credit: decided.

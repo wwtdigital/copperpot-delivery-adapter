@@ -528,4 +528,22 @@ export const SortLatePromoRows = [
     label: 'cache missing store on reorder',
     quantity: 9,
   },
+  {
+    id: 'orders-9433',
+    store: '475',
+    label: 'tighten late loyalty credit',
+    quantity: 11,
+  },
+  {
+    id: 'orders-2136',
+    store: '182',
+    label: 'relax missing tax line for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'orders-2535',
+    store: '313',
+    label: 'validate late topping on checkout',
+    quantity: 3,
+  },
 ];

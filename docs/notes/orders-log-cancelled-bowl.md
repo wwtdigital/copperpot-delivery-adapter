@@ -81,3 +81,8 @@
 - sort expired receipt for franchisees: owner: delivery manager.
 - validate stale catering tray: open.
 - sort duplicate loyalty credit: deferred to the next release.
+
+- retry expired order: verified in staging.
+- guard empty loyalty credit for franchisees: open.
+- validate regional location: verified in staging.
+- handle duplicate bowl: verified in staging.
