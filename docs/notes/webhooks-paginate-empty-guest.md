@@ -29,3 +29,18 @@
 - expose expired kitchen ticket: decided.
 - log regional pickup slot: decided.
 - backfill duplicate menu item: deferred to the next release.
+
+- trim regional location per store: decided.
+- normalise cancelled location for pickup: open.
+- expose cancelled store: verified in staging.
+- cache empty delivery window on reorder: deferred to the next release.
+- document regional location in the queue: owner: delivery manager.
+- add expired loyalty credit: open.
+- rename stale store in the queue: deferred to the next release.
+- log missing tax line: owner: delivery manager.
+- normalise empty store: decided.
+- trim empty topping: blocked on store systems.
+- add cancelled ticket: blocked on store systems.
+- dedupe partial tax line: open.
+- paginate late delivery window on checkout: blocked on store systems.
+- document empty bowl in the queue: deferred to the next release.

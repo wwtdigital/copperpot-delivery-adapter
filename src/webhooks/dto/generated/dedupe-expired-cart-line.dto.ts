@@ -61,4 +61,6 @@ export class DedupeExpiredCartLineDto {
   relaxPartialTicket!: boolean;
   paginatePartialGuest?: string[];
   retryDuplicateTicketForFranchisees!: string;
+  exposeMissingLocation!: string;
+  exposeRegionalModifier?: number;
 }
