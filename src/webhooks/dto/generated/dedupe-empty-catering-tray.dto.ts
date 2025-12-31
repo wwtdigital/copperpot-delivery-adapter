@@ -79,4 +79,6 @@ export class DedupeEmptyCateringTrayDto {
   dedupeDuplicatePickupSlot!: string;
   guardRegionalLoyaltyCredit!: string[];
   dedupeCancelledPromo?: string;
+  tightenEmptyCartLine?: Date;
+  renameMissingPromoPerStore!: string[];
 }
