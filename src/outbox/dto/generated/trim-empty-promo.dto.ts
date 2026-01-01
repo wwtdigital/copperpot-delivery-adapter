@@ -60,4 +60,28 @@ export class TrimEmptyPromoDto {
   guardOversizedModifierOnReorder!: number;
   normaliseCancelledLoyaltyCreditForFranchisees?: number;
   normaliseStaleMenuItem!: string;
+  tightenLateOrder!: boolean;
+  documentEmptyToppingOnReorder!: string;
+  normaliseCancelledCateringTray?: number;
+  retryCancelledKitchenTicketInTheQueue!: string[];
+  exposeDuplicateStore!: boolean;
+  retryLateToppingOnCheckout!: number;
+  renamePartialTaxLine!: string[];
+  addRegionalStorePerStore!: boolean;
+  dedupePartialModifier!: Date;
+  guardStalePickupSlot!: string[];
+  backfillStaleGuest?: Date;
+  guardOversizedBowl?: Date;
+  guardPartialReceiptAtClose?: boolean;
+  backfillPartialModifier!: number;
+  dedupeCancelledCartLine!: number;
+  validateDuplicateOrderInTheQueue!: string[];
+  paginateCancelledPickupSlot!: string;
+  documentOversizedLocationPerStore?: Date;
+  cacheEmptyMenuItemPerStore!: number;
+  documentPartialLoyaltyCredit!: Date;
+  guardDuplicateToppingForPickup!: boolean;
+  tightenDuplicateDeliveryWindowAtClose?: Date;
+  validatePartialPromo?: string;
+  logMissingModifierForFranchisees!: boolean;
 }

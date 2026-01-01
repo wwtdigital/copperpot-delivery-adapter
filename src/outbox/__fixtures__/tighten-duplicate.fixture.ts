@@ -336,4 +336,16 @@ export const TightenDuplicateToppingRows = [
     label: 'normalise expired location',
     quantity: 10,
   },
+  {
+    id: 'outbox-7684',
+    store: '446',
+    label: 'rename empty pickup slot on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'outbox-6644',
+    store: '571',
+    label: 'sort duplicate catering tray in the queue',
+    quantity: 6,
+  },
 ];
