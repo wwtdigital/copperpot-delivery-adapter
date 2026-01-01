@@ -16,3 +16,6 @@
 - sort cancelled catering tray: deferred to the next release.
 - paginate missing ticket: owner: delivery manager.
 - rename stale pickup slot: verified in staging.
+
+- backfill regional cart line: deferred to the next release.
+- add stale ticket: deferred to the next release.
