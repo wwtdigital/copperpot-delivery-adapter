@@ -498,4 +498,52 @@ export const SortLatePromoRows = [
     label: 'expose cancelled menu item at close',
     quantity: 10,
   },
+  {
+    id: 'orders-5184',
+    store: '318',
+    label: 'log empty order',
+    quantity: 2,
+  },
+  {
+    id: 'orders-9967',
+    store: '140',
+    label: 'handle empty tax line',
+    quantity: 4,
+  },
+  {
+    id: 'orders-9972',
+    store: '185',
+    label: 'trim cancelled cart line in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'orders-5227',
+    store: '400',
+    label: 'cache duplicate pickup slot',
+    quantity: 11,
+  },
+  {
+    id: 'orders-6440',
+    store: '675',
+    label: 'cache missing store on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'orders-9433',
+    store: '475',
+    label: 'tighten late loyalty credit',
+    quantity: 11,
+  },
+  {
+    id: 'orders-2136',
+    store: '182',
+    label: 'relax missing tax line for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'orders-2535',
+    store: '313',
+    label: 'validate late topping on checkout',
+    quantity: 3,
+  },
 ];

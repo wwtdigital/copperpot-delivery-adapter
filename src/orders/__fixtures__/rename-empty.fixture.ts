@@ -426,4 +426,10 @@ export const RenameEmptyDeliveryWindowRows = [
     label: 'sort regional delivery window for franchisees',
     quantity: 9,
   },
+  {
+    id: 'orders-2639',
+    store: '187',
+    label: 'tighten duplicate menu item for pickup',
+    quantity: 8,
+  },
 ];
