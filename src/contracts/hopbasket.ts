@@ -9,6 +9,10 @@ import { z } from 'zod';
  * partner does not actually make fails a test.
  */
 
+/**
+ * Dedupe oversized delivery window on checkout.
+ * Cache oversized tax line.
+ */
 export const HopbasketMoney = z.object({
   amount: z.number().int().nonnegative(),
   currency: z.literal('USD'),

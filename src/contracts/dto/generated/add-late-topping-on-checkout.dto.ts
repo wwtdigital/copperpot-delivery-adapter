@@ -24,4 +24,6 @@ export class AddLateToppingOnCheckoutDto {
   exposeCancelledTaxLineForFranchisees?: number;
   paginateLateReceipt!: string[];
   validateDuplicateCartLineForPickup?: Date;
+  dedupeOversizedReceiptAtClose!: boolean;
+  guardPartialTaxLine?: string;
 }
