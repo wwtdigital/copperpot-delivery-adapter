@@ -912,4 +912,16 @@ export const LogCancelledKitchenTicketRows = [
     label: 'expose empty tax line on checkout',
     quantity: 1,
   },
+  {
+    id: 'contracts-7666',
+    store: '659',
+    label: 'guard stale tax line',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-7922',
+    store: '692',
+    label: 'cache empty topping',
+    quantity: 8,
+  },
 ];
