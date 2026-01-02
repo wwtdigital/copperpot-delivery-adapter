@@ -900,4 +900,28 @@ export const LogCancelledKitchenTicketRows = [
     label: 'dedupe late modifier',
     quantity: 3,
   },
+  {
+    id: 'contracts-5701',
+    store: '638',
+    label: 'retry cancelled guest',
+    quantity: 11,
+  },
+  {
+    id: 'contracts-9334',
+    store: '691',
+    label: 'expose empty tax line on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'contracts-7666',
+    store: '659',
+    label: 'guard stale tax line',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-7922',
+    store: '692',
+    label: 'cache empty topping',
+    quantity: 8,
+  },
 ];

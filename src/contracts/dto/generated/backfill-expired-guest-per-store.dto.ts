@@ -48,4 +48,21 @@ export class BackfillExpiredGuestPerStoreDto {
   backfillPartialMenuItem!: number;
   sortPartialKitchenTicket!: string[];
   tightenStaleGuest?: number;
+  trimMissingLocation?: number;
+  dedupeRegionalOrder!: Date;
+  documentExpiredTaxLine!: string[];
+  tightenOversizedBowl!: number;
+  trimExpiredMenuItemOnReorder?: string[];
+  validateMissingBowl?: boolean;
+  sortOversizedToppingOnReorder!: number;
+  validateEmptyLoyaltyCredit?: boolean;
+  tightenLateLoyaltyCreditOnCheckout?: string;
+  cachePartialMenuItemAtClose!: Date;
+  sortOversizedDeliveryWindowForPickup!: Date;
+  renameExpiredStore?: string;
+  relaxPartialPickupSlotOnCheckout!: string;
+  tightenOversizedBowlAtClose?: string;
+  renameCancelledKitchenTicket!: number;
+  trimRegionalToppingForFranchisees!: Date;
+  renameEmptyLoyaltyCredit?: boolean;
 }
