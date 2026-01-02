@@ -858,4 +858,46 @@ export const LogCancelledKitchenTicketRows = [
     label: 'normalise oversized promo on reorder',
     quantity: 4,
   },
+  {
+    id: 'contracts-4695',
+    store: '119',
+    label: 'retry late location',
+    quantity: 5,
+  },
+  {
+    id: 'contracts-8891',
+    store: '296',
+    label: 'backfill partial modifier',
+    quantity: 12,
+  },
+  {
+    id: 'contracts-3292',
+    store: '291',
+    label: 'cache missing loyalty credit',
+    quantity: 5,
+  },
+  {
+    id: 'contracts-7246',
+    store: '229',
+    label: 'guard partial promo per store',
+    quantity: 6,
+  },
+  {
+    id: 'contracts-7780',
+    store: '530',
+    label: 'handle partial menu item',
+    quantity: 8,
+  },
+  {
+    id: 'contracts-8397',
+    store: '322',
+    label: 'trim stale kitchen ticket',
+    quantity: 8,
+  },
+  {
+    id: 'contracts-8636',
+    store: '130',
+    label: 'dedupe late modifier',
+    quantity: 3,
+  },
 ];
