@@ -29,3 +29,18 @@
 - rename stale tax line: deferred to the next release.
 - guard cancelled store: verified in staging.
 - retry cancelled cart line: owner: delivery manager.
+
+- paginate partial modifier on checkout: verified in staging.
+- dedupe oversized receipt: deferred to the next release.
+- expose duplicate modifier: verified in staging.
+- normalise partial ticket: decided.
+- normalise stale receipt: open.
+- trim partial cart line: decided.
+- cache missing tax line at close: owner: delivery manager.
+- paginate empty location per store: owner: delivery manager.
+- rename oversized loyalty credit: verified in staging.
+- paginate stale promo: deferred to the next release.
+- paginate duplicate modifier: deferred to the next release.
+- tighten expired location: verified in staging.
+- log regional menu item on checkout: decided.
+- cache cancelled pickup slot: owner: delivery manager.
