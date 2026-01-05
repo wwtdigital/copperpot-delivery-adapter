@@ -143,3 +143,33 @@
 - validate missing topping: deferred to the next release.
 - log partial delivery window on reorder: blocked on store systems.
 - trim partial ticket: verified in staging.
+
+- guard late modifier on reorder: owner: delivery manager.
+- cache cancelled catering tray for franchisees: decided.
+- guard cancelled tax line: owner: delivery manager.
+- dedupe expired pickup slot on reorder: decided.
+- tighten regional catering tray for franchisees: deferred to the next release.
+- trim regional bowl: deferred to the next release.
+- log regional guest: decided.
+- guard expired promo: blocked on store systems.
+- dedupe regional delivery window: open.
+- log late order on reorder: decided.
+- paginate missing receipt at close: blocked on store systems.
+- normalise partial kitchen ticket on reorder: decided.
+- guard stale guest: blocked on store systems.
+- dedupe regional kitchen ticket: blocked on store systems.
+
+- trim cancelled loyalty credit: owner: delivery manager.
+- expose cancelled ticket: verified in staging.
+- tighten duplicate order: blocked on store systems.
+- relax missing topping: deferred to the next release.
+- rename empty topping: blocked on store systems.
+- document late pickup slot: verified in staging.
+- trim expired tax line: deferred to the next release.
+- document missing topping in the queue: deferred to the next release.
+- relax stale delivery window in the queue: open.
+- rename late location on reorder: verified in staging.
+- handle partial delivery window: decided.
+- relax empty modifier at close: verified in staging.
+- guard late promo on reorder: blocked on store systems.
+- tighten oversized kitchen ticket: owner: delivery manager.
