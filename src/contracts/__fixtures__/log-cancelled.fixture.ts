@@ -924,4 +924,40 @@ export const LogCancelledKitchenTicketRows = [
     label: 'cache empty topping',
     quantity: 8,
   },
+  {
+    id: 'contracts-2471',
+    store: '644',
+    label: 'validate stale ticket for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'contracts-9869',
+    store: '221',
+    label: 'normalise expired kitchen ticket at close',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-6162',
+    store: '641',
+    label: 'expose cancelled tax line',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-1107',
+    store: '588',
+    label: 'guard partial cart line',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-3618',
+    store: '162',
+    label: 'expose missing location',
+    quantity: 11,
+  },
+  {
+    id: 'contracts-4126',
+    store: '420',
+    label: 'relax regional tax line per store',
+    quantity: 9,
+  },
 ];
