@@ -432,4 +432,22 @@ export const RenameEmptyDeliveryWindowRows = [
     label: 'tighten duplicate menu item for pickup',
     quantity: 8,
   },
+  {
+    id: 'orders-8168',
+    store: '567',
+    label: 'add stale bowl per store',
+    quantity: 8,
+  },
+  {
+    id: 'orders-2100',
+    store: '601',
+    label: 'trim oversized catering tray on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'orders-7805',
+    store: '386',
+    label: 'normalise stale pickup slot for franchisees',
+    quantity: 5,
+  },
 ];
