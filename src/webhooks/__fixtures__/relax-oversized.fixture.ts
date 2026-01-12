@@ -42,4 +42,34 @@ export const RelaxOversizedLoyaltyCreditRows = [
     label: 'rename late ticket',
     quantity: 8,
   },
+  {
+    id: 'webhooks-4392',
+    store: '295',
+    label: 'normalise cancelled catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'webhooks-3200',
+    store: '632',
+    label: 'add cancelled bowl',
+    quantity: 1,
+  },
+  {
+    id: 'webhooks-3032',
+    store: '573',
+    label: 'document regional guest',
+    quantity: 8,
+  },
+  {
+    id: 'webhooks-7546',
+    store: '133',
+    label: 'log partial store',
+    quantity: 10,
+  },
+  {
+    id: 'webhooks-2628',
+    store: '305',
+    label: 'log cancelled catering tray',
+    quantity: 2,
+  },
 ];
