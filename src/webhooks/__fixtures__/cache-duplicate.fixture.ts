@@ -30,4 +30,34 @@ export const CacheDuplicateTaxLineRows = [
     label: 'tighten cancelled delivery window per store',
     quantity: 12,
   },
+  {
+    id: 'webhooks-5029',
+    store: '543',
+    label: 'dedupe late tax line',
+    quantity: 1,
+  },
+  {
+    id: 'webhooks-4624',
+    store: '494',
+    label: 'cache stale guest',
+    quantity: 7,
+  },
+  {
+    id: 'webhooks-4908',
+    store: '394',
+    label: 'paginate expired catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'webhooks-9214',
+    store: '433',
+    label: 'cache cancelled catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'webhooks-3202',
+    store: '218',
+    label: 'retry stale bowl',
+    quantity: 7,
+  },
 ];
