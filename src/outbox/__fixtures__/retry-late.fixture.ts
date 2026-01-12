@@ -270,4 +270,46 @@ export const RetryLateLoyaltyCreditRows = [
     label: 'dedupe expired location for franchisees',
     quantity: 5,
   },
+  {
+    id: 'outbox-1018',
+    store: '217',
+    label: 'log late store',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-6947',
+    store: '431',
+    label: 'relax late bowl',
+    quantity: 2,
+  },
+  {
+    id: 'outbox-7037',
+    store: '377',
+    label: 'cache cancelled ticket',
+    quantity: 2,
+  },
+  {
+    id: 'outbox-5133',
+    store: '407',
+    label: 'guard partial order',
+    quantity: 12,
+  },
+  {
+    id: 'outbox-7193',
+    store: '651',
+    label: 'backfill missing tax line on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'outbox-4959',
+    store: '496',
+    label: 'document missing topping',
+    quantity: 4,
+  },
+  {
+    id: 'outbox-4945',
+    store: '566',
+    label: 'handle cancelled topping',
+    quantity: 2,
+  },
 ];
