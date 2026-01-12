@@ -4,3 +4,5 @@
 - validate empty tax line: blocked on store systems.
 - paginate empty location: decided.
 - paginate duplicate store on reorder: open.
+
+- expose missing store at close: verified in staging.

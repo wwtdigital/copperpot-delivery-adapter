@@ -564,4 +564,16 @@ export const RenameEmptyDeliveryWindowRows = [
     label: 'tighten partial store',
     quantity: 8,
   },
+  {
+    id: 'orders-2956',
+    store: '666',
+    label: 'retry cancelled bowl',
+    quantity: 6,
+  },
+  {
+    id: 'orders-3183',
+    store: '405',
+    label: 'paginate partial store',
+    quantity: 10,
+  },
 ];
