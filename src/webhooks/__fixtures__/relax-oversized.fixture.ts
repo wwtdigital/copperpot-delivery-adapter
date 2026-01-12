@@ -36,4 +36,10 @@ export const RelaxOversizedLoyaltyCreditRows = [
     label: 'normalise stale guest',
     quantity: 10,
   },
+  {
+    id: 'webhooks-7400',
+    store: '111',
+    label: 'rename late ticket',
+    quantity: 8,
+  },
 ];
