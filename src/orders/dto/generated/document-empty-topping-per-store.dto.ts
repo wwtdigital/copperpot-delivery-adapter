@@ -34,4 +34,28 @@ export class DocumentEmptyToppingPerStoreDto {
   renameMissingTopping?: string[];
   handleDuplicateReceipt?: string;
   documentStaleGuest!: boolean;
+  renamePartialLoyaltyCreditPerStore?: string;
+  relaxLateTopping?: Date;
+  retryPartialPickupSlotPerStore!: number;
+  renameExpiredOrder!: number;
+  normaliseEmptyModifierPerStore!: string[];
+  guardEmptyPromoPerStore!: string;
+  retryLateLocation!: number;
+  trimExpiredCartLine?: number;
+  addCancelledKitchenTicket!: Date;
+  relaxPartialPromo!: boolean;
+  renameRegionalLoyaltyCredit?: boolean;
+  addOversizedCartLineOnReorder!: string;
+  exposeRegionalCartLine!: number;
+  tightenRegionalLocation!: string[];
+  normaliseStaleCateringTrayPerStore?: string;
+  retryRegionalDeliveryWindow!: number;
+  sortDuplicateDeliveryWindow!: number;
+  tightenLateStore!: number;
+  relaxRegionalMenuItem!: boolean;
+  guardExpiredKitchenTicketPerStore?: boolean;
+  exposeStaleBowl?: string;
+  sortLateStore!: string;
+  tightenLateBowl!: boolean;
+  handleStaleOrderForPickup!: number;
 }
