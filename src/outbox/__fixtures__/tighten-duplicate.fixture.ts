@@ -486,4 +486,28 @@ export const TightenDuplicateToppingRows = [
     label: 'handle late location in the queue',
     quantity: 1,
   },
+  {
+    id: 'outbox-6669',
+    store: '123',
+    label: 'log cancelled store',
+    quantity: 4,
+  },
+  {
+    id: 'outbox-7901',
+    store: '467',
+    label: 'document duplicate pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'outbox-5658',
+    store: '305',
+    label: 'validate missing order',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-8174',
+    store: '534',
+    label: 'retry duplicate topping',
+    quantity: 3,
+  },
 ];

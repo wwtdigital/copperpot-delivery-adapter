@@ -46,4 +46,6 @@ export class DedupeExpiredTicketOnCheckoutDto {
   guardDuplicateTaxLine?: string[];
   sortExpiredBowl?: Date;
   trimExpiredLoyaltyCredit!: boolean;
+  logLateToppingInTheQueue!: Date;
+  addPartialCateringTray!: Date;
 }
