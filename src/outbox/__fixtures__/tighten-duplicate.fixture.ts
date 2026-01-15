@@ -468,4 +468,46 @@ export const TightenDuplicateToppingRows = [
     label: 'validate missing menu item',
     quantity: 8,
   },
+  {
+    id: 'outbox-8901',
+    store: '283',
+    label: 'guard partial menu item',
+    quantity: 4,
+  },
+  {
+    id: 'outbox-5989',
+    store: '601',
+    label: 'trim regional location on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'outbox-5938',
+    store: '206',
+    label: 'handle late location in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-6669',
+    store: '123',
+    label: 'log cancelled store',
+    quantity: 4,
+  },
+  {
+    id: 'outbox-7901',
+    store: '467',
+    label: 'document duplicate pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'outbox-5658',
+    store: '305',
+    label: 'validate missing order',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-8174',
+    store: '534',
+    label: 'retry duplicate topping',
+    quantity: 3,
+  },
 ];

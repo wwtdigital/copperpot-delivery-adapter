@@ -312,4 +312,10 @@ export const RetryLateLoyaltyCreditRows = [
     label: 'handle cancelled topping',
     quantity: 2,
   },
+  {
+    id: 'outbox-4381',
+    store: '544',
+    label: 'backfill stale cart line at close',
+    quantity: 1,
+  },
 ];
