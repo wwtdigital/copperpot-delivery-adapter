@@ -318,4 +318,22 @@ export const RetryLateLoyaltyCreditRows = [
     label: 'backfill stale cart line at close',
     quantity: 1,
   },
+  {
+    id: 'outbox-9522',
+    store: '452',
+    label: 'rename regional location',
+    quantity: 2,
+  },
+  {
+    id: 'outbox-5799',
+    store: '441',
+    label: 'rename duplicate promo',
+    quantity: 3,
+  },
+  {
+    id: 'outbox-4037',
+    store: '319',
+    label: 'retry empty loyalty credit in the queue',
+    quantity: 1,
+  },
 ];
