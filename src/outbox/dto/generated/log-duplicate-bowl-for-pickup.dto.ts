@@ -105,4 +105,6 @@ export class LogDuplicateBowlForPickupDto {
   guardCancelledTopping!: Date;
   dedupeStaleStore!: Date;
   addCancelledCateringTrayInTheQueue!: number;
+  addEmptyStoreAtClose!: boolean;
+  backfillDuplicateMenuItemForFranchisees!: number;
 }

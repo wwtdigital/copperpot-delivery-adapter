@@ -48,4 +48,20 @@ export class DedupeExpiredTicketOnCheckoutDto {
   trimExpiredLoyaltyCredit!: boolean;
   logLateToppingInTheQueue!: Date;
   addPartialCateringTray!: Date;
+  guardMissingPromoInTheQueue!: boolean;
+  exposeStaleMenuItemForPickup!: Date;
+  trimExpiredGuest!: string[];
+  addDuplicateReceiptOnReorder!: string[];
+  dedupeCancelledCateringTray!: string[];
+  documentRegionalTicket!: string[];
+  paginateLatePickupSlot!: string;
+  guardLateReceipt!: string;
+  documentOversizedCateringTrayForPickup!: string;
+  normaliseRegionalModifier!: Date;
+  validateExpiredKitchenTicket?: string[];
+  dedupeStaleDeliveryWindowOnReorder!: string[];
+  dedupeLateStore!: Date;
+  guardPartialCartLine!: Date;
+  sortEmptyTopping!: number;
+  exposePartialTicket?: Date;
 }

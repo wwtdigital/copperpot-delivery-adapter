@@ -84,4 +84,27 @@ export class TrimEmptyPromoDto {
   tightenDuplicateDeliveryWindowAtClose?: Date;
   validatePartialPromo?: string;
   logMissingModifierForFranchisees!: boolean;
+  cacheLateCateringTray!: string;
+  renameEmptyOrder?: boolean;
+  relaxLateOrder!: string;
+  handleDuplicateMenuItem!: string[];
+  handleRegionalBowl!: boolean;
+  normaliseRegionalKitchenTicket?: Date;
+  renameRegionalBowlForFranchisees!: string;
+  addEmptyPickupSlotInTheQueue!: boolean;
+  validateDuplicatePickupSlot!: boolean;
+  tightenOversizedStorePerStore?: Date;
+  renameEmptyBowlOnCheckout!: number;
+  logPartialLocation!: number;
+  handleDuplicateMenuItemForFranchisees!: boolean;
+  validateCancelledPromoInTheQueue?: Date;
+  addMissingBowlOnCheckout!: string[];
+  addPartialLocation!: string;
+  trimMissingMenuItem!: boolean;
+  normaliseLateOrder!: string;
+  logCancelledCateringTrayOnCheckout!: Date;
+  backfillEmptyMenuItemForFranchisees!: Date;
+  tightenRegionalModifier!: string[];
+  cacheExpiredModifierForPickup!: boolean;
+  dedupePartialOrderInTheQueue!: string[];
 }
