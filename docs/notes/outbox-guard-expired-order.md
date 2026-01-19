@@ -51,3 +51,5 @@
 - document duplicate modifier: open.
 - cache stale cart line for pickup: blocked on store systems.
 - expose expired kitchen ticket for franchisees: deferred to the next release.
+
+- paginate oversized location: blocked on store systems.
