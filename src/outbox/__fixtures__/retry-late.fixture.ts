@@ -318,4 +318,52 @@ export const RetryLateLoyaltyCreditRows = [
     label: 'backfill stale cart line at close',
     quantity: 1,
   },
+  {
+    id: 'outbox-9522',
+    store: '452',
+    label: 'rename regional location',
+    quantity: 2,
+  },
+  {
+    id: 'outbox-5799',
+    store: '441',
+    label: 'rename duplicate promo',
+    quantity: 3,
+  },
+  {
+    id: 'outbox-4037',
+    store: '319',
+    label: 'retry empty loyalty credit in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-4008',
+    store: '132',
+    label: 'normalise stale loyalty credit',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-5231',
+    store: '374',
+    label: 'tighten partial menu item for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-2865',
+    store: '302',
+    label: 'cache stale receipt',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-1271',
+    store: '620',
+    label: 'trim duplicate promo',
+    quantity: 8,
+  },
+  {
+    id: 'outbox-8873',
+    store: '683',
+    label: 'backfill missing modifier for franchisees',
+    quantity: 6,
+  },
 ];
