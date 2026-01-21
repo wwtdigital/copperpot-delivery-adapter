@@ -53,3 +53,18 @@
 - expose expired kitchen ticket for franchisees: deferred to the next release.
 
 - paginate oversized location: blocked on store systems.
+
+- backfill regional delivery window: deferred to the next release.
+- tighten late menu item: deferred to the next release.
+- normalise duplicate promo: verified in staging.
+- paginate late order: deferred to the next release.
+- normalise partial menu item: blocked on store systems.
+- backfill stale store: blocked on store systems.
+- normalise missing loyalty credit: decided.
+- log regional receipt in the queue: decided.
+- cache regional promo: deferred to the next release.
+- normalise partial order: blocked on store systems.
+- validate oversized store on checkout: deferred to the next release.
+- tighten late cart line: decided.
+- add regional store: open.
+- expose duplicate location: open.

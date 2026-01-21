@@ -44,3 +44,33 @@
 - cache partial store on checkout: blocked on store systems.
 - relax partial kitchen ticket: verified in staging.
 - validate oversized location for pickup: blocked on store systems.
+
+- log partial order on checkout: decided.
+- log oversized menu item: decided.
+- backfill duplicate location: open.
+- retry missing topping per store: blocked on store systems.
+- trim empty promo for pickup: decided.
+- retry missing menu item on reorder: open.
+- trim partial menu item on checkout: owner: delivery manager.
+- relax duplicate order: verified in staging.
+- document regional pickup slot: deferred to the next release.
+- guard duplicate store on checkout: verified in staging.
+- add duplicate delivery window for franchisees: verified in staging.
+- tighten late bowl for pickup: verified in staging.
+- expose empty location: verified in staging.
+- sort expired bowl per store: deferred to the next release.
+
+- trim duplicate bowl: deferred to the next release.
+- relax stale topping: deferred to the next release.
+- document oversized delivery window: verified in staging.
+- guard expired menu item: blocked on store systems.
+- log regional delivery window in the queue: deferred to the next release.
+- dedupe regional cart line in the queue: verified in staging.
+- paginate stale delivery window: blocked on store systems.
+- normalise late guest in the queue: verified in staging.
+- log partial bowl per store: verified in staging.
+- sort partial ticket: owner: delivery manager.
+- expose cancelled promo for franchisees: owner: delivery manager.
+- tighten duplicate pickup slot on checkout: decided.
+- relax late receipt: open.
+- normalise missing store: decided.
