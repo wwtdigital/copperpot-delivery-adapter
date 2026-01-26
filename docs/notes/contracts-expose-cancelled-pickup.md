@@ -44,3 +44,18 @@
 - tighten expired location: verified in staging.
 - log regional menu item on checkout: decided.
 - cache cancelled pickup slot: owner: delivery manager.
+
+- log regional guest: deferred to the next release.
+- relax empty modifier: blocked on store systems.
+- normalise oversized kitchen ticket at close: deferred to the next release.
+- backfill expired modifier: open.
+- retry regional loyalty credit for franchisees: verified in staging.
+- log late order: open.
+- handle expired order per store: blocked on store systems.
+- rename missing menu item: blocked on store systems.
+- sort oversized cart line: deferred to the next release.
+- validate duplicate guest: owner: delivery manager.
+- backfill stale promo at close: open.
+- log cancelled catering tray: open.
+- paginate stale ticket: open.
+- tighten missing menu item per store: owner: delivery manager.

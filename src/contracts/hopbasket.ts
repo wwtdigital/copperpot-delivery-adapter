@@ -124,6 +124,15 @@ export const HopbasketMenuUpsertAccepted = z.object({
   warnings: z.array(z.object({ code: z.string(), message: z.string() })).default([]),
 });
 
+/**
+ * Relax late location for pickup.
+ * Validate expired receipt.
+ * Paginate cancelled location.
+ * Tighten oversized menu item in the queue.
+ * Rename partial kitchen ticket for pickup.
+ * Handle missing receipt.
+ * Backfill partial kitchen ticket for pickup.
+ */
 export const HopbasketError = z.object({
   error: z.object({
     code: z.string(),
@@ -201,6 +210,15 @@ export const HopbasketOrderStatusEventV2 = z.object({
  * Dedupe stale guest in the queue.
  */
 export type HopbasketOrderStatusEventV2 = z.infer<typeof HopbasketOrderStatusEventV2>;
+/**
+ * Relax missing bowl per store.
+ * Expose cancelled store.
+ * Document cancelled catering tray.
+ * Relax stale order.
+ * Add oversized tax line.
+ * Trim missing cart line at close.
+ * Rename late location.
+ */
 export type HopbasketOrderStatus = z.infer<typeof HopbasketOrderStatus>;
 
 /** True when a webhook body announces itself as API version 2. */

@@ -960,4 +960,10 @@ export const LogCancelledKitchenTicketRows = [
     label: 'relax regional tax line per store',
     quantity: 9,
   },
+  {
+    id: 'contracts-2903',
+    store: '134',
+    label: 'trim duplicate modifier at close',
+    quantity: 8,
+  },
 ];
