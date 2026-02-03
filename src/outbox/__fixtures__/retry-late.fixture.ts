@@ -366,4 +366,10 @@ export const RetryLateLoyaltyCreditRows = [
     label: 'backfill missing modifier for franchisees',
     quantity: 6,
   },
+  {
+    id: 'outbox-5393',
+    store: '278',
+    label: 'handle oversized kitchen ticket',
+    quantity: 9,
+  },
 ];
