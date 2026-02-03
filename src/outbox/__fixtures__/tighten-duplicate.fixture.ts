@@ -630,4 +630,52 @@ export const TightenDuplicateToppingRows = [
     label: 'handle oversized guest',
     quantity: 10,
   },
+  {
+    id: 'outbox-3988',
+    store: '461',
+    label: 'retry cancelled loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'outbox-1569',
+    store: '663',
+    label: 'tighten missing menu item',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-3136',
+    store: '363',
+    label: 'normalise missing loyalty credit',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-7813',
+    store: '680',
+    label: 'normalise oversized store per store',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-5541',
+    store: '246',
+    label: 'validate late ticket',
+    quantity: 9,
+  },
+  {
+    id: 'outbox-4179',
+    store: '581',
+    label: 'trim expired kitchen ticket for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'outbox-9066',
+    store: '334',
+    label: 'paginate oversized delivery window on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-7249',
+    store: '532',
+    label: 'guard stale pickup slot',
+    quantity: 7,
+  },
 ];
