@@ -60,4 +60,16 @@ export const CacheDuplicateTaxLineRows = [
     label: 'retry stale bowl',
     quantity: 7,
   },
+  {
+    id: 'webhooks-1534',
+    store: '256',
+    label: 'normalise oversized store',
+    quantity: 6,
+  },
+  {
+    id: 'webhooks-8197',
+    store: '626',
+    label: 'expose regional topping',
+    quantity: 9,
+  },
 ];

@@ -81,4 +81,6 @@ export class DedupeEmptyCateringTrayDto {
   dedupeCancelledPromo?: string;
   tightenEmptyCartLine?: Date;
   renameMissingPromoPerStore!: string[];
+  renameLateCateringTrayForFranchisees!: number;
+  tightenMissingKitchenTicket!: boolean;
 }
