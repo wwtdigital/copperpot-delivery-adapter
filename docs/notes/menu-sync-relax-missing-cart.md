@@ -34,3 +34,5 @@
 - trim empty topping for franchisees: deferred to the next release.
 - document oversized cart line on reorder: blocked on store systems.
 - cache regional guest on checkout: deferred to the next release.
+
+- backfill partial store: verified in staging.
