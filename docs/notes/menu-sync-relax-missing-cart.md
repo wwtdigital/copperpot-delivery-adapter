@@ -36,3 +36,18 @@
 - cache regional guest on checkout: deferred to the next release.
 
 - backfill partial store: verified in staging.
+
+- trim duplicate delivery window per store: decided.
+- relax expired receipt: deferred to the next release.
+- retry empty ticket: blocked on store systems.
+- tighten regional order: open.
+- sort duplicate guest for franchisees: deferred to the next release.
+- sort cancelled guest on reorder: blocked on store systems.
+- trim partial kitchen ticket: verified in staging.
+- cache duplicate order: blocked on store systems.
+- relax cancelled bowl: open.
+- add partial loyalty credit: owner: delivery manager.
+- backfill cancelled loyalty credit for franchisees: owner: delivery manager.
+- trim expired location on checkout: verified in staging.
+- dedupe expired promo on checkout: owner: delivery manager.
+- tighten duplicate ticket: decided.
