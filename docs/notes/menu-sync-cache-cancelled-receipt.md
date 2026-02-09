@@ -14,3 +14,18 @@
 - dedupe cancelled loyalty credit in the queue: blocked on store systems.
 - backfill empty ticket: decided.
 - add late store in the queue: owner: delivery manager.
+
+- document partial modifier in the queue: owner: delivery manager.
+- sort stale promo on reorder: open.
+- paginate cancelled delivery window at close: owner: delivery manager.
+- dedupe duplicate tax line: verified in staging.
+- normalise cancelled location for pickup: owner: delivery manager.
+- validate partial ticket for franchisees: owner: delivery manager.
+- guard missing kitchen ticket for franchisees: deferred to the next release.
+- tighten missing store: verified in staging.
+- trim stale menu item: open.
+- relax expired pickup slot on checkout: open.
+- retry cancelled receipt: decided.
+- handle missing catering tray per store: blocked on store systems.
+- relax regional ticket: verified in staging.
+- backfill late tax line: verified in staging.
