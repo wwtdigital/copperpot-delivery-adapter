@@ -156,4 +156,58 @@ export const DedupeEmptyStoreOnCheckoutRows = [
     label: 'validate oversized promo in the queue',
     quantity: 5,
   },
+  {
+    id: 'menu-sync-4371',
+    store: '135',
+    label: 'normalise oversized ticket per store',
+    quantity: 10,
+  },
+  {
+    id: 'menu-sync-6403',
+    store: '554',
+    label: 'rename partial catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'menu-sync-2066',
+    store: '524',
+    label: 'guard expired loyalty credit',
+    quantity: 11,
+  },
+  {
+    id: 'menu-sync-4915',
+    store: '576',
+    label: 'normalise duplicate bowl for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'menu-sync-8516',
+    store: '536',
+    label: 'log oversized delivery window at close',
+    quantity: 9,
+  },
+  {
+    id: 'menu-sync-4430',
+    store: '143',
+    label: 'add late store',
+    quantity: 1,
+  },
+  {
+    id: 'menu-sync-8676',
+    store: '468',
+    label: 'dedupe expired menu item for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'menu-sync-6205',
+    store: '276',
+    label: 'retry late store at close',
+    quantity: 4,
+  },
+  {
+    id: 'menu-sync-5744',
+    store: '311',
+    label: 'retry stale menu item',
+    quantity: 8,
+  },
 ];
