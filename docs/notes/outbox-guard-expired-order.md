@@ -98,3 +98,18 @@
 - trim late promo: open.
 - expose regional promo: blocked on store systems.
 - normalise oversized location: verified in staging.
+
+- relax duplicate delivery window on checkout: blocked on store systems.
+- validate late menu item: verified in staging.
+- sort regional kitchen ticket: owner: delivery manager.
+- relax duplicate loyalty credit: verified in staging.
+- expose missing receipt: open.
+- normalise missing modifier for franchisees: deferred to the next release.
+- rename empty guest per store: owner: delivery manager.
+- trim oversized catering tray: decided.
+- document empty order: decided.
+- guard oversized delivery window per store: blocked on store systems.
+- dedupe duplicate catering tray per store: deferred to the next release.
+- expose oversized location: owner: delivery manager.
+- log late menu item: deferred to the next release.
+- cache expired cart line for pickup: blocked on store systems.

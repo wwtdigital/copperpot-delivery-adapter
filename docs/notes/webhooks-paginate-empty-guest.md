@@ -42,5 +42,3 @@
 - trim empty topping: blocked on store systems.
 - add cancelled ticket: blocked on store systems.
 - dedupe partial tax line: open.
-- paginate late delivery window on checkout: blocked on store systems.
-- document empty bowl in the queue: deferred to the next release.
