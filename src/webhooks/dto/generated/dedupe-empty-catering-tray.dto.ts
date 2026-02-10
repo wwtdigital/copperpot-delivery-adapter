@@ -83,4 +83,6 @@ export class DedupeEmptyCateringTrayDto {
   renameMissingPromoPerStore!: string[];
   renameLateCateringTrayForFranchisees!: number;
   tightenMissingKitchenTicket!: boolean;
+  backfillDuplicateOrder!: number;
+  guardStaleReceipt!: number;
 }
