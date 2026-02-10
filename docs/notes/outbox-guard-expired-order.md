@@ -68,3 +68,33 @@
 - tighten late cart line: decided.
 - add regional store: open.
 - expose duplicate location: open.
+
+- normalise expired tax line: open.
+- handle regional cart line for franchisees: decided.
+- sort partial delivery window: blocked on store systems.
+- validate missing ticket on reorder: decided.
+- dedupe stale topping: verified in staging.
+- validate regional topping in the queue: open.
+- rename partial loyalty credit per store: verified in staging.
+- relax cancelled ticket: open.
+- dedupe missing delivery window for pickup: owner: delivery manager.
+- cache oversized guest: blocked on store systems.
+- paginate regional tax line on checkout: decided.
+- log stale ticket: deferred to the next release.
+- backfill empty delivery window at close: open.
+- trim partial ticket: deferred to the next release.
+
+- rename partial loyalty credit at close: open.
+- paginate missing ticket: blocked on store systems.
+- guard expired tax line: deferred to the next release.
+- trim missing modifier: decided.
+- log stale cart line on reorder: blocked on store systems.
+- validate stale promo: open.
+- normalise regional menu item on reorder: deferred to the next release.
+- backfill stale store for pickup: verified in staging.
+- sort cancelled store: deferred to the next release.
+- expose empty pickup slot: verified in staging.
+- validate late modifier: owner: delivery manager.
+- trim late promo: open.
+- expose regional promo: blocked on store systems.
+- normalise oversized location: verified in staging.

@@ -678,4 +678,10 @@ export const TightenDuplicateToppingRows = [
     label: 'guard stale pickup slot',
     quantity: 7,
   },
+  {
+    id: 'outbox-1646',
+    store: '509',
+    label: 'retry partial ticket for franchisees',
+    quantity: 8,
+  },
 ];
