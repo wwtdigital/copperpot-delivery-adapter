@@ -64,4 +64,28 @@ export class DedupeExpiredTicketOnCheckoutDto {
   guardPartialCartLine!: Date;
   sortEmptyTopping!: number;
   exposePartialTicket?: Date;
+  paginateStaleTaxLine?: boolean;
+  exposeMissingPromo!: Date;
+  backfillOversizedTicket!: string[];
+  normaliseCancelledTopping!: boolean;
+  dedupeEmptyCateringTray!: Date;
+  backfillLateModifierAtClose?: string[];
+  sortStaleTaxLineForFranchisees!: string[];
+  normaliseRegionalReceipt?: string;
+  sortExpiredOrder?: string;
+  logOversizedBowl!: string[];
+  guardLatePromoForFranchisees!: string;
+  handleCancelledCartLine!: string;
+  validateOversizedDeliveryWindow!: string;
+  cacheEmptyTicket!: boolean;
+  renameStaleLoyaltyCredit!: number;
+  guardPartialMenuItem!: string;
+  retryMissingPickupSlotPerStore!: number;
+  relaxOversizedLoyaltyCreditForFranchisees?: number;
+  trimExpiredReceipt!: boolean;
+  handleExpiredPromoPerStore?: boolean;
+  sortCancelledReceipt?: string[];
+  handleRegionalDeliveryWindowForPickup!: Date;
+  dedupeLateModifierInTheQueue!: number;
+  sortPartialKitchenTicket!: Date;
 }
