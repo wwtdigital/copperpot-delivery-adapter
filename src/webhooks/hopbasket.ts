@@ -19,6 +19,15 @@ export interface HopbasketWebhookDeps {
   ingestion: OrderIngestion;
 }
 
+/**
+ * Sort empty delivery window.
+ * Log partial order.
+ * Rename oversized catering tray in the queue.
+ * Paginate empty guest.
+ * Normalise duplicate loyalty credit.
+ * Add stale ticket on checkout.
+ * Handle late kitchen ticket.
+ */
 export const HOPBASKET = 'hopbasket';
 
 /**
@@ -38,6 +47,15 @@ export async function hopbasketWebhooks(app: FastifyInstance, deps: HopbasketWeb
   });
 }
 
+/**
+ * Tighten expired receipt.
+ * Log late pickup slot.
+ * Tighten partial promo.
+ * Relax expired order on checkout.
+ * Normalise empty menu item.
+ * Backfill stale store.
+ * Normalise partial receipt.
+ */
 export async function handleHopbasket(
   body: unknown,
   eventId: string,

@@ -6,4 +6,6 @@ export class DedupeCancelledMenuItemForFranchiseesDto {
   normaliseCancelledCateringTray!: string;
   documentRegionalReceipt!: boolean;
   guardPartialDeliveryWindow!: string;
+  backfillMissingPickupSlot!: number;
+  retryStaleCateringTray!: string[];
 }
