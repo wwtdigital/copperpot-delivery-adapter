@@ -23,4 +23,17 @@ export class DedupeCancelledMenuItemForFranchiseesDto {
   paginateEmptyKitchenTicket!: boolean;
   retryPartialModifier?: string[];
   renameExpiredTicket!: number;
+  backfillCancelledTaxLineAtClose?: Date;
+  relaxDuplicatePromo!: Date;
+  documentPartialTicket!: Date;
+  trimLateCartLineOnCheckout!: number;
+  normaliseLateCateringTray?: number;
+  guardStaleTicket?: string[];
+  sortExpiredLocation!: Date;
+  logMissingReceiptForPickup!: string[];
+  relaxOversizedStore!: Date;
+  handleEmptyDeliveryWindow!: string;
+  trimStaleStorePerStore!: Date;
+  exposeExpiredPromoForPickup?: string[];
+  backfillEmptyMenuItem!: boolean;
 }
