@@ -51,3 +51,16 @@
 - trim expired location on checkout: verified in staging.
 - dedupe expired promo on checkout: owner: delivery manager.
 - tighten duplicate ticket: decided.
+
+- rename expired kitchen ticket for pickup: decided.
+- backfill late tax line: blocked on store systems.
+- add partial order: deferred to the next release.
+- expose stale catering tray: open.
+- handle late guest: deferred to the next release.
+- cache stale cart line: owner: delivery manager.
+- trim missing promo at close: blocked on store systems.
+- validate partial pickup slot: deferred to the next release.
+- trim partial catering tray: blocked on store systems.
+- cache expired promo on checkout: blocked on store systems.
+- document missing loyalty credit: verified in staging.
+- relax stale pickup slot: owner: delivery manager.
