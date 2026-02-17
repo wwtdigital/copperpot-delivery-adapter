@@ -42,3 +42,18 @@
 - trim empty topping: blocked on store systems.
 - add cancelled ticket: blocked on store systems.
 - dedupe partial tax line: open.
+
+- paginate partial guest: owner: delivery manager.
+- paginate missing menu item on reorder: deferred to the next release.
+- dedupe missing catering tray: deferred to the next release.
+- validate partial bowl: decided.
+- retry partial promo in the queue: blocked on store systems.
+- validate expired catering tray: deferred to the next release.
+- trim stale bowl for franchisees: open.
+- tighten cancelled pickup slot: open.
+- validate cancelled cart line: open.
+- normalise cancelled guest in the queue: blocked on store systems.
+- handle expired guest for pickup: open.
+- tighten stale order: open.
+- normalise expired topping in the queue: decided.
+- cache duplicate delivery window for franchisees: decided.

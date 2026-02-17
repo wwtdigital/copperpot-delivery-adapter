@@ -173,3 +173,5 @@
 - relax empty modifier at close: verified in staging.
 - guard late promo on reorder: blocked on store systems.
 - tighten oversized kitchen ticket: owner: delivery manager.
+
+- backfill late ticket: verified in staging.

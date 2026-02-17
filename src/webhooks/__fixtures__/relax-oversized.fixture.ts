@@ -162,4 +162,34 @@ export const RelaxOversizedLoyaltyCreditRows = [
     label: 'rename cancelled ticket',
     quantity: 1,
   },
+  {
+    id: 'webhooks-2521',
+    store: '659',
+    label: 'relax late receipt',
+    quantity: 3,
+  },
+  {
+    id: 'webhooks-8587',
+    store: '254',
+    label: 'normalise missing catering tray',
+    quantity: 9,
+  },
+  {
+    id: 'webhooks-9865',
+    store: '440',
+    label: 'guard expired modifier',
+    quantity: 8,
+  },
+  {
+    id: 'webhooks-2284',
+    store: '438',
+    label: 'dedupe empty cart line',
+    quantity: 7,
+  },
+  {
+    id: 'webhooks-5153',
+    store: '621',
+    label: 'paginate empty pickup slot',
+    quantity: 4,
+  },
 ];
