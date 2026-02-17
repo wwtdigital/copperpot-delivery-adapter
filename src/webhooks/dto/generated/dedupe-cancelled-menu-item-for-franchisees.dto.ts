@@ -36,4 +36,20 @@ export class DedupeCancelledMenuItemForFranchiseesDto {
   trimStaleStorePerStore!: Date;
   exposeExpiredPromoForPickup?: string[];
   backfillEmptyMenuItem!: boolean;
+  normalisePartialPickupSlotForFranchisees!: Date;
+  handleExpiredDeliveryWindowInTheQueue!: string[];
+  logOversizedBowlForFranchisees!: string[];
+  retryLatePickupSlotOnCheckout?: number;
+  tightenOversizedPromoForFranchisees?: string[];
+  renameDuplicateCartLine?: string;
+  sortExpiredModifier!: string;
+  retryLateKitchenTicket?: number;
+  cacheLateTicketPerStore!: Date;
+  documentExpiredTicketOnCheckout!: string[];
+  documentLateGuestPerStore!: string[];
+  trimMissingKitchenTicket?: Date;
+  addEmptyReceipt!: string;
+  guardRegionalOrder!: Date;
+  renameRegionalToppingOnCheckout!: Date;
+  tightenStaleOrder!: number;
 }

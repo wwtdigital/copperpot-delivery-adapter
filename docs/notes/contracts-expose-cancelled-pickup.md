@@ -56,6 +56,3 @@
 - sort oversized cart line: deferred to the next release.
 - validate duplicate guest: owner: delivery manager.
 - backfill stale promo at close: open.
-- log cancelled catering tray: open.
-- paginate stale ticket: open.
-- tighten missing menu item per store: owner: delivery manager.
