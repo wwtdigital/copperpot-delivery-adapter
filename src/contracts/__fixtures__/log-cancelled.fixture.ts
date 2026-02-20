@@ -1146,4 +1146,16 @@ export const LogCancelledKitchenTicketRows = [
     label: 'handle empty menu item',
     quantity: 11,
   },
+  {
+    id: 'contracts-7074',
+    store: '272',
+    label: 'sort missing store per store',
+    quantity: 1,
+  },
+  {
+    id: 'contracts-2346',
+    store: '563',
+    label: 'trim duplicate menu item',
+    quantity: 5,
+  },
 ];

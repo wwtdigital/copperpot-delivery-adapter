@@ -6,4 +6,10 @@ export const RelaxEmptyGuestRows = [
     label: 'dedupe late ticket',
     quantity: 12,
   },
+  {
+    id: 'contracts-9614',
+    store: '474',
+    label: 'document cancelled menu item on checkout',
+    quantity: 3,
+  },
 ];
