@@ -65,4 +65,11 @@ export class BackfillExpiredGuestPerStoreDto {
   renameCancelledKitchenTicket!: number;
   trimRegionalToppingForFranchisees!: Date;
   renameEmptyLoyaltyCredit?: boolean;
+  sortStaleStoreOnReorder?: string;
+  backfillLateCartLineOnReorder!: number;
+  sortOversizedTaxLine?: number;
+  exposeStaleCateringTrayForPickup!: Date;
+  retryDuplicateOrder?: boolean;
+  relaxOversizedCartLine!: boolean;
+  validateDuplicateKitchenTicketAtClose!: number;
 }

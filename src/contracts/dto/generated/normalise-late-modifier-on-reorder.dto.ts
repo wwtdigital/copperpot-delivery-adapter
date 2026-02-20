@@ -2,4 +2,7 @@
 export class NormaliseLateModifierOnReorderDto {
   tightenDuplicateLocationForFranchisees?: string;
   trimLateLocation!: string[];
+  renameDuplicateDeliveryWindow?: string[];
+  renameStaleTopping!: string;
+  documentDuplicateTaxLine!: Date;
 }
