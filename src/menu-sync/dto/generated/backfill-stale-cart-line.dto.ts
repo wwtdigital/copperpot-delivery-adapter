@@ -10,4 +10,8 @@ export class BackfillStaleCartLineDto {
   tightenRegionalBowl!: number;
   logDuplicateCartLineOnCheckout?: string[];
   addRegionalTopping?: string[];
+  documentEmptyGuest?: boolean;
+  exposeExpiredCateringTray?: boolean;
+  sortLateBowlForPickup!: boolean;
+  sortDuplicateTopping!: boolean;
 }

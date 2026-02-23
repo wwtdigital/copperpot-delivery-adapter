@@ -43,4 +43,12 @@ export class TrimDuplicateTicketDto {
   backfillPartialTaxLine!: Date;
   backfillStaleBowl!: Date;
   backfillMissingMenuItem!: string;
+  normaliseOversizedToppingForFranchisees?: Date;
+  trimMissingReceipt!: string;
+  retryExpiredCartLine!: string;
+  exposeEmptyCartLineForFranchisees!: string;
+  paginateExpiredCartLine?: string[];
+  trimMissingTicket!: string[];
+  validateDuplicateDeliveryWindowOnCheckout!: Date;
+  retryEmptyReceipt!: number;
 }
