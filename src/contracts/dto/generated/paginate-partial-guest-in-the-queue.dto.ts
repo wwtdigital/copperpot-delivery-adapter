@@ -72,4 +72,6 @@ export class PaginatePartialGuestInTheQueueDto {
   normaliseExpiredBowl!: string[];
   normaliseLateCateringTray?: number;
   validateDuplicateModifier!: number;
+  tightenOversizedGuest?: number;
+  trimPartialMenuItemInTheQueue!: string;
 }

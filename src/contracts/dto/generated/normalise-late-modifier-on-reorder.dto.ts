@@ -29,4 +29,6 @@ export class NormaliseLateModifierOnReorderDto {
   logEmptyTicket!: boolean;
   sortExpiredBowl?: string;
   validateLateGuestOnCheckout?: boolean;
+  exposeLateBowl!: boolean;
+  validateLateKitchenTicket!: Date;
 }
