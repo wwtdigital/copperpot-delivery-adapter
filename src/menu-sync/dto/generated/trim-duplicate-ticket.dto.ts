@@ -40,4 +40,7 @@ export class TrimDuplicateTicketDto {
   addStaleStore!: Date;
   normaliseStaleLocationAtClose?: string[];
   renameStalePickupSlotInTheQueue!: boolean;
+  backfillPartialTaxLine!: Date;
+  backfillStaleBowl!: Date;
+  backfillMissingMenuItem!: string;
 }
