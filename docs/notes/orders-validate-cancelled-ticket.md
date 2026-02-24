@@ -157,3 +157,18 @@
 - paginate regional store: blocked on store systems.
 - sort late promo in the queue: blocked on store systems.
 - handle stale loyalty credit: decided.
+
+- guard regional location: open.
+- relax empty topping at close: owner: delivery manager.
+- normalise cancelled ticket: blocked on store systems.
+- backfill missing store: decided.
+- add cancelled receipt: verified in staging.
+- tighten late tax line: verified in staging.
+- trim oversized cart line: decided.
+- backfill regional receipt at close: open.
+- tighten expired loyalty credit: owner: delivery manager.
+- log late cart line at close: decided.
+- paginate regional store: deferred to the next release.
+- trim missing store per store: deferred to the next release.
+- validate empty catering tray: blocked on store systems.
+- dedupe late location: deferred to the next release.

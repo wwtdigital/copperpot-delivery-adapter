@@ -86,3 +86,18 @@
 - guard empty loyalty credit for franchisees: open.
 - validate regional location: verified in staging.
 - handle duplicate bowl: verified in staging.
+
+- add oversized loyalty credit for franchisees: open.
+- log regional ticket: verified in staging.
+- cache empty modifier: verified in staging.
+- add expired guest: open.
+- tighten oversized guest in the queue: deferred to the next release.
+- backfill oversized guest: deferred to the next release.
+- add cancelled order on reorder: open.
+- relax partial receipt: deferred to the next release.
+- retry empty modifier in the queue: decided.
+- rename stale location per store: blocked on store systems.
+- retry late tax line on reorder: blocked on store systems.
+- document expired order: verified in staging.
+- add partial promo: owner: delivery manager.
+- normalise regional pickup slot: verified in staging.
