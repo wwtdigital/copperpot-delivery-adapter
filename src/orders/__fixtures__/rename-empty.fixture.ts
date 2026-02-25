@@ -582,4 +582,10 @@ export const RenameEmptyDeliveryWindowRows = [
     label: 'add late cart line for pickup',
     quantity: 4,
   },
+  {
+    id: 'orders-6814',
+    store: '517',
+    label: 'relax regional kitchen ticket at close',
+    quantity: 11,
+  },
 ];

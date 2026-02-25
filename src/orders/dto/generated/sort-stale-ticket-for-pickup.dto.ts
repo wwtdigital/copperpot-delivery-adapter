@@ -21,4 +21,6 @@ export class SortStaleTicketForPickupDto {
   tightenLatePromoOnReorder!: string;
   addCancelledCartLine!: string;
   dedupeStaleCateringTray?: string;
+  documentMissingBowl?: number;
+  tightenOversizedMenuItem?: string[];
 }
