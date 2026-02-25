@@ -21,3 +21,17 @@
 - expose expired location on checkout: open.
 - tighten regional delivery window for franchisees: blocked on store systems.
 - retry regional receipt: deferred to the next release.
+
+- log stale catering tray on reorder: owner: delivery manager.
+- relax empty bowl: decided.
+- expose stale guest for franchisees: owner: delivery manager.
+- handle cancelled receipt: verified in staging.
+- cache regional ticket: owner: delivery manager.
+- guard late kitchen ticket: decided.
+- paginate cancelled bowl: decided.
+- expose partial location per store: open.
+- paginate missing kitchen ticket on checkout: deferred to the next release.
+- normalise regional loyalty credit: decided.
+- trim late catering tray: decided.
+- paginate stale order: owner: delivery manager.
+- document empty promo on reorder: deferred to the next release.
