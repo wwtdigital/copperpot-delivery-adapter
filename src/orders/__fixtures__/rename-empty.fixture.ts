@@ -576,4 +576,10 @@ export const RenameEmptyDeliveryWindowRows = [
     label: 'paginate partial store',
     quantity: 10,
   },
+  {
+    id: 'orders-6604',
+    store: '251',
+    label: 'add late cart line for pickup',
+    quantity: 4,
+  },
 ];
