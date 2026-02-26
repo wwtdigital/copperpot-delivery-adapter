@@ -14,4 +14,11 @@ export class BackfillStaleCartLineDto {
   exposeExpiredCateringTray?: boolean;
   sortLateBowlForPickup!: boolean;
   sortDuplicateTopping!: boolean;
+  guardExpiredModifier!: number;
+  documentOversizedModifierOnCheckout?: string;
+  trimStaleCateringTrayOnReorder!: boolean;
+  trimExpiredBowl!: Date;
+  cacheExpiredTicket?: boolean;
+  validateLateGuest!: number;
+  documentLateDeliveryWindowAtClose!: Date;
 }
