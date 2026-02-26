@@ -72,4 +72,28 @@ export class PaginatePartialGuestInTheQueueDto {
   normaliseExpiredBowl!: string[];
   normaliseLateCateringTray?: number;
   validateDuplicateModifier!: number;
+  tightenOversizedGuest?: number;
+  trimPartialMenuItemInTheQueue!: string;
+  dedupeDuplicateTopping!: boolean;
+  logLateCartLine?: string[];
+  guardStaleModifier!: boolean;
+  handlePartialStore!: Date;
+  sortCancelledPromoOnCheckout!: Date;
+  retryPartialTaxLineOnCheckout?: boolean;
+  tightenPartialCartLine!: boolean;
+  cacheLateTopping!: boolean;
+  documentDuplicateDeliveryWindow!: number;
+  tightenLateTicketOnCheckout!: Date;
+  exposeOversizedPromoOnReorder!: string;
+  backfillRegionalLoyaltyCreditInTheQueue?: Date;
+  renameDuplicateLocation?: string[];
+  relaxCancelledBowlOnReorder!: boolean;
+  documentPartialGuestAtClose!: string[];
+  trimEmptyCateringTrayPerStore!: Date;
+  retryMissingCateringTrayInTheQueue!: string;
+  backfillDuplicateCartLine!: number;
+  dedupeMissingDeliveryWindowInTheQueue!: boolean;
+  trimRegionalReceipt?: string;
+  documentCancelledGuestAtClose!: Date;
+  guardCancelledTaxLineOnReorder!: Date;
 }
