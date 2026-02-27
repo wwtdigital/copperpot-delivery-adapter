@@ -15,4 +15,10 @@ export class AddStaleTaxLineAtCloseDto {
   paginateCancelledModifierOnCheckout!: Date;
   backfillEmptyPickupSlot?: string[];
   relaxExpiredBowl?: Date;
+  handleLateMenuItem!: number;
+  exposeDuplicateKitchenTicketAtClose?: Date;
+  tightenCancelledCateringTrayAtClose!: boolean;
+  relaxEmptyCartLine!: string;
+  paginateStaleModifier!: boolean;
+  handleStaleTicketPerStore?: Date;
 }

@@ -54,4 +54,10 @@ export const DedupeOversizedKitchenTicketRows = [
     label: 'dedupe missing topping on checkout',
     quantity: 6,
   },
+  {
+    id: 'menu-sync-1840',
+    store: '376',
+    label: 'dedupe expired bowl',
+    quantity: 12,
+  },
 ];

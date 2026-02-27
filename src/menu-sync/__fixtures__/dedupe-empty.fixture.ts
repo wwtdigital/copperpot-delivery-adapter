@@ -276,4 +276,10 @@ export const DedupeEmptyStoreOnCheckoutRows = [
     label: 'guard oversized catering tray on checkout',
     quantity: 7,
   },
+  {
+    id: 'menu-sync-3687',
+    store: '335',
+    label: 'sort stale pickup slot',
+    quantity: 11,
+  },
 ];
