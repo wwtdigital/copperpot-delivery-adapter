@@ -88,4 +88,17 @@ export class DedupeExpiredTicketOnCheckoutDto {
   handleRegionalDeliveryWindowForPickup!: Date;
   dedupeLateModifierInTheQueue!: number;
   sortPartialKitchenTicket!: Date;
+  trimEmptyStore!: Date;
+  documentLateMenuItemPerStore!: Date;
+  relaxDuplicatePromo?: Date;
+  tightenEmptyGuestInTheQueue!: string[];
+  normaliseEmptyOrderPerStore?: boolean;
+  trimRegionalDeliveryWindowForPickup!: Date;
+  retryStalePromo?: number;
+  addEmptyReceipt!: boolean;
+  handleLateTopping?: Date;
+  documentPartialStore!: Date;
+  addDuplicateStoreForPickup!: Date;
+  backfillEmptyMenuItemAtClose!: Date;
+  handlePartialLoyaltyCreditPerStore!: Date;
 }

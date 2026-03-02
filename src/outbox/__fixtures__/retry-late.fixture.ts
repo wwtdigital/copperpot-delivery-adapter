@@ -498,4 +498,16 @@ export const RetryLateLoyaltyCreditRows = [
     label: 'document expired tax line',
     quantity: 9,
   },
+  {
+    id: 'outbox-3499',
+    store: '680',
+    label: 'guard late pickup slot',
+    quantity: 10,
+  },
+  {
+    id: 'outbox-5074',
+    store: '674',
+    label: 'sort regional kitchen ticket',
+    quantity: 5,
+  },
 ];
