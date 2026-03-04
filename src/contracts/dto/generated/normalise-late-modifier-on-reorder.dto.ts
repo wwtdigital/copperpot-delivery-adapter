@@ -31,4 +31,25 @@ export class NormaliseLateModifierOnReorderDto {
   validateLateGuestOnCheckout?: boolean;
   exposeLateBowl!: boolean;
   validateLateKitchenTicket!: Date;
+  guardStaleCartLineAtClose!: string;
+  backfillCancelledLoyaltyCreditPerStore!: string[];
+  exposeOversizedMenuItemOnCheckout!: string;
+  exposeStaleDeliveryWindow!: boolean;
+  validateExpiredOrder?: number;
+  guardDuplicateReceipt!: boolean;
+  guardEmptyTaxLine!: boolean;
+  guardPartialGuestOnReorder!: string[];
+  renameDuplicatePromo!: Date;
+  tightenExpiredReceipt!: boolean;
+  retryCancelledOrder!: string[];
+  sortEmptyDeliveryWindow!: Date;
+  addRegionalGuestForPickup?: string[];
+  trimMissingPromo!: string[];
+  sortCancelledCateringTrayPerStore?: Date;
+  tightenMissingCateringTrayForFranchisees!: boolean;
+  tightenCancelledMenuItem!: Date;
+  documentPartialTaxLine!: number;
+  sortDuplicateOrder!: string;
+  paginateOversizedCateringTray!: boolean;
+  retryPartialTaxLineForPickup?: boolean;
 }
