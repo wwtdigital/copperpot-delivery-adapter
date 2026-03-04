@@ -101,4 +101,23 @@ export class DedupeExpiredTicketOnCheckoutDto {
   addDuplicateStoreForPickup!: Date;
   backfillEmptyMenuItemAtClose!: Date;
   handlePartialLoyaltyCreditPerStore!: Date;
+  cacheStaleTaxLine!: string[];
+  cacheOversizedModifier?: string;
+  exposeExpiredMenuItem!: number;
+  paginateEmptyDeliveryWindowInTheQueue!: string;
+  relaxPartialReceiptForPickup!: Date;
+  validateExpiredLocation?: number;
+  paginateRegionalReceipt!: string;
+  addDuplicateLoyaltyCreditOnCheckout?: boolean;
+  renameOversizedLocationPerStore!: string[];
+  tightenCancelledLoyaltyCreditPerStore!: boolean;
+  paginateLatePromoAtClose!: boolean;
+  retryOversizedMenuItem!: string[];
+  tightenOversizedTicket!: boolean;
+  backfillMissingPromo!: string[];
+  addCancelledMenuItemInTheQueue!: boolean;
+  renameRegionalStore!: boolean;
+  sortEmptyPromo!: string[];
+  documentDuplicateBowlForFranchisees?: string;
+  normaliseOversizedTicketPerStore!: number;
 }
