@@ -846,4 +846,10 @@ export const TightenDuplicateToppingRows = [
     label: 'paginate late pickup slot per store',
     quantity: 5,
   },
+  {
+    id: 'outbox-6296',
+    store: '319',
+    label: 'handle cancelled catering tray per store',
+    quantity: 10,
+  },
 ];
