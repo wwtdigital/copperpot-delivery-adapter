@@ -588,4 +588,10 @@ export const RenameEmptyDeliveryWindowRows = [
     label: 'relax regional kitchen ticket at close',
     quantity: 11,
   },
+  {
+    id: 'orders-3941',
+    store: '585',
+    label: 'paginate regional topping on checkout',
+    quantity: 7,
+  },
 ];
