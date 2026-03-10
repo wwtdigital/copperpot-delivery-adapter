@@ -282,4 +282,34 @@ export const DedupeEmptyStoreOnCheckoutRows = [
     label: 'sort stale pickup slot',
     quantity: 11,
   },
+  {
+    id: 'menu-sync-9199',
+    store: '538',
+    label: 'log expired receipt in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'menu-sync-4776',
+    store: '281',
+    label: 'validate empty pickup slot',
+    quantity: 11,
+  },
+  {
+    id: 'menu-sync-6821',
+    store: '486',
+    label: 'backfill late bowl in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'menu-sync-1511',
+    store: '499',
+    label: 'add regional store',
+    quantity: 8,
+  },
+  {
+    id: 'menu-sync-8732',
+    store: '363',
+    label: 'validate empty modifier',
+    quantity: 10,
+  },
 ];
