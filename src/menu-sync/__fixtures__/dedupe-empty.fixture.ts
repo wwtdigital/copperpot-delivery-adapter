@@ -348,4 +348,22 @@ export const DedupeEmptyStoreOnCheckoutRows = [
     label: 'handle duplicate catering tray',
     quantity: 10,
   },
+  {
+    id: 'menu-sync-9575',
+    store: '553',
+    label: 'handle late loyalty credit for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'menu-sync-6251',
+    store: '535',
+    label: 'expose expired pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'menu-sync-6121',
+    store: '696',
+    label: 'rename cancelled bowl',
+    quantity: 5,
+  },
 ];

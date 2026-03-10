@@ -171,4 +171,3 @@
 - paginate regional store: deferred to the next release.
 - trim missing store per store: deferred to the next release.
 - validate empty catering tray: blocked on store systems.
-- dedupe late location: deferred to the next release.
