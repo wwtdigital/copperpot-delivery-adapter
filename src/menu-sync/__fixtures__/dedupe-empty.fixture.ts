@@ -312,4 +312,40 @@ export const DedupeEmptyStoreOnCheckoutRows = [
     label: 'validate empty modifier',
     quantity: 10,
   },
+  {
+    id: 'menu-sync-9654',
+    store: '546',
+    label: 'normalise stale receipt',
+    quantity: 10,
+  },
+  {
+    id: 'menu-sync-1907',
+    store: '107',
+    label: 'cache partial pickup slot',
+    quantity: 10,
+  },
+  {
+    id: 'menu-sync-9946',
+    store: '611',
+    label: 'validate missing guest for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'menu-sync-4624',
+    store: '598',
+    label: 'backfill partial receipt on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'menu-sync-2602',
+    store: '608',
+    label: 'relax cancelled cart line for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'menu-sync-2954',
+    store: '137',
+    label: 'handle duplicate catering tray',
+    quantity: 10,
+  },
 ];
