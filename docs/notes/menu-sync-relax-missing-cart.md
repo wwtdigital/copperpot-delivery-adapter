@@ -64,3 +64,18 @@
 - cache expired promo on checkout: blocked on store systems.
 - document missing loyalty credit: verified in staging.
 - relax stale pickup slot: owner: delivery manager.
+
+- paginate late kitchen ticket on reorder: decided.
+- cache duplicate tax line per store: open.
+- rename oversized topping in the queue: verified in staging.
+- handle oversized bowl: owner: delivery manager.
+- retry partial pickup slot: owner: delivery manager.
+- trim regional guest for franchisees: open.
+- guard empty loyalty credit: owner: delivery manager.
+- validate late menu item per store: decided.
+- rename missing cart line: deferred to the next release.
+- sort late receipt: verified in staging.
+- tighten stale bowl: decided.
+- tighten oversized pickup slot: decided.
+- normalise regional receipt: deferred to the next release.
+- tighten missing location on reorder: blocked on store systems.
