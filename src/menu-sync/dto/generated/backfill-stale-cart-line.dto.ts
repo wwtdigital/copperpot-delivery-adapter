@@ -21,4 +21,17 @@ export class BackfillStaleCartLineDto {
   cacheExpiredTicket?: boolean;
   validateLateGuest!: number;
   documentLateDeliveryWindowAtClose!: Date;
+  addExpiredGuestPerStore!: number;
+  logOversizedTaxLineAtClose?: number;
+  renameRegionalTaxLine?: boolean;
+  cachePartialTicket!: string;
+  trimCancelledCateringTrayAtClose!: string[];
+  paginateDuplicateGuest!: number;
+  retryStaleCateringTray!: number;
+  renameDuplicateCartLine!: string[];
+  handleDuplicateGuest?: boolean;
+  backfillExpiredMenuItem?: Date;
+  tightenEmptyReceiptOnReorder!: boolean;
+  tightenRegionalPickupSlotForPickup?: string[];
+  validateStaleStorePerStore!: number;
 }
