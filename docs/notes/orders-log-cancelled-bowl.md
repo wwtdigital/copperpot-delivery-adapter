@@ -101,3 +101,5 @@
 - document expired order: verified in staging.
 - add partial promo: owner: delivery manager.
 - normalise regional pickup slot: verified in staging.
+
+- trim oversized pickup slot: decided.

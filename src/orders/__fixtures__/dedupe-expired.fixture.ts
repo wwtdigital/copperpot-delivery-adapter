@@ -78,4 +78,40 @@ export const DedupeExpiredTaxLineRows = [
     label: 'retry late receipt for franchisees',
     quantity: 11,
   },
+  {
+    id: 'orders-9294',
+    store: '446',
+    label: 'dedupe partial loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'orders-2943',
+    store: '114',
+    label: 'guard cancelled order per store',
+    quantity: 7,
+  },
+  {
+    id: 'orders-4446',
+    store: '110',
+    label: 'handle cancelled store',
+    quantity: 1,
+  },
+  {
+    id: 'orders-2305',
+    store: '379',
+    label: 'tighten duplicate store',
+    quantity: 11,
+  },
+  {
+    id: 'orders-7367',
+    store: '681',
+    label: 'cache empty location',
+    quantity: 1,
+  },
+  {
+    id: 'orders-2761',
+    store: '663',
+    label: 'document stale guest for franchisees',
+    quantity: 3,
+  },
 ];

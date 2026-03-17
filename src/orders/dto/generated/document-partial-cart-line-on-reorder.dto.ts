@@ -48,4 +48,28 @@ export class DocumentPartialCartLineOnReorderDto {
   cacheCancelledStore?: string[];
   cacheEmptyOrderAtClose!: boolean;
   retryEmptyStore?: boolean;
+  validateMissingCartLine?: Date;
+  handleRegionalGuest!: Date;
+  renameCancelledKitchenTicketAtClose!: boolean;
+  validateLateReceiptForFranchisees?: string[];
+  handleLatePromo!: boolean;
+  paginatePartialLoyaltyCreditForPickup?: Date;
+  relaxPartialTicket!: string;
+  dedupeStaleModifier!: number;
+  normaliseExpiredGuest!: string;
+  backfillCancelledCartLineForFranchisees!: boolean;
+  sortMissingStore!: number;
+  retryDuplicateReceipt!: string[];
+  handlePartialPromoAtClose!: boolean;
+  tightenDuplicateCateringTray?: Date;
+  relaxDuplicateDeliveryWindowOnReorder!: number;
+  cachePartialLocationInTheQueue!: number;
+  tightenExpiredCateringTray!: Date;
+  dedupeOversizedToppingPerStore?: number;
+  exposeExpiredOrder!: number;
+  documentDuplicateTaxLineOnReorder!: number;
+  sortLatePickupSlotAtClose?: boolean;
+  tightenExpiredKitchenTicketOnReorder?: string;
+  exposeDuplicateCateringTray!: number;
+  relaxExpiredLoyaltyCredit!: Date;
 }
