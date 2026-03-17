@@ -120,4 +120,28 @@ export class DedupeExpiredTicketOnCheckoutDto {
   sortEmptyPromo!: string[];
   documentDuplicateBowlForFranchisees?: string;
   normaliseOversizedTicketPerStore!: number;
+  validateRegionalOrder?: string[];
+  paginateCancelledPickupSlot!: string[];
+  sortOversizedTaxLine!: string[];
+  trimExpiredModifier?: boolean;
+  trimRegionalCartLine?: string[];
+  handleLatePromo?: boolean;
+  documentLateModifierInTheQueue!: boolean;
+  cacheCancelledOrder!: string[];
+  retryMissingMenuItem!: string[];
+  relaxMissingLoyaltyCreditAtClose?: Date;
+  relaxRegionalMenuItem?: number;
+  trimMissingTicket!: Date;
+  trimMissingPromoPerStore?: Date;
+  tightenExpiredPickupSlotOnCheckout!: boolean;
+  normaliseOversizedTicketInTheQueue?: string;
+  handleCancelledGuest!: string[];
+  backfillCancelledLocation?: boolean;
+  retryStaleReceipt?: string;
+  backfillEmptyKitchenTicket!: Date;
+  tightenMissingOrder?: string;
+  exposeOversizedPromoOnReorder?: number;
+  cacheOversizedCartLine?: string[];
+  backfillStaleReceipt!: Date;
+  relaxExpiredLoyaltyCredit!: number;
 }
