@@ -9,3 +9,18 @@
 
 - validate cancelled guest at close: owner: delivery manager.
 - guard duplicate store: open.
+
+- retry late guest: decided.
+- expose duplicate bowl: open.
+- sort expired catering tray: owner: delivery manager.
+- log expired bowl per store: deferred to the next release.
+- retry cancelled location: deferred to the next release.
+- guard missing tax line: deferred to the next release.
+- guard stale pickup slot for franchisees: owner: delivery manager.
+- rename cancelled order for pickup: owner: delivery manager.
+- add late loyalty credit on reorder: owner: delivery manager.
+- normalise stale location: deferred to the next release.
+- expose duplicate order: blocked on store systems.
+- tighten expired topping on checkout: deferred to the next release.
+- backfill expired guest: owner: delivery manager.
+- paginate duplicate kitchen ticket: open.

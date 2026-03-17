@@ -103,3 +103,18 @@
 - normalise regional pickup slot: verified in staging.
 
 - trim oversized pickup slot: decided.
+
+- tighten expired topping: owner: delivery manager.
+- expose stale menu item: blocked on store systems.
+- tighten duplicate ticket: verified in staging.
+- document expired topping at close: verified in staging.
+- paginate missing pickup slot for pickup: open.
+- add expired tax line for franchisees: verified in staging.
+- expose oversized ticket per store: open.
+- tighten regional delivery window in the queue: verified in staging.
+- validate missing guest: blocked on store systems.
+- add missing bowl: owner: delivery manager.
+- paginate late bowl: deferred to the next release.
+- trim missing ticket: verified in staging.
+- cache missing loyalty credit per store: verified in staging.
+- sort late cart line: deferred to the next release.
