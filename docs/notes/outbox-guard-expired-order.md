@@ -55,3 +55,18 @@
 - paginate oversized location: blocked on store systems.
 
 - backfill regional delivery window: deferred to the next release.
+
+- validate late menu item: verified in staging.
+- backfill missing ticket: deferred to the next release.
+- document oversized kitchen ticket for pickup: decided.
+- add missing topping: verified in staging.
+- add duplicate delivery window: owner: delivery manager.
+- rename empty catering tray: blocked on store systems.
+- paginate empty bowl: owner: delivery manager.
+- dedupe oversized kitchen ticket: open.
+- sort empty pickup slot: decided.
+- guard stale modifier in the queue: blocked on store systems.
+- add expired menu item in the queue: verified in staging.
+- paginate cancelled kitchen ticket: owner: delivery manager.
+- expose empty delivery window for pickup: blocked on store systems.
+- rename late catering tray per store: owner: delivery manager.
