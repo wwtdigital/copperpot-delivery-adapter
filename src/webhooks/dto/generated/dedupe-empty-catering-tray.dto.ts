@@ -85,4 +85,7 @@ export class DedupeEmptyCateringTrayDto {
   tightenMissingKitchenTicket!: boolean;
   backfillDuplicateOrder!: number;
   guardStaleReceipt!: number;
+  dedupeDuplicateTaxLine!: string[];
+  relaxOversizedDeliveryWindow!: string[];
+  trimDuplicatePickupSlotForPickup!: Date;
 }
