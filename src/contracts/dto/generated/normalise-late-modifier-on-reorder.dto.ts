@@ -52,4 +52,11 @@ export class NormaliseLateModifierOnReorderDto {
   sortDuplicateOrder!: string;
   paginateOversizedCateringTray!: boolean;
   retryPartialTaxLineForPickup?: boolean;
+  addExpiredDeliveryWindow!: string[];
+  renameDuplicateReceiptPerStore!: boolean;
+  retryOversizedTaxLine!: string;
+  normaliseRegionalPickupSlot?: number;
+  cacheOversizedLocationPerStore?: Date;
+  dedupeRegionalPromo!: string[];
+  paginateStaleGuestForPickup!: number;
 }

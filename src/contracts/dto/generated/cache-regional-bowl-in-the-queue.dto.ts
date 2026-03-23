@@ -3,4 +3,7 @@ export class CacheRegionalBowlInTheQueueDto {
   logExpiredLoyaltyCredit?: string;
   validatePartialStore!: boolean;
   dedupeEmptyLoyaltyCreditInTheQueue!: Date;
+  sortMissingReceiptOnReorder!: string;
+  sortLateModifierForPickup?: string;
+  handleLateReceipt!: string;
 }

@@ -60,4 +60,10 @@ export const RelaxEmptyGuestRows = [
     label: 'guard empty tax line at close',
     quantity: 9,
   },
+  {
+    id: 'contracts-2349',
+    store: '528',
+    label: 'relax stale loyalty credit for franchisees',
+    quantity: 7,
+  },
 ];
