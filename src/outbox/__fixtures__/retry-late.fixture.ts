@@ -510,4 +510,16 @@ export const RetryLateLoyaltyCreditRows = [
     label: 'sort regional kitchen ticket',
     quantity: 5,
   },
+  {
+    id: 'outbox-9837',
+    store: '524',
+    label: 'backfill partial catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'outbox-9057',
+    store: '658',
+    label: 'dedupe duplicate catering tray',
+    quantity: 5,
+  },
 ];
