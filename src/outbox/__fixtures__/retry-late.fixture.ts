@@ -510,4 +510,58 @@ export const RetryLateLoyaltyCreditRows = [
     label: 'sort regional kitchen ticket',
     quantity: 5,
   },
+  {
+    id: 'outbox-4153',
+    store: '213',
+    label: 'tighten cancelled catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'outbox-4551',
+    store: '642',
+    label: 'retry cancelled cart line for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'outbox-8715',
+    store: '401',
+    label: 'sort missing catering tray per store',
+    quantity: 11,
+  },
+  {
+    id: 'outbox-6203',
+    store: '125',
+    label: 'backfill oversized ticket',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-7257',
+    store: '256',
+    label: 'normalise partial store',
+    quantity: 4,
+  },
+  {
+    id: 'outbox-8761',
+    store: '112',
+    label: 'tighten expired topping',
+    quantity: 4,
+  },
+  {
+    id: 'outbox-3912',
+    store: '261',
+    label: 'tighten expired kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-1684',
+    store: '623',
+    label: 'add oversized bowl for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'outbox-7415',
+    store: '200',
+    label: 'relax empty bowl per store',
+    quantity: 6,
+  },
 ];
