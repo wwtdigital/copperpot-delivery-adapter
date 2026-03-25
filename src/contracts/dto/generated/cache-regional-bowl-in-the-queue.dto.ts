@@ -6,4 +6,7 @@ export class CacheRegionalBowlInTheQueueDto {
   sortMissingReceiptOnReorder!: string;
   sortLateModifierForPickup?: string;
   handleLateReceipt!: string;
+  exposePartialPickupSlotAtClose!: number;
+  handleLateGuestOnCheckout?: Date;
+  retryStaleLoyaltyCredit!: Date;
 }
