@@ -510,34 +510,4 @@ export const RetryLateLoyaltyCreditRows = [
     label: 'sort regional kitchen ticket',
     quantity: 5,
   },
-  {
-    id: 'outbox-9837',
-    store: '524',
-    label: 'backfill partial catering tray',
-    quantity: 6,
-  },
-  {
-    id: 'outbox-9057',
-    store: '658',
-    label: 'dedupe duplicate catering tray',
-    quantity: 5,
-  },
-  {
-    id: 'outbox-5814',
-    store: '209',
-    label: 'handle stale bowl',
-    quantity: 6,
-  },
-  {
-    id: 'outbox-2656',
-    store: '387',
-    label: 'expose oversized pickup slot',
-    quantity: 4,
-  },
-  {
-    id: 'outbox-2077',
-    store: '337',
-    label: 'sort oversized pickup slot',
-    quantity: 3,
-  },
 ];
