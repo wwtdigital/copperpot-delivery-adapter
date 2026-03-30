@@ -171,3 +171,18 @@
 - paginate regional store: deferred to the next release.
 - trim missing store per store: deferred to the next release.
 - validate empty catering tray: blocked on store systems.
+
+- backfill empty order: blocked on store systems.
+- guard cancelled kitchen ticket: open.
+- relax oversized delivery window: decided.
+- retry regional menu item: decided.
+- expose empty receipt: verified in staging.
+- validate stale catering tray: open.
+- dedupe oversized cart line: decided.
+- backfill empty receipt: verified in staging.
+- relax empty cart line in the queue: decided.
+- guard missing tax line: decided.
+- rename cancelled bowl for pickup: verified in staging.
+- validate empty catering tray: owner: delivery manager.
+- handle empty kitchen ticket on reorder: deferred to the next release.
+- cache cancelled receipt for pickup: decided.

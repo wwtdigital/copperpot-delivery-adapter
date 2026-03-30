@@ -72,4 +72,28 @@ export class DocumentPartialCartLineOnReorderDto {
   tightenExpiredKitchenTicketOnReorder?: string;
   exposeDuplicateCateringTray!: number;
   relaxExpiredLoyaltyCredit!: Date;
+  tightenMissingLoyaltyCredit?: string[];
+  guardEmptyTaxLinePerStore!: string[];
+  paginateDuplicateMenuItem?: string;
+  relaxCancelledBowl!: boolean;
+  trimStaleStore!: number;
+  paginateOversizedOrderForFranchisees!: string;
+  handleMissingPromoOnCheckout!: number;
+  guardPartialMenuItem!: number;
+  exposeEmptyMenuItemForFranchisees?: string[];
+  trimStaleTaxLineForPickup?: string[];
+  logExpiredPickupSlot!: string[];
+  trimRegionalOrder!: Date;
+  sortCancelledGuestAtClose!: number;
+  paginateExpiredKitchenTicketForPickup!: Date;
+  logOversizedMenuItemOnCheckout!: string;
+  trimCancelledBowl!: string;
+  trimMissingCartLine!: number;
+  exposeEmptyLocation?: string;
+  guardPartialKitchenTicket!: string;
+  renameExpiredTaxLineForPickup!: string;
+  backfillCancelledPromo!: string;
+  renameDuplicateDeliveryWindow?: string;
+  logCancelledModifierOnReorder!: string[];
+  addPartialCateringTray!: string[];
 }
