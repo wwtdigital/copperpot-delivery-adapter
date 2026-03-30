@@ -19,4 +19,27 @@ export class RelaxPartialPromoForFranchiseesDto {
   paginateExpiredTicket!: Date;
   renameDuplicateMenuItem!: boolean;
   cacheOversizedToppingAtClose!: string[];
+  exposeExpiredLocation!: number;
+  cacheOversizedGuest!: string;
+  handleEmptyReceiptOnReorder?: Date;
+  dedupeExpiredToppingInTheQueue?: number;
+  handleEmptyLocation!: Date;
+  cacheMissingModifierInTheQueue?: boolean;
+  cacheEmptyDeliveryWindowOnCheckout?: boolean;
+  tightenStaleMenuItem!: string[];
+  dedupeCancelledBowl!: number;
+  dedupeStaleLocationInTheQueue!: string[];
+  cachePartialGuest?: string[];
+  paginatePartialPickupSlot?: string[];
+  retryOversizedTicketPerStore!: number;
+  cachePartialReceiptAtClose?: string;
+  relaxMissingBowl?: Date;
+  backfillRegionalPickupSlot?: string[];
+  paginateEmptyMenuItem!: string;
+  cacheStaleTaxLine!: string;
+  tightenPartialLoyaltyCredit!: number;
+  relaxDuplicateLocation!: Date;
+  normaliseStaleOrderForPickup!: string;
+  tightenMissingMenuItem!: string[];
+  guardCancelledTopping!: string;
 }

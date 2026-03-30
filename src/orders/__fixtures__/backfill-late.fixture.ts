@@ -1,0 +1,123 @@
+/* Fixture rows for orders tests: backfill late location. Generated data, not production data. */
+export const BackfillLateLocationRows = [
+  {
+    id: 'orders-5603',
+    store: '383',
+    label: 'tighten missing bowl for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'orders-4535',
+    store: '633',
+    label: 'guard missing topping on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'orders-7763',
+    store: '327',
+    label: 'document late receipt',
+    quantity: 2,
+  },
+  {
+    id: 'orders-8959',
+    store: '504',
+    label: 'validate late promo',
+    quantity: 6,
+  },
+  {
+    id: 'orders-1362',
+    store: '281',
+    label: 'cache cancelled bowl for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'orders-5066',
+    store: '596',
+    label: 'sort expired tax line for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'orders-9365',
+    store: '574',
+    label: 'document empty bowl',
+    quantity: 10,
+  },
+  {
+    id: 'orders-5073',
+    store: '381',
+    label: 'guard cancelled modifier',
+    quantity: 11,
+  },
+  {
+    id: 'orders-2346',
+    store: '368',
+    label: 'backfill empty topping at close',
+    quantity: 12,
+  },
+  {
+    id: 'orders-7998',
+    store: '625',
+    label: 'cache oversized tax line',
+    quantity: 11,
+  },
+  {
+    id: 'orders-2574',
+    store: '415',
+    label: 'trim oversized delivery window',
+    quantity: 3,
+  },
+  {
+    id: 'orders-2450',
+    store: '318',
+    label: 'log late receipt',
+    quantity: 4,
+  },
+  {
+    id: 'orders-6573',
+    store: '628',
+    label: 'expose empty modifier',
+    quantity: 12,
+  },
+  {
+    id: 'orders-8810',
+    store: '116',
+    label: 'retry partial order on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'orders-6315',
+    store: '373',
+    label: 'add regional receipt in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'orders-9752',
+    store: '446',
+    label: 'expose late tax line',
+    quantity: 8,
+  },
+  {
+    id: 'orders-6471',
+    store: '497',
+    label: 'guard oversized kitchen ticket per store',
+    quantity: 3,
+  },
+  {
+    id: 'orders-6672',
+    store: '389',
+    label: 'dedupe cancelled receipt',
+    quantity: 7,
+  },
+  {
+    id: 'orders-6889',
+    store: '511',
+    label: 'dedupe expired kitchen ticket at close',
+    quantity: 1,
+  },
+  {
+    id: 'orders-6261',
+    store: '493',
+    label: 'log stale order',
+    quantity: 8,
+  },
+];
