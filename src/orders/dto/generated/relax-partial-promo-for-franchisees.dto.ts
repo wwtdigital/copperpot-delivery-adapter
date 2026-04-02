@@ -42,4 +42,13 @@ export class RelaxPartialPromoForFranchiseesDto {
   normaliseStaleOrderForPickup!: string;
   tightenMissingMenuItem!: string[];
   guardCancelledTopping!: string;
+  dedupeStaleTaxLineForPickup?: string;
+  cacheRegionalCateringTrayForPickup!: string[];
+  dedupeExpiredPromoPerStore!: boolean;
+  guardEmptyBowl!: Date;
+  relaxCancelledGuest!: Date;
+  logEmptyPickupSlotOnCheckout?: string[];
+  addDuplicateOrder!: number;
+  dedupeEmptyReceipt!: boolean;
+  addRegionalTopping?: Date;
 }
