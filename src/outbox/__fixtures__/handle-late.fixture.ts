@@ -30,4 +30,10 @@ export const HandleLateReceiptOnCheckoutRows = [
     label: 'document late delivery window on reorder',
     quantity: 12,
   },
+  {
+    id: 'outbox-3437',
+    store: '197',
+    label: 'normalise cancelled kitchen ticket',
+    quantity: 10,
+  },
 ];

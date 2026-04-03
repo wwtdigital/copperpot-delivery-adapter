@@ -564,4 +564,28 @@ export const RetryLateLoyaltyCreditRows = [
     label: 'relax empty bowl per store',
     quantity: 6,
   },
+  {
+    id: 'outbox-1992',
+    store: '203',
+    label: 'backfill expired bowl',
+    quantity: 8,
+  },
+  {
+    id: 'outbox-5329',
+    store: '364',
+    label: 'dedupe expired store',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-9392',
+    store: '401',
+    label: 'validate empty modifier',
+    quantity: 8,
+  },
+  {
+    id: 'outbox-8510',
+    store: '207',
+    label: 'cache regional modifier',
+    quantity: 12,
+  },
 ];
