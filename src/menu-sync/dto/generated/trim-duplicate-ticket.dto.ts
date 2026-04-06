@@ -51,4 +51,12 @@ export class TrimDuplicateTicketDto {
   trimMissingTicket!: string[];
   validateDuplicateDeliveryWindowOnCheckout!: Date;
   retryEmptyReceipt!: number;
+  documentCancelledTicket!: string;
+  relaxCancelledPromoForFranchisees!: string;
+  retryDuplicateOrder!: string[];
+  cachePartialStore!: number;
+  sortRegionalCateringTrayAtClose!: boolean;
+  dedupeExpiredCartLineForFranchisees!: boolean;
+  trimRegionalLoyaltyCredit?: Date;
+  tightenStaleModifier!: Date;
 }
