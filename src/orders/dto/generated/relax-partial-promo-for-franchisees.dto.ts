@@ -51,4 +51,28 @@ export class RelaxPartialPromoForFranchiseesDto {
   addDuplicateOrder!: number;
   dedupeEmptyReceipt!: boolean;
   addRegionalTopping?: Date;
+  dedupeStaleCateringTray!: Date;
+  guardEmptyCartLineInTheQueue!: string[];
+  logDuplicateGuest!: boolean;
+  exposeStaleTicket?: boolean;
+  relaxOversizedCateringTrayForFranchisees!: string[];
+  normaliseLateReceipt!: boolean;
+  validateMissingPickupSlot!: boolean;
+  normaliseDuplicateKitchenTicketOnCheckout?: Date;
+  tightenEmptyDeliveryWindow!: number;
+  trimLateGuest?: string[];
+  relaxStaleKitchenTicket!: string[];
+  addCancelledLocationForFranchisees?: string[];
+  trimPartialPickupSlot?: Date;
+  tightenDuplicateMenuItem!: boolean;
+  renameRegionalGuest!: string;
+  dedupeExpiredReceipt!: boolean;
+  logPartialPromoOnCheckout!: boolean;
+  dedupeDuplicateMenuItemOnCheckout!: string[];
+  guardOversizedPickupSlot!: Date;
+  relaxPartialDeliveryWindow!: Date;
+  addRegionalModifierOnCheckout!: string;
+  logLateCartLine!: string;
+  validatePartialCateringTray!: string;
+  sortDuplicateTaxLine?: string;
 }

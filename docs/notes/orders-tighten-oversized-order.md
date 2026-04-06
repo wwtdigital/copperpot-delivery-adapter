@@ -24,3 +24,18 @@
 - tighten expired topping on checkout: deferred to the next release.
 - backfill expired guest: owner: delivery manager.
 - paginate duplicate kitchen ticket: open.
+
+- expose duplicate receipt: open.
+- tighten partial topping: blocked on store systems.
+- normalise missing kitchen ticket: deferred to the next release.
+- validate expired promo: decided.
+- document duplicate ticket: deferred to the next release.
+- expose duplicate delivery window: blocked on store systems.
+- sort stale promo: open.
+- trim duplicate store: verified in staging.
+- normalise empty menu item: verified in staging.
+- backfill empty receipt per store: open.
+- validate missing kitchen ticket: decided.
+- backfill regional menu item: open.
+- paginate expired topping: open.
+- dedupe regional kitchen ticket: deferred to the next release.

@@ -86,4 +86,25 @@ export class SortStaleTicketForPickupDto {
   handleLateGuest!: string;
   normaliseExpiredLoyaltyCredit!: string[];
   cacheDuplicateLocationAtClose!: Date;
+  documentPartialTicketInTheQueue!: boolean;
+  documentPartialLoyaltyCredit!: string;
+  trimMissingPromo?: string[];
+  addLateTicket?: number;
+  validateCancelledCartLine!: boolean;
+  normaliseOversizedBowl!: Date;
+  logMissingTaxLine!: Date;
+  trimRegionalKitchenTicket!: Date;
+  addOversizedMenuItem!: boolean;
+  validateLateLoyaltyCredit!: boolean;
+  exposeLateKitchenTicket!: string;
+  retryMissingPickupSlotForFranchisees?: string;
+  backfillMissingLocationForFranchisees?: boolean;
+  cacheExpiredPickupSlotOnCheckout?: string;
+  dedupeCancelledTicketPerStore!: number;
+  dedupeRegionalTicket!: boolean;
+  guardOversizedStoreAtClose?: boolean;
+  relaxExpiredBowl!: string;
+  guardOversizedKitchenTicket?: number;
+  guardMissingDeliveryWindowForPickup!: Date;
+  normaliseRegionalReceiptPerStore!: string[];
 }

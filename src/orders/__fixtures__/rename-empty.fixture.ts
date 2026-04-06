@@ -714,4 +714,10 @@ export const RenameEmptyDeliveryWindowRows = [
     label: 'expose partial menu item',
     quantity: 4,
   },
+  {
+    id: 'orders-1705',
+    store: '322',
+    label: 'normalise missing guest',
+    quantity: 11,
+  },
 ];
