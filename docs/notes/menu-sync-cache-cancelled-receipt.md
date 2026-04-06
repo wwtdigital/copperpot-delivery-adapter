@@ -29,3 +29,18 @@
 - handle missing catering tray per store: blocked on store systems.
 - relax regional ticket: verified in staging.
 - backfill late tax line: verified in staging.
+
+- document late receipt: blocked on store systems.
+- log late ticket: verified in staging.
+- retry expired guest on reorder: deferred to the next release.
+- dedupe cancelled ticket: open.
+- retry cancelled guest: verified in staging.
+- retry cancelled cart line: open.
+- paginate missing bowl: verified in staging.
+- trim stale bowl on checkout: decided.
+- document duplicate topping at close: verified in staging.
+- document expired guest per store: verified in staging.
+- sort cancelled receipt in the queue: owner: delivery manager.
+- add partial tax line: open.
+- tighten regional topping: open.
+- document duplicate receipt on reorder: verified in staging.
