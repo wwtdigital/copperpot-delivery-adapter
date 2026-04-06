@@ -18,3 +18,33 @@
 - add partial menu item for franchisees: verified in staging.
 - retry regional store at close: deferred to the next release.
 - tighten missing pickup slot: decided.
+
+- document partial guest: owner: delivery manager.
+- document regional catering tray for franchisees: blocked on store systems.
+- paginate partial pickup slot in the queue: owner: delivery manager.
+- dedupe empty catering tray at close: open.
+- relax missing pickup slot: deferred to the next release.
+- guard duplicate location: blocked on store systems.
+- add cancelled menu item for franchisees: open.
+- paginate stale topping in the queue: open.
+- cache regional bowl: open.
+- trim partial store: deferred to the next release.
+- sort cancelled topping: decided.
+- add cancelled loyalty credit: blocked on store systems.
+- dedupe regional location: blocked on store systems.
+- paginate duplicate promo: owner: delivery manager.
+
+- validate missing pickup slot per store: decided.
+- paginate oversized kitchen ticket on checkout: owner: delivery manager.
+- expose cancelled topping per store: blocked on store systems.
+- paginate regional store for pickup: blocked on store systems.
+- backfill regional loyalty credit: open.
+- rename empty location: verified in staging.
+- handle expired menu item: deferred to the next release.
+- relax regional pickup slot per store: decided.
+- validate late bowl: deferred to the next release.
+- trim partial delivery window at close: decided.
+- trim regional ticket: owner: delivery manager.
+- retry empty location: open.
+- paginate empty modifier: deferred to the next release.
+- guard duplicate catering tray: verified in staging.
