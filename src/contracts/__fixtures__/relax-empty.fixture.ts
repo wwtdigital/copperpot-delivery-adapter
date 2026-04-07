@@ -66,4 +66,40 @@ export const RelaxEmptyGuestRows = [
     label: 'relax stale loyalty credit for franchisees',
     quantity: 7,
   },
+  {
+    id: 'contracts-9994',
+    store: '250',
+    label: 'document stale promo per store',
+    quantity: 2,
+  },
+  {
+    id: 'contracts-9142',
+    store: '522',
+    label: 'normalise cancelled menu item',
+    quantity: 5,
+  },
+  {
+    id: 'contracts-2252',
+    store: '313',
+    label: 'guard cancelled ticket for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'contracts-1683',
+    store: '310',
+    label: 'document cancelled cart line on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'contracts-1116',
+    store: '642',
+    label: 'cache regional cart line',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-1918',
+    store: '310',
+    label: 'log stale catering tray',
+    quantity: 11,
+  },
 ];
