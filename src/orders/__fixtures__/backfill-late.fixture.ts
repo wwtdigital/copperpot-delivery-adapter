@@ -120,4 +120,40 @@ export const BackfillLateLocationRows = [
     label: 'log stale order',
     quantity: 8,
   },
+  {
+    id: 'orders-7378',
+    store: '696',
+    label: 'backfill missing store for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'orders-4636',
+    store: '426',
+    label: 'paginate oversized tax line in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'orders-9610',
+    store: '220',
+    label: 'add missing modifier on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'orders-9816',
+    store: '366',
+    label: 'relax stale store',
+    quantity: 4,
+  },
+  {
+    id: 'orders-8266',
+    store: '482',
+    label: 'guard duplicate modifier',
+    quantity: 9,
+  },
+  {
+    id: 'orders-1832',
+    store: '213',
+    label: 'sort cancelled location',
+    quantity: 1,
+  },
 ];
