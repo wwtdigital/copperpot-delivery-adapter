@@ -70,4 +70,14 @@ export class NormaliseLateModifierOnReorderDto {
   dedupeCancelledMenuItem?: Date;
   dedupeEmptyTaxLineOnCheckout!: Date;
   handleMissingTopping!: string[];
+  cacheOversizedMenuItem!: boolean;
+  dedupeMissingPromoForFranchisees!: string[];
+  dedupeOversizedOrder!: string;
+  sortMissingPromo?: number;
+  guardExpiredMenuItemInTheQueue!: Date;
+  trimRegionalMenuItemForFranchisees!: boolean;
+  renamePartialTicket?: string;
+  trimCancelledCartLine!: boolean;
+  handleEmptyPickupSlotInTheQueue!: boolean;
+  documentStaleKitchenTicketAtClose!: Date;
 }
