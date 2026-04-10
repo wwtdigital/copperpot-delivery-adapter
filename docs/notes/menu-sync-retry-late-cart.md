@@ -48,3 +48,18 @@
 - retry empty location: open.
 - paginate empty modifier: deferred to the next release.
 - guard duplicate catering tray: verified in staging.
+
+- paginate missing topping: decided.
+- log stale bowl for franchisees: blocked on store systems.
+- document empty tax line: verified in staging.
+- cache oversized modifier: verified in staging.
+- add empty bowl: verified in staging.
+- log regional bowl: owner: delivery manager.
+- dedupe regional catering tray on reorder: deferred to the next release.
+- guard regional tax line: blocked on store systems.
+- guard empty modifier in the queue: verified in staging.
+- tighten missing menu item: owner: delivery manager.
+- handle stale order: owner: delivery manager.
+- normalise oversized order: blocked on store systems.
+- rename empty delivery window: owner: delivery manager.
+- backfill late ticket on reorder: blocked on store systems.

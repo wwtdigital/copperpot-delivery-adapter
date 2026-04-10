@@ -59,4 +59,28 @@ export class TrimDuplicateTicketDto {
   dedupeExpiredCartLineForFranchisees!: boolean;
   trimRegionalLoyaltyCredit?: Date;
   tightenStaleModifier!: Date;
+  addPartialDeliveryWindow!: number;
+  addCancelledModifier!: string[];
+  normaliseStaleLoyaltyCredit!: Date;
+  handleCancelledTicket?: string;
+  exposeDuplicateCateringTray!: boolean;
+  backfillMissingTicket?: Date;
+  dedupePartialLocationOnCheckout!: boolean;
+  guardMissingKitchenTicket?: string[];
+  documentOversizedReceipt!: boolean;
+  tightenDuplicateTopping!: number;
+  backfillMissingMenuItemForFranchisees!: number;
+  relaxRegionalLocation!: number;
+  tightenDuplicateTaxLine!: boolean;
+  exposeExpiredDeliveryWindow!: Date;
+  trimRegionalCateringTray!: string[];
+  relaxOversizedCartLine!: string[];
+  renameMissingOrder?: boolean;
+  backfillOversizedTaxLine?: Date;
+  documentRegionalCartLineOnReorder!: Date;
+  logMissingStore!: string;
+  sortPartialCartLine?: Date;
+  logEmptyKitchenTicketOnReorder!: string[];
+  exposeDuplicateBowl?: boolean;
+  backfillEmptyModifierOnReorder!: string[];
 }
