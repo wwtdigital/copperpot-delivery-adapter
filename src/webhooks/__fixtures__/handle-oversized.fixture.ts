@@ -1,0 +1,111 @@
+/* Fixture rows for webhooks tests: handle oversized loyalty credit for pickup. Generated data, not production data. */
+export const HandleOversizedLoyaltyCreditForPickupRows = [
+  {
+    id: 'webhooks-3317',
+    store: '115',
+    label: 'log expired store',
+    quantity: 11,
+  },
+  {
+    id: 'webhooks-6744',
+    store: '448',
+    label: 'backfill expired guest',
+    quantity: 12,
+  },
+  {
+    id: 'webhooks-7430',
+    store: '693',
+    label: 'sort partial bowl',
+    quantity: 4,
+  },
+  {
+    id: 'webhooks-2332',
+    store: '478',
+    label: 'retry cancelled cart line',
+    quantity: 6,
+  },
+  {
+    id: 'webhooks-1505',
+    store: '337',
+    label: 'expose missing store at close',
+    quantity: 11,
+  },
+  {
+    id: 'webhooks-3845',
+    store: '373',
+    label: 'document partial guest',
+    quantity: 9,
+  },
+  {
+    id: 'webhooks-9224',
+    store: '230',
+    label: 'retry duplicate topping',
+    quantity: 12,
+  },
+  {
+    id: 'webhooks-7905',
+    store: '411',
+    label: 'relax duplicate tax line',
+    quantity: 10,
+  },
+  {
+    id: 'webhooks-6741',
+    store: '673',
+    label: 'expose duplicate cart line',
+    quantity: 2,
+  },
+  {
+    id: 'webhooks-8833',
+    store: '459',
+    label: 'relax regional bowl',
+    quantity: 9,
+  },
+  {
+    id: 'webhooks-7069',
+    store: '140',
+    label: 'expose duplicate delivery window',
+    quantity: 11,
+  },
+  {
+    id: 'webhooks-5034',
+    store: '521',
+    label: 'trim late tax line for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'webhooks-8838',
+    store: '430',
+    label: 'expose regional catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'webhooks-2619',
+    store: '398',
+    label: 'trim regional ticket on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'webhooks-6239',
+    store: '324',
+    label: 'expose missing modifier',
+    quantity: 2,
+  },
+  {
+    id: 'webhooks-2915',
+    store: '651',
+    label: 'cache expired tax line',
+    quantity: 5,
+  },
+  {
+    id: 'webhooks-3227',
+    store: '656',
+    label: 'document cancelled menu item',
+    quantity: 3,
+  },
+  {
+    id: 'webhooks-5352',
+    store: '115',
+    label: 'normalise duplicate cart line',
+    quantity: 7,
+  },
+];

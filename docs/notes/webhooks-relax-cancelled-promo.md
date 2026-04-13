@@ -11,3 +11,18 @@
 - validate late tax line at close: blocked on store systems.
 - retry regional loyalty credit: owner: delivery manager.
 - validate empty promo: deferred to the next release.
+
+- add stale catering tray: owner: delivery manager.
+- relax oversized store: open.
+- cache stale guest in the queue: verified in staging.
+- dedupe duplicate receipt: decided.
+- paginate cancelled pickup slot: verified in staging.
+- expose cancelled topping: open.
+- sort missing store on reorder: blocked on store systems.
+- paginate missing topping: open.
+- backfill cancelled bowl per store: open.
+- trim duplicate modifier on reorder: blocked on store systems.
+- backfill late topping on reorder: blocked on store systems.
+- validate duplicate pickup slot: owner: delivery manager.
+- trim duplicate guest: blocked on store systems.
+- document regional catering tray on checkout: decided.
