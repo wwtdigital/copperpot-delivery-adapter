@@ -59,4 +59,15 @@ export class NormaliseLateModifierOnReorderDto {
   cacheOversizedLocationPerStore?: Date;
   dedupeRegionalPromo!: string[];
   paginateStaleGuestForPickup!: number;
+  retryCancelledBowl!: number;
+  normaliseExpiredDeliveryWindow!: string;
+  cacheCancelledToppingAtClose!: number;
+  retryLateDeliveryWindowForPickup?: string[];
+  handleStaleOrder!: number;
+  relaxExpiredTicket!: string[];
+  exposeLatePickupSlot?: boolean;
+  cacheOversizedPickupSlotPerStore!: boolean;
+  dedupeCancelledMenuItem?: Date;
+  dedupeEmptyTaxLineOnCheckout!: Date;
+  handleMissingTopping!: string[];
 }

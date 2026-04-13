@@ -33,3 +33,15 @@
 - paginate partial modifier on checkout: verified in staging.
 - dedupe oversized receipt: deferred to the next release.
 - expose duplicate modifier: verified in staging.
+
+- guard oversized tax line: open.
+- rename partial kitchen ticket: decided.
+- validate regional kitchen ticket: open.
+- retry expired menu item at close: owner: delivery manager.
+- trim late delivery window: deferred to the next release.
+- expose cancelled promo on reorder: deferred to the next release.
+- guard regional pickup slot: deferred to the next release.
+- expose stale tax line: deferred to the next release.
+- rename regional modifier: owner: delivery manager.
+- sort stale ticket: owner: delivery manager.
+- rename partial store: verified in staging.
