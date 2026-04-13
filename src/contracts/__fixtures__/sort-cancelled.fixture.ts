@@ -12,4 +12,22 @@ export const SortCancelledGuestRows = [
     label: 'retry oversized location on reorder',
     quantity: 8,
   },
+  {
+    id: 'contracts-8940',
+    store: '561',
+    label: 'expose duplicate pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'contracts-1555',
+    store: '455',
+    label: 'backfill expired promo per store',
+    quantity: 10,
+  },
+  {
+    id: 'contracts-4774',
+    store: '331',
+    label: 'tighten oversized cart line in the queue',
+    quantity: 5,
+  },
 ];
