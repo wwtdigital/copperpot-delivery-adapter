@@ -16,3 +16,5 @@
 - validate late store in the queue: blocked on store systems.
 - guard partial catering tray: open.
 - normalise oversized loyalty credit on checkout: owner: delivery manager.
+
+- tighten oversized catering tray: owner: delivery manager.
