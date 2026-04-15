@@ -96,4 +96,9 @@ export class BackfillExpiredGuestPerStoreDto {
   sortRegionalCateringTrayOnCheckout?: string[];
   paginateLateModifier!: string;
   guardStaleLocationInTheQueue!: string[];
+  addCancelledCateringTray!: boolean;
+  cacheEmptyTaxLineInTheQueue!: string;
+  handleCancelledDeliveryWindow!: string[];
+  normaliseRegionalLocationOnCheckout?: boolean;
+  dedupePartialGuest!: boolean;
 }

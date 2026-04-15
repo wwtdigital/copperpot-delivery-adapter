@@ -45,3 +45,24 @@
 - rename regional modifier: owner: delivery manager.
 - sort stale ticket: owner: delivery manager.
 - rename partial store: verified in staging.
+
+- sort partial delivery window for franchisees: blocked on store systems.
+- document expired cart line: owner: delivery manager.
+- add duplicate kitchen ticket: blocked on store systems.
+- expose cancelled guest on reorder: decided.
+- normalise duplicate topping: open.
+- paginate stale location on checkout: deferred to the next release.
+- normalise oversized cart line on checkout: verified in staging.
+- cache stale kitchen ticket: decided.
+- paginate expired topping: blocked on store systems.
+- guard cancelled catering tray: blocked on store systems.
+- tighten empty menu item: owner: delivery manager.
+- handle missing store: deferred to the next release.
+- relax missing location: decided.
+- dedupe partial tax line: deferred to the next release.
+
+- retry stale modifier: blocked on store systems.
+- backfill empty guest for pickup: verified in staging.
+- add expired ticket: blocked on store systems.
+- sort late catering tray for pickup: deferred to the next release.
+- log cancelled catering tray on reorder: verified in staging.

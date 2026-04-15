@@ -30,4 +30,10 @@ export const SortCancelledGuestRows = [
     label: 'tighten oversized cart line in the queue',
     quantity: 5,
   },
+  {
+    id: 'contracts-4787',
+    store: '399',
+    label: 'paginate stale menu item',
+    quantity: 8,
+  },
 ];
