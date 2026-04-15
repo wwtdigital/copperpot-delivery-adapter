@@ -102,4 +102,34 @@ export const RelaxEmptyGuestRows = [
     label: 'log stale catering tray',
     quantity: 11,
   },
+  {
+    id: 'contracts-1098',
+    store: '468',
+    label: 'handle stale bowl',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-2182',
+    store: '178',
+    label: 'trim regional delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'contracts-4123',
+    store: '577',
+    label: 'normalise late store',
+    quantity: 11,
+  },
+  {
+    id: 'contracts-1543',
+    store: '267',
+    label: 'expose empty tax line on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-1528',
+    store: '185',
+    label: 'paginate missing loyalty credit at close',
+    quantity: 4,
+  },
 ];
