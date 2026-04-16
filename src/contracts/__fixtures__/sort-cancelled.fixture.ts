@@ -36,4 +36,10 @@ export const SortCancelledGuestRows = [
     label: 'paginate stale menu item',
     quantity: 8,
   },
+  {
+    id: 'contracts-3101',
+    store: '303',
+    label: 'expose empty location in the queue',
+    quantity: 3,
+  },
 ];

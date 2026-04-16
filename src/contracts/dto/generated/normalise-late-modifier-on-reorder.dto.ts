@@ -80,4 +80,10 @@ export class NormaliseLateModifierOnReorderDto {
   trimCancelledCartLine!: boolean;
   handleEmptyPickupSlotInTheQueue!: boolean;
   documentStaleKitchenTicketAtClose!: Date;
+  sortEmptyCartLineInTheQueue?: string[];
+  relaxEmptyStore!: number;
+  validateCancelledCateringTray?: Date;
+  paginateEmptyKitchenTicketForPickup!: boolean;
+  tightenPartialKitchenTicketPerStore!: number;
+  trimEmptyGuest?: string;
 }

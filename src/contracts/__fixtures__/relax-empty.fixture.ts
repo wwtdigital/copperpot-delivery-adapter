@@ -132,4 +132,10 @@ export const RelaxEmptyGuestRows = [
     label: 'paginate missing loyalty credit at close',
     quantity: 4,
   },
+  {
+    id: 'contracts-4346',
+    store: '296',
+    label: 'guard expired location',
+    quantity: 11,
+  },
 ];

@@ -101,4 +101,6 @@ export class BackfillExpiredGuestPerStoreDto {
   handleCancelledDeliveryWindow!: string[];
   normaliseRegionalLocationOnCheckout?: boolean;
   dedupePartialGuest!: boolean;
+  tightenCancelledTaxLine?: boolean;
+  trimRegionalGuestOnReorder!: string;
 }
