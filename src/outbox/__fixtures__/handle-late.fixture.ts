@@ -36,4 +36,40 @@ export const HandleLateReceiptOnCheckoutRows = [
     label: 'normalise cancelled kitchen ticket',
     quantity: 10,
   },
+  {
+    id: 'outbox-3310',
+    store: '623',
+    label: 'retry missing cart line at close',
+    quantity: 8,
+  },
+  {
+    id: 'outbox-2953',
+    store: '675',
+    label: 'guard late guest on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'outbox-1034',
+    store: '287',
+    label: 'cache expired promo at close',
+    quantity: 2,
+  },
+  {
+    id: 'outbox-6107',
+    store: '228',
+    label: 'dedupe late cart line',
+    quantity: 12,
+  },
+  {
+    id: 'outbox-4521',
+    store: '627',
+    label: 'paginate empty guest',
+    quantity: 6,
+  },
+  {
+    id: 'outbox-6005',
+    store: '587',
+    label: 'cache expired menu item at close',
+    quantity: 5,
+  },
 ];
