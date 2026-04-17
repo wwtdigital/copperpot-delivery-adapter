@@ -720,4 +720,16 @@ export const RenameEmptyDeliveryWindowRows = [
     label: 'normalise missing guest',
     quantity: 11,
   },
+  {
+    id: 'orders-4946',
+    store: '323',
+    label: 'document missing delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'orders-9442',
+    store: '300',
+    label: 'log oversized receipt',
+    quantity: 11,
+  },
 ];

@@ -75,4 +75,11 @@ export class RelaxPartialPromoForFranchiseesDto {
   logLateCartLine!: string;
   validatePartialCateringTray!: string;
   sortDuplicateTaxLine?: string;
+  backfillCancelledPromoForFranchisees!: number;
+  normaliseCancelledKitchenTicket!: Date;
+  normaliseOversizedPickupSlot?: boolean;
+  handleLateTaxLineForFranchisees?: boolean;
+  validateLateStorePerStore?: string;
+  documentStalePromoForFranchisees?: string[];
+  dedupePartialPromo!: boolean;
 }

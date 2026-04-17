@@ -156,4 +156,28 @@ export const BackfillLateLocationRows = [
     label: 'sort cancelled location',
     quantity: 1,
   },
+  {
+    id: 'orders-2616',
+    store: '676',
+    label: 'cache oversized kitchen ticket',
+    quantity: 10,
+  },
+  {
+    id: 'orders-4707',
+    store: '495',
+    label: 'backfill cancelled menu item',
+    quantity: 12,
+  },
+  {
+    id: 'orders-7088',
+    store: '260',
+    label: 'expose cancelled tax line in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'orders-8023',
+    store: '527',
+    label: 'handle stale kitchen ticket',
+    quantity: 1,
+  },
 ];
