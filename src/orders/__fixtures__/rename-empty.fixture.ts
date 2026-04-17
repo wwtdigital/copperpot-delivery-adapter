@@ -732,4 +732,22 @@ export const RenameEmptyDeliveryWindowRows = [
     label: 'log oversized receipt',
     quantity: 11,
   },
+  {
+    id: 'orders-8541',
+    store: '337',
+    label: 'sort empty bowl',
+    quantity: 5,
+  },
+  {
+    id: 'orders-2939',
+    store: '328',
+    label: 'paginate duplicate delivery window',
+    quantity: 8,
+  },
+  {
+    id: 'orders-2215',
+    store: '606',
+    label: 'expose regional ticket',
+    quantity: 5,
+  },
 ];
