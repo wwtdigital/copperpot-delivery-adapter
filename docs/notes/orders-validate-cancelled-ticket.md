@@ -186,3 +186,18 @@
 - validate empty catering tray: owner: delivery manager.
 - handle empty kitchen ticket on reorder: deferred to the next release.
 - cache cancelled receipt for pickup: decided.
+
+- paginate missing order: verified in staging.
+- cache stale bowl: open.
+- tighten cancelled ticket: decided.
+- tighten duplicate modifier at close: deferred to the next release.
+- sort expired guest: blocked on store systems.
+- add partial delivery window: decided.
+- backfill expired pickup slot: blocked on store systems.
+- trim empty pickup slot: open.
+- relax cancelled order: owner: delivery manager.
+- rename missing modifier on checkout: decided.
+- dedupe partial ticket: open.
+- dedupe expired tax line in the queue: verified in staging.
+- trim empty topping: blocked on store systems.
+- tighten regional store: blocked on store systems.

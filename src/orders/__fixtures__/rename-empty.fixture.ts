@@ -726,4 +726,10 @@ export const RenameEmptyDeliveryWindowRows = [
     label: 'document missing delivery window',
     quantity: 9,
   },
+  {
+    id: 'orders-9442',
+    store: '300',
+    label: 'log oversized receipt',
+    quantity: 11,
+  },
 ];
