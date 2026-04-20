@@ -750,4 +750,34 @@ export const RenameEmptyDeliveryWindowRows = [
     label: 'expose regional ticket',
     quantity: 5,
   },
+  {
+    id: 'orders-3753',
+    store: '647',
+    label: 'trim regional loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'orders-4854',
+    store: '698',
+    label: 'log empty cart line',
+    quantity: 7,
+  },
+  {
+    id: 'orders-2209',
+    store: '355',
+    label: 'handle expired store',
+    quantity: 8,
+  },
+  {
+    id: 'orders-7493',
+    store: '379',
+    label: 'cache oversized kitchen ticket at close',
+    quantity: 9,
+  },
+  {
+    id: 'orders-7253',
+    store: '123',
+    label: 'dedupe late location',
+    quantity: 10,
+  },
 ];
