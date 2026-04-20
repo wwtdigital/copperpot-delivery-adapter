@@ -588,4 +588,40 @@ export const RetryLateLoyaltyCreditRows = [
     label: 'cache regional modifier',
     quantity: 12,
   },
+  {
+    id: 'outbox-2501',
+    store: '450',
+    label: 'guard cancelled store at close',
+    quantity: 4,
+  },
+  {
+    id: 'outbox-1425',
+    store: '471',
+    label: 'trim empty order per store',
+    quantity: 8,
+  },
+  {
+    id: 'outbox-1928',
+    store: '329',
+    label: 'retry late loyalty credit on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'outbox-8465',
+    store: '551',
+    label: 'trim missing catering tray on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'outbox-5087',
+    store: '517',
+    label: 'backfill stale pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'outbox-3540',
+    store: '327',
+    label: 'tighten partial order',
+    quantity: 6,
+  },
 ];

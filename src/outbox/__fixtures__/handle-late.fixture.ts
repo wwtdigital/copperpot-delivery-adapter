@@ -72,4 +72,10 @@ export const HandleLateReceiptOnCheckoutRows = [
     label: 'cache expired menu item at close',
     quantity: 5,
   },
+  {
+    id: 'outbox-2466',
+    store: '149',
+    label: 'expose regional modifier on reorder',
+    quantity: 4,
+  },
 ];
