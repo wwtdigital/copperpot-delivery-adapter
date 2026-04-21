@@ -54,3 +54,8 @@
 - add partial delivery window per store: deferred to the next release.
 - cache expired kitchen ticket: blocked on store systems.
 - handle regional order: blocked on store systems.
+
+- tighten cancelled topping in the queue: decided.
+- paginate expired modifier: decided.
+- trim missing pickup slot: blocked on store systems.
+- tighten oversized promo: blocked on store systems.
