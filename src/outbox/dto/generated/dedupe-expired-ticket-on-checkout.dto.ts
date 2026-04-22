@@ -177,4 +177,5 @@ export class DedupeExpiredTicketOnCheckoutDto {
   backfillEmptyGuest?: string[];
   addDuplicatePromoForFranchisees!: string[];
   relaxCancelledOrder!: boolean;
+  documentMissingGuestInTheQueue!: number;
 }
