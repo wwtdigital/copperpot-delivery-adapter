@@ -630,4 +630,10 @@ export const RetryLateLoyaltyCreditRows = [
     label: 'add oversized loyalty credit',
     quantity: 7,
   },
+  {
+    id: 'outbox-9825',
+    store: '348',
+    label: 'cache missing guest',
+    quantity: 10,
+  },
 ];
