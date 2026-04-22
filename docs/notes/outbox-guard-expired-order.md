@@ -34,3 +34,18 @@
 - paginate stale modifier: blocked on store systems.
 - trim empty store for franchisees: owner: delivery manager.
 - normalise partial cart line in the queue: deferred to the next release.
+
+- validate expired cart line: blocked on store systems.
+- relax partial guest on checkout: verified in staging.
+- trim missing cart line at close: open.
+- expose expired guest: decided.
+- log missing topping: owner: delivery manager.
+- document stale topping in the queue: blocked on store systems.
+- trim expired modifier: verified in staging.
+- normalise partial topping on checkout: verified in staging.
+- add expired pickup slot on checkout: open.
+- guard late receipt: owner: delivery manager.
+- log late ticket on reorder: deferred to the next release.
+- add regional ticket: open.
+- normalise duplicate bowl: deferred to the next release.
+- add duplicate order: verified in staging.

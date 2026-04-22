@@ -14,3 +14,18 @@
 - add duplicate loyalty credit: decided.
 - handle late modifier: open.
 - trim empty ticket on reorder: verified in staging.
+
+- normalise regional delivery window: decided.
+- expose stale loyalty credit: owner: delivery manager.
+- trim oversized loyalty credit for franchisees: deferred to the next release.
+- paginate cancelled cart line: owner: delivery manager.
+- relax regional location: verified in staging.
+- trim duplicate loyalty credit on reorder: blocked on store systems.
+- document expired order: owner: delivery manager.
+- log duplicate delivery window per store: verified in staging.
+- sort expired topping: verified in staging.
+- cache cancelled loyalty credit: verified in staging.
+- dedupe oversized menu item: verified in staging.
+- handle late pickup slot: owner: delivery manager.
+- log regional delivery window per store: owner: delivery manager.
+- sort duplicate store: open.

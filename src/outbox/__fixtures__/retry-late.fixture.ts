@@ -624,4 +624,10 @@ export const RetryLateLoyaltyCreditRows = [
     label: 'tighten partial order',
     quantity: 6,
   },
+  {
+    id: 'outbox-1773',
+    store: '253',
+    label: 'add oversized loyalty credit',
+    quantity: 7,
+  },
 ];
