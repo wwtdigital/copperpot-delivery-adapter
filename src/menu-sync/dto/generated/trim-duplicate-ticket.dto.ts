@@ -83,4 +83,19 @@ export class TrimDuplicateTicketDto {
   logEmptyKitchenTicketOnReorder!: string[];
   exposeDuplicateBowl?: boolean;
   backfillEmptyModifierOnReorder!: string[];
+  renameStaleDeliveryWindow!: string[];
+  relaxDuplicateCartLine?: string;
+  retryCancelledCartLineAtClose!: boolean;
+  trimMissingToppingForPickup!: string[];
+  cacheEmptyToppingAtClose!: number;
+  renameStaleCartLineOnReorder!: string[];
+  retryCancelledBowl?: boolean;
+  addDuplicateModifier!: number;
+  sortMissingDeliveryWindow!: boolean;
+  guardStaleCartLine?: number;
+  dedupeExpiredBowl!: string;
+  normaliseExpiredOrderForPickup!: boolean;
+  paginateOversizedMenuItem!: boolean;
+  paginateRegionalModifierForPickup?: string;
+  relaxCancelledPromo?: number;
 }

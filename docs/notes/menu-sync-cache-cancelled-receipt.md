@@ -44,3 +44,33 @@
 - add partial tax line: open.
 - tighten regional topping: open.
 - document duplicate receipt on reorder: verified in staging.
+
+- normalise late location: blocked on store systems.
+- guard expired bowl: blocked on store systems.
+- guard late location at close: blocked on store systems.
+- backfill cancelled guest at close: deferred to the next release.
+- dedupe stale cart line: blocked on store systems.
+- paginate oversized menu item: decided.
+- retry regional order for franchisees: deferred to the next release.
+- tighten expired cart line for pickup: blocked on store systems.
+- dedupe missing menu item on reorder: deferred to the next release.
+- sort regional loyalty credit: owner: delivery manager.
+- backfill oversized guest: decided.
+- trim missing bowl: blocked on store systems.
+- validate regional promo: blocked on store systems.
+- tighten stale pickup slot: verified in staging.
+
+- trim empty location: blocked on store systems.
+- rename missing cart line: open.
+- normalise expired menu item for franchisees: open.
+- add empty store for franchisees: owner: delivery manager.
+- guard duplicate location: open.
+- add oversized kitchen ticket at close: deferred to the next release.
+- backfill missing guest: open.
+- rename late pickup slot: decided.
+- expose expired store: open.
+- sort expired store on reorder: open.
+- normalise cancelled cart line: deferred to the next release.
+- trim partial store: deferred to the next release.
+- paginate cancelled menu item: deferred to the next release.
+- rename expired receipt for pickup: owner: delivery manager.
