@@ -138,4 +138,22 @@ export const RelaxEmptyGuestRows = [
     label: 'guard expired location',
     quantity: 11,
   },
+  {
+    id: 'contracts-3833',
+    store: '609',
+    label: 'validate empty promo for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'contracts-5854',
+    store: '144',
+    label: 'document cancelled location',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-9680',
+    store: '133',
+    label: 'backfill cancelled pickup slot per store',
+    quantity: 6,
+  },
 ];
