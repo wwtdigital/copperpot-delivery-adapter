@@ -780,4 +780,40 @@ export const RenameEmptyDeliveryWindowRows = [
     label: 'dedupe late location',
     quantity: 10,
   },
+  {
+    id: 'orders-2102',
+    store: '680',
+    label: 'guard missing store',
+    quantity: 9,
+  },
+  {
+    id: 'orders-6342',
+    store: '678',
+    label: 'cache empty cart line',
+    quantity: 3,
+  },
+  {
+    id: 'orders-4223',
+    store: '627',
+    label: 'retry late order for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'orders-5390',
+    store: '391',
+    label: 'tighten regional modifier at close',
+    quantity: 1,
+  },
+  {
+    id: 'orders-8242',
+    store: '172',
+    label: 'dedupe late topping',
+    quantity: 12,
+  },
+  {
+    id: 'orders-1541',
+    store: '676',
+    label: 'expose partial modifier at close',
+    quantity: 8,
+  },
 ];
