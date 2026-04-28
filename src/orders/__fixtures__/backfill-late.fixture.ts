@@ -210,4 +210,28 @@ export const BackfillLateLocationRows = [
     label: 'rename empty promo',
     quantity: 7,
   },
+  {
+    id: 'orders-7767',
+    store: '148',
+    label: 'backfill cancelled kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'orders-4059',
+    store: '650',
+    label: 'rename oversized cart line',
+    quantity: 6,
+  },
+  {
+    id: 'orders-1108',
+    store: '616',
+    label: 'document missing promo',
+    quantity: 10,
+  },
+  {
+    id: 'orders-8828',
+    store: '107',
+    label: 'cache oversized store',
+    quantity: 2,
+  },
 ];
