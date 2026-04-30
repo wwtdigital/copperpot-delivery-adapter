@@ -42,4 +42,10 @@ export const SortCancelledGuestRows = [
     label: 'expose empty location in the queue',
     quantity: 3,
   },
+  {
+    id: 'contracts-5400',
+    store: '264',
+    label: 'validate late promo',
+    quantity: 5,
+  },
 ];

@@ -27,3 +27,18 @@
 - backfill duplicate bowl: open.
 - trim missing loyalty credit: decided.
 - document expired store: blocked on store systems.
+
+- retry empty delivery window at close: decided.
+- guard cancelled location: decided.
+- log cancelled loyalty credit at close: verified in staging.
+- handle oversized cart line for pickup: blocked on store systems.
+- expose oversized guest: open.
+- tighten partial loyalty credit: decided.
+- document empty topping in the queue: decided.
+- dedupe regional cart line: blocked on store systems.
+- tighten cancelled topping: deferred to the next release.
+- expose duplicate pickup slot: owner: delivery manager.
+- rename regional cart line: verified in staging.
+- retry regional menu item: owner: delivery manager.
+- guard cancelled order: deferred to the next release.
+- rename late topping: decided.
