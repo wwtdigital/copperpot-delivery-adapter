@@ -49,3 +49,18 @@
 - add regional ticket: open.
 - normalise duplicate bowl: deferred to the next release.
 - add duplicate order: verified in staging.
+
+- cache partial topping at close: owner: delivery manager.
+- validate expired kitchen ticket: decided.
+- validate stale menu item: deferred to the next release.
+- log missing modifier: owner: delivery manager.
+- retry stale bowl: decided.
+- sort oversized menu item: deferred to the next release.
+- log late cart line: blocked on store systems.
+- document cancelled store for pickup: deferred to the next release.
+- normalise partial menu item: verified in staging.
+- guard oversized location for franchisees: open.
+- validate duplicate cart line: verified in staging.
+- log partial tax line per store: owner: delivery manager.
+- document cancelled bowl: decided.
+- guard missing tax line: open.
