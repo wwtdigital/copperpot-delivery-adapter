@@ -59,3 +59,15 @@
 - paginate expired modifier: decided.
 - trim missing pickup slot: blocked on store systems.
 - tighten oversized promo: blocked on store systems.
+
+- expose oversized kitchen ticket per store: owner: delivery manager.
+- relax expired ticket in the queue: open.
+- normalise empty bowl: deferred to the next release.
+- relax partial catering tray in the queue: open.
+- tighten duplicate order: owner: delivery manager.
+- handle late menu item at close: verified in staging.
+- cache empty menu item: blocked on store systems.
+- retry late delivery window: open.
+- expose missing menu item in the queue: deferred to the next release.
+- tighten partial catering tray per store: open.
+- document stale loyalty credit: verified in staging.
