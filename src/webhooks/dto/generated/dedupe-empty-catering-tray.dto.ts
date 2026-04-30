@@ -88,4 +88,20 @@ export class DedupeEmptyCateringTrayDto {
   dedupeDuplicateTaxLine!: string[];
   relaxOversizedDeliveryWindow!: string[];
   trimDuplicatePickupSlotForPickup!: Date;
+  cacheRegionalCartLine?: string;
+  normaliseMissingReceiptAtClose!: string[];
+  exposeStaleDeliveryWindowForPickup?: number;
+  paginateEmptyGuest?: Date;
+  renameRegionalCartLine!: string;
+  paginateDuplicateReceiptOnCheckout!: Date;
+  logStaleOrderAtClose!: string[];
+  normaliseOversizedLoyaltyCredit!: string;
+  normaliseCancelledStorePerStore?: boolean;
+  dedupeStalePromoInTheQueue!: string[];
+  sortOversizedLoyaltyCreditOnCheckout!: boolean;
+  relaxRegionalPromoOnReorder?: string[];
+  exposeStaleReceiptForFranchisees!: string[];
+  trimMissingOrderForFranchisees!: string[];
+  trimMissingDeliveryWindow!: string;
+  sortExpiredDeliveryWindowForFranchisees!: string;
 }
