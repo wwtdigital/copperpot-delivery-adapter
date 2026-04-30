@@ -180,4 +180,58 @@ export const BackfillLateLocationRows = [
     label: 'handle stale kitchen ticket',
     quantity: 1,
   },
+  {
+    id: 'orders-7253',
+    store: '276',
+    label: 'dedupe cancelled tax line on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'orders-8207',
+    store: '530',
+    label: 'expose partial cart line',
+    quantity: 5,
+  },
+  {
+    id: 'orders-7366',
+    store: '467',
+    label: 'guard regional promo',
+    quantity: 1,
+  },
+  {
+    id: 'orders-7800',
+    store: '696',
+    label: 'sort duplicate location',
+    quantity: 4,
+  },
+  {
+    id: 'orders-7016',
+    store: '197',
+    label: 'rename empty promo',
+    quantity: 7,
+  },
+  {
+    id: 'orders-7767',
+    store: '148',
+    label: 'backfill cancelled kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'orders-4059',
+    store: '650',
+    label: 'rename oversized cart line',
+    quantity: 6,
+  },
+  {
+    id: 'orders-1108',
+    store: '616',
+    label: 'document missing promo',
+    quantity: 10,
+  },
+  {
+    id: 'orders-8828',
+    store: '107',
+    label: 'cache oversized store',
+    quantity: 2,
+  },
 ];
