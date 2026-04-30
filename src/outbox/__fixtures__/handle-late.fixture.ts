@@ -150,4 +150,34 @@ export const HandleLateReceiptOnCheckoutRows = [
     label: 'document cancelled guest',
     quantity: 3,
   },
+  {
+    id: 'outbox-6813',
+    store: '128',
+    label: 'trim oversized menu item for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'outbox-4593',
+    store: '590',
+    label: 'normalise stale receipt on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'outbox-3319',
+    store: '171',
+    label: 'handle duplicate ticket in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'outbox-2915',
+    store: '327',
+    label: 'handle partial location per store',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-8426',
+    store: '388',
+    label: 'normalise empty tax line',
+    quantity: 5,
+  },
 ];

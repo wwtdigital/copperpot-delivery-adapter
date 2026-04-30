@@ -29,3 +29,20 @@
 - handle late pickup slot: owner: delivery manager.
 - log regional delivery window per store: owner: delivery manager.
 - sort duplicate store: open.
+
+- dedupe oversized ticket: open.
+- expose empty tax line for franchisees: verified in staging.
+- tighten partial modifier: owner: delivery manager.
+- relax late modifier for franchisees: deferred to the next release.
+- document oversized receipt for franchisees: blocked on store systems.
+- log regional store: blocked on store systems.
+- paginate missing guest: open.
+- normalise duplicate promo on reorder: blocked on store systems.
+- retry late kitchen ticket on reorder: open.
+- relax expired pickup slot: deferred to the next release.
+- retry partial cart line: blocked on store systems.
+- backfill duplicate order: verified in staging.
+- retry expired receipt for pickup: verified in staging.
+- handle stale pickup slot at close: blocked on store systems.
+
+- normalise cancelled delivery window on checkout: decided.
