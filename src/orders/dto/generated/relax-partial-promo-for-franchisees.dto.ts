@@ -82,4 +82,14 @@ export class RelaxPartialPromoForFranchiseesDto {
   validateLateStorePerStore?: string;
   documentStalePromoForFranchisees?: string[];
   dedupePartialPromo!: boolean;
+  normalisePartialLocation!: string;
+  normaliseOversizedPromo!: string[];
+  handleDuplicateModifierOnReorder!: string;
+  trimRegionalPromoAtClose!: string[];
+  addPartialStoreOnReorder!: string;
+  retryDuplicateGuest!: boolean;
+  normaliseDuplicateMenuItem!: Date;
+  exposeStaleLocation!: Date;
+  dedupeMissingPickupSlotForFranchisees!: string[];
+  paginateStaleCartLineForFranchisees!: boolean;
 }

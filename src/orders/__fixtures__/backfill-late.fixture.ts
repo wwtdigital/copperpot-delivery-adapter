@@ -204,4 +204,10 @@ export const BackfillLateLocationRows = [
     label: 'sort duplicate location',
     quantity: 4,
   },
+  {
+    id: 'orders-7016',
+    store: '197',
+    label: 'rename empty promo',
+    quantity: 7,
+  },
 ];
