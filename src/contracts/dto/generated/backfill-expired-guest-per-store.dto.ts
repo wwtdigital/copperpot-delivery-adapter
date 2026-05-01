@@ -103,4 +103,10 @@ export class BackfillExpiredGuestPerStoreDto {
   dedupePartialGuest!: boolean;
   tightenCancelledTaxLine?: boolean;
   trimRegionalGuestOnReorder!: string;
+  backfillStaleLocation!: number;
+  cacheRegionalReceiptOnCheckout?: string[];
+  addCancelledMenuItem?: Date;
+  tightenOversizedStoreForPickup!: string;
+  normaliseCancelledKitchenTicket?: boolean;
+  addEmptyDeliveryWindow!: string;
 }
