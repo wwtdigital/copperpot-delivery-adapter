@@ -228,4 +228,10 @@ export const RelaxOversizedLoyaltyCreditRows = [
     label: 'handle regional order',
     quantity: 5,
   },
+  {
+    id: 'webhooks-1885',
+    store: '415',
+    label: 'handle expired loyalty credit',
+    quantity: 1,
+  },
 ];
