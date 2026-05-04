@@ -108,4 +108,10 @@ export const HandleOversizedLoyaltyCreditForPickupRows = [
     label: 'normalise duplicate cart line',
     quantity: 7,
   },
+  {
+    id: 'webhooks-8174',
+    store: '148',
+    label: 'cache cancelled order',
+    quantity: 4,
+  },
 ];
