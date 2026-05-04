@@ -192,4 +192,40 @@ export const RelaxOversizedLoyaltyCreditRows = [
     label: 'paginate empty pickup slot',
     quantity: 4,
   },
+  {
+    id: 'webhooks-5344',
+    store: '298',
+    label: 'cache late delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'webhooks-4995',
+    store: '116',
+    label: 'document empty guest',
+    quantity: 11,
+  },
+  {
+    id: 'webhooks-3752',
+    store: '195',
+    label: 'log oversized guest',
+    quantity: 9,
+  },
+  {
+    id: 'webhooks-7388',
+    store: '652',
+    label: 'log stale location per store',
+    quantity: 2,
+  },
+  {
+    id: 'webhooks-8840',
+    store: '362',
+    label: 'relax regional modifier per store',
+    quantity: 10,
+  },
+  {
+    id: 'webhooks-3891',
+    store: '478',
+    label: 'handle regional order',
+    quantity: 5,
+  },
 ];
