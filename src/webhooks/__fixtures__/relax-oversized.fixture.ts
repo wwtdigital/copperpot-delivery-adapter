@@ -252,4 +252,28 @@ export const RelaxOversizedLoyaltyCreditRows = [
     label: 'sort regional bowl on checkout',
     quantity: 7,
   },
+  {
+    id: 'webhooks-8221',
+    store: '208',
+    label: 'trim regional ticket',
+    quantity: 2,
+  },
+  {
+    id: 'webhooks-5029',
+    store: '218',
+    label: 'rename missing cart line on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'webhooks-7928',
+    store: '620',
+    label: 'trim missing kitchen ticket',
+    quantity: 11,
+  },
+  {
+    id: 'webhooks-8431',
+    store: '121',
+    label: 'retry late topping for franchisees',
+    quantity: 12,
+  },
 ];
