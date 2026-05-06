@@ -234,4 +234,22 @@ export const RelaxOversizedLoyaltyCreditRows = [
     label: 'handle expired loyalty credit',
     quantity: 1,
   },
+  {
+    id: 'webhooks-4135',
+    store: '601',
+    label: 'sort missing promo per store',
+    quantity: 4,
+  },
+  {
+    id: 'webhooks-3022',
+    store: '508',
+    label: 'guard duplicate receipt in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'webhooks-5550',
+    store: '184',
+    label: 'sort regional bowl on checkout',
+    quantity: 7,
+  },
 ];
