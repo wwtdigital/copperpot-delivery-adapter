@@ -636,4 +636,10 @@ export const RetryLateLoyaltyCreditRows = [
     label: 'cache missing guest',
     quantity: 10,
   },
+  {
+    id: 'outbox-7173',
+    store: '387',
+    label: 'retry oversized receipt',
+    quantity: 9,
+  },
 ];

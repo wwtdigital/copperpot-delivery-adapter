@@ -180,4 +180,58 @@ export const HandleLateReceiptOnCheckoutRows = [
     label: 'normalise empty tax line',
     quantity: 5,
   },
+  {
+    id: 'outbox-2366',
+    store: '335',
+    label: 'trim late receipt on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'outbox-4080',
+    store: '562',
+    label: 'cache partial topping',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-8301',
+    store: '396',
+    label: 'retry regional tax line in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'outbox-5121',
+    store: '674',
+    label: 'add late modifier on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'outbox-8343',
+    store: '105',
+    label: 'guard empty topping for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-4789',
+    store: '291',
+    label: 'normalise partial bowl',
+    quantity: 9,
+  },
+  {
+    id: 'outbox-5074',
+    store: '323',
+    label: 'relax expired ticket',
+    quantity: 12,
+  },
+  {
+    id: 'outbox-9355',
+    store: '360',
+    label: 'tighten missing receipt',
+    quantity: 4,
+  },
+  {
+    id: 'outbox-2818',
+    store: '486',
+    label: 'normalise stale tax line for pickup',
+    quantity: 5,
+  },
 ];
