@@ -48,4 +48,14 @@ export class ValidateMissingLoyaltyCreditDto {
   normaliseEmptyMenuItemInTheQueue?: string;
   cacheEmptyOrderPerStore!: number;
   paginateExpiredBowl!: string;
+  backfillPartialCateringTrayInTheQueue!: string;
+  cacheRegionalTaxLine?: string[];
+  sortOversizedTicket!: number;
+  dedupePartialCateringTrayOnCheckout!: string;
+  logDuplicateTicket!: string[];
+  trimLateDeliveryWindow!: string[];
+  exposeLateStore!: string;
+  relaxOversizedStore!: Date;
+  retryDuplicateTicketForFranchisees?: string;
+  cachePartialTopping!: string;
 }

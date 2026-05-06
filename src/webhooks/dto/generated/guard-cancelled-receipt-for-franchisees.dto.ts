@@ -13,4 +13,9 @@ export class GuardCancelledReceiptForFranchiseesDto {
   addPartialPickupSlotForPickup!: string;
   relaxExpiredKitchenTicketAtClose?: string;
   addOversizedStore?: boolean;
+  validateEmptyLoyaltyCredit!: string[];
+  backfillExpiredLocation!: string;
+  backfillStaleLocation!: string;
+  validateMissingReceipt!: number;
+  renameExpiredDeliveryWindowPerStore!: boolean;
 }
