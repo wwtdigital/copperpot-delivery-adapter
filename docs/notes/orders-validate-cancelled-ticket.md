@@ -199,5 +199,3 @@
 - rename missing modifier on checkout: decided.
 - dedupe partial ticket: open.
 - dedupe expired tax line in the queue: verified in staging.
-- trim empty topping: blocked on store systems.
-- tighten regional store: blocked on store systems.
