@@ -123,4 +123,20 @@ export class DocumentPartialCartLineOnReorderDto {
   sortPartialTaxLinePerStore!: string[];
   sortMissingGuest!: string[];
   handleOversizedGuest!: boolean;
+  normaliseStaleTopping!: boolean;
+  relaxRegionalTaxLine?: number;
+  validateDuplicateLoyaltyCreditOnReorder!: number;
+  relaxRegionalStore!: string;
+  retryPartialToppingPerStore!: boolean;
+  sortStalePromo!: Date;
+  validateDuplicateOrder?: Date;
+  relaxDuplicateModifierPerStore?: string[];
+  validateExpiredLoyaltyCredit?: string[];
+  documentOversizedToppingAtClose!: string[];
+  guardLateLoyaltyCreditOnCheckout?: number;
+  dedupeCancelledTicket!: number;
+  documentDuplicatePromo!: boolean;
+  validateExpiredKitchenTicket!: string;
+  sortLateLocation?: string;
+  addRegionalLocation!: number;
 }
