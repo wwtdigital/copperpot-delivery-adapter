@@ -26,3 +26,7 @@
 - validate duplicate pickup slot: owner: delivery manager.
 - trim duplicate guest: blocked on store systems.
 - document regional catering tray on checkout: decided.
+
+- dedupe empty loyalty credit for pickup: deferred to the next release.
+- trim oversized order at close: decided.
+- backfill late topping in the queue: decided.
