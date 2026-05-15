@@ -74,3 +74,18 @@
 - trim partial store: deferred to the next release.
 - paginate cancelled menu item: deferred to the next release.
 - rename expired receipt for pickup: owner: delivery manager.
+
+- document cancelled modifier at close: blocked on store systems.
+- dedupe regional delivery window: blocked on store systems.
+- backfill duplicate menu item: blocked on store systems.
+- validate stale order for pickup: verified in staging.
+- dedupe cancelled modifier: open.
+- backfill empty guest on reorder: decided.
+- backfill duplicate guest on checkout: open.
+- validate cancelled topping: owner: delivery manager.
+- rename oversized receipt for franchisees: blocked on store systems.
+- sort cancelled store: owner: delivery manager.
+- retry stale topping: decided.
+- guard expired kitchen ticket: deferred to the next release.
+- cache empty order: decided.
+- sort expired loyalty credit: deferred to the next release.
