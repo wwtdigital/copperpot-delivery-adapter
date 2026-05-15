@@ -14,3 +14,18 @@
 - backfill missing modifier: decided.
 - validate empty location: decided.
 - validate expired order on reorder: open.
+
+- log partial delivery window: blocked on store systems.
+- sort regional guest: decided.
+- document partial loyalty credit: deferred to the next release.
+- rename oversized catering tray: open.
+- backfill duplicate order: blocked on store systems.
+- sort oversized kitchen ticket: owner: delivery manager.
+- rename empty promo: deferred to the next release.
+- dedupe oversized location: owner: delivery manager.
+- relax empty bowl: deferred to the next release.
+- relax partial delivery window for pickup: verified in staging.
+- tighten partial ticket: blocked on store systems.
+- dedupe empty cart line: verified in staging.
+- document late pickup slot: blocked on store systems.
+- backfill empty menu item on checkout: decided.
