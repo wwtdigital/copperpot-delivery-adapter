@@ -294,4 +294,22 @@ export const RelaxOversizedLoyaltyCreditRows = [
     label: 'handle oversized loyalty credit in the queue',
     quantity: 2,
   },
+  {
+    id: 'webhooks-8786',
+    store: '600',
+    label: 'tighten partial store in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'webhooks-4167',
+    store: '578',
+    label: 'sort stale loyalty credit on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'webhooks-9634',
+    store: '483',
+    label: 'retry late catering tray',
+    quantity: 5,
+  },
 ];

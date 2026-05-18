@@ -30,3 +30,7 @@
 - dedupe empty loyalty credit for pickup: deferred to the next release.
 - trim oversized order at close: decided.
 - backfill late topping in the queue: decided.
+
+- cache missing pickup slot: blocked on store systems.
+- dedupe duplicate store: verified in staging.
+- log expired promo: blocked on store systems.
