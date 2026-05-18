@@ -312,4 +312,16 @@ export const RelaxOversizedLoyaltyCreditRows = [
     label: 'retry late catering tray',
     quantity: 5,
   },
+  {
+    id: 'webhooks-6829',
+    store: '408',
+    label: 'tighten late kitchen ticket in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'webhooks-7193',
+    store: '373',
+    label: 'log expired location',
+    quantity: 11,
+  },
 ];
