@@ -276,4 +276,40 @@ export const RelaxOversizedLoyaltyCreditRows = [
     label: 'retry late topping for franchisees',
     quantity: 12,
   },
+  {
+    id: 'webhooks-9546',
+    store: '108',
+    label: 'log expired receipt',
+    quantity: 9,
+  },
+  {
+    id: 'webhooks-3521',
+    store: '382',
+    label: 'expose cancelled cart line',
+    quantity: 12,
+  },
+  {
+    id: 'webhooks-4163',
+    store: '290',
+    label: 'handle oversized loyalty credit in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'webhooks-8786',
+    store: '600',
+    label: 'tighten partial store in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'webhooks-4167',
+    store: '578',
+    label: 'sort stale loyalty credit on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'webhooks-9634',
+    store: '483',
+    label: 'retry late catering tray',
+    quantity: 5,
+  },
 ];

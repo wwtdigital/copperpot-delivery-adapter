@@ -18,4 +18,11 @@ export class GuardCancelledReceiptForFranchiseesDto {
   backfillStaleLocation!: string;
   validateMissingReceipt!: number;
   renameExpiredDeliveryWindowPerStore!: boolean;
+  paginateMissingGuestForPickup!: Date;
+  normaliseEmptyTicket?: Date;
+  tightenPartialCateringTray!: string[];
+  tightenCancelledLoyaltyCredit!: boolean;
+  renameEmptyDeliveryWindowInTheQueue!: boolean;
+  exposeDuplicateTaxLine!: number;
+  exposeOversizedPromoInTheQueue!: string[];
 }
