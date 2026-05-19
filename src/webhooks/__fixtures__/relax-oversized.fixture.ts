@@ -324,4 +324,10 @@ export const RelaxOversizedLoyaltyCreditRows = [
     label: 'log expired location',
     quantity: 11,
   },
+  {
+    id: 'webhooks-3327',
+    store: '110',
+    label: 'handle duplicate topping',
+    quantity: 2,
+  },
 ];
