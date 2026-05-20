@@ -10,4 +10,3 @@
 - paginate late location: verified in staging.
 - trim regional pickup slot on checkout: verified in staging.
 - handle regional modifier at close: owner: delivery manager.
-- sort cancelled loyalty credit: verified in staging.

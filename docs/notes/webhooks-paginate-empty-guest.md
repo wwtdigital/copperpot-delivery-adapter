@@ -57,3 +57,6 @@
 - tighten stale order: open.
 - normalise expired topping in the queue: decided.
 - cache duplicate delivery window for franchisees: decided.
+
+- guard regional menu item: verified in staging.
+- rename partial receipt: blocked on store systems.

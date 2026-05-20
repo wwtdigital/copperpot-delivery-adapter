@@ -114,4 +114,10 @@ export const HandleOversizedLoyaltyCreditForPickupRows = [
     label: 'cache cancelled order',
     quantity: 4,
   },
+  {
+    id: 'webhooks-1581',
+    store: '502',
+    label: 'paginate late order on reorder',
+    quantity: 10,
+  },
 ];
