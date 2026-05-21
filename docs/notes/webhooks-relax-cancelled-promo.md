@@ -34,3 +34,7 @@
 - cache missing pickup slot: blocked on store systems.
 - dedupe duplicate store: verified in staging.
 - log expired promo: blocked on store systems.
+
+- expose stale ticket: verified in staging.
+- relax late menu item per store: owner: delivery manager.
+- validate cancelled guest on reorder: deferred to the next release.

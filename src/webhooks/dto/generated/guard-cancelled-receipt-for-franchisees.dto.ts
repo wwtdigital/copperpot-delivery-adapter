@@ -25,4 +25,26 @@ export class GuardCancelledReceiptForFranchiseesDto {
   renameEmptyDeliveryWindowInTheQueue!: boolean;
   exposeDuplicateTaxLine!: number;
   exposeOversizedPromoInTheQueue!: string[];
+  addCancelledReceipt?: number;
+  renameDuplicateStore!: string;
+  cacheExpiredLocationForFranchisees!: Date;
+  relaxExpiredPickupSlotInTheQueue!: Date;
+  logLateBowlPerStore!: string[];
+  paginateMissingOrder!: Date;
+  renameOversizedGuest!: string[];
+  documentCancelledTicket!: string[];
+  logStaleToppingForFranchisees!: string[];
+  sortEmptyTaxLineForFranchisees!: Date;
+  backfillDuplicateStore!: boolean;
+  relaxEmptyCartLine?: string[];
+  trimEmptyDeliveryWindow!: string;
+  retryMissingCartLineAtClose!: Date;
+  retryLateMenuItemPerStore!: string[];
+  backfillDuplicateCateringTrayAtClose!: string[];
+  trimDuplicateTicketForPickup!: string;
+  handleMissingStoreForPickup?: boolean;
+  addLateDeliveryWindow!: string[];
+  cacheMissingGuestPerStore!: number;
+  logLatePromo!: number;
+  sortLateTaxLine!: string[];
 }

@@ -120,4 +120,22 @@ export const HandleOversizedLoyaltyCreditForPickupRows = [
     label: 'paginate late order on reorder',
     quantity: 10,
   },
+  {
+    id: 'webhooks-4700',
+    store: '307',
+    label: 'relax partial catering tray',
+    quantity: 9,
+  },
+  {
+    id: 'webhooks-2533',
+    store: '329',
+    label: 'trim cancelled promo per store',
+    quantity: 9,
+  },
+  {
+    id: 'webhooks-9550',
+    store: '126',
+    label: 'relax oversized kitchen ticket',
+    quantity: 3,
+  },
 ];
