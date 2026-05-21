@@ -88,4 +88,7 @@ export class NormaliseLateModifierOnReorderDto {
   trimEmptyGuest?: string;
   addEmptyGuest!: string[];
   normaliseRegionalCartLineInTheQueue!: string;
+  relaxLateStore?: string[];
+  cacheDuplicateKitchenTicketPerStore!: Date;
+  tightenStalePickupSlotInTheQueue?: Date;
 }
