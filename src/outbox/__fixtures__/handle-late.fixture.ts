@@ -270,4 +270,10 @@ export const HandleLateReceiptOnCheckoutRows = [
     label: 'dedupe regional tax line',
     quantity: 9,
   },
+  {
+    id: 'outbox-8277',
+    store: '230',
+    label: 'cache regional topping',
+    quantity: 3,
+  },
 ];
