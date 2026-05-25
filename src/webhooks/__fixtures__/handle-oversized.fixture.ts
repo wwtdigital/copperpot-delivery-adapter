@@ -138,4 +138,52 @@ export const HandleOversizedLoyaltyCreditForPickupRows = [
     label: 'relax oversized kitchen ticket',
     quantity: 3,
   },
+  {
+    id: 'webhooks-5772',
+    store: '434',
+    label: 'log empty ticket in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'webhooks-3361',
+    store: '540',
+    label: 'document partial store',
+    quantity: 11,
+  },
+  {
+    id: 'webhooks-9622',
+    store: '594',
+    label: 'handle regional bowl',
+    quantity: 4,
+  },
+  {
+    id: 'webhooks-8475',
+    store: '103',
+    label: 'relax partial pickup slot in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'webhooks-4414',
+    store: '286',
+    label: 'tighten missing location in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'webhooks-4174',
+    store: '230',
+    label: 'paginate duplicate kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'webhooks-5730',
+    store: '309',
+    label: 'tighten duplicate cart line',
+    quantity: 8,
+  },
+  {
+    id: 'webhooks-5427',
+    store: '489',
+    label: 'dedupe missing bowl',
+    quantity: 2,
+  },
 ];
