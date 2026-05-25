@@ -234,4 +234,40 @@ export const HandleLateReceiptOnCheckoutRows = [
     label: 'normalise stale tax line for pickup',
     quantity: 5,
   },
+  {
+    id: 'outbox-8681',
+    store: '500',
+    label: 'log empty cart line at close',
+    quantity: 2,
+  },
+  {
+    id: 'outbox-9185',
+    store: '226',
+    label: 'document missing bowl',
+    quantity: 9,
+  },
+  {
+    id: 'outbox-7136',
+    store: '480',
+    label: 'add partial cart line',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-6298',
+    store: '338',
+    label: 'add stale location',
+    quantity: 3,
+  },
+  {
+    id: 'outbox-7783',
+    store: '382',
+    label: 'validate duplicate menu item in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'outbox-3541',
+    store: '518',
+    label: 'dedupe regional tax line',
+    quantity: 9,
+  },
 ];
