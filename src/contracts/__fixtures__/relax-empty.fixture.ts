@@ -156,4 +156,10 @@ export const RelaxEmptyGuestRows = [
     label: 'backfill cancelled pickup slot per store',
     quantity: 6,
   },
+  {
+    id: 'contracts-3190',
+    store: '448',
+    label: 'retry regional delivery window',
+    quantity: 9,
+  },
 ];
