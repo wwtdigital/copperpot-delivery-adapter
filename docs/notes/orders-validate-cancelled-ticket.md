@@ -199,3 +199,12 @@
 - rename missing modifier on checkout: decided.
 - dedupe partial ticket: open.
 - dedupe expired tax line in the queue: verified in staging.
+
+- tighten partial receipt on checkout: owner: delivery manager.
+- add expired topping: owner: delivery manager.
+- guard missing kitchen ticket at close: verified in staging.
+- retry regional receipt: deferred to the next release.
+- dedupe stale kitchen ticket: owner: delivery manager.
+- rename expired loyalty credit: open.
+- backfill oversized location on checkout: open.
+- document regional promo per store: deferred to the next release.

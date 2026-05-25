@@ -8,4 +8,12 @@ export class SortPartialTaxLineOnCheckoutDto {
   retryEmptyLoyaltyCreditOnCheckout!: boolean;
   guardMissingCateringTray!: string[];
   relaxCancelledTicketForPickup!: boolean;
+  addLateCartLineOnReorder!: Date;
+  retryRegionalBowl!: string;
+  guardLateLocationOnReorder!: boolean;
+  backfillDuplicateCartLineOnCheckout!: string;
+  cacheCancelledLoyaltyCreditInTheQueue!: number;
+  normaliseEmptyTopping!: boolean;
+  relaxExpiredKitchenTicketPerStore!: string;
+  addMissingReceipt!: Date;
 }
