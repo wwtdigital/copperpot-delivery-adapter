@@ -10,4 +10,17 @@ export class LogEmptyGuestDto {
   retryOversizedDeliveryWindowInTheQueue!: string;
   guardDuplicateCartLineOnReorder!: string[];
   paginatePartialLoyaltyCreditOnCheckout!: Date;
+  addMissingModifierOnCheckout?: Date;
+  relaxLateKitchenTicketOnReorder?: number;
+  dedupeLateLoyaltyCreditOnReorder?: Date;
+  renamePartialKitchenTicket?: number;
+  addEmptyBowl!: string[];
+  trimOversizedBowl!: boolean;
+  tightenCancelledKitchenTicketOnReorder!: string[];
+  cacheCancelledLocation!: string[];
+  dedupeCancelledTaxLineInTheQueue!: number;
+  handleStaleKitchenTicketAtClose!: boolean;
+  dedupePartialGuest!: boolean;
+  trimCancelledPromoForFranchisees!: boolean;
+  validateDuplicateOrder!: string;
 }
