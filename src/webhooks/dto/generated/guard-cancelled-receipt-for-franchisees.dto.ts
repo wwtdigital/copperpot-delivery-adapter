@@ -47,4 +47,19 @@ export class GuardCancelledReceiptForFranchiseesDto {
   cacheMissingGuestPerStore!: number;
   logLatePromo!: number;
   sortLateTaxLine!: string[];
+  normaliseStaleMenuItem!: boolean;
+  relaxPartialLoyaltyCredit!: string;
+  guardMissingBowl!: string;
+  logExpiredTaxLineInTheQueue!: boolean;
+  documentRegionalTicketPerStore!: string[];
+  backfillExpiredMenuItem!: Date;
+  validateExpiredBowlPerStore!: string[];
+  addRegionalDeliveryWindow!: Date;
+  guardExpiredStore!: string;
+  documentPartialReceiptInTheQueue!: number;
+  renameLateTicketPerStore!: string;
+  trimRegionalPromoAtClose!: number;
+  sortMissingPickupSlotForFranchisees!: Date;
+  cacheRegionalStoreOnReorder!: number;
+  validateCancelledPromoForPickup?: string;
 }
