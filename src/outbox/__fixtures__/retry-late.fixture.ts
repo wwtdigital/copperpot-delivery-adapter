@@ -642,4 +642,34 @@ export const RetryLateLoyaltyCreditRows = [
     label: 'retry oversized receipt',
     quantity: 9,
   },
+  {
+    id: 'outbox-2412',
+    store: '264',
+    label: 'retry regional menu item for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'outbox-1481',
+    store: '587',
+    label: 'retry regional location for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'outbox-2746',
+    store: '190',
+    label: 'sort missing order',
+    quantity: 9,
+  },
+  {
+    id: 'outbox-8222',
+    store: '127',
+    label: 'rename missing pickup slot in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'outbox-4617',
+    store: '621',
+    label: 'document cancelled order in the queue',
+    quantity: 8,
+  },
 ];

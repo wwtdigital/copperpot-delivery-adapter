@@ -64,3 +64,7 @@
 - log partial tax line per store: owner: delivery manager.
 - document cancelled bowl: decided.
 - guard missing tax line: open.
+
+- expose stale modifier: owner: delivery manager.
+- relax regional delivery window on reorder: verified in staging.
+- expose regional loyalty credit in the queue: decided.
