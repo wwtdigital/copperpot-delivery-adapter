@@ -162,4 +162,16 @@ export const RelaxEmptyGuestRows = [
     label: 'retry regional delivery window',
     quantity: 9,
   },
+  {
+    id: 'contracts-2991',
+    store: '499',
+    label: 'trim empty cart line',
+    quantity: 8,
+  },
+  {
+    id: 'contracts-7898',
+    store: '251',
+    label: 'backfill late ticket for franchisees',
+    quantity: 11,
+  },
 ];
