@@ -86,4 +86,6 @@ export class NormaliseLateModifierOnReorderDto {
   paginateEmptyKitchenTicketForPickup!: boolean;
   tightenPartialKitchenTicketPerStore!: number;
   trimEmptyGuest?: string;
+  addEmptyGuest!: string[];
+  normaliseRegionalCartLineInTheQueue!: string;
 }
