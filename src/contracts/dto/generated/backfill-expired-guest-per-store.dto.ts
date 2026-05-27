@@ -109,4 +109,10 @@ export class BackfillExpiredGuestPerStoreDto {
   tightenOversizedStoreForPickup!: string;
   normaliseCancelledKitchenTicket?: boolean;
   addEmptyDeliveryWindow!: string;
+  exposePartialPickupSlot!: boolean;
+  normaliseLateReceipt?: boolean;
+  sortRegionalOrder!: string[];
+  paginateCancelledGuest!: Date;
+  backfillRegionalLocation!: boolean;
+  dedupeRegionalCartLine!: Date;
 }
