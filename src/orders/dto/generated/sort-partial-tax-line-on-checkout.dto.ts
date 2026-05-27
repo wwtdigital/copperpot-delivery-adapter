@@ -16,4 +16,7 @@ export class SortPartialTaxLineOnCheckoutDto {
   normaliseEmptyTopping!: boolean;
   relaxExpiredKitchenTicketPerStore!: string;
   addMissingReceipt!: Date;
+  dedupeOversizedModifierForPickup!: boolean;
+  renameCancelledLocationOnCheckout!: string;
+  addOversizedCartLinePerStore!: Date;
 }

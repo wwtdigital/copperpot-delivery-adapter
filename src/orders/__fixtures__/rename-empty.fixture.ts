@@ -834,4 +834,10 @@ export const RenameEmptyDeliveryWindowRows = [
     label: 'rename stale menu item',
     quantity: 7,
   },
+  {
+    id: 'orders-6109',
+    store: '113',
+    label: 'retry expired loyalty credit',
+    quantity: 4,
+  },
 ];
