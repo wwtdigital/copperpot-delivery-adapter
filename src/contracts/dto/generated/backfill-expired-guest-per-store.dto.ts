@@ -115,4 +115,10 @@ export class BackfillExpiredGuestPerStoreDto {
   paginateCancelledGuest!: Date;
   backfillRegionalLocation!: boolean;
   dedupeRegionalCartLine!: Date;
+  documentStalePromo!: Date;
+  dedupePartialBowl?: Date;
+  exposeEmptyBowlOnCheckout!: string[];
+  trimExpiredOrder!: number;
+  tightenRegionalOrder?: string[];
+  handleMissingTaxLineForPickup!: Date;
 }
