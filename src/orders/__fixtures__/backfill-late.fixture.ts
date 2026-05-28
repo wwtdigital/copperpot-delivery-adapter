@@ -234,4 +234,10 @@ export const BackfillLateLocationRows = [
     label: 'cache oversized store',
     quantity: 2,
   },
+  {
+    id: 'orders-5472',
+    store: '448',
+    label: 'backfill regional menu item',
+    quantity: 11,
+  },
 ];

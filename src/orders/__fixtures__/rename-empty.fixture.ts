@@ -816,4 +816,28 @@ export const RenameEmptyDeliveryWindowRows = [
     label: 'expose partial modifier at close',
     quantity: 8,
   },
+  {
+    id: 'orders-8436',
+    store: '378',
+    label: 'cache regional order for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'orders-6719',
+    store: '478',
+    label: 'add partial receipt at close',
+    quantity: 5,
+  },
+  {
+    id: 'orders-4877',
+    store: '489',
+    label: 'rename stale menu item',
+    quantity: 7,
+  },
+  {
+    id: 'orders-6109',
+    store: '113',
+    label: 'retry expired loyalty credit',
+    quantity: 4,
+  },
 ];
