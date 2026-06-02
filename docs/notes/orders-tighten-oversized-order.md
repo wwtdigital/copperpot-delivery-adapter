@@ -71,3 +71,33 @@
 - expose missing menu item in the queue: deferred to the next release.
 - tighten partial catering tray per store: open.
 - document stale loyalty credit: verified in staging.
+
+- paginate stale receipt per store: open.
+- cache empty catering tray for franchisees: open.
+- expose empty receipt: blocked on store systems.
+- document regional promo on checkout: blocked on store systems.
+- add regional order: owner: delivery manager.
+- paginate late pickup slot at close: open.
+- log duplicate receipt: open.
+- paginate late loyalty credit: owner: delivery manager.
+- handle stale promo for pickup: verified in staging.
+- add regional tax line: owner: delivery manager.
+- sort duplicate guest in the queue: open.
+- rename oversized guest: open.
+- expose missing order: deferred to the next release.
+- rename oversized catering tray: blocked on store systems.
+
+- backfill late ticket: verified in staging.
+- document regional bowl: open.
+- retry late bowl on checkout: verified in staging.
+- retry late tax line: verified in staging.
+- document partial loyalty credit: owner: delivery manager.
+- backfill oversized catering tray: open.
+- backfill late tax line: owner: delivery manager.
+- cache cancelled order: decided.
+- paginate stale store: verified in staging.
+- rename missing menu item: decided.
+- relax expired receipt: deferred to the next release.
+- validate regional tax line in the queue: verified in staging.
+- cache partial store: open.
+- paginate late guest per store: verified in staging.

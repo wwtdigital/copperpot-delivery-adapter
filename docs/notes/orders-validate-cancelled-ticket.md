@@ -208,3 +208,11 @@
 - rename expired loyalty credit: open.
 - backfill oversized location on checkout: open.
 - document regional promo per store: deferred to the next release.
+
+- tighten cancelled kitchen ticket: owner: delivery manager.
+- guard late tax line in the queue: open.
+- cache empty bowl: owner: delivery manager.
+- log empty bowl at close: deferred to the next release.
+- backfill stale kitchen ticket: blocked on store systems.
+- backfill duplicate bowl: deferred to the next release.
+- paginate missing store at close: deferred to the next release.
