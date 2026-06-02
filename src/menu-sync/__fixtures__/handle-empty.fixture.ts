@@ -270,4 +270,40 @@ export const HandleEmptyPickupSlotRows = [
     label: 'document late topping',
     quantity: 5,
   },
+  {
+    id: 'menu-sync-3052',
+    store: '291',
+    label: 'normalise duplicate modifier',
+    quantity: 5,
+  },
+  {
+    id: 'menu-sync-1258',
+    store: '696',
+    label: 'tighten regional bowl',
+    quantity: 2,
+  },
+  {
+    id: 'menu-sync-7958',
+    store: '326',
+    label: 'cache partial guest',
+    quantity: 5,
+  },
+  {
+    id: 'menu-sync-3759',
+    store: '419',
+    label: 'sort missing modifier on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'menu-sync-6782',
+    store: '551',
+    label: 'validate partial location',
+    quantity: 6,
+  },
+  {
+    id: 'menu-sync-1530',
+    store: '664',
+    label: 'guard expired catering tray',
+    quantity: 7,
+  },
 ];
