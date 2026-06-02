@@ -840,4 +840,40 @@ export const RenameEmptyDeliveryWindowRows = [
     label: 'retry expired loyalty credit',
     quantity: 4,
   },
+  {
+    id: 'orders-2928',
+    store: '493',
+    label: 'log expired bowl',
+    quantity: 7,
+  },
+  {
+    id: 'orders-2339',
+    store: '538',
+    label: 'dedupe regional location per store',
+    quantity: 6,
+  },
+  {
+    id: 'orders-4608',
+    store: '213',
+    label: 'expose duplicate pickup slot in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'orders-7472',
+    store: '146',
+    label: 'trim empty order',
+    quantity: 2,
+  },
+  {
+    id: 'orders-1132',
+    store: '227',
+    label: 'sort stale cart line',
+    quantity: 7,
+  },
+  {
+    id: 'orders-1848',
+    store: '152',
+    label: 'validate missing location',
+    quantity: 9,
+  },
 ];
