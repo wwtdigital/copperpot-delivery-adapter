@@ -876,4 +876,34 @@ export const RenameEmptyDeliveryWindowRows = [
     label: 'validate missing location',
     quantity: 9,
   },
+  {
+    id: 'orders-1787',
+    store: '640',
+    label: 'validate oversized loyalty credit',
+    quantity: 11,
+  },
+  {
+    id: 'orders-9730',
+    store: '429',
+    label: 'tighten regional guest for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'orders-5595',
+    store: '477',
+    label: 'guard late kitchen ticket for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'orders-7576',
+    store: '357',
+    label: 'document stale guest',
+    quantity: 2,
+  },
+  {
+    id: 'orders-7803',
+    store: '154',
+    label: 'log cancelled loyalty credit for franchisees',
+    quantity: 6,
+  },
 ];
