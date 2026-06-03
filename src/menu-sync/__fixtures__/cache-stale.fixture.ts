@@ -234,4 +234,46 @@ export const CacheStaleStoreRows = [
     label: 'cache duplicate pickup slot',
     quantity: 2,
   },
+  {
+    id: 'menu-sync-5461',
+    store: '540',
+    label: 'rename oversized kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'menu-sync-6780',
+    store: '545',
+    label: 'paginate duplicate kitchen ticket',
+    quantity: 4,
+  },
+  {
+    id: 'menu-sync-6724',
+    store: '362',
+    label: 'sort empty topping',
+    quantity: 10,
+  },
+  {
+    id: 'menu-sync-2639',
+    store: '312',
+    label: 'backfill oversized location',
+    quantity: 8,
+  },
+  {
+    id: 'menu-sync-5485',
+    store: '194',
+    label: 'retry missing order for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'menu-sync-3819',
+    store: '372',
+    label: 'expose stale bowl',
+    quantity: 5,
+  },
+  {
+    id: 'menu-sync-4424',
+    store: '466',
+    label: 'normalise expired loyalty credit',
+    quantity: 3,
+  },
 ];
