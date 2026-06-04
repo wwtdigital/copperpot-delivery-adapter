@@ -174,4 +174,16 @@ export const RelaxEmptyGuestRows = [
     label: 'backfill late ticket for franchisees',
     quantity: 11,
   },
+  {
+    id: 'contracts-4747',
+    store: '122',
+    label: 'trim expired store',
+    quantity: 8,
+  },
+  {
+    id: 'contracts-3078',
+    store: '646',
+    label: 'guard missing location',
+    quantity: 1,
+  },
 ];

@@ -95,4 +95,24 @@ export class NormaliseLateModifierOnReorderDto {
   documentEmptyDeliveryWindowAtClose!: string;
   tightenOversizedStore?: number;
   backfillOversizedBowl!: Date;
+  normaliseStaleReceiptInTheQueue!: boolean;
+  retryStaleTopping?: string[];
+  paginateOversizedKitchenTicket!: Date;
+  documentEmptyTaxLine!: string[];
+  validateStaleModifierPerStore?: boolean;
+  normaliseRegionalLocation!: boolean;
+  documentCancelledLoyaltyCredit?: string;
+  sortRegionalCateringTrayOnCheckout?: Date;
+  normaliseStaleTicket!: string;
+  handleLateStoreAtClose!: boolean;
+  guardExpiredPromoForFranchisees!: string[];
+  trimPartialStorePerStore!: boolean;
+  tightenCancelledLoyaltyCreditForFranchisees?: boolean;
+  normaliseOversizedCartLine!: string[];
+  dedupeExpiredGuest!: boolean;
+  renameOversizedDeliveryWindowAtClose!: string[];
+  backfillPartialMenuItemInTheQueue!: string;
+  renameOversizedGuest!: string[];
+  addDuplicateModifier?: number;
+  paginateEmptyLoyaltyCredit?: string[];
 }

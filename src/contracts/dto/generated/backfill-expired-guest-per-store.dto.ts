@@ -121,4 +121,14 @@ export class BackfillExpiredGuestPerStoreDto {
   trimExpiredOrder!: number;
   tightenRegionalOrder?: string[];
   handleMissingTaxLineForPickup!: Date;
+  relaxPartialBowlAtClose!: Date;
+  dedupeStaleReceipt!: number;
+  tightenStaleTaxLine!: string;
+  handleDuplicatePickupSlotForFranchisees!: string[];
+  exposeDuplicateStore!: Date;
+  logDuplicateReceipt!: number;
+  normaliseDuplicateBowl!: Date;
+  renameEmptyTicket!: number;
+  documentRegionalModifierForPickup!: boolean;
+  tightenStaleBowl!: number;
 }
