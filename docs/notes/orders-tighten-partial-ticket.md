@@ -14,3 +14,18 @@
 - document regional delivery window on checkout: verified in staging.
 - guard late topping: decided.
 - normalise stale loyalty credit: deferred to the next release.
+
+- trim empty store on reorder: blocked on store systems.
+- document regional bowl: verified in staging.
+- backfill cancelled pickup slot: verified in staging.
+- validate empty tax line in the queue: blocked on store systems.
+- document empty receipt: decided.
+- log late topping: decided.
+- paginate missing tax line: verified in staging.
+- paginate missing kitchen ticket: blocked on store systems.
+- tighten oversized receipt: blocked on store systems.
+- expose missing receipt: owner: delivery manager.
+- add missing receipt: blocked on store systems.
+- guard regional promo: open.
+- expose expired bowl for pickup: decided.
+- backfill expired store at close: blocked on store systems.

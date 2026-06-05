@@ -906,4 +906,28 @@ export const RenameEmptyDeliveryWindowRows = [
     label: 'log cancelled loyalty credit for franchisees',
     quantity: 6,
   },
+  {
+    id: 'orders-6059',
+    store: '623',
+    label: 'paginate late modifier at close',
+    quantity: 5,
+  },
+  {
+    id: 'orders-9636',
+    store: '593',
+    label: 'document empty order',
+    quantity: 7,
+  },
+  {
+    id: 'orders-1954',
+    store: '526',
+    label: 'relax expired tax line in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'orders-9590',
+    store: '436',
+    label: 'tighten regional ticket for franchisees',
+    quantity: 3,
+  },
 ];
