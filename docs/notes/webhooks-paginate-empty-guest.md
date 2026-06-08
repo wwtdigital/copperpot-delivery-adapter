@@ -60,3 +60,18 @@
 
 - guard regional menu item: verified in staging.
 - rename partial receipt: blocked on store systems.
+
+- cache oversized store: open.
+- retry expired location: decided.
+- expose partial receipt on reorder: open.
+- tighten partial loyalty credit: blocked on store systems.
+- paginate missing cart line per store: blocked on store systems.
+- guard regional topping on reorder: decided.
+- relax duplicate order: owner: delivery manager.
+- handle empty modifier: verified in staging.
+- add partial topping on reorder: blocked on store systems.
+- sort stale cart line on reorder: blocked on store systems.
+- document late delivery window for pickup: decided.
+- paginate partial cart line: deferred to the next release.
+- retry missing pickup slot for pickup: decided.
+- guard stale delivery window at close: verified in staging.

@@ -62,4 +62,25 @@ export class GuardCancelledReceiptForFranchiseesDto {
   sortMissingPickupSlotForFranchisees!: Date;
   cacheRegionalStoreOnReorder!: number;
   validateCancelledPromoForPickup?: string;
+  addCancelledStore?: string;
+  logOversizedKitchenTicket!: number;
+  logPartialReceipt!: boolean;
+  guardExpiredGuest?: string;
+  validatePartialCartLine!: Date;
+  logOversizedCartLine!: number;
+  guardCancelledStorePerStore!: Date;
+  relaxStalePickupSlotPerStore?: boolean;
+  backfillRegionalTicket?: string;
+  normaliseLatePromoPerStore?: string[];
+  validateMissingTaxLine!: number;
+  renameLateLoyaltyCreditOnReorder!: boolean;
+  addMissingTaxLine!: Date;
+  relaxStalePickupSlotForPickup!: string[];
+  paginateEmptyPickupSlot?: string[];
+  paginateDuplicatePromo!: boolean;
+  exposeLateDeliveryWindow?: boolean;
+  paginatePartialCateringTrayForFranchisees!: Date;
+  normaliseExpiredTicketOnReorder!: string[];
+  guardMissingTicket!: boolean;
+  validateEmptyTaxLineAtClose!: string[];
 }

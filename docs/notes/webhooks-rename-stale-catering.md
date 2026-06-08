@@ -19,3 +19,18 @@
 - cache stale cart line for franchisees: owner: delivery manager.
 - expose duplicate bowl on checkout: open.
 - paginate empty tax line in the queue: deferred to the next release.
+
+- sort stale receipt: owner: delivery manager.
+- dedupe cancelled loyalty credit for franchisees: decided.
+- relax partial topping: decided.
+- paginate expired modifier: blocked on store systems.
+- trim partial promo: blocked on store systems.
+- log stale location: owner: delivery manager.
+- backfill partial guest on reorder: open.
+- backfill late cart line: verified in staging.
+- sort stale order in the queue: owner: delivery manager.
+- rename empty order: blocked on store systems.
+- sort stale kitchen ticket: open.
+- guard oversized modifier: blocked on store systems.
+- trim missing location: blocked on store systems.
+- normalise cancelled loyalty credit: owner: delivery manager.

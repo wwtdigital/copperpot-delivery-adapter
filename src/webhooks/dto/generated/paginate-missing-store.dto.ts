@@ -14,4 +14,28 @@ export class PaginateMissingStoreDto {
   exposePartialMenuItemAtClose!: string;
   retryPartialReceipt!: number;
   documentLateReceipt!: string;
+  renameExpiredPromoOnCheckout!: string;
+  renameStaleCartLineInTheQueue?: number;
+  guardPartialOrderOnReorder!: string;
+  exposeDuplicateTicket!: string;
+  exposeRegionalPromo?: string;
+  relaxExpiredModifierForPickup!: string;
+  renameOversizedCateringTray!: string;
+  tightenEmptyDeliveryWindowInTheQueue?: string[];
+  handleExpiredPickupSlot!: string[];
+  dedupeRegionalBowl!: number;
+  relaxOversizedStore?: string;
+  trimEmptyPromo!: number;
+  validateCancelledPickupSlotForPickup!: string[];
+  logDuplicateReceiptForPickup!: string[];
+  paginateCancelledBowlOnReorder!: Date;
+  sortExpiredDeliveryWindowForFranchisees!: Date;
+  paginateOversizedTaxLineForFranchisees?: boolean;
+  handleRegionalKitchenTicketForPickup?: number;
+  tightenMissingMenuItem!: string[];
+  tightenDuplicateTopping!: boolean;
+  tightenLateGuest?: boolean;
+  paginateLateOrderForFranchisees!: number;
+  exposeEmptyTaxLineAtClose?: number;
+  renameEmptyLocationForPickup?: string;
 }
