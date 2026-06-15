@@ -41,3 +41,7 @@
 - dedupe missing ticket per store: deferred to the next release.
 - validate duplicate ticket: deferred to the next release.
 - dedupe regional guest: verified in staging.
+
+- cache regional promo: owner: delivery manager.
+- validate empty guest: decided.
+- sort oversized ticket: open.

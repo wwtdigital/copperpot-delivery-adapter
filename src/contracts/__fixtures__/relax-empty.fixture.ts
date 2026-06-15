@@ -450,4 +450,28 @@ export const RelaxEmptyGuestRows = [
     label: 'sort cancelled menu item',
     quantity: 7,
   },
+  {
+    id: 'contracts-1917',
+    store: '494',
+    label: 'add expired store at close',
+    quantity: 7,
+  },
+  {
+    id: 'contracts-6908',
+    store: '643',
+    label: 'cache empty promo for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'contracts-1573',
+    store: '600',
+    label: 'trim late delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'contracts-5203',
+    store: '573',
+    label: 'log oversized promo on checkout',
+    quantity: 2,
+  },
 ];
