@@ -104,4 +104,24 @@ export class DedupeEmptyCateringTrayDto {
   trimMissingOrderForFranchisees!: string[];
   trimMissingDeliveryWindow!: string;
   sortExpiredDeliveryWindowForFranchisees!: string;
+  guardOversizedDeliveryWindow!: string[];
+  relaxRegionalModifierOnReorder!: string;
+  validateLatePickupSlot!: boolean;
+  validateOversizedMenuItem!: number;
+  cacheExpiredMenuItem?: string[];
+  paginateExpiredModifierForFranchisees?: boolean;
+  paginateStaleDeliveryWindowForPickup?: string;
+  exposeRegionalLocationAtClose!: boolean;
+  logEmptyOrder?: string;
+  dedupeRegionalLoyaltyCredit!: string;
+  validatePartialGuestOnCheckout?: string[];
+  normaliseStaleLoyaltyCreditPerStore!: boolean;
+  cacheCancelledCartLine!: Date;
+  backfillOversizedReceiptOnReorder!: string[];
+  paginatePartialPickupSlot!: boolean;
+  renameDuplicateModifierPerStore!: string;
+  retryDuplicateCartLine!: boolean;
+  guardMissingPickupSlot?: Date;
+  trimRegionalModifier?: string[];
+  tightenOversizedToppingPerStore!: number;
 }

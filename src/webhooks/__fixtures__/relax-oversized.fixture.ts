@@ -450,4 +450,46 @@ export const RelaxOversizedLoyaltyCreditRows = [
     label: 'guard empty store',
     quantity: 6,
   },
+  {
+    id: 'webhooks-4190',
+    store: '301',
+    label: 'backfill regional guest',
+    quantity: 10,
+  },
+  {
+    id: 'webhooks-6573',
+    store: '470',
+    label: 'retry expired location',
+    quantity: 6,
+  },
+  {
+    id: 'webhooks-2000',
+    store: '512',
+    label: 'trim duplicate cart line',
+    quantity: 9,
+  },
+  {
+    id: 'webhooks-3586',
+    store: '617',
+    label: 'document late topping on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'webhooks-6035',
+    store: '120',
+    label: 'rename duplicate kitchen ticket for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'webhooks-2037',
+    store: '337',
+    label: 'handle expired loyalty credit on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'webhooks-6876',
+    store: '601',
+    label: 'handle late catering tray for franchisees',
+    quantity: 5,
+  },
 ];
