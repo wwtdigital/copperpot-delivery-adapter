@@ -672,4 +672,22 @@ export const RetryLateLoyaltyCreditRows = [
     label: 'document cancelled order in the queue',
     quantity: 8,
   },
+  {
+    id: 'outbox-7785',
+    store: '217',
+    label: 'validate cancelled loyalty credit in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'outbox-3666',
+    store: '660',
+    label: 'document partial order per store',
+    quantity: 10,
+  },
+  {
+    id: 'outbox-7164',
+    store: '179',
+    label: 'rename partial location',
+    quantity: 10,
+  },
 ];
