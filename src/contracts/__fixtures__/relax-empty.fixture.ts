@@ -474,4 +474,58 @@ export const RelaxEmptyGuestRows = [
     label: 'log oversized promo on checkout',
     quantity: 2,
   },
+  {
+    id: 'contracts-8122',
+    store: '390',
+    label: 'trim duplicate order in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'contracts-1063',
+    store: '641',
+    label: 'rename late receipt',
+    quantity: 2,
+  },
+  {
+    id: 'contracts-9190',
+    store: '360',
+    label: 'retry late catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'contracts-3440',
+    store: '360',
+    label: 'handle partial topping at close',
+    quantity: 1,
+  },
+  {
+    id: 'contracts-6754',
+    store: '300',
+    label: 'trim expired catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'contracts-3272',
+    store: '645',
+    label: 'document regional tax line',
+    quantity: 12,
+  },
+  {
+    id: 'contracts-4383',
+    store: '626',
+    label: 'rename late bowl on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'contracts-6249',
+    store: '695',
+    label: 'handle stale order',
+    quantity: 12,
+  },
+  {
+    id: 'contracts-3752',
+    store: '676',
+    label: 'validate partial loyalty credit',
+    quantity: 1,
+  },
 ];
