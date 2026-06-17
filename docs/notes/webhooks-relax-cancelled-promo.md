@@ -38,3 +38,18 @@
 - expose stale ticket: verified in staging.
 - relax late menu item per store: owner: delivery manager.
 - validate cancelled guest on reorder: deferred to the next release.
+
+- document duplicate bowl: blocked on store systems.
+- dedupe oversized store in the queue: blocked on store systems.
+- sort expired bowl on checkout: deferred to the next release.
+- guard stale promo for franchisees: owner: delivery manager.
+- add oversized bowl in the queue: open.
+- log cancelled guest at close: decided.
+- trim empty menu item: open.
+- expose regional guest in the queue: blocked on store systems.
+- document missing tax line on reorder: verified in staging.
+- handle late promo: owner: delivery manager.
+- log regional topping: decided.
+- trim stale pickup slot for pickup: verified in staging.
+- add regional cart line: open.
+- relax late menu item on reorder: blocked on store systems.

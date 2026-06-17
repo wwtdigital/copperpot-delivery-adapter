@@ -38,4 +38,21 @@ export class PaginateMissingStoreDto {
   paginateLateOrderForFranchisees!: number;
   exposeEmptyTaxLineAtClose?: number;
   renameEmptyLocationForPickup?: string;
+  guardDuplicateCateringTray?: string[];
+  paginateStalePromo!: Date;
+  backfillDuplicateMenuItem!: string[];
+  backfillMissingStore!: boolean;
+  normaliseCancelledStore!: string[];
+  renameExpiredModifierPerStore?: string;
+  backfillOversizedLoyaltyCredit!: string[];
+  addCancelledStoreOnCheckout!: string;
+  sortLateCartLine!: Date;
+  paginateEmptyTicket?: Date;
+  validateEmptyTicket!: number;
+  tightenStaleLoyaltyCreditAtClose!: Date;
+  handleExpiredDeliveryWindow!: string;
+  addOversizedTaxLineForPickup!: string[];
+  backfillStaleToppingOnReorder?: string;
+  guardExpiredLocation!: string;
+  guardEmptyModifierInTheQueue?: string[];
 }
