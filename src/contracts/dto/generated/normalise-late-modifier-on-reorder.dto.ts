@@ -115,4 +115,6 @@ export class NormaliseLateModifierOnReorderDto {
   renameOversizedGuest!: string[];
   addDuplicateModifier?: number;
   paginateEmptyLoyaltyCredit?: string[];
+  addDuplicateLoyaltyCreditForPickup!: string;
+  logCancelledPickupSlotInTheQueue?: number;
 }

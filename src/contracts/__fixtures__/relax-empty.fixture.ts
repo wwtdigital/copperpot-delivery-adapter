@@ -414,4 +414,40 @@ export const RelaxEmptyGuestRows = [
     label: 'validate regional delivery window at close',
     quantity: 12,
   },
+  {
+    id: 'contracts-9198',
+    store: '232',
+    label: 'add oversized modifier',
+    quantity: 2,
+  },
+  {
+    id: 'contracts-3887',
+    store: '484',
+    label: 'relax cancelled catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'contracts-7670',
+    store: '627',
+    label: 'retry late receipt',
+    quantity: 5,
+  },
+  {
+    id: 'contracts-3998',
+    store: '665',
+    label: 'guard partial guest',
+    quantity: 5,
+  },
+  {
+    id: 'contracts-4615',
+    store: '264',
+    label: 'paginate regional order',
+    quantity: 11,
+  },
+  {
+    id: 'contracts-3936',
+    store: '398',
+    label: 'sort cancelled menu item',
+    quantity: 7,
+  },
 ];
