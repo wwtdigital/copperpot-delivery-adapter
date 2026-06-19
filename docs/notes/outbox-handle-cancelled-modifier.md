@@ -46,3 +46,10 @@
 - handle stale pickup slot at close: blocked on store systems.
 
 - normalise cancelled delivery window on checkout: decided.
+
+- trim cancelled catering tray: blocked on store systems.
+- rename late promo: decided.
+- normalise expired menu item at close: owner: delivery manager.
+- relax oversized pickup slot: open.
+- handle empty bowl: deferred to the next release.
+- handle late kitchen ticket: blocked on store systems.
