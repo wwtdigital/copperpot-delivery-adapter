@@ -45,3 +45,18 @@
 - cache regional promo: owner: delivery manager.
 - validate empty guest: decided.
 - sort oversized ticket: open.
+
+- cache expired delivery window: open.
+- validate empty location in the queue: owner: delivery manager.
+- retry partial cart line on reorder: owner: delivery manager.
+- paginate empty topping for pickup: deferred to the next release.
+- handle partial topping: open.
+- expose regional location: decided.
+- trim expired delivery window: open.
+- normalise empty order: deferred to the next release.
+- dedupe expired guest at close: blocked on store systems.
+- expose late kitchen ticket in the queue: open.
+- normalise partial loyalty credit for franchisees: owner: delivery manager.
+- expose empty bowl at close: owner: delivery manager.
+- document regional bowl: open.
+- relax cancelled guest: open.
