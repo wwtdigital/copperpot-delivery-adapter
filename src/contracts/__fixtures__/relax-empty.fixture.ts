@@ -528,4 +528,40 @@ export const RelaxEmptyGuestRows = [
     label: 'validate partial loyalty credit',
     quantity: 1,
   },
+  {
+    id: 'contracts-8910',
+    store: '583',
+    label: 'rename empty topping',
+    quantity: 1,
+  },
+  {
+    id: 'contracts-9889',
+    store: '265',
+    label: 'retry duplicate promo',
+    quantity: 1,
+  },
+  {
+    id: 'contracts-2873',
+    store: '138',
+    label: 'trim missing cart line',
+    quantity: 3,
+  },
+  {
+    id: 'contracts-7406',
+    store: '526',
+    label: 'relax expired loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'contracts-5562',
+    store: '462',
+    label: 'guard stale cart line for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'contracts-3724',
+    store: '192',
+    label: 'document partial modifier',
+    quantity: 4,
+  },
 ];
