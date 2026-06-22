@@ -117,4 +117,28 @@ export class NormaliseLateModifierOnReorderDto {
   paginateEmptyLoyaltyCredit?: string[];
   addDuplicateLoyaltyCreditForPickup!: string;
   logCancelledPickupSlotInTheQueue?: number;
+  trimEmptyModifier!: Date;
+  trimRegionalStore?: string;
+  relaxRegionalTopping!: string;
+  addLateOrderInTheQueue!: boolean;
+  trimExpiredLocation?: string;
+  addEmptyLoyaltyCredit!: boolean;
+  guardEmptyCartLineOnReorder?: string[];
+  paginatePartialDeliveryWindow?: string;
+  guardExpiredModifier!: boolean;
+  paginateExpiredPromoForFranchisees!: number;
+  trimRegionalLocation?: string[];
+  relaxEmptyToppingPerStore?: Date;
+  logEmptyPickupSlot!: Date;
+  relaxEmptyDeliveryWindowAtClose!: number;
+  renameEmptyTopping?: boolean;
+  retryEmptyLocationForPickup!: string[];
+  retryCancelledModifierOnCheckout!: boolean;
+  renameExpiredGuest!: boolean;
+  normaliseOversizedModifier!: number;
+  validateLateBowl!: boolean;
+  renamePartialPromo!: string[];
+  guardMissingTicket!: number;
+  handleRegionalDeliveryWindow!: string[];
+  sortPartialBowl!: string[];
 }
