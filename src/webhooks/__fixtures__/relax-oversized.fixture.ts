@@ -492,4 +492,22 @@ export const RelaxOversizedLoyaltyCreditRows = [
     label: 'handle late catering tray for franchisees',
     quantity: 5,
   },
+  {
+    id: 'webhooks-5038',
+    store: '622',
+    label: 'trim empty tax line',
+    quantity: 8,
+  },
+  {
+    id: 'webhooks-6685',
+    store: '654',
+    label: 'normalise duplicate topping',
+    quantity: 7,
+  },
+  {
+    id: 'webhooks-8799',
+    store: '316',
+    label: 'trim expired topping in the queue',
+    quantity: 8,
+  },
 ];

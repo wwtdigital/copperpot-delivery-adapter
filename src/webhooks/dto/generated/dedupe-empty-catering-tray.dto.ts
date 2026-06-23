@@ -148,4 +148,28 @@ export class DedupeEmptyCateringTrayDto {
   trimRegionalTaxLine?: boolean;
   paginateEmptyDeliveryWindow!: Date;
   documentEmptyLocationPerStore!: Date;
+  tightenMissingTicket?: boolean;
+  normaliseLateDeliveryWindowForPickup!: boolean;
+  validateExpiredCartLine?: Date;
+  backfillEmptyPickupSlot!: Date;
+  retryEmptyOrder!: number;
+  sortMissingDeliveryWindow!: Date;
+  guardCancelledCateringTray?: boolean;
+  exposeCancelledTopping!: string;
+  documentDuplicateCateringTray!: boolean;
+  normaliseEmptyTaxLineInTheQueue!: string;
+  retryRegionalKitchenTicketOnReorder!: number;
+  guardExpiredCateringTrayAtClose!: number;
+  backfillMissingModifier!: string;
+  tightenRegionalLoyaltyCredit?: string[];
+  guardCancelledMenuItem!: boolean;
+  cacheRegionalBowl?: Date;
+  handlePartialLocation?: number;
+  logOversizedLocation?: boolean;
+  guardStaleModifier?: number;
+  dedupePartialPickupSlotInTheQueue!: boolean;
+  validateDuplicateModifier!: string;
+  renameRegionalPickupSlot!: Date;
+  cacheStaleLocation!: boolean;
+  guardLateModifier!: Date;
 }

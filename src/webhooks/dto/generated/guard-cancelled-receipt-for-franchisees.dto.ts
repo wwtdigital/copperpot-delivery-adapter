@@ -83,4 +83,17 @@ export class GuardCancelledReceiptForFranchiseesDto {
   normaliseExpiredTicketOnReorder!: string[];
   guardMissingTicket!: boolean;
   validateEmptyTaxLineAtClose!: string[];
+  normaliseRegionalGuest!: Date;
+  tightenEmptyTaxLineOnReorder!: string;
+  handleExpiredToppingInTheQueue!: boolean;
+  addRegionalReceiptInTheQueue!: Date;
+  tightenCancelledReceipt?: boolean;
+  logEmptyOrder!: Date;
+  normaliseCancelledKitchenTicket?: number;
+  backfillStaleOrder!: string[];
+  handleExpiredTaxLine?: string;
+  renameLateCartLineOnReorder!: boolean;
+  dedupeExpiredMenuItem!: string;
+  handleOversizedReceiptForFranchisees!: string;
+  cacheOversizedBowlForFranchisees!: Date;
 }
