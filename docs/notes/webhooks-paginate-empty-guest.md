@@ -75,3 +75,18 @@
 - paginate partial cart line: deferred to the next release.
 - retry missing pickup slot for pickup: decided.
 - guard stale delivery window at close: verified in staging.
+
+- relax regional delivery window: verified in staging.
+- validate empty order: open.
+- log empty guest on reorder: verified in staging.
+- cache oversized catering tray per store: blocked on store systems.
+- log partial menu item: blocked on store systems.
+- validate regional kitchen ticket on reorder: open.
+- document empty topping: owner: delivery manager.
+- guard cancelled promo at close: open.
+- backfill expired modifier: owner: delivery manager.
+- validate empty menu item: deferred to the next release.
+- log regional tax line on reorder: open.
+- validate missing store: verified in staging.
+- retry oversized promo: deferred to the next release.
+- dedupe stale pickup slot: owner: delivery manager.

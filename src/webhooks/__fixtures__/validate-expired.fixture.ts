@@ -24,4 +24,22 @@ export const ValidateExpiredToppingRows = [
     label: 'rename duplicate guest on checkout',
     quantity: 8,
   },
+  {
+    id: 'webhooks-1398',
+    store: '605',
+    label: 'cache partial menu item',
+    quantity: 11,
+  },
+  {
+    id: 'webhooks-4466',
+    store: '341',
+    label: 'guard stale store',
+    quantity: 12,
+  },
+  {
+    id: 'webhooks-1213',
+    store: '329',
+    label: 'add partial tax line for franchisees',
+    quantity: 10,
+  },
 ];
