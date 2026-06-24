@@ -654,4 +654,46 @@ export const RelaxEmptyGuestRows = [
     label: 'sort stale bowl per store',
     quantity: 4,
   },
+  {
+    id: 'contracts-4322',
+    store: '636',
+    label: 'handle regional cart line',
+    quantity: 2,
+  },
+  {
+    id: 'contracts-7870',
+    store: '372',
+    label: 'add cancelled modifier',
+    quantity: 9,
+  },
+  {
+    id: 'contracts-8325',
+    store: '526',
+    label: 'validate regional menu item for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'contracts-9836',
+    store: '279',
+    label: 'rename missing topping in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'contracts-9104',
+    store: '628',
+    label: 'cache cancelled location',
+    quantity: 12,
+  },
+  {
+    id: 'contracts-5230',
+    store: '699',
+    label: 'document late location for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'contracts-3129',
+    store: '656',
+    label: 'backfill cancelled delivery window per store',
+    quantity: 7,
+  },
 ];
