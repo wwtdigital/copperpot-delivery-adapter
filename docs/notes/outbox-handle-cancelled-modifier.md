@@ -53,3 +53,18 @@
 - relax oversized pickup slot: open.
 - handle empty bowl: deferred to the next release.
 - handle late kitchen ticket: blocked on store systems.
+
+- paginate expired store: owner: delivery manager.
+- backfill regional cart line: owner: delivery manager.
+- tighten partial tax line on reorder: verified in staging.
+- expose late promo: decided.
+- cache partial delivery window: decided.
+- validate stale delivery window: open.
+- normalise oversized menu item: blocked on store systems.
+- normalise stale order: blocked on store systems.
+- expose late catering tray per store: blocked on store systems.
+- normalise cancelled delivery window at close: blocked on store systems.
+- tighten partial catering tray: open.
+- retry partial bowl per store: verified in staging.
+- trim duplicate delivery window: verified in staging.
+- cache cancelled menu item: blocked on store systems.

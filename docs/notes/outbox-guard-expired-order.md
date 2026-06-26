@@ -68,3 +68,14 @@
 - expose stale modifier: owner: delivery manager.
 - relax regional delivery window on reorder: verified in staging.
 - expose regional loyalty credit in the queue: decided.
+
+- paginate cancelled cart line for franchisees: verified in staging.
+- trim stale cart line: open.
+- validate regional bowl: blocked on store systems.
+- document regional menu item: owner: delivery manager.
+- tighten missing modifier: decided.
+- add expired bowl on checkout: open.
+- cache partial kitchen ticket: blocked on store systems.
+- paginate late ticket: verified in staging.
+- normalise cancelled receipt: owner: delivery manager.
+- add cancelled cart line: open.
