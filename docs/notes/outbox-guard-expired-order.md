@@ -79,3 +79,17 @@
 - paginate late ticket: verified in staging.
 - normalise cancelled receipt: owner: delivery manager.
 - add cancelled cart line: open.
+
+- guard expired loyalty credit at close: verified in staging.
+- retry late menu item in the queue: blocked on store systems.
+- log duplicate ticket: open.
+- normalise late catering tray on checkout: owner: delivery manager.
+- trim empty menu item for franchisees: owner: delivery manager.
+- expose partial catering tray at close: deferred to the next release.
+- document late loyalty credit: decided.
+- normalise empty catering tray: deferred to the next release.
+- trim oversized loyalty credit: owner: delivery manager.
+- tighten empty guest: open.
+- trim stale order: open.
+- rename duplicate menu item at close: deferred to the next release.
+- cache cancelled topping for franchisees: open.

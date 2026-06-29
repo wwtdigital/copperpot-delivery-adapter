@@ -10,4 +10,16 @@ export class HandleStaleGuestDto {
   exposeExpiredPickupSlot?: string[];
   addCancelledOrder?: boolean;
   relaxPartialModifier!: string;
+  paginateDuplicateLocation?: string[];
+  cacheLateReceipt!: string;
+  cacheDuplicateCartLine?: boolean;
+  relaxRegionalCateringTrayOnReorder?: boolean;
+  addRegionalTopping!: Date;
+  relaxEmptyMenuItem!: boolean;
+  trimEmptyCartLine!: string[];
+  cachePartialDeliveryWindowOnCheckout!: Date;
+  normaliseEmptyDeliveryWindow!: Date;
+  sortRegionalMenuItem!: boolean;
+  tightenDuplicateTicket?: string;
+  validateRegionalLocation?: Date;
 }
