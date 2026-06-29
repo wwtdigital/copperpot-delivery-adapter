@@ -22,4 +22,28 @@ export class HandleStaleGuestDto {
   sortRegionalMenuItem!: boolean;
   tightenDuplicateTicket?: string;
   validateRegionalLocation?: Date;
+  cacheOversizedCateringTray?: string;
+  guardEmptyCartLinePerStore!: Date;
+  tightenOversizedGuestOnCheckout!: Date;
+  retryLateTopping!: boolean;
+  tightenOversizedLocation!: string[];
+  documentDuplicateReceiptForFranchisees?: number;
+  retryOversizedBowl!: Date;
+  validateLateDeliveryWindowOnReorder!: string;
+  dedupeDuplicateLoyaltyCredit?: number;
+  retryLateDeliveryWindowOnCheckout!: string[];
+  paginateExpiredOrderOnCheckout?: string[];
+  normaliseLateBowlForPickup!: Date;
+  sortStaleGuestAtClose!: string[];
+  backfillRegionalMenuItem?: string[];
+  guardPartialReceiptForFranchisees!: string[];
+  dedupeOversizedTopping!: string[];
+  renameEmptyPickupSlotInTheQueue?: boolean;
+  tightenDuplicateToppingOnCheckout!: boolean;
+  guardStaleBowlForFranchisees?: boolean;
+  dedupeEmptyOrderForPickup!: number;
+  tightenStaleLoyaltyCredit!: number;
+  dedupeRegionalReceiptForPickup?: boolean;
+  guardRegionalReceipt!: boolean;
+  logCancelledModifier!: string[];
 }

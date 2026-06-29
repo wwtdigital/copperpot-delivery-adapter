@@ -68,3 +68,18 @@
 - retry partial bowl per store: verified in staging.
 - trim duplicate delivery window: verified in staging.
 - cache cancelled menu item: blocked on store systems.
+
+- backfill oversized delivery window: open.
+- backfill cancelled delivery window: owner: delivery manager.
+- expose late kitchen ticket: deferred to the next release.
+- expose late pickup slot per store: blocked on store systems.
+- document missing delivery window for franchisees: open.
+- add regional receipt in the queue: owner: delivery manager.
+- document missing cart line: decided.
+- cache duplicate catering tray per store: blocked on store systems.
+- relax regional topping: verified in staging.
+- expose late modifier: blocked on store systems.
+- document oversized menu item on checkout: verified in staging.
+- add oversized location in the queue: owner: delivery manager.
+- rename regional receipt: verified in staging.
+- tighten cancelled tax line: blocked on store systems.
