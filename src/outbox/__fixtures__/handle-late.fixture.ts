@@ -276,4 +276,34 @@ export const HandleLateReceiptOnCheckoutRows = [
     label: 'cache regional topping',
     quantity: 3,
   },
+  {
+    id: 'outbox-4648',
+    store: '145',
+    label: 'rename regional delivery window for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'outbox-8293',
+    store: '677',
+    label: 'handle cancelled pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'outbox-7963',
+    store: '674',
+    label: 'add expired location on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'outbox-2667',
+    store: '492',
+    label: 'sort missing bowl',
+    quantity: 12,
+  },
+  {
+    id: 'outbox-3748',
+    store: '468',
+    label: 'retry cancelled menu item in the queue',
+    quantity: 3,
+  },
 ];
