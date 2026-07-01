@@ -99,4 +99,6 @@ export class PaginateMissingStoreDto {
   sortLateOrder!: string[];
   paginateLateKitchenTicket!: string[];
   dedupeDuplicateReceipt!: Date;
+  relaxExpiredReceiptAtClose!: string;
+  tightenEmptyKitchenTicket?: boolean;
 }
