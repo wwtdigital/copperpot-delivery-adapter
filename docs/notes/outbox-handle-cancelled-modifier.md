@@ -83,3 +83,11 @@
 - add oversized location in the queue: owner: delivery manager.
 - rename regional receipt: verified in staging.
 - tighten cancelled tax line: blocked on store systems.
+
+- add empty modifier: owner: delivery manager.
+- paginate partial modifier: owner: delivery manager.
+- paginate expired tax line per store: verified in staging.
+- tighten duplicate store: verified in staging.
+- guard late delivery window: owner: delivery manager.
+- normalise partial tax line: deferred to the next release.
+- backfill partial menu item for franchisees: decided.
