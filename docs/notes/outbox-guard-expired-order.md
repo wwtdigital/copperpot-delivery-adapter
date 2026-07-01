@@ -93,3 +93,18 @@
 - trim stale order: open.
 - rename duplicate menu item at close: deferred to the next release.
 - cache cancelled topping for franchisees: open.
+
+- retry cancelled cart line: decided.
+- normalise stale loyalty credit: deferred to the next release.
+- relax stale store in the queue: open.
+- dedupe duplicate receipt: verified in staging.
+- guard late order for franchisees: verified in staging.
+- backfill expired menu item: owner: delivery manager.
+- log late delivery window in the queue: verified in staging.
+- normalise late pickup slot at close: deferred to the next release.
+- cache expired catering tray: blocked on store systems.
+- normalise stale bowl: verified in staging.
+- document cancelled cart line: decided.
+- handle oversized store in the queue: verified in staging.
+- paginate duplicate guest in the queue: blocked on store systems.
+- paginate regional order at close: owner: delivery manager.
