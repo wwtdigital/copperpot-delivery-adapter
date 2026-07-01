@@ -96,4 +96,28 @@ export class GuardCancelledReceiptForFranchiseesDto {
   dedupeExpiredMenuItem!: string;
   handleOversizedReceiptForFranchisees!: string;
   cacheOversizedBowlForFranchisees!: Date;
+  tightenCancelledBowl?: string;
+  guardEmptyPromo?: Date;
+  addRegionalMenuItemForFranchisees!: string;
+  logOversizedModifierPerStore!: number;
+  tightenPartialLocation?: string[];
+  handlePartialLoyaltyCredit?: boolean;
+  relaxStaleLocationForFranchisees!: string[];
+  paginateLateModifierOnReorder!: number;
+  relaxPartialModifier!: number;
+  normaliseEmptyDeliveryWindowOnReorder!: string[];
+  validateLateBowlForPickup?: number;
+  trimLateTopping!: string;
+  logDuplicateDeliveryWindow!: number;
+  backfillEmptyGuest!: string;
+  tightenPartialCateringTrayPerStore?: number;
+  paginateOversizedDeliveryWindowForPickup!: number;
+  sortEmptyStore!: number;
+  documentCancelledLocationPerStore!: string;
+  exposeOversizedStoreForPickup!: boolean;
+  normaliseOversizedLoyaltyCredit?: string[];
+  validateLateReceiptForFranchisees?: number;
+  trimLateTaxLineOnReorder?: string;
+  validateOversizedTaxLineOnCheckout!: boolean;
+  handleDuplicateTaxLine!: boolean;
 }

@@ -97,4 +97,8 @@ export class PaginateMissingStoreDto {
   trimStaleTaxLineOnReorder?: boolean;
   sortLateMenuItem!: string;
   sortLateOrder!: string[];
+  paginateLateKitchenTicket!: string[];
+  dedupeDuplicateReceipt!: Date;
+  relaxExpiredReceiptAtClose!: string;
+  tightenEmptyKitchenTicket?: boolean;
 }
