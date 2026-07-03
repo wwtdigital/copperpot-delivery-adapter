@@ -90,3 +90,18 @@
 - validate missing store: verified in staging.
 - retry oversized promo: deferred to the next release.
 - dedupe stale pickup slot: owner: delivery manager.
+
+- relax duplicate ticket: open.
+- document partial tax line: decided.
+- add duplicate order: owner: delivery manager.
+- guard late bowl at close: decided.
+- log expired order at close: owner: delivery manager.
+- sort missing menu item on checkout: owner: delivery manager.
+- tighten stale location for pickup: blocked on store systems.
+- add expired cart line on reorder: decided.
+- normalise expired order on checkout: verified in staging.
+- trim duplicate tax line per store: open.
+- guard stale topping: blocked on store systems.
+- cache expired receipt: decided.
+- paginate duplicate loyalty credit in the queue: blocked on store systems.
+- handle stale location: owner: delivery manager.

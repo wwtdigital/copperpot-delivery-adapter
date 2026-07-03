@@ -34,3 +34,33 @@
 - guard oversized modifier: blocked on store systems.
 - trim missing location: blocked on store systems.
 - normalise cancelled loyalty credit: owner: delivery manager.
+
+- log oversized tax line: verified in staging.
+- sort missing catering tray: deferred to the next release.
+- add missing promo for franchisees: verified in staging.
+- paginate regional guest for pickup: decided.
+- normalise empty bowl: owner: delivery manager.
+- document stale menu item: open.
+- handle empty modifier for pickup: deferred to the next release.
+- relax duplicate cart line on reorder: deferred to the next release.
+- rename empty loyalty credit for pickup: deferred to the next release.
+- log regional location: open.
+- tighten expired ticket on reorder: blocked on store systems.
+- sort oversized menu item in the queue: open.
+- relax stale menu item for pickup: deferred to the next release.
+- dedupe stale tax line: deferred to the next release.
+
+- expose stale guest: owner: delivery manager.
+- paginate missing ticket at close: deferred to the next release.
+- sort expired kitchen ticket at close: owner: delivery manager.
+- retry missing kitchen ticket: open.
+- handle stale pickup slot: open.
+- expose stale order: verified in staging.
+- expose missing order: owner: delivery manager.
+- paginate missing receipt for pickup: blocked on store systems.
+- rename oversized kitchen ticket per store: blocked on store systems.
+- dedupe expired modifier: blocked on store systems.
+- tighten stale promo per store: open.
+- backfill missing topping for franchisees: decided.
+- guard stale catering tray: open.
+- guard oversized location: open.
