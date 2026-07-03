@@ -510,4 +510,10 @@ export const RelaxOversizedLoyaltyCreditRows = [
     label: 'trim expired topping in the queue',
     quantity: 8,
   },
+  {
+    id: 'webhooks-1960',
+    store: '290',
+    label: 'dedupe cancelled ticket for franchisees',
+    quantity: 8,
+  },
 ];

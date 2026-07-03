@@ -53,3 +53,18 @@
 - trim stale pickup slot for pickup: verified in staging.
 - add regional cart line: open.
 - relax late menu item on reorder: blocked on store systems.
+
+- tighten partial cart line: verified in staging.
+- dedupe expired menu item for franchisees: deferred to the next release.
+- normalise expired catering tray at close: open.
+- tighten empty topping: open.
+- cache empty receipt: deferred to the next release.
+- validate cancelled menu item: blocked on store systems.
+- cache cancelled order: open.
+- dedupe partial location per store: owner: delivery manager.
+- document stale kitchen ticket for pickup: blocked on store systems.
+- backfill expired kitchen ticket: decided.
+- add missing topping: owner: delivery manager.
+- cache cancelled catering tray per store: decided.
+- normalise stale modifier in the queue: owner: delivery manager.
+- sort expired delivery window: open.
