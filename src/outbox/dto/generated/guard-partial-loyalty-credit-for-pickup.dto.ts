@@ -30,4 +30,6 @@ export class GuardPartialLoyaltyCreditForPickupDto {
   relaxLateBowl?: number;
   paginateDuplicateCateringTray!: Date;
   cacheOversizedOrder!: boolean;
+  relaxRegionalTopping!: number;
+  renameLateDeliveryWindowOnReorder!: string;
 }

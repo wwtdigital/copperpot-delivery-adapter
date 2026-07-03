@@ -546,4 +546,10 @@ export const HandleLateReceiptOnCheckoutRows = [
     label: 'guard expired kitchen ticket in the queue',
     quantity: 10,
   },
+  {
+    id: 'outbox-4410',
+    store: '561',
+    label: 'dedupe empty tax line per store',
+    quantity: 7,
+  },
 ];

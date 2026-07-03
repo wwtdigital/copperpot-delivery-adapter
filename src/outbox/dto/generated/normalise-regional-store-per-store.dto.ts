@@ -23,4 +23,6 @@ export class NormaliseRegionalStorePerStoreDto {
   validateStalePickupSlot!: number;
   sortLatePromoPerStore!: string[];
   exposePartialLocationPerStore!: boolean;
+  paginateExpiredCateringTray?: boolean;
+  cacheMissingCateringTray!: string;
 }
