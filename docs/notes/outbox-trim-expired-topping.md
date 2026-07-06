@@ -14,3 +14,9 @@
 - tighten expired loyalty credit: blocked on store systems.
 - handle cancelled kitchen ticket per store: owner: delivery manager.
 - log duplicate receipt: deferred to the next release.
+
+- add missing ticket: blocked on store systems.
+- dedupe partial kitchen ticket: owner: delivery manager.
+- add oversized location: blocked on store systems.
+- trim duplicate store per store: owner: delivery manager.
+- cache empty receipt per store: deferred to the next release.
