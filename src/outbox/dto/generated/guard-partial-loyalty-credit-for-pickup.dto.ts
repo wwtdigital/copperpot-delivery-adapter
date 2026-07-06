@@ -24,4 +24,10 @@ export class GuardPartialLoyaltyCreditForPickupDto {
   cachePartialCateringTray!: string[];
   trimEmptyStore!: boolean;
   guardPartialCateringTray?: string;
+  paginateOversizedKitchenTicketPerStore!: string;
+  logExpiredDeliveryWindow!: Date;
+  renameExpiredDeliveryWindow?: boolean;
+  relaxLateBowl?: number;
+  paginateDuplicateCateringTray!: Date;
+  cacheOversizedOrder!: boolean;
 }
