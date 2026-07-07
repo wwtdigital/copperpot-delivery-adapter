@@ -17,4 +17,12 @@ export class NormaliseRegionalStorePerStoreDto {
   dedupeStaleTicketOnReorder!: string[];
   tightenExpiredLocationOnReorder!: number;
   validateRegionalModifierOnCheckout!: Date;
+  validateOversizedTopping?: boolean;
+  addOversizedPickupSlot!: number;
+  guardEmptyPickupSlotAtClose!: boolean;
+  validateStalePickupSlot!: number;
+  sortLatePromoPerStore!: string[];
+  exposePartialLocationPerStore!: boolean;
+  paginateExpiredCateringTray?: boolean;
+  cacheMissingCateringTray!: string;
 }
