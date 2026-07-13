@@ -1,0 +1,106 @@
+# The change stream for one demonstration estate repository (fictional client).
+#
+# Installed by scripts/seed-estate/stream/install.mjs as
+# .github/workflows/stream.yml. Every two hours it opens the changes the day
+# plan says are due (branch, change, pull request, tracker issue) and closes
+# the ones whose open time has elapsed (review, merge commit, tracker
+# transition). Both halves are idempotent for a day and a repository, so a
+# missed or repeated tick is harmless.
+#
+# Tokens: the two GitHub Apps' installation tokens are minted at run time by
+# actions/create-github-app-token from the App id and private key, which are
+# organisation secrets shared with every estate repository:
+#   STREAM_DEV_BOT_APP_ID, STREAM_DEV_BOT_PRIVATE_KEY    (copperpot-dev-bot: contents, pull requests, metadata)
+#   STREAM_REVIEWER_APP_ID, STREAM_REVIEWER_PRIVATE_KEY  (copperpot-reviewer: pull requests)
+#   JIRA_EMAIL, JIRA_API_TOKEN                           (the tracker account the stream acts as)
+# The dev-bot App must also be installed on the tooling repository below, so
+# its token can check it out. Nothing here logs a token.
+name: stream
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+    inputs:
+      half:
+        description: "open, close, or both"
+        default: both
+        required: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: stream
+  cancel-in-progress: false
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Mint the dev-bot token
+        id: dev-bot
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.STREAM_DEV_BOT_APP_ID }}
+          private-key: ${{ secrets.STREAM_DEV_BOT_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: |
+            ${{ github.event.repository.name }}
+            agentic-readiness
+
+      - name: Mint the reviewer token
+        id: reviewer
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.STREAM_REVIEWER_APP_ID }}
+          private-key: ${{ secrets.STREAM_REVIEWER_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: ${{ github.event.repository.name }}
+
+      - name: Check out this repository
+        uses: actions/checkout@v4
+        with:
+          path: estate
+          fetch-depth: 0
+          token: ${{ steps.dev-bot.outputs.token }}
+          persist-credentials: true
+
+      - name: Check out the stream tooling
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/agentic-readiness
+          path: tooling
+          sparse-checkout: scripts/seed-estate
+          token: ${{ steps.dev-bot.outputs.token }}
+          persist-credentials: false
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install the repository's own tooling (formatter)
+        if: hashFiles('estate/package-lock.json') != ''
+        working-directory: estate
+        run: npm ci --no-audit --no-fund
+
+      - name: Open the changes due
+        if: ${{ github.event.inputs.half != 'close' }}
+        working-directory: estate
+        env:
+          GITHUB_TOKEN: ${{ steps.dev-bot.outputs.token }}
+          REVIEWER_TOKEN: ${{ steps.reviewer.outputs.token }}
+          JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
+          JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
+        run: node ../tooling/scripts/seed-estate/stream/stream.mjs open --repo . --name "${{ github.event.repository.name }}"
+
+      - name: Close the changes whose open time has elapsed
+        if: ${{ github.event.inputs.half != 'open' }}
+        working-directory: estate
+        env:
+          GITHUB_TOKEN: ${{ steps.dev-bot.outputs.token }}
+          REVIEWER_TOKEN: ${{ steps.reviewer.outputs.token }}
+          JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
+          JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
+        run: node ../tooling/scripts/seed-estate/stream/stream.mjs close --repo . --name "${{ github.event.repository.name }}"
