@@ -354,4 +354,34 @@ export const RetryDuplicateDeliveryWindowAtCloseRows = [
     label: 'backfill cancelled promo',
     quantity: 2,
   },
+  {
+    id: 'contracts-4619',
+    store: '380',
+    label: 'rename partial ticket per store',
+    quantity: 1,
+  },
+  {
+    id: 'contracts-4578',
+    store: '245',
+    label: 'dedupe cancelled receipt on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'contracts-6317',
+    store: '288',
+    label: 'tighten oversized kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'contracts-6519',
+    store: '628',
+    label: 'retry empty guest',
+    quantity: 2,
+  },
+  {
+    id: 'contracts-1917',
+    store: '576',
+    label: 'cache missing cart line',
+    quantity: 8,
+  },
 ];
