@@ -21,7 +21,7 @@
     "dev": "tsx watch src/main.ts"
   },
   "dependencies": {
-    "fastify": "^4.26.2",
+    "fastify": "^5.12.7",
     "pino": "^9.0.0",
     "zod": "^3.22.4"
   },
