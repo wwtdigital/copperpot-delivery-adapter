@@ -141,4 +141,6 @@ export class NormaliseLateModifierOnReorderDto {
   guardMissingTicket!: number;
   handleRegionalDeliveryWindow!: string[];
   sortPartialBowl!: string[];
+  tightenExpiredModifier!: Date;
+  validateCancelledGuestInTheQueue!: number;
 }
