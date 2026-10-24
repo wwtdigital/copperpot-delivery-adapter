@@ -552,4 +552,28 @@ export const HandleLateReceiptOnCheckoutRows = [
     label: 'dedupe empty tax line per store',
     quantity: 7,
   },
+  {
+    id: 'outbox-7253',
+    store: '265',
+    label: 'dedupe stale loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'outbox-5613',
+    store: '373',
+    label: 'normalise oversized guest',
+    quantity: 10,
+  },
+  {
+    id: 'outbox-4213',
+    store: '239',
+    label: 'cache duplicate location at close',
+    quantity: 11,
+  },
+  {
+    id: 'outbox-8927',
+    store: '364',
+    label: 'backfill regional order',
+    quantity: 10,
+  },
 ];
