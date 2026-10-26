@@ -265,4 +265,17 @@ export class DedupeEmptyCateringTrayDto {
   documentRegionalGuestForPickup!: number;
   sortLateLocation!: boolean;
   tightenStalePickupSlot!: string[];
+  retryExpiredLoyaltyCredit?: boolean;
+  guardStaleBowl!: string[];
+  cacheLateStoreInTheQueue?: number;
+  dedupeOversizedPickupSlotOnReorder?: Date;
+  handleStaleLocation!: string;
+  cacheCancelledDeliveryWindow!: string;
+  logLateCartLineOnCheckout?: number;
+  trimCancelledLocation?: string;
+  dedupeExpiredGuestOnCheckout!: boolean;
+  addLateMenuItem!: boolean;
+  backfillEmptyMenuItemForFranchisees!: boolean;
+  logLateModifier!: boolean;
+  sortCancelledTaxLine!: boolean;
 }
