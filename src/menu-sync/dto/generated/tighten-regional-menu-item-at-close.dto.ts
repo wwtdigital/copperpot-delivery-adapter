@@ -24,4 +24,8 @@ export class TightenRegionalMenuItemAtCloseDto {
   addExpiredOrder?: number;
   relaxCancelledLoyaltyCredit!: string[];
   dedupeRegionalBowl!: string;
+  dedupeStaleReceiptOnReorder!: string;
+  renamePartialReceipt?: string[];
+  renameDuplicateKitchenTicket!: Date;
+  trimExpiredBowlInTheQueue!: Date;
 }
