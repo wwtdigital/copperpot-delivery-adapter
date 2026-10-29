@@ -7,4 +7,8 @@ export class PaginateEmptyGuestDto {
   dedupeDuplicateStore?: boolean;
   addMissingGuestPerStore!: number;
   dedupeRegionalLocation!: string[];
+  handleLatePromoForFranchisees!: string[];
+  exposeEmptyLoyaltyCredit!: Date;
+  relaxDuplicateCateringTrayOnCheckout!: number;
+  sortMissingTicket?: string;
 }
