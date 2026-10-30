@@ -306,4 +306,10 @@ export const HandleEmptyPickupSlotRows = [
     label: 'guard expired catering tray',
     quantity: 7,
   },
+  {
+    id: 'menu-sync-7917',
+    store: '655',
+    label: 'rename late bowl',
+    quantity: 4,
+  },
 ];
