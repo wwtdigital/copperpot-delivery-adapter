@@ -162,28 +162,4 @@ export class DocumentPartialCartLineOnReorderDto {
   retryDuplicateCartLineForFranchisees?: string[];
   renameDuplicateOrder!: boolean;
   paginateLateDeliveryWindowOnReorder!: string[];
-  addRegionalToppingForFranchisees!: string;
-  normaliseLateCartLineOnReorder!: boolean;
-  tightenOversizedLoyaltyCredit!: boolean;
-  cacheRegionalReceiptOnReorder!: Date;
-  tightenExpiredStore!: Date;
-  validateRegionalStore?: number;
-  handleEmptyCartLine!: string[];
-  sortExpiredOrder!: string[];
-  validateOversizedBowl!: boolean;
-  backfillOversizedModifierAtClose?: boolean;
-  backfillRegionalLoyaltyCredit!: number;
-  documentRegionalDeliveryWindowOnReorder?: string[];
-  validatePartialCartLineForFranchisees!: string;
-  addLateTaxLineInTheQueue!: string[];
-  documentStaleKitchenTicket?: number;
-  retryDuplicateLocation!: string;
-  normaliseCancelledOrderAtClose!: string[];
-  handleMissingOrder?: string[];
-  dedupeEmptyGuest!: boolean;
-  relaxEmptyTaxLine!: number;
-  cacheExpiredStoreForPickup?: Date;
-  trimMissingCartLineOnReorder!: string[];
-  addExpiredCartLine!: boolean;
-  logOversizedTaxLineForFranchisees!: number;
 }
