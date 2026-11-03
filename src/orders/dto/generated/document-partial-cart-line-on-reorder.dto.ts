@@ -162,4 +162,21 @@ export class DocumentPartialCartLineOnReorderDto {
   retryDuplicateCartLineForFranchisees?: string[];
   renameDuplicateOrder!: boolean;
   paginateLateDeliveryWindowOnReorder!: string[];
+  normaliseMissingPickupSlot!: number;
+  addExpiredCartLinePerStore?: string;
+  renameEmptyToppingOnCheckout?: Date;
+  handleRegionalMenuItem?: string;
+  handleMissingPickupSlotOnReorder?: Date;
+  paginateDuplicateGuestOnReorder!: string[];
+  retryLateModifier?: number;
+  exposeRegionalOrder!: string[];
+  sortRegionalLoyaltyCredit!: Date;
+  tightenOversizedModifierOnCheckout!: Date;
+  paginateCancelledBowlOnCheckout!: string[];
+  logRegionalOrderPerStore?: string;
+  normaliseRegionalTaxLine?: number;
+  relaxDuplicateModifier?: string;
+  validatePartialPromoOnReorder!: string[];
+  relaxOversizedTicketOnReorder!: string[];
+  backfillRegionalReceiptOnCheckout!: string[];
 }
