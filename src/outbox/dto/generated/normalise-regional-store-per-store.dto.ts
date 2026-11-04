@@ -25,4 +25,28 @@ export class NormaliseRegionalStorePerStoreDto {
   exposePartialLocationPerStore!: boolean;
   paginateExpiredCateringTray?: boolean;
   cacheMissingCateringTray!: string;
+  paginateRegionalPromo!: string[];
+  documentDuplicateDeliveryWindow?: string[];
+  trimCancelledCartLinePerStore?: number;
+  backfillCancelledPickupSlot!: boolean;
+  documentStaleLocation?: Date;
+  tightenLateTopping!: Date;
+  relaxCancelledStoreForFranchisees?: number;
+  addExpiredTaxLine!: number;
+  exposeCancelledReceipt?: boolean;
+  exposePartialReceipt!: string;
+  handleLateMenuItem!: string;
+  handleOversizedStore?: string;
+  logPartialTaxLineAtClose!: boolean;
+  guardExpiredLoyaltyCreditForFranchisees!: Date;
+  normaliseCancelledPickupSlot!: number;
+  relaxCancelledOrderInTheQueue!: boolean;
+  renameExpiredLocationForPickup!: Date;
+  relaxCancelledPromo!: Date;
+  normaliseExpiredOrder!: boolean;
+  exposeRegionalTaxLineOnReorder!: boolean;
+  renameOversizedDeliveryWindow!: string[];
+  dedupeDuplicateModifier?: boolean;
+  paginatePartialTaxLinePerStore!: string;
+  tightenStaleStoreOnReorder?: Date;
 }
