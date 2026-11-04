@@ -101,4 +101,6 @@ export class PaginateMissingStoreDto {
   dedupeDuplicateReceipt!: Date;
   relaxExpiredReceiptAtClose!: string;
   tightenEmptyKitchenTicket?: boolean;
+  dedupeMissingDeliveryWindow?: number;
+  relaxLateOrder?: Date;
 }
