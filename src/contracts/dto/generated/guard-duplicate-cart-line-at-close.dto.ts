@@ -79,4 +79,28 @@ export class GuardDuplicateCartLineAtCloseDto {
   relaxEmptyCartLine!: boolean;
   guardMissingCartLine?: boolean;
   tightenOversizedLocation!: string;
+  dedupeCancelledKitchenTicket!: Date;
+  normaliseCancelledTaxLine!: string[];
+  cachePartialTicket?: number;
+  documentOversizedLoyaltyCreditAtClose?: string;
+  validateDuplicateStoreForPickup!: boolean;
+  documentDuplicateReceipt!: boolean;
+  backfillExpiredLocation!: Date;
+  trimExpiredTopping!: string;
+  paginateOversizedLoyaltyCredit!: string;
+  retryRegionalPromo!: string[];
+  tightenCancelledGuestOnCheckout!: number;
+  documentPartialLocation!: string;
+  trimExpiredCateringTray!: string;
+  dedupeEmptyCateringTray!: string[];
+  cacheDuplicateTicketForPickup?: number;
+  backfillPartialTaxLineAtClose!: Date;
+  logOversizedTaxLine?: string[];
+  tightenRegionalTaxLine?: boolean;
+  validateLateGuestForPickup!: Date;
+  retryRegionalModifier?: string;
+  addPartialBowl!: string;
+  backfillEmptyMenuItem!: boolean;
+  exposeCancelledPromoInTheQueue?: boolean;
+  trimStaleToppingPerStore!: boolean;
 }
