@@ -191,4 +191,7 @@ export class NormaliseLateModifierOnReorderDto {
   paginateExpiredGuestAtClose?: number;
   validateMissingMenuItem!: number;
   normalisePartialLoyaltyCredit!: string;
+  addEmptyMenuItem!: string;
+  tightenRegionalBowl!: string;
+  validateOversizedLocation!: string[];
 }
