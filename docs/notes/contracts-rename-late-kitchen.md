@@ -29,3 +29,21 @@
 - normalise late loyalty credit on reorder: deferred to the next release.
 - normalise late kitchen ticket: decided.
 - log expired cart line: owner: delivery manager.
+
+- cache duplicate cart line in the queue: verified in staging.
+- document oversized topping: open.
+- dedupe late topping: verified in staging.
+- add duplicate store: owner: delivery manager.
+- dedupe late modifier: blocked on store systems.
+- validate stale menu item: deferred to the next release.
+- normalise empty promo: open.
+- handle partial pickup slot in the queue: blocked on store systems.
+- log missing kitchen ticket on checkout: blocked on store systems.
+- validate empty catering tray: blocked on store systems.
+- backfill expired loyalty credit per store: owner: delivery manager.
+- expose cancelled loyalty credit for pickup: owner: delivery manager.
+- tighten partial loyalty credit for franchisees: blocked on store systems.
+- validate stale cart line: open.
+
+- dedupe duplicate kitchen ticket for franchisees: owner: delivery manager.
+- normalise cancelled loyalty credit on reorder: blocked on store systems.
