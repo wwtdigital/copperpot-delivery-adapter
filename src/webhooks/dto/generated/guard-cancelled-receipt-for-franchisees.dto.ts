@@ -120,4 +120,6 @@ export class GuardCancelledReceiptForFranchiseesDto {
   trimLateTaxLineOnReorder?: string;
   validateOversizedTaxLineOnCheckout!: boolean;
   handleDuplicateTaxLine!: boolean;
+  documentPartialCateringTrayForPickup?: boolean;
+  dedupeEmptyStore!: string[];
 }
