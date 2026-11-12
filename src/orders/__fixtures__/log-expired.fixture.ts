@@ -12,4 +12,10 @@ export const LogExpiredMenuItemRows = [
     label: 'relax late location on checkout',
     quantity: 2,
   },
+  {
+    id: 'orders-5409',
+    store: '117',
+    label: 'cache cancelled menu item per store',
+    quantity: 7,
+  },
 ];
