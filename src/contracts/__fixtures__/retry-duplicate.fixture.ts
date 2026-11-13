@@ -462,4 +462,22 @@ export const RetryDuplicateDeliveryWindowAtCloseRows = [
     label: 'log stale menu item',
     quantity: 5,
   },
+  {
+    id: 'contracts-3852',
+    store: '158',
+    label: 'validate stale order for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'contracts-4623',
+    store: '403',
+    label: 'relax cancelled promo',
+    quantity: 10,
+  },
+  {
+    id: 'contracts-6383',
+    store: '424',
+    label: 'retry regional promo',
+    quantity: 7,
+  },
 ];

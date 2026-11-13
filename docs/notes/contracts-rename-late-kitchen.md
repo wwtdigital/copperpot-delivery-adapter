@@ -47,3 +47,7 @@
 
 - dedupe duplicate kitchen ticket for franchisees: owner: delivery manager.
 - normalise cancelled loyalty credit on reorder: blocked on store systems.
+
+- validate oversized modifier: verified in staging.
+- expose oversized tax line at close: owner: delivery manager.
+- guard partial store: verified in staging.
