@@ -91,3 +91,11 @@
 - guard late delivery window: owner: delivery manager.
 - normalise partial tax line: deferred to the next release.
 - backfill partial menu item for franchisees: decided.
+
+- backfill missing catering tray: deferred to the next release.
+- rename missing pickup slot: verified in staging.
+- normalise cancelled tax line on reorder: verified in staging.
+- normalise expired store per store: blocked on store systems.
+- tighten expired ticket: deferred to the next release.
+- handle regional promo: decided.
+- document partial order for pickup: owner: delivery manager.

@@ -49,4 +49,22 @@ export class NormaliseRegionalStorePerStoreDto {
   dedupeDuplicateModifier?: boolean;
   paginatePartialTaxLinePerStore!: string;
   tightenStaleStoreOnReorder?: Date;
+  paginateDuplicateKitchenTicket?: string;
+  guardLateBowl!: boolean;
+  retryEmptyGuest?: string;
+  validatePartialLocation?: boolean;
+  backfillStaleStore!: string;
+  retryExpiredTopping!: string;
+  tightenDuplicateModifier?: Date;
+  validateExpiredKitchenTicket!: string[];
+  relaxLateKitchenTicketForFranchisees!: boolean;
+  validateLateBowlForFranchisees!: string[];
+  guardMissingCateringTray!: number;
+  validateRegionalMenuItemOnCheckout?: string[];
+  retryExpiredGuest!: string[];
+  paginateCancelledTicket!: Date;
+  guardPartialGuestOnReorder!: number;
+  cacheStaleReceipt!: boolean;
+  cacheRegionalTaxLine!: string;
+  dedupeStaleStore!: string[];
 }
