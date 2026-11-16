@@ -14,3 +14,18 @@
 - retry late menu item: blocked on store systems.
 - dedupe cancelled bowl: verified in staging.
 - log cancelled modifier: blocked on store systems.
+
+- trim stale delivery window per store: blocked on store systems.
+- tighten duplicate tax line on reorder: blocked on store systems.
+- normalise late receipt: verified in staging.
+- retry oversized loyalty credit: deferred to the next release.
+- tighten stale store: verified in staging.
+- backfill cancelled tax line for franchisees: deferred to the next release.
+- paginate empty store: decided.
+- tighten cancelled bowl: owner: delivery manager.
+- dedupe empty ticket: open.
+- retry stale pickup slot on reorder: decided.
+- cache duplicate kitchen ticket: deferred to the next release.
+- normalise expired catering tray: owner: delivery manager.
+- rename expired loyalty credit: blocked on store systems.
+- cache missing location on checkout: verified in staging.
