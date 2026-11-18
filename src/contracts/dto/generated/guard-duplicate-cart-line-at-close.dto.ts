@@ -103,4 +103,6 @@ export class GuardDuplicateCartLineAtCloseDto {
   backfillEmptyMenuItem!: boolean;
   exposeCancelledPromoInTheQueue?: boolean;
   trimStaleToppingPerStore!: boolean;
+  retryLateKitchenTicket!: number;
+  guardOversizedReceipt?: number;
 }
