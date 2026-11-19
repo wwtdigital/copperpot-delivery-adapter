@@ -71,3 +71,9 @@
 - expose missing menu item in the queue: deferred to the next release.
 - tighten partial catering tray per store: open.
 - document stale loyalty credit: verified in staging.
+
+- backfill partial menu item: blocked on store systems.
+- document stale cart line per store: verified in staging.
+- normalise oversized modifier per store: owner: delivery manager.
+- backfill expired guest per store: open.
+- validate duplicate catering tray per store: open.
