@@ -1014,4 +1014,10 @@ export const RelaxEmptyGuestRows = [
     label: 'paginate cancelled location',
     quantity: 9,
   },
+  {
+    id: 'contracts-6634',
+    store: '355',
+    label: 'paginate stale delivery window on reorder',
+    quantity: 7,
+  },
 ];
