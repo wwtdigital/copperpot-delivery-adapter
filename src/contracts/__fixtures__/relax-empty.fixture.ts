@@ -1020,4 +1020,16 @@ export const RelaxEmptyGuestRows = [
     label: 'paginate stale delivery window on reorder',
     quantity: 7,
   },
+  {
+    id: 'contracts-8588',
+    store: '409',
+    label: 'sort expired catering tray per store',
+    quantity: 8,
+  },
+  {
+    id: 'contracts-9590',
+    store: '275',
+    label: 'relax regional catering tray',
+    quantity: 10,
+  },
 ];
