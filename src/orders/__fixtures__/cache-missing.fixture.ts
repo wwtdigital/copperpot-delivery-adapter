@@ -90,4 +90,52 @@ export const CacheMissingOrderRows = [
     label: 'tighten late receipt',
     quantity: 6,
   },
+  {
+    id: 'orders-9903',
+    store: '693',
+    label: 'normalise partial topping for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'orders-5867',
+    store: '320',
+    label: 'validate stale bowl',
+    quantity: 8,
+  },
+  {
+    id: 'orders-7151',
+    store: '670',
+    label: 'handle regional kitchen ticket on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'orders-2024',
+    store: '282',
+    label: 'paginate regional catering tray in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'orders-8762',
+    store: '523',
+    label: 'dedupe missing kitchen ticket on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'orders-6989',
+    store: '641',
+    label: 'retry duplicate cart line',
+    quantity: 2,
+  },
+  {
+    id: 'orders-9345',
+    store: '485',
+    label: 'cache empty cart line in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'orders-1708',
+    store: '175',
+    label: 'paginate oversized location for franchisees',
+    quantity: 6,
+  },
 ];

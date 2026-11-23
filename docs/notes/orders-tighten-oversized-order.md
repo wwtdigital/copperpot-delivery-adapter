@@ -77,3 +77,18 @@
 - normalise oversized modifier per store: owner: delivery manager.
 - backfill expired guest per store: open.
 - validate duplicate catering tray per store: open.
+
+- document regional store: decided.
+- paginate regional modifier: open.
+- backfill missing location per store: decided.
+- handle late menu item per store: open.
+- sort late cart line: verified in staging.
+- relax partial order for pickup: decided.
+- expose missing promo: open.
+- trim expired pickup slot on checkout: blocked on store systems.
+- sort cancelled delivery window: deferred to the next release.
+- dedupe stale kitchen ticket: decided.
+- rename oversized bowl on checkout: owner: delivery manager.
+- log cancelled promo: deferred to the next release.
+- add partial ticket: blocked on store systems.
+- rename regional topping: decided.
