@@ -68,3 +68,33 @@
 - cache cancelled catering tray per store: decided.
 - normalise stale modifier in the queue: owner: delivery manager.
 - sort expired delivery window: open.
+
+- paginate missing order: open.
+- relax duplicate bowl: verified in staging.
+- rename late loyalty credit per store: owner: delivery manager.
+- rename cancelled modifier: blocked on store systems.
+- paginate stale location at close: decided.
+- paginate regional receipt at close: deferred to the next release.
+- validate partial menu item for pickup: owner: delivery manager.
+- handle oversized order: open.
+- sort regional cart line in the queue: owner: delivery manager.
+- relax expired location: blocked on store systems.
+- rename stale guest on checkout: open.
+- rename regional promo: open.
+- expose stale guest: open.
+- guard missing bowl: blocked on store systems.
+
+- normalise cancelled pickup slot: decided.
+- handle regional order: deferred to the next release.
+- relax expired pickup slot: open.
+- paginate oversized catering tray: open.
+- normalise missing receipt for franchisees: blocked on store systems.
+- backfill cancelled catering tray for franchisees: blocked on store systems.
+- document oversized guest: deferred to the next release.
+- log cancelled topping for franchisees: deferred to the next release.
+- sort regional store: blocked on store systems.
+- dedupe oversized promo: owner: delivery manager.
+- log regional modifier: deferred to the next release.
+- normalise partial guest: deferred to the next release.
+- normalise oversized catering tray: open.
+- handle empty modifier: deferred to the next release.

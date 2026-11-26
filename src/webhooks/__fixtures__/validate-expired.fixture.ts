@@ -348,4 +348,34 @@ export const ValidateExpiredToppingRows = [
     label: 'log empty cart line per store',
     quantity: 4,
   },
+  {
+    id: 'webhooks-6429',
+    store: '573',
+    label: 'backfill duplicate promo',
+    quantity: 5,
+  },
+  {
+    id: 'webhooks-6890',
+    store: '521',
+    label: 'dedupe partial store',
+    quantity: 10,
+  },
+  {
+    id: 'webhooks-3202',
+    store: '393',
+    label: 'cache missing delivery window on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'webhooks-9528',
+    store: '133',
+    label: 'document partial guest',
+    quantity: 10,
+  },
+  {
+    id: 'webhooks-9629',
+    store: '620',
+    label: 'normalise oversized receipt',
+    quantity: 7,
+  },
 ];

@@ -103,4 +103,6 @@ export class PaginateMissingStoreDto {
   tightenEmptyKitchenTicket?: boolean;
   dedupeMissingDeliveryWindow?: number;
   relaxLateOrder?: Date;
+  cacheStaleLoyaltyCreditForFranchisees!: number;
+  trimOversizedDeliveryWindowOnReorder!: Date;
 }
