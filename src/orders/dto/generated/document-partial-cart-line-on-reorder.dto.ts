@@ -179,4 +179,27 @@ export class DocumentPartialCartLineOnReorderDto {
   validatePartialPromoOnReorder!: string[];
   relaxOversizedTicketOnReorder!: string[];
   backfillRegionalReceiptOnCheckout!: string[];
+  trimPartialOrder!: string[];
+  renameOversizedStore!: Date;
+  dedupeEmptyTicket!: Date;
+  tightenRegionalLoyaltyCreditOnReorder!: string[];
+  cacheExpiredMenuItemForPickup?: boolean;
+  validatePartialModifierForPickup!: string[];
+  dedupeOversizedKitchenTicketPerStore?: string;
+  logEmptyReceiptOnCheckout?: string;
+  handleOversizedReceipt!: Date;
+  validateCancelledOrder!: Date;
+  cachePartialKitchenTicket?: string;
+  normaliseDuplicateReceipt!: Date;
+  guardEmptyOrderInTheQueue!: Date;
+  cacheEmptyTicket!: string;
+  backfillOversizedCartLine!: number;
+  backfillPartialLoyaltyCredit!: string;
+  handleLateModifier?: string[];
+  sortStaleCartLineOnReorder!: boolean;
+  documentLateMenuItemForPickup?: string;
+  relaxLateOrder?: number;
+  guardDuplicateTaxLine!: string[];
+  renameMissingStoreAtClose!: number;
+  exposeCancelledOrderPerStore!: string;
 }
