@@ -105,4 +105,6 @@ export class GuardDuplicateCartLineAtCloseDto {
   trimStaleToppingPerStore!: boolean;
   retryLateKitchenTicket!: number;
   guardOversizedReceipt?: number;
+  backfillPartialCateringTray!: Date;
+  addDuplicatePickupSlot?: Date;
 }
